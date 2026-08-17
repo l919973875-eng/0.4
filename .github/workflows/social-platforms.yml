@@ -1,0 +1,188 @@
+name: 社交苗头实验采集 · 小红书抖音微博
+
+on:
+  workflow_dispatch:
+    inputs:
+      platforms:
+        description: '要跑的平台：all / xhs / dy / wb（可用逗号组合，如 xhs,dy）'
+        required: true
+        default: 'all'
+        type: string
+      keywords:
+        description: '本次搜索关键词，英文逗号分隔；留空使用默认涉华关键词'
+        required: false
+        default: ''
+        type: string
+  schedule:
+    - cron: '17 7 * * *'
+      timezone: 'Asia/Shanghai'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: global-china-early-signals
+  cancel-in-progress: false
+
+jobs:
+  social-crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      XHS_COOKIE: ${{ secrets.XHS_COOKIE }}
+      DOUYIN_COOKIE: ${{ secrets.DOUYIN_COOKIE }}
+      WEIBO_COOKIE: ${{ secrets.WEIBO_COOKIE }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5-mini' }}
+
+    steps:
+      - name: 读取你的项目
+        uses: actions/checkout@v6
+
+      - name: 准备 Python / Node
+        uses: actions/setup-python@v7
+        with:
+          # MediaCrawler 当前文档建议 3.11；不要跟主项目的 Python 版本绑死。
+          python-version: '3.11'
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+
+      - name: 安装本项目依赖
+        run: python -m pip install -r requirements.txt
+
+      - name: 检查平台 Cookie
+        id: cookiecheck
+        shell: bash
+        run: |
+          mkdir -p data
+          echo "xhs=${XHS_COOKIE:+configured} dy=${DOUYIN_COOKIE:+configured} wb=${WEIBO_COOKIE:+configured}"
+          if [ -n "$XHS_COOKIE" ] || [ -n "$DOUYIN_COOKIE" ] || [ -n "$WEIBO_COOKIE" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo '[]' > data/mediacrawler_status.json
+            echo "没有配置 XHS_COOKIE / DOUYIN_COOKIE / WEIBO_COOKIE，本次只重建网站。"
+          fi
+
+      - name: 下载 MediaCrawler（外部非商业研究工具）
+        if: steps.cookiecheck.outputs.enabled == 'true'
+        run: git clone --depth 1 https://github.com/NanmiCoder/MediaCrawler.git vendor/MediaCrawler
+
+      - name: 准备 MediaCrawler 环境
+        if: steps.cookiecheck.outputs.enabled == 'true'
+        shell: bash
+        run: |
+          python -m pip install uv
+          cd vendor/MediaCrawler
+          uv sync --python 3.11
+          uv run playwright install --with-deps chromium
+
+      - name: 设置关键词
+        if: steps.cookiecheck.outputs.enabled == 'true'
+        shell: bash
+        run: |
+          KW="${{ github.event.inputs.keywords }}"
+          if [ -z "$KW" ]; then
+            KW="中国,中资,中国企业,中国员工,中国公民,华为,比亚迪,宁德时代,中远海运,紫金矿业,一带一路,台海,台湾,南海"
+          fi
+          PLAT="${{ github.event.inputs.platforms }}"
+          if [ -z "$PLAT" ]; then PLAT="all"; fi
+          echo "MC_KEYWORDS=$KW" >> "$GITHUB_ENV"
+          echo "MC_PLATFORMS=$PLAT" >> "$GITHUB_ENV"
+
+      - name: 小红书搜索（失败会显示黄标，但不阻断其他平台）
+        if: steps.cookiecheck.outputs.enabled == 'true'
+        continue-on-error: true
+        shell: bash
+        run: |
+          if [[ "$MC_PLATFORMS" == "all" || "$MC_PLATFORMS" == *"xhs"* ]]; then
+            python tools/run_mediacrawler.py \
+              --repo vendor/MediaCrawler --platform xhs --cookie-env XHS_COOKIE \
+              --keywords "$MC_KEYWORDS" --max-notes 20 --retry-cdp \
+              --status-file data/mediacrawler_xhs_status.json \
+              --log-file data/mediacrawler_xhs.log
+          fi
+
+      - name: 抖音搜索（失败会显示黄标，但不阻断其他平台）
+        if: steps.cookiecheck.outputs.enabled == 'true'
+        continue-on-error: true
+        shell: bash
+        run: |
+          if [[ "$MC_PLATFORMS" == "all" || "$MC_PLATFORMS" == *"dy"* ]]; then
+            python tools/run_mediacrawler.py \
+              --repo vendor/MediaCrawler --platform dy --cookie-env DOUYIN_COOKIE \
+              --keywords "$MC_KEYWORDS" --max-notes 20 --retry-cdp \
+              --status-file data/mediacrawler_dy_status.json \
+              --log-file data/mediacrawler_dy.log
+          fi
+
+      - name: 微博搜索（失败会显示黄标，但不阻断其他平台）
+        if: steps.cookiecheck.outputs.enabled == 'true'
+        continue-on-error: true
+        shell: bash
+        run: |
+          if [[ "$MC_PLATFORMS" == "all" || "$MC_PLATFORMS" == *"wb"* ]]; then
+            python tools/run_mediacrawler.py \
+              --repo vendor/MediaCrawler --platform wb --cookie-env WEIBO_COOKIE \
+              --keywords "$MC_KEYWORDS" --max-notes 20 \
+              --status-file data/mediacrawler_wb_status.json \
+              --log-file data/mediacrawler_wb.log
+          fi
+
+      - name: 统一导入社交结果并输出明确诊断
+        if: steps.cookiecheck.outputs.enabled == 'true'
+        shell: bash
+        run: |
+          python tools/ingest_mediacrawler.py \
+            --repo vendor/MediaCrawler \
+            --output data/signals_external.json \
+            --status-output data/mediacrawler_status.json \
+            --status-dir data
+          echo "--- MediaCrawler status ---"
+          cat data/mediacrawler_status.json
+
+      - name: 上传社交采集诊断（即使平台失败也保留）
+        if: always() && steps.cookiecheck.outputs.enabled == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: social-crawl-diagnostics-${{ github.run_number }}
+          if-no-files-found: ignore
+          retention-days: 7
+          path: |
+            data/mediacrawler_*_status.json
+            data/mediacrawler_*.log
+            data/mediacrawler_status.json
+
+      - name: 将社交苗头并入事件并重建中英双语网站
+        run: python cloud_runner.py --mode rebuild
+
+      - name: 保存社交数据
+        shell: bash
+        run: |
+          git config user.name "global-china-signals-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # 日志仅用于本次 artifact 诊断，不提交进仓库。
+          rm -f data/mediacrawler_*.log
+          git add data/
+          if git diff --cached --quiet; then
+            echo "没有新的社交数据/状态变化"
+          else
+            git commit -m "data: update social early signals"
+            git push
+          fi
+
+      - name: 配置 GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: 上传网页
+        uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          path: site
+      - name: 发布 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
