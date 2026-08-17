@@ -141,9 +141,9 @@
     "status": "报道中",
     "category": "安全/冲突",
     "severity": "critical",
-    "priority_score": 65,
+    "priority_score": 64,
     "confidence_score": 40,
-    "importance_score": 77,
+    "importance_score": 76,
     "china_relevance_score": 55,
     "first_seen": "2026-08-17T04:54:31+00:00",
     "last_seen": "2026-08-17T04:54:31+00:00",
@@ -1229,51 +1229,6 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "ecd120f9a6ca2fd4731d",
-    "title": "重庆老牌房企财信发展拟重整 ， 上半年预计至少亏4000万元 ， 投资人是山东 稀土大佬 _ 公司 _ 地产频道首页 _ 财经网",
-    "language": "Chinese",
-    "status": "报道中",
-    "category": "经贸/科技",
-    "severity": "low",
-    "priority_score": 58,
-    "confidence_score": 40,
-    "importance_score": 36,
-    "china_relevance_score": 98,
-    "first_seen": "2026-08-17T06:30:00+00:00",
-    "last_seen": "2026-08-17T06:30:00+00:00",
-    "source_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "platforms": [],
-    "countries": [
-      "China"
-    ],
-    "entities": [],
-    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "evidence": [
-      {
-        "id": "ef9aa6489d58ce933798",
-        "origin_type": "news",
-        "source": "estate.caijing.com.cn",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "重庆老牌房企财信发展拟重整 ， 上半年预计至少亏4000万元 ， 投资人是山东 稀土大佬 _ 公司 _ 地产频道首页 _ 财经网",
-        "url": "http://estate.caijing.com.cn/20260817/5177478.shtml",
-        "published_at": "2026-08-17T06:30:00+00:00",
-        "collected_at": "2026-08-17T07:02:51.909476+00:00",
-        "relation": "direct",
-        "confidence": 88
-      }
-    ],
-    "title_original": "重庆老牌房企财信发展拟重整 ， 上半年预计至少亏4000万元 ， 投资人是山东 稀土大佬 _ 公司 _ 地产频道首页 _ 财经网",
-    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "title_en": "重庆老牌房企财信发展拟重整 ， 上半年预计至少亏4000万元 ， 投资人是山东 稀土大佬 _ 公司 _ 地产频道首页 _ 财经网",
-    "title_zh": "重庆老牌房企财信发展拟重整 ， 上半年预计至少亏4000万元 ， 投资人是山东 稀土大佬 _ 公司 _ 地产频道首页 _ 财经网",
-    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
-  },
-  {
     "id": "5b7f5ee633810fc1ccd4",
     "title": "Sri Lanka - China Business Council marks 25 years , calls for stronger trade , investment , and balanced growth",
     "language": "English",
@@ -1362,5 +1317,50 @@
     "title_zh": "苹果与阿里巴巴合作在中国推出定制人工智能模型",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "ecd120f9a6ca2fd4731d",
+    "title": "重庆老牌房企财信发展拟重整 ， 上半年预计至少亏4000万元 ， 投资人是山东 稀土大佬 _ 公司 _ 地产频道首页 _ 财经网",
+    "language": "Chinese",
+    "status": "报道中",
+    "category": "经贸/科技",
+    "severity": "low",
+    "priority_score": 57,
+    "confidence_score": 40,
+    "importance_score": 36,
+    "china_relevance_score": 98,
+    "first_seen": "2026-08-17T06:30:00+00:00",
+    "last_seen": "2026-08-17T06:30:00+00:00",
+    "source_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "evidence": [
+      {
+        "id": "ef9aa6489d58ce933798",
+        "origin_type": "news",
+        "source": "estate.caijing.com.cn",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "重庆老牌房企财信发展拟重整 ， 上半年预计至少亏4000万元 ， 投资人是山东 稀土大佬 _ 公司 _ 地产频道首页 _ 财经网",
+        "url": "http://estate.caijing.com.cn/20260817/5177478.shtml",
+        "published_at": "2026-08-17T06:30:00+00:00",
+        "collected_at": "2026-08-17T07:02:51.909476+00:00",
+        "relation": "direct",
+        "confidence": 88
+      }
+    ],
+    "title_original": "重庆老牌房企财信发展拟重整 ， 上半年预计至少亏4000万元 ， 投资人是山东 稀土大佬 _ 公司 _ 地产频道首页 _ 财经网",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_en": "重庆老牌房企财信发展拟重整 ， 上半年预计至少亏4000万元 ， 投资人是山东 稀土大佬 _ 公司 _ 地产频道首页 _ 财经网",
+    "title_zh": "重庆老牌房企财信发展拟重整 ， 上半年预计至少亏4000万元 ， 投资人是山东 稀土大佬 _ 公司 _ 地产频道首页 _ 财经网",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
   }
 ]

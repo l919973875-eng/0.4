@@ -6,7 +6,8 @@
   "detail": "MediaCrawler 退出码 1",
   "exit_code": 1,
   "attempts": 2,
-  "updated_at": "2026-08-17T08:04:40.940936+00:00",
-  "keywords": "中国,中资,中国企业,华为,比亚迪",
-  "diagnostic_log": "/home/runner/work/0.4/0.4/data/mediacrawler_xhs.log"
+  "updated_at": "2026-08-17T08:25:02.050707+00:00",
+  "keywords": "中国,中资,华为,比亚迪",
+  "diagnostic_log": "/home/runner/work/0.4/0.4/data/mediacrawler_xhs.log",
+  "exception": "AttributeError: module 'config' has no attribute 'START_PAGE'. Did you mean: 'START_DAY'?"
 }
