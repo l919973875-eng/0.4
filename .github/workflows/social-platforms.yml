@@ -8,8 +8,13 @@ on:
         required: true
         default: 'all'
         type: string
+      keyword_pack:
+        description: '默认搜索词组：signal（高精度苗头）/ broad（宽搜，仅建议手动）'
+        required: false
+        default: 'signal'
+        type: string
       keywords:
-        description: '本次搜索关键词，英文逗号分隔；留空使用默认涉华关键词'
+        description: '临时自定义关键词，英文逗号分隔；填写后覆盖词组配置'
         required: false
         default: ''
         type: string
@@ -83,18 +88,30 @@ jobs:
           uv sync --python 3.11
           uv run playwright install --with-deps chromium
 
-      - name: 设置关键词
+      - name: 设置社交搜索词组
         if: steps.cookiecheck.outputs.enabled == 'true'
         shell: bash
         run: |
-          KW="${{ github.event.inputs.keywords }}"
-          if [ -z "$KW" ]; then
-            KW="中国,中资,中国企业,中国员工,中国公民,华为,比亚迪,宁德时代,中远海运,紫金矿业,一带一路,台海,台湾,南海"
-          fi
+          CUSTOM="${{ github.event.inputs.keywords }}"
+          PACK="${{ github.event.inputs.keyword_pack }}"
+          if [ -z "$PACK" ]; then PACK="signal"; fi
           PLAT="${{ github.event.inputs.platforms }}"
           if [ -z "$PLAT" ]; then PLAT="all"; fi
-          echo "MC_KEYWORDS=$KW" >> "$GITHUB_ENV"
+          if [ -n "$CUSTOM" ]; then
+            XHS_KW="$CUSTOM"; DY_KW="$CUSTOM"; WB_KW="$CUSTOM"
+            MAX_NOTES=12
+          else
+            XHS_KW="$(python tools/social_keyword_pack.py --platform xhs --pack "$PACK")"
+            DY_KW="$(python tools/social_keyword_pack.py --platform dy --pack "$PACK")"
+            WB_KW="$(python tools/social_keyword_pack.py --platform wb --pack "$PACK")"
+            MAX_NOTES="$(python tools/social_keyword_pack.py --platform xhs --pack "$PACK" --field max_per_query)"
+          fi
+          echo "MC_KEYWORDS_XHS=$XHS_KW" >> "$GITHUB_ENV"
+          echo "MC_KEYWORDS_DY=$DY_KW" >> "$GITHUB_ENV"
+          echo "MC_KEYWORDS_WB=$WB_KW" >> "$GITHUB_ENV"
+          echo "MC_MAX_NOTES=$MAX_NOTES" >> "$GITHUB_ENV"
           echo "MC_PLATFORMS=$PLAT" >> "$GITHUB_ENV"
+          echo "keyword_pack=$PACK max_per_query=$MAX_NOTES"
 
       - name: 小红书搜索（失败会显示黄标，但不阻断其他平台）
         if: steps.cookiecheck.outputs.enabled == 'true'
@@ -104,7 +121,7 @@ jobs:
           if [[ "$MC_PLATFORMS" == "all" || "$MC_PLATFORMS" == *"xhs"* ]]; then
             python tools/run_mediacrawler.py \
               --repo vendor/MediaCrawler --platform xhs --cookie-env XHS_COOKIE \
-              --keywords "$MC_KEYWORDS" --max-notes 20 --retry-cdp \
+              --keywords "$MC_KEYWORDS_XHS" --max-notes "$MC_MAX_NOTES" --retry-cdp \
               --status-file data/mediacrawler_xhs_status.json \
               --log-file data/mediacrawler_xhs.log
           fi
@@ -117,7 +134,7 @@ jobs:
           if [[ "$MC_PLATFORMS" == "all" || "$MC_PLATFORMS" == *"dy"* ]]; then
             python tools/run_mediacrawler.py \
               --repo vendor/MediaCrawler --platform dy --cookie-env DOUYIN_COOKIE \
-              --keywords "$MC_KEYWORDS" --max-notes 20 --retry-cdp \
+              --keywords "$MC_KEYWORDS_DY" --max-notes "$MC_MAX_NOTES" --retry-cdp \
               --status-file data/mediacrawler_dy_status.json \
               --log-file data/mediacrawler_dy.log
           fi
@@ -130,7 +147,7 @@ jobs:
           if [[ "$MC_PLATFORMS" == "all" || "$MC_PLATFORMS" == *"wb"* ]]; then
             python tools/run_mediacrawler.py \
               --repo vendor/MediaCrawler --platform wb --cookie-env WEIBO_COOKIE \
-              --keywords "$MC_KEYWORDS" --max-notes 20 \
+              --keywords "$MC_KEYWORDS_WB" --max-notes "$MC_MAX_NOTES" \
               --status-file data/mediacrawler_wb_status.json \
               --log-file data/mediacrawler_wb.log
           fi
