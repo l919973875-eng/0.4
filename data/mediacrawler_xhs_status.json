@@ -1,13 +1,13 @@
 {
   "platform_code": "xhs",
   "status": "ok",
-  "items": 80,
+  "items": 220,
   "reason_code": "risk_control",
   "detail": "账号或云端出口触发平台风控",
   "exit_code": 0,
   "attempts": 1,
-  "updated_at": "2026-08-17T08:37:09.411885+00:00",
-  "keywords": "中国,中资,华为,比亚迪",
+  "updated_at": "2026-08-17T09:47:05.724987+00:00",
+  "keywords": "中国,中资,中国企业,中国员工,华为,比亚迪,宁德时代,一带一路,台海,台湾,南海",
   "diagnostic_log": "/home/runner/work/0.4/0.4/data/mediacrawler_xhs.log",
-  "exception": "2026-08-17 08:37:08 MediaCrawler INFO (core.py:132) - [XiaoHongShuCrawler.start] Xhs Crawler finished ..."
+  "exception": "2026-08-17 09:47:05 MediaCrawler INFO (core.py:132) - [XiaoHongShuCrawler.start] Xhs Crawler finished ..."
 }
