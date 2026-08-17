@@ -1,0 +1,130 @@
+name: 全球涉华早期信号 · 每日主巡检
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: '运行范围'
+        required: true
+        default: 'all'
+        type: choice
+        options: [all, news, social, rebuild]
+      query:
+        description: '临时追加关键词（可空，例如：Pakistan Chinese CPEC）'
+        required: false
+        default: ''
+        type: string
+      deep_scan:
+        description: '深度扫描：每个新闻源最多12条（默认5条）'
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    # 每天北京时间 08:17 自动运行一次；错开整点，减少 GitHub Actions 排队。
+    - cron: '17 8 * * *'
+      timezone: 'Asia/Shanghai'
+  push:
+    branches: [main]
+    paths:
+      - 'cloud_runner.py'
+      - 'intelligence_engine.py'
+      - 'social_connectors.py'
+      - 'site_builder.py'
+      - 'requirements*.txt'
+      - 'config/**'
+      - '.github/workflows/cloud-crawl.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: global-china-early-signals
+  cancel-in-progress: false
+
+jobs:
+  crawl-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5-mini' }}
+      X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+      X_COOKIES_JSON: ${{ secrets.X_COOKIES_JSON }}
+      TG_API_ID: ${{ secrets.TG_API_ID }}
+      TG_API_HASH: ${{ secrets.TG_API_HASH }}
+      TG_SESSION_STRING: ${{ secrets.TG_SESSION_STRING }}
+      ENABLE_GDELT: 'true'
+      GDELT_TIMESPAN: '1d'
+      RETENTION_DAYS: '45'
+      SIGNAL_RETENTION_DAYS: '14'
+      MAX_STORED_ARTICLES: '30000'
+      MAX_STORED_SIGNALS: '15000'
+      FETCH_TIMEOUT_SECONDS: '18'
+      CONCURRENCY: '18'
+
+    steps:
+      - name: 读取项目
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - name: 准备 Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: 安装主依赖
+        run: python -m pip install -r requirements.txt
+
+      - name: 安装可选社交依赖
+        continue-on-error: true
+        run: python -m pip install -r requirements-social.txt
+
+      - name: 设置运行参数
+        shell: bash
+        run: |
+          MODE="${{ github.event.inputs.mode }}"
+          QUERY="${{ github.event.inputs.query }}"
+          DEEP="${{ github.event.inputs.deep_scan }}"
+          if [ -z "$MODE" ]; then MODE="all"; fi
+          if [ "$DEEP" = "true" ]; then MAX_PER=12; else MAX_PER=5; fi
+          echo "RUN_MODE=$MODE" >> "$GITHUB_ENV"
+          echo "MANUAL_QUERY=$QUERY" >> "$GITHUB_ENV"
+          echo "MAX_ARTICLES_PER_SOURCE=$MAX_PER" >> "$GITHUB_ENV"
+
+      - name: 运行自检
+        run: python cloud_runner.py --self-test
+
+      - name: 抓取、筛选、事件聚类并生成网站
+        run: python cloud_runner.py --mode "$RUN_MODE" --query "$MANUAL_QUERY"
+
+      - name: 保存数据到仓库
+        shell: bash
+        run: |
+          git config user.name "global-china-signals-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "没有新的持久化数据"
+          else
+            git commit -m "data: update global China early signals"
+            git push
+          fi
+
+      - name: 配置 GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传网页
+        uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          path: site
+
+      - name: 发布 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
