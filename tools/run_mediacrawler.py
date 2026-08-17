@@ -37,6 +37,11 @@ def patch_config(repo: Path, platform: str, cookie: str, keywords: str, max_note
         'ENABLE_GET_MEIDAS': 'False',
         'HEADLESS': 'True',
         'ENABLE_CDP_MODE': 'True' if cdp else 'False',
+        'CDP_HEADLESS': 'True',
+        'CDP_CONNECT_EXISTING': 'False',
+        'AUTO_CLOSE_BROWSER': 'True',
+        'START_DAY': repr('2024-01-01'),
+        'END_DAY': repr('2024-01-01'),
         'ENABLE_IP_PROXY': 'False',
         'SAVE_LOGIN_STATE': 'False',
         'ENABLE_GET_WORDCLOUD': 'False',
@@ -119,11 +124,43 @@ def scrub(text: str, cookie: str) -> str:
     return text
 
 
+def write_platform_bootstrap(repo: Path, platform: str) -> Path:
+    """Run only the requested MediaCrawler platform to avoid unrelated imports."""
+    mapping = {
+        "xhs": ("media_platform.xhs", "XiaoHongShuCrawler"),
+        "dy": ("media_platform.douyin", "DouYinCrawler"),
+        "wb": ("media_platform.weibo", "WeiboCrawler"),
+    }
+    module, cls = mapping[platform]
+    path = repo / "_gcn_platform_runner.py"
+    code = (
+        "from __future__ import annotations\n"
+        "import asyncio\n"
+        f"from {module} import {cls}\n\n"
+        "async def _main():\n"
+        f"    crawler = {cls}()\n"
+        "    await crawler.start()\n\n"
+        "if __name__ == '__main__':\n"
+        "    asyncio.run(_main())\n"
+    )
+    path.write_text(code, encoding="utf-8")
+    return path
+
+
+def summarize_exception(output: str) -> str:
+    lines = [x.strip() for x in output.splitlines() if x.strip()]
+    for line in reversed(lines):
+        if line.startswith(("AttributeError:", "ModuleNotFoundError:", "ImportError:", "RuntimeError:", "ValueError:", "TypeError:", "Exception:")):
+            return line[:700]
+    return lines[-1][:700] if lines else ""
+
+
 def run_once(repo: Path, platform: str, cookie: str, keywords: str, max_notes: int, cdp: bool, log_path: Path) -> tuple[int, int, str]:
     before = content_files(repo, platform)
     before_rows = count_rough_rows(before)
     patch_config(repo, platform, cookie, keywords, max_notes, cdp=cdp)
-    cmd = ['uv', 'run', 'python', 'main.py', '--platform', platform, '--lt', 'cookie', '--type', 'search', '--save_data_option', 'json']
+    bootstrap = write_platform_bootstrap(repo, platform)
+    cmd = ['uv', 'run', 'python', bootstrap.name]
     proc = subprocess.run(cmd, cwd=repo, capture_output=True, text=True, errors='replace')
     combined = scrub((proc.stdout or '') + '\n' + (proc.stderr or ''), cookie)
     after = content_files(repo, platform)
@@ -164,18 +201,28 @@ def main():
 
     max_notes = max(5, min(50, args.max_notes))
     print(f'[run] MediaCrawler {args.platform}: cookie=present, max_notes={max_notes}, keywords={args.keywords}')
-    rc, rows, output = run_once(repo, args.platform, cookie, args.keywords, max_notes, False, log_path)
+    attempt1_log = log_path.with_name(log_path.stem + '_attempt1' + log_path.suffix)
+    rc, rows, output = run_once(repo, args.platform, cookie, args.keywords, max_notes, False, attempt1_log)
     attempts = 1
     reason_code, detail = diagnose(output, rc, rows)
+    short_error = summarize_exception(output)
+    if short_error and rc != 0:
+        print(f'[attempt1-error] {args.platform}: {short_error}')
 
-    # 小红书/抖音当前项目文档更推荐 CDP；标准模式无数据时自动尝试一次。
     if args.retry_cdp and args.platform in {'xhs', 'dy'} and rows <= 0 and reason_code not in {'captcha', 'account_permission', 'cookie_expired'}:
         print(f'[retry] {args.platform}: 标准模式未产出，尝试 CDP 模式')
-        rc2, rows2, output2 = run_once(repo, args.platform, cookie, args.keywords, max_notes, True, log_path)
+        attempt2_log = log_path.with_name(log_path.stem + '_attempt2_cdp' + log_path.suffix)
+        rc2, rows2, output2 = run_once(repo, args.platform, cookie, args.keywords, max_notes, True, attempt2_log)
         attempts += 1
+        short_error2 = summarize_exception(output2)
+        if short_error2 and rc2 != 0:
+            print(f'[attempt2-error] {args.platform}: {short_error2}')
         if rows2 > rows or (rc != 0 and rc2 == 0):
             rc, rows, output = rc2, rows2, output2
         reason_code, detail = diagnose(output, rc, rows)
+        short_error = summarize_exception(output)
+
+    log_path.write_text(output[-120000:], encoding='utf-8')
 
     status = 'ok' if rows > 0 else ('blocked' if reason_code in {'captcha', 'account_permission', 'ip_block', 'risk_control'} else 'empty')
     payload = {
@@ -183,6 +230,7 @@ def main():
         'reason_code': reason_code, 'detail': detail, 'exit_code': rc,
         'attempts': attempts, 'updated_at': datetime.now(timezone.utc).isoformat(),
         'keywords': args.keywords, 'diagnostic_log': str(log_path),
+        'exception': short_error,
     }
     write_status(status_path, payload)
     print(f'[result] {args.platform}: status={status}, items={rows}, reason={reason_code} - {detail}')
