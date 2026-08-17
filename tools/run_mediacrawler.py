@@ -40,6 +40,13 @@ def patch_config(repo: Path, platform: str, cookie: str, keywords: str, max_note
         'CDP_HEADLESS': 'True',
         'CDP_CONNECT_EXISTING': 'False',
         'AUTO_CLOSE_BROWSER': 'True',
+        # MediaCrawler search crawlers read START_PAGE directly. Keep this explicit
+        # because upstream main has changed config layout several times.
+        'START_PAGE': '1',
+        'CRAWLER_MAX_COMMENTS_COUNT_SINGLENOTES': '0',
+        'DISABLE_SSL_VERIFY': 'False',
+        'SAVE_DATA_PATH': repr(''),
+        'XHS_INTERNATIONAL': 'False',
         'START_DAY': repr('2024-01-01'),
         'END_DAY': repr('2024-01-01'),
         'ENABLE_IP_PROXY': 'False',
@@ -90,6 +97,7 @@ def count_rough_rows(paths: set[str]) -> int:
 def diagnose(output: str, returncode: int, new_rows: int) -> tuple[str, str]:
     low = output.lower()
     patterns = [
+        (("attributeerror: module 'config' has no attribute",), 'config_mismatch', 'MediaCrawler 上游配置字段不一致；兼容层未覆盖到该字段'),
         (('captcha appeared', 'verifytype', '滑块', '验证码'), 'captcha', '平台触发验证码/滑块，GitHub 云端无法人工处理'),
         (('没有权限访问', 'code=-104'), 'account_permission', '登录账号当前无搜索接口权限（常见于小红书 -104）'),
         (('ipblock', 'ip block', 'ip_error', 'ip被封', 'ip blocked'), 'ip_block', 'GitHub Runner 云 IP 被平台风控/封锁'),
@@ -125,7 +133,13 @@ def scrub(text: str, cookie: str) -> str:
 
 
 def write_platform_bootstrap(repo: Path, platform: str) -> Path:
-    """Run only the requested MediaCrawler platform to avoid unrelated imports."""
+    """Run only the requested MediaCrawler platform with a compatibility shim.
+
+    MediaCrawler's main branch evolves quickly. Some crawler modules access
+    config attributes directly, so a transient upstream config mismatch can
+    crash before any platform request is sent. We inject conservative defaults
+    *before* importing the selected platform module.
+    """
     mapping = {
         "xhs": ("media_platform.xhs", "XiaoHongShuCrawler"),
         "dy": ("media_platform.douyin", "DouYinCrawler"),
@@ -133,9 +147,44 @@ def write_platform_bootstrap(repo: Path, platform: str) -> Path:
     }
     module, cls = mapping[platform]
     path = repo / "_gcn_platform_runner.py"
+
+    # Defaults mirror the small subset of MediaCrawler config used by our
+    # low-volume search mode. Existing upstream values are never overwritten.
+    compat_defaults = {
+        "START_PAGE": 1,
+        "START_DAY": "2024-01-01",
+        "END_DAY": "2024-01-01",
+        "XHS_INTERNATIONAL": False,
+        "SORT_TYPE": "popularity_descending",
+        "PUBLISH_TIME_TYPE": 0,
+        "WEIBO_SEARCH_TYPE": "default",
+        "CRAWLER_MAX_COMMENTS_COUNT_SINGLENOTES": 0,
+        "ENABLE_GET_COMMENTS": False,
+        "ENABLE_GET_SUB_COMMENTS": False,
+        "ENABLE_GET_MEIDAS": False,
+        "ENABLE_GET_WORDCLOUD": False,
+        "ENABLE_IP_PROXY": False,
+        "IP_PROXY_POOL_COUNT": 2,
+        "IP_PROXY_PROVIDER_NAME": "kuaidaili",
+        "STATIC_PROXY_URL": "",
+        "SAVE_LOGIN_STATE": False,
+        "USER_DATA_DIR": "%s_user_data_dir",
+        "SAVE_DATA_PATH": "",
+        "DISABLE_SSL_VERIFY": False,
+        "CDP_DEBUG_PORT": 9222,
+        "CUSTOM_BROWSER_PATH": "",
+        "BROWSER_LAUNCH_TIMEOUT": 60,
+    }
+
     code = (
         "from __future__ import annotations\n"
         "import asyncio\n"
+        "import config\n\n"
+        f"_COMPAT_DEFAULTS = {compat_defaults!r}\n"
+        "for _name, _value in _COMPAT_DEFAULTS.items():\n"
+        "    if not hasattr(config, _name):\n"
+        "        setattr(config, _name, _value)\n"
+        "print('[compat] START_PAGE=', getattr(config, 'START_PAGE', None), 'CRAWLER_MAX_NOTES_COUNT=', getattr(config, 'CRAWLER_MAX_NOTES_COUNT', None))\n"
         f"from {module} import {cls}\n\n"
         "async def _main():\n"
         f"    crawler = {cls}()\n"
@@ -209,7 +258,7 @@ def main():
     if short_error and rc != 0:
         print(f'[attempt1-error] {args.platform}: {short_error}')
 
-    if args.retry_cdp and args.platform in {'xhs', 'dy'} and rows <= 0 and reason_code not in {'captcha', 'account_permission', 'cookie_expired'}:
+    if args.retry_cdp and args.platform in {'xhs', 'dy'} and rows <= 0 and reason_code not in {'captcha', 'account_permission', 'cookie_expired', 'config_mismatch'}:
         print(f'[retry] {args.platform}: 标准模式未产出，尝试 CDP 模式')
         attempt2_log = log_path.with_name(log_path.stem + '_attempt2_cdp' + log_path.suffix)
         rc2, rows2, output2 = run_once(repo, args.platform, cookie, args.keywords, max_notes, True, attempt2_log)
