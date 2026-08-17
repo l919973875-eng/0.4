@@ -2,12 +2,12 @@
   {
     "platform": "xiaohongshu",
     "platform_code": "xhs",
-    "status": "empty",
-    "items": 0,
-    "detail": "MediaCrawler 退出码 1",
-    "reason_code": "process_failed",
-    "attempts": 2,
-    "files_found": 0,
+    "status": "ok",
+    "items": 80,
+    "detail": "导入 80 条；读取 1 个内容文件",
+    "reason_code": "risk_control",
+    "attempts": 1,
+    "files_found": 1,
     "parse_errors": 0,
     "collector": "MediaCrawler"
   },
