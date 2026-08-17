@@ -36,6 +36,7 @@ GEO_ALIASES_FILE = CONFIG_DIR / 'geo_aliases.yaml'
 ARTICLES_FILE = DATA_DIR / 'articles.json'
 SIGNALS_FILE = DATA_DIR / 'signals.json'
 EXTERNAL_SIGNALS_FILE = DATA_DIR / 'signals_external.json'
+SOCIAL_REVIEW_FILE = DATA_DIR / 'social_review.json'
 EVENTS_FILE = DATA_DIR / 'events.json'
 LATEST_FILE = DATA_DIR / 'latest.json'
 STATUS_FILE = DATA_DIR / 'run_status.json'
@@ -71,6 +72,107 @@ MAJOR_EVENT = re.compile(
     re.I,
 )
 SPORT_ENTERTAINMENT = re.compile(r'\b(football|soccer|basketball|baseball|tennis|golf|formula 1|f1|olympic|league|cup final|celebrity|actor|actress|movie|film festival|music|singer|concert|fashion|recipe)\b|足球|篮球|网球|高尔夫|奥运|联赛|明星|演员|电影|音乐|演唱会|时尚|菜谱', re.I)
+
+
+# 社交平台与新闻不同：仅出现“中国/华为/比亚迪”不能直接入池，必须同时出现“异常事件/风险动作”，
+# 或命中已知海外资产/项目。这样保留“低可信但高价值”的苗头，同时过滤消费、生活方式和产品讨论。
+SOCIAL_CHINA_ANCHORS = [
+    '中资','中国企业','中国公司','中企','中国员工','中国工人','中国公民','中国游客','华人','华侨',
+    '一带一路','中国项目','中国投资','中国资本','中国驻','中国使馆','中国大使馆','解放军','台海','南海',
+    '华为','比亚迪','宁德时代','中远海运','紫金矿业','中石油','中石化','国家电网','中国铁路','中兴','字节跳动',
+    'chinese company','chinese workers','chinese citizens','chinese investment','china-backed','belt and road','pla','huawei','byd','catl','cosco','zijin',
+]
+SOCIAL_EVENT_TERMS = [
+    '撤离','撤侨','遇袭','袭击','绑架','失踪','死亡','伤亡','被捕','拘留','驱逐','冲突','武装','爆炸','火灾','事故','骚乱','抗议','示威','罢工','封锁',
+    '停工','停产','关闭','暂停运营','撤资','裁员','制裁','禁令','调查','审查','黑名单','出口管制','关税','扣押','没收','断网','停电','军演','军事演习','集结','海警','拦截','碰撞','驱离','危机','紧急状态',
+    'evacuation','evacuate','attack','kidnap','missing','killed','casualties','detained','arrested','expelled','clash','conflict','explosion','fire','accident','riot','protest','strike','blockade','shutdown','closure','suspend','sanction','ban','probe','investigation','blacklist','export control','tariff','seized','internet shutdown','power outage','military drill','intercept','collision','crisis','emergency',
+]
+SOCIAL_STRATEGIC_TERMS = [
+    '矿山','铜矿','锂矿','镍矿','稀土','工厂','工业园','港口','码头','铁路','公路','管道','油田','气田','电站','水电站','矿区','园区','供应链','航运','海运','电信','芯片','半导体','电池','电动车','大坝','使馆','领馆','项目',
+    'mine','mining','copper','lithium','nickel','rare earth','factory','industrial park','port','terminal','railway','pipeline','oilfield','gas field','power plant','supply chain','shipping','telecom','semiconductor','battery','embassy','consulate','project',
+]
+SOCIAL_NOISE_TERMS = [
+    '测评','开箱','价格','优惠','降价','买车','提车','车评','手机评测','手机测评','好用吗','种草','穿搭','美妆','护肤','美食','餐厅','旅游攻略','旅行攻略','留学申请','留学生活','求职','招聘','面试','教程','摄影','壁纸','追星','演唱会','电视剧','电影推荐','游戏','抽奖','购物','代购','二手','闲置','新品发布','产品发布',
+    'review','unboxing','discount','shopping','recipe','travel guide','study abroad','job hunting','fashion','beauty','concert','movie review','gaming','giveaway','product launch',
+]
+
+
+def _matched_terms(text: str, terms: list[str]) -> list[str]:
+    low = (text or '').lower()
+    out = []
+    for term in terms:
+        t = str(term).lower().strip()
+        if t and t in low and term not in out:
+            out.append(term)
+    return out
+
+
+def social_relevance_decision(item: RawItem, interests: dict, raw: dict | None = None) -> tuple[Decision, dict]:
+    raw = raw or {}
+    text = f"{item.title} {item.snippet or ''}".strip()
+    anchors = _matched_terms(text, SOCIAL_CHINA_ANCHORS)
+    events = _matched_terms(text, SOCIAL_EVENT_TERMS)
+    strategic = _matched_terms(text, SOCIAL_STRATEGIC_TERMS)
+    noise = _matched_terms(text, SOCIAL_NOISE_TERMS)
+    profiles, entities, ctx = match_interest_profiles(item.title, item.snippet, item.source_country, interests)
+    sev, sev_score = severity(text)
+
+    score = 0
+    if anchors:
+        score += 38
+    if entities:
+        score += 28
+    if events:
+        score += 34
+    if strategic:
+        score += 14
+    if sev in {'critical', 'high'}:
+        score += 10
+    elif sev == 'medium':
+        score += 5
+    # 明显消费/生活内容如果没有风险动作，强力降噪；即使有品牌名也不应自动入池。
+    if noise and not events:
+        score -= 48
+    elif noise:
+        score -= 15
+    # 单独品牌/中国泛词，没有异常事件，不进入“苗头”。
+    if anchors and not events and not entities:
+        score -= 25
+    if not anchors and not entities:
+        score -= 20
+    score = max(0, min(100, score))
+
+    accepted = False
+    relation = 'unrelated'
+    reason = '仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件'
+    if entities and events:
+        accepted = score >= 55
+        relation = 'indirect' if accepted else 'unrelated'
+        reason = f'命中中国海外关联企业/项目，并出现异常事件信号；{ctx}'
+    elif anchors and events:
+        accepted = score >= 55
+        relation = 'direct' if accepted else 'unrelated'
+        reason = '直接涉华对象与异常事件/政策动作同时出现，具备苗头价值'
+    elif profiles and events and strategic and score >= 60:
+        accepted = True
+        relation = 'potential'
+        reason = f'重大事件发生在中国利益暴露区域，并涉及战略资产/供应链；{ctx}'
+
+    classification_conf = 72 if accepted and (anchors or entities) and events else (55 if accepted else 70)
+    decision = Decision(relation, reason, entities, classification_conf, 'social-rules-v2')
+    audit = {
+        'accepted': accepted,
+        'relevance_score': score,
+        'matched_anchors': anchors[:12],
+        'matched_events': events[:12],
+        'matched_strategic': strategic[:12],
+        'noise_terms': noise[:12],
+        'profiles': profiles[:8],
+        'entities': entities[:12],
+        'severity': sev,
+        'reason': reason,
+    }
+    return decision, audit
 
 GDELT_QUERIES = [
     '(China OR Chinese OR Beijing OR PRC OR "People\'s Republic of China")',
@@ -491,37 +593,53 @@ async def run(mode='all', manual_query='', rebuild_only=False):
         signals_seen=len(raw_social)
         existing_signal_ids = {r.get('id') for r in existing_signals if r.get('id')}
         raw_social = [r for r in raw_social if not r.get('id') or r.get('id') not in existing_signal_ids]
-        pairs=raw_social_to_items(raw_social); raw_items=[p[0] for p in pairs]
-        decisions=classify_items(raw_items,interests,social=True)
-        # classify_items 返回的 RawItem 对象，用URL+文本回配原始社交字段。
-        raw_lookup={(canonicalize_url(i.url),i.title):r for i,r in pairs}
+        pairs=raw_social_to_items(raw_social)
         now=datetime.now(timezone.utc); new_signals=[]
-        for item,d in decisions:
-            raw=raw_lookup.get((canonicalize_url(item.url),item.title))
-            if raw: new_signals.append(signal_record(raw,d,now))
+        for item,raw in pairs:
+            d,audit=social_relevance_decision(item,interests,raw)
+            if audit['accepted']:
+                rec=signal_record(raw,d,now)
+                rec['relevance_score']=audit['relevance_score']
+                rec['matched_anchors']=audit['matched_anchors']
+                rec['matched_events']=audit['matched_events']
+                new_signals.append(rec)
         signals_relevant=len(new_signals)
         existing_signals=merge_by_id(existing_signals,new_signals,SIGNAL_RETENTION_DAYS,MAX_STORED_SIGNALS)
         SIGNALS_FILE.write_text(json.dumps(existing_signals,ensure_ascii=False,indent=2),encoding='utf-8')
 
-    # MediaCrawler 的外部结果即使在 rebuild 模式也要并入；这样社交专用 workflow 可独立更新网站。
+    # MediaCrawler 外部结果在 rebuild 时重新按“社交苗头规则 v2”评估。
+    # 旧版只要命中“中国/华为/比亚迪”就很容易入池；这里先清除旧 MediaCrawler 结果再重建，避免历史噪声残留。
     external_rows = external_signal_rows()
+    social_review = []
     if external_rows:
-        existing_ids = {r.get('id') for r in existing_signals}
-        fresh_external = [r for r in external_rows if r.get('id') not in existing_ids]
-        if fresh_external:
-            pairs = raw_social_to_items(fresh_external)
-            raw_items = [p[0] for p in pairs]
-            decisions = classify_items(raw_items, interests, social=True)
-            raw_lookup = {(canonicalize_url(i.url), i.title): r for i, r in pairs}
-            now = datetime.now(timezone.utc)
-            ext_signals = []
-            for item, d in decisions:
-                raw = raw_lookup.get((canonicalize_url(item.url), item.title))
-                if raw:
-                    ext_signals.append(signal_record(raw, d, now))
-            existing_signals = merge_by_id(existing_signals, ext_signals, SIGNAL_RETENTION_DAYS, MAX_STORED_SIGNALS)
-            SIGNALS_FILE.write_text(json.dumps(existing_signals, ensure_ascii=False, indent=2), encoding='utf-8')
-            signals_relevant += len(ext_signals)
+        existing_signals = [r for r in existing_signals if r.get('collector') != 'MediaCrawler-external']
+        pairs = raw_social_to_items(external_rows)
+        now = datetime.now(timezone.utc)
+        ext_signals = []
+        for item, raw in pairs:
+            d, audit = social_relevance_decision(item, interests, raw)
+            review_row = {
+                'id': raw.get('id'), 'platform': raw.get('platform'), 'author': raw.get('author'),
+                'published_at': raw.get('published_at'), 'collected_at': raw.get('collected_at'),
+                'query': raw.get('query'), 'text': raw.get('text'), 'url': raw.get('url'),
+                'accepted': audit['accepted'], 'relation': d.relation, 'relevance_score': audit['relevance_score'],
+                'severity': audit['severity'], 'reason': audit['reason'],
+                'matched_anchors': audit['matched_anchors'], 'matched_events': audit['matched_events'],
+                'matched_strategic': audit['matched_strategic'], 'noise_terms': audit['noise_terms'],
+                'profiles': audit['profiles'], 'entities': audit['entities'],
+            }
+            social_review.append(review_row)
+            if audit['accepted']:
+                rec = signal_record(raw, d, now)
+                rec['relevance_score'] = audit['relevance_score']
+                rec['matched_anchors'] = audit['matched_anchors']
+                rec['matched_events'] = audit['matched_events']
+                ext_signals.append(rec)
+        existing_signals = merge_by_id(existing_signals, ext_signals, SIGNAL_RETENTION_DAYS, MAX_STORED_SIGNALS)
+        SIGNALS_FILE.write_text(json.dumps(existing_signals, ensure_ascii=False, indent=2), encoding='utf-8')
+        signals_seen += len(external_rows)
+        signals_relevant += len(ext_signals)
+    SOCIAL_REVIEW_FILE.write_text(json.dumps(social_review, ensure_ascii=False, indent=2), encoding='utf-8')
     mc_status = load_json_list(DATA_DIR / 'mediacrawler_status.json')
     if mc_status:
         platform_status.extend(mc_status)
@@ -533,15 +651,15 @@ async def run(mode='all', manual_query='', rebuild_only=False):
     EVENTS_FILE.write_text(json.dumps(events,ensure_ascii=False,indent=2),encoding='utf-8')
     LATEST_FILE.write_text(json.dumps(latest,ensure_ascii=False,indent=2),encoding='utf-8')
     status={
-        'version':'0.4','mode':mode,'manual_query':manual_query,'started_at':iso(started),'finished_at':iso(datetime.now(timezone.utc)),
+        'version':'0.4.3','mode':mode,'manual_query':manual_query,'started_at':iso(started),'finished_at':iso(datetime.now(timezone.utc)),
         'sources_scanned':len(sources) if mode in {'all','news'} and not rebuild_only else 0,'items_seen':items_seen,'items_new':items_new,'items_relevant':items_relevant,
-        'signals_seen':signals_seen,'signals_relevant':signals_relevant,'stored_articles':len(existing_articles),'stored_signals':len(existing_signals),'events':len(events),'latest_events':len(latest),
+        'signals_seen':signals_seen,'signals_relevant':signals_relevant,'social_review_total':len(social_review),'social_review_accepted':sum(1 for x in social_review if x.get('accepted')),'stored_articles':len(existing_articles),'stored_signals':len(existing_signals),'events':len(events),'latest_events':len(latest),
         'errors':len(errors),'error_samples':errors[:25],'platform_status':platform_status,'ai_enabled':bool(OPENAI_API_KEY),'classifier':OPENAI_MODEL if OPENAI_API_KEY else 'rules',
         'translation': translation_status,
         'retention_days':RETENTION_DAYS,'signal_retention_days':SIGNAL_RETENTION_DAYS,'max_per_source':MAX_PER_SOURCE,
     }
     STATUS_FILE.write_text(json.dumps(status,ensure_ascii=False,indent=2),encoding='utf-8')
-    build_site(ROOT,existing_articles,existing_signals,events,latest,status,sources,platform_status,tiers)
+    build_site(ROOT,existing_articles,existing_signals,events,latest,status,sources,platform_status,tiers,social_review)
     log(f'done: articles={len(existing_articles)} signals={len(existing_signals)} events={len(events)} latest={len(latest)}')
     return status
 
