@@ -74,7 +74,8 @@ def normalize(platform: str, d: dict) -> dict | None:
     sid = hashlib.sha256(f'{platform}:{raw_id}'.encode('utf-8')).hexdigest()[:20]
     return {
         'id': sid, 'platform': platform, 'author': str(author), 'text': text[:1800], 'url': str(url),
-        'published_at': published, 'collected_at': datetime.now(timezone.utc).isoformat(), 'query': 'mediacrawler-search',
+        'published_at': published, 'collected_at': datetime.now(timezone.utc).isoformat(),
+        'query': str(first(d, 'source_keyword', 'keyword', 'search_keyword', 'query') or 'mediacrawler-search'),
         'engagement': engagement, 'media_count': media_count, 'collector': 'MediaCrawler-external',
     }
 
