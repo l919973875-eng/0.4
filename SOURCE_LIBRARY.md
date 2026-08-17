@@ -1,0 +1,140 @@
+# 来源库清单摘要 / Source Library Summary
+
+- 固定每日巡检来源 / monitored sources：**344** 个
+- 新闻媒体 / news：**280** 个
+- 智库/研究 / think tanks：**38** 个
+- 官方/国际组织 / official：**26** 个
+- 另启用 GDELT DOC 2.0 作为全球补充发现源。
+
+## v0.4 新增重点中文/涉华来源
+
+- South China Morning Post (SCMP) · Hong Kong · en · RSS
+- 联合早报 Lianhe Zaobao · 中国 · Singapore · zh · auto
+- 大纪元 Epoch Times · 即时 · Global · zh · RSS
+- 大纪元 Epoch Times · 大陆 · China · zh · RSS
+- 德国之声中文 DW Chinese · Germany · zh · RSS
+- 纽约时报中文网 NYT Chinese · United States · zh · RSS
+- BBC 中文 · United Kingdom · zh · RSS
+- 美国之音中文 VOA Chinese · United States · zh · RSS
+- 美国之音中文 · 台海两岸 · United States · zh · RSS
+- 美国之音中文 · 南中国海 · United States · zh · RSS
+- 自由亚洲电台普通话 RFA Mandarin · United States · zh · auto
+- 法国国际广播中文 RFI Chinese · France · zh · auto
+- FT中文网 FT Chinese · United Kingdom · zh · RSS
+- 日经中文网 Nikkei Chinese · Japan · zh · auto
+- 新唐人中文 NTD Chinese · Global · zh · auto
+- 中国数字时代 Chinese CDT · Global · zh · RSS
+- 香港自由新闻 HKFP · Hong Kong · en · RSS
+- 明报 Ming Pao · Hong Kong · zh · auto
+- 星岛头条 Sing Tao · Hong Kong · zh · auto
+- The Standard Hong Kong · Hong Kong · en · auto
+- 中央社 CNA Taiwan · Taiwan · zh · auto
+- 联合新闻网 UDN · Taiwan · zh · auto
+- 自由时报 LTN · Taiwan · zh · auto
+- Taipei Times · Taiwan · en · auto
+- Taiwan News · Taiwan · en · auto
+- 新华社 Xinhua · China · zh · auto
+- 人民网 People.cn · China · zh · auto
+- 中国新闻网 China News Service · China · zh · auto
+- 环球网 Huanqiu · China · zh · auto
+- 中国日报中文 China Daily Chinese · China · zh · auto
+- 财新 Caixin · China · zh · auto
+- ABC 中文 · Australia · zh · auto
+- SBS 中文 · Australia · zh · auto
+
+## 来源组 / Source groups
+
+- General / 通用: 311
+- International Chinese service: 12
+- Hong Kong / Taiwan media: 9
+- Mainland China media: 6
+- Overseas Chinese media: 4
+- Chinese-language / China-focused: 2
+
+## 国家/地区覆盖（按来源数量） / Coverage
+
+- United States: 61
+- United Kingdom: 16
+- Japan: 14
+- Russia: 13
+- India: 12
+- Global: 11
+- Germany: 11
+- Australia: 10
+- France: 9
+- South Korea: 9
+- China: 7
+- Canada: 6
+- Singapore: 6
+- European Union: 5
+- Hungary: 5
+- Hong Kong: 5
+- Taiwan: 5
+- Italy: 4
+- Spain: 4
+- Poland: 4
+- United Arab Emirates: 4
+- South Africa: 4
+- Nigeria: 4
+- Brazil: 4
+- Europe: 3
+- Netherlands: 3
+- Pakistan: 3
+- Indonesia: 3
+- Vietnam: 3
+- Philippines: 3
+- Malaysia: 3
+- Israel: 3
+- Iran: 3
+- Turkey: 3
+- Africa: 3
+- Kenya: 3
+- Mexico: 3
+- Argentina: 3
+- New Zealand: 3
+- Ireland: 2
+- Czech Republic: 2
+- Slovakia: 2
+- Serbia: 2
+- Romania: 2
+- Bulgaria: 2
+- Kazakhstan: 2
+- Uzbekistan: 2
+- Bangladesh: 2
+- Sri Lanka: 2
+- Thailand: 2
+- Cambodia: 2
+- Myanmar: 2
+- Ethiopia: 2
+- Ghana: 2
+- Uganda: 2
+- Zimbabwe: 2
+- Chile: 2
+- Peru: 2
+- Colombia: 2
+- Qatar: 1
+- Belgium: 1
+- Balkans: 1
+- Slovenia: 1
+- Croatia: 1
+- Greece: 1
+- Kyrgyzstan: 1
+- Georgia: 1
+- Armenia: 1
+- Azerbaijan: 1
+- Nepal: 1
+- Laos: 1
+- Saudi Arabia: 1
+- Jordan: 1
+- Lebanon: 1
+- Iraq: 1
+- Rwanda: 1
+- Tanzania: 1
+- Zambia: 1
+- Egypt: 1
+- Morocco: 1
+- Venezuela: 1
+- Ecuador: 1
+- Panama: 1
+- Cuba: 1
+- NATO: 1

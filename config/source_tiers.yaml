@@ -1,0 +1,107 @@
+# 来源等级只影响排序和“独立来源印证”权重，不代表任何媒体永远正确。
+# 同时保留不同立场/所有制来源，让“是否值得注意”和“来源可信度”分开。
+default_tier: 3
+
+tier1_patterns:
+  - Reuters
+  - Associated Press
+  - AP News
+  - AFP
+  - United Nations
+  - UN News
+  - NATO
+  - European Commission
+  - European Council
+  - U.S. Department
+  - White House
+  - State Department
+  - Treasury
+  - Ministry of Foreign Affairs
+  - Ministry of Defence
+  - Ministry of Defense
+
+tier2_patterns:
+  - BBC
+  - Financial Times
+  - FT中文网
+  - Bloomberg
+  - Wall Street Journal
+  - New York Times
+  - 纽约时报中文网
+  - Washington Post
+  - Guardian
+  - Al Jazeera
+  - Deutsche Welle
+  - 德国之声中文
+  - France 24
+  - Euronews
+  - Nikkei
+  - 日经中文网
+  - CNA Taiwan
+  - South China Morning Post
+  - 联合早报
+  - Politico
+  - Foreign Policy
+  - Defense News
+  - Breaking Defense
+  - The Diplomat
+  - VOA Chinese
+  - 美国之音中文
+  - RFA Mandarin
+  - 自由亚洲电台
+  - RFI Chinese
+  - 法国国际广播中文
+  - 香港自由新闻
+  - HKFP
+  - 新华社
+  - Xinhua
+  - 财新
+  - Caixin
+
+tier3_patterns:
+  - 大纪元
+  - Epoch Times
+  - 新唐人
+  - NTD
+  - 中国数字时代
+  - Chinese CDT
+  - 明报
+  - Sing Tao
+  - 星岛
+  - UDN
+  - 联合新闻网
+  - 自由时报
+  - Taiwan News
+  - Taipei Times
+  - Institute
+  - Center
+  - Centre
+  - Council
+  - Foundation
+  - Think Tank
+
+publisher_families:
+  Reuters: [Reuters]
+  AP: [Associated Press, AP News]
+  BBC: [BBC News, BBC 中文]
+  FT: [Financial Times, FT中文网, FT Chinese]
+  NYT: [The New York Times, 纽约时报中文网, NYT Chinese]
+  Bloomberg: [Bloomberg]
+  Guardian: [Guardian]
+  DW: [Deutsche Welle, 德国之声中文, DW Chinese]
+  France24: [France 24]
+  AlJazeera: [Al Jazeera]
+  SCMP: [South China Morning Post, SCMP]
+  Zaobao: [联合早报, Lianhe Zaobao]
+  EpochTimes: [大纪元, Epoch Times]
+  VOA: [Voice of America, 美国之音中文, VOA Chinese]
+  RFA: [Radio Free Asia, 自由亚洲电台, RFA Mandarin]
+  RFI: [RFI, 法国国际广播中文, RFI Chinese]
+  Nikkei: [Nikkei Asia, Nikkei, 日经中文网, Nikkei Chinese]
+  Xinhua: [新华社, Xinhua]
+  PeoplesDaily: [人民网, People.cn, People's Daily]
+  ChinaNewsService: [中国新闻网, China News Service]
+  ChinaDaily: [China Daily, 中国日报中文]
+  Caixin: [财新, Caixin]
+  NTD: [新唐人, NTD]
+  CDT: [中国数字时代, China Digital Times, Chinese CDT]

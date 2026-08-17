@@ -1,0 +1,2110 @@
+sources:
+- name: Reuters
+  country: Global
+  language: en
+  kind: news
+  homepage: https://www.reuters.com/
+  mode: auto
+- name: Associated Press
+  country: United States
+  language: en
+  kind: news
+  homepage: https://apnews.com/
+  mode: auto
+- name: BBC News
+  country: United Kingdom
+  language: en
+  kind: news
+  homepage: https://www.bbc.com/news
+  mode: auto
+- name: Deutsche Welle
+  country: Germany
+  language: en
+  kind: news
+  homepage: https://www.dw.com/en/
+  mode: auto
+- name: France 24
+  country: France
+  language: en
+  kind: news
+  homepage: https://www.france24.com/en/
+  mode: auto
+- name: Euronews
+  country: Europe
+  language: en
+  kind: news
+  homepage: https://www.euronews.com/
+  mode: auto
+- name: Al Jazeera
+  country: Qatar
+  language: en
+  kind: news
+  homepage: https://www.aljazeera.com/
+  mode: auto
+- name: Voice of America
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.voanews.com/
+  mode: auto
+- name: Radio Free Europe/Radio Liberty
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.rferl.org/
+  mode: auto
+- name: Financial Times
+  country: United Kingdom
+  language: en
+  kind: news
+  homepage: https://www.ft.com/
+  mode: auto
+- name: The Economist
+  country: United Kingdom
+  language: en
+  kind: news
+  homepage: https://www.economist.com/
+  mode: auto
+- name: POLITICO
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.politico.com/
+  mode: auto
+- name: The Guardian
+  country: United Kingdom
+  language: en
+  kind: news
+  homepage: https://www.theguardian.com/international
+  mode: auto
+- name: Bloomberg
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.bloomberg.com/
+  mode: auto
+- name: Nikkei Asia
+  country: Japan
+  language: en
+  kind: news
+  homepage: https://asia.nikkei.com/
+  mode: auto
+- name: Foreign Policy
+  country: United States
+  language: en
+  kind: news
+  homepage: https://foreignpolicy.com/
+  mode: auto
+- name: Defense News
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.defensenews.com/
+  mode: auto
+- name: Breaking Defense
+  country: United States
+  language: en
+  kind: news
+  homepage: https://breakingdefense.com/
+  mode: auto
+- name: War on the Rocks
+  country: United States
+  language: en
+  kind: news
+  homepage: https://warontherocks.com/
+  mode: auto
+- name: The Diplomat
+  country: United States
+  language: en
+  kind: news
+  homepage: https://thediplomat.com/
+  mode: auto
+- name: The New York Times
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.nytimes.com/
+  mode: auto
+- name: The Washington Post
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.washingtonpost.com/
+  mode: auto
+- name: The Wall Street Journal
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.wsj.com/
+  mode: auto
+- name: CNN
+  country: United States
+  language: en
+  kind: news
+  homepage: https://edition.cnn.com/
+  mode: auto
+- name: Fox News
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.foxnews.com/
+  mode: auto
+- name: NPR
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.npr.org/
+  mode: auto
+- name: NBC News
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.nbcnews.com/
+  mode: auto
+- name: CBS News
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.cbsnews.com/
+  mode: auto
+- name: ABC News US
+  country: United States
+  language: en
+  kind: news
+  homepage: https://abcnews.go.com/
+  mode: auto
+- name: Axios
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.axios.com/
+  mode: auto
+- name: The Hill
+  country: United States
+  language: en
+  kind: news
+  homepage: https://thehill.com/
+  mode: auto
+- name: USA Today
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.usatoday.com/
+  mode: auto
+- name: Newsweek
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.newsweek.com/
+  mode: auto
+- name: Time
+  country: United States
+  language: en
+  kind: news
+  homepage: https://time.com/
+  mode: auto
+- name: Semafor
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.semafor.com/
+  mode: auto
+- name: The Dispatch
+  country: United States
+  language: en
+  kind: news
+  homepage: https://thedispatch.com/
+  mode: auto
+- name: RealClearPolitics
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.realclearpolitics.com/
+  mode: auto
+- name: National Review
+  country: United States
+  language: en
+  kind: news
+  homepage: https://www.nationalreview.com/
+  mode: auto
+- name: Reason
+  country: United States
+  language: en
+  kind: news
+  homepage: https://reason.com/
+  mode: auto
+- name: CBC News
+  country: Canada
+  language: en
+  kind: news
+  homepage: https://www.cbc.ca/news
+  mode: auto
+- name: The Globe and Mail
+  country: Canada
+  language: en
+  kind: news
+  homepage: https://www.theglobeandmail.com/
+  mode: auto
+- name: National Post
+  country: Canada
+  language: en
+  kind: news
+  homepage: https://nationalpost.com/
+  mode: auto
+- name: CTV News
+  country: Canada
+  language: en
+  kind: news
+  homepage: https://www.ctvnews.ca/
+  mode: auto
+- name: Toronto Star
+  country: Canada
+  language: en
+  kind: news
+  homepage: https://www.thestar.com/
+  mode: auto
+- name: The Telegraph
+  country: United Kingdom
+  language: en
+  kind: news
+  homepage: https://www.telegraph.co.uk/
+  mode: auto
+- name: The Times
+  country: United Kingdom
+  language: en
+  kind: news
+  homepage: https://www.thetimes.com/
+  mode: auto
+- name: The Independent
+  country: United Kingdom
+  language: en
+  kind: news
+  homepage: https://www.independent.co.uk/
+  mode: auto
+- name: Sky News
+  country: United Kingdom
+  language: en
+  kind: news
+  homepage: https://news.sky.com/
+  mode: auto
+- name: Reuters UK
+  country: United Kingdom
+  language: en
+  kind: news
+  homepage: https://www.reuters.com/world/uk/
+  mode: auto
+- name: Irish Times
+  country: Ireland
+  language: en
+  kind: news
+  homepage: https://www.irishtimes.com/
+  mode: auto
+- name: RTE News
+  country: Ireland
+  language: en
+  kind: news
+  homepage: https://www.rte.ie/news/
+  mode: auto
+- name: Le Monde
+  country: France
+  language: fr
+  kind: news
+  homepage: https://www.lemonde.fr/
+  mode: auto
+- name: Le Figaro
+  country: France
+  language: fr
+  kind: news
+  homepage: https://www.lefigaro.fr/
+  mode: auto
+- name: Les Echos
+  country: France
+  language: fr
+  kind: news
+  homepage: https://www.lesechos.fr/
+  mode: auto
+- name: RFI
+  country: France
+  language: fr
+  kind: news
+  homepage: https://www.rfi.fr/fr/
+  mode: auto
+- name: Libération
+  country: France
+  language: fr
+  kind: news
+  homepage: https://www.liberation.fr/
+  mode: auto
+- name: Der Spiegel
+  country: Germany
+  language: de
+  kind: news
+  homepage: https://www.spiegel.de/
+  mode: auto
+- name: Frankfurter Allgemeine Zeitung
+  country: Germany
+  language: de
+  kind: news
+  homepage: https://www.faz.net/
+  mode: auto
+- name: Süddeutsche Zeitung
+  country: Germany
+  language: de
+  kind: news
+  homepage: https://www.sueddeutsche.de/
+  mode: auto
+- name: Handelsblatt
+  country: Germany
+  language: de
+  kind: news
+  homepage: https://www.handelsblatt.com/
+  mode: auto
+- name: Tagesschau
+  country: Germany
+  language: de
+  kind: news
+  homepage: https://www.tagesschau.de/
+  mode: auto
+- name: Die Zeit
+  country: Germany
+  language: de
+  kind: news
+  homepage: https://www.zeit.de/
+  mode: auto
+- name: ANSA
+  country: Italy
+  language: it
+  kind: news
+  homepage: https://www.ansa.it/english/
+  mode: auto
+- name: Corriere della Sera
+  country: Italy
+  language: it
+  kind: news
+  homepage: https://www.corriere.it/
+  mode: auto
+- name: La Repubblica
+  country: Italy
+  language: it
+  kind: news
+  homepage: https://www.repubblica.it/
+  mode: auto
+- name: Il Sole 24 Ore
+  country: Italy
+  language: it
+  kind: news
+  homepage: https://www.ilsole24ore.com/
+  mode: auto
+- name: El País
+  country: Spain
+  language: es
+  kind: news
+  homepage: https://elpais.com/
+  mode: auto
+- name: El Mundo
+  country: Spain
+  language: es
+  kind: news
+  homepage: https://www.elmundo.es/
+  mode: auto
+- name: ABC España
+  country: Spain
+  language: es
+  kind: news
+  homepage: https://www.abc.es/
+  mode: auto
+- name: EFE
+  country: Spain
+  language: es
+  kind: news
+  homepage: https://efe.com/
+  mode: auto
+- name: NRC
+  country: Netherlands
+  language: nl
+  kind: news
+  homepage: https://www.nrc.nl/
+  mode: auto
+- name: DutchNews
+  country: Netherlands
+  language: en
+  kind: news
+  homepage: https://www.dutchnews.nl/
+  mode: auto
+- name: NL Times
+  country: Netherlands
+  language: en
+  kind: news
+  homepage: https://nltimes.nl/
+  mode: auto
+- name: The Brussels Times
+  country: Belgium
+  language: en
+  kind: news
+  homepage: https://www.brusselstimes.com/
+  mode: auto
+- name: EUobserver
+  country: European Union
+  language: en
+  kind: news
+  homepage: https://euobserver.com/
+  mode: auto
+- name: POLITICO Europe
+  country: European Union
+  language: en
+  kind: news
+  homepage: https://www.politico.eu/
+  mode: auto
+- name: Telex
+  country: Hungary
+  language: hu
+  kind: news
+  homepage: https://telex.hu/
+  mode: auto
+- name: HVG
+  country: Hungary
+  language: hu
+  kind: news
+  homepage: https://hvg.hu/
+  mode: auto
+- name: Hungary Today
+  country: Hungary
+  language: en
+  kind: news
+  homepage: https://hungarytoday.hu/
+  mode: auto
+- name: Daily News Hungary
+  country: Hungary
+  language: en
+  kind: news
+  homepage: https://dailynewshungary.com/
+  mode: auto
+- name: Portfolio Hungary
+  country: Hungary
+  language: hu
+  kind: news
+  homepage: https://www.portfolio.hu/
+  mode: auto
+- name: PAP
+  country: Poland
+  language: pl
+  kind: news
+  homepage: https://www.pap.pl/
+  mode: auto
+- name: Notes from Poland
+  country: Poland
+  language: en
+  kind: news
+  homepage: https://notesfrompoland.com/
+  mode: auto
+- name: TVP World
+  country: Poland
+  language: en
+  kind: news
+  homepage: https://tvpworld.com/
+  mode: auto
+- name: Gazeta Wyborcza
+  country: Poland
+  language: pl
+  kind: news
+  homepage: https://wyborcza.pl/
+  mode: auto
+- name: Radio Prague International
+  country: Czech Republic
+  language: en
+  kind: news
+  homepage: https://english.radio.cz/
+  mode: auto
+- name: Prague Morning
+  country: Czech Republic
+  language: en
+  kind: news
+  homepage: https://praguemorning.cz/
+  mode: auto
+- name: Denník N
+  country: Slovakia
+  language: sk
+  kind: news
+  homepage: https://dennikn.sk/
+  mode: auto
+- name: Slovak Spectator
+  country: Slovakia
+  language: en
+  kind: news
+  homepage: https://spectator.sme.sk/
+  mode: auto
+- name: N1 Serbia
+  country: Serbia
+  language: sr
+  kind: news
+  homepage: https://n1info.rs/
+  mode: auto
+- name: B92
+  country: Serbia
+  language: sr
+  kind: news
+  homepage: https://www.b92.net/
+  mode: auto
+- name: Balkan Insight
+  country: Balkans
+  language: en
+  kind: news
+  homepage: https://balkaninsight.com/
+  mode: auto
+- name: Romania Insider
+  country: Romania
+  language: en
+  kind: news
+  homepage: https://www.romania-insider.com/
+  mode: auto
+- name: Digi24
+  country: Romania
+  language: ro
+  kind: news
+  homepage: https://www.digi24.ro/
+  mode: auto
+- name: Novinite
+  country: Bulgaria
+  language: en
+  kind: news
+  homepage: https://www.novinite.com/
+  mode: auto
+- name: BTA
+  country: Bulgaria
+  language: en
+  kind: news
+  homepage: https://www.bta.bg/en
+  mode: auto
+- name: STA
+  country: Slovenia
+  language: en
+  kind: news
+  homepage: https://english.sta.si/
+  mode: auto
+- name: HINA
+  country: Croatia
+  language: en
+  kind: news
+  homepage: https://www.hina.hr/
+  mode: auto
+- name: Ekathimerini
+  country: Greece
+  language: en
+  kind: news
+  homepage: https://www.ekathimerini.com/
+  mode: auto
+- name: TASS
+  country: Russia
+  language: ru
+  kind: news
+  homepage: https://tass.com/
+  mode: auto
+- name: Interfax
+  country: Russia
+  language: ru
+  kind: news
+  homepage: https://interfax.com/
+  mode: auto
+- name: Kommersant
+  country: Russia
+  language: ru
+  kind: news
+  homepage: https://www.kommersant.ru/
+  mode: auto
+- name: RBC
+  country: Russia
+  language: ru
+  kind: news
+  homepage: https://www.rbc.ru/
+  mode: auto
+- name: The Moscow Times
+  country: Russia
+  language: en
+  kind: news
+  homepage: https://www.themoscowtimes.com/
+  mode: auto
+- name: Meduza
+  country: Russia
+  language: ru
+  kind: news
+  homepage: https://meduza.io/
+  mode: auto
+- name: Izvestia
+  country: Russia
+  language: ru
+  kind: news
+  homepage: https://iz.ru/
+  mode: auto
+- name: RIA Novosti
+  country: Russia
+  language: ru
+  kind: news
+  homepage: https://ria.ru/
+  mode: auto
+- name: RT
+  country: Russia
+  language: en
+  kind: news
+  homepage: https://www.rt.com/
+  mode: auto
+- name: Sputnik International
+  country: Russia
+  language: en
+  kind: news
+  homepage: https://sputnikglobe.com/
+  mode: auto
+- name: Novaya Gazeta Europe
+  country: Russia
+  language: ru
+  kind: news
+  homepage: https://novayagazeta.eu/
+  mode: auto
+- name: Vedomosti
+  country: Russia
+  language: ru
+  kind: news
+  homepage: https://www.vedomosti.ru/
+  mode: auto
+- name: The Astana Times
+  country: Kazakhstan
+  language: en
+  kind: news
+  homepage: https://astanatimes.com/
+  mode: auto
+- name: Tengrinews
+  country: Kazakhstan
+  language: ru
+  kind: news
+  homepage: https://tengrinews.kz/
+  mode: auto
+- name: Gazeta.uz
+  country: Uzbekistan
+  language: ru
+  kind: news
+  homepage: https://www.gazeta.uz/en/
+  mode: auto
+- name: Kun.uz
+  country: Uzbekistan
+  language: en
+  kind: news
+  homepage: https://kun.uz/en
+  mode: auto
+- name: AKIpress
+  country: Kyrgyzstan
+  language: en
+  kind: news
+  homepage: https://akipress.com/
+  mode: auto
+- name: Civil Georgia
+  country: Georgia
+  language: en
+  kind: news
+  homepage: https://civil.ge/
+  mode: auto
+- name: News.am
+  country: Armenia
+  language: en
+  kind: news
+  homepage: https://news.am/eng/
+  mode: auto
+- name: Trend News Agency
+  country: Azerbaijan
+  language: en
+  kind: news
+  homepage: https://en.trend.az/
+  mode: auto
+- name: NHK World
+  country: Japan
+  language: en
+  kind: news
+  homepage: https://www3.nhk.or.jp/nhkworld/en/news/
+  mode: auto
+- name: Nikkei
+  country: Japan
+  language: ja
+  kind: news
+  homepage: https://www.nikkei.com/
+  mode: auto
+- name: Asahi Shimbun
+  country: Japan
+  language: ja
+  kind: news
+  homepage: https://www.asahi.com/
+  mode: auto
+- name: Yomiuri Shimbun
+  country: Japan
+  language: ja
+  kind: news
+  homepage: https://www.yomiuri.co.jp/
+  mode: auto
+- name: Mainichi
+  country: Japan
+  language: ja
+  kind: news
+  homepage: https://mainichi.jp/
+  mode: auto
+- name: Kyodo News
+  country: Japan
+  language: en
+  kind: news
+  homepage: https://english.kyodonews.net/
+  mode: auto
+- name: The Japan Times
+  country: Japan
+  language: en
+  kind: news
+  homepage: https://www.japantimes.co.jp/
+  mode: auto
+- name: Sankei
+  country: Japan
+  language: ja
+  kind: news
+  homepage: https://www.sankei.com/
+  mode: auto
+- name: Yonhap News
+  country: South Korea
+  language: en
+  kind: news
+  homepage: https://en.yna.co.kr/
+  mode: auto
+- name: The Korea Herald
+  country: South Korea
+  language: en
+  kind: news
+  homepage: https://www.koreaherald.com/
+  mode: auto
+- name: The Korea Times
+  country: South Korea
+  language: en
+  kind: news
+  homepage: https://www.koreatimes.co.kr/
+  mode: auto
+- name: Chosun Ilbo
+  country: South Korea
+  language: ko
+  kind: news
+  homepage: https://www.chosun.com/
+  mode: auto
+- name: JoongAng Ilbo
+  country: South Korea
+  language: ko
+  kind: news
+  homepage: https://www.joongang.co.kr/
+  mode: auto
+- name: Hankyoreh
+  country: South Korea
+  language: ko
+  kind: news
+  homepage: https://www.hani.co.kr/
+  mode: auto
+- name: KBS World
+  country: South Korea
+  language: en
+  kind: news
+  homepage: https://world.kbs.co.kr/service/news_main.htm?lang=e
+  mode: auto
+- name: The Hindu
+  country: India
+  language: en
+  kind: news
+  homepage: https://www.thehindu.com/
+  mode: auto
+- name: The Indian Express
+  country: India
+  language: en
+  kind: news
+  homepage: https://indianexpress.com/
+  mode: auto
+- name: The Times of India
+  country: India
+  language: en
+  kind: news
+  homepage: https://timesofindia.indiatimes.com/
+  mode: auto
+- name: Hindustan Times
+  country: India
+  language: en
+  kind: news
+  homepage: https://www.hindustantimes.com/
+  mode: auto
+- name: The Economic Times
+  country: India
+  language: en
+  kind: news
+  homepage: https://economictimes.indiatimes.com/
+  mode: auto
+- name: Business Standard India
+  country: India
+  language: en
+  kind: news
+  homepage: https://www.business-standard.com/
+  mode: auto
+- name: WION
+  country: India
+  language: en
+  kind: news
+  homepage: https://www.wionews.com/
+  mode: auto
+- name: NDTV
+  country: India
+  language: en
+  kind: news
+  homepage: https://www.ndtv.com/
+  mode: auto
+- name: India Today
+  country: India
+  language: en
+  kind: news
+  homepage: https://www.indiatoday.in/
+  mode: auto
+- name: ThePrint
+  country: India
+  language: en
+  kind: news
+  homepage: https://theprint.in/
+  mode: auto
+- name: Dawn
+  country: Pakistan
+  language: en
+  kind: news
+  homepage: https://www.dawn.com/
+  mode: auto
+- name: The News International
+  country: Pakistan
+  language: en
+  kind: news
+  homepage: https://www.thenews.com.pk/
+  mode: auto
+- name: The Express Tribune
+  country: Pakistan
+  language: en
+  kind: news
+  homepage: https://tribune.com.pk/
+  mode: auto
+- name: The Daily Star
+  country: Bangladesh
+  language: en
+  kind: news
+  homepage: https://www.thedailystar.net/
+  mode: auto
+- name: Dhaka Tribune
+  country: Bangladesh
+  language: en
+  kind: news
+  homepage: https://www.dhakatribune.com/
+  mode: auto
+- name: The Kathmandu Post
+  country: Nepal
+  language: en
+  kind: news
+  homepage: https://kathmandupost.com/
+  mode: auto
+- name: Daily Mirror Sri Lanka
+  country: Sri Lanka
+  language: en
+  kind: news
+  homepage: https://www.dailymirror.lk/
+  mode: auto
+- name: Daily FT Sri Lanka
+  country: Sri Lanka
+  language: en
+  kind: news
+  homepage: https://www.ft.lk/
+  mode: auto
+- name: The Straits Times
+  country: Singapore
+  language: en
+  kind: news
+  homepage: https://www.straitstimes.com/
+  mode: auto
+- name: Channel NewsAsia
+  country: Singapore
+  language: en
+  kind: news
+  homepage: https://www.channelnewsasia.com/
+  mode: auto
+- name: TODAY Singapore
+  country: Singapore
+  language: en
+  kind: news
+  homepage: https://www.todayonline.com/
+  mode: auto
+- name: Bangkok Post
+  country: Thailand
+  language: en
+  kind: news
+  homepage: https://www.bangkokpost.com/
+  mode: auto
+- name: The Nation Thailand
+  country: Thailand
+  language: en
+  kind: news
+  homepage: https://www.nationthailand.com/
+  mode: auto
+- name: The Jakarta Post
+  country: Indonesia
+  language: en
+  kind: news
+  homepage: https://www.thejakartapost.com/
+  mode: auto
+- name: ANTARA News
+  country: Indonesia
+  language: en
+  kind: news
+  homepage: https://en.antaranews.com/
+  mode: auto
+- name: Tempo
+  country: Indonesia
+  language: en
+  kind: news
+  homepage: https://en.tempo.co/
+  mode: auto
+- name: VnExpress International
+  country: Vietnam
+  language: en
+  kind: news
+  homepage: https://e.vnexpress.net/
+  mode: auto
+- name: VietnamNet Global
+  country: Vietnam
+  language: en
+  kind: news
+  homepage: https://vietnamnet.vn/en
+  mode: auto
+- name: Tuoi Tre News
+  country: Vietnam
+  language: en
+  kind: news
+  homepage: https://tuoitrenews.vn/
+  mode: auto
+- name: Rappler
+  country: Philippines
+  language: en
+  kind: news
+  homepage: https://www.rappler.com/
+  mode: auto
+- name: Philippine Daily Inquirer
+  country: Philippines
+  language: en
+  kind: news
+  homepage: https://www.inquirer.net/
+  mode: auto
+- name: The Philippine Star
+  country: Philippines
+  language: en
+  kind: news
+  homepage: https://www.philstar.com/
+  mode: auto
+- name: Bernama
+  country: Malaysia
+  language: en
+  kind: news
+  homepage: https://www.bernama.com/en/
+  mode: auto
+- name: Malay Mail
+  country: Malaysia
+  language: en
+  kind: news
+  homepage: https://www.malaymail.com/
+  mode: auto
+- name: The Star Malaysia
+  country: Malaysia
+  language: en
+  kind: news
+  homepage: https://www.thestar.com.my/
+  mode: auto
+- name: Khmer Times
+  country: Cambodia
+  language: en
+  kind: news
+  homepage: https://www.khmertimeskh.com/
+  mode: auto
+- name: The Phnom Penh Post
+  country: Cambodia
+  language: en
+  kind: news
+  homepage: https://www.phnompenhpost.com/
+  mode: auto
+- name: The Irrawaddy
+  country: Myanmar
+  language: en
+  kind: news
+  homepage: https://www.irrawaddy.com/
+  mode: auto
+- name: Myanmar Now
+  country: Myanmar
+  language: en
+  kind: news
+  homepage: https://myanmar-now.org/en/
+  mode: auto
+- name: Laotian Times
+  country: Laos
+  language: en
+  kind: news
+  homepage: https://laotiantimes.com/
+  mode: auto
+- name: Arab News
+  country: Saudi Arabia
+  language: en
+  kind: news
+  homepage: https://www.arabnews.com/
+  mode: auto
+- name: Al Arabiya English
+  country: United Arab Emirates
+  language: en
+  kind: news
+  homepage: https://english.alarabiya.net/
+  mode: auto
+- name: Gulf News
+  country: United Arab Emirates
+  language: en
+  kind: news
+  homepage: https://gulfnews.com/
+  mode: auto
+- name: Khaleej Times
+  country: United Arab Emirates
+  language: en
+  kind: news
+  homepage: https://www.khaleejtimes.com/
+  mode: auto
+- name: The National
+  country: United Arab Emirates
+  language: en
+  kind: news
+  homepage: https://www.thenationalnews.com/
+  mode: auto
+- name: Times of Israel
+  country: Israel
+  language: en
+  kind: news
+  homepage: https://www.timesofisrael.com/
+  mode: auto
+- name: Haaretz
+  country: Israel
+  language: en
+  kind: news
+  homepage: https://www.haaretz.com/
+  mode: auto
+- name: Jerusalem Post
+  country: Israel
+  language: en
+  kind: news
+  homepage: https://www.jpost.com/
+  mode: auto
+- name: Iran International
+  country: Iran
+  language: en
+  kind: news
+  homepage: https://www.iranintl.com/en
+  mode: auto
+- name: Tehran Times
+  country: Iran
+  language: en
+  kind: news
+  homepage: https://www.tehrantimes.com/
+  mode: auto
+- name: IRNA English
+  country: Iran
+  language: en
+  kind: news
+  homepage: https://en.irna.ir/
+  mode: auto
+- name: Anadolu Agency
+  country: Turkey
+  language: en
+  kind: news
+  homepage: https://www.aa.com.tr/en
+  mode: auto
+- name: Hürriyet Daily News
+  country: Turkey
+  language: en
+  kind: news
+  homepage: https://www.hurriyetdailynews.com/
+  mode: auto
+- name: Daily Sabah
+  country: Turkey
+  language: en
+  kind: news
+  homepage: https://www.dailysabah.com/
+  mode: auto
+- name: Middle East Eye
+  country: United Kingdom
+  language: en
+  kind: news
+  homepage: https://www.middleeasteye.net/
+  mode: auto
+- name: Jordan Times
+  country: Jordan
+  language: en
+  kind: news
+  homepage: https://jordantimes.com/
+  mode: auto
+- name: L’Orient Today
+  country: Lebanon
+  language: en
+  kind: news
+  homepage: https://today.lorientlejour.com/
+  mode: auto
+- name: Iraq News
+  country: Iraq
+  language: en
+  kind: news
+  homepage: https://www.iraqinews.com/
+  mode: auto
+- name: Africanews
+  country: Africa
+  language: en
+  kind: news
+  homepage: https://www.africanews.com/
+  mode: auto
+- name: AllAfrica
+  country: Africa
+  language: en
+  kind: news
+  homepage: https://allafrica.com/
+  mode: auto
+- name: News24
+  country: South Africa
+  language: en
+  kind: news
+  homepage: https://www.news24.com/
+  mode: auto
+- name: Daily Maverick
+  country: South Africa
+  language: en
+  kind: news
+  homepage: https://www.dailymaverick.co.za/
+  mode: auto
+- name: Mail & Guardian
+  country: South Africa
+  language: en
+  kind: news
+  homepage: https://mg.co.za/
+  mode: auto
+- name: Business Day South Africa
+  country: South Africa
+  language: en
+  kind: news
+  homepage: https://www.businesslive.co.za/bd/
+  mode: auto
+- name: The Nation Kenya
+  country: Kenya
+  language: en
+  kind: news
+  homepage: https://nation.africa/
+  mode: auto
+- name: The Standard Kenya
+  country: Kenya
+  language: en
+  kind: news
+  homepage: https://www.standardmedia.co.ke/
+  mode: auto
+- name: The EastAfrican
+  country: Kenya
+  language: en
+  kind: news
+  homepage: https://www.theeastafrican.co.ke/
+  mode: auto
+- name: Addis Standard
+  country: Ethiopia
+  language: en
+  kind: news
+  homepage: https://addisstandard.com/
+  mode: auto
+- name: The Reporter Ethiopia
+  country: Ethiopia
+  language: en
+  kind: news
+  homepage: https://www.thereporterethiopia.com/
+  mode: auto
+- name: Daily Trust
+  country: Nigeria
+  language: en
+  kind: news
+  homepage: https://dailytrust.com/
+  mode: auto
+- name: Punch Nigeria
+  country: Nigeria
+  language: en
+  kind: news
+  homepage: https://punchng.com/
+  mode: auto
+- name: The Guardian Nigeria
+  country: Nigeria
+  language: en
+  kind: news
+  homepage: https://guardian.ng/
+  mode: auto
+- name: Premium Times
+  country: Nigeria
+  language: en
+  kind: news
+  homepage: https://www.premiumtimesng.com/
+  mode: auto
+- name: GhanaWeb
+  country: Ghana
+  language: en
+  kind: news
+  homepage: https://www.ghanaweb.com/
+  mode: auto
+- name: Graphic Online
+  country: Ghana
+  language: en
+  kind: news
+  homepage: https://www.graphic.com.gh/
+  mode: auto
+- name: The New Times Rwanda
+  country: Rwanda
+  language: en
+  kind: news
+  homepage: https://www.newtimes.co.rw/
+  mode: auto
+- name: Daily Monitor Uganda
+  country: Uganda
+  language: en
+  kind: news
+  homepage: https://www.monitor.co.ug/
+  mode: auto
+- name: New Vision Uganda
+  country: Uganda
+  language: en
+  kind: news
+  homepage: https://www.newvision.co.ug/
+  mode: auto
+- name: The Citizen Tanzania
+  country: Tanzania
+  language: en
+  kind: news
+  homepage: https://www.thecitizen.co.tz/
+  mode: auto
+- name: Lusaka Times
+  country: Zambia
+  language: en
+  kind: news
+  homepage: https://www.lusakatimes.com/
+  mode: auto
+- name: NewsDay Zimbabwe
+  country: Zimbabwe
+  language: en
+  kind: news
+  homepage: https://www.newsday.co.zw/
+  mode: auto
+- name: The Herald Zimbabwe
+  country: Zimbabwe
+  language: en
+  kind: news
+  homepage: https://www.herald.co.zw/
+  mode: auto
+- name: Ahram Online
+  country: Egypt
+  language: en
+  kind: news
+  homepage: https://english.ahram.org.eg/
+  mode: auto
+- name: Morocco World News
+  country: Morocco
+  language: en
+  kind: news
+  homepage: https://www.moroccoworldnews.com/
+  mode: auto
+- name: Jeune Afrique
+  country: Africa
+  language: fr
+  kind: news
+  homepage: https://www.jeuneafrique.com/
+  mode: auto
+- name: El Universal México
+  country: Mexico
+  language: es
+  kind: news
+  homepage: https://www.eluniversal.com.mx/
+  mode: auto
+- name: Milenio
+  country: Mexico
+  language: es
+  kind: news
+  homepage: https://www.milenio.com/
+  mode: auto
+- name: El Financiero México
+  country: Mexico
+  language: es
+  kind: news
+  homepage: https://www.elfinanciero.com.mx/
+  mode: auto
+- name: Folha de S.Paulo
+  country: Brazil
+  language: pt
+  kind: news
+  homepage: https://www.folha.uol.com.br/
+  mode: auto
+- name: Estadão
+  country: Brazil
+  language: pt
+  kind: news
+  homepage: https://www.estadao.com.br/
+  mode: auto
+- name: O Globo
+  country: Brazil
+  language: pt
+  kind: news
+  homepage: https://oglobo.globo.com/
+  mode: auto
+- name: Valor Econômico
+  country: Brazil
+  language: pt
+  kind: news
+  homepage: https://valor.globo.com/
+  mode: auto
+- name: Clarín
+  country: Argentina
+  language: es
+  kind: news
+  homepage: https://www.clarin.com/
+  mode: auto
+- name: La Nación Argentina
+  country: Argentina
+  language: es
+  kind: news
+  homepage: https://www.lanacion.com.ar/
+  mode: auto
+- name: Infobae
+  country: Argentina
+  language: es
+  kind: news
+  homepage: https://www.infobae.com/
+  mode: auto
+- name: BioBioChile
+  country: Chile
+  language: es
+  kind: news
+  homepage: https://www.biobiochile.cl/
+  mode: auto
+- name: La Tercera
+  country: Chile
+  language: es
+  kind: news
+  homepage: https://www.latercera.com/
+  mode: auto
+- name: El Comercio Perú
+  country: Peru
+  language: es
+  kind: news
+  homepage: https://elcomercio.pe/
+  mode: auto
+- name: Gestión
+  country: Peru
+  language: es
+  kind: news
+  homepage: https://gestion.pe/
+  mode: auto
+- name: El Tiempo Colombia
+  country: Colombia
+  language: es
+  kind: news
+  homepage: https://www.eltiempo.com/
+  mode: auto
+- name: Portafolio Colombia
+  country: Colombia
+  language: es
+  kind: news
+  homepage: https://www.portafolio.co/
+  mode: auto
+- name: El Nacional Venezuela
+  country: Venezuela
+  language: es
+  kind: news
+  homepage: https://www.elnacional.com/
+  mode: auto
+- name: El Universo Ecuador
+  country: Ecuador
+  language: es
+  kind: news
+  homepage: https://www.eluniverso.com/
+  mode: auto
+- name: La Prensa Panamá
+  country: Panama
+  language: es
+  kind: news
+  homepage: https://www.prensa.com/
+  mode: auto
+- name: 14ymedio
+  country: Cuba
+  language: es
+  kind: news
+  homepage: https://www.14ymedio.com/
+  mode: auto
+- name: ABC News Australia
+  country: Australia
+  language: en
+  kind: news
+  homepage: https://www.abc.net.au/news
+  mode: auto
+- name: SBS News
+  country: Australia
+  language: en
+  kind: news
+  homepage: https://www.sbs.com.au/news
+  mode: auto
+- name: Sydney Morning Herald
+  country: Australia
+  language: en
+  kind: news
+  homepage: https://www.smh.com.au/
+  mode: auto
+- name: The Australian
+  country: Australia
+  language: en
+  kind: news
+  homepage: https://www.theaustralian.com.au/
+  mode: auto
+- name: Australian Financial Review
+  country: Australia
+  language: en
+  kind: news
+  homepage: https://www.afr.com/
+  mode: auto
+- name: RNZ
+  country: New Zealand
+  language: en
+  kind: news
+  homepage: https://www.rnz.co.nz/news
+  mode: auto
+- name: NZ Herald
+  country: New Zealand
+  language: en
+  kind: news
+  homepage: https://www.nzherald.co.nz/
+  mode: auto
+- name: Stuff
+  country: New Zealand
+  language: en
+  kind: news
+  homepage: https://www.stuff.co.nz/
+  mode: auto
+- name: America First Policy Institute (AFPI)
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.americafirstpolicy.com/
+  mode: auto
+- name: Center for Strategic and International Studies (CSIS)
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.csis.org/
+  mode: auto
+- name: New America
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.newamerica.org/
+  mode: auto
+- name: Center for a New American Security (CNAS)
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.cnas.org/
+  mode: auto
+- name: Heritage Foundation
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.heritage.org/
+  mode: auto
+- name: Council on Foreign Relations (CFR)
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.cfr.org/
+  mode: auto
+- name: RAND Corporation
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.rand.org/
+  mode: auto
+- name: Eurasia Group
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.eurasiagroup.net/
+  mode: auto
+- name: Brookings Institution
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.brookings.edu/
+  mode: auto
+- name: Atlantic Council
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.atlanticcouncil.org/
+  mode: auto
+- name: Carnegie Endowment for International Peace
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://carnegieendowment.org/
+  mode: auto
+- name: United States Institute of Peace (USIP)
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.usip.org/
+  mode: auto
+- name: American Enterprise Institute (AEI)
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.aei.org/
+  mode: auto
+- name: Peterson Institute for International Economics (PIIE)
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.piie.com/
+  mode: auto
+- name: Gallup
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.gallup.com/
+  mode: auto
+- name: Ipsos
+  country: Global
+  language: en
+  kind: think_tank
+  homepage: https://www.ipsos.com/en
+  mode: auto
+- name: Chatham House
+  country: United Kingdom
+  language: en
+  kind: think_tank
+  homepage: https://www.chathamhouse.org/
+  mode: auto
+- name: International Institute for Strategic Studies (IISS)
+  country: United Kingdom
+  language: en
+  kind: think_tank
+  homepage: https://www.iiss.org/
+  mode: auto
+- name: RUSI
+  country: United Kingdom
+  language: en
+  kind: think_tank
+  homepage: https://www.rusi.org/
+  mode: auto
+- name: European Council on Foreign Relations (ECFR)
+  country: Europe
+  language: en
+  kind: think_tank
+  homepage: https://ecfr.eu/
+  mode: auto
+- name: MERICS
+  country: Germany
+  language: en
+  kind: think_tank
+  homepage: https://merics.org/en
+  mode: auto
+- name: German Institute for International and Security Affairs (SWP)
+  country: Germany
+  language: en
+  kind: think_tank
+  homepage: https://www.swp-berlin.org/en/
+  mode: auto
+- name: IFRI
+  country: France
+  language: en
+  kind: think_tank
+  homepage: https://www.ifri.org/en
+  mode: auto
+- name: Lowy Institute
+  country: Australia
+  language: en
+  kind: think_tank
+  homepage: https://www.lowyinstitute.org/
+  mode: auto
+- name: Australian Strategic Policy Institute (ASPI)
+  country: Australia
+  language: en
+  kind: think_tank
+  homepage: https://www.aspistrategist.org.au/
+  mode: auto
+- name: Observer Research Foundation (ORF)
+  country: India
+  language: en
+  kind: think_tank
+  homepage: https://www.orfonline.org/
+  mode: auto
+- name: Japan Institute of International Affairs (JIIA)
+  country: Japan
+  language: en
+  kind: think_tank
+  homepage: https://www.jiia.or.jp/en/
+  mode: auto
+- name: Asan Institute for Policy Studies
+  country: South Korea
+  language: en
+  kind: think_tank
+  homepage: https://en.asaninst.org/
+  mode: auto
+- name: East Asia Institute
+  country: South Korea
+  language: en
+  kind: think_tank
+  homepage: https://www.eai.or.kr/new/en/
+  mode: auto
+- name: Singapore ISEAS-Yusof Ishak Institute
+  country: Singapore
+  language: en
+  kind: think_tank
+  homepage: https://www.iseas.edu.sg/
+  mode: auto
+- name: RSIS
+  country: Singapore
+  language: en
+  kind: think_tank
+  homepage: https://www.rsis.edu.sg/
+  mode: auto
+- name: Carnegie Russia Eurasia Center
+  country: Europe
+  language: en
+  kind: think_tank
+  homepage: https://carnegieendowment.org/russia-eurasia
+  mode: auto
+- name: Jamestown Foundation
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://jamestown.org/
+  mode: auto
+- name: Hudson Institute
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.hudson.org/
+  mode: auto
+- name: Stimson Center
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.stimson.org/
+  mode: auto
+- name: Wilson Center
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.wilsoncenter.org/
+  mode: auto
+- name: Hoover Institution
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.hoover.org/
+  mode: auto
+- name: Cato Institute
+  country: United States
+  language: en
+  kind: think_tank
+  homepage: https://www.cato.org/
+  mode: auto
+- name: The White House
+  country: United States
+  language: en
+  kind: official
+  homepage: https://www.whitehouse.gov/
+  mode: auto
+- name: U.S. Department of State
+  country: United States
+  language: en
+  kind: official
+  homepage: https://www.state.gov/
+  mode: auto
+- name: U.S. Department of Defense
+  country: United States
+  language: en
+  kind: official
+  homepage: https://www.defense.gov/News/
+  mode: auto
+- name: U.S. Department of the Treasury
+  country: United States
+  language: en
+  kind: official
+  homepage: https://home.treasury.gov/news
+  mode: auto
+- name: U.S. Department of Commerce
+  country: United States
+  language: en
+  kind: official
+  homepage: https://www.commerce.gov/news
+  mode: auto
+- name: Office of the U.S. Trade Representative
+  country: United States
+  language: en
+  kind: official
+  homepage: https://ustr.gov/about-us/policy-offices/press-office
+  mode: auto
+- name: European Commission
+  country: European Union
+  language: en
+  kind: official
+  homepage: https://ec.europa.eu/commission/presscorner/home/en
+  mode: auto
+- name: European External Action Service
+  country: European Union
+  language: en
+  kind: official
+  homepage: https://www.eeas.europa.eu/eeas/press-material_en
+  mode: auto
+- name: Council of the European Union
+  country: European Union
+  language: en
+  kind: official
+  homepage: https://www.consilium.europa.eu/en/press/
+  mode: auto
+- name: NATO
+  country: NATO
+  language: en
+  kind: official
+  homepage: https://www.nato.int/cps/en/natohq/news.htm
+  mode: auto
+- name: UK Foreign Commonwealth & Development Office
+  country: United Kingdom
+  language: en
+  kind: official
+  homepage: https://www.gov.uk/government/organisations/foreign-commonwealth-development-office
+  mode: auto
+- name: Japan Ministry of Foreign Affairs
+  country: Japan
+  language: en
+  kind: official
+  homepage: https://www.mofa.go.jp/
+  mode: auto
+- name: Japan Ministry of Economy Trade and Industry
+  country: Japan
+  language: en
+  kind: official
+  homepage: https://www.meti.go.jp/english/press/
+  mode: auto
+- name: Japan Ministry of Defense
+  country: Japan
+  language: en
+  kind: official
+  homepage: https://www.mod.go.jp/en/
+  mode: auto
+- name: India Ministry of External Affairs
+  country: India
+  language: en
+  kind: official
+  homepage: https://www.mea.gov.in/
+  mode: auto
+- name: Australia DFAT
+  country: Australia
+  language: en
+  kind: official
+  homepage: https://www.dfat.gov.au/news
+  mode: auto
+- name: Global Affairs Canada
+  country: Canada
+  language: en
+  kind: official
+  homepage: https://www.canada.ca/en/global-affairs/news.html
+  mode: auto
+- name: German Federal Foreign Office
+  country: Germany
+  language: en
+  kind: official
+  homepage: https://www.auswaertiges-amt.de/en/newsroom/news
+  mode: auto
+- name: France Ministry for Europe and Foreign Affairs
+  country: France
+  language: en
+  kind: official
+  homepage: https://www.diplomatie.gouv.fr/en/
+  mode: auto
+- name: Russian Ministry of Foreign Affairs
+  country: Russia
+  language: en
+  kind: official
+  homepage: https://mid.ru/en/press_service/
+  mode: auto
+- name: World Trade Organization
+  country: Global
+  language: en
+  kind: official
+  homepage: https://www.wto.org/english/news_e/news_e.htm
+  mode: auto
+- name: International Monetary Fund
+  country: Global
+  language: en
+  kind: official
+  homepage: https://www.imf.org/en/News
+  mode: auto
+- name: World Bank
+  country: Global
+  language: en
+  kind: official
+  homepage: https://www.worldbank.org/en/news
+  mode: auto
+- name: International Atomic Energy Agency
+  country: Global
+  language: en
+  kind: official
+  homepage: https://www.iaea.org/newscenter
+  mode: auto
+- name: International Energy Agency
+  country: Global
+  language: en
+  kind: official
+  homepage: https://www.iea.org/news
+  mode: auto
+- name: UN News
+  country: Global
+  language: en
+  kind: official
+  homepage: https://news.un.org/en/
+  mode: auto
+- name: South China Morning Post (SCMP)
+  country: Hong Kong
+  language: en
+  kind: news
+  homepage: https://www.scmp.com/
+  feed: https://www.scmp.com/rss/91/feed/
+  mode: feed
+  source_group: Chinese-language / China-focused
+- name: 联合早报 Lianhe Zaobao · 中国
+  country: Singapore
+  language: zh
+  kind: news
+  homepage: https://www.zaobao.com.sg/realtime/china
+  mode: auto
+  source_group: Chinese-language / China-focused
+- name: 大纪元 Epoch Times · 即时
+  country: Global
+  language: zh
+  kind: news
+  homepage: https://www.epochtimes.com/gb/n24hr.htm
+  feed: https://www.epochtimes.com/gb/n24hr.htm/feed
+  mode: feed
+  source_group: Overseas Chinese media
+- name: 大纪元 Epoch Times · 大陆
+  country: China
+  language: zh
+  kind: news
+  homepage: https://www.epochtimes.com/gb/nsc413.htm
+  feed: https://www.epochtimes.com/gb/nsc413.htm/feed
+  mode: feed
+  source_group: Overseas Chinese media
+- name: 德国之声中文 DW Chinese
+  country: Germany
+  language: zh
+  kind: news
+  homepage: https://www.dw.com/zh/
+  feed: http://rss.dw.de/rdf/rss-chi-all
+  mode: feed
+  source_group: International Chinese service
+- name: 纽约时报中文网 NYT Chinese
+  country: United States
+  language: zh
+  kind: news
+  homepage: https://cn.nytimes.com/
+  feed: https://cn.nytimes.com/rss/
+  mode: feed
+  source_group: International Chinese service
+- name: BBC 中文
+  country: United Kingdom
+  language: zh
+  kind: news
+  homepage: https://www.bbc.com/zhongwen/simp
+  feed: https://feeds.bbci.co.uk/zhongwen/simp/rss.xml
+  mode: feed
+  source_group: International Chinese service
+- name: 美国之音中文 VOA Chinese
+  country: United States
+  language: zh
+  kind: news
+  homepage: https://www.voachinese.com/
+  feed: https://www.voachinese.com/api/zm_yql-vomx-tpeybti
+  mode: feed
+  source_group: International Chinese service
+- name: 美国之音中文 · 台海两岸
+  country: United States
+  language: zh
+  kind: news
+  homepage: https://www.voachinese.com/
+  feed: https://www.voachinese.com/api/zjjtpl-vomx-tpeb_gm
+  mode: feed
+  source_group: International Chinese service
+- name: 美国之音中文 · 南中国海
+  country: United States
+  language: zh
+  kind: news
+  homepage: https://www.voachinese.com/
+  feed: https://www.voachinese.com/api/zbttml-vomx-tpeqigy
+  mode: feed
+  source_group: International Chinese service
+- name: 自由亚洲电台普通话 RFA Mandarin
+  country: United States
+  language: zh
+  kind: news
+  homepage: https://www.rfa.org/mandarin/
+  mode: auto
+  source_group: International Chinese service
+- name: 法国国际广播中文 RFI Chinese
+  country: France
+  language: zh
+  kind: news
+  homepage: https://www.rfi.fr/cn/
+  mode: auto
+  source_group: International Chinese service
+- name: FT中文网 FT Chinese
+  country: United Kingdom
+  language: zh
+  kind: news
+  homepage: https://www.ftchinese.com/
+  feed: http://www.ftchinese.com/rss/feed
+  mode: feed
+  source_group: International Chinese service
+- name: 日经中文网 Nikkei Chinese
+  country: Japan
+  language: zh
+  kind: news
+  homepage: https://cn.nikkei.com/
+  mode: auto
+  source_group: International Chinese service
+- name: 新唐人中文 NTD Chinese
+  country: Global
+  language: zh
+  kind: news
+  homepage: https://www.ntdtv.com/gb/
+  mode: auto
+  source_group: Overseas Chinese media
+- name: 中国数字时代 Chinese CDT
+  country: Global
+  language: zh
+  kind: news
+  homepage: https://chinadigitaltimes.net/chinese/
+  feed: https://chinadigitaltimes.net/chinese/feed
+  mode: feed
+  source_group: Overseas Chinese media
+- name: 香港自由新闻 HKFP
+  country: Hong Kong
+  language: en
+  kind: news
+  homepage: https://hongkongfp.com/
+  feed: https://hongkongfp.com/feed/
+  mode: feed
+  source_group: Hong Kong / Taiwan media
+- name: 明报 Ming Pao
+  country: Hong Kong
+  language: zh
+  kind: news
+  homepage: https://news.mingpao.com/
+  mode: auto
+  source_group: Hong Kong / Taiwan media
+- name: 星岛头条 Sing Tao
+  country: Hong Kong
+  language: zh
+  kind: news
+  homepage: https://www.stheadline.com/
+  mode: auto
+  source_group: Hong Kong / Taiwan media
+- name: The Standard Hong Kong
+  country: Hong Kong
+  language: en
+  kind: news
+  homepage: https://www.thestandard.com.hk/
+  mode: auto
+  source_group: Hong Kong / Taiwan media
+- name: 中央社 CNA Taiwan
+  country: Taiwan
+  language: zh
+  kind: news
+  homepage: https://www.cna.com.tw/
+  mode: auto
+  source_group: Hong Kong / Taiwan media
+- name: 联合新闻网 UDN
+  country: Taiwan
+  language: zh
+  kind: news
+  homepage: https://udn.com/news/index
+  mode: auto
+  source_group: Hong Kong / Taiwan media
+- name: 自由时报 LTN
+  country: Taiwan
+  language: zh
+  kind: news
+  homepage: https://news.ltn.com.tw/
+  mode: auto
+  source_group: Hong Kong / Taiwan media
+- name: Taipei Times
+  country: Taiwan
+  language: en
+  kind: news
+  homepage: https://www.taipeitimes.com/
+  mode: auto
+  source_group: Hong Kong / Taiwan media
+- name: Taiwan News
+  country: Taiwan
+  language: en
+  kind: news
+  homepage: https://www.taiwannews.com.tw/
+  mode: auto
+  source_group: Hong Kong / Taiwan media
+- name: 新华社 Xinhua
+  country: China
+  language: zh
+  kind: news
+  homepage: https://www.news.cn/
+  mode: auto
+  source_group: Mainland China media
+- name: 人民网 People.cn
+  country: China
+  language: zh
+  kind: news
+  homepage: http://www.people.com.cn/
+  mode: auto
+  source_group: Mainland China media
+- name: 中国新闻网 China News Service
+  country: China
+  language: zh
+  kind: news
+  homepage: https://www.chinanews.com.cn/
+  mode: auto
+  source_group: Mainland China media
+- name: 环球网 Huanqiu
+  country: China
+  language: zh
+  kind: news
+  homepage: https://www.huanqiu.com/
+  mode: auto
+  source_group: Mainland China media
+- name: 中国日报中文 China Daily Chinese
+  country: China
+  language: zh
+  kind: news
+  homepage: https://cn.chinadaily.com.cn/
+  mode: auto
+  source_group: Mainland China media
+- name: 财新 Caixin
+  country: China
+  language: zh
+  kind: news
+  homepage: https://www.caixin.com/
+  mode: auto
+  source_group: Mainland China media
+- name: ABC 中文
+  country: Australia
+  language: zh
+  kind: news
+  homepage: https://www.abc.net.au/chinese
+  mode: auto
+  source_group: International Chinese service
+- name: SBS 中文
+  country: Australia
+  language: zh
+  kind: news
+  homepage: https://www.sbs.com.au/language/chinese/zh-hans
+  mode: auto
+  source_group: International Chinese service

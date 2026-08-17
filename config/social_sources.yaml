@@ -1,0 +1,39 @@
+# 社交“苗头层”配置。
+# 原则：苗头可以在没有媒体/官方确认时直接展示，Confidence 只描述证据强度，不是入池门槛。
+
+# 每个查询每天只取少量最新结果，避免又变成“信息垃圾场”。
+max_per_query: 20
+retention_days: 14
+
+# 这些关键词会与手动 Run workflow 里输入的 query 合并。
+# 建议后续逐渐替换成“项目名/矿山名/港口名/企业名/地点名”而不是无限扩展泛关键词。
+queries:
+  - 'China OR Chinese OR Beijing OR PRC'
+  - '中国 OR 中资 OR 中国企业 OR 中国员工 OR 华人'
+  - 'Huawei OR BYD OR CATL OR COSCO OR Zijin OR CPEC OR Gwadar'
+  - 'Taiwan OR "South China Sea" OR PLA'
+
+# Telegram：这里写公开频道 username（不带 https://t.me/）。
+# 配置 TG_API_ID / TG_API_HASH / TG_SESSION_STRING 后才会启用。
+telegram_channels: []
+# 示例：
+# telegram_channels:
+#   - example_osint_channel
+
+# RSS / RSSHub / 其他桥接器。
+# 这是小红书/抖音/微博的低维护接入口之一：如果你已有 RSSHub 或其他桥接 URL，直接写这里。
+# 每个条目都可以标记 platform，结果会进入“苗头层”。
+rss_feeds: []
+# 示例：
+# rss_feeds:
+#   - name: 某小红书账号
+#     platform: xiaohongshu
+#     url: https://你的RSSHub/xiaohongshu/user/USER_ID
+
+# 可选：可信账号白名单。命中后只提高 Confidence，不会决定是否展示。
+trusted_accounts:
+  x: []
+  telegram: []
+  xiaohongshu: []
+  douyin: []
+  weibo: []

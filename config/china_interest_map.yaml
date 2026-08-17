@@ -1,0 +1,307 @@
+# 可编辑的“中国海外利益/关联背景”种子库。
+# 它只帮助判断“是否值得进入广义涉华新闻池”，不用于判定利弊。
+profiles:
+  United States:
+    aliases: [USA, US, U.S., United States of America]
+    interests: [中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海, 南海, 生物科技, 数据与网络安全]
+    entities: [Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile]
+  European Union:
+    aliases: [EU, Europe]
+    interests: [中欧关系, 电动汽车, 电池, 反补贴调查, 投资审查, 关键原材料, 供应链, 出口管制, 数据规则, 对华外交]
+    entities: [BYD, CATL, SAIC, Geely, Huawei, ZTE, COSCO]
+  Hungary:
+    aliases: [Hungary, Hungarian, Budapest, Magyarország]
+    interests: [中匈关系, 新能源汽车, 电池产业, 中国制造业投资, 中东欧合作, 欧盟对华政策, 基础设施]
+    entities: [BYD Szeged, CATL Debrecen, Budapest-Belgrade railway, Bank of China]
+  Serbia:
+    aliases: [Serbia, Serbian, Belgrade]
+    interests: [中塞关系, 基础设施, 铁路, 矿业, 钢铁, 能源, 电信]
+    entities: [Budapest-Belgrade railway, Zijin Mining, HBIS Serbia, Huawei]
+  Germany:
+    aliases: [Germany, Deutschland]
+    interests: [中德经贸, 汽车产业, 机械制造, 对华投资, 欧盟对华政策, 半导体, 化工]
+    entities: [Volkswagen China exposure, BASF China exposure, CATL, Huawei]
+  France:
+    aliases: [France]
+    interests: [中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车]
+    entities: [Airbus China exposure, EDF cooperation, CMA CGM China exposure]
+  Italy:
+    aliases: [Italy, Italia]
+    interests: [中意经贸, 港口, 制造业, 欧盟对华政策, 一带一路后续合作]
+    entities: [Pirelli China links, COSCO Mediterranean exposure]
+  Spain:
+    aliases: [Spain, España]
+    interests: [中西经贸, 港口物流, 新能源, 欧盟对华政策, 农产品]
+    entities: [COSCO Spain exposure, Chinese renewable investment]
+  Netherlands:
+    aliases: [Netherlands, Holland]
+    interests: [半导体设备, 光刻机, 出口管制, 港口物流, 欧盟对华政策]
+    entities: [ASML, Port of Rotterdam, COSCO]
+  Belgium:
+    aliases: [Belgium]
+    interests: [欧盟机构, 港口物流, 中欧关系, 投资审查]
+    entities: [Port of Antwerp-Bruges, EU institutions]
+  Poland:
+    aliases: [Poland]
+    interests: [中东欧合作, 欧盟对华政策, 铁路物流, 乌克兰局势外溢, 电动汽车]
+    entities: [China-Europe Railway Express]
+  Czech Republic:
+    aliases: [Czechia, Czech Republic]
+    interests: [中捷关系, 欧盟对华政策, 半导体, 台海议题, 投资审查]
+    entities: [Huawei, ZTE]
+  Slovakia:
+    aliases: [Slovakia]
+    interests: [中东欧合作, 汽车产业, 电池与新能源, 欧盟对华政策]
+    entities: [Chinese EV and battery investment]
+  Romania:
+    aliases: [Romania]
+    interests: [黑海安全, 欧盟对华政策, 核能, 基础设施, 电信]
+    entities: [Huawei, Chinese infrastructure contractors]
+  Bulgaria:
+    aliases: [Bulgaria]
+    interests: [中东欧合作, 黑海, 欧盟对华政策, 基础设施]
+    entities: [Chinese infrastructure investment]
+  Greece:
+    aliases: [Greece]
+    interests: [港口, 航运, 中欧物流, 欧盟对华政策, 能源]
+    entities: [COSCO Piraeus Port]
+  United Kingdom:
+    aliases: [UK, Britain, Great Britain]
+    interests: [中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全]
+    entities: [Huawei, CGN, HSBC China exposure, TikTok]
+  Russia:
+    aliases: [Russian Federation, Россия]
+    interests: [中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务, 物流]
+    entities: [Power of Siberia, Yamal LNG China exposure, China-Russia border trade]
+  Ukraine:
+    aliases: [Ukraine]
+    interests: [俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建]
+    entities: [Chinese trade exposure]
+  Kazakhstan:
+    aliases: [Kazakhstan]
+    interests: [中亚, 一带一路, 油气, 铀矿, 跨境铁路, 霍尔果斯, 关键矿产]
+    entities: [Khorgos, China-Europe Railway Express, CNPC Kazakhstan]
+  Uzbekistan:
+    aliases: [Uzbekistan]
+    interests: [中亚, 天然气, 新能源, 基础设施, 工业投资, 一带一路]
+    entities: [China-Central Asia gas links, Chinese solar investment]
+  Kyrgyzstan:
+    aliases: [Kyrgyzstan]
+    interests: [中亚, 边境, 中吉乌铁路, 社会稳定, 中国投资]
+    entities: [China-Kyrgyzstan-Uzbekistan railway]
+  Tajikistan:
+    aliases: [Tajikistan]
+    interests: [中亚安全, 边境, 矿业, 基础设施, 反恐]
+    entities: [Chinese mining and infrastructure investment]
+  Georgia:
+    aliases: [Georgia]
+    interests: [中间走廊, 黑海港口, 自贸协定, 一带一路]
+    entities: [Middle Corridor, Anaklia-related logistics]
+  Azerbaijan:
+    aliases: [Azerbaijan]
+    interests: [能源, 中间走廊, 里海物流, 中亚联通]
+    entities: [Middle Corridor]
+  Japan:
+    aliases: [Japan, 日本]
+    interests: [中日关系, 东海, 台海, 半导体设备, 出口管制, 钓鱼岛/尖阁诸岛, 供应链, 汽车]
+    entities: [Tokyo Electron, Rapidus, Japanese semiconductor controls]
+  South Korea:
+    aliases: [Republic of Korea, Korea, ROK]
+    interests: [中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策]
+    entities: [Samsung China exposure, SK Hynix China fabs, LG Energy Solution]
+  North Korea:
+    aliases: [DPRK, Democratic People's Republic of Korea]
+    interests: [朝鲜半岛安全, 核问题, 中朝关系, 边境贸易]
+    entities: [China-DPRK border trade]
+  India:
+    aliases: [India]
+    interests: [中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作]
+    entities: [Xiaomi India, Vivo India, Oppo India, BYD India, Huawei]
+  Pakistan:
+    aliases: [Pakistan, Pakistani, Islamabad, Gwadar]
+    interests: [中巴经济走廊, 瓜达尔港, 中国公民安全, 电力, 基础设施, 反恐, 印巴关系]
+    entities: [CPEC, Gwadar Port, Chinese power projects]
+  Bangladesh:
+    aliases: [Bangladesh]
+    interests: [基础设施, 港口, 电力, 服装供应链, 一带一路, 印度洋]
+    entities: [Padma-related Chinese contractors, Payra infrastructure]
+  Sri Lanka:
+    aliases: [Sri Lanka]
+    interests: [印度洋, 港口, 债务, 基础设施, 中印竞争]
+    entities: [Hambantota Port, Colombo Port City, China Merchants Port]
+  Nepal:
+    aliases: [Nepal]
+    interests: [中尼关系, 西藏边境, 基础设施, 水电, 中印竞争]
+    entities: [Trans-Himalayan connectivity]
+  Maldives:
+    aliases: [Maldives]
+    interests: [印度洋, 中印竞争, 旅游, 基础设施]
+    entities: [Chinese infrastructure projects]
+  Singapore:
+    aliases: [Singapore]
+    interests: [金融, 航运, 东盟, 中美竞争, 科技与数据, 中国企业海外总部]
+    entities: [Chinese tech regional headquarters, Singapore port]
+  Malaysia:
+    aliases: [Malaysia]
+    interests: [南海, 半导体供应链, 东海岸铁路, 港口, 棕榈油, 东盟]
+    entities: [East Coast Rail Link, China Communications Construction Company]
+  Indonesia:
+    aliases: [Indonesia]
+    interests: [镍矿, 雅万高铁, 电池, 电动汽车, 南海周边, 矿业, 东盟]
+    entities: [Jakarta-Bandung High-Speed Railway, Tsingshan, CATL Indonesia]
+  Thailand:
+    aliases: [Thailand]
+    interests: [电动汽车, 中泰铁路, 旅游, 东盟, 供应链]
+    entities: [BYD Thailand, Great Wall Motor Thailand, China-Thailand railway]
+  Vietnam:
+    aliases: [Vietnam]
+    interests: [南海, 制造业供应链, 中越边境, 铁路, 稀土, 东盟]
+    entities: [China-Vietnam rail connectivity, rare earth supply]
+  Philippines:
+    aliases: [Philippines]
+    interests: [南海, 美菲同盟, 海警与军事基地, 矿产, 中菲经贸]
+    entities: [South China Sea disputes]
+  Cambodia:
+    aliases: [Cambodia]
+    interests: [中柬关系, 基础设施, 港口, 澜湄合作, 东盟]
+    entities: [Sihanoukville investment, Ream Naval Base discussion]
+  Laos:
+    aliases: [Laos, Lao PDR]
+    interests: [中老铁路, 电力, 债务, 矿业, 澜湄合作]
+    entities: [China-Laos Railway]
+  Myanmar:
+    aliases: [Myanmar, Burma]
+    interests: [中缅经济走廊, 油气管道, 皎漂港, 边境安全, 武装冲突, 稀土]
+    entities: [Kyaukpyu Port, China-Myanmar Economic Corridor, oil and gas pipelines]
+  Australia:
+    aliases: [Australia]
+    interests: [中澳关系, 铁矿石, 锂矿, 关键矿产, AUKUS, 南太平洋, 农产品]
+    entities: [Pilbara iron ore China exposure, lithium supply chains]
+  New Zealand:
+    aliases: [New Zealand]
+    interests: [中新增贸, 南太平洋, 农产品, 安全合作]
+    entities: [China-New Zealand FTA]
+  Canada:
+    aliases: [Canada]
+    interests: [中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品]
+    entities: [Chinese mining investment reviews, Huawei]
+  Mexico:
+    aliases: [Mexico]
+    interests: [近岸制造, 北美供应链, 中国汽车与零部件投资, USMCA, 关税]
+    entities: [Chinese EV manufacturers Mexico, Chinese industrial parks]
+  Brazil:
+    aliases: [Brazil, Brasil]
+    interests: [金砖, 大豆, 铁矿石, 石油, 电力, 新能源, 电动汽车, 拉美合作]
+    entities: [BYD Brazil, State Grid Brazil, COSBAN, Vale China exposure]
+  Argentina:
+    aliases: [Argentina]
+    interests: [锂矿, 粮食, 金融合作, 太空观测设施, 一带一路, 金砖相关]
+    entities: [Chinese lithium investment, Neuquén space station]
+  Chile:
+    aliases: [Chile]
+    interests: [铜, 锂, 自贸协定, 港口, 新能源]
+    entities: [Chinese mining and grid investment]
+  Peru:
+    aliases: [Peru, Peruvian, Lima, Chancay]
+    interests: [铜矿, 钱凯港, 自贸协定, 基础设施, 矿业政策]
+    entities: [Chancay Port, COSCO Shipping, MMG Las Bambas, Chinese copper investment]
+  Colombia:
+    aliases: [Colombia]
+    interests: [基础设施, 能源, 拉美外交, 电动公交, 贸易]
+    entities: [Chinese infrastructure contractors]
+  Ecuador:
+    aliases: [Ecuador]
+    interests: [能源, 水电, 矿业, 自贸协定, 债务]
+    entities: [Chinese hydropower and mining projects]
+  Venezuela:
+    aliases: [Venezuela]
+    interests: [石油, 金融, 制裁, 中拉关系]
+    entities: [CNPC Venezuela exposure]
+  Panama:
+    aliases: [Panama]
+    interests: [巴拿马运河, 港口, 航运, 中美竞争, 对华外交]
+    entities: [Panama Canal, Chinese port and logistics interests]
+  Cuba:
+    aliases: [Cuba]
+    interests: [中美关系, 加勒比, 电信, 债务, 政治合作]
+    entities: [Chinese telecom equipment]
+  Saudi Arabia:
+    aliases: [Saudi Arabia]
+    interests: [石油, 人民币结算讨论, 新能源, 中东外交, 炼化, 数字经济]
+    entities: [Sinopec, Aramco-China projects, Huawei]
+  United Arab Emirates:
+    aliases: [UAE, United Arab Emirates]
+    interests: [港口, 金融, 人工智能, 电信, 中东物流, 能源]
+    entities: [COSCO Abu Dhabi, Huawei, Chinese AI and cloud investment]
+  Iran:
+    aliases: [Iran]
+    interests: [能源, 制裁, 核问题, 中东安全, 中伊合作]
+    entities: [China-Iran energy trade]
+  Israel:
+    aliases: [Israel]
+    interests: [科技, 港口, 中东安全, 中美科技竞争, 基础设施]
+    entities: [Haifa port China-related discussions, Israeli tech investment]
+  Turkey:
+    aliases: [Türkiye, Turkey]
+    interests: [中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题]
+    entities: [Middle Corridor, Chinese EV investment]
+  Egypt:
+    aliases: [Egypt]
+    interests: [苏伊士运河, 中东非洲物流, 基础设施, 新行政首都, 产业园]
+    entities: [Suez Canal Economic Zone, TEDA Suez]
+  Ethiopia:
+    aliases: [Ethiopia]
+    interests: [铁路, 工业园, 电信, 非洲之角, 中国企业与人员安全]
+    entities: [Addis-Djibouti Railway, Chinese industrial parks]
+  Kenya:
+    aliases: [Kenya]
+    interests: [蒙内铁路, 港口, 东非物流, 债务, 电信]
+    entities: [Mombasa-Nairobi Standard Gauge Railway, Huawei]
+  Tanzania:
+    aliases: [Tanzania]
+    interests: [港口, 矿业, 铁路, 东非合作]
+    entities: [Bagamoyo port discussions, Chinese mining investment]
+  Zambia:
+    aliases: [Zambia]
+    interests: [铜矿, 债务, 电力, 中国矿企]
+    entities: [CNMC Zambia, Chinese copper mining]
+  Democratic Republic of the Congo:
+    aliases: [DRC, Congo-Kinshasa, Democratic Republic of Congo]
+    interests: [铜钴矿, 关键矿产, 中国矿企, 基础设施换资源]
+    entities: [CMOC, Sicomines, Zijin Mining, cobalt supply]
+  South Africa:
+    aliases: [South Africa]
+    interests: [金砖, 矿产, 汽车, 电力, 中非关系]
+    entities: [Chinese auto and energy investment]
+  Nigeria:
+    aliases: [Nigeria]
+    interests: [铁路, 港口, 电信, 石油, 中资企业与人员安全]
+    entities: [CCECC, Huawei, Lekki-related Chinese investment]
+  Ghana:
+    aliases: [Ghana]
+    interests: [矿业, 基础设施, 电力, 中国企业]
+    entities: [Chinese mining activity]
+  Morocco:
+    aliases: [Morocco]
+    interests: [磷矿, 电动汽车供应链, 北非制造, 港口]
+    entities: [Chinese battery material investment]
+  Algeria:
+    aliases: [Algeria]
+    interests: [能源, 基础设施, 北非, 中国工程企业]
+    entities: [Chinese construction contractors]
+  Zimbabwe:
+    aliases: [Zimbabwe]
+    interests: [锂矿, 铂族金属, 中国矿业投资]
+    entities: [Chinese lithium investment]
+  Rwanda:
+    aliases: [Rwanda]
+    interests: [非洲数字经济, 基础设施, 中非合作]
+    entities: [Huawei]
+  NATO:
+    aliases: [NATO]
+    interests: [对华战略定位, 印太伙伴, 军事安全, 网络安全, 关键基础设施]
+    entities: [NATO China policy]
+  Global:
+    aliases: [Global, International]
+    interests: [全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空, 网络, 人工智能, 生物安全]
+    entities: [WTO, IMF, World Bank, IAEA, IEA, UN]

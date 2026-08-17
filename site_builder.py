@@ -1,0 +1,103 @@
+from __future__ import annotations
+
+import csv
+import json
+import re
+from pathlib import Path
+
+
+def _dump(path: Path, obj, pretty=False):
+    path.write_text(json.dumps(obj, ensure_ascii=False, indent=2 if pretty else None, separators=None if pretty else (',', ':')), encoding='utf-8')
+
+
+def _tier(name: str, tier_cfg: dict | None) -> int:
+    tier_cfg = tier_cfg or {}
+    for n in (1, 2, 3):
+        for pat in tier_cfg.get(f'tier{n}_patterns', []) or []:
+            if str(pat).lower() in (name or '').lower():
+                return n
+    return int(tier_cfg.get('default_tier', 3) or 3)
+
+
+def build_site(root: Path, articles: list[dict], signals: list[dict], events: list[dict], latest: list[dict], status: dict, sources: list[dict], platform_status: list[dict], tier_cfg: dict | None = None):
+    site = root / 'site'
+    data = site / 'data'
+    data.mkdir(parents=True, exist_ok=True)
+    site.mkdir(parents=True, exist_ok=True)
+
+    _dump(data / 'latest.json', latest)
+    _dump(data / 'events.json', events[:2500])
+    _dump(data / 'articles.json', articles[:12000])
+    _dump(data / 'signals.json', signals[:6000])
+    _dump(data / 'run_status.json', status, pretty=True)
+
+    kinds, groups, langs = {}, {}, {}
+    source_catalog = []
+    for s in sources:
+        k = s.get('kind', 'news')
+        g = s.get('source_group') or 'General / 通用'
+        lang = s.get('language') or 'unknown'
+        kinds[k] = kinds.get(k, 0) + 1
+        groups[g] = groups.get(g, 0) + 1
+        langs[lang] = langs.get(lang, 0) + 1
+        source_catalog.append({
+            'name': s.get('name'), 'country': s.get('country'), 'language': lang, 'kind': k,
+            'group': g, 'tier': _tier(s.get('name', ''), tier_cfg), 'mode': s.get('mode', 'auto'),
+            'homepage': s.get('homepage', ''), 'feed': s.get('feed', ''),
+        })
+    source_catalog.sort(key=lambda x: (x['group'], x['tier'], x['name'] or ''))
+    _dump(data / 'sources.json', source_catalog)
+    _dump(data / 'source_summary.json', {
+        'total': len(sources), 'kinds': kinds, 'groups': groups, 'languages': langs,
+        'platform_status': platform_status, 'translation': status.get('translation') or {},
+    }, pretty=True)
+
+    with (data / 'latest.csv').open('w', encoding='utf-8-sig', newline='') as f:
+        w = csv.writer(f)
+        w.writerow(['最后出现/Last seen', '状态/Status', '分类/Category', '优先级/Priority', '可信度/Confidence', '涉华关联/China relevance', '事件中文/Chinese title', 'Title EN', '原始标题/Original', '国家/地区', '来源数/Sources', '新闻数/News', '社交数/Social', '平台/Platforms', '关联实体/Entities', '中国关联说明', 'China relevance note'])
+        for e in latest:
+            w.writerow([
+                e.get('last_seen'), e.get('status'), e.get('category'), e.get('priority_score'), e.get('confidence_score'), e.get('china_relevance_score'),
+                e.get('title_zh') or e.get('title'), e.get('title_en') or e.get('title'), e.get('title_original') or e.get('title'),
+                ', '.join(e.get('countries') or []), e.get('source_count'), e.get('news_count'), e.get('social_count'), ', '.join(e.get('platforms') or []),
+                ', '.join(e.get('entities') or []), e.get('reason_zh') or e.get('reason'), e.get('reason_en') or '',
+            ])
+
+    with (data / 'signals.csv').open('w', encoding='utf-8-sig', newline='') as f:
+        w = csv.writer(f)
+        w.writerow(['时间/Time', '平台/Platform', '作者/Author', '内容/Content', '涉华类型/Relation', '优先级/Priority', '可信度/Confidence', '关联原因/Reason', '链接/URL'])
+        for r in signals:
+            w.writerow([r.get('published_at') or r.get('collected_at'), r.get('platform'), r.get('author'), r.get('text'), r.get('relation'), r.get('priority_score'), r.get('confidence'), r.get('reason'), r.get('url')])
+
+    (site / '.nojekyll').write_text('', encoding='utf-8')
+    (site / 'index.html').write_text(SITE_HTML, encoding='utf-8')
+
+
+SITE_HTML = r'''<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>全球涉华早期信号 / Global China Early Signals</title>
+<style>
+:root{--bg:#0b1020;--panel:#11182b;--card:#151e34;--line:#27324a;--ink:#f4f7fb;--muted:#9aa8bd;--blue:#66a3ff;--red:#ff6b77;--orange:#ffad5a;--green:#5bd6a2;--yellow:#f4d35e;--chip:#202c46;--paper:#f6f7f9;--paperink:#1f2937}*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#09101f,#0d1322 36%,#101729);color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif;min-height:100vh}.wrap{max-width:1320px;margin:auto;padding:0 18px}header{padding:26px 0 17px;border-bottom:1px solid #202a40;background:rgba(8,13,26,.9);backdrop-filter:blur(10px);position:sticky;top:0;z-index:20}.brand{display:flex;gap:14px;align-items:center;justify-content:space-between}.brand h1{font-size:25px;margin:0;letter-spacing:.2px}.brand h1 small{display:block;font-size:14px;color:#8fa6c6;margin-top:4px;font-weight:500}.brand p{margin:7px 0 0;color:var(--muted);font-size:12px;line-height:1.55}.pill{border:1px solid var(--line);background:#0f1728;border-radius:999px;padding:7px 11px;color:#cbd5e1;font-size:12px}.tabs{display:flex;gap:6px;margin-top:17px;overflow:auto}.tab{border:0;background:transparent;color:#a8b4c8;padding:9px 12px;border-radius:9px;cursor:pointer;white-space:nowrap}.tab.active{background:#1b2944;color:white}.summary{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:18px 0}.metric{background:linear-gradient(145deg,#121c31,#11192b);border:1px solid var(--line);border-radius:14px;padding:15px}.metric strong{display:block;font-size:26px}.metric span{font-size:11px;color:var(--muted);line-height:1.4}.notice{background:#111a2d;border:1px solid var(--line);border-radius:12px;padding:12px 14px;color:#bac5d6;font-size:12px;line-height:1.65}.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}select,input,a.btn{background:#111a2d;color:#e6ecf5;border:1px solid var(--line);border-radius:9px;padding:9px 11px;text-decoration:none}input{min-width:300px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:12px 0 28px}.event{background:linear-gradient(155deg,#141e34,#11192b);border:1px solid var(--line);border-radius:15px;padding:16px;box-shadow:0 10px 30px rgba(0,0,0,.12)}.event:hover{border-color:#3b4a69}.topline{display:flex;gap:7px;align-items:center;flex-wrap:wrap}.tag{font-size:11px;padding:4px 7px;border-radius:999px;background:var(--chip);color:#c7d2e4}.tag.signal{background:#4a3216;color:#ffd08a}.tag.hot{background:#4d1f28;color:#ffb3bb}.tag.ok{background:#15382f;color:#9df0cc}.event h2{font-size:18px;line-height:1.48;margin:10px 0 3px}.event .title-en{font-size:13px;line-height:1.48;color:#91a7c8;margin:0 0 9px}.meta{font-size:11px;color:var(--muted);line-height:1.55}.reason{font-size:13px;line-height:1.55;color:#d0d9e6;margin:9px 0 2px}.reason-en{font-size:11px;line-height:1.5;color:#8fa1bb;margin:0 0 8px}.scores{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:12px 0}.scoreline{font-size:11px;color:#aab6c9}.bar{height:5px;border-radius:9px;background:#25304a;margin-top:6px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,#477dff,#6db4ff)}.bar.conf i{background:linear-gradient(90deg,#4cae86,#6ee7b7)}.chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px}.chip{font-size:11px;background:#1b263e;border:1px solid #2a3855;color:#b7c3d6;border-radius:999px;padding:4px 7px}.evidence{border-top:1px solid #25304a;margin-top:12px;padding-top:10px}.evidence summary{cursor:pointer;color:#9ec0ff;font-size:12px}.evi{padding:8px 0;border-bottom:1px dashed #263148;font-size:12px;line-height:1.5}.evi a{color:#8fb7ff;text-decoration:none}.source-type{color:#8c9ab0}.hidden{display:none!important}.paper{background:var(--paper);color:var(--paperink);border-radius:14px;border:1px solid #dde2ea;overflow:auto;margin:12px 0 28px;max-height:72vh}table{border-collapse:collapse;width:100%;min-width:1120px}th,td{padding:9px 10px;border-bottom:1px solid #e7eaf0;text-align:left;vertical-align:top;font-size:12px;line-height:1.45}th{position:sticky;top:0;background:#eef1f5;z-index:2}.paper a{color:#1f5fae}.status-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0 28px}.status-card{background:#121b2f;border:1px solid var(--line);border-radius:12px;padding:13px}.status-card b{font-size:13px}.status-card p{font-size:12px;color:var(--muted);line-height:1.55;margin:7px 0 0}.status-card.bad{border-color:#66404a}.status-card.warn{border-color:#735426}.source-toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.footer{color:#7d8ba1;text-align:center;font-size:11px;padding:15px 0 35px}@media(max-width:900px){.summary{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}.status-grid{grid-template-columns:1fr 1fr}}@media(max-width:560px){header{position:static}.brand{align-items:flex-start}.summary{grid-template-columns:1fr 1fr}.metric{padding:12px}.metric strong{font-size:22px}.wrap{padding:0 10px}.event{padding:13px}.status-grid{grid-template-columns:1fr}input{min-width:100%;width:100%}}
+</style></head><body>
+<header><div class="wrap"><div class="brand"><div><h1>全球涉华早期信号 <small>Global China Early Signals</small></h1><p>广泛采集 → 涉华筛选 → 事件聚类 → 少量展示。苗头无需等待媒体确认；优先级与可信度分开。<br>Wide collection → China relevance → event clustering → signal-first display. Early signals do not require later media confirmation.</p></div><span class="pill" id="lastRun">读取中 / Loading…</span></div><div class="tabs"><button class="tab active" data-view="focus">今日重点 / Focus</button><button class="tab" data-view="signals">苗头 / Early Signals</button><button class="tab" data-view="events">全部事件 / Events</button><button class="tab" data-view="raw">原始资料 / Raw</button><button class="tab" data-view="sources">来源库 / Sources</button><button class="tab" data-view="status">系统状态 / Status</button></div></div></header>
+<main class="wrap"><div class="summary"><div class="metric"><strong id="mFocus">-</strong><span>24小时重点事件<br>24h focus events</span></div><div class="metric"><strong id="mSignal">-</strong><span>纯社交苗头<br>Social-only signals</span></div><div class="metric"><strong id="mHigh">-</strong><span>高优先级 ≥75<br>Priority ≥75</span></div><div class="metric"><strong id="mMulti">-</strong><span>多来源事件<br>Multi-source events</span></div><div class="metric"><strong id="mSources">-</strong><span>新闻巡检来源<br>Monitored sources</span></div></div><div class="notice" id="notice">正在读取最近一次运行状态 / Loading latest run…</div><div class="toolbar"><select id="cat"><option value="">全部类别 / All categories</option></select><select id="statusFilter"><option value="">全部状态 / All status</option></select><input id="q" type="search" placeholder="搜事件 / Search events, entities, countries"><a class="btn" href="data/latest.csv">重点CSV / Focus CSV</a><a class="btn" href="data/signals.csv">苗头CSV / Signals CSV</a></div>
+<section id="focusView" class="view"><div id="focusGrid" class="grid"></div></section>
+<section id="signalsView" class="view hidden"><div id="signalGrid" class="grid"></div></section>
+<section id="eventsView" class="view hidden"><div id="eventGrid" class="grid"></div></section>
+<section id="rawView" class="view hidden"><div class="paper"><table><thead><tr><th>时间 / Time</th><th>类型 / Type</th><th>来源/平台 / Source</th><th>内容 / Content</th><th>涉华关系 / Relation</th><th>链接 / URL</th></tr></thead><tbody id="rawBody"></tbody></table></div></section>
+<section id="sourcesView" class="view hidden"><div class="source-toolbar"><input id="sourceQ" type="search" placeholder="搜索媒体/国家/语言 / Search source, country, language"><select id="sourceGroup"><option value="">全部来源组 / All groups</option></select></div><div class="notice" id="sourceNote">来源广度不等于可信度。Tier 只用于排序；不同立场来源可同时作为苗头。 / Breadth is not the same as reliability. Tier affects ranking only.</div><div class="paper"><table><thead><tr><th>来源 / Source</th><th>地区 / Region</th><th>语言 / Lang</th><th>组 / Group</th><th>Tier</th><th>采集 / Mode</th><th>入口 / Link</th></tr></thead><tbody id="sourceBody"></tbody></table></div></section>
+<section id="statusView" class="view hidden"><div id="statusGrid" class="status-grid"></div></section><div class="footer">Global China Early Signals · GitHub Actions + GitHub Pages</div></main>
+<script>
+let D={latest:[],events:[],articles:[],signals:[],sources:[],status:{},summary:{}}; const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); const dt=s=>{let d=new Date(s);return isNaN(d)?'':d.toLocaleString('zh-CN',{hour12:false})};
+function tagClass(s){return s==='苗头'||s==='多源苗头'?'signal':(s==='官方信号'?'ok':(s==='持续发展'?'hot':''))}
+function card(e){let ev=(e.evidence||[]).slice(0,12).map(x=>`<div class="evi"><span class="source-type">${esc(x.origin_type==='social'?(x.platform||'社交 / Social'):(x.source_kind||'新闻 / News'))}</span> · ${esc(x.source||x.author||'')}<br>${esc(x.title||'')} ${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">原始链接 / Source</a>`:''}</div>`).join('');let chips=[...(e.countries||[]),...(e.entities||[]).slice(0,5)].slice(0,9).map(x=>`<span class="chip">${esc(x)}</span>`).join('');let zh=e.title_zh||e.title||'', en=e.title_en||''; if(en===zh)en=''; return `<article class="event"><div class="topline"><span class="tag ${tagClass(e.status)}">${esc(e.status)}</span><span class="tag">${esc(e.category)}</span><span class="tag">${esc(e.severity)}</span><span class="tag">${esc(dt(e.last_seen))}</span></div><h2>${esc(zh)}</h2>${en?`<div class="title-en">${esc(en)}</div>`:''}<div class="meta">新闻 / News ${e.news_count||0} · 社交 / Social ${e.social_count||0} · 独立来源 / Sources ${e.source_count||0}${(e.platforms||[]).length?' · '+esc(e.platforms.join(' / ')):''}</div>${(e.reason_zh||e.reason)?`<div class="reason">中国关联：${esc(e.reason_zh||e.reason)}</div>`:''}${e.reason_en?`<div class="reason-en">China relevance: ${esc(e.reason_en)}</div>`:''}<div class="scores"><div><div class="scoreline">优先级 / Priority ${e.priority_score||0}</div><div class="bar"><i style="width:${e.priority_score||0}%"></i></div></div><div><div class="scoreline">可信度 / Confidence ${e.confidence_score||0}</div><div class="bar conf"><i style="width:${e.confidence_score||0}%"></i></div></div></div><div class="chips">${chips}</div><details class="evidence"><summary>展开原始证据 / Evidence (${(e.evidence||[]).length})</summary>${ev}</details></article>`}
+function filterRows(rows){let c=document.getElementById('cat').value,s=document.getElementById('statusFilter').value,q=document.getElementById('q').value.trim().toLowerCase();return rows.filter(e=>(!c||e.category===c)&&(!s||e.status===s)&&(!q||`${e.title} ${e.title_zh} ${e.title_en} ${e.reason} ${e.reason_en} ${(e.entities||[]).join(' ')} ${(e.countries||[]).join(' ')}`.toLowerCase().includes(q)))}
+function render(){document.getElementById('focusGrid').innerHTML=filterRows(D.latest).map(card).join('')||'<div class="notice">当前条件没有重点事件 / No focus events under current filters.</div>';let sig=filterRows(D.events.filter(e=>e.social_count>0&&e.news_count===0));document.getElementById('signalGrid').innerHTML=sig.map(card).join('')||'<div class="notice">暂无苗头，或社交连接器未取得数据 / No social-only signals.</div>';document.getElementById('eventGrid').innerHTML=filterRows(D.events).slice(0,300).map(card).join('')||'<div class="notice">暂无事件 / No events.</div>'}
+function raw(){let rows=[...D.signals.map(x=>({...x,_t:'苗头 / Signal',_src:`${x.platform||''} · ${x.author||''}`,_content:x.text})),...D.articles.map(x=>({...x,_t:'新闻 / News',_src:x.source,_content:x.title}))].sort((a,b)=>new Date(b.published_at||b.collected_at)-new Date(a.published_at||a.collected_at)).slice(0,2000);document.getElementById('rawBody').innerHTML=rows.map(r=>`<tr><td>${esc(dt(r.published_at||r.collected_at))}</td><td>${esc(r._t)}</td><td>${esc(r._src)}</td><td>${esc(r._content)}</td><td>${esc(r.relation||'')} ${r.confidence?`(${r.confidence})`:''}</td><td>${r.url?`<a href="${esc(r.url)}" target="_blank" rel="noopener">打开 / Open</a>`:''}</td></tr>`).join('')}
+function statuses(){let ps=D.summary.platform_status||[];let tr=D.summary.translation||{};if(Object.keys(tr).length)ps=[...ps,{platform:'中英翻译 / Bilingual',status:tr.failed>0?'partial':'ok',items:tr.translated||0,detail:`provider=${tr.provider||''}; translated=${tr.translated||0}; cache=${tr.cache_hits||0}; failed=${tr.failed||0}`}];document.getElementById('statusGrid').innerHTML=ps.map(x=>{let cls=['blocked','error','failed'].includes(x.status)?'bad':(['empty','partial','not_configured'].includes(x.status)?'warn':'');return `<div class="status-card ${cls}"><b>${esc(x.platform||x.source||'数据源')} · ${esc(x.status||'unknown')}</b><p>${esc(typeof x.detail==='string'?x.detail:JSON.stringify(x.detail||''))}${x.reason_code?`<br>原因 / Reason: ${esc(x.reason_code)}`:''}${x.items!=null?`<br>本轮获取 / Items: ${x.items}`:''}</p></div>`}).join('')||'<div class="notice">暂无社交连接器状态 / No connector status.</div>'}
+function sourceRender(){let q=document.getElementById('sourceQ').value.trim().toLowerCase(),g=document.getElementById('sourceGroup').value;let rows=D.sources.filter(s=>(!g||s.group===g)&&(!q||`${s.name} ${s.country} ${s.language} ${s.group}`.toLowerCase().includes(q)));document.getElementById('sourceBody').innerHTML=rows.map(s=>`<tr><td><b>${esc(s.name)}</b></td><td>${esc(s.country||'')}</td><td>${esc(s.language||'')}</td><td>${esc(s.group||'')}</td><td>${esc(s.tier)}</td><td>${esc(s.mode||'')}</td><td>${s.homepage?`<a href="${esc(s.homepage)}" target="_blank" rel="noopener">网站 / Site</a>`:''}${s.feed?` · <a href="${esc(s.feed)}" target="_blank" rel="noopener">RSS</a>`:''}</td></tr>`).join('')}
+function sourceInit(){let groups=[...new Set(D.sources.map(x=>x.group).filter(Boolean))].sort();document.getElementById('sourceGroup').innerHTML='<option value="">全部来源组 / All groups</option>'+groups.map(x=>`<option>${esc(x)}</option>`).join('');sourceRender()}
+function stats(){document.getElementById('mFocus').textContent=D.latest.length;document.getElementById('mSignal').textContent=D.events.filter(e=>e.social_count>0&&e.news_count===0).length;document.getElementById('mHigh').textContent=D.latest.filter(e=>e.priority_score>=75).length;document.getElementById('mMulti').textContent=D.latest.filter(e=>e.source_count>=2).length;document.getElementById('mSources').textContent=D.summary.total||0;let cats=[...new Set(D.events.map(x=>x.category).filter(Boolean))].sort();document.getElementById('cat').innerHTML='<option value="">全部类别 / All categories</option>'+cats.map(x=>`<option>${esc(x)}</option>`).join('');let sts=[...new Set(D.events.map(x=>x.status).filter(Boolean))].sort();document.getElementById('statusFilter').innerHTML='<option value="">全部状态 / All status</option>'+sts.map(x=>`<option>${esc(x)}</option>`).join('')}
+async function init(){try{let t=Date.now();[D.latest,D.events,D.articles,D.signals,D.status,D.summary,D.sources]=await Promise.all(['latest','events','articles','signals','run_status','source_summary','sources'].map(n=>fetch(`data/${n}.json?${t}`).then(r=>r.json())));document.getElementById('lastRun').textContent='更新 / Updated '+dt(D.status.finished_at);document.getElementById('notice').textContent=`最近运行 / Latest run：${dt(D.status.finished_at)}；新闻候选 / news candidates ${D.status.items_seen||0}，新入池 / relevant ${D.status.items_relevant||0}，新增苗头 / signals ${D.status.signals_relevant||0}，当前事件 / events ${D.status.events||0}。社交平台为实验连接器，0 条时请到“系统状态”查看明确原因。`;stats();render();raw();sourceInit();statuses()}catch(e){document.getElementById('notice').textContent='读取数据失败 / Load failed: '+e}}
+for(const b of document.querySelectorAll('.tab'))b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelectorAll('.view').forEach(x=>x.classList.add('hidden'));document.getElementById(b.dataset.view+'View').classList.remove('hidden')};document.getElementById('cat').onchange=render;document.getElementById('statusFilter').onchange=render;document.getElementById('q').oninput=render;document.getElementById('sourceQ').oninput=sourceRender;document.getElementById('sourceGroup').onchange=sourceRender;init();
+</script></body></html>'''

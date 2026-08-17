@@ -1,0 +1,42 @@
+{
+  "total": 344,
+  "kinds": {
+    "news": 280,
+    "think_tank": 38,
+    "official": 26
+  },
+  "groups": {
+    "General / 通用": 311,
+    "Chinese-language / China-focused": 2,
+    "Overseas Chinese media": 4,
+    "International Chinese service": 12,
+    "Hong Kong / Taiwan media": 9,
+    "Mainland China media": 6
+  },
+  "languages": {
+    "en": 247,
+    "fr": 6,
+    "de": 6,
+    "it": 4,
+    "es": 20,
+    "nl": 1,
+    "hu": 3,
+    "pl": 2,
+    "sk": 1,
+    "sr": 2,
+    "ro": 1,
+    "ru": 11,
+    "ja": 5,
+    "ko": 3,
+    "pt": 4,
+    "zh": 28
+  },
+  "platform_status": [],
+  "translation": {
+    "enabled": true,
+    "translated": 0,
+    "cache_hits": 0,
+    "failed": 0,
+    "provider": "best-effort bilingual enrichment"
+  }
+}
