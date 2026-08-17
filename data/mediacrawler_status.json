@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "platform": "xiaohongshu",
+    "platform_code": "xhs",
+    "status": "empty",
+    "items": 0,
+    "detail": "MediaCrawler 退出码 1",
+    "reason_code": "process_failed",
+    "attempts": 2,
+    "files_found": 0,
+    "parse_errors": 0,
+    "collector": "MediaCrawler"
+  },
+  {
+    "platform": "douyin",
+    "platform_code": "dy",
+    "status": "empty",
+    "items": 0,
+    "detail": "未发现 MediaCrawler 内容文件；可能未配置 Cookie、平台返回空或采集步骤失败",
+    "reason_code": "",
+    "attempts": null,
+    "files_found": 0,
+    "parse_errors": 0,
+    "collector": "MediaCrawler"
+  },
+  {
+    "platform": "weibo",
+    "platform_code": "wb",
+    "status": "empty",
+    "items": 0,
+    "detail": "未发现 MediaCrawler 内容文件；可能未配置 Cookie、平台返回空或采集步骤失败",
+    "reason_code": "",
+    "attempts": null,
+    "files_found": 0,
+    "parse_errors": 0,
+    "collector": "MediaCrawler"
+  }
+]

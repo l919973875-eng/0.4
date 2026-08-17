@@ -1,0 +1,12 @@
+{
+  "platform_code": "xhs",
+  "status": "empty",
+  "items": 0,
+  "reason_code": "process_failed",
+  "detail": "MediaCrawler 退出码 1",
+  "exit_code": 1,
+  "attempts": 2,
+  "updated_at": "2026-08-17T08:04:40.940936+00:00",
+  "keywords": "中国,中资,中国企业,华为,比亚迪",
+  "diagnostic_log": "/home/runner/work/0.4/0.4/data/mediacrawler_xhs.log"
+}
