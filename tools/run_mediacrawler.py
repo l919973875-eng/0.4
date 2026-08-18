@@ -58,6 +58,60 @@ def patch_config(repo: Path, platform: str, cookie: str, keywords: str, max_note
     path.write_text(text, encoding='utf-8')
 
 
+def split_keywords(raw: str) -> list[str]:
+    """Split the comma-separated MediaCrawler KEYWORDS string, preserving order."""
+    out: list[str] = []
+    seen: set[str] = set()
+    for part in (raw or '').split(','):
+        kw = part.strip()
+        if not kw:
+            continue
+        key = re.sub(r'\s+', ' ', kw).strip().lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(kw)
+    return out
+
+
+def chunked(items: list[str], size: int) -> list[list[str]]:
+    size = max(1, int(size or 1))
+    return [items[i:i + size] for i in range(0, len(items), size)]
+
+
+def suppress_noisy_upstream_logs(repo: Path, platform: str) -> int:
+    """Patch only verbose transient upstream log statements in the cloned vendor tree.
+
+    MediaCrawler currently logs the full XHS note detail payload, including image/video
+    metadata. On GitHub Actions that can flood stdout and trigger BlockingIOError even
+    though the crawl itself is healthy. We replace that INFO statement with a compact
+    count. The vendor checkout is ephemeral, so this never modifies the upstream repo.
+    """
+    if platform != 'xhs':
+        return 0
+    path = repo / 'media_platform' / 'xhs' / 'core.py'
+    if not path.exists():
+        return 0
+    text = path.read_text(encoding='utf-8')
+    patterns = [
+        (
+            r'utils\.logger\.info\(f"\[XiaoHongShuCrawler\.search\] Note details: \{note_details\}"\)',
+            'utils.logger.info(f"[XiaoHongShuCrawler.search] Note details fetched: {len(note_details) if note_details else 0}")',
+        ),
+        (
+            r"utils\.logger\.info\(f'\[XiaoHongShuCrawler\.search\] Note details: \{note_details\}'\)",
+            'utils.logger.info(f"[XiaoHongShuCrawler.search] Note details fetched: {len(note_details) if note_details else 0}")',
+        ),
+    ]
+    changed = 0
+    for pat, repl in patterns:
+        text, n = re.subn(pat, repl, text)
+        changed += n
+    if changed:
+        path.write_text(text, encoding='utf-8')
+    return changed
+
+
 def content_files(repo: Path, platform: str) -> set[str]:
     base = repo / 'data' / platform
     if not base.exists():
@@ -209,6 +263,7 @@ def run_once(repo: Path, platform: str, cookie: str, keywords: str, max_notes: i
     before = content_files(repo, platform)
     before_rows = count_rough_rows(before)
     patch_config(repo, platform, cookie, keywords, max_notes, cdp=cdp)
+    suppress_noisy_upstream_logs(repo, platform)
     bootstrap = write_platform_bootstrap(repo, platform)
     cmd = ['uv', 'run', 'python', bootstrap.name]
     proc = subprocess.run(cmd, cwd=repo, capture_output=True, text=True, errors='replace')
@@ -221,6 +276,53 @@ def run_once(repo: Path, platform: str, cookie: str, keywords: str, max_notes: i
     return proc.returncode, new_rows, combined
 
 
+def _run_with_optional_retry(
+    repo: Path,
+    platform: str,
+    cookie: str,
+    keywords: str,
+    max_notes: int,
+    retry_cdp: bool,
+    log_path: Path,
+    label: str = '',
+) -> dict:
+    attempt1_log = log_path.with_name(log_path.stem + '_attempt1' + log_path.suffix)
+    rc, rows, output = run_once(repo, platform, cookie, keywords, max_notes, False, attempt1_log)
+    attempts = 1
+    reason_code, detail = diagnose(output, rc, rows)
+    short_error = summarize_exception(output)
+    tag = f' {label}' if label else ''
+    if short_error and rc != 0:
+        print(f'[attempt1-error]{tag} {platform}: {short_error}')
+
+    hard_block = {'captcha', 'account_permission', 'cookie_expired', 'config_mismatch', 'config_patch_error'}
+    if retry_cdp and platform in {'xhs', 'dy'} and rows <= 0 and reason_code not in hard_block:
+        print(f'[retry]{tag} {platform}: 标准模式未产出，尝试 CDP 模式')
+        attempt2_log = log_path.with_name(log_path.stem + '_attempt2_cdp' + log_path.suffix)
+        rc2, rows2, output2 = run_once(repo, platform, cookie, keywords, max_notes, True, attempt2_log)
+        attempts += 1
+        short_error2 = summarize_exception(output2)
+        if short_error2 and rc2 != 0:
+            print(f'[attempt2-error]{tag} {platform}: {short_error2}')
+        if rows2 > rows or (rc != 0 and rc2 == 0):
+            rc, rows, output = rc2, rows2, output2
+        reason_code, detail = diagnose(output, rc, rows)
+        short_error = summarize_exception(output)
+
+    log_path.write_text(output[-120000:], encoding='utf-8')
+    status = 'ok' if rows > 0 else ('blocked' if reason_code in {'captcha', 'account_permission', 'ip_block', 'risk_control'} else 'empty')
+    return {
+        'status': status,
+        'items': rows,
+        'reason_code': reason_code,
+        'detail': detail,
+        'exit_code': rc,
+        'attempts': attempts,
+        'exception': short_error,
+        'log': str(log_path),
+    }
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--repo', required=True)
@@ -231,6 +333,7 @@ def main():
     ap.add_argument('--status-file', default='')
     ap.add_argument('--log-file', default='')
     ap.add_argument('--retry-cdp', action='store_true')
+    ap.add_argument('--batch-size', type=int, default=0, help='Split keywords into fail-soft batches; 0 disables batching.')
     args = ap.parse_args()
 
     repo = Path(args.repo).resolve()
@@ -238,54 +341,133 @@ def main():
     log_path = Path(args.log_file).resolve() if args.log_file else (Path.cwd() / 'data' / f'mediacrawler_{args.platform}.log')
     cookie = os.getenv(args.cookie_env, '').strip()
     now = datetime.now(timezone.utc).isoformat()
+    keywords_list = split_keywords(args.keywords)
 
     if not cookie:
         payload = {
             'platform_code': args.platform, 'status': 'not_configured', 'items': 0,
             'reason_code': 'cookie_missing', 'detail': f'未配置 GitHub Secret: {args.cookie_env}',
             'attempts': 0, 'updated_at': now, 'keywords': args.keywords,
+            'query_count': len(keywords_list),
         }
         write_status(status_path, payload)
         print(f'[skip] {args.platform}: {args.cookie_env} 未配置')
         return 3
 
+    if not keywords_list:
+        payload = {
+            'platform_code': args.platform, 'status': 'empty', 'items': 0,
+            'reason_code': 'keywords_empty', 'detail': '没有可执行的搜索关键词',
+            'attempts': 0, 'updated_at': now, 'keywords': args.keywords, 'query_count': 0,
+        }
+        write_status(status_path, payload)
+        print(f'[skip] {args.platform}: 没有搜索关键词')
+        return 2
+
     max_notes = max(5, min(50, args.max_notes))
-    print(f'[run] MediaCrawler {args.platform}: cookie=present, max_notes={max_notes}, keywords={args.keywords}')
-    attempt1_log = log_path.with_name(log_path.stem + '_attempt1' + log_path.suffix)
-    rc, rows, output = run_once(repo, args.platform, cookie, args.keywords, max_notes, False, attempt1_log)
-    attempts = 1
-    reason_code, detail = diagnose(output, rc, rows)
-    short_error = summarize_exception(output)
-    if short_error and rc != 0:
-        print(f'[attempt1-error] {args.platform}: {short_error}')
+    batch_size = max(0, int(args.batch_size or 0))
+    use_batches = batch_size > 0 and len(keywords_list) > batch_size
+    print(
+        f'[run] MediaCrawler {args.platform}: cookie=present, max_notes={max_notes}, '
+        f'queries={len(keywords_list)}, batch_size={batch_size if use_batches else 0}, keywords={args.keywords}'
+    )
 
-    if args.retry_cdp and args.platform in {'xhs', 'dy'} and rows <= 0 and reason_code not in {'captcha', 'account_permission', 'cookie_expired', 'config_mismatch'}:
-        print(f'[retry] {args.platform}: 标准模式未产出，尝试 CDP 模式')
-        attempt2_log = log_path.with_name(log_path.stem + '_attempt2_cdp' + log_path.suffix)
-        rc2, rows2, output2 = run_once(repo, args.platform, cookie, args.keywords, max_notes, True, attempt2_log)
-        attempts += 1
-        short_error2 = summarize_exception(output2)
-        if short_error2 and rc2 != 0:
-            print(f'[attempt2-error] {args.platform}: {short_error2}')
-        if rows2 > rows or (rc != 0 and rc2 == 0):
-            rc, rows, output = rc2, rows2, output2
-        reason_code, detail = diagnose(output, rc, rows)
-        short_error = summarize_exception(output)
+    # Normal path for small/custom runs and non-batched platforms.
+    if not use_batches:
+        result = _run_with_optional_retry(
+            repo, args.platform, cookie, ','.join(keywords_list), max_notes,
+            args.retry_cdp, log_path,
+        )
+        payload = {
+            'platform_code': args.platform, **result,
+            'updated_at': datetime.now(timezone.utc).isoformat(),
+            'keywords': ','.join(keywords_list), 'query_count': len(keywords_list),
+            'diagnostic_log': str(log_path), 'batch_size': 0,
+        }
+        write_status(status_path, payload)
+        print(f"[result] {args.platform}: status={result['status']}, items={result['items']}, reason={result['reason_code']} - {result['detail']}")
+        return 0 if result['items'] > 0 else (result['exit_code'] or 2)
 
-    log_path.write_text(output[-120000:], encoding='utf-8')
+    # Maximum-coverage fail-soft path: keep the full daily query budget, but isolate
+    # failures so one transient XHS error does not discard every query in the run.
+    batches = chunked(keywords_list, batch_size)
+    before_rows = count_rough_rows(content_files(repo, args.platform))
+    batch_results: list[dict] = []
+    total_attempts = 0
+    hard_stop_reasons = {'captcha', 'account_permission', 'cookie_expired', 'config_mismatch', 'config_patch_error'}
 
-    status = 'ok' if rows > 0 else ('blocked' if reason_code in {'captcha', 'account_permission', 'ip_block', 'risk_control'} else 'empty')
+    for idx, batch in enumerate(batches, start=1):
+        batch_kw = ','.join(batch)
+        batch_log = log_path.with_name(f'{log_path.stem}_batch{idx:02d}{log_path.suffix}')
+        print(f'[batch {idx}/{len(batches)}] {args.platform}: queries={len(batch)} keywords={batch_kw}')
+        result = _run_with_optional_retry(
+            repo, args.platform, cookie, batch_kw, max_notes,
+            args.retry_cdp, batch_log, label=f'batch={idx}/{len(batches)}',
+        )
+        total_attempts += int(result.get('attempts') or 0)
+        row = {
+            'batch': idx,
+            'keywords': batch,
+            'query_count': len(batch),
+            **result,
+        }
+        batch_results.append(row)
+        print(
+            f"[batch-result {idx}/{len(batches)}] status={result['status']} "
+            f"items={result['items']} reason={result['reason_code']}"
+        )
+        if result['items'] <= 0 and result['reason_code'] in hard_stop_reasons:
+            print(f"[batch-stop] {args.platform}: hard block reason={result['reason_code']}; remaining batches skipped")
+            break
+
+    after_rows = count_rough_rows(content_files(repo, args.platform))
+    new_rows = max(0, after_rows - before_rows)
+    successful = sum(1 for x in batch_results if x.get('items', 0) > 0)
+    failed = sum(1 for x in batch_results if x.get('items', 0) <= 0)
+    skipped = max(0, len(batches) - len(batch_results))
+
+    if successful and (failed or skipped):
+        status = 'partial'
+        reason_code = 'partial_success'
+        detail = f'{successful}/{len(batches)} 批成功，新增约 {new_rows} 条内容；失败 {failed} 批，跳过 {skipped} 批'
+    elif successful:
+        status = 'ok'
+        reason_code = 'ok'
+        detail = f'{successful}/{len(batches)} 批全部成功，新增约 {new_rows} 条内容'
+    else:
+        last = batch_results[-1] if batch_results else {}
+        status = last.get('status') or 'empty'
+        reason_code = last.get('reason_code') or 'empty'
+        detail = last.get('detail') or '所有批次均未产生内容'
+
+    # Compact top-level log: batch details stay in individual artifact files.
+    summary_lines = [
+        f'platform={args.platform}',
+        f'queries={len(keywords_list)} batch_size={batch_size} batches={len(batches)}',
+        f'successful_batches={successful} failed_batches={failed} skipped_batches={skipped}',
+        f'new_rows={new_rows} status={status} reason={reason_code}',
+    ]
+    for row in batch_results:
+        summary_lines.append(
+            f"batch={row['batch']} queries={row['query_count']} status={row['status']} "
+            f"items={row['items']} reason={row['reason_code']}"
+        )
+    log_path.write_text('\n'.join(summary_lines) + '\n', encoding='utf-8')
+
     payload = {
-        'platform_code': args.platform, 'status': status, 'items': rows,
-        'reason_code': reason_code, 'detail': detail, 'exit_code': rc,
-        'attempts': attempts, 'updated_at': datetime.now(timezone.utc).isoformat(),
-        'keywords': args.keywords, 'diagnostic_log': str(log_path),
-        'exception': short_error,
+        'platform_code': args.platform, 'status': status, 'items': new_rows,
+        'reason_code': reason_code, 'detail': detail,
+        'exit_code': 0 if successful else (batch_results[-1].get('exit_code', 2) if batch_results else 2),
+        'attempts': total_attempts, 'updated_at': datetime.now(timezone.utc).isoformat(),
+        'keywords': ','.join(keywords_list), 'query_count': len(keywords_list),
+        'diagnostic_log': str(log_path), 'batch_size': batch_size,
+        'batch_count': len(batches), 'successful_batches': successful,
+        'failed_batches': failed, 'skipped_batches': skipped,
+        'batch_results': batch_results,
     }
     write_status(status_path, payload)
-    print(f'[result] {args.platform}: status={status}, items={rows}, reason={reason_code} - {detail}')
-    # 让 GitHub step 真正显示失败/警告；workflow 已 continue-on-error，不会阻断其他平台。
-    return 0 if rows > 0 else (rc or 2)
+    print(f'[result] {args.platform}: status={status}, items={new_rows}, reason={reason_code} - {detail}')
+    return 0 if successful else (payload['exit_code'] or 2)
 
 
 if __name__ == '__main__':
