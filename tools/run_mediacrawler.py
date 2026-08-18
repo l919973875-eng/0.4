@@ -12,10 +12,10 @@ from pathlib import Path
 def replace_assignment(text: str, name: str, value_repr: str) -> str:
     multi = re.compile(rf'(?ms)^{re.escape(name)}\s*=\s*\(.*?^\s*\)\s*(?:#.*)?$')
     if multi.search(text):
-        return multi.sub(f'{name} = {value_repr}', text, count=1)
+        return multi.sub(lambda _m: f'{name} = {value_repr}', text, count=1)
     pat = re.compile(rf'(?m)^{re.escape(name)}\s*=.*$')
     if pat.search(text):
-        return pat.sub(f'{name} = {value_repr}', text, count=1)
+        return pat.sub(lambda _m: f'{name} = {value_repr}', text, count=1)
     return text + f'\n{name} = {value_repr}\n'
 
 
@@ -97,6 +97,7 @@ def count_rough_rows(paths: set[str]) -> int:
 def diagnose(output: str, returncode: int, new_rows: int) -> tuple[str, str]:
     low = output.lower()
     patterns = [
+        (('syntaxerror:', 'unterminated string literal'), 'config_patch_error', 'MediaCrawler 配置文件语法无效；检查兼容层写入/转义'),
         (("attributeerror: module 'config' has no attribute",), 'config_mismatch', 'MediaCrawler 上游配置字段不一致；兼容层未覆盖到该字段'),
         (('captcha appeared', 'verifytype', '滑块', '验证码'), 'captcha', '平台触发验证码/滑块，GitHub 云端无法人工处理'),
         (('没有权限访问', 'code=-104'), 'account_permission', '登录账号当前无搜索接口权限（常见于小红书 -104）'),
