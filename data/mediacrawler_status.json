@@ -2,12 +2,12 @@
   {
     "platform": "xiaohongshu",
     "platform_code": "xhs",
-    "status": "ok",
-    "items": 300,
-    "detail": "导入 300 条；读取 1 个内容文件",
-    "reason_code": "partial_success",
-    "attempts": 9,
-    "files_found": 1,
+    "status": "empty",
+    "items": 0,
+    "detail": "平台接口请求失败/重试耗尽",
+    "reason_code": "fetch_error",
+    "attempts": 12,
+    "files_found": 0,
     "parse_errors": 0,
     "collector": "MediaCrawler"
   },

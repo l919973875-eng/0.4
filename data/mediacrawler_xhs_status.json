@@ -1,19 +1,19 @@
 {
   "platform_code": "xhs",
-  "status": "partial",
-  "items": 300,
-  "reason_code": "partial_success",
-  "detail": "3/6 批成功，新增约 300 条内容；失败 3 批，跳过 0 批",
-  "exit_code": 0,
-  "attempts": 9,
-  "updated_at": "2026-08-18T09:33:30.301803+00:00",
-  "keywords": "中国员工 遇袭,中国公民 被捕,中资矿山 抗议,中资项目 封锁,中国企业 制裁,华为 禁令,台海 军演,南海 中国海警 碰撞,中国公民 撤侨,中国员工 绑架,中国工人 遇袭,中国驻外人员 撤离,中资项目 袭击,一带一路项目 封锁,海外中资项目 爆炸,中资矿山 封锁,中资港口 爆炸,中资油气田 袭击,中国电建 铁路 封锁,中国能建 铁路 爆炸,中资工厂 罢工,中资矿山 欠薪,华为 出口管制,比亚迪 关税,TikTok 强制出售,Shein 进口限制,中国电动车 关税,中国光伏 出口管制,台海 封锁,南海 实弹演习,台湾海峡 军演,中国大使 召见,台湾 断交,南海 中国海警 拦截,中远海运 航线中断,中国稀土 出口禁令",
+  "status": "empty",
+  "items": 0,
+  "reason_code": "fetch_error",
+  "detail": "平台接口请求失败/重试耗尽",
+  "exit_code": 1,
+  "attempts": 12,
+  "updated_at": "2026-08-18T23:58:50.212193+00:00",
+  "keywords": "中国员工 遇袭,中国公民 被捕,中资矿山 抗议,中资项目 封锁,中国企业 制裁,华为 禁令,台海 军演,南海 中国海警 碰撞,中国公民 撤侨,中国员工 绑架,中国工人 遇袭,中国驻外人员 袭击,中资项目 袭击,一带一路项目 封锁,海外中资项目 爆炸,中资矿山 袭击,中资铁路 爆炸,中资油气田 封锁,中国电建 铁路 爆炸,中国交建 铁路 袭击,中资工厂 罢工,中资矿山 欠薪,华为 出口管制,比亚迪 反倾销,TikTok 禁令,Temu 调查,中国电动车 反倾销,中国光伏 出口管制,南海 军演,台海 实弹演习,台湾海峡 封锁,中国大使 召见,涉台 断交,南海 中国海警 拦截,中资港口 航线中断,中国关键矿产 出口禁令",
   "query_count": 36,
   "diagnostic_log": "/home/runner/work/0.4/0.4/data/mediacrawler_xhs.log",
   "batch_size": 6,
   "batch_count": 6,
-  "successful_batches": 3,
-  "failed_batches": 3,
+  "successful_batches": 0,
+  "failed_batches": 6,
   "skipped_batches": 0,
   "batch_results": [
     {
@@ -27,13 +27,13 @@
         "华为 禁令"
       ],
       "query_count": 6,
-      "status": "ok",
-      "items": 120,
-      "reason_code": "risk_control",
-      "detail": "账号或云端出口触发平台风控",
-      "exit_code": 0,
-      "attempts": 1,
-      "exception": "2026-08-18 09:22:14 MediaCrawler INFO (core.py:132) - [XiaoHongShuCrawler.start] Xhs Crawler finished ...",
+      "status": "empty",
+      "items": 0,
+      "reason_code": "fetch_error",
+      "detail": "平台接口请求失败/重试耗尽",
+      "exit_code": 1,
+      "attempts": 2,
+      "exception": "tenacity.RetryError: RetryError[<Future at 0x7f8a84159390 state=finished raised DataFetchError>]",
       "log": "/home/runner/work/0.4/0.4/data/mediacrawler_xhs_batch01.log"
     },
     {
@@ -44,16 +44,16 @@
         "中国公民 撤侨",
         "中国员工 绑架",
         "中国工人 遇袭",
-        "中国驻外人员 撤离"
+        "中国驻外人员 袭击"
       ],
       "query_count": 6,
-      "status": "ok",
-      "items": 120,
-      "reason_code": "ok",
-      "detail": "成功产生约 120 条内容记录",
-      "exit_code": 0,
-      "attempts": 1,
-      "exception": "2026-08-18 09:27:52 MediaCrawler INFO (core.py:132) - [XiaoHongShuCrawler.start] Xhs Crawler finished ...",
+      "status": "empty",
+      "items": 0,
+      "reason_code": "fetch_error",
+      "detail": "平台接口请求失败/重试耗尽",
+      "exit_code": 1,
+      "attempts": 2,
+      "exception": "tenacity.RetryError: RetryError[<Future at 0x7f36e0295010 state=finished raised DataFetchError>]",
       "log": "/home/runner/work/0.4/0.4/data/mediacrawler_xhs_batch02.log"
     },
     {
@@ -62,29 +62,29 @@
         "中资项目 袭击",
         "一带一路项目 封锁",
         "海外中资项目 爆炸",
-        "中资矿山 封锁",
-        "中资港口 爆炸",
-        "中资油气田 袭击"
+        "中资矿山 袭击",
+        "中资铁路 爆炸",
+        "中资油气田 封锁"
       ],
       "query_count": 6,
-      "status": "ok",
-      "items": 60,
+      "status": "empty",
+      "items": 0,
       "reason_code": "fetch_error",
       "detail": "平台接口请求失败/重试耗尽",
       "exit_code": 1,
-      "attempts": 1,
-      "exception": "tenacity.RetryError: RetryError[<Future at 0x7f4631c916d0 state=finished raised DataFetchError>]",
+      "attempts": 2,
+      "exception": "tenacity.RetryError: RetryError[<Future at 0x7f9ae2884dd0 state=finished raised DataFetchError>]",
       "log": "/home/runner/work/0.4/0.4/data/mediacrawler_xhs_batch03.log"
     },
     {
       "batch": 4,
       "keywords": [
-        "中国电建 铁路 封锁",
-        "中国能建 铁路 爆炸",
+        "中国电建 铁路 爆炸",
+        "中国交建 铁路 袭击",
         "中资工厂 罢工",
         "中资矿山 欠薪",
         "华为 出口管制",
-        "比亚迪 关税"
+        "比亚迪 反倾销"
       ],
       "query_count": 6,
       "status": "empty",
@@ -93,18 +93,18 @@
       "detail": "平台接口请求失败/重试耗尽",
       "exit_code": 1,
       "attempts": 2,
-      "exception": "tenacity.RetryError: RetryError[<Future at 0x7f0cd4699010 state=finished raised DataFetchError>]",
+      "exception": "tenacity.RetryError: RetryError[<Future at 0x7fa346b91510 state=finished raised DataFetchError>]",
       "log": "/home/runner/work/0.4/0.4/data/mediacrawler_xhs_batch04.log"
     },
     {
       "batch": 5,
       "keywords": [
-        "TikTok 强制出售",
-        "Shein 进口限制",
-        "中国电动车 关税",
+        "TikTok 禁令",
+        "Temu 调查",
+        "中国电动车 反倾销",
         "中国光伏 出口管制",
-        "台海 封锁",
-        "南海 实弹演习"
+        "南海 军演",
+        "台海 实弹演习"
       ],
       "query_count": 6,
       "status": "empty",
@@ -113,18 +113,18 @@
       "detail": "平台接口请求失败/重试耗尽",
       "exit_code": 1,
       "attempts": 2,
-      "exception": "tenacity.RetryError: RetryError[<Future at 0x7f218ff83f10 state=finished raised DataFetchError>]",
+      "exception": "tenacity.RetryError: RetryError[<Future at 0x7fbf03f95610 state=finished raised DataFetchError>]",
       "log": "/home/runner/work/0.4/0.4/data/mediacrawler_xhs_batch05.log"
     },
     {
       "batch": 6,
       "keywords": [
-        "台湾海峡 军演",
+        "台湾海峡 封锁",
         "中国大使 召见",
-        "台湾 断交",
+        "涉台 断交",
         "南海 中国海警 拦截",
-        "中远海运 航线中断",
-        "中国稀土 出口禁令"
+        "中资港口 航线中断",
+        "中国关键矿产 出口禁令"
       ],
       "query_count": 6,
       "status": "empty",
@@ -133,7 +133,7 @@
       "detail": "平台接口请求失败/重试耗尽",
       "exit_code": 1,
       "attempts": 2,
-      "exception": "tenacity.RetryError: RetryError[<Future at 0x7fe790491850 state=finished raised DataFetchError>]",
+      "exception": "tenacity.RetryError: RetryError[<Future at 0x7f08b8a95410 state=finished raised DataFetchError>]",
       "log": "/home/runner/work/0.4/0.4/data/mediacrawler_xhs_batch06.log"
     }
   ]
