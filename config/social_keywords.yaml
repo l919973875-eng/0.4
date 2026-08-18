@@ -1,62 +1,40 @@
-# 社交平台搜索词分组。
-# 设计原则：搜索词负责“发现”，筛选规则负责“是否进入苗头池”。
-# 不再默认使用“ 中国 / 华为 / 比亚迪 ”这种单独泛词，因为它们会带来大量生活、消费和产品内容。
+# v0.4.4 社交搜索 taxonomy / query generator
+#
+# 搜索层只生成“高价值合法组合”，不做全量 objects × actions × scenes 笛卡尔积。
+# xhs 已启用自动生成；dy / wb 仍保留 v0.4.3 静态词包，待小红书验证后复制。
+# signal = 每日自动巡检；broad = 手动深搜。query_budget 控制每日总 query 数。
+# taxonomy 同时被 cloud_runner.py 的社交质检读取，使“发现词”和“入池动作词”保持一致。
 
 default_pack: signal
+rotation_timezone: Asia/Shanghai
 max_per_query:
   signal: 5
   broad: 8
-
-packs:
+query_budget:
   signal:
-    xhs:
-      - 中国员工 撤离
+    xhs: 36
+    dy: 11
+    wb: 10
+  broad:
+    xhs: 72
+    dy: 7
+    wb: 7
+generator:
+  enabled_platforms:
+  - xhs
+  pinned:
+    signal:
+      xhs:
       - 中国员工 遇袭
       - 中国公民 被捕
-      - 中国公民 失踪
       - 中资矿山 抗议
-      - 中资矿山 停产
-      - 中资工厂 罢工
-      - 中资工厂 停产
-      - 中资项目 抗议
-      - 中资项目 封锁
-      - 一带一路 项目 受阻
-      - 中国企业 制裁
-      - 中国企业 调查
-      - 华为 禁令
-      - 比亚迪 调查
-      - 宁德时代 抗议
-      - 中国电动车 关税
-      - 台海 军演
-      - 南海 海警 冲突
-      - 菲律宾 中国 海警
-    dy:
-      - 中国员工 撤离
-      - 中国员工 遇袭
-      - 中资矿山 抗议
-      - 中资工厂 罢工
-      - 中资项目 抗议
       - 中资项目 封锁
       - 中国企业 制裁
       - 华为 禁令
-      - 比亚迪 调查
       - 台海 军演
-      - 南海 海警 冲突
-    wb:
-      - 中国员工 撤离
-      - 中国公民 遇袭
-      - 中资项目 抗议
-      - 中资企业 停产
-      - 中国企业 制裁
-      - 中国企业 出口管制
-      - 华为 禁令
-      - 比亚迪 调查
-      - 台海 军演
-      - 南海 冲突
-
-  # broad 只建议手动深度扫描时使用，不用于每日默认巡检。
-  broad:
-    xhs:
+      - 南海 中国海警 碰撞
+    broad:
+      xhs:
       - 中国
       - 中资
       - 中国企业
@@ -68,19 +46,938 @@ packs:
       - 台海
       - 台湾
       - 南海
+  taxonomy:
+    objects:
+      people:
+      - term: 中国员工
+        weight: 10
+      - term: 中国公民
+        weight: 10
+      - term: 中国工人
+        weight: 8
+      - term: 中国游客
+        weight: 4
+      - term: 中国驻外人员
+        weight: 7
+      china_project_prefix:
+      - term: 中资
+        weight: 10
+      - term: 中国企业
+        weight: 7
+      project_general:
+      - term: 中资项目
+        weight: 10
+      - term: 海外中资项目
+        weight: 8
+      - term: 一带一路项目
+        weight: 9
+      - term: 一带一路
+        weight: 6
+      engineering_companies:
+      - term: 中铁
+        weight: 7
+      - term: 中国中铁
+        weight: 8
+      - term: 中交
+        weight: 7
+      - term: 中国交建
+        weight: 8
+      - term: 中国电建
+        weight: 9
+      - term: 中国能建
+        weight: 8
+      - term: 中国港湾
+        weight: 8
+      - term: 中国路桥
+        weight: 8
+      energy_companies:
+      - term: 中石油
+        weight: 9
+      - term: 中石化
+        weight: 9
+      - term: 中海油
+        weight: 8
+      mining_companies:
+      - term: 紫金矿业
+        weight: 9
+      - term: 洛阳钼业
+        weight: 8
+      - term: 中国五矿
+        weight: 7
+      trade_sectors:
+      - term: 中国电动车
+        weight: 10
+      - term: 中国光伏
+        weight: 9
+      - term: 中国电池
+        weight: 8
+      - term: 中国芯片
+        weight: 8
+      - term: 中国钢铁
+        weight: 7
+      military_actors:
+      - term: 中国海警
+        weight: 10
+      - term: 解放军
+        weight: 10
+      - term: 中国军方
+        weight: 9
+      - term: 中国军舰
+        weight: 8
+      - term: 中国军机
+        weight: 8
+      diplomatic_personnel:
+      - term: 中国大使
+        weight: 9
+      - term: 中国外交官
+        weight: 8
+      - term: 中国领事
+        weight: 7
+      diplomatic_state:
+      - term: 中国
+        weight: 7
+      - term: 台湾
+        weight: 8
+      - term: 涉台
+        weight: 8
+      maritime_actors:
+      - term: 中国海警
+        weight: 10
+      - term: 中国军舰
+        weight: 9
+      - term: 中国军机
+        weight: 7
+      shipping_supply:
+      - term: 中远海运
+        weight: 10
+      - term: 中资港口
+        weight: 10
+      - term: 中国航运
+        weight: 8
+      - term: 中国物流
+        weight: 7
+      critical_supply:
+      - term: 中国稀土
+        weight: 10
+      - term: 中国关键矿产
+        weight: 10
+      - term: 中国矿产
+        weight: 8
+      - term: 中国供应链
+        weight: 8
+      - term: 中国电力
+        weight: 6
+      tech_hardware:
+      - term: 华为
+        weight: 10
+      - term: 中兴
+        weight: 8
+      ev_battery:
+      - term: 比亚迪
+        weight: 10
+      - term: 宁德时代
+        weight: 9
+      digital_platforms:
+      - term: TikTok
+        weight: 10
+      - term: 字节跳动
+        weight: 8
+      ecommerce_platforms:
+      - term: Temu
+        weight: 9
+      - term: Shein
+        weight: 9
+    actions:
+      personnel_security:
+      - term: 遇袭
+        weight: 10
+      - term: 袭击
+        weight: 9
+      - term: 绑架
+        weight: 10
+      - term: 被捕
+        weight: 9
+      - term: 拘留
+        weight: 8
+      - term: 失踪
+        weight: 9
+      - term: 死亡
+        weight: 8
+      - term: 抢劫
+        weight: 6
+      - term: 扣押
+        weight: 8
+      - term: 撤离
+        weight: 9
+      - term: 撤侨
+        weight: 10
+      - term: 紧急避险
+        weight: 7
+      project_disruption:
+      - term: 抗议
+        weight: 9
+      - term: 示威
+        weight: 8
+      - term: 围堵
+        weight: 9
+      - term: 封锁
+        weight: 10
+      - term: 停工
+        weight: 9
+      - term: 停产
+        weight: 9
+      - term: 爆炸
+        weight: 10
+      - term: 火灾
+        weight: 7
+      - term: 袭击
+        weight: 10
+      - term: 骚乱
+        weight: 9
+      - term: 冲突
+        weight: 9
+      - term: 纵火
+        weight: 8
+      labor_social:
+      - term: 欠薪
+        weight: 9
+      - term: 罢工
+        weight: 10
+      - term: 抗议
+        weight: 8
+      - term: 示威
+        weight: 8
+      - term: 冲突
+        weight: 8
+      - term: 围堵
+        weight: 9
+      - term: 纵火
+        weight: 7
+      trade:
+      - term: 关税
+        weight: 10
+      - term: 反倾销
+        weight: 10
+      - term: 反补贴
+        weight: 9
+      - term: 出口管制
+        weight: 10
+      - term: 进口禁令
+        weight: 9
+      - term: 市场准入限制
+        weight: 7
+      - term: 实体清单
+        weight: 9
+      military:
+      - term: 军演
+        weight: 10
+      - term: 实弹演习
+        weight: 10
+      - term: 封锁
+        weight: 10
+      - term: 拦截
+        weight: 9
+      - term: 碰撞
+        weight: 10
+      - term: 对峙
+        weight: 9
+      - term: 驱离
+        weight: 8
+      - term: 集结
+        weight: 8
+      - term: 导弹
+        weight: 9
+      - term: 越线
+        weight: 8
+      - term: 伴飞
+        weight: 7
+      - term: 锁定
+        weight: 9
+      diplomatic_personnel:
+      - term: 驱逐
+        weight: 10
+      - term: 召见
+        weight: 10
+      diplomatic_state:
+      - term: 断交
+        weight: 10
+      - term: 签证限制
+        weight: 9
+      - term: 外交降级
+        weight: 9
+      - term: 抗议照会
+        weight: 8
+      - term: 涉台动作
+        weight: 8
+      maritime_security:
+      - term: 拦截
+        weight: 10
+      - term: 碰撞
+        weight: 10
+      - term: 对峙
+        weight: 9
+      - term: 驱离
+        weight: 9
+      - term: 封锁
+        weight: 9
+      - term: 锁定
+        weight: 8
+      shipping_disruption:
+      - term: 港口拥堵
+        weight: 8
+      - term: 航线中断
+        weight: 10
+      - term: 物流封锁
+        weight: 9
+      - term: 供应链中断
+        weight: 9
+      - term: 扣船
+        weight: 10
+      critical_supply:
+      - term: 出口禁令
+        weight: 10
+      - term: 供应链中断
+        weight: 9
+      - term: 电力中断
+        weight: 8
+      - term: 停电
+        weight: 7
+      tech_regulatory:
+      - term: 制裁
+        weight: 10
+      - term: 禁令
+        weight: 10
+      - term: 调查
+        weight: 9
+      - term: 搜查
+        weight: 8
+      - term: 扣押
+        weight: 8
+      - term: 实体清单
+        weight: 10
+      - term: 出口管制
+        weight: 10
+      - term: 黑名单
+        weight: 8
+      ev_regulatory:
+      - term: 调查
+        weight: 9
+      - term: 关税
+        weight: 10
+      - term: 反倾销
+        weight: 10
+      - term: 反补贴
+        weight: 9
+      - term: 禁令
+        weight: 9
+      - term: 实体清单
+        weight: 8
+      platform_regulatory:
+      - term: 禁令
+        weight: 10
+      - term: 调查
+        weight: 9
+      - term: 强制出售
+        weight: 10
+      - term: 数据禁令
+        weight: 8
+      - term: 国家安全审查
+        weight: 9
+      ecommerce_regulatory:
+      - term: 调查
+        weight: 9
+      - term: 关税
+        weight: 9
+      - term: 进口限制
+        weight: 9
+      - term: 海关扣押
+        weight: 8
+      - term: 小额包裹限制
+        weight: 8
+      detection_aliases:
+      - term: 矿产出口禁令
+        weight: 0
+      - term: 紧急撤人
+        weight: 0
+      - term: 讨薪
+        weight: 0
+      - term: 被抓
+        weight: 0
+      - term: 带走
+        weight: 0
+      - term: 扣下
+        weight: 0
+      - term: 堵门
+        weight: 0
+      - term: 停运
+        weight: 0
+    scenes:
+      project_assets:
+      - term: 矿山
+        weight: 10
+      - term: 港口
+        weight: 9
+      - term: 工厂
+        weight: 8
+      - term: 工业园
+        weight: 8
+      - term: 电站
+        weight: 9
+      - term: 水坝
+        weight: 8
+      - term: 铁路
+        weight: 9
+      - term: 公路
+        weight: 6
+      - term: 油气田
+        weight: 9
+      - term: 物流
+        weight: 6
+      - term: 航运
+        weight: 7
+      labor_assets:
+      - term: 矿山
+        weight: 9
+      - term: 工厂
+        weight: 10
+      - term: 工业园
+        weight: 8
+      - term: 项目
+        weight: 7
+      - term: 工地
+        weight: 8
+      engineering_assets:
+      - term: 港口
+        weight: 9
+      - term: 铁路
+        weight: 10
+      - term: 公路
+        weight: 7
+      - term: 电站
+        weight: 9
+      - term: 水坝
+        weight: 9
+      - term: 工业园
+        weight: 7
+      - term: 项目
+        weight: 8
+      energy_assets:
+      - term: 油田
+        weight: 10
+      - term: 气田
+        weight: 10
+      - term: 油气田
+        weight: 10
+      - term: 管道
+        weight: 8
+      - term: 炼厂
+        weight: 8
+      - term: 项目
+        weight: 6
+      regions:
+      - term: 非洲
+        weight: 8
+      - term: 东南亚
+        weight: 8
+      - term: 中东
+        weight: 8
+      - term: 中亚
+        weight: 7
+      - term: 欧洲
+        weight: 5
+      - term: 南美
+        weight: 7
+      military_hotspots:
+      - term: 台海
+        weight: 10
+      - term: 台湾海峡
+        weight: 9
+      - term: 南海
+        weight: 10
+      - term: 菲律宾
+        weight: 8
+      south_china_sea:
+      - term: 南海
+        weight: 10
+      - term: 菲律宾
+        weight: 8
+      - term: 仁爱礁
+        weight: 9
+      - term: 黄岩岛
+        weight: 9
+      broad_context:
+      - term: 非洲
+        weight: 8
+      - term: 东南亚
+        weight: 8
+      - term: 中东
+        weight: 8
+      - term: 中亚
+        weight: 7
+      - term: 南美
+        weight: 7
+      - term: 欧洲
+        weight: 5
+      - term: 海外项目
+        weight: 9
+  templates:
+    signal:
+    - name: personnel_safety
+      pattern: '{object} {action}'
+      groups:
+        object: objects.people
+        action: actions.personnel_security
+      quota: 4
+      max_candidates: 36
+      priority: 100
+      diversity_slots:
+      - object
+      - action
+    - name: project_general
+      pattern: '{object} {action}'
+      groups:
+        object: objects.project_general
+        action: actions.project_disruption
+      quota: 3
+      max_candidates: 30
+      priority: 94
+      diversity_slots:
+      - object
+      - action
+    - name: project_assets
+      pattern: '{object}{scene} {action}'
+      groups:
+        object: objects.china_project_prefix
+        scene: scenes.project_assets
+        action: actions.project_disruption
+      quota: 3
+      max_candidates: 42
+      priority: 96
+      diversity_slots:
+      - scene
+      - action
+    - name: engineering_projects
+      pattern: '{object} {scene} {action}'
+      groups:
+        object: objects.engineering_companies
+        scene: scenes.engineering_assets
+        action: actions.project_disruption
+      quota: 2
+      max_candidates: 38
+      priority: 91
+      diversity_slots:
+      - object
+      - action
+    - name: labor_social
+      pattern: '{object}{scene} {action}'
+      groups:
+        object: objects.china_project_prefix
+        scene: scenes.labor_assets
+        action: actions.labor_social
+      quota: 2
+      max_candidates: 30
+      priority: 92
+      diversity_slots:
+      - scene
+      - action
+    - name: tech_hardware_regulatory
+      pattern: '{object} {action}'
+      groups:
+        object: objects.tech_hardware
+        action: actions.tech_regulatory
+      quota: 1
+      max_candidates: 14
+      priority: 98
+      diversity_slots:
+      - object
+      - action
+    - name: ev_battery_regulatory
+      pattern: '{object} {action}'
+      groups:
+        object: objects.ev_battery
+        action: actions.ev_regulatory
+      quota: 1
+      max_candidates: 12
+      priority: 96
+      diversity_slots:
+      - object
+      - action
+    - name: digital_platform_regulatory
+      pattern: '{object} {action}'
+      groups:
+        object: objects.digital_platforms
+        action: actions.platform_regulatory
+      quota: 1
+      max_candidates: 10
+      priority: 96
+      diversity_slots:
+      - object
+      - action
+    - name: ecommerce_regulatory
+      pattern: '{object} {action}'
+      groups:
+        object: objects.ecommerce_platforms
+        action: actions.ecommerce_regulatory
+      quota: 1
+      max_candidates: 10
+      priority: 91
+      diversity_slots:
+      - object
+      - action
+    - name: trade_technology
+      pattern: '{object} {action}'
+      groups:
+        object: objects.trade_sectors
+        action: actions.trade
+      quota: 2
+      max_candidates: 28
+      priority: 94
+      diversity_slots:
+      - object
+      - action
+    - name: military_hotspot
+      pattern: '{scene} {action}'
+      groups:
+        scene: scenes.military_hotspots
+        action: actions.military
+      quota: 3
+      max_candidates: 28
+      priority: 99
+      diversity_slots:
+      - scene
+      - action
+    - name: diplomatic_personnel
+      pattern: '{object} {action}'
+      groups:
+        object: objects.diplomatic_personnel
+        action: actions.diplomatic_personnel
+      quota: 1
+      max_candidates: 6
+      priority: 91
+      diversity_slots:
+      - object
+      - action
+    - name: diplomatic_state
+      pattern: '{object} {action}'
+      groups:
+        object: objects.diplomatic_state
+        action: actions.diplomatic_state
+      quota: 1
+      max_candidates: 14
+      priority: 89
+      diversity_slots:
+      - object
+      - action
+    - name: south_china_sea_actor
+      pattern: '{scene} {object} {action}'
+      groups:
+        scene: scenes.south_china_sea
+        object: objects.maritime_actors
+        action: actions.maritime_security
+      quota: 1
+      max_candidates: 30
+      priority: 99
+      diversity_slots:
+      - object
+      - action
+    - name: shipping_supply
+      pattern: '{object} {action}'
+      groups:
+        object: objects.shipping_supply
+        action: actions.shipping_disruption
+      quota: 1
+      max_candidates: 18
+      priority: 92
+      diversity_slots:
+      - object
+      - action
+    - name: critical_supply
+      pattern: '{object} {action}'
+      groups:
+        object: objects.critical_supply
+        action: actions.critical_supply
+      quota: 1
+      max_candidates: 20
+      priority: 93
+      diversity_slots:
+      - object
+      - action
+    broad:
+    - name: personnel_safety_broad
+      pattern: '{object} {action}'
+      groups:
+        object: objects.people
+        action: actions.personnel_security
+      quota: 5
+      max_candidates: 50
+      priority: 100
+      diversity_slots:
+      - object
+      - action
+    - name: project_assets_broad
+      pattern: '{object}{scene} {action}'
+      groups:
+        object: objects.china_project_prefix
+        scene: scenes.project_assets
+        action: actions.project_disruption
+      quota: 6
+      max_candidates: 70
+      priority: 96
+      diversity_slots:
+      - scene
+      - action
+    - name: project_region_broad
+      pattern: '{object} {scene} {action}'
+      groups:
+        object: objects.project_general
+        scene: scenes.broad_context
+        action: actions.project_disruption
+      quota: 4
+      max_candidates: 60
+      priority: 88
+      diversity_slots:
+      - action
+    - name: engineering_projects_broad
+      pattern: '{object} {scene} {action}'
+      groups:
+        object: objects.engineering_companies
+        scene: scenes.engineering_assets
+        action: actions.project_disruption
+      quota: 4
+      max_candidates: 65
+      priority: 91
+      diversity_slots:
+      - object
+      - action
+    - name: energy_projects_broad
+      pattern: '{object} {scene} {action}'
+      groups:
+        object: objects.energy_companies
+        scene: scenes.energy_assets
+        action: actions.project_disruption
+      quota: 3
+      max_candidates: 48
+      priority: 92
+      diversity_slots:
+      - object
+      - action
+    - name: mining_projects_broad
+      pattern: '{object} 矿山 {action}'
+      groups:
+        object: objects.mining_companies
+        action: actions.project_disruption
+      quota: 3
+      max_candidates: 30
+      priority: 92
+      diversity_slots:
+      - object
+      - action
+    - name: labor_social_broad
+      pattern: '{object}{scene} {action}'
+      groups:
+        object: objects.china_project_prefix
+        scene: scenes.labor_assets
+        action: actions.labor_social
+      quota: 3
+      max_candidates: 40
+      priority: 92
+      diversity_slots:
+      - scene
+      - action
+    - name: tech_hardware_regulatory_broad
+      pattern: '{object} {action}'
+      groups:
+        object: objects.tech_hardware
+        action: actions.tech_regulatory
+      quota: 2
+      max_candidates: 16
+      priority: 98
+      diversity_slots:
+      - object
+      - action
+    - name: ev_battery_regulatory_broad
+      pattern: '{object} {action}'
+      groups:
+        object: objects.ev_battery
+        action: actions.ev_regulatory
+      quota: 2
+      max_candidates: 12
+      priority: 96
+      diversity_slots:
+      - object
+      - action
+    - name: digital_platform_regulatory_broad
+      pattern: '{object} {action}'
+      groups:
+        object: objects.digital_platforms
+        action: actions.platform_regulatory
+      quota: 1
+      max_candidates: 10
+      priority: 96
+      diversity_slots:
+      - object
+      - action
+    - name: ecommerce_regulatory_broad
+      pattern: '{object} {action}'
+      groups:
+        object: objects.ecommerce_platforms
+        action: actions.ecommerce_regulatory
+      quota: 1
+      max_candidates: 10
+      priority: 91
+      diversity_slots:
+      - object
+      - action
+    - name: trade_technology_broad
+      pattern: '{object} {action}'
+      groups:
+        object: objects.trade_sectors
+        action: actions.trade
+      quota: 4
+      max_candidates: 40
+      priority: 94
+      diversity_slots:
+      - object
+      - action
+    - name: military_hotspot_broad
+      pattern: '{scene} {action}'
+      groups:
+        scene: scenes.military_hotspots
+        action: actions.military
+      quota: 4
+      max_candidates: 38
+      priority: 99
+      diversity_slots:
+      - scene
+      - action
+    - name: diplomatic_personnel_broad
+      pattern: '{object} {action}'
+      groups:
+        object: objects.diplomatic_personnel
+        action: actions.diplomatic_personnel
+      quota: 2
+      max_candidates: 6
+      priority: 91
+      diversity_slots:
+      - object
+      - action
+    - name: diplomatic_state_broad
+      pattern: '{object} {action}'
+      groups:
+        object: objects.diplomatic_state
+        action: actions.diplomatic_state
+      quota: 2
+      max_candidates: 15
+      priority: 89
+      diversity_slots:
+      - object
+      - action
+    - name: south_china_sea_actor_broad
+      pattern: '{scene} {object} {action}'
+      groups:
+        scene: scenes.south_china_sea
+        object: objects.maritime_actors
+        action: actions.maritime_security
+      quota: 3
+      max_candidates: 44
+      priority: 99
+      diversity_slots:
+      - object
+      - action
+    - name: shipping_supply_broad
+      pattern: '{object} {action}'
+      groups:
+        object: objects.shipping_supply
+        action: actions.shipping_disruption
+      quota: 3
+      max_candidates: 20
+      priority: 92
+      diversity_slots:
+      - object
+      - action
+    - name: critical_supply_broad
+      pattern: '{object} {action}'
+      groups:
+        object: objects.critical_supply
+        action: actions.critical_supply
+      quota: 3
+      max_candidates: 24
+      priority: 93
+      diversity_slots:
+      - object
+      - action
+packs:
+  signal:
+    xhs:
+    - 中国员工 撤离
+    - 中国员工 遇袭
+    - 中国公民 被捕
+    - 中国公民 失踪
+    - 中资矿山 抗议
+    - 中资矿山 停产
+    - 中资工厂 罢工
+    - 中资工厂 停产
+    - 中资项目 抗议
+    - 中资项目 封锁
+    - 一带一路 项目 受阻
+    - 中国企业 制裁
+    - 中国企业 调查
+    - 华为 禁令
+    - 比亚迪 调查
+    - 宁德时代 抗议
+    - 中国电动车 关税
+    - 台海 军演
+    - 南海 海警 冲突
+    - 菲律宾 中国 海警
     dy:
-      - 中国
-      - 中资
-      - 中国企业
-      - 华为
-      - 比亚迪
-      - 台海
-      - 南海
+    - 中国员工 撤离
+    - 中国员工 遇袭
+    - 中资矿山 抗议
+    - 中资工厂 罢工
+    - 中资项目 抗议
+    - 中资项目 封锁
+    - 中国企业 制裁
+    - 华为 禁令
+    - 比亚迪 调查
+    - 台海 军演
+    - 南海 海警 冲突
     wb:
-      - 中国
-      - 中资
-      - 中国企业
-      - 华为
-      - 比亚迪
-      - 台海
-      - 南海
+    - 中国员工 撤离
+    - 中国公民 遇袭
+    - 中资项目 抗议
+    - 中资企业 停产
+    - 中国企业 制裁
+    - 中国企业 出口管制
+    - 华为 禁令
+    - 比亚迪 调查
+    - 台海 军演
+    - 南海 冲突
+  broad:
+    xhs:
+    - 中国
+    - 中资
+    - 中国企业
+    - 中国员工
+    - 华为
+    - 比亚迪
+    - 宁德时代
+    - 一带一路
+    - 台海
+    - 台湾
+    - 南海
+    dy:
+    - 中国
+    - 中资
+    - 中国企业
+    - 华为
+    - 比亚迪
+    - 台海
+    - 南海
+    wb:
+    - 中国
+    - 中资
+    - 中国企业
+    - 华为
+    - 比亚迪
+    - 台海
+    - 南海
