@@ -84,10 +84,12 @@
     "url": "https://www.xiaohongshu.com/explore/6a82463300000000050296c3?xsec_token=ABrM-p7g6peqSp0CJh_LdbWQDMIuWpudayeA-MKiZ1ydg=&xsec_source=pc_search",
     "accepted": false,
     "relation": "unrelated",
-    "relevance_score": 0,
+    "relevance_score": 13,
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
-    "matched_anchors": [],
+    "matched_anchors": [
+      "台湾"
+    ],
     "matched_events": [],
     "matched_strategic": [],
     "noise_terms": [],
@@ -105,7 +107,7 @@
     "url": "https://www.xiaohongshu.com/explore/6a8242d10000000025005da2?xsec_token=ABrM-p7g6peqSp0CJh_LdbWWkM45gfZc_2IMAufsW12PY=&xsec_source=pc_search",
     "accepted": true,
     "relation": "direct",
-    "relevance_score": 72,
+    "relevance_score": 86,
     "severity": "low",
     "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
     "matched_anchors": [
@@ -115,7 +117,9 @@
     "matched_events": [
       "驱离"
     ],
-    "matched_strategic": [],
+    "matched_strategic": [
+      "台海"
+    ],
     "noise_terms": [],
     "profiles": [],
     "entities": []
@@ -129,12 +133,14 @@
     "query": "中国员工 撤离",
     "text": "诺基亚中国宣布将裁撤约1600名员工！ 诺基亚中国宣布将裁撤约1600名员工，关停杭州核心研发中心，北京、成都等多地站点也将同步调整，相关工作预计2026年底前完成。 这是诺基亚在华多年业务收缩的关键一步：此前它已错失国内5G核心订单，在华5G市场占比不足3%，员工规模从2020年的1.37万骤降至2025年的7200人。 本次重组专项投入3.5亿欧元，是其全球8亿欧元降本计划的重要部分，完成后每年可节约2亿欧元运营成本。这家曾占据国人青春记忆的通信巨头，正在用大幅收缩的方式，把资源转向6G研发、AI数据中心基建等新赛道，试图在全球市场重新找到自己的位置。 #职场[话题]# #就业[话题]# #外企[话题]# #互联网大厂[话题]# #未来工作趋势[话题]# #裁员[话题]# #科技资讯早知道[话题]#",
     "url": "https://www.xiaohongshu.com/explore/6a823a640000000005028b67?xsec_token=ABrM-p7g6peqSp0CJh_LdbWYqllNBMg6TIwRLtVkW5pxo=&xsec_source=pc_search",
-    "accepted": false,
-    "relation": "unrelated",
-    "relevance_score": 14,
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 72,
     "severity": "low",
-    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
-    "matched_anchors": [],
+    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "matched_anchors": [
+      "中国"
+    ],
     "matched_events": [
       "裁员"
     ],
@@ -162,7 +168,8 @@
     "matched_anchors": [
       "中国工人",
       "中国公民",
-      "中国驻"
+      "中国驻",
+      "中国"
     ],
     "matched_events": [
       "武装",
@@ -171,7 +178,8 @@
     ],
     "matched_strategic": [
       "工厂",
-      "使馆"
+      "使馆",
+      "菲律宾"
     ],
     "noise_terms": [],
     "profiles": [
@@ -217,12 +225,14 @@
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
     "matched_anchors": [
-      "中国工人"
+      "中国工人",
+      "中国"
     ],
     "matched_events": [],
     "matched_strategic": [
       "使馆",
-      "领馆"
+      "领馆",
+      "菲律宾"
     ],
     "noise_terms": [],
     "profiles": [
@@ -245,7 +255,9 @@
     "relevance_score": 0,
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
-    "matched_anchors": [],
+    "matched_anchors": [
+      "台湾"
+    ],
     "matched_events": [],
     "matched_strategic": [],
     "noise_terms": [
@@ -288,14 +300,16 @@
     "url": "https://www.xiaohongshu.com/explore/6a8022f5000000002201310b?xsec_token=ABj9wDzhQlAlvNUNe5xtF2kIlrU2816WBpHVd8VRo3QLg=&xsec_source=pc_search",
     "accepted": false,
     "relation": "unrelated",
-    "relevance_score": 13,
+    "relevance_score": 27,
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
     "matched_anchors": [
       "南海"
     ],
     "matched_events": [],
-    "matched_strategic": [],
+    "matched_strategic": [
+      "南海"
+    ],
     "noise_terms": [],
     "profiles": [],
     "entities": []
@@ -315,7 +329,8 @@
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
     "matched_anchors": [
-      "宁德时代"
+      "宁德时代",
+      "中国"
     ],
     "matched_events": [],
     "matched_strategic": [],
@@ -556,7 +571,8 @@
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
     "matched_anchors": [
       "比亚迪",
-      "byd"
+      "byd",
+      "中国"
     ],
     "matched_events": [],
     "matched_strategic": [],
@@ -584,7 +600,8 @@
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
     "matched_anchors": [
-      "中国企业"
+      "中国企业",
+      "中国"
     ],
     "matched_events": [],
     "matched_strategic": [],
@@ -603,12 +620,16 @@
     "url": "https://www.xiaohongshu.com/explore/6a7c6e2d000000003300ad2c?xsec_token=ABdIo9WE1_MWWmNO4wbbDYnPR5UP7FUxnVyzWrAlpIpzo=&xsec_source=pc_search",
     "accepted": false,
     "relation": "unrelated",
-    "relevance_score": 0,
+    "relevance_score": 27,
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
-    "matched_anchors": [],
+    "matched_anchors": [
+      "台湾"
+    ],
     "matched_events": [],
-    "matched_strategic": [],
+    "matched_strategic": [
+      "东南亚"
+    ],
     "noise_terms": [],
     "profiles": [],
     "entities": []
@@ -645,7 +666,7 @@
     "url": "https://www.xiaohongshu.com/explore/6a7c29c900000000080124c0?xsec_token=ABdIo9WE1_MWWmNO4wbbDYnKseXnAO0rSjttNv5viQ82U=&xsec_source=pc_search",
     "accepted": true,
     "relation": "direct",
-    "relevance_score": 82,
+    "relevance_score": 96,
     "severity": "high",
     "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
     "matched_anchors": [
@@ -659,7 +680,9 @@
       "制裁",
       "调查"
     ],
-    "matched_strategic": [],
+    "matched_strategic": [
+      "非洲"
+    ],
     "noise_terms": [],
     "profiles": [
       "Nigeria",
@@ -678,10 +701,12 @@
     "url": "https://www.xiaohongshu.com/explore/6a7c17ef000000003300fad2?xsec_token=ABdIo9WE1_MWWmNO4wbbDYnMadoiAR7AvwsXRzVOaPwNQ=&xsec_source=pc_search",
     "accepted": false,
     "relation": "unrelated",
-    "relevance_score": 0,
+    "relevance_score": 13,
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
-    "matched_anchors": [],
+    "matched_anchors": [
+      "中国"
+    ],
     "matched_events": [],
     "matched_strategic": [],
     "noise_terms": [],
@@ -703,7 +728,8 @@
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
     "matched_anchors": [
-      "中资"
+      "中资",
+      "中国"
     ],
     "matched_events": [],
     "matched_strategic": [],
@@ -827,10 +853,12 @@
     "url": "https://www.xiaohongshu.com/explore/6a78533c000000003301c720?xsec_token=ABR_jlxG99aKvsb885f3YLmiNjEJ2i5HyHDTT3NIpRM8Y=&xsec_source=pc_search",
     "accepted": false,
     "relation": "unrelated",
-    "relevance_score": 0,
+    "relevance_score": 13,
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
-    "matched_anchors": [],
+    "matched_anchors": [
+      "中国"
+    ],
     "matched_events": [],
     "matched_strategic": [],
     "noise_terms": [],
@@ -852,7 +880,8 @@
     "severity": "high",
     "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
     "matched_anchors": [
-      "中国员工"
+      "中国员工",
+      "中国"
     ],
     "matched_events": [
       "撤离"
@@ -903,7 +932,8 @@
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
     "matched_anchors": [
-      "中资"
+      "中资",
+      "中国"
     ],
     "matched_events": [],
     "matched_strategic": [],
@@ -922,10 +952,12 @@
     "url": "https://www.xiaohongshu.com/explore/6a75fabf000000002c005267?xsec_token=ABORdB_q3mIqPOPpk-bCsgXUNEk-K7ug3meDcaH4pR4A8=&xsec_source=pc_search",
     "accepted": false,
     "relation": "unrelated",
-    "relevance_score": 0,
+    "relevance_score": 13,
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
-    "matched_anchors": [],
+    "matched_anchors": [
+      "中国"
+    ],
     "matched_events": [],
     "matched_strategic": [],
     "noise_terms": [],
@@ -947,7 +979,8 @@
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
     "matched_anchors": [
-      "中资"
+      "中资",
+      "中国"
     ],
     "matched_events": [],
     "matched_strategic": [],
@@ -972,16 +1005,21 @@
     "url": "https://www.xiaohongshu.com/explore/6a75a9ce0000000029032b28?xsec_token=ABORdB_q3mIqPOPpk-bCsgXUmroHM7QaZ9dVQAgtwZISw=&xsec_source=pc_search",
     "accepted": true,
     "relation": "direct",
-    "relevance_score": 77,
+    "relevance_score": 91,
     "severity": "medium",
     "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
     "matched_anchors": [
-      "南海"
+      "南海",
+      "中国海警",
+      "中国"
     ],
     "matched_events": [
       "海警"
     ],
-    "matched_strategic": [],
+    "matched_strategic": [
+      "南海",
+      "黄岩岛"
+    ],
     "noise_terms": [],
     "profiles": [
       "United States",
@@ -1000,10 +1038,12 @@
     "url": "https://www.xiaohongshu.com/explore/6a7556d5000000002402f4e1?xsec_token=ABORdB_q3mIqPOPpk-bCsgXV3Pobv5Gvlg-Uav0TqHZxs=&xsec_source=pc_search",
     "accepted": false,
     "relation": "unrelated",
-    "relevance_score": 0,
+    "relevance_score": 13,
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
-    "matched_anchors": [],
+    "matched_anchors": [
+      "中国"
+    ],
     "matched_events": [],
     "matched_strategic": [],
     "noise_terms": [],
@@ -1021,10 +1061,12 @@
     "url": "https://www.xiaohongshu.com/explore/6a754ba8000000003300cf24?xsec_token=ABORdB_q3mIqPOPpk-bCsgXeRGvt81NgIG5g_9x6kcWjw=&xsec_source=pc_search",
     "accepted": false,
     "relation": "unrelated",
-    "relevance_score": 0,
+    "relevance_score": 13,
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
-    "matched_anchors": [],
+    "matched_anchors": [
+      "中国"
+    ],
     "matched_events": [],
     "matched_strategic": [],
     "noise_terms": [],
@@ -1063,19 +1105,25 @@
     "url": "https://www.xiaohongshu.com/explore/6a748e97000000002500f4ac?xsec_token=AB76F9GLUSudbGUXLmLnLWx6Ty_bH7MHjvban-LmEb3Hk=&xsec_source=pc_search",
     "accepted": true,
     "relation": "direct",
-    "relevance_score": 77,
+    "relevance_score": 91,
     "severity": "medium",
     "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
     "matched_anchors": [
       "解放军",
-      "南海"
+      "南海",
+      "中国海警",
+      "中国"
     ],
     "matched_events": [
       "海警",
       "碰撞",
-      "驱离"
+      "驱离",
+      "对峙"
     ],
-    "matched_strategic": [],
+    "matched_strategic": [
+      "南海",
+      "菲律宾"
+    ],
     "noise_terms": [],
     "profiles": [
       "United States",
@@ -1185,17 +1233,20 @@
     "query": "中国员工 撤离",
     "text": "喊着外企滚出中国的人还好吗？ 不知道从什么时候开始，在网上经常看到“外企滚出去，我们自己也能过的很好”的言论，大概得有几年了吧 现在的失业率我不清楚，只知道以前我们公司招聘不招45岁以上的，现在这个数字好像在各行各业都已经降到35了，甚至有些是30。 外企在中国做了什么？除了大量的税收贡献，还有就是就业影响。2014～2015年巅峰时期，如果把上游供应链（零部件与原材料）、下游销售售后、以及周边配套服务（物流、餐饮、房屋租赁、IT/广告/法律等第三方服务）全部纳入广义的外企经济圈，外企在中国拉动的总就业人口大约在 1.2 亿至 1.5 亿人 之间。相当于当时全国城镇就业总人口约 3.8 亿至 4 亿人的 30% 。 而且实际上很可能还不止这些。打个比方，我们公司以前接广告拍摄服务。所有外企都是打包给4a公司，4a再转手给我们这种小公司去执行。相当于一家外企同时养活了我们大小两家公司。它们一撤走，4a公司受到极大影响就先裁员，而我们这种小公司直接面临生存问题。而无论是大量裁员的4a还是我们这种生存不下去的小公司，员工减少，就意味着公司周边的饭馆奶茶店小超市甚至是租房市场都直接收到了影响，这就是链条 不知道具体被波及的就业人口是多少，ai给出的参考数字是巅峰时期的一半。图二。总之，人家走了，剩下的就靠咱们自己了。加油 #外企[话题]# #外企打工人[话题]# #就业大环境[话题]# #我的职场感悟[话题]# #职场[话题]# #就业[话题]# #失业[话题]# #神仙外企[话题]# #求仁得仁[话题]#",
     "url": "https://www.xiaohongshu.com/explore/6a73ba3c00000000220167fb?xsec_token=ABGvzHNT7G1L5K1lY61-twSib46NTWLsAT9oUywWBvT20=&xsec_source=pc_search",
-    "accepted": false,
-    "relation": "unrelated",
-    "relevance_score": 18,
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 76,
     "severity": "medium",
-    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
-    "matched_anchors": [],
+    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "matched_anchors": [
+      "中国"
+    ],
     "matched_events": [
       "裁员"
     ],
     "matched_strategic": [
-      "供应链"
+      "供应链",
+      "物流"
     ],
     "noise_terms": [
       "招聘"
@@ -1243,12 +1294,16 @@
     "url": "https://www.xiaohongshu.com/explore/6a731881000000003301bff8?xsec_token=ABGvzHNT7G1L5K1lY61-twSsUEIvKPn4L74Fw7fGmpsOc=&xsec_source=pc_search",
     "accepted": false,
     "relation": "unrelated",
-    "relevance_score": 0,
+    "relevance_score": 27,
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
-    "matched_anchors": [],
+    "matched_anchors": [
+      "台湾"
+    ],
     "matched_events": [],
-    "matched_strategic": [],
+    "matched_strategic": [
+      "台湾海峡"
+    ],
     "noise_terms": [],
     "profiles": [],
     "entities": []
@@ -1291,7 +1346,8 @@
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
     "matched_anchors": [
-      "华为"
+      "华为",
+      "中国"
     ],
     "matched_events": [],
     "matched_strategic": [],

@@ -1,13 +1,13 @@
 {
   "platform_code": "xhs",
-  "status": "ok",
-  "items": 40,
+  "status": "empty",
+  "items": 0,
   "reason_code": "fetch_error",
   "detail": "平台接口请求失败/重试耗尽",
   "exit_code": 1,
-  "attempts": 1,
-  "updated_at": "2026-08-18T00:00:11.258823+00:00",
-  "keywords": "中国员工 撤离,中国员工 遇袭,中国公民 被捕,中国公民 失踪,中资矿山 抗议,中资矿山 停产,中资工厂 罢工,中资工厂 停产,中资项目 抗议,中资项目 封锁,一带一路 项目 受阻,中国企业 制裁,中国企业 调查,华为 禁令,比亚迪 调查,宁德时代 抗议,中国电动车 关税,台海 军演,南海 海警 冲突,菲律宾 中国 海警",
+  "attempts": 2,
+  "updated_at": "2026-08-18T03:04:11.716654+00:00",
+  "keywords": "中国员工 遇袭,中国公民 被捕,中资矿山 抗议,中资项目 封锁,中国企业 制裁,华为 禁令,台海 军演,南海 中国海警 碰撞,中国公民 撤侨,中国员工 绑架,中国工人 遇袭,中国驻外人员 撤离,中资项目 袭击,一带一路项目 封锁,海外中资项目 爆炸,中资矿山 封锁,中资港口 爆炸,中资油气田 袭击,中国电建 铁路 封锁,中国能建 铁路 爆炸,中资工厂 罢工,中资矿山 欠薪,华为 出口管制,比亚迪 关税,TikTok 强制出售,Shein 进口限制,中国电动车 关税,中国光伏 出口管制,台海 封锁,南海 实弹演习,台湾海峡 军演,中国大使 召见,台湾 断交,南海 中国海警 拦截,中远海运 航线中断,中国稀土 出口禁令",
   "diagnostic_log": "/home/runner/work/0.4/0.4/data/mediacrawler_xhs.log",
-  "exception": "tenacity.RetryError: RetryError[<Future at 0x7fec9e40a9d0 state=finished raised DataFetchError>]"
+  "exception": "tenacity.RetryError: RetryError[<Future at 0x7fab554acf50 state=finished raised DataFetchError>]"
 }
