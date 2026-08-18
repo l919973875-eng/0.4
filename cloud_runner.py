@@ -32,6 +32,7 @@ SOURCES_FILE = CONFIG_DIR / 'sources.yaml'
 INTERESTS_FILE = CONFIG_DIR / 'china_interest_map.yaml'
 TIERS_FILE = CONFIG_DIR / 'source_tiers.yaml'
 SOCIAL_FILE = CONFIG_DIR / 'social_sources.yaml'
+SOCIAL_KEYWORDS_FILE = CONFIG_DIR / 'social_keywords.yaml'
 GEO_ALIASES_FILE = CONFIG_DIR / 'geo_aliases.yaml'
 ARTICLES_FILE = DATA_DIR / 'articles.json'
 SIGNALS_FILE = DATA_DIR / 'signals.json'
@@ -57,6 +58,44 @@ CLASSIFIER_BATCH = int(os.getenv('CLASSIFIER_BATCH_SIZE', '25'))
 ENABLE_GDELT = os.getenv('ENABLE_GDELT', 'true').lower() in {'1', 'true', 'yes', 'on'}
 GDELT_TIMESPAN = os.getenv('GDELT_TIMESPAN', '1d')
 
+
+def _social_taxonomy_terms(section: str) -> list[str]:
+    """Load canonical social taxonomy terms so discovery and review use one vocabulary."""
+    try:
+        cfg = yaml.safe_load(SOCIAL_KEYWORDS_FILE.read_text(encoding='utf-8')) or {}
+        groups = ((((cfg.get('generator') or {}).get('taxonomy') or {}).get(section)) or {})
+    except Exception:
+        return []
+    if not isinstance(groups, dict):
+        return []
+    out = []
+    seen = set()
+    for values in groups.values():
+        if not isinstance(values, list):
+            continue
+        for raw in values:
+            value = raw.get('term') if isinstance(raw, dict) else raw
+            text = str(value or '').strip()
+            key = text.casefold()
+            if text and key not in seen:
+                seen.add(key)
+                out.append(text)
+    return out
+
+
+def _merge_terms(*groups: list[str]) -> list[str]:
+    out = []
+    seen = set()
+    for group in groups:
+        for raw in group:
+            text = str(raw or '').strip()
+            key = text.casefold()
+            if text and key not in seen:
+                seen.add(key)
+                out.append(text)
+    return out
+
+
 TRACKING = {'utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid','fbclid','mc_cid','mc_eid'}
 ARTICLE_HINTS = re.compile(r'/(20\d{2}/|article|articles|news|story|stories|analysis|research|report|reports|publication|publications|commentary|insight|insights|press|blog|opinion|policy|event|events)/', re.I)
 SKIP_HINTS = re.compile(r'/(tag|topic|author|authors|category|categories|about|contact|privacy|terms|login|subscribe|newsletter|podcast|video|videos)(/|$)', re.I)
@@ -76,21 +115,21 @@ SPORT_ENTERTAINMENT = re.compile(r'\b(football|soccer|basketball|baseball|tennis
 
 # 社交平台与新闻不同：仅出现“中国/华为/比亚迪”不能直接入池，必须同时出现“异常事件/风险动作”，
 # 或命中已知海外资产/项目。这样保留“低可信但高价值”的苗头，同时过滤消费、生活方式和产品讨论。
-SOCIAL_CHINA_ANCHORS = [
+SOCIAL_CHINA_ANCHORS = _merge_terms([
     '中资','中国企业','中国公司','中企','中国员工','中国工人','中国公民','中国游客','华人','华侨',
     '一带一路','中国项目','中国投资','中国资本','中国驻','中国使馆','中国大使馆','解放军','台海','南海',
     '华为','比亚迪','宁德时代','中远海运','紫金矿业','中石油','中石化','国家电网','中国铁路','中兴','字节跳动',
     'chinese company','chinese workers','chinese citizens','chinese investment','china-backed','belt and road','pla','huawei','byd','catl','cosco','zijin',
-]
-SOCIAL_EVENT_TERMS = [
+], _social_taxonomy_terms('objects'))
+SOCIAL_EVENT_TERMS = _merge_terms([
     '撤离','撤侨','遇袭','袭击','绑架','失踪','死亡','伤亡','被捕','拘留','驱逐','冲突','武装','爆炸','火灾','事故','骚乱','抗议','示威','罢工','封锁',
     '停工','停产','关闭','暂停运营','撤资','裁员','制裁','禁令','调查','审查','黑名单','出口管制','关税','扣押','没收','断网','停电','军演','军事演习','集结','海警','拦截','碰撞','驱离','危机','紧急状态',
     'evacuation','evacuate','attack','kidnap','missing','killed','casualties','detained','arrested','expelled','clash','conflict','explosion','fire','accident','riot','protest','strike','blockade','shutdown','closure','suspend','sanction','ban','probe','investigation','blacklist','export control','tariff','seized','internet shutdown','power outage','military drill','intercept','collision','crisis','emergency',
-]
-SOCIAL_STRATEGIC_TERMS = [
+], _social_taxonomy_terms('actions'))
+SOCIAL_STRATEGIC_TERMS = _merge_terms([
     '矿山','铜矿','锂矿','镍矿','稀土','工厂','工业园','港口','码头','铁路','公路','管道','油田','气田','电站','水电站','矿区','园区','供应链','航运','海运','电信','芯片','半导体','电池','电动车','大坝','使馆','领馆','项目',
     'mine','mining','copper','lithium','nickel','rare earth','factory','industrial park','port','terminal','railway','pipeline','oilfield','gas field','power plant','supply chain','shipping','telecom','semiconductor','battery','embassy','consulate','project',
-]
+], _social_taxonomy_terms('scenes'))
 SOCIAL_NOISE_TERMS = [
     '测评','开箱','价格','优惠','降价','买车','提车','车评','手机评测','手机测评','好用吗','种草','穿搭','美妆','护肤','美食','餐厅','旅游攻略','旅行攻略','留学申请','留学生活','求职','招聘','面试','教程','摄影','壁纸','追星','演唱会','电视剧','电影推荐','游戏','抽奖','购物','代购','二手','闲置','新品发布','产品发布',
     'review','unboxing','discount','shopping','recipe','travel guide','study abroad','job hunting','fashion','beauty','concert','movie review','gaming','giveaway','product launch',
