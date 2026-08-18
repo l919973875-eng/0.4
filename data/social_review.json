@@ -4,7 +4,7 @@
     "platform": "xiaohongshu",
     "author": "深***场",
     "published_at": "2026-08-18T03:15:42+00:00",
-    "collected_at": "2026-08-18T08:47:32.797814+00:00",
+    "collected_at": "2026-08-18T09:33:30.399117+00:00",
     "query": "中国公民 被捕",
     "text": "巴媒报道，上周100余名中国公民因涉嫌经营非法呼叫中心在巴基斯坦被拘留。8月17日外交部发言人林剑作出回应，我国严厉打击电诈犯罪，要求海外公民遵守当地法律，推进国际反诈合作！#巴基斯坦[话题]# #电诈[话题]# #诈骗[话题]# #精选主播说[话题]# 巴媒报道，上周100余名中国公民因涉嫌经营非法呼叫中心在巴基斯坦被拘留。8月17日外交部发言人林剑作出回应，我国严厉打击电诈犯罪，要求海外公民遵守当地法律，推进国际反诈合作！#巴基斯坦[话题]# #电诈[话题]# #诈骗[话题]# #精选主播说[话题]#",
     "url": "https://www.xiaohongshu.com/explore/6a83ce5e0000000035014ca3?xsec_token=ABUtJZlkhxyMKlcBHGQWX9iS7zMfFxX_WTsbJAhFtpex8=&xsec_source=pc_search",
@@ -29,11 +29,90 @@
     "entities": []
   },
   {
+    "id": "38e3d9c6adbcff76e389",
+    "platform": "xiaohongshu",
+    "author": "彭***长",
+    "published_at": "2026-08-18T03:09:42+00:00",
+    "collected_at": "2026-08-18T09:33:30.402340+00:00",
+    "query": "中国员工 绑架",
+    "text": "中国男子伊拉克开餐厅，美军开直升机买炒饭 热映电影《欢迎来龙餐馆》原形真实事件！中国男子在伊拉克开中餐厅，美国大兵开着黑鹰直升机来买炒饭，多次遭到袭击。。。餐馆里炸进来无数残肢！收留难民，让龙餐馆成为避难所，还主动去解救被恐怖分子绑架的中国工人，今天我们就来讲讲，这段真实发生的，既离奇又散发着人性光辉的传奇故事！",
+    "url": "https://www.xiaohongshu.com/explore/6a83ccf60000000022030e25?xsec_token=ABUtJZlkhxyMKlcBHGQWX9iZVDf01_As5oKfiejRXKaqs=&xsec_source=pc_search",
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 57,
+    "severity": "low",
+    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "matched_anchors": [
+      "中国工人",
+      "中国"
+    ],
+    "matched_events": [
+      "袭击",
+      "绑架"
+    ],
+    "matched_strategic": [],
+    "noise_terms": [
+      "餐厅"
+    ],
+    "profiles": [
+      "United States"
+    ],
+    "entities": []
+  },
+  {
+    "id": "e7261739cf3e355164bd",
+    "platform": "xiaohongshu",
+    "author": "澎***闻",
+    "published_at": "2026-08-18T03:07:21+00:00",
+    "collected_at": "2026-08-18T09:33:30.398814+00:00",
+    "query": "中国员工 遇袭",
+    "text": "赵海峰被调查，涉嫌在商务饭局中侵犯女性 近日，招商蛇口旗下浙江公司高管赵海峰被传带走调查。8月17日，据第一财经援引业内知情人士消息，招商蛇口方面已经免去赵海峰浙江公司总经理一职，其因今年7月在杭州一场商务饭局中涉嫌伤害一名女性，目前仍在接受相关部门调查阶段，该起事件还牵涉其余人员，相关细节有待进一步核实。 据新黄河从多个消息源获悉，这场饭局在杭州一处知名商业综合体内的包厢，赵海峰当时与厦门一家房企杭州公司负责人王某等人共同赴宴，事发过程中，赵海峰被指对王某带来的一名女性下属作出伤害行为。 案发后，受害一方选择报警，杭州警方介入侦查，赵海峰被警方带走调查，杭州警方并未对外披露该案更多细节信息，招商蛇口总部亦已开展调查。（来源：界面新闻） #招商蛇口[话题]# #社会新闻[话题]# #职场[话题]# #热点新闻事件[话题]# @热点薯",
+    "url": "https://www.xiaohongshu.com/explore/6a83cc690000000026034621?xsec_token=ABUtJZlkhxyMKlcBHGQWX9iX8rxdDdGkWv4zj0tE8r8jM=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 19,
+    "severity": "medium",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [],
+    "matched_events": [
+      "调查",
+      "带走"
+    ],
+    "matched_strategic": [],
+    "noise_terms": [],
+    "profiles": [],
+    "entities": []
+  },
+  {
+    "id": "8bd6157ecd0eaeed7c89",
+    "platform": "xiaohongshu",
+    "author": "搜***闻",
+    "published_at": "2026-08-18T02:59:20+00:00",
+    "collected_at": "2026-08-18T09:33:30.398766+00:00",
+    "query": "中国员工 遇袭",
+    "text": "涉嫌饭局中侵犯女性 涉事高管被传带走调查 近日，招商蛇口旗下浙江公司高管赵海峰被传带走调查。8月17日，据第一财经援引业内知情人士消息，招商蛇口方面已经免去赵海峰浙江公司总经理一职，其因今年7月在杭州一场商务饭局中涉嫌伤害一名女性，目前仍在接受相关部门调查阶段，该起事件还牵涉其余人员，相关细节有待进一步核实。 截至目前，招商蛇口官方、招商局集团以及公安机关均未就此事发布正式通报。另外，招商蛇口上市公司、招商局集团暂未发布任何关于浙江公司总经理继任人事任免公告。 据新黄河从多个消息源获悉，这场饭局在杭州一处知名商业综合体内的包厢，赵海峰当时与厦门一家房企杭州公司负责人王某等人共同赴宴，事发过程中，赵海峰被指对王某带来的一名女性下属作出伤害行为。案发后，受害一方选择报警，杭州警方介入侦查，赵海峰被警方带走调查，杭州警方并未对外披露该案更多细节信息，招商蛇口总部亦已开展调查。 8月18日，界面新闻记者拨打招商局地产(杭州)有限公司公开电话，接听的工作人员回应称已经有多人打电话咨询赵海峰情况，因为不在同一办公区，他们并不知道赵海峰目前是否在正常上班。关于被传相关情况，工作人员表示目前公司内部没有相关通报。 公开履历资料显示，赵海峰出生于1980年，本科毕业于清华大学。早年他以管培生身份进入万科，先后在沈阳、西安、温州等多地万科公司担任重要管理岗位。2019年年末，赵海峰跳槽至招商蛇口，出任杭州公司总经理。2025年杭州公司升级为浙江区域公司之后，他升任浙江公司党委书记、总经理。 #热点新闻事件[话题]# #招商蛇口[话题]# #招商蛇口浙江公司[话题]# #赵海峰[话题]# #女性侵害[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a83ca870000000028030fab?xsec_token=ABUtJZlkhxyMKlcBHGQWX9iWMlnsBCAKr2ASq4G8hvGNI=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 19,
+    "severity": "medium",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [],
+    "matched_events": [
+      "调查",
+      "带走"
+    ],
+    "matched_strategic": [],
+    "noise_terms": [],
+    "profiles": [],
+    "entities": []
+  },
+  {
     "id": "7f915da57b013bfb3a32",
     "platform": "xiaohongshu",
     "author": "面***师",
     "published_at": "2026-08-17T09:48:01+00:00",
-    "collected_at": "2026-08-18T08:47:32.798462+00:00",
+    "collected_at": "2026-08-18T09:33:30.400482+00:00",
     "query": "中国企业 制裁",
     "text": "老美的政府封禁大疆，老美的警察却在用它 大疆这回真是扬眉吐气了。 8月14日，美国上诉法院裁定：五角大楼把大疆列入“中国军事企业”黑名单，证据不足，发回重审。这是中国硬科技在制裁铁幕上亲手凿开的第一道裂缝。 但比法庭更精彩的，是美国的基层。 圣芭芭拉消防局用大疆热成像无人机，从太平洋里捞起一个快沉下去的冲浪者；休斯顿警局组建新战术单元，核心装备是大疆Matrice 4T，性能更强，价格只有美产的一半；加州尔湾警局连续两年的开放日，展示的无人机全是大疆。 全美超过80%的执法和应急机构在用大疆技术，商用市场占七到九成，农用无人机每五架就有四架是大疆，不是不想买美国货，是买不起——同等功能贵三到五倍，性能还跟不上。 虽然法庭上的程序还没走完，但地面上的胜负早就分出来了：当大疆的产品好到基层都离不开时，顶层的封禁，终究只是一纸空文。 #大疆起诉美国国防部[话题]# #大疆诉美国防部赢得程序性胜利[话题]# #大疆[话题]# #无人机[话题]# #科技出海[话题]# #国货之光[话题]#",
     "url": "https://www.xiaohongshu.com/explore/6a82d8d100000000060076cd?xsec_token=ABLXFuYQ47HWRAR3x2g4l8a1C0PctvwKMcsTpOdOIxXEg=&xsec_source=pc_search",
@@ -56,6 +135,29 @@
     "profiles": [
       "United States"
     ],
+    "entities": []
+  },
+  {
+    "id": "5b22490a7680ee180cd4",
+    "platform": "xiaohongshu",
+    "author": "米***~",
+    "published_at": "2026-08-17T08:02:42+00:00",
+    "collected_at": "2026-08-18T09:33:30.402278+00:00",
+    "query": "中国员工 绑架",
+    "text": "逛街惨遭绑架！强行收获两张纸质照片‼️ 今天天气太好了，决定不再当乌龟人🐢 结果我走到观音桥北城天街三楼的时候被小米之家的员工硬拽进去，非要给我打印两张照片，简直“太不好意思了”[惊恐R][惊恐R][惊恐R][惊恐R] #让每一张照片都值得珍藏[话题]##去掉班味儿[话题]# #拍照是为了纪念[话题]# #小米[话题]# #出片[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a82c0220000000022033629?xsec_token=ABLXFuYQ47HWRAR3x2g4l8awxlHWof9a0CSa0ldDc9gdo=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 14,
+    "severity": "low",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [],
+    "matched_events": [
+      "绑架"
+    ],
+    "matched_strategic": [],
+    "noise_terms": [],
+    "profiles": [],
     "entities": []
   },
   {
@@ -82,6 +184,31 @@
       "India",
       "Global"
     ],
+    "entities": []
+  },
+  {
+    "id": "3b868686fea1033c3ef7",
+    "platform": "xiaohongshu",
+    "author": "出***君",
+    "published_at": "2026-08-17T03:05:25+00:00",
+    "collected_at": "2026-08-18T09:33:30.400319+00:00",
+    "query": "中资项目 封锁",
+    "text": "赴蒙古经营⚠️PE风险+税筹大坑 💡 出海真心话 蒙古市场机会多、竞争相对可控，但税务合规和PE风控是绝对底线。 不懂常设机构规则，盲目进场等于裸奔经营；不会合规税筹，看似赚单、实则给税局打工。 中资出海，先风控、再经营，先税筹、再盈利，才能稳稳守住项目利润❗ 需要对应国家出海合规要点的朋友，可以评论区扣对应国家名称。#蒙古出海[话题]# #中资赴蒙[话题]# #海外财税[话题]# #税务筹划[话题]# #出海合规[话题]# #常设机构风险[话题]# #企业出海[话题]# #项目出海[话题]# #外贸避坑[话题]# #境外投资备案[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a827a75000000003300b205?xsec_token=ABLXFuYQ47HWRAR3x2g4l8a2YgXDk_LGqL_gC3O19Kww0=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 27,
+    "severity": "low",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [
+      "中资"
+    ],
+    "matched_events": [],
+    "matched_strategic": [
+      "项目"
+    ],
+    "noise_terms": [],
+    "profiles": [],
     "entities": []
   },
   {
@@ -247,6 +374,34 @@
     "entities": []
   },
   {
+    "id": "06fdbc75aac954d4701a",
+    "platform": "xiaohongshu",
+    "author": "第***经",
+    "published_at": "2026-08-16T14:44:42+00:00",
+    "collected_at": "2026-08-18T09:33:30.402891+00:00",
+    "query": "中国工人 遇袭",
+    "text": "菲律宾防长指挥抓捕70名手无寸铁中国工人 #菲律宾[话题]# #中国工人[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a81ccda000000002c00185f?xsec_token=ABokkCTyYuo_EjznElkdVfBnMa9rknyednOaEvEC3JlFw=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 27,
+    "severity": "low",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [
+      "中国工人",
+      "中国"
+    ],
+    "matched_events": [],
+    "matched_strategic": [
+      "菲律宾"
+    ],
+    "noise_terms": [],
+    "profiles": [
+      "Philippines"
+    ],
+    "entities": []
+  },
+  {
     "id": "53f17e9c4800c3f30167",
     "platform": "xiaohongshu",
     "author": "科***咖",
@@ -267,6 +422,41 @@
     "matched_strategic": [],
     "noise_terms": [],
     "profiles": [],
+    "entities": []
+  },
+  {
+    "id": "7e25e83df22da76f6d4b",
+    "platform": "xiaohongshu",
+    "author": "毛***地",
+    "published_at": "2026-08-16T08:27:04+00:00",
+    "collected_at": "2026-08-18T09:33:30.402697+00:00",
+    "query": "中国工人 遇袭",
+    "text": "菲律宾国防部长特奥多罗指挥军队抓捕中国工 日前，中国驻菲律宾使馆发言人季凌鹏对菲防长特奥多罗声明作出回应。 问：菲律宾防长特奥多罗发表声明并接受采访，攻击中国外交部发言人相关表态为虚假信息，继续指称三佳钢厂中国工人在菲从事违法活动，并称中国使馆官员介入菲执法行动。请问中国使馆有何评论？ 答：特奥多罗有关言论毫无根据、歪曲事实、颠倒黑白。 首先，今年5月，特奥多罗指挥军队冲到三佳钢厂抓捕手无寸铁的中国工人，他到底是防长还是警察局长？为什么要插手执法行动？出于什么目的？这是他的工作职责吗？ 其次，如果工厂违反环保等法律，为什么抓工人，而不是相关负责人？为什么只抓中国工人，却当场释放所有菲律宾工人？为什么还要用军机把中国工人押到马尼拉关押？ 第三，据中国工人告，该厂所有工人平日上班时，只穿正常劳动服装，从未穿过防护服。突袭当天，一群执法人员让3名中国工人穿上防护服摆拍，事后大肆炒作说中国工人日常穿防护服，菲律宾工人却不穿。这不是污蔑构陷又是什么？ 第四，被关押的70名中国工人，每13人被关在一间5平米的牢房，觉都没法睡。菲方未按双边协议向中方进行领事通报和安排领事探视，这是正常执法行动吗？ 第五，中国使馆第一时间向菲方提供了所有中国工人护照、签证合法齐备的信息资料。为什么菲方既不反馈，也不放人？为什么32天后所有人才被释放？菲方到底要达到什么目的？ 第六，特奥多罗说，70名中国工人被抓时身上没有护照，他认为工厂在贩卖人口。这是菲律宾法律界定的人口贩卖行为吗？所有外国工人在菲律宾工厂上班都要每天随身携带护照吗？ 第七，外国公民是否违法犯罪，是由防长说了算吗？菲司法部门5月28日决议说得非常清楚，针对70名中国工人的指控证据不足，应予释放。特奥多罗直到现在还在污蔑他们在菲从事违法活动，他尊重司法吗？ 中方完全尊重菲司法主权和相关执法部门依法办案，外国公民在菲违法犯罪，如果证据确凿，该抓就抓，该判就判。外国公民在中国违法犯罪也一样。但我们坚决反对针对中国公民搞选择性、歧视性、运动式、政治化执法。 特奥多罗说中国使馆介入菲执法程序。对外交有点基本常识的人都知道，一国使馆最基本的职责就是保护本国公民的安全和合法权益不受侵犯。不论中国公民因何原因被拘捕，中国使馆都有权利有责任进行领事探视和保护，同相关执法部门进行沟通和交涉，确保中国公民受到人道主义和公平公正对待。",
+    "url": "https://www.xiaohongshu.com/explore/6a817458000000002402f83d?xsec_token=ABokkCTyYuo_EjznElkdVfBknG5msrT7VgN008wfEHW38=&xsec_source=pc_search",
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 86,
+    "severity": "low",
+    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "matched_anchors": [
+      "中国工人",
+      "中国公民",
+      "中国驻",
+      "中国使馆",
+      "中国"
+    ],
+    "matched_events": [
+      "被抓"
+    ],
+    "matched_strategic": [
+      "工厂",
+      "使馆",
+      "菲律宾"
+    ],
+    "noise_terms": [],
+    "profiles": [
+      "Philippines"
+    ],
     "entities": []
   },
   {
@@ -301,6 +491,36 @@
     "entities": []
   },
   {
+    "id": "58550b353623ae27d27a",
+    "platform": "xiaohongshu",
+    "author": "中***社",
+    "published_at": "2026-08-16T06:07:39+00:00",
+    "collected_at": "2026-08-18T09:33:30.402849+00:00",
+    "query": "中国工人 遇袭",
+    "text": "中国使馆“七连问”菲律宾 菲律宾防长指挥军队抓捕中国工人，中国使馆“七连问”！",
+    "url": "https://www.xiaohongshu.com/explore/6a8153aa000000002c0044d5?xsec_token=ABokkCTyYuo_EjznElkdVfBkr3E2Ai5Pi8mLHLaoYNkcw=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 27,
+    "severity": "low",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [
+      "中国工人",
+      "中国使馆",
+      "中国"
+    ],
+    "matched_events": [],
+    "matched_strategic": [
+      "使馆",
+      "菲律宾"
+    ],
+    "noise_terms": [],
+    "profiles": [
+      "Philippines"
+    ],
+    "entities": []
+  },
+  {
     "id": "b29c6802287951443c17",
     "platform": "xiaohongshu",
     "author": "双***肉",
@@ -323,6 +543,72 @@
       "美食"
     ],
     "profiles": [],
+    "entities": []
+  },
+  {
+    "id": "10be19a792e238c3712e",
+    "platform": "xiaohongshu",
+    "author": "郝***师",
+    "published_at": "2026-08-15T23:21:42+00:00",
+    "collected_at": "2026-08-18T09:33:30.402308+00:00",
+    "query": "中国员工 绑架",
+    "text": "防骗指南：证实之前先证伪！（1/3） 7月20号，公安部官网公布，菲律宾绑架杀人嫌犯刘某文被遣返回国。2024年6月，中国某医疗公司的两位高管被骗到菲律宾，随即被绑架。家属支付300万赎金后，被撕票。 主犯刘某文是大陆人，后来逃到了美国，美国于24年10月将其逮捕，于26年7月移交中方。 据报道，刘某文找了位台湾姑娘，潜伏进了欧洲的某心血管方面医疗学术会议，该两位被害的医疗器械公司高管也去参会了，随即被该台湾姑娘盯上。据称，该台湾姑娘很了解心血管耗材的行业术语和采购模式，这可能是该两位高管并未怀疑的重要原因，认为其系专业人士，不至于谋财害命。该台湾姑娘谎称背后老板是菲律宾很牛的华商，称手里有很多菲律宾公立医院的医疗器械采购大单。 同时该台湾姑娘还强调：你的往返机票和食宿我们出，而且反复要求说，不要带助理、不要带法务、不要多人同行，只能单独前往。 如此不正常的要求，这两个医疗高管应也是聪明人，为何会上当呢？ 我做律师这些年，见识过太多骗子、以及骗子开的公司了。最早是什么工作中介，后来是各种PtoP、各种虚假的金融公司、承诺说可以给孩子小升初初升高上好学校的，且很多公司都在CBD的高端写字楼里。好在这些骗子还只是要钱，不要命。 我教给大家一点经验：就是，要学会“证伪”；时时刻刻都要有“证伪”意识。 比如说，我年轻的时候见过一骗子，当时我还做记者，在一个活动上认识了该人，他说，我爷爷是某某部的部长，我如何如何牛之类的。但是我看他的手，非常粗糙，我就很起疑心。且真有背景的人，谁跟陌生人如此炫耀呢？然后我就问他你哪个大学哪个专业毕业的？他说了个学校，我就随口胡编了个名字，我说哎呀你们专业有个很有名的院士谁谁谁，你知道吗？他很笃定地说，哦，我听说过。 你看，这就说明他完全是骗子。一个正常有底气的人，没听说过就没听说过，没必要装。该两位高管，在该台湾姑娘诱骗他们去的时候，如果能查一下菲律宾的医院，然后编一个比较像的医院名字、再编一个专家，说他们在这个圈子很有名，你们知道他们吗？——如果他们真是骗子，很可能就会说“知道”，那你就知道这个人不可信。 我们都要牢记一个原则：永远跟诚实的人交往、做生意。不确定对方是否诚实，你就要先骗骗他。证明一件事正确很难，但“证伪”就相对简单得多。 #防骗指南[话题]# #菲律宾绑架[话题]# #菲律宾绑架撕票[话题]# #郝亚超律师[话题]# #刑辩律师郝亚超[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a80f486000000002603643f?xsec_token=ABRKM3Ty4pBhxdHbt6IGs1k8VY-oa_NXBC1_HxCWHNNro=&xsec_source=pc_search",
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 86,
+    "severity": "low",
+    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "matched_anchors": [
+      "中国",
+      "台湾"
+    ],
+    "matched_events": [
+      "绑架"
+    ],
+    "matched_strategic": [
+      "欧洲",
+      "菲律宾"
+    ],
+    "noise_terms": [],
+    "profiles": [
+      "United States",
+      "Philippines"
+    ],
+    "entities": []
+  },
+  {
+    "id": "46fca49c676456b678ea",
+    "platform": "xiaohongshu",
+    "author": "财***n",
+    "published_at": "2026-08-15T16:48:27+00:00",
+    "collected_at": "2026-08-18T09:33:30.400338+00:00",
+    "query": "中资项目 封锁",
+    "text": "突发!日本半导体封锁110家中企，涉及几乎全部领域，制裁远比美国猛烈。 日本下手太狠了！中日关系要破冰，日本必须要换人。瞧不起高市早苗，已经破坏了中日关系，突破了中国的底线！！#半导体[话题]# #助力企业出海发展[话题]# #芯片[话题]# #中国制造[话题]# #全球化趋势[话题]# #全球化竞争[话题]# #中日[话题]# 突发!日本半导体封锁110家中企，涉及几乎全部领域，制裁远比美国猛烈。 日本下手太狠了！中日关系要破冰，日本必须要换人。瞧不起高市早苗，已经破坏了中日关系，突破了中国的底线！！#半导体[话题]# #助力企业出海发展[话题]# #芯片[话题]# #中国制造[话题]# #全球化趋势[话题]# #全球化竞争[话题]# #中日[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a80985b000000002402e6d8?xsec_token=ABRKM3Ty4pBhxdHbt6IGs1k-pzNKY6cI-Zr4TgJwNQyh0=&xsec_source=pc_search",
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 96,
+    "severity": "critical",
+    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "matched_anchors": [
+      "中企",
+      "中国"
+    ],
+    "matched_events": [
+      "封锁",
+      "制裁"
+    ],
+    "matched_strategic": [
+      "芯片",
+      "半导体"
+    ],
+    "noise_terms": [],
+    "profiles": [
+      "United States",
+      "Japan",
+      "Global"
+    ],
     "entities": []
   },
   {
@@ -404,7 +690,7 @@
     "platform": "xiaohongshu",
     "author": "无***卒",
     "published_at": "2026-08-14T23:32:35+00:00",
-    "collected_at": "2026-08-18T08:47:32.797532+00:00",
+    "collected_at": "2026-08-18T09:33:30.398653+00:00",
     "query": "中国员工 遇袭",
     "text": "华人老板把 996 带去美国，被重罚。 在家耍流氓就算了。去外面耍流氓就的付出代价",
     "url": "https://www.xiaohongshu.com/explore/6a7fa5930000000005030cb8?xsec_token=ABiKvl5LCuusBdm8k-JBYfMdyKbReXA-Jd1IznaHu_IE0=&xsec_source=pc_search",
@@ -515,11 +801,66 @@
     "entities": []
   },
   {
+    "id": "bf9988d89a0f68561cf3",
+    "platform": "xiaohongshu",
+    "author": "狼***啸",
+    "published_at": "2026-08-14T04:59:44+00:00",
+    "collected_at": "2026-08-18T09:33:30.402927+00:00",
+    "query": "中国工人 遇袭",
+    "text": "在俄中国工人讨薪事件频发的背后",
+    "url": "https://www.xiaohongshu.com/explore/6a7ea0c0000000003303727b?xsec_token=ABuW1uY5jO3hCijnA1iodHDf6WH9V7r6FU5eHOvGzwQN8=&xsec_source=pc_search",
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 72,
+    "severity": "low",
+    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "matched_anchors": [
+      "中国工人",
+      "中国"
+    ],
+    "matched_events": [
+      "讨薪"
+    ],
+    "matched_strategic": [],
+    "noise_terms": [],
+    "profiles": [],
+    "entities": []
+  },
+  {
+    "id": "dd22e8c35b37857f7269",
+    "platform": "xiaohongshu",
+    "author": "皓***帆",
+    "published_at": "2026-08-14T04:18:37+00:00",
+    "collected_at": "2026-08-18T09:33:30.404328+00:00",
+    "query": "海外中资项目 爆炸",
+    "text": "急招：安哥拉大型跨国中资市政项目 安哥拉大型中资市政项目｜全员直招✈️ 视频面试｜材料齐全1个月左右出境 招聘岗位 & 薪资 （薪资根据面试技术定级） ✅ 泥工【人行道/排水沟/路沿石】10名｜13000元/月 ✅ 木工【大木关模】3名｜13000元/月 ✅ 市政道路施工队长 4名 ✅ 市政道路测量员 5名 ✅ 市政道路施工员 5名 ✅ 市政道路大项目经理 2名 ✅ 碎石生产线技术员【机电一体化】1名 ✅ 道路机械设备修理工 3名 年龄要求 ▪ 一线技术工人：53岁以内 ▪ 办公室/管理岗位：45岁以内 工作作息 每日9小时工作制 薪资发放规则 ▪ 试用期薪资按85%发放 ▪ 工资按季度发放，可预支季度薪资80%以内 ▪ 半年统一结清剩余工资 ▪ 合同期满人走账清 休假 & 合同 ▪ 一线工人：2年一签，满2年可回国一次 ▪ 管理岗位：1年一签，满1年可回国一次 ▪ 公司承担全程往返机票+正规工签 食宿福利 全包吃住，统一配发基础劳保用品 ⚠️入职押金3000元，在岗满2个月随工资全额退还 报名须知 ▪ 河南籍少量名额 ▪ 踏实肯干优先，事多勿扰 ▪ 所有待遇细则以官方简章、正式合同为准 #安哥拉务工[话题]# #海外市政工程[话题]# #出国劳务[话题]# #中资直招[话题]# #工地高薪岗位[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a7e971c000000002702048c?xsec_token=ABuW1uY5jO3hCijnA1iodHDUSclxMF-FxencnkmlppsSY=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 0,
+    "severity": "low",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [
+      "中资"
+    ],
+    "matched_events": [],
+    "matched_strategic": [
+      "项目",
+      "工地"
+    ],
+    "noise_terms": [
+      "招聘",
+      "面试"
+    ],
+    "profiles": [],
+    "entities": []
+  },
+  {
     "id": "05082c6cb596fca54077",
     "platform": "xiaohongshu",
     "author": "重***谣",
     "published_at": "2026-08-14T03:12:52+00:00",
-    "collected_at": "2026-08-18T08:47:32.797678+00:00",
+    "collected_at": "2026-08-18T09:33:30.398917+00:00",
     "query": "中国公民 被捕",
     "text": "警方通报：10人被抓获，含百万粉丝博主 8月13日，杭州市公安局通报了这样一起案件——犯罪分子以“护剧”“置换”等为名，对影视娱乐行业大肆敲诈勒索。这也是全国首起以“护剧”为名实施舆情敲诈案。",
     "url": "https://www.xiaohongshu.com/explore/6a7e87b40000000032031e47?xsec_token=ABuW1uY5jO3hCijnA1iodHDSwdpOfJHpEDzL5TJZd_oWs=&xsec_source=pc_search",
@@ -554,6 +895,33 @@
     "matched_anchors": [],
     "matched_events": [],
     "matched_strategic": [],
+    "noise_terms": [],
+    "profiles": [],
+    "entities": []
+  },
+  {
+    "id": "9d065f21e0fab6a491a7",
+    "platform": "xiaohongshu",
+    "author": "火***师",
+    "published_at": "2026-08-13T11:09:04+00:00",
+    "collected_at": "2026-08-18T09:33:30.404294+00:00",
+    "query": "海外中资项目 爆炸",
+    "text": "厂房光伏设备起火，谁承担责任？ 2026年8月12日，浙江省嘉兴市海盐县西塘桥街道的浙江协和首信钢业有限公司三号厂房发生火灾事故，据官方报道，可能是屋顶光伏设备起火！ 那么厂房屋顶光伏设备起火，哪些人可能承担责任呢？ 1.光伏电站的建设方、运营管理方 2.厂房的产权人、屋顶的出租人 3.光伏电站的施工方、设备厂家等等 至于最终那些人承担火灾责任，还要看具体的起火原因和火势蔓延扩大的原因！ 我们是全国专注火灾案件的律师团队，如果你也遇到了火灾问题，欢迎留言咨询～ #浙江嘉兴火灾[话题]# #火灾责任[话题]# #工厂火灾[话题]# #光伏设备起火[话题]# #卢麒火灾律师团队[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a7da5cf000000002201726a?xsec_token=ABylO6dCj7M_XdAMHyumwA2AthRtUxYWMenefO9hUn5Qs=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 28,
+    "severity": "low",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [],
+    "matched_events": [
+      "火灾",
+      "事故"
+    ],
+    "matched_strategic": [
+      "工厂",
+      "电站"
+    ],
     "noise_terms": [],
     "profiles": [],
     "entities": []
@@ -634,7 +1002,7 @@
     "platform": "xiaohongshu",
     "author": "y***i",
     "published_at": "2026-08-13T07:00:28+00:00",
-    "collected_at": "2026-08-18T08:47:32.797759+00:00",
+    "collected_at": "2026-08-18T09:33:30.399004+00:00",
     "query": "中国公民 被捕",
     "text": "中国女子在澳洲签证逾期被捕，一天后身亡 #澳洲生活[话题]##中国公民[话题]##澳洲签证[话题]##yeeyi[话题]##亿忆网生活资讯[话题]##yeeyi生活资讯[话题]##yeeyi资讯[话题]##yeeyi亿忆[话题]#",
     "url": "https://www.xiaohongshu.com/explore/6a7d6b8c000000001102038d?xsec_token=ABylO6dCj7M_XdAMHyumwA2CK0iXBWSIxTEmGh4VJyxoE=&xsec_source=pc_search",
@@ -662,10 +1030,10 @@
     "platform": "xiaohongshu",
     "author": "大***说",
     "published_at": "2026-08-13T06:20:52+00:00",
-    "collected_at": "2026-08-17T09:47:05.816201+00:00",
-    "query": "中资",
+    "collected_at": "2026-08-18T09:33:30.404416+00:00",
+    "query": "海外中资项目 爆炸",
     "text": "突发！逼走中资的印尼矿区大骚乱 突发！逼走中资的印尼矿区大骚乱：数千矿工火烧国营厂区！印尼资源国有化遭遇惨烈现实反噬？ #印尼 #中资 #锡矿",
-    "url": "https://www.xiaohongshu.com/explore/6a7d6244000000000801315a?xsec_token=ABKnzE0mqYnvtAjC-1YSjDPLBYS9rst5Fq9SKNiKD67eI=&xsec_source=pc_search",
+    "url": "https://www.xiaohongshu.com/explore/6a7d6244000000000801315a?xsec_token=ABylO6dCj7M_XdAMHyumwA2DgstSu2iuQCnSIEOD7bmRY=&xsec_source=pc_search",
     "accepted": true,
     "relation": "direct",
     "relevance_score": 96,
@@ -741,6 +1109,45 @@
     "entities": []
   },
   {
+    "id": "1a23516a582ff1062269",
+    "platform": "xiaohongshu",
+    "author": "萱*",
+    "published_at": "2026-08-12T20:28:07+00:00",
+    "collected_at": "2026-08-18T09:33:30.400812+00:00",
+    "query": "华为 禁令",
+    "text": "华为被米国打压的背后 看到很多“人”在发一模一样的内容，如果说没有人花钱买通稿，我是不信的。 这张图时隔这么久被挖坟，是为什么？它们想说明什么？ 2016年老余公开讲了这句话，就此宣战，欧美开始联手极力围堵华为，其中种种龌龊狠毒，不胜枚举。 2018年底，孟女士被美加合伙非法绑架，扣在加麻大三年多，这件事大家都还记得吧？ 但就在这种情况下，华为仍然在老余宣战三年之后，也就是2019年第二季度，距离登顶全球第一，仅一步之遥。 2019五月，这帮垃圾发动了第一轮制裁，华为及其附属公司被列入实体清单。未经许可，美国企业不得向华为供货；谷歌终止华为新机型GMS授权，海外手机业务遭受重创，业绩开始下滑。 2020五月，芯片禁令出台——全球任何企业只要使用美国技术、软件、设备，禁止为华为代工高端芯片。 2020八月：扩大实体清单范围，封堵第三方转购零部件的漏洞；同年华为出售荣耀，断臂求生。 后续持续加码：推动五眼联盟、部分欧洲国家将华为5G设备移出通信网络；持续收紧EDA软件、射频器件、先进半导体材料供应限制…… 就是在这样的情况下，华为遍体鳞伤仍然咬牙坚持，一步也不曾停下。 时至今日，华为仍然是通信业世界第一，手机中国第一。（华为还有非常多的隐形第一，非常多，多不胜数。） 前段时间，一帮殖人二鬼子莫名其妙把一个竹制儿童玩具炒起来，最近又集体买通稿发图片… 看起来，它们在攻击老余是个大嘴巴； 实际上，它们是想攻击华为。 看起来，它们是在攻击华为； 实际上，它们是想攻击中国制造！ 因为今天，华为、比亚迪…这一批中国企业，已经稳稳在国际市场上代表了中国制造业的高端水准，它们急了。 这帮自以为是的玩意儿，它们在抗美援朝的时候，一边反对出兵、一边暗中把情报泄露给美方。 它们觉得，自己那样才是爱国的——美国太强大，跨过三八线是自取灭亡。 这帮自以为是的玩意儿，前几年还在网络上大喊：现在向美投降，是最好的时机。 这帮自以为是的玩意儿，觉得举世皆浑它独清，它们代表了中国人的智慧和清醒。 就在这帮玩意儿锲而不舍、日夜反思、抹黑中国制造、抹黑国家体制、质疑各种政策…一片蝲蝲蛄叫声不绝之中，中国一直在前进，一步也没有停歇。 中国现在，大部分产业、行业都已领先世界平均水平。 文章转自草民插头 #华为三年干掉苹果[话题]# #华为五年干掉三星[话题]# #美国制裁华为[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a7cd7560000000006006056?xsec_token=ABE9_rNaVVvtAHOVHCRBHACfWns50ete292oHKaCVe9Hc=&xsec_source=pc_search",
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 96,
+    "severity": "high",
+    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "matched_anchors": [
+      "中国企业",
+      "华为",
+      "比亚迪",
+      "中国"
+    ],
+    "matched_events": [
+      "绑架",
+      "制裁",
+      "禁令",
+      "围堵",
+      "实体清单"
+    ],
+    "matched_strategic": [
+      "芯片",
+      "半导体",
+      "欧洲"
+    ],
+    "noise_terms": [],
+    "profiles": [
+      "United States",
+      "Global"
+    ],
+    "entities": []
+  },
+  {
     "id": "fccd74446109ad4ef00d",
     "platform": "xiaohongshu",
     "author": "小***班",
@@ -791,10 +1198,10 @@
     "platform": "xiaohongshu",
     "author": "C***记",
     "published_at": "2026-08-12T08:07:37+00:00",
-    "collected_at": "2026-08-17T09:47:05.816056+00:00",
-    "query": "中资",
+    "collected_at": "2026-08-18T09:33:30.404387+00:00",
+    "query": "海外中资项目 爆炸",
     "text": "尼日利亚中资厂遭血洗，2万人饭碗一夜没了 7月30日，尼日利亚埃多州，荣泰铝业集团。叉车司机David Yelsa作业时，叉车突发故障侧翻，将他压死。 按规矩，出事该通知家属、上报政府、配合调查。但荣泰想偷偷把遗体运走。被当地民众发现，直接炸了锅。 更离谱的是，厂区安保朝聚集人群开枪，又打死一人。人群冲进厂区打砸抢烧，设备、车辆、办公区全被毁，多名中方员工受伤。 两条人命：叉车司机和冲突中中弹的民众。 副州长四连问 埃多州副州长Dennis Idahosa赶到现场，逐寸检查事故核心区。然后他说了四个问题： 第一，肇事叉车已被提前移走——官方调查团队还没到，关键证据没了。 第二，事故现场未见血迹。一个被重型机械压死的人，地上干干净净。 第三，事发区域无监控覆盖，没有任何视频证据可调取。 第四，工人没有防护装备，厂区没有急救箱。 副州长说：“荣泰是埃多州重要外来投资者，但每位工人的生命都宝贵且必须得到保护。” 更糟的还在后头 8月11日，埃多州劳工部调查发现——过去三周，该公司已有5名工人死亡，包括叉车事故、触电、从起重机坠落。工人没有头盔和安全靴，安全设备严重缺失。劳工部长表示，政府可能对该公司实施制裁。 三条教训，所有在非中企记住 第一，安全生产不是“差不多就行”。防护装备、急救设施、监控系统——平时觉得“没事”，出了人命就是灭顶之灾。 第二，出事之后第一反应不是“偷偷处理”，是按当地规矩办事。通知家属、上报政府、配合调查。你觉得“多一事不如少一事”，在当地人看来就是“漠视生命”。 第三，安保不是用来“镇压”的。朝人群开枪，只会把可控的矛盾变成不可控的灾难。 一声枪响，毁掉的不仅是设备，更是近两万个家庭的生计。希望所有在非中企，能把这次的血泪教训记在心里。 #尼日利亚[话题]# #中企出海[话题]# #海外安全[话题]# #社区关系[话题]# #出海非洲[话题]# #企业出海[话题]# #非洲创业[话题]# #出国打工[话题]# #坚决打击犯罪[话题]# #全球经济衰退[话题]#",
-    "url": "https://www.xiaohongshu.com/explore/6a7c29c900000000080124c0?xsec_token=ABdIo9WE1_MWWmNO4wbbDYnKseXnAO0rSjttNv5viQ82U=&xsec_source=pc_search",
+    "url": "https://www.xiaohongshu.com/explore/6a7c29c900000000080124c0?xsec_token=ABE9_rNaVVvtAHOVHCRBHACZYG2yP0XtABCyh7Y8QsYdo=&xsec_source=pc_search",
     "accepted": true,
     "relation": "direct",
     "relevance_score": 96,
@@ -819,6 +1226,29 @@
       "Nigeria",
       "Global"
     ],
+    "entities": []
+  },
+  {
+    "id": "b4c9110615da6b69a19e",
+    "platform": "xiaohongshu",
+    "author": "是***吖",
+    "published_at": "2026-08-12T07:49:21+00:00",
+    "collected_at": "2026-08-18T09:33:30.402713+00:00",
+    "query": "中国工人 遇袭",
+    "text": "你说我天天上班 上成中国首富怎么办 从工人阶级转变成资 产阶级我能适应吗[叹气R] 你说我天天上班 上成中国首富怎么办 从工人阶级转变成资 产阶级我能适应吗[叹气R]",
+    "url": "https://www.xiaohongshu.com/explore/6a7c2581000000003300969e?xsec_token=ABE9_rNaVVvtAHOVHCRBHACStKJi1QQHWfRjgccSNem1Q=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 13,
+    "severity": "low",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [
+      "中国"
+    ],
+    "matched_events": [],
+    "matched_strategic": [],
+    "noise_terms": [],
+    "profiles": [],
     "entities": []
   },
   {
@@ -926,7 +1356,7 @@
     "platform": "xiaohongshu",
     "author": "中***社",
     "published_at": "2026-08-11T07:45:17+00:00",
-    "collected_at": "2026-08-18T08:47:32.797404+00:00",
+    "collected_at": "2026-08-18T09:33:30.398461+00:00",
     "query": "中国员工 遇袭",
     "text": "胖东来：“员工受委屈？我来兜底！” 人格尊严不可侵犯！胖东来发“委屈奖”，3名员工共补偿7万元#员工[话题]# #人格尊严[话题]# #企业[话题]#",
     "url": "https://www.xiaohongshu.com/explore/6a7ad30d0000000021020a85?xsec_token=ABU3XzpneFPTPT04xF4SzeNzYg64vm2YvM47zBZHuImoE=&xsec_source=pc_search",
@@ -943,11 +1373,73 @@
     "entities": []
   },
   {
+    "id": "8681c30c4bcbdb82ebcc",
+    "platform": "xiaohongshu",
+    "author": "科***造",
+    "published_at": "2026-08-11T02:14:46+00:00",
+    "collected_at": "2026-08-18T09:33:30.399972+00:00",
+    "query": "中资项目 封锁",
+    "text": "日本8月升级半导体设备管制 8月1日，日本第三轮对华半导体出口管制正式落地，这次卡的是先进封装。高端固晶机、超薄晶圆减薄机、激光隐切机、TSV设备、3D键合设备——20多类后道核心设备，全部列入逐案审批清单，常规审批3到6个月，AI算力相关设备驳回率接近八成。 日本这次算盘打得很精。前道光刻机、刻蚀机已经被美日荷联手卡死了，结果发现中国走“成熟制程+先进封装”这条路照样能造AI芯片。那就把后道也堵上——Chiplet、3D堆叠、HBM封装，全链条封锁，意图很清楚：让你连“缝合”这条路都走不通。 但中国这边的反应，比日本预想的快得多。 8月9日，就在管制生效仅8天后，无锡惠山区政府发布消息：江丰同芯覆铜陶瓷基板项目正式投产，年产720万片半导体芯片先进封装用载板，实现对第三代半导体封装材料的国产替代，在手订单已超5000万元，年销售规模8到10亿元。 同步推进的还有：汇成股份75亿元HITS先进封装研发产业化项目落地上海嘉定，攻坚超窄间距凸块键合、超大尺寸多芯片封装等五大核心技术。长电科技78亿元上海临港基地、通富微电42.2亿元定增扩产同步推进，三大封测龙头合计扩产规模超220亿元。飞凯材料安徽智能工厂投产，高端环氧塑封料年产能再加1万吨。 10天，从管制生效到新工厂投产、新项目落地。日本以为封锁的是中国AI芯片的命门，实际锁死的，是日系设备商每年从中国拿走的那几百上千亿日元现金流。 #科技[话题]# #互联网大厂[话题]# #芯片[话题]# #经济[话题]# #热点[话题]# #讨论[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a7a8596000000002201309d?xsec_token=ABU3XzpneFPTPT04xF4SzeN_mADSf0OWCL2cPdYy8fXsU=&xsec_source=pc_search",
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 96,
+    "severity": "critical",
+    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "matched_anchors": [
+      "中国"
+    ],
+    "matched_events": [
+      "封锁",
+      "出口管制"
+    ],
+    "matched_strategic": [
+      "工厂",
+      "芯片",
+      "半导体",
+      "项目"
+    ],
+    "noise_terms": [],
+    "profiles": [
+      "Japan"
+    ],
+    "entities": []
+  },
+  {
+    "id": "9b085f1a391d55435e22",
+    "platform": "xiaohongshu",
+    "author": "J***l",
+    "published_at": "2026-08-11T01:00:25+00:00",
+    "collected_at": "2026-08-18T09:33:30.403673+00:00",
+    "query": "中资项目 袭击",
+    "text": "香港IPO仍旧处于井喷状态 今年前七个月上了104家，募资3,282亿港元。481家还在排队。而去年这时候才53家，今年直接翻倍。 市场这么热，最直接的影响就是投行人手不够用。 主要是保荐签字的人不够。香港证监会那边虽然没有明文规定，但业内通常一个保荐团队同时跟的项目也就五六个，再多了顾不过来。全香港在册的保荐签字人大概也就四百多人。项目多、人少，导致有些投行现在开始挑项目，不是优质客户就不接。 当然，这块业务越来越大，来抢的机构也越来越多。中资行是绝对主力，中金、中信、华泰三家在保荐规模上算是“铁三角”。外资行像MS、UBS、JPM也都在积极进场，高盛自己都公开说，香港IPO在2026年还会加速。 市场好，机会自然多。deal flow大了，HC肯定会增加。不仅是全职，实习生能参与的机会也变多了。哪怕你只是在一个香港IPO项目里打打杂，做过就是做过，放简历上分量也挺重的。 香港作为内地企业出海的跳板，需要的人是复合型的，既懂内地公司怎么运作，又能用英文跟global LP把故事讲明白。纯外资背景的水土不服，纯中资背景的缺少国际视野，两边都会的人最抢手。 #3sigma[话题]# #3sigma求职[话题]# #香港求职[话题]# #香港[话题]# #IPO[话题]# #投行[话题]# #金融求职[话题]# #金融[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a755a55000000003302d7c9?xsec_token=AB5gQHUNrkOuF-fujpQ8HD5T3IFcCAJRbvVBjW6aaC3to=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 0,
+    "severity": "low",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [
+      "中资"
+    ],
+    "matched_events": [],
+    "matched_strategic": [
+      "项目"
+    ],
+    "noise_terms": [
+      "求职"
+    ],
+    "profiles": [
+      "Global"
+    ],
+    "entities": []
+  },
+  {
     "id": "819c728f63cde6dbb51e",
     "platform": "xiaohongshu",
     "author": "发***坊",
     "published_at": "2026-08-10T19:58:53+00:00",
-    "collected_at": "2026-08-18T08:47:32.798519+00:00",
+    "collected_at": "2026-08-18T09:33:30.400582+00:00",
     "query": "中国企业 制裁",
     "text": "中国反制美国。美国傻了 #中美贸易战[话题]# #实体清单[话题]# #RBA[话题]# #责任商业联盟[话题]# #全球供应链[话题]# #新疆[话题]# #美国[话题]#",
     "url": "https://www.xiaohongshu.com/explore/6a7a2d7d000000003400eab4?xsec_token=ABU3XzpneFPTPT04xF4SzeN5k_nxFyVGGh4S9KyVXRXMk=&xsec_source=pc_search",
@@ -1002,6 +1494,90 @@
     "entities": []
   },
   {
+    "id": "33355e0b87cf4b0c8d38",
+    "platform": "xiaohongshu",
+    "author": "Z***G",
+    "published_at": "2026-08-10T16:28:42+00:00",
+    "collected_at": "2026-08-18T09:33:30.399072+00:00",
+    "query": "中国公民 被捕",
+    "text": "大快人心！嫌疑人刘某文被遣返！！！ 在境外针对中国公民实施绑架杀人犯罪的嫌疑人刘某文被遣返。(人民日报记者张天培朱笑嬉)#媒体原创[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a79fc3a0000000027023f11?xsec_token=ABO-F5C7vlNnGmIpprr7J7YFQeS6-_R-V12efRwi6qE38=&xsec_source=pc_search",
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 72,
+    "severity": "low",
+    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "matched_anchors": [
+      "中国公民",
+      "中国"
+    ],
+    "matched_events": [
+      "绑架"
+    ],
+    "matched_strategic": [],
+    "noise_terms": [],
+    "profiles": [],
+    "entities": []
+  },
+  {
+    "id": "f017675d8485dbc1029b",
+    "platform": "xiaohongshu",
+    "author": "新***通",
+    "published_at": "2026-08-10T12:08:03+00:00",
+    "collected_at": "2026-08-18T09:33:30.404487+00:00",
+    "query": "海外中资项目 爆炸",
+    "text": "印尼做局中企，后续来了 #出海印尼[话题]# #财经[话题]# #投资陷阱[话题]# #杀猪盘[话题]# #海外投资[话题]# #企业出海[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a793e7a0000000025011628?xsec_token=ABO-F5C7vlNnGmIpprr7J7YMtPVb0KpK_pFoEupP56VOY=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 13,
+    "severity": "low",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [
+      "中企"
+    ],
+    "matched_events": [],
+    "matched_strategic": [],
+    "noise_terms": [],
+    "profiles": [
+      "Indonesia"
+    ],
+    "entities": []
+  },
+  {
+    "id": "10cb670e4de9891643ca",
+    "platform": "xiaohongshu",
+    "author": "大***记",
+    "published_at": "2026-08-10T08:23:19+00:00",
+    "collected_at": "2026-08-18T09:33:30.399891+00:00",
+    "query": "中资项目 封锁",
+    "text": "日本正式对华技术封锁！ 8月16日起，日本正式对华实施新一轮技术出口管制。高端五轴数控机床、高精度零件等关键技术，连图纸和源代码层面全部列入管制名单。此前走通用许可、盖章即可拿货的流程彻底改变，每一台设备均须单独审批，周期从15天拉长至45天到180天，航空航天、军工等行业驳回率超80%。 五轴联动数控机床被称为工业母机“皇冠明珠”，航空发动机叶片等复杂曲面加工几乎离不开它。这已是日本本月第二次出手，8月1日第三轮半导体管制已启动，高端固晶机、减薄机、分选机等先进封装核心设备全部纳入管制，AI算力配套设备驳回率近八成。 日系品牌发那科、山崎马扎克、牧野在国内高端五轴市场合计占比约七成。新规落地后，超精密五轴搭配日系数控系统的组合基本不批，部分已排产项目设备到位节奏将被打乱。但封锁也打开国产替代窗口：维宏股份五轴联动系统已推出数年，科德数控产品已在中航工业等30多家单位应用，四川德阳全球首台全直驱五轴叶片铣实现100%国产化，成本降低四成。 中方反制早已打在日方七寸上。2026年以来，商务部先后将三菱造船、防卫研究所等40家日本实体列入出口管制名单。日本军工对华依赖极深——稀土永磁材料约58%从中国采购，特种半导体材料对华依存度超70%，若出口受限，日本GDP损失或达数万亿日元。 封锁从来是双刃剑。高端设备买不到是阵痛，但日本边封锁边要中国敞开供应战略资源，这条逻辑行不通。真正的工业能力是逼出来的，每一次断供都在帮我们戒掉技术依赖。这条路走通了，就是一片谁也抢不走的天地。 #大厂[话题]# #互联网大厂[话题]# #讨论[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a798a7700000000060063ca?xsec_token=ABO-F5C7vlNnGmIpprr7J7YEuxJ7eh0SuMnMqCbtmjxuQ=&xsec_source=pc_search",
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 96,
+    "severity": "critical",
+    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "matched_anchors": [
+      "中国"
+    ],
+    "matched_events": [
+      "封锁",
+      "出口管制"
+    ],
+    "matched_strategic": [
+      "稀土",
+      "半导体",
+      "项目"
+    ],
+    "noise_terms": [],
+    "profiles": [
+      "Japan",
+      "Global"
+    ],
+    "entities": []
+  },
+  {
     "id": "5a20be7142949321a776",
     "platform": "xiaohongshu",
     "author": "商***沈",
@@ -1052,7 +1628,7 @@
     "platform": "xiaohongshu",
     "author": "一***止",
     "published_at": "2026-08-09T07:13:07+00:00",
-    "collected_at": "2026-08-18T08:47:32.798781+00:00",
+    "collected_at": "2026-08-18T09:33:30.401660+00:00",
     "query": "南海 中国海警 碰撞",
     "text": "21岁和25岁，他们留在了黄岩岛 2025年8月11日，黄岩岛海域。 两名海警战士在执行维权执法任务时牺牲，年仅21岁和25岁。 一年来，没有消息，没有确认，没有名字。 2026年8月5日，他们的名字终于被公布： 🕯️ 衣昕玉，21岁，山东人 🕯️ 程龙，25岁，山东人 被追授\"中国武警忠诚卫士\"称号，追记个人一等功。 他们不是最顶级的战舰，不是精锐的特种兵。 他们是站在第一排的执法员。 面对的不是某一个国家的\"碰瓷\"，是一整套联动施压——菲方的暴力冲闯，美方的侦察情报，舆论场的歪曲叙事。海警船与052D驱逐舰夹击围堵时，由于菲船高速乱窜引发擦碰，两名年轻人因伤势过重牺牲。一年前的黄岩岛，规矩还没立起来。一年后，保护区管理办法落地，海警执法与解放军演训同步到位。 用生命守卫的地方，正在用行动兑现他们的付出。 🕯️ 衣昕玉，21岁。 🕯️ 程龙，25岁。 两个山东小伙，把生命留在了黄岩岛。一年了，沉默被打破。他们的名字，终于被看见。 💬 你如何看待两名海警烈士的事迹？评论区聊聊 #黄岩岛[话题]# #中国海警[话题]# #烈士[话题]# #致敬英雄[话题]# #南海[话题]#",
     "url": "https://www.xiaohongshu.com/explore/6a7828830000000006004d6e?xsec_token=ABT_hUYGHHl8l2Mhby6A0AbxNFUnj9tl1d2EzPyItk7wA=&xsec_source=pc_search",
@@ -1086,7 +1662,7 @@
     "platform": "xiaohongshu",
     "author": "低***鱼",
     "published_at": "2026-08-09T06:07:19+00:00",
-    "collected_at": "2026-08-18T08:47:32.798508+00:00",
+    "collected_at": "2026-08-18T09:33:30.400566+00:00",
     "query": "中国企业 制裁",
     "text": "商务部宣布将“责任商业联盟”列入反制清单 我商务部于8月5日宣布，将“责任商业联盟”(ResponsibleBusiness Alliance,简称 RBA) 列入反制清单，因其支持美国涉疆非法制裁，中方决定全面禁止中国境内组织和个人与其进行交易和作。",
     "url": "https://www.xiaohongshu.com/explore/6a7819170000000006007298?xsec_token=ABT_hUYGHHl8l2Mhby6A0Ab1DZPaCCSJnq9x_Js0NZRpQ=&xsec_source=pc_search",
@@ -1195,8 +1771,8 @@
     "platform": "xiaohongshu",
     "author": "新***闻",
     "published_at": "2026-08-09T02:11:32+00:00",
-    "collected_at": "2026-08-18T08:47:32.797284+00:00",
-    "query": "中国员工 遇袭",
+    "collected_at": "2026-08-18T09:33:30.402767+00:00",
+    "query": "中国工人 遇袭",
     "text": "柬埔寨园区有中国人试图逃跑被围殴1死3伤 8月7日，柬埔寨涉电诈犯罪的太子 集团位于干拉省一园区发生致命暴 力案件的监控视频曝光 案发2025年12月29日，干拉省森宝 布的“金运公司”内，该园区是太 子集团建设的封闭式园区 一群人冲出园区大门试图逃跑，但 被园区主管和保安追上 1名园区主管和14名保安手持棍棒 围殴4名中国人，致1死亡3重伤 不久后，保安将逃跑的人控制住拖 回园区 干拉省初级法院8月6日公布案件判 决情况 包括1名中国籍男子和14名柬埔寨 籍男子在内的15名被告，每人被判 处13年监禁 太子集团控股是柬埔寨最大的企业 集团之一 旗下业务主要集中于三个核心领域 房地产开发、金融服务和消费服务 2026年1月7日，在柬埔寨有关部门 的支持配合下 中国公安部派出工作组，成功将重 大跨境赌诈犯罪集团太子集团头目 陈志从金边押解回国",
     "url": "https://www.xiaohongshu.com/explore/6a77e1d400000000060045e8?xsec_token=ABHFXhVBWUH2VZQYIeIum0MSEDb3rGvzME51aXNMiYo2w=&xsec_source=pc_search",
     "accepted": true,
@@ -1217,6 +1793,34 @@
     "profiles": [
       "Cambodia"
     ],
+    "entities": []
+  },
+  {
+    "id": "afb43fb0c6d679656822",
+    "platform": "xiaohongshu",
+    "author": "中***社",
+    "published_at": "2026-08-08T13:35:07+00:00",
+    "collected_at": "2026-08-18T09:33:30.401370+00:00",
+    "query": "台海 军演",
+    "text": "台军演习怎么笑料不断！ 因货船拒绝离开，台军火炮射击演习被迫中止，谢寒冰嘲讽：你怎么不“驱离”啊（来源 看台海）",
+    "url": "https://www.xiaohongshu.com/explore/6a77308b00000000330198ad?xsec_token=ABHFXhVBWUH2VZQYIeIum0MUxHEeP7jacfHD54LZfbJo8=&xsec_source=pc_search",
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 96,
+    "severity": "high",
+    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "matched_anchors": [
+      "台海"
+    ],
+    "matched_events": [
+      "军演",
+      "驱离"
+    ],
+    "matched_strategic": [
+      "台海"
+    ],
+    "noise_terms": [],
+    "profiles": [],
     "entities": []
   },
   {
@@ -1269,7 +1873,7 @@
     "platform": "xiaohongshu",
     "author": "o***g",
     "published_at": "2026-08-08T02:57:19+00:00",
-    "collected_at": "2026-08-18T08:47:32.798790+00:00",
+    "collected_at": "2026-08-18T09:33:30.401673+00:00",
     "query": "南海 中国海警 碰撞",
     "text": "菲猴是适合的目标，启动！",
     "url": "https://www.xiaohongshu.com/explore/6a769b0f0000000008010ba6?xsec_token=ABqmo1_1K0eKsWb_imqFZUKn3eJxarXZKyvx9xlXp5u0k=&xsec_source=pc_search",
@@ -1399,7 +2003,7 @@
     "platform": "xiaohongshu",
     "author": "非***讯",
     "published_at": "2026-08-07T09:37:48+00:00",
-    "collected_at": "2026-08-18T08:47:32.798195+00:00",
+    "collected_at": "2026-08-18T09:33:30.399573+00:00",
     "query": "中资矿山 抗议",
     "text": "多国严查非法采矿，在非作业提醒⚠️ 深耕非洲供应链一线预警，近期西非、东非多国开启矿业高压整治，矿区清查、人员扣押、司法处罚接连落地，海外矿企经营者和工程设备外贸商家，必须重视合规风险。 今年 6 月几内亚锡吉里矿区迎来总统府特种部队清场执法。当地 3 月已经出台规定，手工采金矿区禁止挖掘机等重型机械作业，可违规开采始终没能杜绝。6 月 7 日 Kintinian 矿区塌方事故造成 11 人遇难，事态紧急升级。6 月 10 日特种部队进驻矿区，撬开设备仓库清查物资，扣押挖掘机运往军营封存，多名中国籍矿主、机手被带走调查，三名包庇非法采矿的当地高官落马。7 月 9 日当地法院向三名涉案中国公民等人下达禁离境令，案件正式进入司法追责流程。 利比里亚的整治起因于严重水源污染。一名大学生检测出河水含有氰化物后，环保局突击巡查，查到一家中资矿企在缺少环保、排污、化学品使用手续的情况下开展大型采矿。矿场违规使用剧毒氰化物选矿，污水污染溪流，鱼虾绝迹，当地村民失去合格饮用水。矿场收到停工通知后私自复产，20 名中国籍工作人员被警方调查。如今矿区关停，当地收紧挖掘机进口门槛，计划推出生态修复保证金制度。 肯尼亚亚拉河河道淘金暴露出长期监管漏洞。国人管理的淘金疏浚船没有采矿证、环评批复，外籍劳工手续违规，长期开采河道砂金。居民多次举报矿船投放汞毒，河道生态受损，可涉案人员仅拘留两周便重新复工。加纳、刚果（金）也常有同类事件，根源在于个别执法人员纵容非法矿场。 尼日利亚的处置方式偏向严苛司法惩处。两名中国从业者非法开采、出口铜锂云母矿石，被法院判处五年监禁，一名同伙在逃。早在 2025 年当地就已有四名国人因非法采矿获刑驱逐，非正规采矿产业链现已受到高层重点管控。 此番多国行动意在整顿矿业乱象、打击官员腐败、维护民众权益，并非针对外籍从业者，所有风险根源都是违规开采，矿业没有安全的灰色操作空间。 在此给到从业者实用建议：身在非洲的矿主要备齐采矿、排污、劳工全套手续；手工金矿禁用重型设备，有毒选矿药剂配套污水处理设施。国内矿山机械供货商发货前，仔细核验买家采矿资质，避免买家违规导致设备查封、货款损失。 目前整个非洲矿业监管不断收紧，各地政策随时变动，驻非从业者及时跟进使馆安全提示。 非洲全品类采购对接、国内找厂装柜发货，都可以交流 持续更新非洲一线贸易资讯与实操参考 #非洲外贸[话题]# #非洲矿业供应链[话题]# #合规出海[话题]# #出海风险预警[话题]# #西非矿业[话题]#",
     "url": "https://www.xiaohongshu.com/explore/6a75a76c00000000320322f9?xsec_token=AB5gQHUNrkOuF-fujpQ8HD5dB55L3tAIvo4QEYUai8e5I=&xsec_source=pc_search",
@@ -1510,7 +2114,7 @@
     "platform": "xiaohongshu",
     "author": "你***吗",
     "published_at": "2026-08-06T13:39:35+00:00",
-    "collected_at": "2026-08-18T08:47:32.798654+00:00",
+    "collected_at": "2026-08-18T09:33:30.401491+00:00",
     "query": "南海 中国海警 碰撞",
     "text": "2025年南海中菲对峙牺牲两名海警人员 2025年8月中国海军“桂林”舰与中国海警3104船在执行南海常态化维权巡航任务期间，因其它影响，双方在协同机动中发生意外擦碰，3104船受损较重。事件发生后，我指挥机构迅速启动应急预案，两艘舰船在确保安全前提下紧急返港维修，同时我海空力量即刻前出，以专业、坚决的行动，将非法侵入我领海区域的菲律宾海军舰艇予以合法驱离，有效维护了海域局势的稳定。 在此次维护国家主权与海洋权益的严峻斗争中，海警程龙同志、海警衣昕玉同志，在处置突发险情、全力保护战友和装备安全的千钧一发之际，英勇无畏、舍身忘我，不幸壮烈牺牲。他们用血肉之躯筑起了海上长城，用青春和生命践行了“国家利益高于一切”的铮铮誓言。碧海无声，英魂永驻；长风呜咽，浩气长存。祖国和人民将永远铭记这份悲壮而崇高的牺牲，向两位烈士致以最深切的哀悼与最崇高的敬意！ 然而，正当海军同志以悲痛为力量、全力以赴恢复战备训练之时，极个别别有用心之徒却无视事实、颠倒黑白，肆意散布“海军实力不济”“装备老旧”等荒谬论调，妄图借偶发意外唱衰我军战斗力，其心可诛，其行可鄙！放眼全球，各国海军在复杂海域执行高强度任务时，因海况突变、机械故障或协同偏差导致的舰船碰撞事件并非孤例——美国、俄罗斯、英国等传统海军强国均曾多次发生类似意外，国际社会通常以客观、专业的态度加以看待，从未因此否定其整体作战能力。 烈士的鲜血不会白流，任何企图诋毁我军声誉、动摇我捍卫主权意志的伎俩，都注定徒劳；任何胆敢侵犯我海洋权益的挑衅行为，都必将遭到人民军队迎头痛击、有来无回！ 英烈已逝，教训与荣光皆成教材。来时路浸透鲜血，后人当以此为鉴，踏着烈士足迹，以更强大的实力守护每一寸海疆。#中国海军[话题]# #中国南海[话题]# #烈士精神[话题]##中国人民解放军海军[话题]# #英雄[话题]#",
     "url": "https://www.xiaohongshu.com/explore/6a748e97000000002500f4ac?xsec_token=ABQ5Hl6W0HCy5aEN8kdwQFKn0iMK3miAjz2MhhzexDskM=&xsec_source=pc_search",
@@ -1542,6 +2146,33 @@
       "Russia",
       "Philippines",
       "Global"
+    ],
+    "entities": []
+  },
+  {
+    "id": "6b11622cfeaabe7d7264",
+    "platform": "xiaohongshu",
+    "author": "泰***社",
+    "published_at": "2026-08-06T13:34:00+00:00",
+    "collected_at": "2026-08-18T09:33:30.404275+00:00",
+    "query": "海外中资项目 爆炸",
+    "text": "泰国中资床垫厂突发大火！浓烟冲天伴爆炸声 仓库严重烧毁#泰国中文社[话题]# 泰国中资床垫厂突发大火！浓烟冲天伴爆炸声 仓库严重烧毁#泰国中文社[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a748d48000000000502a419?xsec_token=ABQ5Hl6W0HCy5aEN8kdwQFKsPzJu25QBj9iXO3fpWcDvQ=&xsec_source=pc_search",
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 82,
+    "severity": "high",
+    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "matched_anchors": [
+      "中资"
+    ],
+    "matched_events": [
+      "爆炸"
+    ],
+    "matched_strategic": [],
+    "noise_terms": [],
+    "profiles": [
+      "Thailand"
     ],
     "entities": []
   },
@@ -1720,11 +2351,42 @@
     "entities": []
   },
   {
+    "id": "2f8d4db8431976bd9a14",
+    "platform": "xiaohongshu",
+    "author": "低***露",
+    "published_at": "2026-08-05T09:14:04+00:00",
+    "collected_at": "2026-08-18T09:33:30.404441+00:00",
+    "query": "海外中资项目 爆炸",
+    "text": "ESG爆炸性新闻！ 下午刚刚发的新鲜的文——RBA被反制了！这应该是834号文后ESG领域体感最强的policy了，想必各位群里已经炸翻了锅。 1️⃣谁受影响最大？ 影响最直接的就是电子、汽车、电池、快消行业一系列的RBA社会责任审核，以及RBA旗下RMI体系的矿产溯源了…RBA审核、CMRT溯源表单、RMAP认证都还能不能做？在有确切答案之前，企业应该都会暂停了。 据目前大家的反馈，一些合同刚签完就“不可抗力”作废，培训刚上完就作废，一些在途的审厂也全面叫停… 2️⃣原因是什么？ 最直接的原因在通知发文第一段都写了，这里不便贴。renquan相关是最直接的，尤其是RBA牵扯到周末43家UFLPA的制裁清单，妥妥触碰红线了…除此之外，可能也是🇺🇸为了将🇨🇳关键矿产排除在全球供应链上的钓鱼之举。 3️⃣后续怎么干？ 按照惯例一时半会也没人会出来明说，让子弹飞一会吧。很多人今晚都在开会，你们大佬加油。 可能几个问题值得思考： 1、中资企业海外子公司能开展吗？ 2、其他倡议组织和RMI共同开发的标准能碰吗？ 3、是否长期都会维持这样？ 4、国内平替有谁？（感觉五矿的似乎有戏） 5、下一个是谁？（除了renquan强相关的，搞供应链溯源到处mapping的也小心点[doge] #ESG[话题]# #可持续[话题]# #双碳[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a72fedc0000000027023b1a?xsec_token=ABkIMziOJyQh8J_OgqeMgDG8MAGpMigy2Pa3rASkFv19Q=&xsec_source=pc_search",
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 96,
+    "severity": "high",
+    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "matched_anchors": [
+      "中资"
+    ],
+    "matched_events": [
+      "爆炸",
+      "制裁"
+    ],
+    "matched_strategic": [
+      "供应链",
+      "电池"
+    ],
+    "noise_terms": [],
+    "profiles": [
+      "Global"
+    ],
+    "entities": []
+  },
+  {
     "id": "6299e78fb5f316fc5390",
     "platform": "xiaohongshu",
     "author": "鸭***基",
     "published_at": "2026-08-05T08:06:40+00:00",
-    "collected_at": "2026-08-18T08:47:32.798404+00:00",
+    "collected_at": "2026-08-18T09:33:30.400423+00:00",
     "query": "中国企业 制裁",
     "text": "我天！反制来了！！卡着美股盘前发！",
     "url": "https://www.xiaohongshu.com/explore/6a72ef100000000006005743?xsec_token=ABkIMziOJyQh8J_OgqeMgDGwluRhzZtbiNAs-ey5a-aBs=&xsec_source=pc_search",
@@ -1764,11 +2426,36 @@
     "entities": []
   },
   {
+    "id": "181e2e2c7136405842fa",
+    "platform": "xiaohongshu",
+    "author": "Z***g",
+    "published_at": "2026-08-04T23:08:59+00:00",
+    "collected_at": "2026-08-18T09:33:30.402506+00:00",
+    "query": "中国员工 绑架",
+    "text": "台工组副组长萧明华1950年2月6日在台湾被捕 一位看守所勤杂工亲眼看到：萧明华被捆吊在梁上，满脸鲜血，双手双臂多处骨折，昏去醒来，什么话也没有说，只是对行刑的狱卒轻蔑地一笑。敌人还动用了坐电椅、老虎凳、五天五夜不眠不休的疲劳审讯等酷刑，遍体鳞伤，却始终没有泄露任何机密，没有涉及一人一事。",
+    "url": "https://www.xiaohongshu.com/explore/6a72710b000000003301317e?xsec_token=ABkIMziOJyQh8J_OgqeMgDG3f3mUD-ANJR2RhNcPsodK8=&xsec_source=pc_search",
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 82,
+    "severity": "high",
+    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "matched_anchors": [
+      "台湾"
+    ],
+    "matched_events": [
+      "被捕"
+    ],
+    "matched_strategic": [],
+    "noise_terms": [],
+    "profiles": [],
+    "entities": []
+  },
+  {
     "id": "bb04ca87870559d20878",
     "platform": "xiaohongshu",
     "author": "天***查",
     "published_at": "2026-08-04T11:31:09+00:00",
-    "collected_at": "2026-08-18T08:47:32.797375+00:00",
+    "collected_at": "2026-08-18T09:33:30.398441+00:00",
     "query": "中国员工 遇袭",
     "text": "59岁绿化工人留遗言后坠亡，疑遭职场ba凌？ 💥近日，乌鲁木齐一名59岁绿化工人在工作群留下遗言后坠楼离世的悲剧，在全网引发热议。 ✍️据媒体报道，李某平的儿子称：其父亲现年59岁，自2025年4月起在“阳光恒昌物业服务股份有限公司”担任绿化员工。 💡7月22日，李某平向项目经理高某某提出节水及员工早退问题，其中节水建议中，有一条后来被公司采纳落地。 😨然而父亲李某平的直属领导、环境主管孙某某得知此事后，在7月23日连续三次约谈李某平： “第一次质问我爸为什么越级汇报，并表示之前的浇灌方式是她本人决定的；第二次以抽烟为由，对我爸作出100元罚款处理；第三次还是说了越级汇报的事。” ⚠️当天7月23日，孙某某在工作群发布新规。李某平儿子指出，孙某某在员工中传递信息称，制度调整都是李某平“打小报告”所致。这让李某平在班组内遭受误解，被同事孤立。 ☎️7月23日晚，不堪精神重压的李某平致电项目经理高某某申请调岗。 💬7月24日一早，高某某与另一名工作人员与其进行了长达两小时的交谈。但据据李某平的儿子称，调岗请求最终未获批准，父亲被孤立、排挤的处境没有改变。 ⚠️7月25日上午11时34分，李某平在62人的工作群内留下最后一段话，遗言称“我的si是xx一手造成的”，请求公司严查还其清白，随后坠楼身亡。 💻值得注意的是，李某平入职时签署的是“淮北佳沐外包服务有限公司新疆分公司”，属于劳务派遣人员，实际用工单位为“阳光恒昌物业服务股份有限公司”。 😠而李某平在职期间公司一直没有为其缴纳社保，劳动合同中竟有“自愿放弃社保”相关条款。 🎙️对此，官方工作人员称：7月27日“淮北佳沐外包服务有限公司新疆分公司”为其缴纳了7月的社保。李某平的家属说：“人是25日离世的，却在27日‘续保’...” ❓对此，7月31日下午，涉事物业公司项目经理高某某仅回应一句“与你们没有关系”。 🔍天眼查信息显示，【阳光恒昌物业服务股份有限公司】成立于2000年12月，注册及实缴资本均超2.8亿元，系“阳光恒昌投资管理集团”成员，全国下设超20家分支机构。 ❌风险信息显示，该公司有超500条司法案件信息，案由包括物业服务合同纠纷、劳动争议等，同时存在多条股权冻结信息。 🔍合作外包方【淮北佳沐外包服务有限公司新疆分公司】成立于2024年4月，经营范围包括职业中介活动、软件外包服务等。 目前，👮方已介入调查，天眼妹也会持续关注！（来源：观察者网、大河报等）",
     "url": "https://www.xiaohongshu.com/explore/6a71cd7d0000000008013059?xsec_token=ABu231h52d-DTuTN3mTjIQVmAKDCgKls33UTEOIzz-72Q=&xsec_source=pc_search",
