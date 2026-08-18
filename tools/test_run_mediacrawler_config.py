@@ -48,5 +48,29 @@ def main() -> None:
     print("ok: MediaCrawler config escaping regression test passed")
 
 
+
+
+def test_batch_helpers():
+    kws = mod.split_keywords(" A ,B,A,, C ")
+    assert kws == ["A", "B", "C"]
+    assert mod.chunked(kws, 2) == [["A", "B"], ["C"]]
+
+
+def test_suppress_noisy_upstream_logs():
+    with tempfile.TemporaryDirectory() as td:
+        repo = Path(td)
+        core = repo / "media_platform" / "xhs" / "core.py"
+        core.parent.mkdir(parents=True)
+        core.write_text('utils.logger.info(f"[XiaoHongShuCrawler.search] Note details: {note_details}")\n', encoding="utf-8")
+        changed = mod.suppress_noisy_upstream_logs(repo, "xhs")
+        text = core.read_text(encoding="utf-8")
+        assert changed == 1
+        assert "Note details fetched" in text
+        assert "Note details: {note_details}" not in text
+
+
 if __name__ == "__main__":
     main()
+    test_batch_helpers()
+    test_suppress_noisy_upstream_logs()
+    print("run_mediacrawler batching/log patch tests: ok")
