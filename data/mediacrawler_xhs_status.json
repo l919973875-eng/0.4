@@ -1,13 +1,13 @@
 {
   "platform_code": "xhs",
-  "status": "empty",
-  "items": 0,
-  "reason_code": "process_failed",
-  "detail": "MediaCrawler 退出码 1",
-  "exit_code": 1,
-  "attempts": 2,
-  "updated_at": "2026-08-18T06:55:23.303159+00:00",
+  "status": "ok",
+  "items": 20,
+  "reason_code": "ok",
+  "detail": "成功产生约 20 条内容记录",
+  "exit_code": 0,
+  "attempts": 1,
+  "updated_at": "2026-08-18T08:05:18.229651+00:00",
   "keywords": "中国员工 遇袭",
   "diagnostic_log": "/home/runner/work/0.4/0.4/data/mediacrawler_xhs.log",
-  "exception": "SyntaxError: unterminated string literal (detected at line 29)"
+  "exception": "2026-08-18 08:05:17 MediaCrawler INFO (core.py:132) - [XiaoHongShuCrawler.start] Xhs Crawler finished ..."
 }
