@@ -61,6 +61,9 @@ jobs:
       - name: 安装本项目依赖
         run: python -m pip install -r requirements.txt
 
+      - name: 验证社交关键词生成器
+        run: python tools/test_social_keyword_pack.py
+
       - name: 检查平台 Cookie
         id: cookiecheck
         shell: bash
@@ -105,6 +108,9 @@ jobs:
             DY_KW="$(python tools/social_keyword_pack.py --platform dy --pack "$PACK")"
             WB_KW="$(python tools/social_keyword_pack.py --platform wb --pack "$PACK")"
             MAX_NOTES="$(python tools/social_keyword_pack.py --platform xhs --pack "$PACK" --field max_per_query)"
+            python tools/social_keyword_pack.py --platform xhs --pack "$PACK" --field json > data/mediacrawler_xhs_keyword_plan.json
+            echo "xhs queries=$(python tools/social_keyword_pack.py --platform xhs --pack "$PACK" --field count) candidate_pool=$(python tools/social_keyword_pack.py --platform xhs --pack "$PACK" --field candidate_count) budget=$(python tools/social_keyword_pack.py --platform xhs --pack "$PACK" --field budget)"
+            echo "dy queries=$(python tools/social_keyword_pack.py --platform dy --pack "$PACK" --field count) wb queries=$(python tools/social_keyword_pack.py --platform wb --pack "$PACK" --field count)"
           fi
           echo "MC_KEYWORDS_XHS=$XHS_KW" >> "$GITHUB_ENV"
           echo "MC_KEYWORDS_DY=$DY_KW" >> "$GITHUB_ENV"
@@ -173,6 +179,7 @@ jobs:
           retention-days: 7
           path: |
             data/mediacrawler_*_status.json
+            data/mediacrawler_*_keyword_plan.json
             data/mediacrawler_*.log
             data/mediacrawler_status.json
 
@@ -185,7 +192,7 @@ jobs:
           git config user.name "global-china-signals-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # 日志仅用于本次 artifact 诊断，不提交进仓库。
-          rm -f data/mediacrawler_*.log
+          rm -f data/mediacrawler_*.log data/mediacrawler_*_keyword_plan.json
           git add data/
           if git diff --cached --quiet; then
             echo "没有新的社交数据/状态变化"
