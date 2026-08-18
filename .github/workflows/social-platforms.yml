@@ -34,7 +34,7 @@ concurrency:
 jobs:
   social-crawl:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 180
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -129,7 +129,7 @@ jobs:
           if [[ "$MC_PLATFORMS" == "all" || "$MC_PLATFORMS" == *"xhs"* ]]; then
             python tools/run_mediacrawler.py \
               --repo vendor/MediaCrawler --platform xhs --cookie-env XHS_COOKIE \
-              --keywords "$MC_KEYWORDS_XHS" --max-notes "$MC_MAX_NOTES" --retry-cdp \
+              --keywords "$MC_KEYWORDS_XHS" --max-notes "$MC_MAX_NOTES" --batch-size 6 --retry-cdp \
               --status-file data/mediacrawler_xhs_status.json \
               --log-file data/mediacrawler_xhs.log
           fi
