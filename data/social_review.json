@@ -49,6 +49,31 @@
     "entities": []
   },
   {
+    "id": "cc244a3d920fe54e4699",
+    "platform": "xiaohongshu",
+    "author": "澳***象",
+    "published_at": "2026-08-17T02:31:45+00:00",
+    "collected_at": "2026-08-18T00:00:11.417953+00:00",
+    "query": "中国员工 遇袭",
+    "text": "6名青少年深夜闯入中餐馆，店员遭袭 #悉尼新闻[话题]# #悉尼CBD[话题]# #悉尼治安[话题]# #悉尼华人[话题]# #澳洲新闻[话题]# #澳洲生活[话题]# #悉尼生活[话题]# #Haymarket[话题]# #悉尼中餐馆[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a8272910000000006004707?xsec_token=ABrM-p7g6peqSp0CJh_LdbWUL8LM0jgX1uayY16plbA40=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 13,
+    "severity": "low",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [
+      "华人"
+    ],
+    "matched_events": [],
+    "matched_strategic": [],
+    "noise_terms": [],
+    "profiles": [
+      "Australia"
+    ],
+    "entities": []
+  },
+  {
     "id": "3698c9afe063cff1f409",
     "platform": "xiaohongshu",
     "author": "王***听",
@@ -96,6 +121,65 @@
     "entities": []
   },
   {
+    "id": "204fc4cc8ed633558d8d",
+    "platform": "xiaohongshu",
+    "author": "A***泥",
+    "published_at": "2026-08-16T22:32:04+00:00",
+    "collected_at": "2026-08-18T00:00:11.416939+00:00",
+    "query": "中国员工 撤离",
+    "text": "诺基亚中国宣布将裁撤约1600名员工！ 诺基亚中国宣布将裁撤约1600名员工，关停杭州核心研发中心，北京、成都等多地站点也将同步调整，相关工作预计2026年底前完成。 这是诺基亚在华多年业务收缩的关键一步：此前它已错失国内5G核心订单，在华5G市场占比不足3%，员工规模从2020年的1.37万骤降至2025年的7200人。 本次重组专项投入3.5亿欧元，是其全球8亿欧元降本计划的重要部分，完成后每年可节约2亿欧元运营成本。这家曾占据国人青春记忆的通信巨头，正在用大幅收缩的方式，把资源转向6G研发、AI数据中心基建等新赛道，试图在全球市场重新找到自己的位置。 #职场[话题]# #就业[话题]# #外企[话题]# #互联网大厂[话题]# #未来工作趋势[话题]# #裁员[话题]# #科技资讯早知道[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a823a640000000005028b67?xsec_token=ABrM-p7g6peqSp0CJh_LdbWYqllNBMg6TIwRLtVkW5pxo=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 14,
+    "severity": "low",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [],
+    "matched_events": [
+      "裁员"
+    ],
+    "matched_strategic": [],
+    "noise_terms": [],
+    "profiles": [
+      "Global"
+    ],
+    "entities": []
+  },
+  {
+    "id": "9edcc2682ab296e6bad3",
+    "platform": "xiaohongshu",
+    "author": "家***界",
+    "published_at": "2026-08-16T20:45:15+00:00",
+    "collected_at": "2026-08-18T00:00:11.417897+00:00",
+    "query": "中国员工 遇袭",
+    "text": "菲律宾防长指挥军队抓捕中国工人始末！ 八个问题，把特奥多罗的底裤扒干净了。8月15日晚，中国驻菲律宾使馆发言人季凌鹏对菲防长特奥多罗的声明作出回应。八个问题，句句见血。 🟡 第一，防长抓人，谁给你的权力？ 特奥多罗指挥军队冲到三佳钢厂抓捕手无寸铁的中国工人。他是防长还是警察局长？执法是警察的事，军队是打仗的。防长亲自带队抓工人——这不是越权，是滥用职权。 🟡 第二，选择性执法，为什么只抓中国人？ 如果工厂违反环保法律，为什么不抓老板和负责人，只抓工人？为什么只抓中国工人，菲律宾工人当场释放？选择性执法的证据，摆在桌面上。 🟡 第三，摆拍构陷，教科书级的栽赃。 工人平日只穿正常劳动服装。突袭当天，执法人员让3名中国工人穿上防护服摆拍，大肆炒作“中国工人穿防护服、菲律宾工人不穿”。这不是执法，是演戏。 🟡 第四，5平米关13人，这是人干的事？ 70名中国工人，每13人被关在一间5平米的牢房。觉都没法睡。菲方未按双边协议向中方进行领事通报和安排领事探视。连基本人道待遇和外交程序都不遵守。 🟡 第五，扣押32天，证据呢？ 使馆第一时间提供了所有工人护照、签证合法齐备的信息资料。菲方既不反馈也不放人，硬扣32天。菲律宾司法部门5月28日决议写得清清楚楚——针对70名中国工人的指控证据不足，应予释放。司法说放人，防长说不行——特奥多罗比法院还大？ 🟡 第六，没带护照就是贩卖人口？ 所有外国工人都要每天随身携带护照吗？这种借口，侮辱智商。 🔴我梳理了一下时间线 5月上旬，菲律宾东米萨米斯省三佳钢铁公司。特奥多罗指挥军队冲到工厂，抓捕手无寸铁的中国工人。 5月28日，菲律宾司法部门作出决议——针对70名中国工人的指控证据不足，应予释放。 5月29日、6月3日，分别有两人获释。 6月11日，外交部发言人宣布：因特奥多罗多次发表涉华谬论、损害中方正当利益，中方决定禁止特奥多罗及其配偶、子女入境中国内地和香港、澳门，禁止中国境内的组织、个人与其进行任何交易、合作。 6月15日、17日，最后两人先后获释。从抓捕到全部释放，整整32天。 8月14日，外交部发言人郭嘉昆回应记者提问：“此前亲自带武装部队抓扣在菲正常合法务工中国公民的，正是这位菲律宾防长。这个人一贯攻击抹黑中国。” 8月15日晚，中国驻菲律宾使馆发言人季凌鹏发表回应，连发多问。 🔴 八个问题背后，是一个人的“反华履历”。 #菲律宾防长指挥军队抓捕中国工人[话题]##中国为何制裁菲律宾防长[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a82215b0000000035014665?xsec_token=ABrM-p7g6peqSp0CJh_LdbWbpY8CV5OcnNSxE5ZLlFm8E=&xsec_source=pc_search",
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 96,
+    "severity": "high",
+    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "matched_anchors": [
+      "中国工人",
+      "中国公民",
+      "中国驻"
+    ],
+    "matched_events": [
+      "武装",
+      "制裁",
+      "扣押"
+    ],
+    "matched_strategic": [
+      "工厂",
+      "使馆"
+    ],
+    "noise_terms": [],
+    "profiles": [
+      "Philippines"
+    ],
+    "entities": []
+  },
+  {
     "id": "53f17e9c4800c3f30167",
     "platform": "xiaohongshu",
     "author": "科***咖",
@@ -116,6 +200,35 @@
     "matched_strategic": [],
     "noise_terms": [],
     "profiles": [],
+    "entities": []
+  },
+  {
+    "id": "6b0e2604a6349a8227e2",
+    "platform": "xiaohongshu",
+    "author": "周***师",
+    "published_at": "2026-08-16T06:39:12+00:00",
+    "collected_at": "2026-08-18T00:00:11.417998+00:00",
+    "query": "中国员工 遇袭",
+    "text": "菲律宾防长指挥军队抓捕中国工人 菲律宾军警抓捕中国务工人员事件引发关注，驻外使馆指出军队介入执法疑点，强调劳工核查应由移民部门处理。外籍公民羁押需遵守国际法，驻外使领馆有权保护本国公民权益。企业和务工人员应完善手续，保管好证件，遇纠纷及时求助领事。",
+    "url": "https://www.xiaohongshu.com/explore/6a815b100000000032020e22?xsec_token=ABZhZ3NPiGDiOJ5RoYPeoieZJ0H3gBHfGna3FjrmA9yQw=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 27,
+    "severity": "low",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [
+      "中国工人"
+    ],
+    "matched_events": [],
+    "matched_strategic": [
+      "使馆",
+      "领馆"
+    ],
+    "noise_terms": [],
+    "profiles": [
+      "Philippines",
+      "Global"
+    ],
     "entities": []
   },
   {
@@ -203,6 +316,31 @@
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
     "matched_anchors": [
       "宁德时代"
+    ],
+    "matched_events": [],
+    "matched_strategic": [],
+    "noise_terms": [],
+    "profiles": [
+      "United States"
+    ],
+    "entities": []
+  },
+  {
+    "id": "fab542bf9473dbfbbee6",
+    "platform": "xiaohongshu",
+    "author": "无***卒",
+    "published_at": "2026-08-14T23:32:35+00:00",
+    "collected_at": "2026-08-18T00:00:11.417914+00:00",
+    "query": "中国员工 遇袭",
+    "text": "华人老板把 996 带去美国，被重罚。 在家耍流氓就算了。去外面耍流氓就的付出代价",
+    "url": "https://www.xiaohongshu.com/explore/6a7fa5930000000005030cb8?xsec_token=ABcOmPvtSiXCvd1fuhBSJhnKUtf8YpZIwZ4vCFeYJTF90=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 13,
+    "severity": "low",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [
+      "华人"
     ],
     "matched_events": [],
     "matched_strategic": [],
@@ -476,6 +614,27 @@
     "entities": []
   },
   {
+    "id": "ec7639fad05196a8a716",
+    "platform": "xiaohongshu",
+    "author": "簌*",
+    "published_at": "2026-08-12T08:13:41+00:00",
+    "collected_at": "2026-08-18T00:00:11.417772+00:00",
+    "query": "中国员工 遇袭",
+    "text": "19岁辅警炸街被刺 上班是辅警，下班是精神小伙 还得是有公德心呀，不扰民也不会有这事了 意外来的猝不及防 #19岁小伙[话题]# #辅警[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a7c2b350000000005020bc0?xsec_token=ABdIo9WE1_MWWmNO4wbbDYnFIhcBa7idLvfI_KWxnXXUs=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 0,
+    "severity": "low",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [],
+    "matched_events": [],
+    "matched_strategic": [],
+    "noise_terms": [],
+    "profiles": [],
+    "entities": []
+  },
+  {
     "id": "a4e70c5f90f13089d572",
     "platform": "xiaohongshu",
     "author": "C***记",
@@ -635,6 +794,29 @@
     "entities": []
   },
   {
+    "id": "5a20be7142949321a776",
+    "platform": "xiaohongshu",
+    "author": "商***沈",
+    "published_at": "2026-08-10T07:58:16+00:00",
+    "collected_at": "2026-08-18T00:00:11.417858+00:00",
+    "query": "中国员工 遇袭",
+    "text": "爷爷不泡茶“手打骑手”：一杯奶茶里的火药 2026年“奶茶店员与外卖骑手互殴”事件源于2025年深圳某店的矛盾，双方因出餐链问题爆发冲突。品牌已承认管理问题并整改，但新茶饮行业依赖人力高峰应对，骑手与店员高压系统未根本解决，冲突仍可能再次发生。#外卖[话题]# #热点[话题]# #奶茶[话题]# #矛盾[话题]# #商业思维[话题]# #餐饮[话题]# #打工者[话题]# #创业者交流[话题]# #骑手[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a798498000000003300d211?xsec_token=ABhVn7CgYexySgl5tYZa7Nh9sqBnVV6s8oJv0Zhkm68ik=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 14,
+    "severity": "low",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [],
+    "matched_events": [
+      "冲突"
+    ],
+    "matched_strategic": [],
+    "noise_terms": [],
+    "profiles": [],
+    "entities": []
+  },
+  {
     "id": "96622933d266cf5d277b",
     "platform": "xiaohongshu",
     "author": "罗***话",
@@ -643,6 +825,57 @@
     "query": "mediacrawler-search",
     "text": "中国人正在陷入可怕的时间贫困 #主体性[话题]# #财经[话题]# #经济[话题]# #热点[话题]# #科普[话题]# #社会化[话题]# #社会[话题]#",
     "url": "https://www.xiaohongshu.com/explore/6a78533c000000003301c720?xsec_token=ABR_jlxG99aKvsb885f3YLmiNjEJ2i5HyHDTT3NIpRM8Y=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 0,
+    "severity": "low",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [],
+    "matched_events": [],
+    "matched_strategic": [],
+    "noise_terms": [],
+    "profiles": [],
+    "entities": []
+  },
+  {
+    "id": "33a925ac81309741eb01",
+    "platform": "xiaohongshu",
+    "author": "T***察",
+    "published_at": "2026-08-09T02:53:01+00:00",
+    "collected_at": "2026-08-18T00:00:11.416999+00:00",
+    "query": "中国员工 撤离",
+    "text": "马斯克将不再雇佣中国员工？ 最近两条关于马斯克的传闻同时刷屏，但一真一假，反差极大： 🚫 假消息：特斯拉要撤离中国。 ✅ 马斯克亲自辟谣：“荒谬的假新闻”。 ✅ 真消息：SpaceX全面推行供应链“去中国化”。全面拒绝中国员工 马斯克至今未否认，且有全球多家供应商实锤。 可能的原因： SpaceX • 深度绑定美国国防部、NASA，手握超80亿美元防务订单 • 受ITAR（国际武器贸易条例） 硬性约束，涉密产线严禁受限国籍人员接触 • 切割中国 = 军工合规生存解（哪怕牺牲效率、抬高成本） #中国制造[话题]# #国际新闻[话题]# #星舰[话题]# #未来工作趋势[话题]# #全球化竞争[话题]# #人工智能替代人工[话题]# #科技资讯早知道[话题]# #科技[话题]# #看国际形势知天下大事[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a77eb8d000000002402f172?xsec_token=ABBOdy_HQT9zQnjohZXGGd5Y7m9wKq-nz3CPGAd6VbhP4=&xsec_source=pc_search",
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 96,
+    "severity": "high",
+    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "matched_anchors": [
+      "中国员工"
+    ],
+    "matched_events": [
+      "撤离"
+    ],
+    "matched_strategic": [
+      "供应链"
+    ],
+    "noise_terms": [],
+    "profiles": [
+      "United States",
+      "Global"
+    ],
+    "entities": []
+  },
+  {
+    "id": "ed6b6cd5816a542680f5",
+    "platform": "xiaohongshu",
+    "author": "中***）",
+    "published_at": "2026-08-09T02:14:05+00:00",
+    "collected_at": "2026-08-18T00:00:11.418103+00:00",
+    "query": "中国员工 遇袭",
+    "text": "8.6日山东郯城围剿电诈窝点实录。 #好视频扶持计划[话题]# #坚决打击犯罪[话题]# #反网络诈骗[话题]# #远离诈骗陷阱[话题]# #反诈从我做起[话题]# #红薯地反诈指南[话题]# #打击跨境电诈[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a77e26d00000000350150cd?xsec_token=ABBOdy_HQT9zQnjohZXGGd5YqJdTWXTz7ZVzeBn9irZeU=&xsec_source=pc_search",
     "accepted": false,
     "relation": "unrelated",
     "relevance_score": 0,
@@ -944,6 +1177,33 @@
     "entities": []
   },
   {
+    "id": "22897e00aeaf1f7d9ae4",
+    "platform": "xiaohongshu",
+    "author": "f***y",
+    "published_at": "2026-08-05T22:33:32+00:00",
+    "collected_at": "2026-08-18T00:00:11.417049+00:00",
+    "query": "中国员工 撤离",
+    "text": "喊着外企滚出中国的人还好吗？ 不知道从什么时候开始，在网上经常看到“外企滚出去，我们自己也能过的很好”的言论，大概得有几年了吧 现在的失业率我不清楚，只知道以前我们公司招聘不招45岁以上的，现在这个数字好像在各行各业都已经降到35了，甚至有些是30。 外企在中国做了什么？除了大量的税收贡献，还有就是就业影响。2014～2015年巅峰时期，如果把上游供应链（零部件与原材料）、下游销售售后、以及周边配套服务（物流、餐饮、房屋租赁、IT/广告/法律等第三方服务）全部纳入广义的外企经济圈，外企在中国拉动的总就业人口大约在 1.2 亿至 1.5 亿人 之间。相当于当时全国城镇就业总人口约 3.8 亿至 4 亿人的 30% 。 而且实际上很可能还不止这些。打个比方，我们公司以前接广告拍摄服务。所有外企都是打包给4a公司，4a再转手给我们这种小公司去执行。相当于一家外企同时养活了我们大小两家公司。它们一撤走，4a公司受到极大影响就先裁员，而我们这种小公司直接面临生存问题。而无论是大量裁员的4a还是我们这种生存不下去的小公司，员工减少，就意味着公司周边的饭馆奶茶店小超市甚至是租房市场都直接收到了影响，这就是链条 不知道具体被波及的就业人口是多少，ai给出的参考数字是巅峰时期的一半。图二。总之，人家走了，剩下的就靠咱们自己了。加油 #外企[话题]# #外企打工人[话题]# #就业大环境[话题]# #我的职场感悟[话题]# #职场[话题]# #就业[话题]# #失业[话题]# #神仙外企[话题]# #求仁得仁[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a73ba3c00000000220167fb?xsec_token=ABGvzHNT7G1L5K1lY61-twSib46NTWLsAT9oUywWBvT20=&xsec_source=pc_search",
+    "accepted": false,
+    "relation": "unrelated",
+    "relevance_score": 18,
+    "severity": "medium",
+    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "matched_anchors": [],
+    "matched_events": [
+      "裁员"
+    ],
+    "matched_strategic": [
+      "供应链"
+    ],
+    "noise_terms": [
+      "招聘"
+    ],
+    "profiles": [],
+    "entities": []
+  },
+  {
     "id": "970d3fc6f54241a6b807",
     "platform": "xiaohongshu",
     "author": "大***叭",
@@ -1017,27 +1277,25 @@
     "entities": []
   },
   {
-    "id": "bd942f5a7ee751cba2d4",
+    "id": "1640c63e455a46facd0b",
     "platform": "xiaohongshu",
-    "author": "超***车",
-    "published_at": "2026-08-03T12:01:55+00:00",
-    "collected_at": "2026-08-17T09:47:05.817882+00:00",
-    "query": "比亚迪",
-    "text": "海豚、星愿、零跑A10选哪个，多对比再决定 #超哥直播回放[话题]# #买车[话题]# #比亚迪海豚[话题]# #吉利星愿[话题]# #零跑A10[话题]#",
-    "url": "https://www.xiaohongshu.com/explore/6a700e7a000000003301a207?xsec_token=ABpEsR8M3BE6u9_TXtEc27nfUl6bGyGyPDw-T0Y7E4xxg=&xsec_source=pc_search",
+    "author": "屯***😎",
+    "published_at": "2026-08-04T10:37:09+00:00",
+    "collected_at": "2026-08-18T00:00:11.417136+00:00",
+    "query": "中国员工 撤离",
+    "text": "三星，中国大撤退！ 📉现状速报： 三星手机正上演\"中国大撤退\"！多地门店突遭清退（深圳/郑州/昆明等），月销30万成生死线💔 最新数据更扎心——市场份额仅剩0.1%，比奶茶店倒闭率还高😱 🔍三大败因： 1️⃣ 高端梦碎：折叠屏干不过华为Mate X5，S24被iPhone15吊打 2️⃣ 中端溃败：小米OV的1999元旗舰直接抄家 3️⃣ 渠道崩盘：乡镇市场被荣耀吃透，一线城市门店月租都赚不回 🚀未来剧透： ▸ 可能保留北上广深\"旗舰体验店\"做形象工程 ▸ 线上转战京东自营+直播带货（但主播比顾客多🤫） ▸ 韩媒爆料研发团队已撤出中国，只剩壳公司 #三星退华[话题]# #手机行业地震[话题]# #国产崛起[话题]# #数码圈吃瓜[话题]# #韩系退潮[话题]#",
+    "url": "https://www.xiaohongshu.com/explore/6a71c0d50000000025013dc0?xsec_token=ABRWsROqV4d0qTh9yBa2zawQwRj0IC3k_Pox27jJgGjaI=&xsec_source=pc_search",
     "accepted": false,
     "relation": "unrelated",
-    "relevance_score": 0,
+    "relevance_score": 13,
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
     "matched_anchors": [
-      "比亚迪"
+      "华为"
     ],
     "matched_events": [],
     "matched_strategic": [],
-    "noise_terms": [
-      "买车"
-    ],
+    "noise_terms": [],
     "profiles": [],
     "entities": []
   }

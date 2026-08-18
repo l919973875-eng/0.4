@@ -1,13 +1,13 @@
 {
   "platform_code": "xhs",
   "status": "ok",
-  "items": 220,
-  "reason_code": "risk_control",
-  "detail": "账号或云端出口触发平台风控",
-  "exit_code": 0,
+  "items": 40,
+  "reason_code": "fetch_error",
+  "detail": "平台接口请求失败/重试耗尽",
+  "exit_code": 1,
   "attempts": 1,
-  "updated_at": "2026-08-17T09:47:05.724987+00:00",
-  "keywords": "中国,中资,中国企业,中国员工,华为,比亚迪,宁德时代,一带一路,台海,台湾,南海",
+  "updated_at": "2026-08-18T00:00:11.258823+00:00",
+  "keywords": "中国员工 撤离,中国员工 遇袭,中国公民 被捕,中国公民 失踪,中资矿山 抗议,中资矿山 停产,中资工厂 罢工,中资工厂 停产,中资项目 抗议,中资项目 封锁,一带一路 项目 受阻,中国企业 制裁,中国企业 调查,华为 禁令,比亚迪 调查,宁德时代 抗议,中国电动车 关税,台海 军演,南海 海警 冲突,菲律宾 中国 海警",
   "diagnostic_log": "/home/runner/work/0.4/0.4/data/mediacrawler_xhs.log",
-  "exception": "2026-08-17 09:47:05 MediaCrawler INFO (core.py:132) - [XiaoHongShuCrawler.start] Xhs Crawler finished ..."
+  "exception": "tenacity.RetryError: RetryError[<Future at 0x7fec9e40a9d0 state=finished raised DataFetchError>]"
 }
