@@ -99,7 +99,9 @@ jobs:
           echo "MAX_ARTICLES_PER_SOURCE=$MAX_PER" >> "$GITHUB_ENV"
 
       - name: 运行自检
-        run: python cloud_runner.py --self-test
+        run: |
+          python cloud_runner.py --self-test
+          python tools/test_signal_engine_v050.py
 
       - name: 抓取、筛选、事件聚类并生成网站
         run: python cloud_runner.py --mode "$RUN_MODE" --query "$MANUAL_QUERY"
