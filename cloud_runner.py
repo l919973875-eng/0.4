@@ -34,6 +34,7 @@ TIERS_FILE = CONFIG_DIR / 'source_tiers.yaml'
 SOCIAL_FILE = CONFIG_DIR / 'social_sources.yaml'
 SOCIAL_KEYWORDS_FILE = CONFIG_DIR / 'social_keywords.yaml'
 GEO_ALIASES_FILE = CONFIG_DIR / 'geo_aliases.yaml'
+SIGNAL_TAXONOMY_FILE = CONFIG_DIR / 'signal_taxonomy.yaml'
 ARTICLES_FILE = DATA_DIR / 'articles.json'
 SIGNALS_FILE = DATA_DIR / 'signals.json'
 EXTERNAL_SIGNALS_FILE = DATA_DIR / 'signals_external.json'
@@ -43,7 +44,7 @@ LATEST_FILE = DATA_DIR / 'latest.json'
 STATUS_FILE = DATA_DIR / 'run_status.json'
 TRANSLATION_CACHE_FILE = DATA_DIR / 'translation_cache.json'
 
-USER_AGENT = os.getenv('USER_AGENT', 'GlobalChinaEarlySignals/0.4 (+research; GitHub Actions)')
+USER_AGENT = os.getenv('USER_AGENT', 'GlobalChinaEarlySignals/0.5 (+research; GitHub Actions)')
 FETCH_TIMEOUT = int(os.getenv('FETCH_TIMEOUT_SECONDS', '18'))
 MAX_PER_SOURCE = int(os.getenv('MAX_ARTICLES_PER_SOURCE', '5'))
 MAX_CONNECTIONS = int(os.getenv('MAX_CONNECTIONS', '36'))
@@ -608,6 +609,8 @@ async def run(mode='all', manual_query='', rebuild_only=False):
     started=datetime.now(timezone.utc); DATA_DIR.mkdir(parents=True,exist_ok=True)
     sources=load_yaml(SOURCES_FILE).get('sources',[]); interests=load_interests(); tiers=load_yaml(TIERS_FILE); social_cfg=load_yaml(SOCIAL_FILE)
     existing_articles=load_json_list(ARTICLES_FILE); existing_signals=load_json_list(SIGNALS_FILE)
+    previous_events=load_json_list(EVENTS_FILE)
+    signal_taxonomy=load_yaml(SIGNAL_TAXONOMY_FILE)
     errors=[]; platform_status=[]; items_seen=items_new=items_relevant=signals_seen=signals_relevant=0
 
     if mode in {'all','news'} and not rebuild_only:
@@ -684,13 +687,13 @@ async def run(mode='all', manual_query='', rebuild_only=False):
         platform_status.extend(mc_status)
 
     # 任何模式运行后都重建事件与站点，因此手动 social-only 也能马上看到网站变化。
-    events=build_events(existing_articles,existing_signals,tiers)
+    events=build_events(existing_articles, existing_signals, tiers, previous_events=previous_events, taxonomy_cfg=signal_taxonomy)
     translation_status = enrich_events_bilingual(events, TRANSLATION_CACHE_FILE, title_limit=300, reason_limit=80)
-    latest=select_latest(events,hours=24,limit=30)
+    latest=select_latest(events,hours=24,limit=18)
     EVENTS_FILE.write_text(json.dumps(events,ensure_ascii=False,indent=2),encoding='utf-8')
     LATEST_FILE.write_text(json.dumps(latest,ensure_ascii=False,indent=2),encoding='utf-8')
     status={
-        'version':'0.4.3','mode':mode,'manual_query':manual_query,'started_at':iso(started),'finished_at':iso(datetime.now(timezone.utc)),
+        'version':'0.5.0','mode':mode,'manual_query':manual_query,'started_at':iso(started),'finished_at':iso(datetime.now(timezone.utc)),
         'sources_scanned':len(sources) if mode in {'all','news'} and not rebuild_only else 0,'items_seen':items_seen,'items_new':items_new,'items_relevant':items_relevant,
         'signals_seen':signals_seen,'signals_relevant':signals_relevant,'social_review_total':len(social_review),'social_review_accepted':sum(1 for x in social_review if x.get('accepted')),'stored_articles':len(existing_articles),'stored_signals':len(existing_signals),'events':len(events),'latest_events':len(latest),
         'errors':len(errors),'error_samples':errors[:25],'platform_status':platform_status,'ai_enabled':bool(OPENAI_API_KEY),'classifier':OPENAI_MODEL if OPENAI_API_KEY else 'rules',
