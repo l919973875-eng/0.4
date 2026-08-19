@@ -1,0 +1,279 @@
+version: 1
+
+# v0.5.0 Signal Engine taxonomy.
+# These terms classify already-collected evidence; they are not a crawler keyword list.
+risk_categories:
+  personnel_security:
+    label_zh: 人员安全
+    label_en: Personnel Security
+    exposure_weight: 95
+    terms:
+      - 绑架
+      - 遇袭
+      - 袭击
+      - 围殴
+      - 抢劫
+      - 被捕
+      - 拘留
+      - 扣押
+      - 失踪
+      - 死亡
+      - 伤亡
+      - 撤离
+      - 撤侨
+      - 紧急避险
+      - kidnapped
+      - abducted
+      - attacked
+      - assaulted
+      - robbed
+      - arrested
+      - detained
+      - missing
+      - killed
+      - casualties
+      - evacuation
+      - evacuate
+  overseas_projects:
+    label_zh: 海外项目
+    label_en: Overseas Projects
+    exposure_weight: 88
+    terms:
+      - 中资项目
+      - 一带一路
+      - 矿山
+      - 港口
+      - 工业园
+      - 电站
+      - 水坝
+      - 铁路
+      - 公路
+      - 油气田
+      - 管道
+      - 停工
+      - 停产
+      - 封锁
+      - project shutdown
+      - mine shutdown
+      - port closure
+      - construction halt
+      - industrial park
+      - power plant
+      - railway
+      - pipeline
+  labor_social:
+    label_zh: 劳资社会
+    label_en: Labor & Social Unrest
+    exposure_weight: 72
+    terms:
+      - 欠薪
+      - 罢工
+      - 示威
+      - 抗议
+      - 围堵
+      - 骚乱
+      - 纵火
+      - 工人聚集
+      - strike
+      - protest
+      - demonstration
+      - blockade
+      - riot
+      - unrest
+      - wage arrears
+      - unpaid wages
+  trade_regulatory:
+    label_zh: 经贸监管
+    label_en: Trade & Regulatory
+    exposure_weight: 84
+    terms:
+      - 制裁
+      - 禁令
+      - 调查
+      - 搜查
+      - 扣押
+      - 关税
+      - 反倾销
+      - 反补贴
+      - 实体清单
+      - 出口管制
+      - 投资审查
+      - 强制出售
+      - 进口限制
+      - sanctions
+      - ban
+      - investigation
+      - probe
+      - raid
+      - seizure
+      - tariff
+      - anti-dumping
+      - anti-subsidy
+      - entity list
+      - blacklist
+      - export control
+      - investment review
+      - forced sale
+      - import restriction
+  tech_controls:
+    label_zh: 科技限制
+    label_en: Technology Controls
+    exposure_weight: 86
+    terms:
+      - 半导体
+      - 芯片
+      - 人工智能
+      - 光伏
+      - 电动车
+      - 电池
+      - 华为
+      - 中兴
+      - TikTok
+      - 字节跳动
+      - semiconductor
+      - chip
+      - artificial intelligence
+      - Huawei
+      - ZTE
+      - TikTok
+      - ByteDance
+      - electric vehicle
+      - battery
+      - solar
+  diplomatic_political:
+    label_zh: 外交政治
+    label_en: Diplomatic & Political
+    exposure_weight: 76
+    terms:
+      - 驱逐
+      - 召见
+      - 抗议照会
+      - 断交
+      - 签证限制
+      - 外交抗议
+      - 涉台
+      - 承认台湾
+      - expel
+      - expelled
+      - summon
+      - diplomatic protest
+      - sever ties
+      - visa restriction
+      - recognition of Taiwan
+  military_security:
+    label_zh: 军事安全
+    label_en: Military & Security
+    exposure_weight: 96
+    terms:
+      - 军演
+      - 实弹
+      - 海警
+      - 军舰
+      - 军机
+      - 拦截
+      - 碰撞
+      - 封锁
+      - 导弹
+      - 对峙
+      - 集结
+      - 越线
+      - military drill
+      - military exercise
+      - live-fire
+      - coast guard
+      - warship
+      - military aircraft
+      - intercept
+      - collision
+      - blockade
+      - missile
+      - standoff
+      - troop buildup
+  supply_chain:
+    label_zh: 供应链
+    label_en: Supply Chain
+    exposure_weight: 82
+    terms:
+      - 港口拥堵
+      - 航线中断
+      - 航运中断
+      - 矿产出口禁令
+      - 出口禁令
+      - 电力中断
+      - 停电
+      - 物流封锁
+      - 供应链中断
+      - port congestion
+      - route disruption
+      - shipping disruption
+      - mineral export ban
+      - export ban
+      - power outage
+      - logistics blockade
+      - supply chain disruption
+  corporate_operations:
+    label_zh: 企业经营
+    label_en: Corporate Operations
+    exposure_weight: 66
+    terms:
+      - 破产
+      - 违约
+      - 裁员
+      - 关闭工厂
+      - 停产
+      - 资产冻结
+      - 股权冻结
+      - bankruptcy
+      - default
+      - layoffs
+      - factory closure
+      - production halt
+      - asset freeze
+
+escalation_terms:
+  - 升级
+  - 扩大
+  - 增兵
+  - 实弹
+  - 封锁
+  - 死亡
+  - 伤亡
+  - 爆炸
+  - 袭击
+  - 正式立案
+  - 批准制裁
+  - 紧急状态
+  - escalates
+  - escalation
+  - expands
+  - reinforcements
+  - live-fire
+  - blockade
+  - killed
+  - casualties
+  - explosion
+  - attack
+  - formally opened investigation
+  - state of emergency
+
+resolution_terms:
+  - 解除封锁
+  - 恢复生产
+  - 恢复运营
+  - 复工
+  - 复产
+  - 达成协议
+  - 撤销禁令
+  - 取消制裁
+  - 释放
+  - 获释
+  - 调查结束
+  - resolved
+  - reopened
+  - resumed operations
+  - production resumed
+  - agreement reached
+  - ban lifted
+  - sanctions lifted
+  - released
+  - investigation closed
