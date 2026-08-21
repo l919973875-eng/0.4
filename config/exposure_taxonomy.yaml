@@ -1,0 +1,55 @@
+# v0.6.0 Global China Exposure Engine
+# Global events that may create China-related exposure even without explicit China keywords.
+
+exposure_domains:
+  supply_chain:
+    name_zh: 供应链风险
+    objects:
+      - lithium
+      - nickel
+      - cobalt
+      - rare_earth
+      - semiconductor
+      - energy
+      - minerals
+
+  maritime_logistics:
+    name_zh: 海运物流风险
+    objects:
+      - Red Sea
+      - Suez Canal
+      - Panama Canal
+      - Malacca Strait
+      - port
+      - shipping lane
+
+  trade_technology:
+    name_zh: 贸易科技风险
+    objects:
+      - tariff
+      - sanctions
+      - export control
+      - investment review
+      - semiconductor
+      - EV
+      - battery
+      - solar
+
+  geopolitical_security:
+    name_zh: 地缘安全风险
+    objects:
+      - Taiwan Strait
+      - South China Sea
+      - military exercise
+      - naval activity
+      - blockade
+
+  overseas_assets:
+    name_zh: 海外资产风险
+    objects:
+      - mine
+      - port
+      - power plant
+      - railway
+      - industrial park
+      - oil field
