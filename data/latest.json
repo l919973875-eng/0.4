@@ -1,5 +1,699 @@
 [
   {
+    "id": "b935bd707fde5443b540",
+    "title": "两党议员重新提出《中共芬太尼制裁法案》拟扩大对中国化学品供应商的制裁",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "制裁"
+    ],
+    "severity": "high",
+    "priority_score": 86,
+    "confidence_score": 52,
+    "importance_score": 67,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 89,
+    "freshness_score": 82,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-08-25T20:55:19+00:00",
+    "last_seen": "2026-08-25T20:55:19+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "United States"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-25T20:55:19+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 86,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ba468738790f0b9f1d04",
+        "origin_type": "news",
+        "source": "美国之音中文 VOA Chinese",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "两党议员重新提出《中共芬太尼制裁法案》拟扩大对中国化学品供应商的制裁",
+        "url": "https://www.voachinese.com/a/bipartisan-lawmakers-reintroduce-bill-to-sanction-chinese-fentanyl-suppliers-20260825/8190325.html",
+        "published_at": "2026-08-25T20:55:19+00:00",
+        "collected_at": "2026-08-26T01:19:05.896326+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "voa"
+      }
+    ],
+    "title_original": "两党议员重新提出《中共芬太尼制裁法案》拟扩大对中国化学品供应商的制裁",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "两党议员重新提出《中共芬太尼制裁法案》拟扩大对中国化学品供应商的制裁",
+    "title_en": "两党议员重新提出《中共芬太尼制裁法案》拟扩大对中国化学品供应商的制裁",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "fb3cb74c8660968845ba",
+    "title": "美國祭新制裁切經濟命脈 伊朗民眾憂物價漲、加油站人潮湧現",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "制裁"
+    ],
+    "severity": "high",
+    "priority_score": 86,
+    "confidence_score": 52,
+    "importance_score": 69,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 89,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-08-26T01:19:05.896326+00:00",
+    "last_seen": "2026-08-26T01:19:05.896326+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Taiwan"
+    ],
+    "entities": [],
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-26T01:19:05.896326+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 86,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "2a18270621d4e0a4fa55",
+        "origin_type": "news",
+        "source": "中央社 CNA Taiwan",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "美國祭新制裁切經濟命脈 伊朗民眾憂物價漲、加油站人潮湧現",
+        "url": "https://www.cna.com.tw/news/aopl/202608250370.aspx",
+        "published_at": null,
+        "collected_at": "2026-08-26T01:19:05.896326+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "cna.com.tw"
+      }
+    ],
+    "title_original": "美國祭新制裁切經濟命脈 伊朗民眾憂物價漲、加油站人潮湧現",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_zh": "美國祭新制裁切經濟命脈 伊朗民眾憂物價漲、加油站人潮湧現",
+    "title_en": "美國祭新制裁切經濟命脈 伊朗民眾憂物價漲、加油站人潮湧現",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
+  },
+  {
+    "id": "ad103dea0f0b82403182",
+    "title": "美擬切斷伊朗經濟命脈 新制裁對象含中國公民與實體",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "制裁"
+    ],
+    "severity": "high",
+    "priority_score": 86,
+    "confidence_score": 52,
+    "importance_score": 69,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 89,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-08-26T01:19:05.896326+00:00",
+    "last_seen": "2026-08-26T01:19:05.896326+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Taiwan"
+    ],
+    "entities": [],
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-26T01:19:05.896326+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 86,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "20bde28e993eedadea45",
+        "origin_type": "news",
+        "source": "中央社 CNA Taiwan",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "美擬切斷伊朗經濟命脈 新制裁對象含中國公民與實體",
+        "url": "https://www.cna.com.tw/news/aopl/202608253003.aspx",
+        "published_at": null,
+        "collected_at": "2026-08-26T01:19:05.896326+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "cna.com.tw"
+      }
+    ],
+    "title_original": "美擬切斷伊朗經濟命脈 新制裁對象含中國公民與實體",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_zh": "美擬切斷伊朗經濟命脈 新制裁對象含中國公民與實體",
+    "title_en": "美擬切斷伊朗經濟命脈 新制裁對象含中國公民與實體",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
+  },
+  {
+    "id": "ba4b832fdf42b50bbf33",
+    "title": "中国常驻联合国代表傅聪25日在武装冲突与粮食安全问题安理会高级别公开辩论会上发言，呼吁推动停火止战以保障粮食生产的安全环境。",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "安全/冲突",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "high",
+    "priority_score": 83,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 60,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-08-26T01:19:05.896326+00:00",
+    "last_seen": "2026-08-26T01:19:05.896326+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-26T01:19:05.896326+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 83,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "dbe008c90391329b9c8e",
+        "origin_type": "news",
+        "source": "中国日报中文 China Daily Chinese",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "中国常驻联合国代表傅聪25日在武装冲突与粮食安全问题安理会高级别公开辩论会上发言，呼吁推动停火止战以保障粮食生产的安全环境。",
+        "url": "https://cn.chinadaily.com.cn/a/202608/26/WS6a8e22ace4b09a165c785fcc.html",
+        "published_at": null,
+        "collected_at": "2026-08-26T01:19:05.896326+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "chinadaily"
+      }
+    ],
+    "title_original": "中国常驻联合国代表傅聪25日在武装冲突与粮食安全问题安理会高级别公开辩论会上发言，呼吁推动停火止战以保障粮食生产的安全环境。",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "中国常驻联合国代表傅聪25日在武装冲突与粮食安全问题安理会高级别公开辩论会上发言，呼吁推动停火止战以保障粮食生产的安全环境。",
+    "title_en": "中国常驻联合国代表傅聪25日在武装冲突与粮食安全问题安理会高级别公开辩论会上发言，呼吁推动停火止战以保障粮食生产的安全环境。",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "73c205de7814f7e51de7",
+    "title": "台湾陆海军持续实弹射击演练 检验汉光演习后战力整备",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "军事安全",
+    "risk_category": "military_security",
+    "risk_category_en": "Military & Security",
+    "risk_categories": [
+      "military_security"
+    ],
+    "matched_risk_terms": [
+      "实弹"
+    ],
+    "severity": "medium",
+    "priority_score": 82,
+    "confidence_score": 52,
+    "importance_score": 56,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 100,
+    "freshness_score": 92,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-08-25T23:17:36+00:00",
+    "last_seen": "2026-08-25T23:17:36+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "United States"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-25T23:17:36+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 82,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "cba06ca185d971eb83cf",
+        "origin_type": "news",
+        "source": "美国之音中文 VOA Chinese",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "台湾陆海军持续实弹射击演练 检验汉光演习后战力整备",
+        "url": "https://www.voachinese.com/a/taiwan-military-reviews-annual-drill-continues-to-hold-more-live-fire-exercises-20260825/8190338.html",
+        "published_at": "2026-08-25T23:17:36+00:00",
+        "collected_at": "2026-08-26T01:19:05.896326+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "voa"
+      }
+    ],
+    "title_original": "台湾陆海军持续实弹射击演练 检验汉光演习后战力整备",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "台湾陆海军持续实弹射击演练 检验汉光演习后战力整备",
+    "title_en": "台湾陆海军持续实弹射击演练 检验汉光演习后战力整备",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "c974018847acdd1fed51",
+    "title": "Several Russian military aircraft briefly enter Korea's air defense zone: JCS",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "军事安全",
+    "risk_category": "military_security",
+    "risk_category_en": "Military & Security",
+    "risk_categories": [
+      "military_security"
+    ],
+    "matched_risk_terms": [
+      "military aircraft"
+    ],
+    "severity": "medium",
+    "priority_score": 81,
+    "confidence_score": 39,
+    "importance_score": 52,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 100,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-08-26T01:12:03+00:00",
+    "last_seen": "2026-08-26T01:12:03+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "South Korea"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-26T01:12:03+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 81,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ddd8cdd7666589ff6561",
+        "origin_type": "news",
+        "source": "The Korea Times",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Several Russian military aircraft briefly enter Korea's air defense zone: JCS",
+        "url": "https://www.koreatimes.co.kr/southkorea/defense/20260826/several-russian-military-aircraft-briefly-enter-koreas-air-defense-zone-jcs?utm_source=rss",
+        "published_at": "2026-08-26T01:12:03+00:00",
+        "collected_at": "2026-08-26T01:19:05.896326+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "koreatimes.co.kr"
+      }
+    ],
+    "title_original": "Several Russian military aircraft briefly enter Korea's air defense zone: JCS",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Several Russian military aircraft briefly enter Korea's air defense zone: JCS",
+    "title_zh": "Several Russian military aircraft briefly enter Korea's air defense zone: JCS",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "e3c76245f34c8d45045a",
+    "title": "How will Trump's economic 'D-Day' sanctions impact Iran's nuclear, ballistic missile threat?",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "军事安全",
+    "risk_category": "military_security",
+    "risk_category_en": "Military & Security",
+    "risk_categories": [
+      "military_security",
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "missile",
+      "sanctions"
+    ],
+    "severity": "critical",
+    "priority_score": 80,
+    "confidence_score": 39,
+    "importance_score": 77,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 96,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-08-26T01:19:05.896326+00:00",
+    "last_seen": "2026-08-26T01:19:05.896326+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Israel"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Israel; 中国关联利益=科技, 港口, 中东安全, 中美科技竞争, 基础设施; 中国关联实体/项目=Haifa port China-related discussions, Israeli tech investment | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-26T01:19:05.896326+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 80,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "7668e58f44ed87428cee",
+        "origin_type": "news",
+        "source": "Jerusalem Post",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "How will Trump's economic 'D-Day' sanctions impact Iran's nuclear, ballistic missile threat?",
+        "url": "https://www.jpost.com/middle-east/iran-news/article-906577",
+        "published_at": null,
+        "collected_at": "2026-08-26T01:19:05.896326+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "jpost.com"
+      }
+    ],
+    "title_original": "How will Trump's economic 'D-Day' sanctions impact Iran's nuclear, ballistic missile threat?",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Israel; 中国关联利益=科技, 港口, 中东安全, 中美科技竞争, 基础设施; 中国关联实体/项目=Haifa port China-related discussions, Israeli tech investment | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
+    "title_en": "How will Trump's economic 'D-Day' sanctions impact Iran's nuclear, ballistic missile threat?",
+    "title_zh": "How will Trump's economic 'D-Day' sanctions impact Iran's nuclear, ballistic missile threat?",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Israel; 中国关联利益=科技, 港口, 中东安全, 中美科技竞争, 基础设施; 中国关联实体/项目=Haifa port China-related discussions, Israeli tech investment | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Israel."
+  },
+  {
+    "id": "5b413c02df001bf5f1e1",
+    "title": "加拿大总理马克·卡尼此前表示，加拿大将采取“一美元对一美元”的方式回应美国关税，同时保留继续与美方谈判的可能。",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "关税"
+    ],
+    "severity": "medium",
+    "priority_score": 80,
+    "confidence_score": 39,
+    "importance_score": 52,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 89,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-08-26T01:19:05.896326+00:00",
+    "last_seen": "2026-08-26T01:19:05.896326+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-26T01:19:05.896326+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 80,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "537dd163f23ac56077a5",
+        "origin_type": "news",
+        "source": "中国日报中文 China Daily Chinese",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "加拿大总理马克·卡尼此前表示，加拿大将采取“一美元对一美元”的方式回应美国关税，同时保留继续与美方谈判的可能。",
+        "url": "https://cn.chinadaily.com.cn/a/202608/26/WS6a8dd660e4b09a165c785fc5.html",
+        "published_at": null,
+        "collected_at": "2026-08-26T01:19:05.896326+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "chinadaily"
+      }
+    ],
+    "title_original": "加拿大总理马克·卡尼此前表示，加拿大将采取“一美元对一美元”的方式回应美国关税，同时保留继续与美方谈判的可能。",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_zh": "加拿大总理马克·卡尼此前表示，加拿大将采取“一美元对一美元”的方式回应美国关税，同时保留继续与美方谈判的可能。",
+    "title_en": "加拿大总理马克·卡尼此前表示，加拿大将采取“一美元对一美元”的方式回应美国关税，同时保留继续与美方谈判的可能。",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
+  },
+  {
     "id": "b0fc0cea9d66056a9a48",
     "title": "European leaders mark Ukraine’s Independence Day European leaders yesterday joined Ukrainian President Volodymyr Zelenskiy in Kyiv for celebrations marking the 35th anniversary of Ukraine’s Independence Day as Russia pressed on with its four-year-old invasion of the country.With no significant changes on the front line for months and no apparent p",
     "language": "en",
@@ -12,14 +706,14 @@
     "risk_categories": [],
     "matched_risk_terms": [],
     "severity": "critical",
-    "priority_score": 89,
+    "priority_score": 76,
     "confidence_score": 39,
-    "importance_score": 77,
+    "importance_score": 64,
     "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
+    "novelty_score": 82,
+    "momentum_score": 12,
     "exposure_score": 60,
-    "freshness_score": 100,
+    "freshness_score": 9,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-08-25T03:30:37.071802+00:00",
@@ -35,13 +729,13 @@
     ],
     "entities": [],
     "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "其他信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
+    "why_now_zh": "其他信号；近期首次进入事件池；新颖度82 / 动量12。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; novelty 82 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
     "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
+      "new_sources": 0,
+      "new_evidence": 0,
       "severity_change": 0,
       "official_added": false
     },
@@ -54,6 +748,17 @@
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-25T03:30:37.071802+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 76,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
       }
@@ -83,6 +788,528 @@
     "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
   },
   {
+    "id": "9c7b263cebf29b9b0f49",
+    "title": "Haiti: UN chief condemns Haiti attack that killed 47",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security"
+    ],
+    "matched_risk_terms": [
+      "killed"
+    ],
+    "severity": "high",
+    "priority_score": 75,
+    "confidence_score": 52,
+    "importance_score": 69,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 95,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-08-26T01:19:05.896326+00:00",
+    "last_seen": "2026-08-26T01:19:05.896326+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Germany"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Germany; 中国关联利益=中德经贸, 汽车产业, 机械制造, 对华投资, 欧盟对华政策, 半导体, 化工; 中国关联实体/项目=Volkswagen China exposure, BASF China exposure, CATL, Huawei",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-26T01:19:05.896326+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 75,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "721f6ef174342b58a263",
+        "origin_type": "news",
+        "source": "Deutsche Welle",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Haiti: UN chief condemns Haiti attack that killed 47",
+        "url": "https://www.dw.com/en/haiti-un-chief-condemns-haiti-attack-that-killed-47/a-78502635",
+        "published_at": null,
+        "collected_at": "2026-08-26T01:19:05.896326+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "dw"
+      }
+    ],
+    "title_original": "Haiti: UN chief condemns Haiti attack that killed 47",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Germany; 中国关联利益=中德经贸, 汽车产业, 机械制造, 对华投资, 欧盟对华政策, 半导体, 化工; 中国关联实体/项目=Volkswagen China exposure, BASF China exposure, CATL, Huawei",
+    "title_en": "Haiti: UN chief condemns Haiti attack that killed 47",
+    "title_zh": "Haiti: UN chief condemns Haiti attack that killed 47",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Germany; 中国关联利益=中德经贸, 汽车产业, 机械制造, 对华投资, 欧盟对华政策, 半导体, 化工; 中国关联实体/项目=Volkswagen China exposure, BASF China exposure, CATL, Huawei",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Germany."
+  },
+  {
+    "id": "9c1431c5d94330888c0f",
+    "title": "Deadly Ukrainian Strikes in Southern Russia Force Oil Refinery to Shut Down At least two people were killed in the overnight air attacks, which targeted refineries in the Krasnodar and Rostov regions. 1 Min read",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security"
+    ],
+    "matched_risk_terms": [
+      "killed"
+    ],
+    "severity": "high",
+    "priority_score": 75,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 95,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-08-26T01:19:05.896326+00:00",
+    "last_seen": "2026-08-26T01:19:05.896326+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Russia"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-26T01:19:05.896326+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 75,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "a55d15a9380689ef33cc",
+        "origin_type": "news",
+        "source": "The Moscow Times",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Deadly Ukrainian Strikes in Southern Russia Force Oil Refinery to Shut Down At least two people were killed in the overnight air attacks, which targeted refineries in the Krasnodar and Rostov regions. 1 Min read",
+        "url": "https://www.themoscowtimes.com/2026/08/25/deadly-ukrainian-strikes-in-southern-russia-force-oil-refinery-to-shut-down-a93570",
+        "published_at": null,
+        "collected_at": "2026-08-26T01:19:05.896326+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "themoscowtimes.com"
+      }
+    ],
+    "title_original": "Deadly Ukrainian Strikes in Southern Russia Force Oil Refinery to Shut Down At least two people were killed in the overnight air attacks, which targeted refineries in the Krasnodar and Rostov regions. 1 Min read",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
+    "title_en": "Deadly Ukrainian Strikes in Southern Russia Force Oil Refinery to Shut Down At least two people were killed in the overnight air attacks, which targeted refineries in the Krasnodar and Rostov regions. 1 Min read",
+    "title_zh": "Deadly Ukrainian Strikes in Southern Russia Force Oil Refinery to Shut Down At least two people were killed in the overnight air attacks, which targeted refineries in the Krasnodar and Rostov regions. 1 Min read",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Russia; China-related interests = Sino-Russian relations, energy, Far East, cross-border trade, military cooperation, Arctic, Central Asia, personnel and labor; China-related entities/projects = Power of Siberia, Yamal LNG China exposure, China-Russia border trade"
+  },
+  {
+    "id": "9bae824b6c43f77e06ac",
+    "title": "Russia Steps Up Recruitment of Women for Ukraine War – Vot Tak At least 50 Russian women serving in the war have been killed, with the annual death toll rising the longer the war has gone on, the outlet found. 5 Min read",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security"
+    ],
+    "matched_risk_terms": [
+      "killed"
+    ],
+    "severity": "high",
+    "priority_score": 75,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 95,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-08-26T01:19:05.896326+00:00",
+    "last_seen": "2026-08-26T01:19:05.896326+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Russia"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-26T01:19:05.896326+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 75,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "38b1d2c172c1b5b00c16",
+        "origin_type": "news",
+        "source": "The Moscow Times",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Russia Steps Up Recruitment of Women for Ukraine War – Vot Tak At least 50 Russian women serving in the war have been killed, with the annual death toll rising the longer the war has gone on, the outlet found. 5 Min read",
+        "url": "https://www.themoscowtimes.com/2026/08/25/russia-steps-up-recruitment-of-women-for-ukraine-war-vot-tak-a93554",
+        "published_at": null,
+        "collected_at": "2026-08-26T01:19:05.896326+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "themoscowtimes.com"
+      }
+    ],
+    "title_original": "Russia Steps Up Recruitment of Women for Ukraine War – Vot Tak At least 50 Russian women serving in the war have been killed, with the annual death toll rising the longer the war has gone on, the outlet found. 5 Min read",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
+    "title_en": "Russia Steps Up Recruitment of Women for Ukraine War – Vot Tak At least 50 Russian women serving in the war have been killed, with the annual death toll rising the longer the war has gone on, the outlet found. 5 Min read",
+    "title_zh": "Russia Steps Up Recruitment of Women for Ukraine War – Vot Tak At least 50 Russian women serving in the war have been killed, with the annual death toll rising the longer the war has gone on, the outlet found. 5 Min read",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Russia; China-related interests = Sino-Russian relations, energy, Far East, cross-border trade, military cooperation, Arctic, Central Asia, personnel and labor; China-related entities/projects = Power of Siberia, Yamal LNG China exposure, China-Russia border trade | Event-related areas = Ukraine; China-related interests = Russia-Ukraine war, Chinese diplomacy, Grain, Black Sea shipping, dual-use technology, reconstruction; Chinese related entities/projects=Chinese trade exposure"
+  },
+  {
+    "id": "092c002c6a4b96fec974",
+    "title": "Brasilien verhängt 25-Millionen-Euro-Strafe gegen TikTok vor 3 Std.",
+    "language": "de",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "TikTok"
+    ],
+    "severity": "low",
+    "priority_score": 74,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 91,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-08-26T01:19:05.896326+00:00",
+    "last_seen": "2026-08-26T01:19:05.896326+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Germany"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-26T01:19:05.896326+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "0f6b23cb8e78d4b1d119",
+        "origin_type": "news",
+        "source": "Handelsblatt",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Brasilien verhängt 25-Millionen-Euro-Strafe gegen TikTok vor 3 Std.",
+        "url": "https://www.handelsblatt.com/technik/it-internet/datenschutz-bei-kindern-brasilien-verhaengt-25-millionen-euro-strafe-gegen-tiktok/100249665.html",
+        "published_at": null,
+        "collected_at": "2026-08-26T01:19:05.896326+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "handelsblatt.com"
+      }
+    ],
+    "title_original": "Brasilien verhängt 25-Millionen-Euro-Strafe gegen TikTok vor 3 Std.",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Brasilien verhängt 25-Millionen-Euro-Strafe gegen TikTok vor 3 Std.",
+    "title_zh": "Brasilien verhängt 25-Millionen-Euro-Strafe gegen TikTok vor 3 Std.",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "3c96d08ef1336f5af61c",
+    "title": "Brazil fines TikTok $30 million in 'powerful signal' over child safety",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "TikTok"
+    ],
+    "severity": "low",
+    "priority_score": 73,
+    "confidence_score": 39,
+    "importance_score": 39,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 91,
+    "freshness_score": 95,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-08-26T00:03:55+00:00",
+    "last_seen": "2026-08-26T00:03:55+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "United Arab Emirates"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-26T00:03:55+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "3e7c879518943b10f7fb",
+        "origin_type": "news",
+        "source": "Gulf News",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Brazil fines TikTok $30 million in 'powerful signal' over child safety",
+        "url": "https://gulfnews.com/world/americas/brazil-fines-tiktok-30-million-in-powerful-signal-over-child-safety-1.500652176",
+        "published_at": "2026-08-26T00:03:55+00:00",
+        "collected_at": "2026-08-26T01:19:05.896326+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "gulfnews.com"
+      }
+    ],
+    "title_original": "Brazil fines TikTok $30 million in 'powerful signal' over child safety",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Brazil fines TikTok $30 million in 'powerful signal' over child safety",
+    "title_zh": "Brazil fines TikTok $30 million in 'powerful signal' over child safety",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "1356eba956ff50055df3",
+    "title": "Brazil fines TikTok $30m for child data privacy violations",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "TikTok"
+    ],
+    "severity": "low",
+    "priority_score": 73,
+    "confidence_score": 52,
+    "importance_score": 42,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 91,
+    "freshness_score": 87,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-08-25T22:06:49+00:00",
+    "last_seen": "2026-08-25T22:06:49+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Qatar"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-25T22:06:49+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "2bcf4edeee36b8e5ff61",
+        "origin_type": "news",
+        "source": "Al Jazeera",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Brazil fines TikTok $30m for child data privacy violations",
+        "url": "https://www.aljazeera.com/news/2026/8/25/brazil-fines-tiktok-30m-for-child-data-privacy-violations?traffic_source=rss",
+        "published_at": "2026-08-25T22:06:49+00:00",
+        "collected_at": "2026-08-26T01:19:05.896326+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "aljazeera"
+      }
+    ],
+    "title_original": "Brazil fines TikTok $30m for child data privacy violations",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Brazil fines TikTok $30m for child data privacy violations",
+    "title_zh": "Brazil fines TikTok $30m for child data privacy violations",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
     "id": "29c7d534c87824e19dfd",
     "title": "Four Thais arrested after kidnapped Chinese woman flees car",
     "language": "en",
@@ -100,14 +1327,14 @@
       "arrested"
     ],
     "severity": "high",
-    "priority_score": 87,
+    "priority_score": 73,
     "confidence_score": 39,
-    "importance_score": 65,
+    "importance_score": 51,
     "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
+    "novelty_score": 82,
+    "momentum_score": 12,
     "exposure_score": 100,
-    "freshness_score": 100,
+    "freshness_score": 9,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-08-25T03:30:37.071802+00:00",
@@ -123,13 +1350,13 @@
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新颖度82 / 动量12。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; novelty 82 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
     "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
+      "new_sources": 0,
+      "new_evidence": 0,
       "severity_change": 0,
       "official_added": false
     },
@@ -142,6 +1369,17 @@
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-25T03:30:37.071802+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
       }
@@ -171,369 +1409,21 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "5e6214fe77f98ac425bf",
-    "title": "U.S. warns China, all other nations to cut Iran ties or face sanctions",
+    "id": "d15a6ab084842e55b1dd",
+    "title": "Taiwan’s National Security Council expands role in countering Chinese pressure",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "sanctions"
-    ],
-    "severity": "high",
-    "priority_score": 86,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 89,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-08-25T03:30:37.071802+00:00",
-    "last_seen": "2026-08-25T03:30:37.071802+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Japan"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-08-25T03:30:38.229432+00:00",
-        "last_seen": "2026-08-25T03:30:37.071802+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 86,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "3db63e048e06b5e459c0",
-        "origin_type": "news",
-        "source": "Kyodo News",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "U.S. warns China, all other nations to cut Iran ties or face sanctions",
-        "url": "https://english.kyodonews.net/articles/-/82972",
-        "published_at": null,
-        "collected_at": "2026-08-25T03:30:37.071802+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "english.kyodonews.net"
-      }
-    ],
-    "title_original": "U.S. warns China, all other nations to cut Iran ties or face sanctions",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "U.S. warns China, all other nations to cut Iran ties or face sanctions",
-    "title_zh": "U.S. warns China, all other nations to cut Iran ties or face sanctions",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "da8f46941279bf568818",
-    "title": "Iran vows to retaliate after US widens sanctions",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "sanctions"
-    ],
-    "severity": "high",
-    "priority_score": 86,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 89,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-08-25T03:30:37.071802+00:00",
-    "last_seen": "2026-08-25T03:30:37.071802+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Nepal"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-08-25T03:30:38.229432+00:00",
-        "last_seen": "2026-08-25T03:30:37.071802+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 86,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "f2ddb8de3640edc0f765",
-        "origin_type": "news",
-        "source": "The Kathmandu Post",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Iran vows to retaliate after US widens sanctions",
-        "url": "https://kathmandupost.com/world/2026/08/25/iran-vows-to-retaliate-after-us-widens-sanctions",
-        "published_at": null,
-        "collected_at": "2026-08-25T03:30:37.071802+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "kathmandupost.com"
-      }
-    ],
-    "title_original": "Iran vows to retaliate after US widens sanctions",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Iran vows to retaliate after US widens sanctions",
-    "title_zh": "Iran vows to retaliate after US widens sanctions",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "beaa310a6d5927c84839",
-    "title": "美揚言制裁伊朗貿易夥伴 專家點名中印土耳其等國",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "制裁"
-    ],
-    "severity": "high",
-    "priority_score": 86,
-    "confidence_score": 52,
-    "importance_score": 69,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 89,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-08-25T03:30:37.071802+00:00",
-    "last_seen": "2026-08-25T03:30:37.071802+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Taiwan"
-    ],
-    "entities": [],
-    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-08-25T03:30:38.229432+00:00",
-        "last_seen": "2026-08-25T03:30:37.071802+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 86,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "5f024088a57f178cc88e",
-        "origin_type": "news",
-        "source": "中央社 CNA Taiwan",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "美揚言制裁伊朗貿易夥伴 專家點名中印土耳其等國",
-        "url": "https://www.cna.com.tw/news/aopl/202608250056.aspx",
-        "published_at": null,
-        "collected_at": "2026-08-25T03:30:37.071802+00:00",
-        "relation": "direct",
-        "confidence": 88,
-        "publisher_family": "cna.com.tw"
-      }
-    ],
-    "title_original": "美揚言制裁伊朗貿易夥伴 專家點名中印土耳其等國",
-    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "title_zh": "美揚言制裁伊朗貿易夥伴 專家點名中印土耳其等國",
-    "title_en": "美揚言制裁伊朗貿易夥伴 專家點名中印土耳其等國",
-    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
-  },
-  {
-    "id": "466c06c6a120d09be734",
-    "title": "消息人士：美國財政部將擴大對伊朗次級制裁範圍",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "制裁"
-    ],
-    "severity": "high",
-    "priority_score": 86,
-    "confidence_score": 52,
-    "importance_score": 69,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 89,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-08-25T03:30:37.071802+00:00",
-    "last_seen": "2026-08-25T03:30:37.071802+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Taiwan"
-    ],
-    "entities": [],
-    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-08-25T03:30:38.229432+00:00",
-        "last_seen": "2026-08-25T03:30:37.071802+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 86,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "07f2ab393e8d57ea6cfd",
-        "origin_type": "news",
-        "source": "中央社 CNA Taiwan",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "消息人士：美國財政部將擴大對伊朗次級制裁範圍",
-        "url": "https://www.cna.com.tw/news/aopl/202608240335.aspx",
-        "published_at": null,
-        "collected_at": "2026-08-25T03:30:37.071802+00:00",
-        "relation": "direct",
-        "confidence": 88,
-        "publisher_family": "cna.com.tw"
-      }
-    ],
-    "title_original": "消息人士：美國財政部將擴大對伊朗次級制裁範圍",
-    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "title_zh": "消息人士：美國財政部將擴大對伊朗次級制裁範圍",
-    "title_en": "消息人士：美國財政部將擴大對伊朗次級制裁範圍",
-    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
-  },
-  {
-    "id": "61707495b2a2d34fa982",
-    "title": "Gang attack in Haiti leaves at least 47 dead as anger mounts over police failures",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "安全/冲突",
+    "category": "台海/印太",
     "risk_category": "other",
     "risk_category_en": "",
     "risk_categories": [],
     "matched_risk_terms": [],
-    "severity": "high",
-    "priority_score": 84,
-    "confidence_score": 52,
-    "importance_score": 69,
+    "severity": "low",
+    "priority_score": 72,
+    "confidence_score": 39,
+    "importance_score": 40,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 65,
@@ -541,8 +1431,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-08-25T03:27:02+00:00",
-    "last_seen": "2026-08-25T03:27:02+00:00",
+    "first_seen": "2026-08-26T01:19:05.896326+00:00",
+    "last_seen": "2026-08-26T01:19:05.896326+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -550,11 +1440,11 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Hong Kong"
+      "Taiwan"
     ],
     "entities": [],
-    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "台海/印太信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
     "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
     "previous_event_matched": false,
     "previous_match_score": 0,
@@ -566,268 +1456,10 @@
     },
     "history": [
       {
-        "observed_at": "2026-08-25T03:30:38.229432+00:00",
-        "last_seen": "2026-08-25T03:27:02+00:00",
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-26T01:19:05.896326+00:00",
         "lifecycle": "emerging",
-        "priority_score": 84,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "b9fb0771767dd0a4418f",
-        "origin_type": "news",
-        "source": "South China Morning Post (SCMP)",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Gang attack in Haiti leaves at least 47 dead as anger mounts over police failures",
-        "url": "https://www.scmp.com/news/world/americas/article/3365138/gang-attack-haiti-leaves-least-47-dead-anger-mounts-over-police-failures?utm_source=rss_feed",
-        "published_at": "2026-08-25T03:27:02+00:00",
-        "collected_at": "2026-08-25T03:30:37.071802+00:00",
-        "relation": "direct",
-        "confidence": 88,
-        "publisher_family": "scmp"
-      }
-    ],
-    "title_original": "Gang attack in Haiti leaves at least 47 dead as anger mounts over police failures",
-    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "title_en": "Gang attack in Haiti leaves at least 47 dead as anger mounts over police failures",
-    "title_zh": "Gang attack in Haiti leaves at least 47 dead as anger mounts over police failures",
-    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
-  },
-  {
-    "id": "1860e1301e6e85e6abc5",
-    "title": "特朗普一再压缩美韩军演 他的亚太盟友怎么想？",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "军事安全",
-    "risk_category": "military_security",
-    "risk_category_en": "Military & Security",
-    "risk_categories": [
-      "military_security"
-    ],
-    "matched_risk_terms": [
-      "军演"
-    ],
-    "severity": "high",
-    "priority_score": 84,
-    "confidence_score": 52,
-    "importance_score": 59,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 100,
-    "freshness_score": 33,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-08-24T11:29:00+00:00",
-    "last_seen": "2026-08-24T11:29:00+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Germany"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-08-25T03:30:38.229432+00:00",
-        "last_seen": "2026-08-24T11:29:00+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 84,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "420cb31293eedc53385f",
-        "origin_type": "news",
-        "source": "德国之声中文 DW Chinese",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "特朗普一再压缩美韩军演 他的亚太盟友怎么想？",
-        "url": "https://www.dw.com/zh/特朗普一再压缩美韩军演-他的亚太盟友怎么想？/a-78484674?maca=chi-rss-chi-all-1127-rdf",
-        "published_at": "2026-08-24T11:29:00+00:00",
-        "collected_at": "2026-08-25T03:30:37.071802+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "dw"
-      }
-    ],
-    "title_original": "特朗普一再压缩美韩军演 他的亚太盟友怎么想？",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "特朗普一再压缩美韩军演 他的亚太盟友怎么想？",
-    "title_en": "特朗普一再压缩美韩军演 他的亚太盟友怎么想？",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "1bd3f08db4e556636b6a",
-    "title": "Heavy rains cause floods, landslides, mass evacuations Heavy rain brought by a low-pressure system and strong southwesterly winds triggered widespread flooding, landslides and damage across central, southern and eastern Taiwan yesterday, disrupting travel and prompting mass evacuations.As of 6pm yesterday, torrential rains had left one person dead in Ta",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "台海/印太",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "high",
-    "priority_score": 83,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 60,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-08-25T03:30:37.071802+00:00",
-    "last_seen": "2026-08-25T03:30:37.071802+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Taiwan"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "台海/印太信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-08-25T03:30:38.229432+00:00",
-        "last_seen": "2026-08-25T03:30:37.071802+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 83,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "41d0ff30f486130a15ae",
-        "origin_type": "news",
-        "source": "Taipei Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Heavy rains cause floods, landslides, mass evacuations Heavy rain brought by a low-pressure system and strong southwesterly winds triggered widespread flooding, landslides and damage across central, southern and eastern Taiwan yesterday, disrupting travel and prompting mass evacuations.As of 6pm yesterday, torrential rains had left one person dead in Ta",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/08/25/2003863079",
-        "published_at": null,
-        "collected_at": "2026-08-25T03:30:37.071802+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "taipeitimes.com"
-      }
-    ],
-    "title_original": "Heavy rains cause floods, landslides, mass evacuations Heavy rain brought by a low-pressure system and strong southwesterly winds triggered widespread flooding, landslides and damage across central, southern and eastern Taiwan yesterday, disrupting travel and prompting mass evacuations.As of 6pm yesterday, torrential rains had left one person dead in Ta",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Heavy rains cause floods, landslides, mass evacuations Heavy rain brought by a low-pressure system and strong southwesterly winds triggered widespread flooding, landslides and damage across central, southern and eastern Taiwan yesterday, disrupting travel and prompting mass evacuations.As of 6pm yesterday, torrential rains had left one person dead in Ta",
-    "title_zh": "Heavy rains cause floods, landslides, mass evacuations Heavy rain brought by a low-pressure system and strong southwesterly winds triggered widespread flooding, landslides and damage across central, southern and eastern Taiwan yesterday, disrupting travel and prompting mass evacuations.As of 6pm yesterday, torrential rains had left one person dead in Ta",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "cb0379b62b1a6b40e19e",
-    "title": "Democratic senators demand review of conditions on the USS Abraham Lincoln, other US warships participating in Iran blockade",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "军事安全",
-    "risk_category": "military_security",
-    "risk_category_en": "Military & Security",
-    "risk_categories": [
-      "military_security",
-      "labor_social"
-    ],
-    "matched_risk_terms": [
-      "blockade"
-    ],
-    "severity": "critical",
-    "priority_score": 82,
-    "confidence_score": 39,
-    "importance_score": 77,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 96,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-08-25T03:30:37.071802+00:00",
-    "last_seen": "2026-08-25T03:30:37.071802+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United States"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
-    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-08-25T03:30:38.229432+00:00",
-        "last_seen": "2026-08-25T03:30:37.071802+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 82,
+        "priority_score": 72,
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 65,
@@ -837,464 +1469,32 @@
     ],
     "evidence": [
       {
-        "id": "8370713a8f9560980d32",
+        "id": "a5264e3aa06ff6aea2ac",
         "origin_type": "news",
-        "source": "CNN",
+        "source": "Taiwan News",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Democratic senators demand review of conditions on the USS Abraham Lincoln, other US warships participating in Iran blockade",
-        "url": "https://edition.cnn.com/2026/08/24/politics/senators-review-conditions-uss-abraham-lincoln-warships-iran",
+        "title": "Taiwan’s National Security Council expands role in countering Chinese pressure",
+        "url": "https://www.taiwannews.com.tw/en/news/6426505",
         "published_at": null,
-        "collected_at": "2026-08-25T03:30:37.071802+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "edition.cnn.com"
-      }
-    ],
-    "title_original": "Democratic senators demand review of conditions on the USS Abraham Lincoln, other US warships participating in Iran blockade",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
-    "title_en": "Democratic senators demand review of conditions on the USS Abraham Lincoln, other US warships participating in Iran blockade",
-    "title_zh": "Democratic senators demand review of conditions on the USS Abraham Lincoln, other US warships participating in Iran blockade",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related region = United States; China-related interests = Sino-US relations, trade and tariffs, technology and export controls, semiconductors, artificial intelligence, financial sanctions, military and Indo-Pacific, Taiwan Strait; China-related entities/projects = Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | Event-related regions=Iran; China-related interests=energy, sanctions, nuclear issues, Middle East security, China-Iran cooperation; China-related entities/projects=China-Iran energy trade"
-  },
-  {
-    "id": "9b18b7ddc35fd31c55a4",
-    "title": "美海军证实一架军机飞越台湾海峡，并表示此举展示美国对印太自由开放的承诺",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "军事安全",
-    "risk_category": "military_security",
-    "risk_category_en": "Military & Security",
-    "risk_categories": [
-      "military_security"
-    ],
-    "matched_risk_terms": [
-      "军机"
-    ],
-    "severity": "medium",
-    "priority_score": 81,
-    "confidence_score": 52,
-    "importance_score": 56,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 100,
-    "freshness_score": 96,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-08-25T02:28:16+00:00",
-    "last_seen": "2026-08-25T02:28:16+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United States"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-08-25T03:30:38.229432+00:00",
-        "last_seen": "2026-08-25T02:28:16+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 81,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "860944e745da384b0990",
-        "origin_type": "news",
-        "source": "美国之音中文 VOA Chinese",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "美海军证实一架军机飞越台湾海峡，并表示此举展示美国对印太自由开放的承诺",
-        "url": "https://www.voachinese.com/a/us-navy-confirmed-that-aircraft-transited-taiwan-strait-20260824/8190154.html",
-        "published_at": "2026-08-25T02:28:16+00:00",
-        "collected_at": "2026-08-25T03:30:37.071802+00:00",
+        "collected_at": "2026-08-26T01:19:05.896326+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "voa"
+        "publisher_family": "taiwannews.com.tw"
       }
     ],
-    "title_original": "美海军证实一架军机飞越台湾海峡，并表示此举展示美国对印太自由开放的承诺",
+    "title_original": "Taiwan’s National Security Council expands role in countering Chinese pressure",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "美海军证实一架军机飞越台湾海峡，并表示此举展示美国对印太自由开放的承诺",
-    "title_en": "美海军证实一架军机飞越台湾海峡，并表示此举展示美国对印太自由开放的承诺",
+    "title_en": "Taiwan’s National Security Council expands role in countering Chinese pressure",
+    "title_zh": "Taiwan’s National Security Council expands role in countering Chinese pressure",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "237894c29fb9c3280819",
-    "title": "Nine indicted over AI server exports CHINA-BOUND: The nine — including one Nvidia and two Super Micro employees — colluded to ‘illegally export’ servers equipped with advanced chips despite US curbs Nine people, including employees of Nvidia and Super Micro, have been indicted over illegal exports of artificial intelligence (AI) servers to China, the Keelung",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls"
-    ],
-    "matched_risk_terms": [
-      "semiconductor",
-      "artificial intelligence"
-    ],
-    "severity": "medium",
-    "priority_score": 80,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-08-25T03:30:37.071802+00:00",
-    "last_seen": "2026-08-25T03:30:37.071802+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Taiwan"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-08-25T03:30:38.229432+00:00",
-        "last_seen": "2026-08-25T03:30:37.071802+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 80,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "2fdb8df201c7953a5f5b",
-        "origin_type": "news",
-        "source": "Taipei Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Nine indicted over AI server exports CHINA-BOUND: The nine — including one Nvidia and two Super Micro employees — colluded to ‘illegally export’ servers equipped with advanced chips despite US curbs Nine people, including employees of Nvidia and Super Micro, have been indicted over illegal exports of artificial intelligence (AI) servers to China, the Keelung District Prosecutors’ Office said yesterday.Semiconductor powerhouse Taiwan is the world’s largest producer of advanced chips used in AI a",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/08/25/2003863077",
-        "published_at": null,
-        "collected_at": "2026-08-25T03:30:37.071802+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "taipeitimes.com"
-      }
-    ],
-    "title_original": "Nine indicted over AI server exports CHINA-BOUND: The nine — including one Nvidia and two Super Micro employees — colluded to ‘illegally export’ servers equipped with advanced chips despite US curbs Nine people, including employees of Nvidia and Super Micro, have been indicted over illegal exports of artificial intelligence (AI) servers to China, the Keelung",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Nine indicted over AI server exports CHINA-BOUND: The nine — including one Nvidia and two Super Micro employees — colluded to ‘illegally export’ servers equipped with advanced chips despite US curbs Nine people, including employees of Nvidia and Super Micro, have been indicted over illegal exports of artificial intelligence (AI) servers to China, the Keelung",
-    "title_zh": "Nine indicted over AI server exports CHINA-BOUND: The nine — including one Nvidia and two Super Micro employees — colluded to ‘illegally export’ servers equipped with advanced chips despite US curbs Nine people, including employees of Nvidia and Super Micro, have been indicted over illegal exports of artificial intelligence (AI) servers to China, the Keelung",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "af68291d6cda7f7e9f81",
-    "title": "Five labourers killed as gunmen attack road construction site in Balochistan's Pishin",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security"
-    ],
-    "matched_risk_terms": [
-      "killed"
-    ],
-    "severity": "high",
-    "priority_score": 75,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 95,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-08-25T03:30:37.071802+00:00",
-    "last_seen": "2026-08-25T03:30:37.071802+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Pakistan"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Pakistan; 中国关联利益=中巴经济走廊, 瓜达尔港, 中国公民安全, 电力, 基础设施, 反恐, 印巴关系; 中国关联实体/项目=CPEC, Gwadar Port, Chinese power projects",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-08-25T03:30:38.229432+00:00",
-        "last_seen": "2026-08-25T03:30:37.071802+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 75,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "1a4e9fe5c8964452b469",
-        "origin_type": "news",
-        "source": "The Express Tribune",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Five labourers killed as gunmen attack road construction site in Balochistan's Pishin",
-        "url": "https://tribune.com.pk/story/2625613/five-labourers-killed-as-gunmen-attack-road-construction-site-in-pishin",
-        "published_at": null,
-        "collected_at": "2026-08-25T03:30:37.071802+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "tribune.com.pk"
-      }
-    ],
-    "title_original": "Five labourers killed as gunmen attack road construction site in Balochistan's Pishin",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Pakistan; 中国关联利益=中巴经济走廊, 瓜达尔港, 中国公民安全, 电力, 基础设施, 反恐, 印巴关系; 中国关联实体/项目=CPEC, Gwadar Port, Chinese power projects",
-    "title_en": "Five labourers killed as gunmen attack road construction site in Balochistan's Pishin",
-    "title_zh": "Five labourers killed as gunmen attack road construction site in Balochistan's Pishin",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Pakistan; 中国关联利益=中巴经济走廊, 瓜达尔港, 中国公民安全, 电力, 基础设施, 反恐, 印巴关系; 中国关联实体/项目=CPEC, Gwadar Port, Chinese power projects",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Pakistan."
-  },
-  {
-    "id": "e8072d3d4f31bf9420e4",
-    "title": "非洲:乍得指控苏丹军队一再入侵",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "安全/冲突",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "critical",
-    "priority_score": 75,
-    "confidence_score": 52,
-    "importance_score": 79,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 55,
-    "freshness_score": 82,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-08-24T23:15:42+00:00",
-    "last_seen": "2026-08-24T23:15:42+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "France"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
-    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-08-25T03:30:38.229432+00:00",
-        "last_seen": "2026-08-24T23:15:42+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 75,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "371a4680f3c1b2f166bd",
-        "origin_type": "news",
-        "source": "法国国际广播中文 RFI Chinese",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "非洲:乍得指控苏丹军队一再入侵",
-        "url": "https://www.rfi.fr/cn/%E9%9D%9E%E6%B4%B2/20260824-rfi%E6%B3%95%E5%B9%BF-%E4%B8%AD%E6%96%87-%E5%B0%BC%E5%8F%A4%E6%8B%89-%E9%9D%9E%E6%B4%B2-%E4%B9%8D%E5%BE%97%E6%8C%87%E6%8E%A7%E8%8B%8F%E4%B8%B9%E5%86%9B%E9%98%9F%E4%B8%80%E5%86%8D%E5%85%A5%E4%BE%B5",
-        "published_at": "2026-08-24T23:15:42+00:00",
-        "collected_at": "2026-08-25T03:30:37.071802+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "rfi"
-      }
-    ],
-    "title_original": "非洲:乍得指控苏丹军队一再入侵",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
-    "title_zh": "非洲:乍得指控苏丹军队一再入侵",
-    "title_en": "非洲:乍得指控苏丹军队一再入侵",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related region = France; China-related interests = Sino-French relations, aerospace, nuclear energy, agricultural products, EU China policy, luxury goods, electric vehicles; China-related entities/projects = Airbus China exposure, EDF cooperation, CMA CGM China exposure"
-  },
-  {
-    "id": "7baceff3306cacc3a775",
-    "title": "Meet Howard Lutnick: Is this the man who killed the trade talks?",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security"
-    ],
-    "matched_risk_terms": [
-      "killed"
-    ],
-    "severity": "high",
-    "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 61,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 95,
-    "freshness_score": 75,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-08-24T21:26:09+00:00",
-    "last_seen": "2026-08-24T21:26:09+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Canada"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-08-25T03:30:38.229432+00:00",
-        "last_seen": "2026-08-24T21:26:09+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "74c0821ccef4bc6acc7a",
-        "origin_type": "news",
-        "source": "National Post",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Meet Howard Lutnick: Is this the man who killed the trade talks?",
-        "url": "https://nationalpost.com/news/canada/meet-howard-lutnick-is-this-the-man-who-killed-trade-talks",
-        "published_at": "2026-08-24T21:26:09+00:00",
-        "collected_at": "2026-08-25T03:30:37.071802+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "nationalpost.com"
-      }
-    ],
-    "title_original": "Meet Howard Lutnick: Is this the man who killed the trade talks?",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei",
-    "title_en": "Meet Howard Lutnick: Is this the man who killed the trade talks?",
-    "title_zh": "Meet Howard Lutnick: Is this the man who killed the trade talks?",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related region = Canada; China-related interests = China-Canada relations, critical minerals, investment review, technology, Arctic, agricultural products; China-related entities/projects = Chinese mining investment reviews, Huawei"
-  },
-  {
-    "id": "e47d53251a43d6918b0e",
-    "title": "'Just plain insulting': Sellers on Shopee and TikTok call out auto-generated AI ads that mislead customers",
-    "language": "en",
+    "id": "9fcc867a32a2114ef2c6",
+    "title": "TikTok, Facebook, X… D’Abidjan à Washington, une armée de cyberactivistes pro-Tidjane Thiam",
+    "language": "fr",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
@@ -1308,18 +1508,18 @@
       "TikTok"
     ],
     "severity": "low",
-    "priority_score": 74,
+    "priority_score": 72,
     "confidence_score": 39,
-    "importance_score": 40,
+    "importance_score": 35,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
     "exposure_score": 91,
-    "freshness_score": 100,
+    "freshness_score": 69,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-08-25T03:30:37.071802+00:00",
-    "last_seen": "2026-08-25T03:30:37.071802+00:00",
+    "first_seen": "2026-08-25T17:55:51+00:00",
+    "last_seen": "2026-08-25T17:55:51+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1327,7 +1527,7 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Singapore"
+      "Africa"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -1343,10 +1543,10 @@
     },
     "history": [
       {
-        "observed_at": "2026-08-25T03:30:38.229432+00:00",
-        "last_seen": "2026-08-25T03:30:37.071802+00:00",
+        "observed_at": "2026-08-26T01:19:07.019957+00:00",
+        "last_seen": "2026-08-25T17:55:51+00:00",
         "lifecycle": "emerging",
-        "priority_score": 74,
+        "priority_score": 72,
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
@@ -1356,200 +1556,26 @@
     ],
     "evidence": [
       {
-        "id": "030c1b4ac95dd73e1d1b",
+        "id": "5fefe8a4ab62cb883d57",
         "origin_type": "news",
-        "source": "Channel NewsAsia",
+        "source": "Jeune Afrique",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "'Just plain insulting': Sellers on Shopee and TikTok call out auto-generated AI ads that mislead customers",
-        "url": "https://www.channelnewsasia.com/singapore/ai-generated-videos-shopee-tiktok-misleading-sellers-6336961",
-        "published_at": null,
-        "collected_at": "2026-08-25T03:30:37.071802+00:00",
+        "title": "TikTok, Facebook, X… D’Abidjan à Washington, une armée de cyberactivistes pro-Tidjane Thiam",
+        "url": "https://www.jeuneafrique.com/1837202/politique/tiktok-facebook-x-dabidjan-a-washington-une-armee-de-cyberactivistes-pro-tidjane-thiam/",
+        "published_at": "2026-08-25T17:55:51+00:00",
+        "collected_at": "2026-08-26T01:19:05.896326+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "channelnewsasia.com"
+        "publisher_family": "jeuneafrique.com"
       }
     ],
-    "title_original": "'Just plain insulting': Sellers on Shopee and TikTok call out auto-generated AI ads that mislead customers",
+    "title_original": "TikTok, Facebook, X… D’Abidjan à Washington, une armée de cyberactivistes pro-Tidjane Thiam",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "'Just plain insulting': Sellers on Shopee and TikTok call out auto-generated AI ads that mislead customers",
-    "title_zh": "'Just plain insulting': Sellers on Shopee and TikTok call out auto-generated AI ads that mislead customers",
+    "title_en": "TikTok, Facebook, X… D’Abidjan à Washington, une armée de cyberactivistes pro-Tidjane Thiam",
+    "title_zh": "TikTok, Facebook, X… D’Abidjan à Washington, une armée de cyberactivistes pro-Tidjane Thiam",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "21f96ed79e4d52e9d8cb",
-    "title": "中国使馆：在泰遭绑架中国女子已获妥善安置",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security"
-    ],
-    "matched_risk_terms": [
-      "绑架"
-    ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 52,
-    "importance_score": 44,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 100,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-08-25T03:30:37.071802+00:00",
-    "last_seen": "2026-08-25T03:30:37.071802+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Singapore"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-08-25T03:30:38.229432+00:00",
-        "last_seen": "2026-08-25T03:30:37.071802+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "c9e9dae14bea2db8b1dc",
-        "origin_type": "news",
-        "source": "联合早报 Lianhe Zaobao · 中国",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "中国使馆：在泰遭绑架中国女子已获妥善安置",
-        "url": "https://www.zaobao.com.sg/news/china/story20260825-9570405",
-        "published_at": null,
-        "collected_at": "2026-08-25T03:30:37.071802+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "zaobao"
-      }
-    ],
-    "title_original": "中国使馆：在泰遭绑架中国女子已获妥善安置",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "中国使馆：在泰遭绑架中国女子已获妥善安置",
-    "title_en": "中国使馆：在泰遭绑架中国女子已获妥善安置",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "b17967cf593929e6478e",
-    "title": "文章表示，当前人工智能的快速应用并没有真正以人类福祉为导向。“快速行动，打破常规”之类的口号背后是一种技术决定论，贬低了人类的能动性和自主判断。",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls"
-    ],
-    "matched_risk_terms": [
-      "人工智能"
-    ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-08-25T03:30:37.071802+00:00",
-    "last_seen": "2026-08-25T03:30:37.071802+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "China"
-    ],
-    "entities": [],
-    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-08-25T03:30:38.229432+00:00",
-        "last_seen": "2026-08-25T03:30:37.071802+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "dd533a930f2d828db0a8",
-        "origin_type": "news",
-        "source": "中国日报中文 China Daily Chinese",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "文章表示，当前人工智能的快速应用并没有真正以人类福祉为导向。“快速行动，打破常规”之类的口号背后是一种技术决定论，贬低了人类的能动性和自主判断。",
-        "url": "https://cn.chinadaily.com.cn/a/202608/24/WS6a8c456445ce1aabf7a938a4.html",
-        "published_at": null,
-        "collected_at": "2026-08-25T03:30:37.071802+00:00",
-        "relation": "direct",
-        "confidence": 88,
-        "publisher_family": "chinadaily"
-      }
-    ],
-    "title_original": "文章表示，当前人工智能的快速应用并没有真正以人类福祉为导向。“快速行动，打破常规”之类的口号背后是一种技术决定论，贬低了人类的能动性和自主判断。",
-    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "title_zh": "文章表示，当前人工智能的快速应用并没有真正以人类福祉为导向。“快速行动，打破常规”之类的口号背后是一种技术决定论，贬低了人类的能动性和自主判断。",
-    "title_en": "文章表示，当前人工智能的快速应用并没有真正以人类福祉为导向。“快速行动，打破常规”之类的口号背后是一种技术决定论，贬低了人类的能动性和自主判断。",
-    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
   }
 ]
