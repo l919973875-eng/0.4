@@ -2,29 +2,29 @@
   "version": "0.5.0",
   "mode": "all",
   "manual_query": "",
-  "started_at": "2026-08-26T01:15:52.273989+00:00",
-  "finished_at": "2026-08-26T01:37:24.388852+00:00",
+  "started_at": "2026-08-26T03:38:44.948857+00:00",
+  "finished_at": "2026-08-26T03:59:23.018420+00:00",
   "sources_scanned": 344,
-  "items_seen": 1105,
-  "items_new": 1033,
-  "items_relevant": 267,
+  "items_seen": 1205,
+  "items_new": 974,
+  "items_relevant": 132,
   "signals_seen": 182,
   "signals_relevant": 48,
   "social_review_total": 91,
   "social_review_accepted": 31,
-  "stored_articles": 3072,
+  "stored_articles": 3188,
   "stored_signals": 14,
-  "events": 2099,
+  "events": 2064,
   "latest_events": 18,
-  "errors": 77,
+  "errors": 78,
   "error_samples": [
-    {
-      "source": "The Economist",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.economist.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
     {
       "source": "POLITICO",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.politico.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "The Economist",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.economist.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "Financial Times",
@@ -71,12 +71,12 @@
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://hungarytoday.hu/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "Slovak Spectator",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://spectator.sme.sk/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
       "source": "Denník N",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://dennikn.sk/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "Slovak Spectator",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://spectator.sme.sk/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "Novinite",
@@ -103,12 +103,12 @@
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://news.am/eng/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "Business Standard India",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.business-standard.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
       "source": "The Indian Express",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://indianexpress.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "Business Standard India",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.business-standard.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "NDTV",
@@ -174,8 +174,8 @@
     "title_limit": 300,
     "reason_limit": 80,
     "translated": 0,
-    "cache_hits": 102,
-    "failed": 278,
+    "cache_hits": 113,
+    "failed": 267,
     "provider": "deterministic fallback"
   },
   "retention_days": 45,
