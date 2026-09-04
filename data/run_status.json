@@ -2,22 +2,26 @@
   "version": "0.5.0",
   "mode": "all",
   "manual_query": "",
-  "started_at": "2026-09-03T03:26:39.448462+00:00",
-  "finished_at": "2026-09-03T03:48:59.315204+00:00",
+  "started_at": "2026-09-04T00:33:51.846861+00:00",
+  "finished_at": "2026-09-04T00:57:39.279418+00:00",
   "sources_scanned": 344,
-  "items_seen": 1310,
-  "items_new": 1078,
-  "items_relevant": 145,
+  "items_seen": 1115,
+  "items_new": 1038,
+  "items_relevant": 273,
   "signals_seen": 182,
   "signals_relevant": 62,
   "social_review_total": 91,
   "social_review_accepted": 31,
-  "stored_articles": 5902,
+  "stored_articles": 6157,
   "stored_signals": 0,
-  "events": 2490,
+  "events": 2390,
   "latest_events": 18,
-  "errors": 75,
+  "errors": 76,
   "error_samples": [
+    {
+      "source": "The Economist",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.economist.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
     {
       "source": "Financial Times",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ft.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
@@ -25,10 +29,6 @@
     {
       "source": "POLITICO",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.politico.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "The Economist",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.economist.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "Bloomberg",
@@ -71,28 +71,24 @@
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://spectator.sme.sk/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "Denník N",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://dennikn.sk/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "source": "Novinite",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.novinite.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "STA",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://english.sta.si/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "Novinite",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.novinite.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
       "source": "Ekathimerini",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ekathimerini.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "HINA",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.hina.hr/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
       "source": "RBC",
       "error": "HTTPStatusError: Client error '401 Unauthorized' for url 'https://www.rbc.ru/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+    },
+    {
+      "source": "HINA",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.hina.hr/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "Izvestia",
@@ -101,6 +97,10 @@
     {
       "source": "News.am",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://news.am/eng/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "Denník N",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://dennikn.sk/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "The Indian Express",
@@ -173,10 +173,10 @@
     "enabled": true,
     "title_limit": 300,
     "reason_limit": 80,
-    "translated": 257,
-    "cache_hits": 123,
-    "failed": 0,
-    "provider": "free-fallback"
+    "translated": 0,
+    "cache_hits": 182,
+    "failed": 198,
+    "provider": "deterministic fallback"
   },
   "retention_days": 45,
   "signal_retention_days": 14,
