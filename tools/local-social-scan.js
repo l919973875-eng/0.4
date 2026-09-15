@@ -9,6 +9,7 @@ const configPath = join(root, "config", "manual_social_queries.json");
 const cdpUrl = process.env.LOCAL_SOCIAL_CDP_URL || "http://127.0.0.1:9222";
 const perQuery = Math.max(1, Math.min(8, Number(process.env.LOCAL_SOCIAL_MAX_PER_QUERY || 5)));
 const pauseMs = Math.max(3000, Number(process.env.LOCAL_SOCIAL_PAUSE_MS || 5000));
+const selectedPlatforms = new Set(String(process.env.LOCAL_SOCIAL_PLATFORMS || "").split(",").map(value => value.trim().toLowerCase()).filter(Boolean));
 
 const clean = (value, limit = 1600) => String(value || "").replace(/\s+/g, " ").trim().slice(0, limit);
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -108,7 +109,7 @@ async function run() {
   const slot = String(process.argv[2] || (new Date().getHours() < 12 ? "morning" : "afternoon")).toLowerCase();
   if (!["morning", "afternoon"].includes(slot)) throw new Error("仅支持 morning 或 afternoon");
   const items = [], status = [];
-  for (const [platform, queries] of Object.entries(plan[slot] || {})) {
+  for (const [platform, queries] of Object.entries(plan[slot] || {}).filter(([platform]) => selectedPlatforms.size === 0 || selectedPlatforms.has(platform))) {
     let count = 0; const errors = []; let tab;
     try {
       tab = await createTab();
@@ -143,7 +144,12 @@ async function run() {
   const target = join(dataDir, "signals_external.json");
   const old = existsSync(target) ? JSON.parse(readFileSync(target, "utf8")) : [];
   const merged = new Map();
-  for (const row of (Array.isArray(old) ? old : [])) if (row.collector !== "local_chrome_public_dom" && row.collector !== "wechat_public_index_manual") merged.set(row.id, row);
+  for (const row of (Array.isArray(old) ? old : [])) {
+    const isLocalSocial = row.collector === "local_chrome_public_dom" || row.collector === "wechat_public_index_manual";
+    const replaceThisPlatform = selectedPlatforms.size === 0 || selectedPlatforms.has(String(row.platform || "").toLowerCase());
+    if (isLocalSocial && replaceThisPlatform) continue;
+    merged.set(row.id, row);
+  }
   for (const row of items) merged.set(row.id, row);
   writeFileSync(target, JSON.stringify([...merged.values()], null, 2), "utf8");
   writeFileSync(join(dataDir, "manual_social_status.json"), JSON.stringify({ slot, finished_at: now(), status }, null, 2), "utf8");
