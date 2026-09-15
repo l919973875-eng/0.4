@@ -204,10 +204,14 @@ def social_relevance_decision(item: RawItem, interests: dict, raw: dict | None =
     accepted = False
     relation = 'unrelated'
     reason = '仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件'
-    if domestic and events:
+    if domestic and (events or pressure):
         accepted = score >= 55
         relation = 'direct' if accepted else 'unrelated'
-        reason = '命中境内/涉渝专题对象与异常事件信号，作为待核社会化线索入池'
+        reason = (
+            '命中境内/涉渝专题对象与异常事件信号，作为待核社会化线索入池'
+            if events
+            else '命中境内/涉渝专题与公开经营或服务压力表达，仅按结构性风险待核观察'
+        )
     elif entities and events:
         accepted = score >= 55
         relation = 'indirect' if accepted else 'unrelated'
@@ -221,7 +225,10 @@ def social_relevance_decision(item: RawItem, interests: dict, raw: dict | None =
         relation = 'potential'
         reason = f'重大事件发生在中国利益暴露区域，并涉及战略资产/供应链；{ctx}'
 
-    classification_conf = 72 if accepted and (anchors or entities or domestic) and events else (55 if accepted else 70)
+    classification_conf = (
+        72 if accepted and (anchors or entities or domestic) and events
+        else (50 if accepted and domestic and pressure else (55 if accepted else 70))
+    )
     decision = Decision(relation, reason, entities, classification_conf, 'social-rules-v2')
     audit = {
         'accepted': accepted,
@@ -230,6 +237,8 @@ def social_relevance_decision(item: RawItem, interests: dict, raw: dict | None =
         'matched_events': events[:12],
         'matched_strategic': strategic[:12],
         'matched_domestic': domestic[:12],
+        'matched_pressure': pressure[:12],
+        'signal_state': '待核线索' if events else ('结构性风险' if pressure else '无效'),
         'noise_terms': noise[:12],
         'profiles': profiles[:8],
         'entities': entities[:12],
