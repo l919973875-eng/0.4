@@ -20,9 +20,11 @@ on:
         default: false
         type: boolean
   schedule:
-    # 每天北京时间 08:17 自动运行一次；错开整点，减少 GitHub Actions 排队。
-    - cron: '17 8 * * *'
-      timezone: 'Asia/Shanghai'
+    # GitHub Actions cron 使用 UTC：以下分别为北京时间 08:17、12:17、15:17。
+    # 三轮分工：夜间回溯 / 午间社交与交叉核验 / 下午扩散与澄清追踪。
+    - cron: '17 0 * * *'
+    - cron: '17 4 * * *'
+    - cron: '17 7 * * *'
   push:
     branches: [main]
     paths:
