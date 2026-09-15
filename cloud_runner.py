@@ -139,6 +139,11 @@ SOCIAL_DOMESTIC_ANCHORS = [
     '油价','化工','有色','动力电池','航运','供应链',
 ]
 
+SOCIAL_DOMESTIC_PRESSURE_TERMS = [
+    "运价不足", "运价下跌", "成本上升", "柴油成本", "油价上涨", "订单减少",
+    "裁员", "降薪", "复工受阻", "招聘异常", "供水异常", "物流受阻",
+]
+
 SOCIAL_NOISE_TERMS = [
     '测评','开箱','价格','优惠','降价','买车','提车','车评','手机评测','手机测评','好用吗','种草','穿搭','美妆','护肤','美食','餐厅','旅游攻略','旅行攻略','留学申请','留学生活','求职','招聘','面试','教程','摄影','壁纸','追星','演唱会','电视剧','电影推荐','游戏','抽奖','购物','代购','二手','闲置','新品发布','产品发布',
     'review','unboxing','discount','shopping','recipe','travel guide','study abroad','job hunting','fashion','beauty','concert','movie review','gaming','giveaway','product launch',
@@ -162,6 +167,7 @@ def social_relevance_decision(item: RawItem, interests: dict, raw: dict | None =
     events = _matched_terms(text, SOCIAL_EVENT_TERMS)
     strategic = _matched_terms(text, SOCIAL_STRATEGIC_TERMS)
     domestic = _matched_terms(text, SOCIAL_DOMESTIC_ANCHORS)
+    pressure = _matched_terms(text, SOCIAL_DOMESTIC_PRESSURE_TERMS)
     noise = _matched_terms(text, SOCIAL_NOISE_TERMS)
     profiles, entities, ctx = match_interest_profiles(item.title, item.snippet, item.source_country, interests)
     sev, sev_score = severity(text)
@@ -173,6 +179,8 @@ def social_relevance_decision(item: RawItem, interests: dict, raw: dict | None =
         score += 28
     if domestic:
         score += 35
+    if pressure:
+        score += 20
     if events:
         score += 34
     if strategic:
