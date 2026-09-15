@@ -72,9 +72,9 @@ const extractVisibleCards = String.raw`(() => {
   const absolute = value => { try { return new URL(value, location.href).href; } catch { return ""; } };
   const platform = window.__LOCAL_SOCIAL_PLATFORM__;
   const selectors = {
-    x: ["article[data-testid='tweet']", "[data-testid='tweet']"],
+    x: ["article[data-testid='tweet']", "[data-testid='tweet']", "article[role='article']", "div[data-testid='cellInnerDiv']"],
     weibo: ["div[action-type='feed_list_item']", ".card-wrap"],
-    douyin: ["[data-e2e*='search']", "[data-e2e*='video']", "a[href*='/video/']"],
+    douyin: ["[data-e2e='search-card']", "[data-e2e*='search-card']", "[data-e2e*='search']", "[data-e2e*='video']", "a[href*='/video/']"],
     xiaohongshu: ["section.note-item", ".note-item", "a[href*='/explore/']"],
     youtube: ["ytd-video-renderer"],
     wechat: [".news-box", ".txt-box", "li"],
@@ -116,7 +116,13 @@ async function run() {
         try {
           await tab.navigate(searchUrl(platform, query));
           await tab.evaluate("window.__LOCAL_SOCIAL_PLATFORM__=" + JSON.stringify(platform));
+          await tab.evaluate("window.scrollTo(0, Math.max(500, document.body.scrollHeight * 0.25))");
+          await sleep(1800);
           const cards = await tab.evaluate(extractVisibleCards);
+          if (!Array.isArray(cards) || cards.length === 0) {
+            const pageHint = await tab.evaluate("document.title + ' | ' + String(document.body?.innerText || '').replace(/\\s+/g, ' ').slice(0, 140)");
+            errors.push("No visible cards: " + clean(pageHint, 180));
+          }
           for (const card of (Array.isArray(cards) ? cards : []).slice(0, perQuery)) {
             items.push({
               id: platform + ":" + card.url, platform, author: clean(card.author || platform, 180),
