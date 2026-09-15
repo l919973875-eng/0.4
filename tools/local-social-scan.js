@@ -51,7 +51,7 @@ class CdpTab {
     const result = await this.call("Runtime.evaluate", { expression, returnByValue: true, awaitPromise: true });
     return result.result && result.result.value;
   }
-  close() { try { this.ws.close(); } catch {} }
+  async close() { try { await this.call("Page.close"); } catch {} try { this.ws.close(); } catch {} }
 }
 
 function searchUrl(platform, query) {
@@ -67,8 +67,8 @@ function searchUrl(platform, query) {
   return endpoints[platform];
 }
 
-const extractVisibleCards = String.raw\`(() => {
-  const text = node => String(node?.innerText || node?.textContent || "").replace(/\\s+/g, " ").trim();
+const extractVisibleCards = String.raw`(() => {
+  const text = node => String(node?.innerText || node?.textContent || "").replace(/\s+/g, " ").trim();
   const absolute = value => { try { return new URL(value, location.href).href; } catch { return ""; } };
   const platform = window.__LOCAL_SOCIAL_PLATFORM__;
   const selectors = {
@@ -85,7 +85,7 @@ const extractVisibleCards = String.raw\`(() => {
   for (const node of candidates) {
     const body = text(node); if (body.length < 12) continue;
     const links = [...node.querySelectorAll("a[href]")].map(a => absolute(a.getAttribute("href"))).filter(Boolean);
-    const url = links.find(x => /status\\/\\d+|weibo\\.com\\/\\d+|\\/video\\/|\\/explore\\/|watch\\?v=|weixin\\.sogou\\.com\\/link/.test(x)) || links[0] || "";
+    const url = links.find(x => /status\/\d+|weibo\.com\/\d+|\/video\/|\/explore\/|watch\?v=|weixin\.sogou\.com\/link/.test(x)) || links[0] || "";
     if (!url || seen.has(url)) continue;
     seen.add(url);
     const author = text(node.querySelector("[data-testid='User-Name'], .name, #channel-name, .author"));
@@ -93,8 +93,7 @@ const extractVisibleCards = String.raw\`(() => {
     results.push({ text: body.slice(0, 1800), url, author: author.slice(0, 180), visible_time: time.slice(0, 100) });
   }
   return results;
-})()\`;
-
+})()`;
 async function createTab() {
   const response = await fetch(cdpUrl + "/json/new", { method: "PUT" });
   if (!response.ok) throw new Error("Chrome 未就绪，HTTP " + response.status);
@@ -110,31 +109,31 @@ async function run() {
   if (!["morning", "afternoon"].includes(slot)) throw new Error("仅支持 morning 或 afternoon");
   const items = [], status = [];
   for (const [platform, queries] of Object.entries(plan[slot] || {})) {
-    let count = 0; const errors = [];
-    for (const query of queries) {
-      let tab;
-      try {
-        tab = await createTab();
-        await tab.evaluate("window.__LOCAL_SOCIAL_PLATFORM__=" + JSON.stringify(platform));
-        await tab.navigate(searchUrl(platform, query));
-        const cards = await tab.evaluate(extractVisibleCards);
-        for (const card of (Array.isArray(cards) ? cards : []).slice(0, perQuery)) {
-          items.push({
-            id: platform + ":" + card.url, platform, author: clean(card.author || platform, 180),
-            author_name: clean(card.author || platform, 180), text: clean(card.text), url: card.url,
-            published_at: clean(card.visible_time, 100) || null, collected_at: now(), query, engagement: {},
-            media_count: ["douyin", "xiaohongshu", "youtube"].includes(platform) ? 1 : 0,
-            collector: platform === "wechat" ? "wechat_public_index_manual" : "local_chrome_public_dom",
-            source_mode: platform === "wechat" ? "公开文章索引，非公众号站内实时检索" : "本机已登录浏览器公开页面",
-          });
-          count++;
-        }
-      } catch (error) { errors.push(clean(error && error.message ? error.message : error, 180)); }
-      finally { if (tab) tab.close(); }
-    }
+    let count = 0; const errors = []; let tab;
+    try {
+      tab = await createTab();
+      for (const query of queries) {
+        try {
+          await tab.navigate(searchUrl(platform, query));
+          await tab.evaluate("window.__LOCAL_SOCIAL_PLATFORM__=" + JSON.stringify(platform));
+          const cards = await tab.evaluate(extractVisibleCards);
+          for (const card of (Array.isArray(cards) ? cards : []).slice(0, perQuery)) {
+            items.push({
+              id: platform + ":" + card.url, platform, author: clean(card.author || platform, 180),
+              author_name: clean(card.author || platform, 180), text: clean(card.text), url: card.url,
+              published_at: clean(card.visible_time, 100) || null, collected_at: now(), query, engagement: {},
+              media_count: ["douyin", "xiaohongshu", "youtube"].includes(platform) ? 1 : 0,
+              collector: platform === "wechat" ? "wechat_public_index_manual" : "local_chrome_public_dom",
+              source_mode: platform === "wechat" ? "public WeChat article index, not in-platform realtime search" : "logged-in local browser public page",
+            });
+            count++;
+          }
+        } catch (error) { errors.push(clean(error && error.message ? error.message : error, 180)); }
+      }
+    } catch (error) { errors.push(clean(error && error.message ? error.message : error, 180)); }
+    finally { if (tab) await tab.close(); }
     status.push({ platform, status: count ? "ok" : (errors.length ? "error" : "empty"), items: count, queries: queries.length, detail: errors.slice(0, 3) });
-  }
-  mkdirSync(dataDir, { recursive: true });
+  }  mkdirSync(dataDir, { recursive: true });
   const target = join(dataDir, "signals_external.json");
   const old = existsSync(target) ? JSON.parse(readFileSync(target, "utf8")) : [];
   const merged = new Map();
