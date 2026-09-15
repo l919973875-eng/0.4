@@ -2,29 +2,27 @@
   "version": "0.5.0",
   "mode": "all",
   "manual_query": "",
-  "started_at": "2026-09-15T06:48:00.829739+00:00",
-  "finished_at": "2026-09-15T07:00:37.543529+00:00",
+  "started_at": "2026-09-15T08:22:39.971499+00:00",
+  "finished_at": "2026-09-15T08:40:18.239373+00:00",
   "sources_scanned": 344,
-  "items_seen": 1116,
-  "items_new": 1056,
-  "items_relevant": 333,
+  "raw_news_48h": 1023,
+  "patrol_window_hours": 48,
+  "items_seen": 1096,
+  "items_new": 848,
+  "items_relevant": 133,
   "signals_seen": 182,
   "signals_relevant": 66,
   "social_review_total": 91,
   "social_review_accepted": 33,
-  "stored_articles": 8944,
+  "stored_articles": 9058,
   "stored_signals": 0,
-  "events": 1846,
+  "events": 1955,
   "latest_events": 18,
-  "errors": 76,
+  "errors": 81,
   "error_samples": [
     {
       "source": "Associated Press",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://apnews.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "POLITICO",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.politico.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "The Economist",
@@ -37,6 +35,10 @@
     {
       "source": "Financial Times",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ft.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "POLITICO",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.politico.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "Axios",
@@ -79,6 +81,10 @@
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://hungarytoday.hu/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
+      "source": "Radio Prague International",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://english.radio.cz/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
       "source": "Slovak Spectator",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://spectator.sme.sk/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -113,10 +119,6 @@
     {
       "source": "News.am",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://news.am/eng/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "The Indian Express",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://indianexpress.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     }
   ],
   "platform_status": [
@@ -174,8 +176,8 @@
     "title_limit": 300,
     "reason_limit": 80,
     "translated": 0,
-    "cache_hits": 105,
-    "failed": 275,
+    "cache_hits": 137,
+    "failed": 243,
     "provider": "deterministic fallback"
   },
   "retention_days": 45,
