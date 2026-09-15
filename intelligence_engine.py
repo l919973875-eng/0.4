@@ -231,35 +231,110 @@ def _evidence_score(row: dict, tier_cfg: dict) -> int:
     return TIER_SCORE.get(tier, 50)
 
 
-def _cluster_rows(rows: list[dict], threshold: float = 0.60, max_compare: int = 300) -> list[list[dict]]:
-    # 只对最近记录做事件化；按时间倒序，优先把新信息归入已有事件。
+EVENT_GENERIC_TOKENS = {
+    'china', 'chinese', '中国', '中方', '事件', '情况', '最新', 'news', 'report',
+    'reports', 'update', 'official', '政府', '部门', '回应', '表示', '发生',
+    'incident', 'said', 'says', 'after', 'amid', 'with', 'from',
+}
+
+
+def canonicalize_event_url(url: str | None) -> str:
+    value = str(url or '').strip()
+    if not value:
+        return ''
+    try:
+        parts = urlparse(value)
+        query = '&'.join(
+            f'{k}={v}' for k, v in re.findall(r'([^=&]+)=([^&]*)', parts.query)
+            if k.lower() not in {'utm_source', 'utm_medium', 'utm_campaign', 'fbclid', 'gclid'}
+        )
+        path = re.sub(r'/+', '/', parts.path or '/').rstrip('/')
+        return f'{parts.netloc.lower()}{path}?{query}'.rstrip('?')
+    except Exception:
+        return value
+
+
+def _event_anchor_tokens(text: str) -> set[str]:
+    """Return distinctive anchors for event-level deduplication, not relevance."""
+    tokens = text_tokens(text or '')
+    out = set()
+    for token in tokens:
+        key = token.casefold()
+        if key in EVENT_GENERIC_TOKENS or len(key) < 3:
+            continue
+        # Short Chinese bigrams are disproportionately generic in headline text.
+        if re.search(r'[\u3400-\u9fff]', token) and len(token) < 3:
+            continue
+        out.add(key)
+    return out
+
+
+def _event_numbers(text: str) -> set[str]:
+    return set(re.findall(r'\b\d{1,4}(?:[./-]\d{1,2}){0,2}(?:\.\d+)?%?\b', text or ''))
+
+
+def _same_event_score(a: dict, b: dict) -> float:
+    """Conservative event score for deduplicating syndication and repost chains."""
+    ta, tb = _event_text(a), _event_text(b)
+    na, nb = normalize_text(ta), normalize_text(tb)
+    if not na or not nb:
+        return 0.0
+    if na == nb:
+        return 1.0
+    ua, ub = canonicalize_event_url(a.get('url')), canonicalize_event_url(b.get('url'))
+    if ua and ub and ua == ub:
+        return 1.0
+
+    base = story_similarity(ta, tb)
+    aa, ab = _event_anchor_tokens(ta), _event_anchor_tokens(tb)
+    shared = aa & ab
+    anchor_containment = len(shared) / max(1, min(len(aa), len(ab)))
+    nums_a, nums_b = _event_numbers(ta), _event_numbers(tb)
+    numeric_conflict = bool(nums_a and nums_b and not (nums_a & nums_b))
+
+    # A reworded report needs multiple distinctive anchors. Generic China/risk words
+    # cannot by themselves merge two separate incidents.
+    if base >= 0.82:
+        score = base
+    elif base >= 0.62 and len(shared) >= 2 and anchor_containment >= 0.40:
+        score = 0.68 * base + 0.32 * anchor_containment
+    elif base >= 0.50 and len(shared) >= 3 and anchor_containment >= 0.58:
+        score = 0.55 * base + 0.45 * anchor_containment
+    else:
+        score = min(base, 0.52)
+    if numeric_conflict:
+        score -= 0.18
+    return max(0.0, min(1.0, score))
+
+
+def _cluster_rows(rows: list[dict], threshold: float = 0.64, max_compare: int = 300) -> list[list[dict]]:
+    # Newest-first preserves independent evidence while making a current report the
+    # representative. Only genuinely similar reports are joined.
     ordered = sorted(rows, key=_event_time, reverse=True)
     clusters: list[list[dict]] = []
-    reps: list[str] = []
+    reps: list[dict] = []
     rep_times: list[datetime] = []
     for row in ordered:
         text = _event_text(row)
         if not text:
             continue
         rt = _event_time(row)
-        best_idx, best_sim = -1, 0.0
+        best_idx, best_score = -1, 0.0
         start = max(0, len(clusters) - max_compare)
         for idx in range(len(clusters) - 1, start - 1, -1):
-            # 相差超过 72 小时的标题，即使相似也倾向视为新事件。
             if abs((rt - rep_times[idx]).total_seconds()) > 72 * 3600:
                 continue
-            sim = story_similarity(text, reps[idx])
-            if sim > best_sim:
-                best_idx, best_sim = idx, sim
-        if best_idx >= 0 and best_sim >= threshold:
+            score = _same_event_score(row, reps[idx])
+            if score > best_score:
+                best_idx, best_score = idx, score
+        if best_idx >= 0 and best_score >= threshold:
             clusters[best_idx].append(row)
-            # 代表文本采用更长且信息量更多的那个，但不频繁改变以避免聚类漂移。
-            if len(text) > len(reps[best_idx]) * 1.25:
-                reps[best_idx] = text
+            if len(text) > len(_event_text(reps[best_idx])) * 1.15:
+                reps[best_idx] = row
                 rep_times[best_idx] = rt
         else:
             clusters.append([row])
-            reps.append(text)
+            reps.append(row)
             rep_times.append(rt)
     return clusters
 

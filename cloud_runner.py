@@ -131,6 +131,19 @@ SOCIAL_STRATEGIC_TERMS = _merge_terms([
     '矿山','铜矿','锂矿','镍矿','稀土','工厂','工业园','港口','码头','铁路','公路','管道','油田','气田','电站','水电站','矿区','园区','供应链','航运','海运','电信','芯片','半导体','电池','电动车','大坝','使馆','领馆','项目',
     'mine','mining','copper','lithium','nickel','rare earth','factory','industrial park','port','terminal','railway','pipeline','oilfield','gas field','power plant','supply chain','shipping','telecom','semiconductor','battery','embassy','consulate','project',
 ], _social_taxonomy_terms('scenes'))
+SOCIAL_DOMESTIC_ANCHORS = [
+    '重庆','渝中','万州','重庆港','长江','三峡','船闸','航道',
+    '货车司机','卡车司机','物流司机','重卡','网约车司机','外卖骑手',
+    '供水','停水','供电','停电','物业','征拆','欠薪','危化品','石脑油','矿山',
+    '农资','春耕','光伏','风电','村级收益','土地','人工智能','高校','毕业生',
+    '油价','化工','有色','动力电池','航运','供应链',
+]
+
+SOCIAL_DOMESTIC_PRESSURE_TERMS = [
+    "运价不足", "运价下跌", "成本上升", "柴油成本", "油价上涨", "订单减少",
+    "裁员", "降薪", "复工受阻", "招聘异常", "供水异常", "物流受阻",
+]
+
 SOCIAL_NOISE_TERMS = [
     '测评','开箱','价格','优惠','降价','买车','提车','车评','手机评测','手机测评','好用吗','种草','穿搭','美妆','护肤','美食','餐厅','旅游攻略','旅行攻略','留学申请','留学生活','求职','招聘','面试','教程','摄影','壁纸','追星','演唱会','电视剧','电影推荐','游戏','抽奖','购物','代购','二手','闲置','新品发布','产品发布',
     'review','unboxing','discount','shopping','recipe','travel guide','study abroad','job hunting','fashion','beauty','concert','movie review','gaming','giveaway','product launch',
@@ -153,6 +166,8 @@ def social_relevance_decision(item: RawItem, interests: dict, raw: dict | None =
     anchors = _matched_terms(text, SOCIAL_CHINA_ANCHORS)
     events = _matched_terms(text, SOCIAL_EVENT_TERMS)
     strategic = _matched_terms(text, SOCIAL_STRATEGIC_TERMS)
+    domestic = _matched_terms(text, SOCIAL_DOMESTIC_ANCHORS)
+    pressure = _matched_terms(text, SOCIAL_DOMESTIC_PRESSURE_TERMS)
     noise = _matched_terms(text, SOCIAL_NOISE_TERMS)
     profiles, entities, ctx = match_interest_profiles(item.title, item.snippet, item.source_country, interests)
     sev, sev_score = severity(text)
@@ -162,6 +177,10 @@ def social_relevance_decision(item: RawItem, interests: dict, raw: dict | None =
         score += 38
     if entities:
         score += 28
+    if domestic:
+        score += 35
+    if pressure:
+        score += 20
     if events:
         score += 34
     if strategic:
@@ -178,14 +197,22 @@ def social_relevance_decision(item: RawItem, interests: dict, raw: dict | None =
     # 单独品牌/中国泛词，没有异常事件，不进入“苗头”。
     if anchors and not events and not entities:
         score -= 25
-    if not anchors and not entities:
+    if not anchors and not entities and not domestic:
         score -= 20
     score = max(0, min(100, score))
 
     accepted = False
     relation = 'unrelated'
     reason = '仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件'
-    if entities and events:
+    if domestic and (events or pressure):
+        accepted = score >= 55
+        relation = 'direct' if accepted else 'unrelated'
+        reason = (
+            '命中境内/涉渝专题对象与异常事件信号，作为待核社会化线索入池'
+            if events
+            else '命中境内/涉渝专题与公开经营或服务压力表达，仅按结构性风险待核观察'
+        )
+    elif entities and events:
         accepted = score >= 55
         relation = 'indirect' if accepted else 'unrelated'
         reason = f'命中中国海外关联企业/项目，并出现异常事件信号；{ctx}'
@@ -198,7 +225,10 @@ def social_relevance_decision(item: RawItem, interests: dict, raw: dict | None =
         relation = 'potential'
         reason = f'重大事件发生在中国利益暴露区域，并涉及战略资产/供应链；{ctx}'
 
-    classification_conf = 72 if accepted and (anchors or entities) and events else (55 if accepted else 70)
+    classification_conf = (
+        72 if accepted and (anchors or entities or domestic) and events
+        else (50 if accepted and domestic and pressure else (55 if accepted else 70))
+    )
     decision = Decision(relation, reason, entities, classification_conf, 'social-rules-v2')
     audit = {
         'accepted': accepted,
@@ -206,6 +236,9 @@ def social_relevance_decision(item: RawItem, interests: dict, raw: dict | None =
         'matched_anchors': anchors[:12],
         'matched_events': events[:12],
         'matched_strategic': strategic[:12],
+        'matched_domestic': domestic[:12],
+        'matched_pressure': pressure[:12],
+        'signal_state': '待核线索' if events else ('结构性风险' if pressure else '无效'),
         'noise_terms': noise[:12],
         'profiles': profiles[:8],
         'entities': entities[:12],
@@ -556,7 +589,7 @@ def signal_record(raw: dict, decision: Decision, collected_at: datetime) -> dict
     return {
         'id':rid,'platform':raw.get('platform') or 'social','author':raw.get('author') or 'unknown','author_name':raw.get('author_name') or '',
         'text':text,'title':text[:360],'url':raw.get('url') or '','published_at':iso(dt) if dt else raw.get('published_at'),'collected_at':iso(collected_at),
-        'query':raw.get('query') or '','engagement':raw.get('engagement') or {},'media_count':int(raw.get('media_count') or 0),'collector':raw.get('collector') or 'unknown',
+        'query':raw.get('query') or '','query_hits':raw.get('query_hits') or ([] if not raw.get('query') else [raw.get('query')]),'engagement':raw.get('engagement') or {},'media_count':int(raw.get('media_count') or 0),'collector':raw.get('collector') or 'unknown',
         'source':f"{raw.get('platform') or 'social'} · {raw.get('author') or 'unknown'}",'source_kind':'social','country':raw.get('country') or '',
         'relation':decision.relation,'reason':decision.reason,'entities':decision.entities,'confidence':max(5,min(95,confidence)),'priority_score':max(0,min(100,priority)),'severity':sev,'classifier':decision.classifier,
     }
@@ -571,6 +604,67 @@ def merge_by_id(existing: list[dict], new: list[dict], retention_days: int, limi
         if dt is None or dt >= cutoff: kept.append(r)
     kept.sort(key=lambda r:r.get('published_at') or r.get('collected_at') or '', reverse=True)
     return kept[:limit]
+
+
+
+def _social_normalized_text(value: str) -> str:
+    text = compact_text(value, 1800).lower()
+    text = re.sub(r'https?://\S+', ' ', text)
+    return re.sub(r'\s+', ' ', text).strip()
+
+
+def _social_dedupe_key(row: dict) -> str:
+    platform = str(row.get('platform') or 'social').strip().lower()
+    url = canonicalize_url(str(row.get('url') or ''))
+    if url and 'example.invalid' not in url:
+        return f'url:{platform}:{url}'
+    author = str(row.get('author') or '').strip().casefold()
+    day = str(row.get('published_at') or row.get('collected_at') or '')[:10]
+    text = _social_normalized_text(str(row.get('text') or ''))
+    return 'text:' + hashlib.sha256(f'{platform}|{author}|{day}|{text}'.encode('utf-8', errors='ignore')).hexdigest()
+
+
+def _social_row_rank(row: dict) -> tuple[int, int, int]:
+    engagement = row.get('engagement') or {}
+    interactions = sum(int(engagement.get(k) or 0) for k in (
+        'like_count', 'retweet_count', 'reply_count', 'quote_count', 'share_count',
+        'comment_count', 'view_count', 'views',
+    ))
+    return (int(row.get('media_count') or 0), interactions, len(str(row.get('text') or '')))
+
+
+def dedupe_social_rows(rows: list[dict]) -> tuple[list[dict], int]:
+    """Merge only the same public post returned by multiple query routes.
+
+    Cross-platform copies and different authors stay as separate evidence. This
+    prevents query fan-out from inflating a single post into several "news" items.
+    """
+    best: dict[str, dict] = {}
+    query_hits: dict[str, list[str]] = {}
+    duplicates = 0
+    for raw in rows:
+        if not isinstance(raw, dict) or not raw.get('text'):
+            continue
+        key = _social_dedupe_key(raw)
+        query = str(raw.get('query') or '').strip()
+        if query and query not in query_hits.setdefault(key, []):
+            query_hits[key].append(query)
+        previous = best.get(key)
+        if previous is None:
+            best[key] = dict(raw)
+            continue
+        duplicates += 1
+        if _social_row_rank(raw) > _social_row_rank(previous):
+            best[key] = dict(raw)
+    out = []
+    for key, row in best.items():
+        hits = query_hits.get(key) or []
+        if hits:
+            row['query_hits'] = hits[:12]
+            row['query'] = hits[0]
+        out.append(row)
+    out.sort(key=lambda row: row.get('published_at') or row.get('collected_at') or '', reverse=True)
+    return out, duplicates
 
 
 def external_signal_rows() -> list[dict]:
@@ -599,9 +693,22 @@ def self_test():
     for item, expected in tests:
         got=heuristic_decision(item,interests).relation
         if got!=expected: raise AssertionError(f'classifier self-test: expected {expected}, got {got}: {item.title}')
+    domestic_decision, domestic_audit = social_relevance_decision(
+        RawItem('重庆货车司机反映柴油成本上升、运价不足', 'https://example.test/domestic', 'x · source', 'social'),
+        interests,
+        {'platform': 'x', 'text': '重庆货车司机反映柴油成本上升、运价不足'},
+    )
+    if not domestic_audit['accepted'] or domestic_decision.relation != 'direct':
+        raise AssertionError('domestic social signal should enter as a pending lead')
     sim_same=story_similarity('China launches military drills around Taiwan','Chinese military begins new drills around Taiwan')
     sim_diff=story_similarity('China launches military drills around Taiwan','Argentina central bank cuts interest rates')
     if not (sim_same > sim_diff and sim_same >= .45): raise AssertionError(f'cluster self-test failed: same={sim_same} diff={sim_diff}')
+    social_rows, social_dupes = dedupe_social_rows([
+        {'platform':'x','author':'source','url':'https://x.com/source/status/1?utm_source=test','text':'重庆工地吊车起火','query':'重庆 火灾'},
+        {'platform':'x','author':'source','url':'https://x.com/source/status/1','text':'重庆工地吊车起火','query':'吊车 火灾','engagement':{'like_count':3}},
+        {'platform':'weibo','author':'source','url':'https://weibo.com/1','text':'重庆工地吊车起火','query':'重庆 火灾'},
+    ])
+    if len(social_rows) != 2 or social_dupes != 1: raise AssertionError('social exact-post dedup self-test failed')
     print('self-test: classifier 4/4 + clustering passed')
 
 
@@ -632,9 +739,19 @@ async def run(mode='all', manual_query='', rebuild_only=False):
         log('social signal crawl: X / Telegram / RSS bridges (connectors are optional)')
         raw_social, platform_status = await collect_social(social_cfg, manual_query)
         raw_social.extend(external_signal_rows())
+        raw_social_total = len(raw_social)
+        raw_social, social_duplicates = dedupe_social_rows(raw_social)
         signals_seen=len(raw_social)
         existing_signal_ids = {r.get('id') for r in existing_signals if r.get('id')}
         raw_social = [r for r in raw_social if not r.get('id') or r.get('id') not in existing_signal_ids]
+        if social_duplicates:
+            platform_status.append({
+                'platform': 'social-ingest',
+                'status': 'ok',
+                'detail': f'同帖跨查询去重 {social_duplicates} 条',
+                'raw_items': raw_social_total,
+                'deduplicated_items': signals_seen,
+            })
         pairs=raw_social_to_items(raw_social)
         now=datetime.now(timezone.utc); new_signals=[]
         for item,raw in pairs:

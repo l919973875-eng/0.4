@@ -1,0 +1,54 @@
+{
+  "morning": {
+    "x": [
+      "重庆 火灾 停水 欠薪",
+      "货车司机 运价 柴油 停运"
+    ],
+    "weibo": [
+      "重庆 事故 停水 欠薪",
+      "危化品 火灾 爆炸 通报"
+    ],
+    "douyin": [
+      "重庆 火灾 事故",
+      "货车司机 运价 柴油"
+    ],
+    "xiaohongshu": [
+      "重庆 供水 物业 环境",
+      "重庆 就业 外卖骑手"
+    ],
+    "youtube": [
+      "China shipping Red Sea supply chain",
+      "重庆 化工 汽车 物流"
+    ],
+    "wechat": [
+      "重庆 事故 供水 就业",
+      "危化品 安全生产 通报"
+    ]
+  },
+  "afternoon": {
+    "x": [
+      "三峡 船闸 宜昌 万州 重庆 航运",
+      "油价 红海 化工 有色 供应链"
+    ],
+    "weibo": [
+      "农资 春耕 光伏 风电 收益",
+      "人工智能 AI 就业 高校"
+    ],
+    "douyin": [
+      "三峡 航运 船闸",
+      "农资 春耕 光伏 风电"
+    ],
+    "xiaohongshu": [
+      "人工智能 AI 就业",
+      "重庆 汽车 物流 供应链"
+    ],
+    "youtube": [
+      "China Hormuz Red Sea oil shipping",
+      "AI employment China university"
+    ],
+    "wechat": [
+      "三峡 航运 重庆 港口",
+      "油价 化工 有色 供应链"
+    ]
+  }
+}

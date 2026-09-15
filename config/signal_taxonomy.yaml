@@ -230,6 +230,130 @@ risk_categories:
       - production halt
       - asset freeze
 
+  public_service_labor:
+    label_zh: 公共服务与劳动争议
+    label_en: Public Services & Labor
+    exposure_weight: 82
+    terms:
+      - 货车司机
+      - 卡车司机
+      - 物流司机
+      - 网约车司机
+      - 外卖骑手
+      - 欠薪
+      - 讨薪
+      - 运价
+      - 停运
+      - 服务中断
+      - platform work
+      - truck driver
+      - freight rate
+      - work stoppage
+      - wage arrears
+  livelihood_governance:
+    label_zh: 民生治理
+    label_en: Livelihood & Governance
+    exposure_weight: 76
+    terms:
+      - 停水
+      - 供水
+      - 停电
+      - 供电
+      - 物业
+      - 征拆
+      - 医疗
+      - 教育
+      - 婚姻诈骗
+      - 环境投诉
+      - water supply
+      - power outage
+      - property management
+      - demolition
+  safety_production_domestic:
+    label_zh: 安全生产
+    label_en: Safety & Production
+    exposure_weight: 92
+    terms:
+      - 危化品
+      - 石脑油
+      - 矿山
+      - 消防
+      - 船闸
+      - 航道
+      - 食品药品
+      - 火灾
+      - 爆燃
+      - 生产安全事故
+      - hazardous chemicals
+      - naphtha
+      - mine accident
+      - fire
+      - navigation lock
+  economic_industry_domestic:
+    label_zh: 经济产业
+    label_en: Economy & Industry
+    exposure_weight: 80
+    terms:
+      - 裁员
+      - 降薪
+      - 复工
+      - 外贸
+      - 动力电池回收
+      - 油价
+      - 化工
+      - 有色
+      - 原材料
+      - 供应链
+      - layoffs
+      - pay cut
+      - oil price
+      - petrochemical
+      - nonferrous
+  agriculture_rural:
+    label_zh: 农业农村
+    label_en: Agriculture & Rural Affairs
+    exposure_weight: 72
+    terms:
+      - 农资
+      - 春耕
+      - 假种子
+      - 光伏
+      - 风电
+      - 村级收益
+      - 土地
+      - 农民权益
+      - agricultural supplies
+      - spring planting
+      - land rights
+  technology_youth:
+    label_zh: 科技与青年
+    label_en: Technology & Youth
+    exposure_weight: 62
+    terms:
+      - 人工智能
+      - AI
+      - 就业
+      - 招聘
+      - 高校
+      - 毕业生
+      - 网络文化
+      - education service
+      - graduate employment
+  chongqing_special:
+    label_zh: 涉渝专题
+    label_en: Chongqing Focus
+    exposure_weight: 86
+    terms:
+      - 重庆
+      - 渝中
+      - 万州
+      - 重庆港
+      - 长江
+      - 三峡
+      - Chongqing
+      - Wanzhou
+      - Three Gorges
+
 escalation_terms:
   - 升级
   - 扩大

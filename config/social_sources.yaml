@@ -1,36 +1,42 @@
 # 社交“苗头层”配置。
-# 原则：苗头可以在没有媒体/官方确认时直接展示，Confidence 只描述证据强度，不是入池门槛。
+# 发现优先，但平台内容只是待核线索：不得因单帖、单视频或单个评论直接写成事实。
+# X 使用官方 API；微博、抖音、小红书通过单独的低频公共页面/本地浏览器桥接导入。
+# GitHub 云端 IP 遇到登录、验证码或零结果时必须显示状态，不得把“无结果”写成“无事件”。
 
-# 每个查询每天只取少量最新结果，避免又变成“信息垃圾场”。
-max_per_query: 20
+max_per_query: 12
 retention_days: 14
+max_queries_per_run: 12
 
-# 这些关键词会与手动 Run workflow 里输入的 query 合并。
-# 建议后续逐渐替换成“项目名/矿山名/港口名/企业名/地点名”而不是无限扩展泛关键词。
+# X 的实时检索词。每一组均采用“领域 + 异常行为 + 地点/链路”而非机械堆砌标题。
+# 前 10 组覆盖八类方向；最后 2 组用于境外涉华和重庆传导链。
 queries:
-  - 'China OR Chinese OR Beijing OR PRC'
-  - '中国 OR 中资 OR 中国企业 OR 中国员工 OR 华人'
-  - 'Huawei OR BYD OR CATL OR COSCO OR Zijin OR CPEC OR Gwadar'
-  - 'Taiwan OR "South China Sea" OR PLA'
+  # 涉渝专题 / 民生治理
+  - '(重庆 OR 渝中 OR 万州 OR 重庆港) (火灾 OR 事故 OR 停水 OR 供水 OR 环境 OR 物业)'
+  - '重庆 (欠薪 OR 就业 OR 外卖骑手 OR 平台用工 OR 征拆 OR 医疗 OR 教育)'
+  # 群体性公共服务与劳动争议：仅发现公开服务异常，不用于追踪或联络人员。
+  - '(货车司机 OR 物流司机 OR 重卡 OR 网约车司机) (柴油 OR 运价 OR 停运 OR 服务中断 OR 维权)'
+  - '(船闸 OR 航道 OR 港口 OR 船员) (三峡 OR 宜昌 OR 万州 OR 重庆) (检修 OR 调度 OR 滞留 OR 事故)'
+  # 安全生产 / 经济产业
+  - '(危化品 OR 石脑油 OR 矿山 OR 消防 OR 食品药品) (火灾 OR 爆炸 OR 事故 OR 召回 OR 通报)'
+  - '(油价 OR 航运保险 OR 红海 OR 霍尔木兹) (化工 OR 有色 OR 原料 OR 运费 OR 供应链)'
+  # 农业农村 / 科技青年
+  - '(农资 OR 春耕 OR 光伏 OR 风电 OR 土地) (骗局 OR 质量 OR 收益 OR 纠纷 OR 公示)'
+  - '(人工智能 OR AI OR 高校 OR 毕业生) (就业 OR 裁员 OR 招聘 OR 诈骗 OR 教育服务)'
+  # 政治安全：仅处理公开、可信、事件级材料，不追踪个人或团体。
+  - '(台湾 OR 台海 OR 南海 OR 日本) (官方 OR 演训 OR 航运 OR 制裁 OR 贸易)'
+  - '(民族宗教 OR 境外媒体) (公开声明 OR 报道 OR 澄清 OR 事实核查)'
+  # 境外涉华与重庆传导链（中文 / 英文并行）
+  - '(中国 OR Chinese) (Red Sea OR Hormuz OR shipping OR sanctions OR supply chain)'
+  - '(重庆 OR Chongqing) (化工 OR 有色 OR 汽车 OR 物流 OR 长江 OR supply chain)'
 
-# Telegram：这里写公开频道 username（不带 https://t.me/）。
-# 配置 TG_API_ID / TG_API_HASH / TG_SESSION_STRING 后才会启用。
+# Telegram：只接入公开频道，不进入私密群组。
 telegram_channels: []
-# 示例：
-# telegram_channels:
-#   - example_osint_channel
 
-# RSS / RSSHub / 其他桥接器。
-# 这是小红书/抖音/微博的低维护接入口之一：如果你已有 RSSHub 或其他桥接 URL，直接写这里。
-# 每个条目都可以标记 platform，结果会进入“苗头层”。
+# RSS / RSSHub / 其他公开桥接器。平台直接读取失败时，只能作为公开索引，
+# 并在状态里标明“非实时站内检索”。
 rss_feeds: []
-# 示例：
-# rss_feeds:
-#   - name: 某小红书账号
-#     platform: xiaohongshu
-#     url: https://你的RSSHub/xiaohongshu/user/USER_ID
 
-# 可选：可信账号白名单。命中后只提高 Confidence，不会决定是否展示。
+# 可信账号白名单只影响证据权重，不决定事件真伪或是否展示。
 trusted_accounts:
   x: []
   telegram: []
