@@ -321,7 +321,7 @@
     "url": "https://www.xiaohongshu.com/explore/6a823a640000000005028b67?xsec_token=ABrM-p7g6peqSp0CJh_LdbWYqllNBMg6TIwRLtVkW5pxo=&xsec_source=pc_search",
     "accepted": true,
     "relation": "direct",
-    "relevance_score": 72,
+    "relevance_score": 92,
     "severity": "low",
     "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
     "matched_anchors": [
@@ -670,7 +670,7 @@
     "url": "https://www.xiaohongshu.com/explore/6a8000660000000005033dd2?xsec_token=ABj9wDzhQlAlvNUNe5xtF2kCfHc4nsNhftyULTlKu8yyo=&xsec_source=pc_search",
     "accepted": false,
     "relation": "unrelated",
-    "relevance_score": 13,
+    "relevance_score": 48,
     "severity": "low",
     "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
     "matched_anchors": [
@@ -908,11 +908,11 @@
     "query": "海外中资项目 爆炸",
     "text": "厂房光伏设备起火，谁承担责任？ 2026年8月12日，浙江省嘉兴市海盐县西塘桥街道的浙江协和首信钢业有限公司三号厂房发生火灾事故，据官方报道，可能是屋顶光伏设备起火！ 那么厂房屋顶光伏设备起火，哪些人可能承担责任呢？ 1.光伏电站的建设方、运营管理方 2.厂房的产权人、屋顶的出租人 3.光伏电站的施工方、设备厂家等等 至于最终那些人承担火灾责任，还要看具体的起火原因和火势蔓延扩大的原因！ 我们是全国专注火灾案件的律师团队，如果你也遇到了火灾问题，欢迎留言咨询～ #浙江嘉兴火灾[话题]# #火灾责任[话题]# #工厂火灾[话题]# #光伏设备起火[话题]# #卢麒火灾律师团队[话题]#",
     "url": "https://www.xiaohongshu.com/explore/6a7da5cf000000002201726a?xsec_token=ABylO6dCj7M_XdAMHyumwA2AthRtUxYWMenefO9hUn5Qs=&xsec_source=pc_search",
-    "accepted": false,
-    "relation": "unrelated",
-    "relevance_score": 28,
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 83,
     "severity": "low",
-    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "reason": "命中境内/涉渝专题对象与异常事件信号，作为待核社会化线索入池",
     "matched_anchors": [],
     "matched_events": [
       "火灾",
@@ -1445,9 +1445,9 @@
     "url": "https://www.xiaohongshu.com/explore/6a7a2d7d000000003400eab4?xsec_token=ABU3XzpneFPTPT04xF4SzeN5k_nxFyVGGh4S9KyVXRXMk=&xsec_source=pc_search",
     "accepted": true,
     "relation": "direct",
-    "relevance_score": 91,
+    "relevance_score": 100,
     "severity": "medium",
-    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "reason": "命中境内/涉渝专题对象与异常事件信号，作为待核社会化线索入池",
     "matched_anchors": [
       "中国"
     ],
@@ -1586,11 +1586,11 @@
     "query": "中国员工 遇袭",
     "text": "爷爷不泡茶“手打骑手”：一杯奶茶里的火药 2026年“奶茶店员与外卖骑手互殴”事件源于2025年深圳某店的矛盾，双方因出餐链问题爆发冲突。品牌已承认管理问题并整改，但新茶饮行业依赖人力高峰应对，骑手与店员高压系统未根本解决，冲突仍可能再次发生。#外卖[话题]# #热点[话题]# #奶茶[话题]# #矛盾[话题]# #商业思维[话题]# #餐饮[话题]# #打工者[话题]# #创业者交流[话题]# #骑手[话题]#",
     "url": "https://www.xiaohongshu.com/explore/6a798498000000003300d211?xsec_token=ABO-F5C7vlNnGmIpprr7J7YDZ7MLVQPFl8XZNbdddlyak=&xsec_source=pc_search",
-    "accepted": false,
-    "relation": "unrelated",
-    "relevance_score": 14,
+    "accepted": true,
+    "relation": "direct",
+    "relevance_score": 69,
     "severity": "low",
-    "reason": "仅出现泛涉华词或消费/生活内容，未发现值得预警的异常事件",
+    "reason": "命中境内/涉渝专题对象与异常事件信号，作为待核社会化线索入池",
     "matched_anchors": [],
     "matched_events": [
       "冲突"
@@ -1725,9 +1725,9 @@
     "url": "https://www.xiaohongshu.com/explore/6a77eb8d000000002402f172?xsec_token=ABBOdy_HQT9zQnjohZXGGd5Y7m9wKq-nz3CPGAd6VbhP4=&xsec_source=pc_search",
     "accepted": true,
     "relation": "direct",
-    "relevance_score": 96,
+    "relevance_score": 100,
     "severity": "high",
-    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "reason": "命中境内/涉渝专题对象与异常事件信号，作为待核社会化线索入池",
     "matched_anchors": [
       "中国员工",
       "中国"
@@ -2009,9 +2009,9 @@
     "url": "https://www.xiaohongshu.com/explore/6a75a76c00000000320322f9?xsec_token=AB5gQHUNrkOuF-fujpQ8HD5dB55L3tAIvo4QEYUai8e5I=&xsec_source=pc_search",
     "accepted": true,
     "relation": "direct",
-    "relevance_score": 96,
+    "relevance_score": 100,
     "severity": "high",
-    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "reason": "命中境内/涉渝专题对象与异常事件信号，作为待核社会化线索入池",
     "matched_anchors": [
       "中资",
       "中国公民",
@@ -2277,9 +2277,9 @@
     "url": "https://www.xiaohongshu.com/explore/6a73ba3c00000000220167fb?xsec_token=ABGvzHNT7G1L5K1lY61-twSib46NTWLsAT9oUywWBvT20=&xsec_source=pc_search",
     "accepted": true,
     "relation": "direct",
-    "relevance_score": 76,
+    "relevance_score": 100,
     "severity": "medium",
-    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "reason": "命中境内/涉渝专题对象与异常事件信号，作为待核社会化线索入池",
     "matched_anchors": [
       "中国"
     ],
@@ -2361,9 +2361,9 @@
     "url": "https://www.xiaohongshu.com/explore/6a72fedc0000000027023b1a?xsec_token=ABkIMziOJyQh8J_OgqeMgDG8MAGpMigy2Pa3rASkFv19Q=&xsec_source=pc_search",
     "accepted": true,
     "relation": "direct",
-    "relevance_score": 96,
+    "relevance_score": 100,
     "severity": "high",
-    "reason": "直接涉华对象与异常事件/政策动作同时出现，具备苗头价值",
+    "reason": "命中境内/涉渝专题对象与异常事件信号，作为待核社会化线索入池",
     "matched_anchors": [
       "中资"
     ],
