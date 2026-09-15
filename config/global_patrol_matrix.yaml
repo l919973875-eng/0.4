@@ -1,0 +1,118 @@
+version: 1
+window_hours: 48
+reporting:
+  direct: 85
+  high_transmission: 65
+  observation: 45
+  max_output_events: 20
+# Public, event-level monitoring only. No private groups, personal profiling, or operational tracking.
+global_trigger_terms:
+  - sanctions
+  - export control
+  - blockade
+  - armed conflict
+  - military exercise
+  - cyberattack
+  - data breach
+  - emergency
+  - disruption
+  - shutdown
+  - recall
+  - investigation
+  - 制裁
+  - 出口管制
+  - 封锁
+  - 冲突
+  - 军演
+  - 网络攻击
+  - 数据泄露
+  - 紧急状态
+  - 中断
+  - 停运
+  - 召回
+  - 调查
+domains:
+  great_power_competition:
+    label_zh: 大国博弈
+    high_frequency: true
+    terms: [战略竞争, 同盟, 印太, 制裁, 关税, strategic competition, alliance, Indo-Pacific, sanctions, tariff]
+  political_security:
+    label_zh: 政治安全
+    high_frequency: true
+    terms: [外交危机, 政治危机, 政权更迭, 选举争议, 断交, diplomatic crisis, political crisis, coup, election dispute, sever ties]
+  science_technology_security:
+    label_zh: 科技安全
+    high_frequency: true
+    terms: [半导体, 量子, 关键技术, 出口管制, 技术封锁, semiconductor, quantum, critical technology, technology control]
+  military_security:
+    label_zh: 军事安全
+    high_frequency: true
+    terms: [军演, 海警, 军舰, 军机, 导弹, military exercise, coast guard, warship, military aircraft, missile]
+  territorial_security:
+    label_zh: 国土安全
+    high_frequency: true
+    terms: [边境, 领土争端, 主权, 海域争端, border, territorial dispute, sovereignty, maritime dispute]
+  overseas_interests_security:
+    label_zh: 海外利益安全
+    high_frequency: true
+    terms: [中资项目, 中国公民, 使领馆, 港口, 矿山, Chinese project, Chinese citizens, embassy, port, mine]
+  economic_security:
+    label_zh: 经济安全
+    high_frequency: true
+    terms: [供应链, 贸易限制, 断供, 产业链, supply chain, trade restriction, shortage, industrial chain]
+  financial_security:
+    label_zh: 金融安全
+    high_frequency: true
+    terms: [汇率, 债务违约, 银行风险, 资本管制, exchange rate, sovereign default, banking risk, capital control]
+  cultural_security:
+    label_zh: 文化安全
+    high_frequency: false
+    terms: [文化遗产, 内容监管, 版权争议, cultural heritage, content regulation, copyright dispute]
+  social_security:
+    label_zh: 社会安全
+    high_frequency: true
+    terms: [公共服务中断, 劳动争议, 大规模事故, 公共卫生, service disruption, labor dispute, mass casualty, public health]
+  food_security:
+    label_zh: 粮食安全
+    high_frequency: false
+    terms: [粮食出口, 谷物, 化肥, 农作物歉收, grain export, wheat, fertilizer, crop failure]
+  ecological_security:
+    label_zh: 生态安全
+    high_frequency: false
+    terms: [污染, 极端天气, 干旱, 洪水, pollution, extreme weather, drought, flood]
+  resource_security:
+    label_zh: 资源安全
+    high_frequency: true
+    terms: [石油, 天然气, 稀土, 锂矿, 铜矿, crude oil, natural gas, rare earth, lithium, copper]
+  nuclear_security:
+    label_zh: 核安全
+    high_frequency: true
+    terms: [核事故, 核安全, 核材料, 原子能机构, nuclear incident, nuclear safety, nuclear material, IAEA]
+  space_security:
+    label_zh: 太空安全
+    high_frequency: false
+    terms: [卫星故障, 太空碎片, 发射失败, satellite failure, space debris, launch failure]
+  deep_sea_security:
+    label_zh: 深海安全
+    high_frequency: false
+    terms: [深海采矿, 海底电缆, 海底管线, deep-sea mining, subsea cable, seabed pipeline]
+  biological_security:
+    label_zh: 生物安全
+    high_frequency: true
+    terms: [传染病暴发, 病原体, 生物实验室, outbreak, pathogen, biosafety, laboratory incident]
+  artificial_intelligence_security:
+    label_zh: 人工智能安全
+    high_frequency: true
+    terms: [人工智能治理, 模型安全, 深度伪造, AI safety, model security, deepfake]
+  network_security:
+    label_zh: 网络安全
+    high_frequency: true
+    terms: [网络攻击, 勒索软件, 关键基础设施, cyberattack, ransomware, critical infrastructure]
+  data_security:
+    label_zh: 数据安全
+    high_frequency: true
+    terms: [数据泄露, 数据跨境, 数据保护, data breach, cross-border data, data protection]
+  ideological_security:
+    label_zh: 意识形态安全
+    high_frequency: false
+    terms: [虚假信息, 信息操纵, 影响行动, disinformation, information manipulation, influence operation]

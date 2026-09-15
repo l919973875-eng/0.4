@@ -35,9 +35,11 @@ SOCIAL_FILE = CONFIG_DIR / 'social_sources.yaml'
 SOCIAL_KEYWORDS_FILE = CONFIG_DIR / 'social_keywords.yaml'
 GEO_ALIASES_FILE = CONFIG_DIR / 'geo_aliases.yaml'
 SIGNAL_TAXONOMY_FILE = CONFIG_DIR / 'signal_taxonomy.yaml'
+PATROL_MATRIX_FILE = CONFIG_DIR / 'global_patrol_matrix.yaml'
 ARTICLES_FILE = DATA_DIR / 'articles.json'
 SIGNALS_FILE = DATA_DIR / 'signals.json'
 EXTERNAL_SIGNALS_FILE = DATA_DIR / 'signals_external.json'
+RAW_NEWS_FILE = DATA_DIR / 'raw_news_48h.json'
 SOCIAL_REVIEW_FILE = DATA_DIR / 'social_review.json'
 EVENTS_FILE = DATA_DIR / 'events.json'
 LATEST_FILE = DATA_DIR / 'latest.json'
@@ -284,6 +286,45 @@ def compact_text(text, limit=1200) -> str:
         return ''
     return re.sub(r'\s+', ' ', str(text)).strip()[:limit]
 
+
+def load_patrol_matrix() -> dict:
+    return load_yaml(PATROL_MATRIX_FILE) if PATROL_MATRIX_FILE.exists() else {}
+
+
+def patrol_domain_hits(text: str, patrol_cfg: dict | None = None) -> list[str]:
+    low = (text or '').lower()
+    domains = (patrol_cfg or {}).get('domains') or {}
+    hits = []
+    for code, spec in domains.items():
+        terms = spec.get('terms') or []
+        if any(str(term).lower() in low for term in terms if str(term).strip()):
+            hits.append(code)
+    return hits
+
+
+def patrol_observation_decision(item: RawItem, base: Decision, patrol_cfg: dict | None = None) -> Decision:
+    """Keep only public, event-level global developments with a plausible China transmission path."""
+    text = f"{item.title} {item.snippet or ''}"
+    domains = patrol_domain_hits(text, patrol_cfg)
+    if base.relation != 'unrelated' or not domains:
+        return base
+    triggers = (patrol_cfg or {}).get('global_trigger_terms') or []
+    if not any(str(term).lower() in text.lower() for term in triggers if str(term).strip()):
+        return base
+    if item.source_kind not in {'news', 'official', 'think_tank', 'social'}:
+        return base
+    labels = ((patrol_cfg or {}).get('domains') or {})
+    names = [str((labels.get(code) or {}).get('label_zh') or code) for code in domains[:3]]
+    return Decision('potential', f"命中全球安全领域{'、'.join(names)}及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池", [], 48, 'global-patrol-rules-v1')
+
+
+def patrol_annotation(text: str, decision: Decision, patrol_cfg: dict | None = None) -> dict:
+    domains = patrol_domain_hits(text, patrol_cfg)
+    if decision.relation == 'direct': level = '直接关联'
+    elif decision.relation == 'indirect': level = '高传导关联'
+    elif decision.relation == 'potential': level = '观察关联'
+    else: level = '无关联'
+    return {'patrol_domains': domains, 'china_association_level': level}
 
 def canonicalize_url(url: str) -> str:
     try:
@@ -551,31 +592,74 @@ def classify_ai_batch(items: list[RawItem], metadata: list[dict], interests: dic
         return [heuristic_decision(x, interests, social=social) for x in items]
 
 
-def classify_items(items: list[RawItem], interests: dict, social=False) -> list[tuple[RawItem, Decision]]:
+def classify_items(items: list[RawItem], interests: dict, social=False, patrol_cfg: dict | None = None) -> list[tuple[RawItem, Decision]]:
     direct, candidates, metas = [], [], []
     for item in items:
         text = f"{item.title} {item.snippet or ''}"
         if DIRECT_TERMS.search(text):
-            direct.append((item, heuristic_decision(item, interests, social=social))); continue
+            direct.append((item, patrol_observation_decision(item, heuristic_decision(item, interests, social=social), patrol_cfg))); continue
         ok, meta = candidate_meta(item, interests)
-        if not ok: continue
-        if OPENAI_API_KEY: candidates.append(item); metas.append(meta)
+        if not ok:
+            patrol = patrol_observation_decision(item, Decision('unrelated', '', [], 70, 'rules'), patrol_cfg)
+            if patrol.relation != 'unrelated': direct.append((item, patrol))
+            continue
+        if OPENAI_API_KEY:
+            candidates.append(item); metas.append(meta)
         else:
-            d = heuristic_decision(item, interests, social=social)
+            d = patrol_observation_decision(item, heuristic_decision(item, interests, social=social), patrol_cfg)
             if d.relation != 'unrelated': direct.append((item,d))
     if OPENAI_API_KEY:
         for start in range(0, len(candidates), CLASSIFIER_BATCH):
             batch, meta = candidates[start:start+CLASSIFIER_BATCH], metas[start:start+CLASSIFIER_BATCH]
             for item, d in zip(batch, classify_ai_batch(batch, meta, interests, social=social)):
+                d = patrol_observation_decision(item, d, patrol_cfg)
                 if d.relation != 'unrelated': direct.append((item,d))
     return direct
-
 
 def article_record(item: RawItem, decision: Decision, collected_at: datetime) -> dict:
     canon = canonicalize_url(item.url); key = hashlib.sha256(canon.encode('utf-8',errors='ignore')).hexdigest()[:20]
     sev, _ = severity(f"{item.title} {item.snippet or ''}")
     return {'id':key,'title':item.title,'snippet':item.snippet or '','source':item.source_name,'source_kind':item.source_kind,'country':item.source_country or '','language':item.language or '','published_at':iso(item.published_at),'collected_at':iso(collected_at),'url':item.url,'canonical_url':canon,'relation':decision.relation,'reason':decision.reason,'entities':decision.entities,'confidence':decision.confidence,'classifier':decision.classifier,'severity':sev}
 
+
+def raw_news_record(item: RawItem, collected_at: datetime) -> dict:
+    canon = canonicalize_url(item.url)
+    key = hashlib.sha256(canon.encode('utf-8', errors='ignore')).hexdigest()[:20]
+    return {
+        'id': key, 'title': item.title, 'snippet': item.snippet or '', 'source': item.source_name,
+        'source_kind': item.source_kind, 'country': item.source_country or '', 'language': item.language or '',
+        'published_at': iso(item.published_at), 'collected_at': iso(collected_at), 'url': item.url,
+        'canonical_url': canon, 'time_basis': 'published_at' if item.published_at else 'collected_at_unverified',
+    }
+
+
+def dedupe_raw_news(items: list[RawItem], collected_at: datetime, window_hours: int) -> list[dict]:
+    cutoff = collected_at - timedelta(hours=window_hours)
+    grouped: dict[str, dict] = {}
+    for item in items:
+        if item.published_at and item.published_at < cutoff:
+            continue
+        rec = raw_news_record(item, collected_at)
+        title_key = re.sub(r'[^\w\u4e00-\u9fff]+', '', (item.title or '').lower())[:240]
+        day = str(rec.get('published_at') or rec.get('collected_at') or '')[:10]
+        key = f"title:{title_key}:{day}" if title_key else f"url:{rec['canonical_url']}"
+        existing = grouped.get(key)
+        if existing is None:
+            rec['source_mentions'] = [rec['source']]
+            rec['related_urls'] = [rec['url']]
+            grouped[key] = rec
+            continue
+        if rec['source'] not in existing['source_mentions']:
+            existing['source_mentions'].append(rec['source'])
+        if rec['url'] not in existing['related_urls']:
+            existing['related_urls'].append(rec['url'])
+        if len(rec.get('snippet') or '') > len(existing.get('snippet') or ''):
+            existing['snippet'] = rec['snippet']
+    out = list(grouped.values())
+    for rec in out:
+        rec['source_count'] = len(rec.get('source_mentions') or [])
+    out.sort(key=lambda r: r.get('published_at') or r.get('collected_at') or '', reverse=True)
+    return out
 
 def signal_record(raw: dict, decision: Decision, collected_at: datetime) -> dict:
     text = compact_text(raw.get('text'), 1800); rid = raw.get('id') or hashlib.sha256(f"{raw.get('platform')}:{raw.get('url')}:{text}".encode('utf-8')).hexdigest()[:20]
@@ -716,22 +800,32 @@ async def run(mode='all', manual_query='', rebuild_only=False):
     started=datetime.now(timezone.utc); DATA_DIR.mkdir(parents=True,exist_ok=True)
     sources=load_yaml(SOURCES_FILE).get('sources',[]); interests=load_interests(); tiers=load_yaml(TIERS_FILE); social_cfg=load_yaml(SOCIAL_FILE)
     existing_articles=load_json_list(ARTICLES_FILE); existing_signals=load_json_list(SIGNALS_FILE)
+    raw_news=load_json_list(RAW_NEWS_FILE)
     previous_events=load_json_list(EVENTS_FILE)
     signal_taxonomy=load_yaml(SIGNAL_TAXONOMY_FILE)
+    patrol_cfg=load_patrol_matrix()
     errors=[]; platform_status=[]; items_seen=items_new=items_relevant=signals_seen=signals_relevant=0
 
     if mode in {'all','news'} and not rebuild_only:
         log(f'news crawl: {len(sources)} sources; MAX_PER_SOURCE={MAX_PER_SOURCE}; AI={"on" if OPENAI_API_KEY else "off"}')
         seen_urls={r.get('canonical_url') or canonicalize_url(r.get('url','')) for r in existing_articles if r.get('url')}
         items, errors = await collect_news(sources, manual_query)
-        items_seen=len(items); unique={}
+        items_seen=len(items)
+        raw_news=dedupe_raw_news(items, datetime.now(timezone.utc), int(patrol_cfg.get('window_hours') or 48))
+        RAW_NEWS_FILE.write_text(json.dumps(raw_news,ensure_ascii=False,indent=2),encoding='utf-8')
+        unique={}
         for item in items:
             canon=canonicalize_url(item.url)
             if not canon or canon in seen_urls: continue
             unique.setdefault(canon,item)
         new_items=list(unique.values()); items_new=len(new_items)
-        relevant=classify_items(new_items,interests,social=False); now=datetime.now(timezone.utc)
-        new_records=[article_record(i,d,now) for i,d in relevant]; items_relevant=len(new_records)
+        relevant=classify_items(new_items,interests,social=False,patrol_cfg=patrol_cfg); now=datetime.now(timezone.utc)
+        new_records=[]
+        for item, decision in relevant:
+            record=article_record(item,decision,now)
+            record.update(patrol_annotation(f"{item.title} {item.snippet or ''}", decision, patrol_cfg))
+            new_records.append(record)
+        items_relevant=len(new_records)
         existing_articles=merge_by_id(existing_articles,new_records,RETENTION_DAYS,MAX_STORED)
         ARTICLES_FILE.write_text(json.dumps(existing_articles,ensure_ascii=False,indent=2),encoding='utf-8')
 
@@ -811,14 +905,14 @@ async def run(mode='all', manual_query='', rebuild_only=False):
     LATEST_FILE.write_text(json.dumps(latest,ensure_ascii=False,indent=2),encoding='utf-8')
     status={
         'version':'0.5.0','mode':mode,'manual_query':manual_query,'started_at':iso(started),'finished_at':iso(datetime.now(timezone.utc)),
-        'sources_scanned':len(sources) if mode in {'all','news'} and not rebuild_only else 0,'items_seen':items_seen,'items_new':items_new,'items_relevant':items_relevant,
+        'sources_scanned':len(sources) if mode in {'all','news'} and not rebuild_only else 0,'raw_news_48h':len(raw_news),'patrol_window_hours':int(patrol_cfg.get('window_hours') or 48),'items_seen':items_seen,'items_new':items_new,'items_relevant':items_relevant,
         'signals_seen':signals_seen,'signals_relevant':signals_relevant,'social_review_total':len(social_review),'social_review_accepted':sum(1 for x in social_review if x.get('accepted')),'stored_articles':len(existing_articles),'stored_signals':len(existing_signals),'events':len(events),'latest_events':len(latest),
         'errors':len(errors),'error_samples':errors[:25],'platform_status':platform_status,'ai_enabled':bool(OPENAI_API_KEY),'classifier':OPENAI_MODEL if OPENAI_API_KEY else 'rules',
         'translation': translation_status,
         'retention_days':RETENTION_DAYS,'signal_retention_days':SIGNAL_RETENTION_DAYS,'max_per_source':MAX_PER_SOURCE,
     }
     STATUS_FILE.write_text(json.dumps(status,ensure_ascii=False,indent=2),encoding='utf-8')
-    build_site(ROOT,existing_articles,existing_signals,events,latest,status,sources,platform_status,tiers,social_review)
+    build_site(ROOT,existing_articles,existing_signals,events,latest,status,sources,platform_status,tiers,social_review,raw_news)
     log(f'done: articles={len(existing_articles)} signals={len(existing_signals)} events={len(events)} latest={len(latest)}')
     return status
 
