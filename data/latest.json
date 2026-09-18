@@ -1,7 +1,7 @@
 [
   {
-    "id": "45941c797622a14f35c8",
-    "title": "美议员提法案 吁制裁致黎智英和政治犯死亡的中港人员 港府谴责称是恫吓",
+    "id": "4e283539bba67750bde4",
+    "title": "中国官方：吉隆口岸562人死亡失踪 灾情正进一步核查",
     "language": "zh",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -10,26 +10,25 @@
     "risk_category": "personnel_security",
     "risk_category_en": "Personnel Security",
     "risk_categories": [
-      "personnel_security",
-      "trade_regulatory"
+      "personnel_security"
     ],
     "matched_risk_terms": [
-      "死亡",
-      "制裁"
+      "失踪",
+      "死亡"
     ],
     "severity": "high",
     "priority_score": 88,
     "confidence_score": 52,
-    "importance_score": 68,
+    "importance_score": 69,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 65,
     "exposure_score": 100,
-    "freshness_score": 88,
+    "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-09-18T06:14:09+00:00",
-    "last_seen": "2026-09-18T06:14:09+00:00",
+    "first_seen": "2026-09-18T12:16:41.823556+00:00",
+    "last_seen": "2026-09-18T12:16:41.823556+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -37,7 +36,7 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "France"
+      "Singapore"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -53,6 +52,95 @@
     },
     "history": [
       {
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-18T12:16:41.823556+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 88,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "9f2d20e04b946125ca29",
+        "origin_type": "news",
+        "source": "联合早报 Lianhe Zaobao · 中国",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "中国官方：吉隆口岸562人死亡失踪 灾情正进一步核查",
+        "url": "https://www.zaobao.com.sg/news/china/story20260918-9699028",
+        "published_at": null,
+        "collected_at": "2026-09-18T12:16:41.823556+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "zaobao"
+      }
+    ],
+    "title_original": "中国官方：吉隆口岸562人死亡失踪 灾情正进一步核查",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "中国官方：吉隆口岸562人死亡失踪 灾情正进一步核查",
+    "title_en": "中国官方：吉隆口岸562人死亡失踪 灾情正进一步核查",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "45941c797622a14f35c8",
+    "title": "美议员提法案 吁制裁致黎智英和政治犯死亡的中港人员 港府谴责称是恫吓",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "escalating",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security",
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "死亡",
+      "制裁"
+    ],
+    "severity": "high",
+    "priority_score": 79,
+    "confidence_score": 52,
+    "importance_score": 66,
+    "china_relevance_score": 100,
+    "novelty_score": 82,
+    "momentum_score": 28,
+    "exposure_score": 100,
+    "freshness_score": 75,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-09-18T06:14:09+00:00",
+    "last_seen": "2026-09-18T06:14:09+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "France"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "人员安全信号；正在升级或扩散；新颖度82 / 动量28。",
+    "why_now_en": "Personnel Security signal; is escalating or spreading; novelty 82 / momentum 28.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
         "observed_at": "2026-09-18T09:04:42.540735+00:00",
         "last_seen": "2026-09-18T06:14:09+00:00",
         "lifecycle": "emerging",
@@ -60,6 +148,17 @@
         "confidence_score": 52,
         "novelty_score": 100,
         "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-18T06:14:09+00:00",
+        "lifecycle": "escalating",
+        "priority_score": 79,
+        "confidence_score": 52,
+        "novelty_score": 82,
+        "momentum_score": 28,
         "source_count": 1,
         "evidence_count": 1
       }
@@ -89,210 +188,121 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "b473b83a99ecc87e42d7",
-    "title": "WATCH: China Coast Guard vessel rams BFAR ship off Palawan",
+    "id": "21c5aa8a41661620f3e6",
+    "title": "At least 16 killed in suicide attack on police facility in northwest Pakistan",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "军事安全",
-    "risk_category": "military_security",
-    "risk_category_en": "Military & Security",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
     "risk_categories": [
-      "military_security"
+      "personnel_security"
     ],
     "matched_risk_terms": [
-      "coast guard"
+      "killed"
     ],
-    "severity": "medium",
-    "priority_score": 81,
+    "severity": "high",
+    "priority_score": 75,
     "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 100,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-09-18T09:04:40.642517+00:00",
-    "last_seen": "2026-09-18T09:04:40.642517+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Philippines"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-09-18T09:04:42.540735+00:00",
-        "last_seen": "2026-09-18T09:04:40.642517+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 81,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "3e2d26f309ef45eaca0e",
-        "origin_type": "news",
-        "source": "The Philippine Star",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "WATCH: China Coast Guard vessel rams BFAR ship off Palawan",
-        "url": "https://www.philstar.com/headlines/2026/09/18/2557168/watch-china-coast-guard-vessel-rams-bfar-ship-palawan",
-        "published_at": null,
-        "collected_at": "2026-09-18T09:04:40.642517+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "philstar.com"
-      }
-    ],
-    "title_original": "WATCH: China Coast Guard vessel rams BFAR ship off Palawan",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "WATCH: China Coast Guard vessel rams BFAR ship off Palawan",
-    "title_zh": "观看：中国海警船在巴拉望岛冲撞 BFAR 船",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "de8c746db991835e4909",
-    "title": "Trump may hold his ‘excess’ China tariff fire for now",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "安全生产",
-    "risk_category": "safety_production_domestic",
-    "risk_category_en": "Safety & Production",
-    "risk_categories": [
-      "safety_production_domestic",
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "fire",
-      "tariff"
-    ],
-    "severity": "medium",
-    "priority_score": 80,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 97,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-09-18T09:04:40.642517+00:00",
-    "last_seen": "2026-09-18T09:04:40.642517+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "India"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "安全生产信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Safety & Production signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-09-18T09:04:42.540735+00:00",
-        "last_seen": "2026-09-18T09:04:40.642517+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 80,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "cad621a8ce7d4ce77d21",
-        "origin_type": "news",
-        "source": "The Economic Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Trump may hold his ‘excess’ China tariff fire for now",
-        "url": "https://economictimes.indiatimes.com/news/international/world-news/us-expected-to-delay-excess-capacity-tariffs-until-after-xi-summit-report/articleshow/134323595.cms",
-        "published_at": null,
-        "collected_at": "2026-09-18T09:04:40.642517+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "economictimes.indiatimes.com"
-      }
-    ],
-    "title_original": "Trump may hold his ‘excess’ China tariff fire for now",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Trump may hold his ‘excess’ China tariff fire for now",
-    "title_zh": "特朗普可能暂时不会对中国实施“过度”关税",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "401866cc979465ac6022",
-    "title": "Houthi ballistic missile reportedly hits King Fahd Port in Saudi Arabia",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "军事安全",
-    "risk_category": "military_security",
-    "risk_category_en": "Military & Security",
-    "risk_categories": [
-      "military_security"
-    ],
-    "matched_risk_terms": [
-      "missile"
-    ],
-    "severity": "critical",
-    "priority_score": 80,
-    "confidence_score": 39,
-    "importance_score": 77,
+    "importance_score": 65,
     "china_relevance_score": 58,
     "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 96,
+    "momentum_score": 65,
+    "exposure_score": 95,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-09-18T12:16:41.823556+00:00",
+    "last_seen": "2026-09-18T12:16:41.823556+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Sri Lanka"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Sri Lanka; 中国关联利益=印度洋, 港口, 债务, 基础设施, 中印竞争; 中国关联实体/项目=Hambantota Port, Colombo Port City, China Merchants Port | 事件关联地区=Pakistan; 中国关联利益=中巴经济走廊, 瓜达尔港, 中国公民安全, 电力, 基础设施, 反恐, 印巴关系; 中国关联实体/项目=CPEC, Gwadar Port, Chinese power projects",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-18T12:16:41.823556+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 75,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "9b295b3bbcc7e7aa2e7a",
+        "origin_type": "news",
+        "source": "Daily Mirror Sri Lanka",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "At least 16 killed in suicide attack on police facility in northwest Pakistan",
+        "url": "https://www.dailymirror.lk/international/At-least-16-killed-in-suicide-attack-on-police-facility-in-northwest-Pakistan/107-350626",
+        "published_at": null,
+        "collected_at": "2026-09-18T12:16:41.823556+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "dailymirror.lk"
+      }
+    ],
+    "title_original": "At least 16 killed in suicide attack on police facility in northwest Pakistan",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Sri Lanka; 中国关联利益=印度洋, 港口, 债务, 基础设施, 中印竞争; 中国关联实体/项目=Hambantota Port, Colombo Port City, China Merchants Port | 事件关联地区=Pakistan; 中国关联利益=中巴经济走廊, 瓜达尔港, 中国公民安全, 电力, 基础设施, 反恐, 印巴关系; 中国关联实体/项目=CPEC, Gwadar Port, Chinese power projects",
+    "title_en": "At least 16 killed in suicide attack on police facility in northwest Pakistan",
+    "title_zh": "At least 16 killed in suicide attack on police facility in northwest Pakistan",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Sri Lanka; 中国关联利益=印度洋, 港口, 债务, 基础设施, 中印竞争; 中国关联实体/项目=Hambantota Port, Colombo Port City, China Merchants Port | 事件关联地区=Pakistan; 中国关联利益=中巴经济走廊, 瓜达尔港, 中国公民安全, 电力, 基础设施, 反恐, 印巴关系; 中国关联实体/项目=CPEC, Gwadar Port, Chinese power projects",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Sri Lanka."
+  },
+  {
+    "id": "5f94104bde9c0e4c88aa",
+    "title": "IBBU student reportedly killed by stray bullet during military operation in Niger",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security"
+    ],
+    "matched_risk_terms": [
+      "killed"
+    ],
+    "severity": "high",
+    "priority_score": 75,
+    "confidence_score": 39,
+    "importance_score": 64,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 95,
     "freshness_score": 97,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-09-18T08:25:59+00:00",
-    "last_seen": "2026-09-18T08:25:59+00:00",
+    "first_seen": "2026-09-18T11:31:15+00:00",
+    "last_seen": "2026-09-18T11:31:15+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -300,12 +310,12 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "United Kingdom"
+      "Nigeria"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=Saudi Arabia; 中国关联利益=石油, 人民币结算讨论, 新能源, 中东外交, 炼化, 数字经济; 中国关联实体/项目=Sinopec, Aramco-China projects, Huawei",
-    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -316,127 +326,40 @@
     },
     "history": [
       {
-        "observed_at": "2026-09-18T09:04:42.540735+00:00",
-        "last_seen": "2026-09-18T08:25:59+00:00",
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-18T11:31:15+00:00",
         "lifecycle": "emerging",
-        "priority_score": 80,
+        "priority_score": 75,
         "confidence_score": 39,
         "novelty_score": 100,
-        "momentum_score": 55,
+        "momentum_score": 65,
         "source_count": 1,
         "evidence_count": 1
       }
     ],
     "evidence": [
       {
-        "id": "751b1d4ff406d45aaa67",
+        "id": "f4a250bdae753d177ea0",
         "origin_type": "news",
-        "source": "Middle East Eye",
+        "source": "Premium Times",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Houthi ballistic missile reportedly hits King Fahd Port in Saudi Arabia",
-        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-ballistic-missile-reportedly-hits-king-fahd-port-saudi-arabia",
-        "published_at": "2026-09-18T08:25:59+00:00",
-        "collected_at": "2026-09-18T09:04:40.642517+00:00",
+        "title": "IBBU student reportedly killed by stray bullet during military operation in Niger",
+        "url": "https://www.premiumtimesng.com/news/top-news/910558-ibbu-student-reportedly-killed-by-stray-bullet-during-military-operation-in-niger-2.html",
+        "published_at": "2026-09-18T11:31:15+00:00",
+        "collected_at": "2026-09-18T12:16:41.823556+00:00",
         "relation": "potential",
         "confidence": 62,
-        "publisher_family": "middleeasteye.net"
+        "publisher_family": "premiumtimesng.com"
       }
     ],
-    "title_original": "Houthi ballistic missile reportedly hits King Fahd Port in Saudi Arabia",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=Saudi Arabia; 中国关联利益=石油, 人民币结算讨论, 新能源, 中东外交, 炼化, 数字经济; 中国关联实体/项目=Sinopec, Aramco-China projects, Huawei",
-    "title_en": "Houthi ballistic missile reportedly hits King Fahd Port in Saudi Arabia",
-    "title_zh": "据报道，胡塞武装弹道导弹击中沙特阿拉伯法赫德国王港",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=Saudi Arabia; 中国关联利益=石油, 人民币结算讨论, 新能源, 中东外交, 炼化, 数字经济; 中国关联实体/项目=Sinopec, Aramco-China projects, Huawei",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related region = United Kingdom; China-related interests = Sino-British relations, finance, Hong Kong issues, investment review, technology, nuclear power, education, intelligence security; China-related entities/projects = Huawei, CGN, HSBC China exposure, TikTok | Event-related region = Saudi Arabia; China-related interests = oil, RMB settlement discussion, new energy, Middle East diplomacy, Refining and chemicals, digital economy; Chinese related entities/projects=Sinopec, Aramco-China projects, Huawei"
-  },
-  {
-    "id": "af8fba3acdc4dd9bf163",
-    "title": "‘Intentional ramming’: China Coast Guard damages Philippine ship in West PH Sea",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "军事安全",
-    "risk_category": "military_security",
-    "risk_category_en": "Military & Security",
-    "risk_categories": [
-      "military_security"
-    ],
-    "matched_risk_terms": [
-      "coast guard"
-    ],
-    "severity": "medium",
-    "priority_score": 80,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 100,
-    "freshness_score": 95,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-09-18T07:52:26+00:00",
-    "last_seen": "2026-09-18T07:52:26+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Philippines"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-09-18T09:04:42.540735+00:00",
-        "last_seen": "2026-09-18T07:52:26+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 80,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "2044ed626ba1f9ca0d53",
-        "origin_type": "news",
-        "source": "Rappler",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "‘Intentional ramming’: China Coast Guard damages Philippine ship in West PH Sea",
-        "url": "https://www.rappler.com/philippines/china-coast-guard-ramming-bfar-ship-datu-magat-salamat/",
-        "published_at": "2026-09-18T07:52:26+00:00",
-        "collected_at": "2026-09-18T09:04:40.642517+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "rappler.com"
-      }
-    ],
-    "title_original": "‘Intentional ramming’: China Coast Guard damages Philippine ship in West PH Sea",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "‘Intentional ramming’: China Coast Guard damages Philippine ship in West PH Sea",
-    "title_zh": "“故意撞击”：中国海警在西菲律宾海损坏菲律宾船只",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+    "title_original": "IBBU student reportedly killed by stray bullet during military operation in Niger",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
+    "title_en": "IBBU student reportedly killed by stray bullet during military operation in Niger",
+    "title_zh": "IBBU student reportedly killed by stray bullet during military operation in Niger",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Nigeria; China-related interests = railways, ports, telecommunications, petroleum, Chinese-funded enterprises and personnel security; Chinese-related entities/projects = CCECC, Huawei, Lekki-related Chinese investment"
   },
   {
     "id": "936f5ac7ffaad52b8fd9",
@@ -455,14 +378,14 @@
       "sanctions"
     ],
     "severity": "high",
-    "priority_score": 78,
+    "priority_score": 75,
     "confidence_score": 52,
-    "importance_score": 67,
+    "importance_score": 64,
     "china_relevance_score": 100,
-    "novelty_score": 95,
+    "novelty_score": 82,
     "momentum_score": 12,
     "exposure_score": 89,
-    "freshness_score": 81,
+    "freshness_score": 67,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-09-18T04:27:18+00:00",
@@ -478,8 +401,8 @@
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新颖度95 / 动量12。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新颖度82 / 动量12。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; novelty 82 / momentum 12.",
     "previous_event_matched": true,
     "previous_match_score": 0.84,
     "change": {
@@ -510,6 +433,17 @@
         "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-18T04:27:18+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 75,
+        "confidence_score": 52,
+        "novelty_score": 82,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -537,34 +471,34 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "d9149698edd529bf7b0c",
-    "title": "UN says US strikes on Iran school that killed over 150 may amount to war crimes",
-    "language": "en",
+    "id": "6964ecde4f6be91a8527",
+    "title": "河北邢台汽车城爆火灾 烈火烧红夜空（视频）",
+    "language": "zh",
     "status": "报道中",
     "evidence_status": "报道中",
-    "lifecycle": "escalating",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
+    "lifecycle": "emerging",
+    "category": "安全生产",
+    "risk_category": "safety_production_domestic",
+    "risk_category_en": "Safety & Production",
     "risk_categories": [
-      "personnel_security"
+      "safety_production_domestic"
     ],
     "matched_risk_terms": [
-      "killed"
+      "火灾"
     ],
-    "severity": "high",
-    "priority_score": 76,
-    "confidence_score": 52,
-    "importance_score": 56,
+    "severity": "low",
+    "priority_score": 74,
+    "confidence_score": 39,
+    "importance_score": 39,
     "china_relevance_score": 100,
-    "novelty_score": 82,
-    "momentum_score": 28,
-    "exposure_score": 100,
-    "freshness_score": 13,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 97,
+    "freshness_score": 94,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-09-17T12:16:05+00:00",
-    "last_seen": "2026-09-17T12:16:05+00:00",
+    "first_seen": "2026-09-18T10:47:23+00:00",
+    "last_seen": "2026-09-18T10:47:23+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -572,76 +506,54 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Hong Kong"
+      "China"
     ],
     "entities": [],
     "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "人员安全信号；正在升级或扩散；新颖度82 / 动量28。",
-    "why_now_en": "Personnel Security signal; is escalating or spreading; novelty 82 / momentum 28.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
+    "why_now_zh": "安全生产信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Safety & Production signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
     "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
+      "new_sources": 1,
+      "new_evidence": 1,
       "severity_change": 0,
       "official_added": false
     },
     "history": [
       {
-        "observed_at": "2026-09-17T12:38:10.350956+00:00",
-        "last_seen": "2026-09-17T12:16:05+00:00",
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-18T10:47:23+00:00",
         "lifecycle": "emerging",
-        "priority_score": 88,
-        "confidence_score": 52,
+        "priority_score": 74,
+        "confidence_score": 39,
         "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-09-18T04:44:08.047236+00:00",
-        "last_seen": "2026-09-17T12:16:05+00:00",
-        "lifecycle": "escalating",
-        "priority_score": 77,
-        "confidence_score": 52,
-        "novelty_score": 82,
-        "momentum_score": 28,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-09-18T09:04:42.540735+00:00",
-        "last_seen": "2026-09-17T12:16:05+00:00",
-        "lifecycle": "escalating",
-        "priority_score": 76,
-        "confidence_score": 52,
-        "novelty_score": 82,
-        "momentum_score": 28,
+        "momentum_score": 55,
         "source_count": 1,
         "evidence_count": 1
       }
     ],
     "evidence": [
       {
-        "id": "47b65aab85bd9ff413fa",
+        "id": "965208ae983a5a7941ac",
         "origin_type": "news",
-        "source": "South China Morning Post (SCMP)",
+        "source": "大纪元 Epoch Times · 大陆",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "UN says US strikes on Iran school that killed over 150 may amount to war crimes",
-        "url": "https://www.scmp.com/news/world/middle-east/article/3367887/un-says-us-strikes-iran-school-killed-over-150-may-amount-war-crimes?utm_source=rss_feed",
-        "published_at": "2026-09-17T12:16:05+00:00",
-        "collected_at": "2026-09-17T12:38:08.484696+00:00",
+        "title": "河北邢台汽车城爆火灾 烈火烧红夜空（视频）",
+        "url": "https://www.epochtimes.com/gb/26/9/18/n14852030.htm",
+        "published_at": "2026-09-18T10:47:23+00:00",
+        "collected_at": "2026-09-18T12:16:41.823556+00:00",
         "relation": "direct",
         "confidence": 88,
-        "publisher_family": "scmp"
+        "publisher_family": "epochtimes"
       }
     ],
-    "title_original": "UN says US strikes on Iran school that killed over 150 may amount to war crimes",
+    "title_original": "河北邢台汽车城爆火灾 烈火烧红夜空（视频）",
     "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "title_en": "UN says US strikes on Iran school that killed over 150 may amount to war crimes",
-    "title_zh": "联合国称美国袭击伊朗学校造成150多人死亡可能构成战争罪",
+    "title_zh": "河北邢台汽车城爆火灾 烈火烧红夜空（视频）",
+    "title_en": "河北邢台汽车城爆火灾 烈火烧红夜空（视频）",
     "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
     "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
   },
@@ -662,14 +574,14 @@
       "制裁"
     ],
     "severity": "high",
-    "priority_score": 75,
+    "priority_score": 74,
     "confidence_score": 52,
-    "importance_score": 64,
+    "importance_score": 62,
     "china_relevance_score": 100,
     "novelty_score": 82,
     "momentum_score": 12,
     "exposure_score": 89,
-    "freshness_score": 62,
+    "freshness_score": 48,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-09-17T23:52:43+00:00",
@@ -717,6 +629,17 @@
         "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-17T23:52:43+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 52,
+        "novelty_score": 82,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -744,94 +667,6 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "aebe08b5fe318f9b98c4",
-    "title": "Two suspected terrorists who attacked police facility arrested – Official",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security"
-    ],
-    "matched_risk_terms": [
-      "attacked",
-      "arrested"
-    ],
-    "severity": "high",
-    "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 64,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 95,
-    "freshness_score": 95,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-09-18T07:46:50+00:00",
-    "last_seen": "2026-09-18T07:46:50+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Nigeria"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-09-18T09:04:42.540735+00:00",
-        "last_seen": "2026-09-18T07:46:50+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "f850f5a9b7397fe7fd27",
-        "origin_type": "news",
-        "source": "Premium Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Two suspected terrorists who attacked police facility arrested – Official",
-        "url": "https://www.premiumtimesng.com/regional/ssouth-east/910509-two-suspected-terrorists-who-attacked-police-facility-arrested-official.html",
-        "published_at": "2026-09-18T07:46:50+00:00",
-        "collected_at": "2026-09-18T09:04:40.642517+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "premiumtimesng.com"
-      }
-    ],
-    "title_original": "Two suspected terrorists who attacked police facility arrested – Official",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
-    "title_en": "Two suspected terrorists who attacked police facility arrested – Official",
-    "title_zh": "两名袭击警察设施的恐怖分子嫌疑人被捕——官方",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Nigeria; China-related interests = railways, ports, telecommunications, petroleum, Chinese-funded enterprises and personnel security; Chinese-related entities/projects = CCECC, Huawei, Lekki-related Chinese investment"
-  },
-  {
     "id": "a0b28d2d6276f395e66e",
     "title": "US Senator Shaheen: China Will Feel Impact Of Russia Sanctions",
     "language": "en",
@@ -850,12 +685,12 @@
     "severity": "high",
     "priority_score": 74,
     "confidence_score": 39,
-    "importance_score": 58,
+    "importance_score": 56,
     "china_relevance_score": 100,
     "novelty_score": 82,
     "momentum_score": 12,
     "exposure_score": 89,
-    "freshness_score": 52,
+    "freshness_score": 38,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-09-17T21:27:09+00:00",
@@ -903,6 +738,17 @@
         "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-17T21:27:09+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -930,34 +776,34 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "82013b6bcf5e66f0c6a3",
-    "title": "Vietnamese woman arrested for stealing Chinese tourist's luggage at Bangkok airport",
-    "language": "en",
+    "id": "30b9fd811a07ad8e9141",
+    "title": "近日，中国青少年科创教育平台“未来之星全球计划”走进迪拜，开展水上运动科创实践与交流活动，为当地学子打造沉浸式科技课堂，探索中国青少年科创教育模式与阿联酋本土教育体系深度融合。",
+    "language": "zh",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
+    "category": "民生治理",
+    "risk_category": "livelihood_governance",
+    "risk_category_en": "Livelihood & Governance",
     "risk_categories": [
-      "personnel_security"
+      "livelihood_governance"
     ],
     "matched_risk_terms": [
-      "arrested"
+      "教育"
     ],
-    "severity": "high",
-    "priority_score": 74,
+    "severity": "low",
+    "priority_score": 73,
     "confidence_score": 39,
-    "importance_score": 52,
+    "importance_score": 40,
     "china_relevance_score": 100,
-    "novelty_score": 82,
-    "momentum_score": 12,
-    "exposure_score": 100,
-    "freshness_score": 15,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 81,
+    "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-09-17T12:38:08.484696+00:00",
-    "last_seen": "2026-09-17T12:38:08.484696+00:00",
+    "first_seen": "2026-09-18T12:16:41.823556+00:00",
+    "last_seen": "2026-09-18T12:16:41.823556+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -965,83 +811,61 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Vietnam"
+      "China"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新颖度82 / 动量12。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; novelty 82 / momentum 12.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
+    "why_now_zh": "民生治理信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Livelihood & Governance signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
     "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
+      "new_sources": 1,
+      "new_evidence": 1,
       "severity_change": 0,
       "official_added": false
     },
     "history": [
       {
-        "observed_at": "2026-09-17T12:38:10.350956+00:00",
-        "last_seen": "2026-09-17T12:38:08.484696+00:00",
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-18T12:16:41.823556+00:00",
         "lifecycle": "emerging",
-        "priority_score": 87,
+        "priority_score": 73,
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-09-18T04:44:08.047236+00:00",
-        "last_seen": "2026-09-17T12:38:08.484696+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 82,
-        "momentum_score": 12,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-09-18T09:04:42.540735+00:00",
-        "last_seen": "2026-09-17T12:38:08.484696+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 82,
-        "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
       }
     ],
     "evidence": [
       {
-        "id": "c9ecb1713ec4e94ee24c",
+        "id": "e91af4b3f36d2f18be55",
         "origin_type": "news",
-        "source": "VnExpress International",
+        "source": "中国日报中文 China Daily Chinese",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Vietnamese woman arrested for stealing Chinese tourist's luggage at Bangkok airport",
-        "url": "https://e.vnexpress.net/news/news/crime/vietnamese-woman-arrested-for-stealing-chinese-tourist-s-luggage-at-bangkok-airport-5121445.html",
+        "title": "近日，中国青少年科创教育平台“未来之星全球计划”走进迪拜，开展水上运动科创实践与交流活动，为当地学子打造沉浸式科技课堂，探索中国青少年科创教育模式与阿联酋本土教育体系深度融合。",
+        "url": "https://cn.chinadaily.com.cn/a/202609/18/WS6aad2075e4b09a165c78b0e0.html",
         "published_at": null,
-        "collected_at": "2026-09-17T12:38:08.484696+00:00",
+        "collected_at": "2026-09-18T12:16:41.823556+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "e.vnexpress.net"
+        "publisher_family": "chinadaily"
       }
     ],
-    "title_original": "Vietnamese woman arrested for stealing Chinese tourist's luggage at Bangkok airport",
+    "title_original": "近日，中国青少年科创教育平台“未来之星全球计划”走进迪拜，开展水上运动科创实践与交流活动，为当地学子打造沉浸式科技课堂，探索中国青少年科创教育模式与阿联酋本土教育体系深度融合。",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Vietnamese woman arrested for stealing Chinese tourist's luggage at Bangkok airport",
-    "title_zh": "越南女子在曼谷机场偷窃中国游客行李被捕",
+    "title_zh": "近日，中国青少年科创教育平台“未来之星全球计划”走进迪拜，开展水上运动科创实践与交流活动，为当地学子打造沉浸式科技课堂，探索中国青少年科创教育模式与阿联酋本土教育体系深度融合。",
+    "title_en": "近日，中国青少年科创教育平台“未来之星全球计划”走进迪拜，开展水上运动科创实践与交流活动，为当地学子打造沉浸式科技课堂，探索中国青少年科创教育模式与阿联酋本土教育体系深度融合。",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "f43b87467e586a814766",
-    "title": "US-India ties, trade talks: What to watch as Russia sanctions bill goes to Trump",
-    "language": "en",
+    "id": "10dad7a79a351f03af4a",
+    "title": "Laurent Nunez déprogrammé des médias Bolloré CNews et Europe 1, quelques jours après avoir menacé la chaîne d’info de sanctions pénales",
+    "language": "fr",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
@@ -1062,7 +886,96 @@
     "novelty_score": 100,
     "momentum_score": 55,
     "exposure_score": 84,
-    "freshness_score": 100,
+    "freshness_score": 99,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-09-18T12:00:26+00:00",
+    "last_seen": "2026-09-18T12:00:26+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "France"
+    ],
+    "entities": [],
+    "reason": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-18T12:00:26+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "d63ac8b57ad0f63e25e8",
+        "origin_type": "news",
+        "source": "Le Monde",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Laurent Nunez déprogrammé des médias Bolloré CNews et Europe 1, quelques jours après avoir menacé la chaîne d’info de sanctions pénales",
+        "url": "https://www.lemonde.fr/politique/article/2026/09/18/laurent-nunez-deprogramme-des-medias-bollore-cnews-et-europe-1-quelques-jours-apres-avoir-menace-la-chaine-d-info-de-sanctions-penales_6776782_823448.html",
+        "published_at": "2026-09-18T12:00:26+00:00",
+        "collected_at": "2026-09-18T12:16:41.823556+00:00",
+        "relation": "potential",
+        "confidence": 48,
+        "publisher_family": "lemonde.fr"
+      }
+    ],
+    "title_original": "Laurent Nunez déprogrammé des médias Bolloré CNews et Europe 1, quelques jours après avoir menacé la chaîne d’info de sanctions pénales",
+    "reason_original": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "title_en": "Laurent Nunez déprogrammé des médias Bolloré CNews et Europe 1, quelques jours après avoir menacé la chaîne d’info de sanctions pénales",
+    "title_zh": "Laurent Nunez déprogrammé des médias Bolloré CNews et Europe 1, quelques jours après avoir menacé la chaîne d’info de sanctions pénales",
+    "reason_zh": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "reason_en": "Hits the public events of great power competition and escalation/disruption in the global security field; no direct evidence involving China has been found yet, and it is included in the pool according to conduction observation"
+  },
+  {
+    "id": "de8c746db991835e4909",
+    "title": "Trump may hold his ‘excess’ China tariff fire for now",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "安全生产",
+    "risk_category": "safety_production_domestic",
+    "risk_category_en": "Safety & Production",
+    "risk_categories": [
+      "safety_production_domestic",
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "fire",
+      "tariff"
+    ],
+    "severity": "medium",
+    "priority_score": 73,
+    "confidence_score": 39,
+    "importance_score": 50,
+    "china_relevance_score": 100,
+    "novelty_score": 95,
+    "momentum_score": 12,
+    "exposure_score": 97,
+    "freshness_score": 87,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-09-18T09:04:40.642517+00:00",
@@ -1077,14 +990,14 @@
       "India"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "安全生产信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Safety & Production signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
     "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
+      "new_sources": 0,
+      "new_evidence": 0,
       "severity_change": 0,
       "official_added": false
     },
@@ -1093,41 +1006,150 @@
         "observed_at": "2026-09-18T09:04:42.540735+00:00",
         "last_seen": "2026-09-18T09:04:40.642517+00:00",
         "lifecycle": "emerging",
-        "priority_score": 73,
+        "priority_score": 80,
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-18T09:04:40.642517+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
       }
     ],
     "evidence": [
       {
-        "id": "4a0b667e635f9c84cfe1",
+        "id": "cad621a8ce7d4ce77d21",
         "origin_type": "news",
-        "source": "Hindustan Times",
+        "source": "The Economic Times",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "US-India ties, trade talks: What to watch as Russia sanctions bill goes to Trump",
-        "url": "https://www.hindustantimes.com/ht-explainers/usindia-ties-trade-talks-what-to-watch-as-the-russia-sanctions-bill-heads-to-trumps-desk-101789706001159.html",
+        "title": "Trump may hold his ‘excess’ China tariff fire for now",
+        "url": "https://economictimes.indiatimes.com/news/international/world-news/us-expected-to-delay-excess-capacity-tariffs-until-after-xi-summit-report/articleshow/134323595.cms",
         "published_at": null,
         "collected_at": "2026-09-18T09:04:40.642517+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "hindustantimes.com"
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "economictimes.indiatimes.com"
       }
     ],
-    "title_original": "US-India ties, trade talks: What to watch as Russia sanctions bill goes to Trump",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
-    "title_en": "US-India ties, trade talks: What to watch as Russia sanctions bill goes to Trump",
-    "title_zh": "美印关系、贸易谈判：特朗普向俄罗斯制裁法案需关注什么",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area=India; China-related interests=China-India border, Indo-Pacific, supply chain, investment restrictions, telecommunications, manufacturing, South Asia, BRICS cooperation; China-related entities/projects=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei | Event-related area=United States; China-related interests=China-US relations, trade and tariffs, Technology and export control, semiconductors, artificial intelligence, financial sanctions, military and Indo-Pacific, Taiwan Strait; China-related entities/projects=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | Event-related regions=Russia; China-related interests=Sino-Russian relations, energy, Far East, cross-border trade, military cooperation, Arctic, Central Asia, personnel and labor; China-related entities/projects=Power of Siberia, Yamal LNG China exposure, China-Russia border trade"
+    "title_original": "Trump may hold his ‘excess’ China tariff fire for now",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Trump may hold his ‘excess’ China tariff fire for now",
+    "title_zh": "特朗普可能暂时不会对中国实施“过度”关税",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "1bee54a6b83625a0ab30",
-    "title": "CGA plans a historic 2027 visit to Philippines GEOPOLITICAL SIGNIFICANCE: The CGA’s nonmilitary role makes it a tool to avert diplomatic issues, an official said, while confirming the donation of a ship to Manila Coast Guard Administration (CGA) ships are scheduled to sail to the Philippines bearing the words “Taiwan Coast Guard” in a high-profile visit in O",
+    "id": "b473b83a99ecc87e42d7",
+    "title": "WATCH: China Coast Guard vessel rams BFAR ship off Palawan",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "军事安全",
+    "risk_category": "military_security",
+    "risk_category_en": "Military & Security",
+    "risk_categories": [
+      "military_security"
+    ],
+    "matched_risk_terms": [
+      "coast guard"
+    ],
+    "severity": "medium",
+    "priority_score": 73,
+    "confidence_score": 39,
+    "importance_score": 50,
+    "china_relevance_score": 100,
+    "novelty_score": 95,
+    "momentum_score": 12,
+    "exposure_score": 100,
+    "freshness_score": 87,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-09-18T09:04:40.642517+00:00",
+    "last_seen": "2026-09-18T09:04:40.642517+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Philippines"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-09-18T09:04:42.540735+00:00",
+        "last_seen": "2026-09-18T09:04:40.642517+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 81,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-18T09:04:40.642517+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "3e2d26f309ef45eaca0e",
+        "origin_type": "news",
+        "source": "The Philippine Star",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "WATCH: China Coast Guard vessel rams BFAR ship off Palawan",
+        "url": "https://www.philstar.com/headlines/2026/09/18/2557168/watch-china-coast-guard-vessel-rams-bfar-ship-palawan",
+        "published_at": null,
+        "collected_at": "2026-09-18T09:04:40.642517+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "philstar.com"
+      }
+    ],
+    "title_original": "WATCH: China Coast Guard vessel rams BFAR ship off Palawan",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "WATCH: China Coast Guard vessel rams BFAR ship off Palawan",
+    "title_zh": "观看：中国海警船在巴拉望岛冲撞 BFAR 船",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "af8fba3acdc4dd9bf163",
+    "title": "‘Intentional ramming’: China Coast Guard damages Philippine ship in West PH Sea",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -1152,8 +1174,8 @@
     "freshness_score": 82,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-09-18T04:44:06.900196+00:00",
-    "last_seen": "2026-09-18T04:44:06.900196+00:00",
+    "first_seen": "2026-09-18T07:52:26+00:00",
+    "last_seen": "2026-09-18T07:52:26+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1161,7 +1183,7 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Taiwan"
+      "Philippines"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -1177,10 +1199,10 @@
     },
     "history": [
       {
-        "observed_at": "2026-09-18T04:44:08.047236+00:00",
-        "last_seen": "2026-09-18T04:44:06.900196+00:00",
+        "observed_at": "2026-09-18T09:04:42.540735+00:00",
+        "last_seen": "2026-09-18T07:52:26+00:00",
         "lifecycle": "emerging",
-        "priority_score": 81,
+        "priority_score": 80,
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
@@ -1188,8 +1210,8 @@
         "evidence_count": 1
       },
       {
-        "observed_at": "2026-09-18T09:04:42.540735+00:00",
-        "last_seen": "2026-09-18T04:44:06.900196+00:00",
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-18T07:52:26+00:00",
         "lifecycle": "emerging",
         "priority_score": 73,
         "confidence_score": 39,
@@ -1201,31 +1223,31 @@
     ],
     "evidence": [
       {
-        "id": "2e06f9c28603bb2b9e5c",
+        "id": "2044ed626ba1f9ca0d53",
         "origin_type": "news",
-        "source": "Taipei Times",
+        "source": "Rappler",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "CGA plans a historic 2027 visit to Philippines GEOPOLITICAL SIGNIFICANCE: The CGA’s nonmilitary role makes it a tool to avert diplomatic issues, an official said, while confirming the donation of a ship to Manila Coast Guard Administration (CGA) ships are scheduled to sail to the Philippines bearing the words “Taiwan Coast Guard” in a high-profile visit in October next year, the first such visit by a Taiwanese maritime law enforcement vessel to the Southeast Asian nation, the agency said yesterd",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/09/18/2003864461",
-        "published_at": null,
-        "collected_at": "2026-09-18T04:44:06.900196+00:00",
+        "title": "‘Intentional ramming’: China Coast Guard damages Philippine ship in West PH Sea",
+        "url": "https://www.rappler.com/philippines/china-coast-guard-ramming-bfar-ship-datu-magat-salamat/",
+        "published_at": "2026-09-18T07:52:26+00:00",
+        "collected_at": "2026-09-18T09:04:40.642517+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "taipeitimes.com"
+        "publisher_family": "rappler.com"
       }
     ],
-    "title_original": "CGA plans a historic 2027 visit to Philippines GEOPOLITICAL SIGNIFICANCE: The CGA’s nonmilitary role makes it a tool to avert diplomatic issues, an official said, while confirming the donation of a ship to Manila Coast Guard Administration (CGA) ships are scheduled to sail to the Philippines bearing the words “Taiwan Coast Guard” in a high-profile visit in O",
+    "title_original": "‘Intentional ramming’: China Coast Guard damages Philippine ship in West PH Sea",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "CGA plans a historic 2027 visit to Philippines GEOPOLITICAL SIGNIFICANCE: The CGA’s nonmilitary role makes it a tool to avert diplomatic issues, an official said, while confirming the donation of a ship to Manila Coast Guard Administration (CGA) ships are scheduled to sail to the Philippines bearing the words “Taiwan Coast Guard” in a high-profile visit in O",
-    "title_zh": "CGA 计划于 2027 年对菲律宾进行历史性访问 地缘政治意义：一位官员表示，CGA 的非军事角色使其成为避免外交问题的工具，同时确认向马尼拉海岸警卫队管理局 (CGA) 捐赠一艘船只，计划在菲律宾高调访问时驶往菲律宾，并带有“台湾海岸警卫队”字样。",
+    "title_en": "‘Intentional ramming’: China Coast Guard damages Philippine ship in West PH Sea",
+    "title_zh": "“故意撞击”：中国海警在西菲律宾海损坏菲律宾船只",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "70661946d1b03ef78cf5",
-    "title": "Seven patients in critical condition after oil tanker explosion",
+    "id": "a5d090ac323edaf7aefb",
+    "title": "Fifteen countries call for prohibition of any attack or threat against nuclear facilities",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -1235,19 +1257,19 @@
     "risk_category_en": "",
     "risk_categories": [],
     "matched_risk_terms": [],
-    "severity": "high",
-    "priority_score": 71,
+    "severity": "low",
+    "priority_score": 72,
     "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
+    "importance_score": 39,
+    "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 65,
-    "exposure_score": 55,
-    "freshness_score": 100,
+    "exposure_score": 60,
+    "freshness_score": 93,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-09-18T09:04:40.642517+00:00",
-    "last_seen": "2026-09-18T09:04:40.642517+00:00",
+    "first_seen": "2026-09-18T10:39:59+00:00",
+    "last_seen": "2026-09-18T10:39:59+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1255,10 +1277,10 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Kenya"
+      "Iran"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Kenya; 中国关联利益=蒙内铁路, 港口, 东非物流, 债务, 电信; 中国关联实体/项目=Mombasa-Nairobi Standard Gauge Railway, Huawei",
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
     "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
     "previous_event_matched": false,
@@ -1271,10 +1293,10 @@
     },
     "history": [
       {
-        "observed_at": "2026-09-18T09:04:42.540735+00:00",
-        "last_seen": "2026-09-18T09:04:40.642517+00:00",
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-18T10:39:59+00:00",
         "lifecycle": "emerging",
-        "priority_score": 71,
+        "priority_score": 72,
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 65,
@@ -1284,57 +1306,57 @@
     ],
     "evidence": [
       {
-        "id": "c42388a5ca0392934088",
+        "id": "19e3c42d75368b963090",
         "origin_type": "news",
-        "source": "The Standard Kenya",
+        "source": "IRNA English",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Seven patients in critical condition after oil tanker explosion",
-        "url": "https://www.standardmedia.co.ke/rift-valley/article/2001558092/seven-patients-in-critical-condition-after-oil-tanker-explosion",
-        "published_at": null,
-        "collected_at": "2026-09-18T09:04:40.642517+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "standardmedia.co.ke"
+        "title": "Fifteen countries call for prohibition of any attack or threat against nuclear facilities",
+        "url": "https://en.irna.ir/news/86267234/Fifteen-countries-call-for-prohibition-of-any-attack-or-threat",
+        "published_at": "2026-09-18T10:39:59+00:00",
+        "collected_at": "2026-09-18T12:16:41.823556+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "en.irna.ir"
       }
     ],
-    "title_original": "Seven patients in critical condition after oil tanker explosion",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Kenya; 中国关联利益=蒙内铁路, 港口, 东非物流, 债务, 电信; 中国关联实体/项目=Mombasa-Nairobi Standard Gauge Railway, Huawei",
-    "title_en": "Seven patients in critical condition after oil tanker explosion",
-    "title_zh": "油轮爆炸后七名患者情况危急",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Kenya; 中国关联利益=蒙内铁路, 港口, 东非物流, 债务, 电信; 中国关联实体/项目=Mombasa-Nairobi Standard Gauge Railway, Huawei",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Kenya; China-related interests = Mombasa-Nairobi Railway, ports, East African logistics, debt, telecommunications; China-related entities/projects = Mombasa-Nairobi Standard Gauge Railway, Huawei"
+    "title_original": "Fifteen countries call for prohibition of any attack or threat against nuclear facilities",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Fifteen countries call for prohibition of any attack or threat against nuclear facilities",
+    "title_zh": "Fifteen countries call for prohibition of any attack or threat against nuclear facilities",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "74562ca20b7baad0fcdc",
-    "title": "AI titans to attend Xi White House dinner",
+    "id": "401866cc979465ac6022",
+    "title": "Houthi ballistic missile reportedly hits King Fahd Port in Saudi Arabia",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "科技与青年",
-    "risk_category": "technology_youth",
-    "risk_category_en": "Technology & Youth",
+    "category": "军事安全",
+    "risk_category": "military_security",
+    "risk_category_en": "Military & Security",
     "risk_categories": [
-      "technology_youth"
+      "military_security"
     ],
     "matched_risk_terms": [
-      "AI"
+      "missile"
     ],
-    "severity": "low",
-    "priority_score": 71,
+    "severity": "critical",
+    "priority_score": 72,
     "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 67,
-    "freshness_score": 100,
+    "importance_score": 75,
+    "china_relevance_score": 58,
+    "novelty_score": 95,
+    "momentum_score": 12,
+    "exposure_score": 96,
+    "freshness_score": 84,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-09-18T09:00:27+00:00",
-    "last_seen": "2026-09-18T09:00:27+00:00",
+    "first_seen": "2026-09-18T08:25:59+00:00",
+    "last_seen": "2026-09-18T08:25:59+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1342,60 +1364,71 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "United States"
+      "United Kingdom"
     ],
     "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=Saudi Arabia; 中国关联利益=石油, 人民币结算讨论, 新能源, 中东外交, 炼化, 数字经济; 中国关联实体/项目=Sinopec, Aramco-China projects, Huawei",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
     "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
+      "new_sources": 0,
+      "new_evidence": 0,
       "severity_change": 0,
       "official_added": false
     },
     "history": [
       {
         "observed_at": "2026-09-18T09:04:42.540735+00:00",
-        "last_seen": "2026-09-18T09:00:27+00:00",
+        "last_seen": "2026-09-18T08:25:59+00:00",
         "lifecycle": "emerging",
-        "priority_score": 71,
+        "priority_score": 80,
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-18T08:25:59+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 72,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
       {
-        "id": "b076c182bac0f0f65aee",
+        "id": "751b1d4ff406d45aaa67",
         "origin_type": "news",
-        "source": "Semafor",
+        "source": "Middle East Eye",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "AI titans to attend Xi White House dinner",
-        "url": "https://www.semafor.com/article/09/18/2026/ai-titans-to-attend-xi-white-house-dinner",
-        "published_at": "2026-09-18T09:00:27+00:00",
+        "title": "Houthi ballistic missile reportedly hits King Fahd Port in Saudi Arabia",
+        "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthi-ballistic-missile-reportedly-hits-king-fahd-port-saudi-arabia",
+        "published_at": "2026-09-18T08:25:59+00:00",
         "collected_at": "2026-09-18T09:04:40.642517+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "semafor.com"
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "middleeasteye.net"
       }
     ],
-    "title_original": "AI titans to attend Xi White House dinner",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "AI titans to attend Xi White House dinner",
-    "title_zh": "人工智能巨头将出席习近平白宫晚宴",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+    "title_original": "Houthi ballistic missile reportedly hits King Fahd Port in Saudi Arabia",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=Saudi Arabia; 中国关联利益=石油, 人民币结算讨论, 新能源, 中东外交, 炼化, 数字经济; 中国关联实体/项目=Sinopec, Aramco-China projects, Huawei",
+    "title_en": "Houthi ballistic missile reportedly hits King Fahd Port in Saudi Arabia",
+    "title_zh": "据报道，胡塞武装弹道导弹击中沙特阿拉伯法赫德国王港",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=Saudi Arabia; 中国关联利益=石油, 人民币结算讨论, 新能源, 中东外交, 炼化, 数字经济; 中国关联实体/项目=Sinopec, Aramco-China projects, Huawei",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related region = United Kingdom; China-related interests = Sino-British relations, finance, Hong Kong issues, investment review, technology, nuclear power, education, intelligence security; China-related entities/projects = Huawei, CGN, HSBC China exposure, TikTok | Event-related region = Saudi Arabia; China-related interests = oil, RMB settlement discussion, new energy, Middle East diplomacy, Refining and chemicals, digital economy; Chinese related entities/projects=Sinopec, Aramco-China projects, Huawei"
   },
   {
-    "id": "d8733ea249125f984a02",
-    "title": "Xi-Trump summit, China AI at Brics, Asian Games",
+    "id": "98c5c6fe436d33020c1b",
+    "title": "China rebuffs AI slowdown calls ahead of Trump-Xi summit: 5 things to know",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -1420,178 +1453,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-09-18T09:00:10+00:00",
-    "last_seen": "2026-09-18T09:00:10+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Hong Kong"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-09-18T09:04:42.540735+00:00",
-        "last_seen": "2026-09-18T09:00:10+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 71,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "eed1138844b0ecf4aaa1",
-        "origin_type": "news",
-        "source": "South China Morning Post (SCMP)",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Xi-Trump summit, China AI at Brics, Asian Games",
-        "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3368001/xi-trump-summit-china-ai-brics-asian-games?utm_source=rss_feed",
-        "published_at": "2026-09-18T09:00:10+00:00",
-        "collected_at": "2026-09-18T09:04:40.642517+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "scmp"
-      }
-    ],
-    "title_original": "Xi-Trump summit, China AI at Brics, Asian Games",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Xi-Trump summit, China AI at Brics, Asian Games",
-    "title_zh": "习近平与特朗普峰会、金砖国家的中国人工智能、亚运会",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "a2cfc68e39d9981710e8",
-    "title": "Top Chinese AI models make 10% of OpenAI, Anthropic revenue despite high valuations: report",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技与青年",
-    "risk_category": "technology_youth",
-    "risk_category_en": "Technology & Youth",
-    "risk_categories": [
-      "technology_youth"
-    ],
-    "matched_risk_terms": [
-      "AI"
-    ],
-    "severity": "low",
-    "priority_score": 71,
-    "confidence_score": 52,
-    "importance_score": 44,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 67,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-09-18T09:00:06+00:00",
-    "last_seen": "2026-09-18T09:00:06+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Hong Kong"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-09-18T09:04:42.540735+00:00",
-        "last_seen": "2026-09-18T09:00:06+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 71,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "30664d601d33b621a4c0",
-        "origin_type": "news",
-        "source": "South China Morning Post (SCMP)",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Top Chinese AI models make 10% of OpenAI, Anthropic revenue despite high valuations: report",
-        "url": "https://www.scmp.com/tech/big-tech/article/3367991/top-chinese-ai-models-make-10-openai-anthropic-revenue-despite-high-valuations-report?utm_source=rss_feed",
-        "published_at": "2026-09-18T09:00:06+00:00",
-        "collected_at": "2026-09-18T09:04:40.642517+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "scmp"
-      }
-    ],
-    "title_original": "Top Chinese AI models make 10% of OpenAI, Anthropic revenue despite high valuations: report",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Top Chinese AI models make 10% of OpenAI, Anthropic revenue despite high valuations: report",
-    "title_zh": "尽管估值很高，但中国顶级人工智能模型仍占 OpenAI 和 Anthropic 收入的 10%：报告",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "6314aa78287ca022666d",
-    "title": "14分前 柳条湖事件から95年 記念式典に中国共産党政治局員が出席",
-    "language": "ja",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "其他",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "low",
-    "priority_score": 70,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 60,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-09-18T09:04:40.642517+00:00",
-    "last_seen": "2026-09-18T09:04:40.642517+00:00",
+    "first_seen": "2026-09-18T12:16:41.823556+00:00",
+    "last_seen": "2026-09-18T12:16:41.823556+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1603,8 +1466,8 @@
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "其他信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -1615,11 +1478,11 @@
     },
     "history": [
       {
-        "observed_at": "2026-09-18T09:04:42.540735+00:00",
-        "last_seen": "2026-09-18T09:04:40.642517+00:00",
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-18T12:16:41.823556+00:00",
         "lifecycle": "emerging",
-        "priority_score": 70,
-        "confidence_score": 39,
+        "priority_score": 71,
+        "confidence_score": 52,
         "novelty_score": 100,
         "momentum_score": 55,
         "source_count": 1,
@@ -1628,25 +1491,199 @@
     ],
     "evidence": [
       {
-        "id": "be81e9a21afd1c93ed23",
+        "id": "569d50ae35a9199baaef",
         "origin_type": "news",
-        "source": "Asahi Shimbun",
+        "source": "Nikkei Asia",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "14分前 柳条湖事件から95年 記念式典に中国共産党政治局員が出席",
-        "url": "https://www.asahi.com/articles/ASV9L2QM6V9LUHBI015M.html?iref=comtop_BreakingNews_list",
+        "title": "China rebuffs AI slowdown calls ahead of Trump-Xi summit: 5 things to know",
+        "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/china-rebuffs-ai-slowdown-calls-ahead-of-trump-xi-summit-5-things-to-know",
         "published_at": null,
-        "collected_at": "2026-09-18T09:04:40.642517+00:00",
+        "collected_at": "2026-09-18T12:16:41.823556+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "asahi.com"
+        "publisher_family": "nikkei"
       }
     ],
-    "title_original": "14分前 柳条湖事件から95年 記念式典に中国共産党政治局員が出席",
+    "title_original": "China rebuffs AI slowdown calls ahead of Trump-Xi summit: 5 things to know",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "14分前 柳条湖事件から95年 記念式典に中国共産党政治局員が出席",
-    "title_zh": "14分钟前，中共中央政治局委员出席六照湖事件95周年纪念大会。",
+    "title_en": "China rebuffs AI slowdown calls ahead of Trump-Xi summit: 5 things to know",
+    "title_zh": "China rebuffs AI slowdown calls ahead of Trump-Xi summit: 5 things to know",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "7cf5cf4aa7e85fe55a97",
+    "title": "Alibaba takes on Anthropic with 50% cheaper e-commerce AI agent",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技与青年",
+    "risk_category": "technology_youth",
+    "risk_category_en": "Technology & Youth",
+    "risk_categories": [
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "AI"
+    ],
+    "severity": "low",
+    "priority_score": 71,
+    "confidence_score": 52,
+    "importance_score": 44,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 67,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-09-18T12:16:41.823556+00:00",
+    "last_seen": "2026-09-18T12:16:41.823556+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Japan"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-18T12:16:41.823556+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 71,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "6972e63333dc09e6f3d3",
+        "origin_type": "news",
+        "source": "Nikkei Asia",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Alibaba takes on Anthropic with 50% cheaper e-commerce AI agent",
+        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/alibaba-takes-on-anthropic-with-50-cheaper-e-commerce-ai-agent",
+        "published_at": null,
+        "collected_at": "2026-09-18T12:16:41.823556+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "nikkei"
+      }
+    ],
+    "title_original": "Alibaba takes on Anthropic with 50% cheaper e-commerce AI agent",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Alibaba takes on Anthropic with 50% cheaper e-commerce AI agent",
+    "title_zh": "Alibaba takes on Anthropic with 50% cheaper e-commerce AI agent",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "344ac17ed346cc9915ed",
+    "title": "Hong Kong to recruit AI chief by mid-2027, with confidence in local talent pool",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技与青年",
+    "risk_category": "technology_youth",
+    "risk_category_en": "Technology & Youth",
+    "risk_categories": [
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "AI"
+    ],
+    "severity": "low",
+    "priority_score": 71,
+    "confidence_score": 52,
+    "importance_score": 44,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 67,
+    "freshness_score": 98,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-09-18T11:50:59+00:00",
+    "last_seen": "2026-09-18T11:50:59+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Hong Kong"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-09-18T12:16:43.802437+00:00",
+        "last_seen": "2026-09-18T11:50:59+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 71,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "288b8b73873a52a55161",
+        "origin_type": "news",
+        "source": "South China Morning Post (SCMP)",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Hong Kong to recruit AI chief by mid-2027, with confidence in local talent pool",
+        "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3368048/hong-kong-recruit-ai-chief-mid-2027-confidence-local-talent-pool?utm_source=rss_feed",
+        "published_at": "2026-09-18T11:50:59+00:00",
+        "collected_at": "2026-09-18T12:16:41.823556+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "scmp"
+      }
+    ],
+    "title_original": "Hong Kong to recruit AI chief by mid-2027, with confidence in local talent pool",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Hong Kong to recruit AI chief by mid-2027, with confidence in local talent pool",
+    "title_zh": "Hong Kong to recruit AI chief by mid-2027, with confidence in local talent pool",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   }
