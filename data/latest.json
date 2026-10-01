@@ -1,7 +1,7 @@
 [
   {
-    "id": "6ee88a7924d14fa1d341",
-    "title": "US assesses Chinese invasion of Taiwan unlikely next year despite 2027 timeline, sources say",
+    "id": "27b7bfac5aa8e4e6f92b",
+    "title": "Taiwan takes a page from Ukraine’s playbook in steeling society for an invasion",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -13,8 +13,8 @@
     "matched_risk_terms": [],
     "severity": "critical",
     "priority_score": 89,
-    "confidence_score": 39,
-    "importance_score": 77,
+    "confidence_score": 52,
+    "importance_score": 82,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
@@ -22,8 +22,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-01T11:01:56.958365+00:00",
-    "last_seen": "2026-10-01T11:01:56.958365+00:00",
+    "first_seen": "2026-10-01T14:31:09.289103+00:00",
+    "last_seen": "2026-10-01T14:31:09.289103+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -31,7 +31,7 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Pakistan"
+      "United States"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -47,6 +47,263 @@
     },
     "history": [
       {
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T14:31:09.289103+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 89,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "59553b216a7dd9fe3057",
+        "origin_type": "news",
+        "source": "Defense News",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Taiwan takes a page from Ukraine’s playbook in steeling society for an invasion",
+        "url": "https://www.defensenews.com/global/asia-pacific/2026/10/01/taiwan-takes-a-page-from-ukraines-playbook-in-steeling-society-for-an-invasion/",
+        "published_at": null,
+        "collected_at": "2026-10-01T14:31:09.289103+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "defensenews.com"
+      }
+    ],
+    "title_original": "Taiwan takes a page from Ukraine’s playbook in steeling society for an invasion",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Taiwan takes a page from Ukraine’s playbook in steeling society for an invasion",
+    "title_zh": "Taiwan takes a page from Ukraine’s playbook in steeling society for an invasion",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "6e1889b13b757f23f5f4",
+    "title": "马来西亚反共华裔 遭遇中共死亡威胁",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security"
+    ],
+    "matched_risk_terms": [
+      "死亡"
+    ],
+    "severity": "high",
+    "priority_score": 88,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 100,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-01T14:25:30+00:00",
+    "last_seen": "2026-10-01T14:25:30+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Global"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T14:25:30+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 88,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "a0852807ecec59dfc1fe",
+        "origin_type": "news",
+        "source": "大纪元 Epoch Times · 即时",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "马来西亚反共华裔 遭遇中共死亡威胁",
+        "url": "https://feed.epochtimes.com/gb/26/10/1/n14861338.htm",
+        "published_at": "2026-10-01T14:25:30+00:00",
+        "collected_at": "2026-10-01T14:31:09.289103+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "epochtimes"
+      }
+    ],
+    "title_original": "马来西亚反共华裔 遭遇中共死亡威胁",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "马来西亚反共华裔 遭遇中共死亡威胁",
+    "title_en": "马来西亚反共华裔 遭遇中共死亡威胁",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "54ee717fbac93c7dc824",
+    "title": "【历史上的404】被”指居”者死亡3年后，11名办案人员获刑（2025年9月30日）",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security"
+    ],
+    "matched_risk_terms": [
+      "死亡"
+    ],
+    "severity": "high",
+    "priority_score": 88,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 100,
+    "freshness_score": 98,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-01T13:58:05+00:00",
+    "last_seen": "2026-10-01T13:58:05+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Global"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T13:58:05+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 88,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "e15db33a0e8c79f904e1",
+        "origin_type": "news",
+        "source": "中国数字时代 Chinese CDT",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "【历史上的404】被”指居”者死亡3年后，11名办案人员获刑（2025年9月30日）",
+        "url": "https://chinadigitaltimes.net/chinese/732414.html",
+        "published_at": "2026-10-01T13:58:05+00:00",
+        "collected_at": "2026-10-01T14:31:09.289103+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "cdt"
+      }
+    ],
+    "title_original": "【历史上的404】被”指居”者死亡3年后，11名办案人员获刑（2025年9月30日）",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "【历史上的404】被”指居”者死亡3年后，11名办案人员获刑（2025年9月30日）",
+    "title_en": "【历史上的404】被”指居”者死亡3年后，11名办案人员获刑（2025年9月30日）",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "6ee88a7924d14fa1d341",
+    "title": "US assesses Chinese invasion of Taiwan unlikely next year despite 2027 timeline, sources say",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "台海/印太",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "critical",
+    "priority_score": 81,
+    "confidence_score": 39,
+    "importance_score": 75,
+    "china_relevance_score": 100,
+    "novelty_score": 95,
+    "momentum_score": 12,
+    "exposure_score": 60,
+    "freshness_score": 85,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-01T11:01:56.958365+00:00",
+    "last_seen": "2026-10-01T11:01:56.958365+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Pakistan"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "台海/印太信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
         "observed_at": "2026-10-01T11:01:58.147946+00:00",
         "last_seen": "2026-10-01T11:01:56.958365+00:00",
         "lifecycle": "emerging",
@@ -54,6 +311,17 @@
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T11:01:56.958365+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 81,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
       }
@@ -95,14 +363,14 @@
     "risk_categories": [],
     "matched_risk_terms": [],
     "severity": "critical",
-    "priority_score": 89,
+    "priority_score": 81,
     "confidence_score": 52,
-    "importance_score": 81,
+    "importance_score": 79,
     "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
+    "novelty_score": 95,
+    "momentum_score": 12,
     "exposure_score": 60,
-    "freshness_score": 96,
+    "freshness_score": 81,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-10-01T09:59:56+00:00",
@@ -118,13 +386,13 @@
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "台海/印太信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
+    "why_now_zh": "台海/印太信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
     "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
+      "new_sources": 0,
+      "new_evidence": 0,
       "severity_change": 0,
       "official_added": false
     },
@@ -137,6 +405,17 @@
         "confidence_score": 52,
         "novelty_score": 100,
         "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T09:59:56+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 81,
+        "confidence_score": 52,
+        "novelty_score": 95,
+        "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
       }
@@ -166,20 +445,20 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "988b08a701c86384cadb",
-    "title": "各地铁路部门积极应对国庆假期出行高峰，即日起至10月12日，及时在热门方向、区间和时段增加运力投放。",
-    "language": "zh",
+    "id": "b2e52b2128b33d682a0c",
+    "title": "Investigation U.S. surrogate for Chinese billionaire says she trusted agency, as questions arise The CEO of the surrogacy agency Patriot Conceptions says he was unaware billionaire Xu Bo was building a massive family. 1h ago",
+    "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "海外项目",
-    "risk_category": "overseas_projects",
-    "risk_category_en": "Overseas Projects",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
     "risk_categories": [
-      "overseas_projects"
+      "trade_regulatory"
     ],
     "matched_risk_terms": [
-      "铁路"
+      "investigation"
     ],
     "severity": "medium",
     "priority_score": 80,
@@ -188,12 +467,12 @@
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
-    "exposure_score": 93,
+    "exposure_score": 89,
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-01T11:01:56.958365+00:00",
-    "last_seen": "2026-10-01T11:01:56.958365+00:00",
+    "first_seen": "2026-10-01T14:31:09.289103+00:00",
+    "last_seen": "2026-10-01T14:31:09.289103+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -201,12 +480,12 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "China"
+      "United States"
     ],
     "entities": [],
-    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "海外项目信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Overseas Projects signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -217,8 +496,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-01T11:01:58.147946+00:00",
-        "last_seen": "2026-10-01T11:01:56.958365+00:00",
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T14:31:09.289103+00:00",
         "lifecycle": "emerging",
         "priority_score": 80,
         "confidence_score": 39,
@@ -230,114 +509,27 @@
     ],
     "evidence": [
       {
-        "id": "25f0454b916cbd96e7e7",
+        "id": "f61d0f09e509ee163bd4",
         "origin_type": "news",
-        "source": "中国日报中文 China Daily Chinese",
+        "source": "CBS News",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "各地铁路部门积极应对国庆假期出行高峰，即日起至10月12日，及时在热门方向、区间和时段增加运力投放。",
-        "url": "https://cn.chinadaily.com.cn/a/202610/01/WS6abe2743e4b09a165c78dd74.html",
+        "title": "Investigation U.S. surrogate for Chinese billionaire says she trusted agency, as questions arise The CEO of the surrogacy agency Patriot Conceptions says he was unaware billionaire Xu Bo was building a massive family. 1h ago",
+        "url": "https://www.cbsnews.com/news/surrogate-xu-bo-chinese-billionaire-100-children/",
         "published_at": null,
-        "collected_at": "2026-10-01T11:01:56.958365+00:00",
+        "collected_at": "2026-10-01T14:31:09.289103+00:00",
         "relation": "direct",
-        "confidence": 88,
-        "publisher_family": "chinadaily"
+        "confidence": 94,
+        "publisher_family": "cbsnews.com"
       }
     ],
-    "title_original": "各地铁路部门积极应对国庆假期出行高峰，即日起至10月12日，及时在热门方向、区间和时段增加运力投放。",
-    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "title_zh": "各地铁路部门积极应对国庆假期出行高峰，即日起至10月12日，及时在热门方向、区间和时段增加运力投放。",
-    "title_en": "各地铁路部门积极应对国庆假期出行高峰，即日起至10月12日，及时在热门方向、区间和时段增加运力投放。",
-    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
-  },
-  {
-    "id": "dc0ab68332eac4d0c5bf",
-    "title": "聚焦大湾区丨广州空港口岸客流突破1500万人次 创历史同期新高 - 新华网",
-    "language": "Chinese",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "海外项目",
-    "risk_category": "overseas_projects",
-    "risk_category_en": "Overseas Projects",
-    "risk_categories": [
-      "overseas_projects"
-    ],
-    "matched_risk_terms": [
-      "港口"
-    ],
-    "severity": "medium",
-    "priority_score": 80,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 93,
-    "freshness_score": 96,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-01T10:00:00+00:00",
-    "last_seen": "2026-10-01T10:00:00+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "China"
-    ],
-    "entities": [],
-    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "海外项目信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Overseas Projects signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-01T11:01:58.147946+00:00",
-        "last_seen": "2026-10-01T10:00:00+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 80,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "cbc60fa7aabd6be0f49f",
-        "origin_type": "news",
-        "source": "news.cn",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "聚焦大湾区丨广州空港口岸客流突破1500万人次 创历史同期新高 - 新华网",
-        "url": "https://www.news.cn/local/20261001/0e8f0095f6b84d8393296586be649496/c.html",
-        "published_at": "2026-10-01T10:00:00+00:00",
-        "collected_at": "2026-10-01T11:01:56.958365+00:00",
-        "relation": "direct",
-        "confidence": 88,
-        "publisher_family": "news.cn"
-      }
-    ],
-    "title_original": "聚焦大湾区丨广州空港口岸客流突破1500万人次 创历史同期新高 - 新华网",
-    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "title_en": "聚焦大湾区丨广州空港口岸客流突破1500万人次 创历史同期新高 - 新华网",
-    "title_zh": "聚焦大湾区丨广州空港口岸客流突破1500万人次 创历史同期新高 - 新华网",
-    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
+    "title_original": "Investigation U.S. surrogate for Chinese billionaire says she trusted agency, as questions arise The CEO of the surrogacy agency Patriot Conceptions says he was unaware billionaire Xu Bo was building a massive family. 1h ago",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Investigation U.S. surrogate for Chinese billionaire says she trusted agency, as questions arise The CEO of the surrogacy agency Patriot Conceptions says he was unaware billionaire Xu Bo was building a massive family. 1h ago",
+    "title_zh": "Investigation U.S. surrogate for Chinese billionaire says she trusted agency, as questions arise The CEO of the surrogacy agency Patriot Conceptions says he was unaware billionaire Xu Bo was building a massive family. 1h ago",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
     "id": "62bdf29eb92bcef2ff8f",
@@ -356,14 +548,14 @@
       "military exercise"
     ],
     "severity": "high",
-    "priority_score": 79,
+    "priority_score": 76,
     "confidence_score": 39,
-    "importance_score": 62,
+    "importance_score": 60,
     "china_relevance_score": 100,
-    "novelty_score": 95,
+    "novelty_score": 82,
     "momentum_score": 12,
     "exposure_score": 100,
-    "freshness_score": 78,
+    "freshness_score": 64,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-10-01T05:52:17.382035+00:00",
@@ -379,8 +571,8 @@
     ],
     "entities": [],
     "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "军事安全信号；近期首次进入事件池；新颖度95 / 动量12。",
-    "why_now_en": "Military & Security signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新颖度82 / 动量12。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; novelty 82 / momentum 12.",
     "previous_event_matched": true,
     "previous_match_score": 0.84,
     "change": {
@@ -411,6 +603,17 @@
         "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T05:52:17.382035+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 76,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -438,89 +641,6 @@
     "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
   },
   {
-    "id": "6a0de6a2e9484ac764a8",
-    "title": "台湾海军中将原圣华跨体系任海巡署副署长",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "安全/冲突",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "medium",
-    "priority_score": 77,
-    "confidence_score": 52,
-    "importance_score": 57,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 60,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-01T11:01:56.958365+00:00",
-    "last_seen": "2026-10-01T11:01:56.958365+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Singapore"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-01T11:01:58.147946+00:00",
-        "last_seen": "2026-10-01T11:01:56.958365+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 77,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "e20483aa8870da69858b",
-        "origin_type": "news",
-        "source": "联合早报 Lianhe Zaobao · 中国",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "台湾海军中将原圣华跨体系任海巡署副署长",
-        "url": "https://www.zaobao.com.sg/news/china/story20261001-9767871",
-        "published_at": null,
-        "collected_at": "2026-10-01T11:01:56.958365+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "zaobao"
-      }
-    ],
-    "title_original": "台湾海军中将原圣华跨体系任海巡署副署长",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "台湾海军中将原圣华跨体系任海巡署副署长",
-    "title_en": "台湾海军中将原圣华跨体系任海巡署副署长",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
     "id": "76470247508cba70a897",
     "title": "Australian man arrested in Hong Kong for allegedly carrying imitation gun",
     "language": "en",
@@ -537,14 +657,14 @@
       "arrested"
     ],
     "severity": "high",
-    "priority_score": 77,
+    "priority_score": 76,
     "confidence_score": 52,
-    "importance_score": 66,
+    "importance_score": 63,
     "china_relevance_score": 100,
     "novelty_score": 82,
     "momentum_score": 12,
     "exposure_score": 100,
-    "freshness_score": 74,
+    "freshness_score": 60,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-10-01T04:54:40+00:00",
@@ -592,6 +712,17 @@
         "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T04:54:40+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 76,
+        "confidence_score": 52,
+        "novelty_score": 82,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -619,92 +750,9 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "55dec997c531902e60ff",
-    "title": "Rosenberg: Putin shows no sign of stopping the war as Russia doubles down on Ukraine A foreign policy speech by the Russian president will be keenly watched, but all signs point to the full-scale invasion continuing. 12 hrs ago Europe",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "安全/冲突",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "critical",
-    "priority_score": 76,
-    "confidence_score": 52,
-    "importance_score": 82,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 55,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-01T11:01:56.958365+00:00",
-    "last_seen": "2026-10-01T11:01:56.958365+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United Kingdom"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=European Union; 中国关联利益=中欧关系, 电动汽车, 电池, 反补贴调查, 投资审查, 关键原材料, 供应链, 出口管制; 中国关联实体/项目=BYD, CATL, SAIC, Geely, Huawei, ZTE, COSCO | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
-    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-01T11:01:58.147946+00:00",
-        "last_seen": "2026-10-01T11:01:56.958365+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 76,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "8ff2ef4482cbb2bec3c2",
-        "origin_type": "news",
-        "source": "BBC News",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Rosenberg: Putin shows no sign of stopping the war as Russia doubles down on Ukraine A foreign policy speech by the Russian president will be keenly watched, but all signs point to the full-scale invasion continuing. 12 hrs ago Europe",
-        "url": "https://www.bbc.com/news/articles/cqx2ze420kpyo",
-        "published_at": null,
-        "collected_at": "2026-10-01T11:01:56.958365+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "bbc"
-      }
-    ],
-    "title_original": "Rosenberg: Putin shows no sign of stopping the war as Russia doubles down on Ukraine A foreign policy speech by the Russian president will be keenly watched, but all signs point to the full-scale invasion continuing. 12 hrs ago Europe",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=European Union; 中国关联利益=中欧关系, 电动汽车, 电池, 反补贴调查, 投资审查, 关键原材料, 供应链, 出口管制; 中国关联实体/项目=BYD, CATL, SAIC, Geely, Huawei, ZTE, COSCO | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
-    "title_en": "Rosenberg: Putin shows no sign of stopping the war as Russia doubles down on Ukraine A foreign policy speech by the Russian president will be keenly watched, but all signs point to the full-scale invasion continuing. 12 hrs ago Europe",
-    "title_zh": "Rosenberg: Putin shows no sign of stopping the war as Russia doubles down on Ukraine A foreign policy speech by the Russian president will be keenly watched, but all signs point to the full-scale invasion continuing. 12 hrs ago Europe",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=European Union; 中国关联利益=中欧关系, 电动汽车, 电池, 反补贴调查, 投资审查, 关键原材料, 供应链, 出口管制; 中国关联实体/项目=BYD, CATL, SAIC, Geely, Huawei, ZTE, COSCO | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: United Kingdom."
-  },
-  {
-    "id": "00becdd5186280b68c6e",
-    "title": "Hong Kong confirms journalist arrested for alleged ‘seditious’ acts linked to 2019 Prince Edward MTR incident commemorations",
-    "language": "en",
+    "id": "59e0bb6e149d9d03ee6f",
+    "title": "埃塞首都传爆炸声 反政府武装称无人机袭击",
+    "language": "zh",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
@@ -715,21 +763,21 @@
       "personnel_security"
     ],
     "matched_risk_terms": [
-      "arrested"
+      "袭击"
     ],
     "severity": "high",
-    "priority_score": 76,
-    "confidence_score": 52,
-    "importance_score": 62,
-    "china_relevance_score": 100,
-    "novelty_score": 82,
-    "momentum_score": 12,
-    "exposure_score": 100,
-    "freshness_score": 54,
+    "priority_score": 75,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 95,
+    "freshness_score": 99,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-01T00:05:33+00:00",
-    "last_seen": "2026-10-01T00:05:33+00:00",
+    "first_seen": "2026-10-01T14:19:09+00:00",
+    "last_seen": "2026-10-01T14:19:09+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -737,72 +785,148 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Hong Kong"
+      "Global"
     ],
     "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新颖度82 / 动量12。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; novelty 82 / momentum 12.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN | 事件关联地区=Ethiopia; 中国关联利益=铁路, 工业园, 电信, 非洲之角, 中国企业与人员安全; 中国关联实体/项目=Addis-Djibouti Railway, Chinese industrial parks",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
     "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
+      "new_sources": 1,
+      "new_evidence": 1,
       "severity_change": 0,
       "official_added": false
     },
     "history": [
       {
-        "observed_at": "2026-10-01T05:52:19.773080+00:00",
-        "last_seen": "2026-10-01T00:05:33+00:00",
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T14:19:09+00:00",
         "lifecycle": "emerging",
-        "priority_score": 86,
-        "confidence_score": 52,
+        "priority_score": 75,
+        "confidence_score": 39,
         "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-10-01T11:01:58.147946+00:00",
-        "last_seen": "2026-10-01T00:05:33+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 76,
-        "confidence_score": 52,
-        "novelty_score": 82,
-        "momentum_score": 12,
+        "momentum_score": 65,
         "source_count": 1,
         "evidence_count": 1
       }
     ],
     "evidence": [
       {
-        "id": "e8f901da82e8933755be",
+        "id": "b50eb8fe5415e61f2824",
         "origin_type": "news",
-        "source": "香港自由新闻 HKFP",
+        "source": "大纪元 Epoch Times · 即时",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Hong Kong confirms journalist arrested for alleged ‘seditious’ acts linked to 2019 Prince Edward MTR incident commemorations",
-        "url": "https://hongkongfp.com/2026/10/01/hong-kong-confirms-journalists-arrest-for-alleged-seditious-acts-linked-to-2019-prince-edward-mtr-incident-commemorations/",
-        "published_at": "2026-10-01T00:05:33+00:00",
-        "collected_at": "2026-10-01T05:52:17.382035+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "hongkongfp.com"
+        "title": "埃塞首都传爆炸声 反政府武装称无人机袭击",
+        "url": "https://feed.epochtimes.com/gb/26/10/1/n14861390.htm",
+        "published_at": "2026-10-01T14:19:09+00:00",
+        "collected_at": "2026-10-01T14:31:09.289103+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "epochtimes"
       }
     ],
-    "title_original": "Hong Kong confirms journalist arrested for alleged ‘seditious’ acts linked to 2019 Prince Edward MTR incident commemorations",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Hong Kong confirms journalist arrested for alleged ‘seditious’ acts linked to 2019 Prince Edward MTR incident commemorations",
-    "title_zh": "Hong Kong confirms journalist arrested for alleged ‘seditious’ acts linked to 2019 Prince Edward MTR incident commemorations",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+    "title_original": "埃塞首都传爆炸声 反政府武装称无人机袭击",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN | 事件关联地区=Ethiopia; 中国关联利益=铁路, 工业园, 电信, 非洲之角, 中国企业与人员安全; 中国关联实体/项目=Addis-Djibouti Railway, Chinese industrial parks",
+    "title_zh": "埃塞首都传爆炸声 反政府武装称无人机袭击",
+    "title_en": "埃塞首都传爆炸声 反政府武装称无人机袭击",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN | 事件关联地区=Ethiopia; 中国关联利益=铁路, 工业园, 电信, 非洲之角, 中国企业与人员安全; 中国关联实体/项目=Addis-Djibouti Railway, Chinese industrial parks",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Global."
   },
   {
-    "id": "1670f77e4d09642b779f",
-    "title": "Deepseek and Huawei partner to develop AI software",
+    "id": "3d5dae0a4fb2a4246ff5",
+    "title": "Founder of Russia’s largest cargo airline escalates fight with Ottawa over sanctions as jet racks up fees at Pearson",
     "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "sanctions"
+    ],
+    "severity": "high",
+    "priority_score": 74,
+    "confidence_score": 39,
+    "importance_score": 64,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 84,
+    "freshness_score": 95,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-01T13:16:38+00:00",
+    "last_seen": "2026-10-01T13:16:38+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Canada"
+    ],
+    "entities": [],
+    "reason": "命中全球安全领域大国博弈、海外利益安全及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T13:16:38+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "78bae19dca1179ef103d",
+        "origin_type": "news",
+        "source": "National Post",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Founder of Russia’s largest cargo airline escalates fight with Ottawa over sanctions as jet racks up fees at Pearson",
+        "url": "https://nationalpost.com/news/founder-of-russias-largest-cargo-airline-escalates-fight-with-ottawa-over-sanctions-as-jet-racks-up-fees-at-pearson",
+        "published_at": "2026-10-01T13:16:38+00:00",
+        "collected_at": "2026-10-01T14:31:09.289103+00:00",
+        "relation": "potential",
+        "confidence": 48,
+        "publisher_family": "nationalpost.com"
+      }
+    ],
+    "title_original": "Founder of Russia’s largest cargo airline escalates fight with Ottawa over sanctions as jet racks up fees at Pearson",
+    "reason_original": "命中全球安全领域大国博弈、海外利益安全及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "title_en": "Founder of Russia’s largest cargo airline escalates fight with Ottawa over sanctions as jet racks up fees at Pearson",
+    "title_zh": "Founder of Russia’s largest cargo airline escalates fight with Ottawa over sanctions as jet racks up fees at Pearson",
+    "reason_zh": "命中全球安全领域大国博弈、海外利益安全及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Canada."
+  },
+  {
+    "id": "034c5c63307f110e8272",
+    "title": "华为发布Mate 90系列 称成本上涨将推动涨价",
+    "language": "zh",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
@@ -810,26 +934,24 @@
     "risk_category": "tech_controls",
     "risk_category_en": "Technology Controls",
     "risk_categories": [
-      "tech_controls",
-      "technology_youth"
+      "tech_controls"
     ],
     "matched_risk_terms": [
-      "Huawei",
-      "AI"
+      "华为"
     ],
     "severity": "low",
     "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 40,
+    "confidence_score": 52,
+    "importance_score": 44,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
     "exposure_score": 91,
-    "freshness_score": 99,
+    "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-01T10:45:24+00:00",
-    "last_seen": "2026-10-01T10:45:24+00:00",
+    "first_seen": "2026-10-01T14:31:09.289103+00:00",
+    "last_seen": "2026-10-01T14:31:09.289103+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -837,7 +959,7 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "United States"
+      "Singapore"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -853,11 +975,11 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-01T11:01:58.147946+00:00",
-        "last_seen": "2026-10-01T10:45:24+00:00",
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T14:31:09.289103+00:00",
         "lifecycle": "emerging",
         "priority_score": 74,
-        "confidence_score": 39,
+        "confidence_score": 52,
         "novelty_score": 100,
         "momentum_score": 55,
         "source_count": 1,
@@ -866,32 +988,32 @@
     ],
     "evidence": [
       {
-        "id": "24fc3697a6fcc770b7f5",
+        "id": "66228409a7031121a5cb",
         "origin_type": "news",
-        "source": "Semafor",
+        "source": "联合早报 Lianhe Zaobao · 中国",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Deepseek and Huawei partner to develop AI software",
-        "url": "https://www.semafor.com/article/10/01/2026/deepseek-huawei-announce-partnership-to-develop-ai-software",
-        "published_at": "2026-10-01T10:45:24+00:00",
-        "collected_at": "2026-10-01T11:01:56.958365+00:00",
+        "title": "华为发布Mate 90系列 称成本上涨将推动涨价",
+        "url": "https://www.zaobao.com.sg/news/china/story20261001-9767292",
+        "published_at": null,
+        "collected_at": "2026-10-01T14:31:09.289103+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "semafor.com"
+        "publisher_family": "zaobao"
       }
     ],
-    "title_original": "Deepseek and Huawei partner to develop AI software",
+    "title_original": "华为发布Mate 90系列 称成本上涨将推动涨价",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Deepseek and Huawei partner to develop AI software",
-    "title_zh": "Deepseek and Huawei partner to develop AI software",
+    "title_zh": "华为发布Mate 90系列 称成本上涨将推动涨价",
+    "title_en": "华为发布Mate 90系列 称成本上涨将推动涨价",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "f90d5f938fae82a72c7e",
-    "title": "一粒种子 、 一束碳丝 、 一次碰撞 ， 解码中国质量 - 新华网",
-    "language": "Chinese",
+    "id": "6ce6ecd731b97dc5d98b",
+    "title": "Why US Himars missile shortfalls raise stakes for a potential Taiwan Strait conflict",
+    "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
@@ -902,21 +1024,21 @@
       "military_security"
     ],
     "matched_risk_terms": [
-      "碰撞"
+      "missile"
     ],
     "severity": "low",
     "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 39,
+    "confidence_score": 52,
+    "importance_score": 44,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
     "exposure_score": 100,
-    "freshness_score": 96,
+    "freshness_score": 98,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-01T10:00:00+00:00",
-    "last_seen": "2026-10-01T10:00:00+00:00",
+    "first_seen": "2026-10-01T14:00:31+00:00",
+    "last_seen": "2026-10-01T14:00:31+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -924,7 +1046,7 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "China"
+      "Hong Kong"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -940,11 +1062,11 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-01T11:01:58.147946+00:00",
-        "last_seen": "2026-10-01T10:00:00+00:00",
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T14:00:31+00:00",
         "lifecycle": "emerging",
         "priority_score": 74,
-        "confidence_score": 39,
+        "confidence_score": 52,
         "novelty_score": 100,
         "momentum_score": 55,
         "source_count": 1,
@@ -953,144 +1075,57 @@
     ],
     "evidence": [
       {
-        "id": "511569b7b2bf081f6ba9",
+        "id": "a59d60c0e001a5180fb6",
         "origin_type": "news",
-        "source": "news.cn",
+        "source": "South China Morning Post (SCMP)",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "一粒种子 、 一束碳丝 、 一次碰撞 ， 解码中国质量 - 新华网",
-        "url": "https://www.news.cn/fortune/20261001/7e4e6c472b7745dd8a5faf17a197186e/c.html",
-        "published_at": "2026-10-01T10:00:00+00:00",
-        "collected_at": "2026-10-01T11:01:56.958365+00:00",
+        "title": "Why US Himars missile shortfalls raise stakes for a potential Taiwan Strait conflict",
+        "url": "https://www.scmp.com/news/china/military/article/3369442/why-us-himars-missile-shortfalls-raise-stakes-potential-taiwan-strait-conflict?utm_source=rss_feed",
+        "published_at": "2026-10-01T14:00:31+00:00",
+        "collected_at": "2026-10-01T14:31:09.289103+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "news.cn"
+        "publisher_family": "scmp"
       }
     ],
-    "title_original": "一粒种子 、 一束碳丝 、 一次碰撞 ， 解码中国质量 - 新华网",
+    "title_original": "Why US Himars missile shortfalls raise stakes for a potential Taiwan Strait conflict",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "一粒种子 、 一束碳丝 、 一次碰撞 ， 解码中国质量 - 新华网",
-    "title_zh": "一粒种子 、 一束碳丝 、 一次碰撞 ， 解码中国质量 - 新华网",
+    "title_en": "Why US Himars missile shortfalls raise stakes for a potential Taiwan Strait conflict",
+    "title_zh": "Why US Himars missile shortfalls raise stakes for a potential Taiwan Strait conflict",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "fdcf976dda990a65a916",
-    "title": "Japan and Germany sign evacuation cooperation memorandum",
-    "language": "en",
+    "id": "a6716a1fb094939eb14a",
+    "title": "Huawei Mate 90 RS : флагман за 19 тысяч юаней получил 2 ТБ памяти и камеру 200 Мп",
+    "language": "Russian",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
     "risk_categories": [
-      "personnel_security"
+      "tech_controls"
     ],
     "matched_risk_terms": [
-      "evacuation"
+      "Huawei"
     ],
-    "severity": "high",
+    "severity": "low",
     "priority_score": 74,
     "confidence_score": 39,
-    "importance_score": 64,
-    "china_relevance_score": 58,
+    "importance_score": 40,
+    "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
-    "exposure_score": 95,
-    "freshness_score": 94,
+    "exposure_score": 91,
+    "freshness_score": 98,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-01T09:32:00+00:00",
-    "last_seen": "2026-10-01T09:32:00+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Japan"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Japan; 中国关联利益=中日关系, 东海, 台海, 半导体设备, 出口管制, 钓鱼岛/尖阁诸岛, 供应链, 汽车; 中国关联实体/项目=Tokyo Electron, Rapidus, Japanese semiconductor controls | 事件关联地区=Germany; 中国关联利益=中德经贸, 汽车产业, 机械制造, 对华投资, 欧盟对华政策, 半导体, 化工; 中国关联实体/项目=Volkswagen China exposure, BASF China exposure, CATL, Huawei | 事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-01T11:01:58.147946+00:00",
-        "last_seen": "2026-10-01T09:32:00+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "a44343567c101621849b",
-        "origin_type": "news",
-        "source": "The Japan Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Japan and Germany sign evacuation cooperation memorandum",
-        "url": "https://www.japantimes.co.jp/news/2026/10/01/japan/japan-germany-evacuation-memorandum/",
-        "published_at": "2026-10-01T09:32:00+00:00",
-        "collected_at": "2026-10-01T11:01:56.958365+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "japantimes.co.jp"
-      }
-    ],
-    "title_original": "Japan and Germany sign evacuation cooperation memorandum",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Japan; 中国关联利益=中日关系, 东海, 台海, 半导体设备, 出口管制, 钓鱼岛/尖阁诸岛, 供应链, 汽车; 中国关联实体/项目=Tokyo Electron, Rapidus, Japanese semiconductor controls | 事件关联地区=Germany; 中国关联利益=中德经贸, 汽车产业, 机械制造, 对华投资, 欧盟对华政策, 半导体, 化工; 中国关联实体/项目=Volkswagen China exposure, BASF China exposure, CATL, Huawei | 事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
-    "title_en": "Japan and Germany sign evacuation cooperation memorandum",
-    "title_zh": "Japan and Germany sign evacuation cooperation memorandum",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Japan; 中国关联利益=中日关系, 东海, 台海, 半导体设备, 出口管制, 钓鱼岛/尖阁诸岛, 供应链, 汽车; 中国关联实体/项目=Tokyo Electron, Rapidus, Japanese semiconductor controls | 事件关联地区=Germany; 中国关联利益=中德经贸, 汽车产业, 机械制造, 对华投资, 欧盟对华政策, 半导体, 化工; 中国关联实体/项目=Volkswagen China exposure, BASF China exposure, CATL, Huawei | 事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Japan."
-  },
-  {
-    "id": "7b886e4f65d5c2dc0baf",
-    "title": "Anti-Russian sanctions UK adds 23 individuals, entities, 8 vessels to Russia sanctions list",
-    "language": "ru",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "sanctions"
-    ],
-    "severity": "high",
-    "priority_score": 73,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 84,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-01T11:01:56.958365+00:00",
-    "last_seen": "2026-10-01T11:01:56.958365+00:00",
+    "first_seen": "2026-10-01T14:00:00+00:00",
+    "last_seen": "2026-10-01T14:00:00+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1101,96 +1136,7 @@
       "Russia"
     ],
     "entities": [],
-    "reason": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-01T11:01:58.147946+00:00",
-        "last_seen": "2026-10-01T11:01:56.958365+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 73,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "34dd7be6813c8ff63113",
-        "origin_type": "news",
-        "source": "TASS",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Anti-Russian sanctions UK adds 23 individuals, entities, 8 vessels to Russia sanctions list",
-        "url": "https://tass.com/world/2195583",
-        "published_at": null,
-        "collected_at": "2026-10-01T11:01:56.958365+00:00",
-        "relation": "potential",
-        "confidence": 48,
-        "publisher_family": "tass.com"
-      }
-    ],
-    "title_original": "Anti-Russian sanctions UK adds 23 individuals, entities, 8 vessels to Russia sanctions list",
-    "reason_original": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
-    "title_en": "Anti-Russian sanctions UK adds 23 individuals, entities, 8 vessels to Russia sanctions list",
-    "title_zh": "Anti-Russian sanctions UK adds 23 individuals, entities, 8 vessels to Russia sanctions list",
-    "reason_zh": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
-    "reason_en": "Hits the public events of great power competition and escalation/disruption in the global security field; no direct evidence involving China has been found yet, and it is included in the pool according to conduction observation"
-  },
-  {
-    "id": "fbfbe745efa841934f9c",
-    "title": "综述丨前沿模型能力加速跃升 AI治理迎来新考验 9月全球人工智能发展盘点 - 新华网",
-    "language": "Chinese",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls",
-      "technology_youth"
-    ],
-    "matched_risk_terms": [
-      "人工智能",
-      "AI"
-    ],
-    "severity": "low",
-    "priority_score": 73,
-    "confidence_score": 39,
-    "importance_score": 39,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 96,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-01T10:00:00+00:00",
-    "last_seen": "2026-10-01T10:00:00+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "China"
-    ],
-    "entities": [],
-    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
     "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
@@ -1203,10 +1149,10 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-01T11:01:58.147946+00:00",
-        "last_seen": "2026-10-01T10:00:00+00:00",
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T14:00:00+00:00",
         "lifecycle": "emerging",
-        "priority_score": 73,
+        "priority_score": 74,
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
@@ -1216,318 +1162,53 @@
     ],
     "evidence": [
       {
-        "id": "fb2bc65af6d876dbe6d4",
+        "id": "4ce5b3c1cce8d38f739a",
         "origin_type": "news",
-        "source": "news.cn",
+        "source": "carexpo.ru",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "综述丨前沿模型能力加速跃升 AI治理迎来新考验 9月全球人工智能发展盘点 - 新华网",
-        "url": "https://www.news.cn/tech/20261001/6611a7da00434fcea829b1387a915d95/c.html",
-        "published_at": "2026-10-01T10:00:00+00:00",
-        "collected_at": "2026-10-01T11:01:56.958365+00:00",
-        "relation": "direct",
-        "confidence": 88,
-        "publisher_family": "news.cn"
-      }
-    ],
-    "title_original": "综述丨前沿模型能力加速跃升 AI治理迎来新考验 9月全球人工智能发展盘点 - 新华网",
-    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "title_en": "综述丨前沿模型能力加速跃升 AI治理迎来新考验 9月全球人工智能发展盘点 - 新华网",
-    "title_zh": "综述丨前沿模型能力加速跃升 AI治理迎来新考验 9月全球人工智能发展盘点 - 新华网",
-    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
-  },
-  {
-    "id": "8b7b8a167fc00939419b",
-    "title": "Rhenen town hall vandalised after asylum seeker housing approved; Riot police intervene",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "劳资社会",
-    "risk_category": "labor_social",
-    "risk_category_en": "Labor & Social Unrest",
-    "risk_categories": [
-      "labor_social"
-    ],
-    "matched_risk_terms": [
-      "riot"
-    ],
-    "severity": "high",
-    "priority_score": 72,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 72,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-01T11:10:00+00:00",
-    "last_seen": "2026-10-01T11:10:00+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Netherlands"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Netherlands; 中国关联利益=半导体设备, 光刻机, 出口管制, 港口物流, 欧盟对华政策; 中国关联实体/项目=ASML, Port of Rotterdam, COSCO",
-    "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-01T11:01:58.147946+00:00",
-        "last_seen": "2026-10-01T11:10:00+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 72,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "e6a6e637890b66f9e289",
-        "origin_type": "news",
-        "source": "NL Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Rhenen town hall vandalised after asylum seeker housing approved; Riot police intervene",
-        "url": "https://nltimes.nl/2026/10/01/rhenen-town-hall-vandalised-asylum-seeker-housing-approved-riot-police-intervene",
-        "published_at": "2026-10-01T11:10:00+00:00",
-        "collected_at": "2026-10-01T11:01:56.958365+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "nltimes.nl"
-      }
-    ],
-    "title_original": "Rhenen town hall vandalised after asylum seeker housing approved; Riot police intervene",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Netherlands; 中国关联利益=半导体设备, 光刻机, 出口管制, 港口物流, 欧盟对华政策; 中国关联实体/项目=ASML, Port of Rotterdam, COSCO",
-    "title_en": "Rhenen town hall vandalised after asylum seeker housing approved; Riot police intervene",
-    "title_zh": "Rhenen town hall vandalised after asylum seeker housing approved; Riot police intervene",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Netherlands; 中国关联利益=半导体设备, 光刻机, 出口管制, 港口物流, 欧盟对华政策; 中国关联实体/项目=ASML, Port of Rotterdam, COSCO",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Netherlands; China-related interests = semiconductor equipment, lithography machines, export control, port logistics, EU China policy; China-related entities/projects = ASML, Port of Rotterdam, COSCO"
-  },
-  {
-    "id": "516269c627d908036e35",
-    "title": "New UK sanctions target Kremlin war chest, propagandists and torturers",
-    "language": "en",
-    "status": "官方信号",
-    "evidence_status": "官方信号",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "sanctions"
-    ],
-    "severity": "high",
-    "priority_score": 72,
-    "confidence_score": 66,
-    "importance_score": 73,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 84,
-    "freshness_score": 93,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-01T09:17:00+00:00",
-    "last_seen": "2026-10-01T09:17:00+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": true,
-    "platforms": [],
-    "countries": [
-      "United Kingdom"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；本轮首次出现官方证据；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); official evidence appeared for the first time; novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": true
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-01T11:01:58.147946+00:00",
-        "last_seen": "2026-10-01T09:17:00+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 72,
-        "confidence_score": 66,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "9bc458c9d366f3f73de2",
-        "origin_type": "news",
-        "source": "UK Foreign Commonwealth & Development Office",
-        "source_kind": "official",
-        "platform": null,
-        "author": null,
-        "title": "New UK sanctions target Kremlin war chest, propagandists and torturers",
-        "url": "https://www.gov.uk/government/news/new-uk-sanctions-target-kremlin-war-chest-propagandists-and-torturers",
-        "published_at": "2026-10-01T09:17:00+00:00",
-        "collected_at": "2026-10-01T11:01:56.958365+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "gov.uk"
-      }
-    ],
-    "title_original": "New UK sanctions target Kremlin war chest, propagandists and torturers",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
-    "title_en": "New UK sanctions target Kremlin war chest, propagandists and torturers",
-    "title_zh": "New UK sanctions target Kremlin war chest, propagandists and torturers",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: United Kingdom."
-  },
-  {
-    "id": "cea5d25469bfa2adc048",
-    "title": "Chinese hackers impersonate US official to gather intelligence on AI policy",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技与青年",
-    "risk_category": "technology_youth",
-    "risk_category_en": "Technology & Youth",
-    "risk_categories": [
-      "technology_youth"
-    ],
-    "matched_risk_terms": [
-      "AI"
-    ],
-    "severity": "low",
-    "priority_score": 71,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 67,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-01T11:01:56.958365+00:00",
-    "last_seen": "2026-10-01T11:01:56.958365+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Pakistan"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-01T11:01:58.147946+00:00",
-        "last_seen": "2026-10-01T11:01:56.958365+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 71,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "bd90b57443b6f5fb7b7a",
-        "origin_type": "news",
-        "source": "The News International",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Chinese hackers impersonate US official to gather intelligence on AI policy",
-        "url": "https://www.thenews.com.pk/latest/1418325-chinese-hackers-impersonate-us-official-to-gather-intelligence-on-ai-policy",
-        "published_at": null,
-        "collected_at": "2026-10-01T11:01:56.958365+00:00",
+        "title": "Huawei Mate 90 RS : флагман за 19 тысяч юаней получил 2 ТБ памяти и камеру 200 Мп",
+        "url": "https://carexpo.ru/huawei-mate-90-rs-za-19-000-yuanej-zachem-flagmanu-200-mp-6800-mach-i-2-tb-pamyati/",
+        "published_at": "2026-10-01T14:00:00+00:00",
+        "collected_at": "2026-10-01T14:31:09.289103+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "thenews.com.pk"
+        "publisher_family": "carexpo.ru"
       }
     ],
-    "title_original": "Chinese hackers impersonate US official to gather intelligence on AI policy",
+    "title_original": "Huawei Mate 90 RS : флагман за 19 тысяч юаней получил 2 ТБ памяти и камеру 200 Мп",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Chinese hackers impersonate US official to gather intelligence on AI policy",
-    "title_zh": "Chinese hackers impersonate US official to gather intelligence on AI policy",
+    "title_en": "Huawei Mate 90 RS : флагман за 19 тысяч юаней получил 2 ТБ памяти и камеру 200 Мп",
+    "title_zh": "Huawei Mate 90 RS : флагман за 19 тысяч юаней получил 2 ТБ памяти и камеру 200 Мп",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "adb51bfd6976b310779b",
-    "title": "Why the U.S. Must Simultaneously Compete—and Cooperate—With China on AI",
+    "id": "f949d3f92c4b0d473139",
+    "title": "China’s Military Open New Logistics and Training Facility in Laos",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "科技与青年",
-    "risk_category": "technology_youth",
-    "risk_category_en": "Technology & Youth",
-    "risk_categories": [
-      "technology_youth"
-    ],
-    "matched_risk_terms": [
-      "AI"
-    ],
-    "severity": "low",
-    "priority_score": 71,
-    "confidence_score": 39,
-    "importance_score": 40,
+    "category": "安全/冲突",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "medium",
+    "priority_score": 74,
+    "confidence_score": 52,
+    "importance_score": 48,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
-    "exposure_score": 67,
-    "freshness_score": 98,
+    "exposure_score": 60,
+    "freshness_score": 44,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-01T10:30:03+00:00",
-    "last_seen": "2026-10-01T10:30:03+00:00",
+    "first_seen": "2026-10-01T01:08:00+00:00",
+    "last_seen": "2026-10-01T01:08:00+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1539,8 +1220,8 @@
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -1551,10 +1232,97 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-01T11:01:58.147946+00:00",
-        "last_seen": "2026-10-01T10:30:03+00:00",
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T01:08:00+00:00",
         "lifecycle": "emerging",
-        "priority_score": 71,
+        "priority_score": 74,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "7f3e18873001c550a8f3",
+        "origin_type": "news",
+        "source": "The Diplomat",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "China’s Military Open New Logistics and Training Facility in Laos",
+        "url": "https://thediplomat.com/2026/10/chinas-military-open-new-logistics-and-training-facility-in-laos/",
+        "published_at": "2026-10-01T01:08:00+00:00",
+        "collected_at": "2026-10-01T14:31:09.289103+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "thediplomat.com"
+      }
+    ],
+    "title_original": "China’s Military Open New Logistics and Training Facility in Laos",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "China’s Military Open New Logistics and Training Facility in Laos",
+    "title_zh": "China’s Military Open New Logistics and Training Facility in Laos",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "0348ee01b3f5455d4fc4",
+    "title": "Modi and Trump talk amid concerns over Russia sanctions",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "sanctions"
+    ],
+    "severity": "high",
+    "priority_score": 73,
+    "confidence_score": 39,
+    "importance_score": 64,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 84,
+    "freshness_score": 96,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-01T13:34:01+00:00",
+    "last_seen": "2026-10-01T13:34:01+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Russia"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T13:34:01+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
@@ -1564,26 +1332,313 @@
     ],
     "evidence": [
       {
-        "id": "a7a3c10bba5d7930e286",
+        "id": "592b30876eb424ad0d4d",
         "origin_type": "news",
-        "source": "Time",
+        "source": "RT",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Why the U.S. Must Simultaneously Compete—and Cooperate—With China on AI",
-        "url": "https://time.com/article/2026/10/01/the-u-s-must-compete-and-cooperate-with-china-on-ai/",
-        "published_at": "2026-10-01T10:30:03+00:00",
-        "collected_at": "2026-10-01T11:01:56.958365+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "time.com"
+        "title": "Modi and Trump talk amid concerns over Russia sanctions",
+        "url": "https://www.rt.com/india/646566-india-us-russia-sanctions-modi-trump/?utm_source=rss&utm_medium=rss&utm_campaign=RSS",
+        "published_at": "2026-10-01T13:34:01+00:00",
+        "collected_at": "2026-10-01T14:31:09.289103+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "rt.com"
       }
     ],
-    "title_original": "Why the U.S. Must Simultaneously Compete—and Cooperate—With China on AI",
+    "title_original": "Modi and Trump talk amid concerns over Russia sanctions",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
+    "title_en": "Modi and Trump talk amid concerns over Russia sanctions",
+    "title_zh": "Modi and Trump talk amid concerns over Russia sanctions",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Russia."
+  },
+  {
+    "id": "ccc58329646d600bebdd",
+    "title": "Chinese hackers impersonated ex - US official to steal emails from AI experts",
+    "language": "English",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技与青年",
+    "risk_category": "technology_youth",
+    "risk_category_en": "Technology & Youth",
+    "risk_categories": [
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "AI"
+    ],
+    "severity": "low",
+    "priority_score": 72,
+    "confidence_score": 45,
+    "importance_score": 43,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 63,
+    "exposure_score": 67,
+    "freshness_score": 98,
+    "corroboration_score": 40,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-01T13:15:00+00:00",
+    "last_seen": "2026-10-01T14:00:00+00:00",
+    "source_count": 2,
+    "evidence_count": 2,
+    "news_count": 2,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "United States"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增2条独立信息链；新颖度100 / 动量63。",
+    "why_now_en": "Technology & Youth signal; newly entered the event pool; 2 new independent source chain(s); novelty 100 / momentum 63.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 2,
+      "new_evidence": 2,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T14:00:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 72,
+        "confidence_score": 45,
+        "novelty_score": 100,
+        "momentum_score": 63,
+        "source_count": 2,
+        "evidence_count": 2
+      }
+    ],
+    "evidence": [
+      {
+        "id": "50e6f23233a64e3351a1",
+        "origin_type": "news",
+        "source": "capjournal.com",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Chinese hackers impersonated ex - US official to steal emails from AI experts",
+        "url": "https://www.capjournal.com/news/national/chinese-hackers-impersonated-ex-us-official-to-steal-emails-from-ai-experts",
+        "published_at": "2026-10-01T14:00:00+00:00",
+        "collected_at": "2026-10-01T14:31:09.289103+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "capjournal.com"
+      },
+      {
+        "id": "3b3aeff226fee10d0fed",
+        "origin_type": "news",
+        "source": "willistonherald.com",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Chinese hackers impersonated ex - US official to steal emails from AI experts",
+        "url": "https://www.willistonherald.com/news/national/chinese-hackers-impersonated-ex-us-official-to-steal-emails-from-ai-experts",
+        "published_at": "2026-10-01T13:15:00+00:00",
+        "collected_at": "2026-10-01T14:31:09.289103+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "willistonherald.com"
+      }
+    ],
+    "title_original": "Chinese hackers impersonated ex - US official to steal emails from AI experts",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Why the U.S. Must Simultaneously Compete—and Cooperate—With China on AI",
-    "title_zh": "Why the U.S. Must Simultaneously Compete—and Cooperate—With China on AI",
+    "title_en": "Chinese hackers impersonated ex - US official to steal emails from AI experts",
+    "title_zh": "Chinese hackers impersonated ex - US official to steal emails from AI experts",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "9a28bffff3b309a627bc",
+    "title": "习近平国庆涉台讲话：“坚决打击”台独势力",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "外交政治",
+    "risk_category": "diplomatic_political",
+    "risk_category_en": "Diplomatic & Political",
+    "risk_categories": [
+      "diplomatic_political"
+    ],
+    "matched_risk_terms": [
+      "涉台"
+    ],
+    "severity": "low",
+    "priority_score": 72,
+    "confidence_score": 52,
+    "importance_score": 43,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 81,
+    "freshness_score": 90,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-01T12:03:43+00:00",
+    "last_seen": "2026-10-01T12:03:43+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "France"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "外交政治信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Diplomatic & Political signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T12:03:43+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 72,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "cf9d7fac0d30b15719f3",
+        "origin_type": "news",
+        "source": "法国国际广播中文 RFI Chinese",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "习近平国庆涉台讲话：“坚决打击”台独势力",
+        "url": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E6%B3%95%E5%9B%BD%E6%8A%A5%E7%BA%B8%E6%91%98%E8%A6%81/20261001-%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%9B%BD%E5%BA%86%E6%B6%89%E5%8F%B0%E8%AE%B2%E8%AF%9D-%E5%9D%9A%E5%86%B3%E6%89%93%E5%87%BB-%E5%8F%B0%E7%8B%AC%E5%8A%BF%E5%8A%9B",
+        "published_at": "2026-10-01T12:03:43+00:00",
+        "collected_at": "2026-10-01T14:31:09.289103+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "rfi"
+      }
+    ],
+    "title_original": "习近平国庆涉台讲话：“坚决打击”台独势力",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "习近平国庆涉台讲话：“坚决打击”台独势力",
+    "title_en": "习近平国庆涉台讲话：“坚决打击”台独势力",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "988b08a701c86384cadb",
+    "title": "各地铁路部门积极应对国庆假期出行高峰，即日起至10月12日，及时在热门方向、区间和时段增加运力投放。",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "海外项目",
+    "risk_category": "overseas_projects",
+    "risk_category_en": "Overseas Projects",
+    "risk_categories": [
+      "overseas_projects"
+    ],
+    "matched_risk_terms": [
+      "铁路"
+    ],
+    "severity": "medium",
+    "priority_score": 72,
+    "confidence_score": 39,
+    "importance_score": 50,
+    "china_relevance_score": 100,
+    "novelty_score": 95,
+    "momentum_score": 12,
+    "exposure_score": 93,
+    "freshness_score": 85,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-01T11:01:56.958365+00:00",
+    "last_seen": "2026-10-01T11:01:56.958365+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "why_now_zh": "海外项目信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Overseas Projects signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-01T11:01:58.147946+00:00",
+        "last_seen": "2026-10-01T11:01:56.958365+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 80,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-10-01T14:31:11.641837+00:00",
+        "last_seen": "2026-10-01T11:01:56.958365+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 72,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "25f0454b916cbd96e7e7",
+        "origin_type": "news",
+        "source": "中国日报中文 China Daily Chinese",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "各地铁路部门积极应对国庆假期出行高峰，即日起至10月12日，及时在热门方向、区间和时段增加运力投放。",
+        "url": "https://cn.chinadaily.com.cn/a/202610/01/WS6abe2743e4b09a165c78dd74.html",
+        "published_at": null,
+        "collected_at": "2026-10-01T11:01:56.958365+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "chinadaily"
+      }
+    ],
+    "title_original": "各地铁路部门积极应对国庆假期出行高峰，即日起至10月12日，及时在热门方向、区间和时段增加运力投放。",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_zh": "各地铁路部门积极应对国庆假期出行高峰，即日起至10月12日，及时在热门方向、区间和时段增加运力投放。",
+    "title_en": "各地铁路部门积极应对国庆假期出行高峰，即日起至10月12日，及时在热门方向、区间和时段增加运力投放。",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
   }
 ]
