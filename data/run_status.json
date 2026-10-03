@@ -2,31 +2,27 @@
   "version": "0.5.0",
   "mode": "all",
   "manual_query": "",
-  "started_at": "2026-10-02T13:51:40.792496+00:00",
-  "finished_at": "2026-10-02T14:35:55.149818+00:00",
+  "started_at": "2026-10-03T05:16:14.604169+00:00",
+  "finished_at": "2026-10-03T06:02:27.343173+00:00",
   "sources_scanned": 344,
-  "raw_news_48h": 1028,
+  "raw_news_48h": 1110,
   "patrol_window_hours": 48,
-  "items_seen": 1088,
-  "items_new": 933,
-  "items_relevant": 175,
+  "items_seen": 1180,
+  "items_new": 1076,
+  "items_relevant": 253,
   "signals_seen": 182,
   "signals_relevant": 66,
   "social_review_total": 91,
   "social_review_accepted": 33,
-  "stored_articles": 17210,
+  "stored_articles": 17218,
   "stored_signals": 0,
-  "events": 3215,
+  "events": 3230,
   "latest_events": 18,
-  "errors": 81,
+  "errors": 82,
   "error_samples": [
     {
       "source": "Associated Press",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://apnews.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "Financial Times",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ft.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "POLITICO",
@@ -35,6 +31,14 @@
     {
       "source": "The Economist",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.economist.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "Financial Times",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ft.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "Breaking Defense",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://breakingdefense.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "Bloomberg",
@@ -49,12 +53,12 @@
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.axios.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "The Hill",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thehill.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
       "source": "National Review",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.nationalreview.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "The Hill",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://thehill.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "RealClearPolitics",
@@ -77,12 +81,12 @@
       "error": "HTTPStatusError: Client error '403 ' for url 'https://www.zeit.de/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "El País",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://elpais.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
       "source": "EFE",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://efe.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "El País",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://elpais.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "Telex",
@@ -109,16 +113,12 @@
       "error": "HTTPStatusError: Client error '429 Too Many Requests' for url 'https://www.romania-insider.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
     },
     {
-      "source": "STA",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://english.sta.si/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
       "source": "Novinite",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.novinite.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "Ekathimerini",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ekathimerini.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "source": "STA",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://english.sta.si/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     }
   ],
   "platform_status": [
@@ -175,10 +175,10 @@
     "enabled": true,
     "title_limit": 300,
     "reason_limit": 80,
-    "translated": 283,
-    "cache_hits": 97,
-    "failed": 0,
-    "provider": "free-fallback"
+    "translated": 0,
+    "cache_hits": 208,
+    "failed": 172,
+    "provider": "deterministic fallback"
   },
   "retention_days": 45,
   "signal_retention_days": 14,
