@@ -2,27 +2,31 @@
   "version": "0.5.0",
   "mode": "all",
   "manual_query": "",
-  "started_at": "2026-10-05T11:32:19.683813+00:00",
-  "finished_at": "2026-10-05T12:02:30.664194+00:00",
+  "started_at": "2026-10-05T16:00:28.074759+00:00",
+  "finished_at": "2026-10-05T16:48:38.904281+00:00",
   "sources_scanned": 344,
-  "raw_news_48h": 971,
+  "raw_news_48h": 990,
   "patrol_window_hours": 48,
-  "items_seen": 1070,
-  "items_new": 947,
-  "items_relevant": 197,
+  "items_seen": 1082,
+  "items_new": 940,
+  "items_relevant": 189,
   "signals_seen": 182,
   "signals_relevant": 66,
   "social_review_total": 91,
   "social_review_accepted": 33,
-  "stored_articles": 17338,
+  "stored_articles": 17480,
   "stored_signals": 0,
-  "events": 3207,
+  "events": 3347,
   "latest_events": 18,
-  "errors": 85,
+  "errors": 83,
   "error_samples": [
     {
       "source": "Associated Press",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://apnews.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "POLITICO",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.politico.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "The Economist",
@@ -31,10 +35,6 @@
     {
       "source": "Financial Times",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ft.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "POLITICO",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.politico.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "The New York Times",
@@ -65,14 +65,6 @@
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://news.sky.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "The Independent",
-      "error": "HTTPStatusError: Client error '429 ' for url 'https://www.independent.co.uk/us' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
-    },
-    {
-      "source": "Les Echos",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.lesechos.fr/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
       "source": "Libération",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.liberation.fr/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
@@ -89,12 +81,16 @@
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://efe.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "HVG",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://hvg.hu/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "source": "Telex",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://telex.hu/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "Hungary Today",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://hungarytoday.hu/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "Les Echos",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.lesechos.fr/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "Radio Prague International",
@@ -119,6 +115,10 @@
     {
       "source": "STA",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://english.sta.si/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "HINA",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.hina.hr/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     }
   ],
   "platform_status": [
@@ -175,10 +175,10 @@
     "enabled": true,
     "title_limit": 300,
     "reason_limit": 80,
-    "translated": 0,
-    "cache_hits": 157,
-    "failed": 223,
-    "provider": "deterministic fallback"
+    "translated": 244,
+    "cache_hits": 136,
+    "failed": 0,
+    "provider": "free-fallback"
   },
   "retention_days": 45,
   "signal_retention_days": 14,
