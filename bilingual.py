@@ -127,7 +127,7 @@ def enrich_events_bilingual(events: list[dict], cache_path: Path, title_limit: i
     Uses a persistent cache so only newly observed event text is translated on later runs.
     """
     cache = _load_cache(cache_path)
-    enabled = os.getenv('ENABLE_BILINGUAL_TRANSLATION', 'true').lower() in {'1', 'true', 'yes', 'on'}
+    enabled = os.getenv('ENABLE_BILINGUAL_TRANSLATION', 'false').lower() in {'1', 'true', 'yes', 'on'}
     title_limit = max(0, min(len(events), int(os.getenv('BILINGUAL_TITLE_LIMIT', str(title_limit)))))
     reason_limit = max(0, min(title_limit, int(os.getenv('BILINGUAL_REASON_LIMIT', str(reason_limit)))))
 
