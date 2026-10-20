@@ -60,6 +60,10 @@ OPENAI_MODEL = os.getenv('OPENAI_MODEL', 'gpt-5-mini').strip() or 'gpt-5-mini'
 CLASSIFIER_BATCH = int(os.getenv('CLASSIFIER_BATCH_SIZE', '25'))
 ENABLE_GDELT = os.getenv('ENABLE_GDELT', 'true').lower() in {'1', 'true', 'yes', 'on'}
 GDELT_TIMESPAN = os.getenv('GDELT_TIMESPAN', '1d')
+SOURCE_TIMEOUT = float(os.getenv('SOURCE_TIMEOUT_SECONDS', '10'))
+NEWS_CRAWL_DEADLINE = float(os.getenv('NEWS_CRAWL_DEADLINE_SECONDS', '180'))
+GDELT_TIMEOUT = float(os.getenv('GDELT_TIMEOUT_SECONDS', '12'))
+ENABLE_FEED_DISCOVERY = os.getenv('ENABLE_FEED_DISCOVERY', 'false').lower() in {'1', 'true', 'yes', 'on'}
 
 
 def _social_taxonomy_terms(section: str) -> list[str]:
@@ -517,7 +521,7 @@ async def fetch_source(client: httpx.AsyncClient, source: dict) -> list[RawItem]
     if source.get('feed'):
         try: return await fetch_feed(client, source, source['feed'])
         except Exception: pass
-    if mode in {'auto','feed'}:
+    if mode == 'feed' or source.get('discover_feed') or ENABLE_FEED_DISCOVERY:
         feed_url = await discover_feed(client, source['homepage'])
         if feed_url:
             try: return await fetch_feed(client, source, feed_url)
@@ -529,20 +533,31 @@ async def fetch_gdelt(client: httpx.AsyncClient, manual_query='') -> list[RawIte
     if not ENABLE_GDELT: return []
     queries = list(GDELT_QUERIES)
     if manual_query.strip(): queries.insert(0, manual_query.strip())
-    out, seen = [], set()
-    for query in queries[:6]:
+
+    async def one(query: str) -> list[RawItem]:
         params = {'query': query, 'mode':'ArtList','maxrecords':100,'format':'json','timespan':GDELT_TIMESPAN,'sort':'DateDesc'}
         try:
-            r = await client.get('https://api.gdeltproject.org/api/v2/doc/doc', params=params, timeout=30); r.raise_for_status()
+            r = await client.get('https://api.gdeltproject.org/api/v2/doc/doc', params=params, timeout=GDELT_TIMEOUT)
+            r.raise_for_status()
+            rows = []
             for a in r.json().get('articles', []):
                 title, url = compact_text(a.get('title'), 500), a.get('url')
-                if not title or not url: continue
-                canon = canonicalize_url(url)
-                if canon in seen: continue
-                seen.add(canon)
-                out.append(RawItem(title, url, a.get('domain') or 'GDELT source', 'news', a.get('sourcecountry'), a.get('language'), parse_date(a.get('seendate'))))
+                if title and url:
+                    rows.append(RawItem(title, url, a.get('domain') or 'GDELT source', 'news', a.get('sourcecountry'), a.get('language'), parse_date(a.get('seendate'))))
+            return rows
         except Exception as e:
             log(f'GDELT query failed: {type(e).__name__}')
+            return []
+
+    batches = await asyncio.gather(*(one(query) for query in queries[:6]))
+    out, seen = [], set()
+    for batch in batches:
+        for item in batch:
+            canon = canonicalize_url(item.url)
+            if canon in seen:
+                continue
+            seen.add(canon)
+            out.append(item)
     return out
 
 
@@ -553,10 +568,26 @@ async def collect_news(sources: list[dict], manual_query='') -> tuple[list[RawIt
     async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=httpx.Timeout(FETCH_TIMEOUT), limits=limits) as client:
         async def one(src):
             async with sem:
-                try: return await fetch_source(client, src)
+                try:
+                    return await asyncio.wait_for(fetch_source(client, src), timeout=SOURCE_TIMEOUT)
+                except asyncio.TimeoutError:
+                    errors.append({'source':src.get('name','?'),'error':f'Timeout after {SOURCE_TIMEOUT:g}s'}); return []
                 except Exception as e:
                     errors.append({'source':src.get('name','?'),'error':f'{type(e).__name__}: {compact_text(e,180)}'}); return []
-        batches = await asyncio.gather(*(one(s) for s in sources))
+
+        tasks = [asyncio.create_task(one(src)) for src in sources]
+        done, pending = await asyncio.wait(tasks, timeout=NEWS_CRAWL_DEADLINE)
+        if pending:
+            errors.append({'source':'news-crawl','error':f'{len(pending)} sources cancelled after {NEWS_CRAWL_DEADLINE:g}s deadline'})
+            for task in pending:
+                task.cancel()
+            await asyncio.gather(*pending, return_exceptions=True)
+        batches = []
+        for task in done:
+            try:
+                batches.append(task.result())
+            except Exception as e:
+                errors.append({'source':'news-crawl','error':f'{type(e).__name__}: {compact_text(e,180)}'})
         items = [x for batch in batches for x in batch]
         items.extend(await fetch_gdelt(client, manual_query))
     return items, errors
@@ -899,7 +930,7 @@ async def run(mode='all', manual_query='', rebuild_only=False):
 
     # 任何模式运行后都重建事件与站点，因此手动 social-only 也能马上看到网站变化。
     events=build_events(existing_articles, existing_signals, tiers, previous_events=previous_events, taxonomy_cfg=signal_taxonomy)
-    translation_status = enrich_events_bilingual(events, TRANSLATION_CACHE_FILE, title_limit=300, reason_limit=80)
+    translation_status = enrich_events_bilingual(events, TRANSLATION_CACHE_FILE, title_limit=80, reason_limit=20)
     latest=select_latest(events,hours=24,limit=18)
     EVENTS_FILE.write_text(json.dumps(events,ensure_ascii=False,indent=2),encoding='utf-8')
     LATEST_FILE.write_text(json.dumps(latest,ensure_ascii=False,indent=2),encoding='utf-8')
