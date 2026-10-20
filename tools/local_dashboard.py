@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import mimetypes
 import os
 import subprocess
 import sys
@@ -17,6 +18,11 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'site'
 DATA = ROOT / 'data'
 PORT = 8765
+DATA_FILES = {
+    'latest.json', 'events.json', 'articles.json', 'signals.json',
+    'raw_news_48h.json', 'social_review.json', 'run_status.json',
+    'source_summary.json', 'sources.json', 'latest.csv', 'signals.csv',
+}
 _lock = threading.Lock()
 _job: dict[str, object] = {'process': None, 'mode': None, 'started_at': None, 'log': None}
 
@@ -75,8 +81,32 @@ class Handler(SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(data)
 
+    def _serve_data_fallback(self, path: str) -> bool:
+        prefix = '/data/'
+        name = path[len(prefix):] if path.startswith(prefix) else ''
+        if not name or '/' in name or name not in DATA_FILES:
+            return False
+        site_file = SITE / 'data' / name
+        fallback = DATA / name
+        try:
+            # A freshly checked-out repository can contain 2-byte empty placeholders
+            # under site/data while the real run data is already under data/.
+            if fallback.exists() and (not site_file.exists() or site_file.stat().st_size <= 2):
+                payload = fallback.read_bytes()
+                self.send_response(HTTPStatus.OK)
+                self.send_header('Content-Type', mimetypes.guess_type(name)[0] or 'application/octet-stream')
+                self.send_header('Content-Length', str(len(payload)))
+                self.end_headers()
+                self.wfile.write(payload)
+                return True
+        except OSError:
+            pass
+        return False
+
     def do_GET(self):
         path = urlparse(self.path).path
+        if self._serve_data_fallback(path):
+            return
         if path == '/api/status':
             return self.send_json(job_state())
         if path in {'/', '/index.html'}:
