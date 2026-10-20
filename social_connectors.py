@@ -13,6 +13,8 @@ from pathlib import Path
 import feedparser
 import httpx
 
+X_QUERY_TIMEOUT = float(os.getenv('X_QUERY_TIMEOUT_SECONDS', '12'))
+
 
 def _now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
@@ -43,14 +45,13 @@ async def collect_x_official(queries: list[str], max_per_query: int) -> tuple[li
     token = os.getenv('X_BEARER_TOKEN', '').strip()
     if not token:
         return [], {'platform': 'x', 'status': 'disabled', 'detail': '未配置 X_BEARER_TOKEN'}
-    rows: list[dict] = []
-    errors: list[str] = []
     headers = {'Authorization': f'Bearer {token}', 'User-Agent': 'GlobalChinaSignals/0.3'}
-    async with httpx.AsyncClient(headers=headers, timeout=30, follow_redirects=True) as client:
-        for q in queries:
+
+    async with httpx.AsyncClient(headers=headers, timeout=X_QUERY_TIMEOUT, follow_redirects=True) as client:
+        async def one(q: str) -> tuple[list[dict], str | None]:
             query = q.strip()
             if not query:
-                continue
+                return [], None
             if '-is:retweet' not in query:
                 query = f'({query}) -is:retweet'
             params = {
@@ -65,13 +66,14 @@ async def collect_x_official(queries: list[str], max_per_query: int) -> tuple[li
                 r.raise_for_status()
                 payload = r.json()
                 users = {u.get('id'): u for u in payload.get('includes', {}).get('users', [])}
+                result = []
                 for t in (payload.get('data') or [])[:max_per_query]:
                     user = users.get(t.get('author_id'), {})
                     username = user.get('username') or t.get('author_id') or 'unknown'
                     tid = str(t.get('id') or '')
                     if not tid:
                         continue
-                    rows.append({
+                    result.append({
                         'id': _sid('x', tid),
                         'platform': 'x',
                         'author': username,
@@ -86,8 +88,13 @@ async def collect_x_official(queries: list[str], max_per_query: int) -> tuple[li
                         'media_count': len((t.get('attachments') or {}).get('media_keys') or []),
                         'collector': 'x_api_v2',
                     })
+                return result, None
             except Exception as e:
-                errors.append(f'{type(e).__name__}: {_clean(e, 180)}')
+                return [], f'{type(e).__name__}: {_clean(e, 180)}'
+
+        results = await asyncio.gather(*(one(q) for q in queries))
+    rows = [row for result, _ in results for row in result]
+    errors = [error for _, error in results if error]
     status = {'platform': 'x', 'status': 'ok' if rows else ('error' if errors else 'empty'), 'items': len(rows)}
     if errors:
         status['detail'] = errors[:3]
