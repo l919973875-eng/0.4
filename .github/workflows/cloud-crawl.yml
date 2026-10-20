@@ -43,7 +43,7 @@ permissions:
 
 concurrency:
   group: global-china-early-signals
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   crawl-and-deploy:
@@ -66,8 +66,14 @@ jobs:
       SIGNAL_RETENTION_DAYS: '14'
       MAX_STORED_ARTICLES: '30000'
       MAX_STORED_SIGNALS: '15000'
-      FETCH_TIMEOUT_SECONDS: '18'
-      CONCURRENCY: '18'
+      FETCH_TIMEOUT_SECONDS: '8'
+      SOURCE_TIMEOUT_SECONDS: '10'
+      NEWS_CRAWL_DEADLINE_SECONDS: '180'
+      GDELT_TIMEOUT_SECONDS: '12'
+      MAX_CONNECTIONS: '64'
+      CONCURRENCY: '48'
+      ENABLE_FEED_DISCOVERY: 'false'
+      ENABLE_BILINGUAL_TRANSLATION: 'false'
 
     steps:
       - name: 读取项目
