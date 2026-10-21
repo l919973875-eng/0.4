@@ -1,5 +1,281 @@
 [
   {
+    "id": "15afc90540ca5d62b89a",
+    "title": "外交部10月21日例行记者会上有记者问：日本稀土钇库存仅够支撑数月，已请求美国帮忙劝说中方放宽相关出口管制。中方有何评论？",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "出口管制"
+    ],
+    "severity": "high",
+    "priority_score": 86,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 89,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-21T09:24:22.465047+00:00",
+    "last_seen": "2026-10-21T09:24:22.465047+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-21T09:24:22.465047+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 86,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "90a2f007cf78607e1365",
+        "origin_type": "news",
+        "source": "中国日报中文 China Daily Chinese",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "外交部10月21日例行记者会上有记者问：日本稀土钇库存仅够支撑数月，已请求美国帮忙劝说中方放宽相关出口管制。中方有何评论？",
+        "url": "https://cn.chinadaily.com.cn/a/202610/21/WS6ad87e25e4b09a165c790afa.html",
+        "published_at": null,
+        "collected_at": "2026-10-21T09:24:22.465047+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "chinadaily"
+      }
+    ],
+    "title_original": "外交部10月21日例行记者会上有记者问：日本稀土钇库存仅够支撑数月，已请求美国帮忙劝说中方放宽相关出口管制。中方有何评论？",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "外交部10月21日例行记者会上有记者问：日本稀土钇库存仅够支撑数月，已请求美国帮忙劝说中方放宽相关出口管制。中方有何评论？",
+    "title_en": "外交部10月21日例行记者会上有记者问：日本稀土钇库存仅够支撑数月，已请求美国帮忙劝说中方放宽相关出口管制。中方有何评论？",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "9b0044c5d3426d10b5e9",
+    "title": "法国骚乱期间大批华人店铺遭洗劫 太有钱 不公平 成攻击借口光华日报 | 1910年创刊 创新每一天生活",
+    "language": "Chinese",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "劳资社会",
+    "risk_category": "labor_social",
+    "risk_category_en": "Labor & Social Unrest",
+    "risk_categories": [
+      "labor_social"
+    ],
+    "matched_risk_terms": [
+      "骚乱"
+    ],
+    "severity": "high",
+    "priority_score": 85,
+    "confidence_score": 39,
+    "importance_score": 64,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 77,
+    "freshness_score": 97,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-21T08:45:00+00:00",
+    "last_seen": "2026-10-21T08:45:00+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Malaysia"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-21T08:45:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 85,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "457be83860ac69cd4b73",
+        "origin_type": "news",
+        "source": "kwongwah.com.my",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "法国骚乱期间大批华人店铺遭洗劫 太有钱 不公平 成攻击借口光华日报 | 1910年创刊 创新每一天生活",
+        "url": "https://www.kwongwah.com.my/20261021/%E6%B3%95%E5%9B%BD%E9%AA%9A%E4%B9%B1%E6%9C%9F%E9%97%B4%E5%A4%A7%E6%89%B9%E5%8D%8E%E4%BA%BA%E5%BA%97%E9%93%BA%E9%81%AD%E6%B4%97%E5%8A%AB-%E5%A4%AA%E6%9C%89%E9%92%B1%E4%B8%8D/",
+        "published_at": "2026-10-21T08:45:00+00:00",
+        "collected_at": "2026-10-21T09:24:22.465047+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "kwongwah.com.my"
+      }
+    ],
+    "title_original": "法国骚乱期间大批华人店铺遭洗劫 太有钱 不公平 成攻击借口光华日报 | 1910年创刊 创新每一天生活",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "法国骚乱期间大批华人店铺遭洗劫 太有钱 不公平 成攻击借口光华日报 | 1910年创刊 创新每一天生活",
+    "title_zh": "法国骚乱期间大批华人店铺遭洗劫 太有钱 不公平 成攻击借口光华日报 | 1910年创刊 创新每一天生活",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "16be104b96358f3a49af",
+    "title": "铁路建设提质提速 前三季度投产新线1625公里 - 新华网",
+    "language": "Chinese",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "海外项目",
+    "risk_category": "overseas_projects",
+    "risk_category_en": "Overseas Projects",
+    "risk_categories": [
+      "overseas_projects"
+    ],
+    "matched_risk_terms": [
+      "铁路"
+    ],
+    "severity": "medium",
+    "priority_score": 81,
+    "confidence_score": 58,
+    "importance_score": 60,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 63,
+    "exposure_score": 93,
+    "freshness_score": 97,
+    "corroboration_score": 40,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-21T08:30:00+00:00",
+    "last_seen": "2026-10-21T08:45:00+00:00",
+    "source_count": 2,
+    "evidence_count": 2,
+    "news_count": 2,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "why_now_zh": "海外项目信号；近期首次进入事件池；新增2条独立信息链；新颖度100 / 动量63。",
+    "why_now_en": "Overseas Projects signal; newly entered the event pool; 2 new independent source chain(s); novelty 100 / momentum 63.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 2,
+      "new_evidence": 2,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-21T08:45:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 81,
+        "confidence_score": 58,
+        "novelty_score": 100,
+        "momentum_score": 63,
+        "source_count": 2,
+        "evidence_count": 2
+      }
+    ],
+    "evidence": [
+      {
+        "id": "d01c7fca374b746e39ea",
+        "origin_type": "news",
+        "source": "xinhuanet.com",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "铁路建设提质提速 前三季度投产新线1625公里 - 新华网",
+        "url": "http://www.xinhuanet.com/20261021/bd08f2f59b334635b7df96fa377d9aae/c.html",
+        "published_at": "2026-10-21T08:45:00+00:00",
+        "collected_at": "2026-10-21T09:24:22.465047+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "xinhua"
+      },
+      {
+        "id": "341160d9cac54d337b50",
+        "origin_type": "news",
+        "source": "baijiahao.baidu.com",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "铁路建设提质提速 前三季度投产新线1625公里",
+        "url": "https://baijiahao.baidu.com/s?id=1879644753650809362",
+        "published_at": "2026-10-21T08:30:00+00:00",
+        "collected_at": "2026-10-21T09:24:22.465047+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "baijiahao.baidu.com"
+      }
+    ],
+    "title_original": "铁路建设提质提速 前三季度投产新线1625公里 - 新华网",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_en": "铁路建设提质提速 前三季度投产新线1625公里 - 新华网",
+    "title_zh": "铁路建设提质提速 前三季度投产新线1625公里 - 新华网",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
+  },
+  {
     "id": "b02b00fdf10ec3ed89c2",
     "title": "Beijing blasts US sanctions on 5 Chinese firms tied to ex - Google engineer",
     "language": "English",
@@ -16,14 +292,14 @@
       "sanctions"
     ],
     "severity": "high",
-    "priority_score": 86,
+    "priority_score": 78,
     "confidence_score": 39,
-    "importance_score": 64,
+    "importance_score": 61,
     "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
+    "novelty_score": 95,
+    "momentum_score": 12,
     "exposure_score": 89,
-    "freshness_score": 97,
+    "freshness_score": 77,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-10-21T04:00:00+00:00",
@@ -39,13 +315,13 @@
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
     "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
+      "new_sources": 0,
+      "new_evidence": 0,
       "severity_change": 0,
       "official_added": false
     },
@@ -58,6 +334,17 @@
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-21T04:00:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 78,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
       }
@@ -87,6 +374,543 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
+    "id": "94a5e2263bdd40b260e4",
+    "title": "Vibrant China | Hainan Free Trade Port goes beyond island - wide special customs operation",
+    "language": "English",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸/科技",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "medium",
+    "priority_score": 77,
+    "confidence_score": 39,
+    "importance_score": 52,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 60,
+    "freshness_score": 97,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-21T08:45:00+00:00",
+    "last_seen": "2026-10-21T08:45:00+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "经贸/科技信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-21T08:45:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 77,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "a55b68cdce8aec35b28e",
+        "origin_type": "news",
+        "source": "chinanationalnews.com",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Vibrant China | Hainan Free Trade Port goes beyond island - wide special customs operation",
+        "url": "http://www.chinanationalnews.com/news/279389231/vibrant-china-hainan-free-trade-port-goes-beyond-island-wide-special-customs-operation",
+        "published_at": "2026-10-21T08:45:00+00:00",
+        "collected_at": "2026-10-21T09:24:22.465047+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "chinanationalnews.com"
+      }
+    ],
+    "title_original": "Vibrant China | Hainan Free Trade Port goes beyond island - wide special customs operation",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Vibrant China | Hainan Free Trade Port goes beyond island - wide special customs operation",
+    "title_zh": "Vibrant China | Hainan Free Trade Port goes beyond island - wide special customs operation",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "996bfe4fcc6b56aa3235",
+    "title": "Gangnam arson attack renews alarm over elderly men with grudges A man in his 70s arrested on suspicion of injuring 19 people in an arson attack cited a personal grudge as his motive, renewing concern over elderly people driven by resentment starting fires. On Tuesday, two buildings in Seoul’s Gangnam District were set on fire and the suspect was caught fleei",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security",
+      "safety_production_domestic"
+    ],
+    "matched_risk_terms": [
+      "arrested",
+      "fire"
+    ],
+    "severity": "high",
+    "priority_score": 75,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 95,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-21T09:24:22.465047+00:00",
+    "last_seen": "2026-10-21T09:24:22.465047+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "South Korea"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-21T09:24:22.465047+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 75,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "c44e36b37d158fbde5a3",
+        "origin_type": "news",
+        "source": "The Korea Times",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Gangnam arson attack renews alarm over elderly men with grudges A man in his 70s arrested on suspicion of injuring 19 people in an arson attack cited a personal grudge as his motive, renewing concern over elderly people driven by resentment starting fires. On Tuesday, two buildings in Seoul’s Gangnam District were set on fire and the suspect was caught fleeing. He mostly acknowledged planning and committing the arson, police said Wednesday. He is believed to have harbored a grievance against pat",
+        "url": "https://www.koreatimes.co.kr/southkorea/society/20261021/gangnam-arson-attack-renews-alarm-over-elderly-men-with-grudges",
+        "published_at": null,
+        "collected_at": "2026-10-21T09:24:22.465047+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "koreatimes.co.kr"
+      }
+    ],
+    "title_original": "Gangnam arson attack renews alarm over elderly men with grudges A man in his 70s arrested on suspicion of injuring 19 people in an arson attack cited a personal grudge as his motive, renewing concern over elderly people driven by resentment starting fires. On Tuesday, two buildings in Seoul’s Gangnam District were set on fire and the suspect was caught fleei",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
+    "title_en": "Gangnam arson attack renews alarm over elderly men with grudges A man in his 70s arrested on suspicion of injuring 19 people in an arson attack cited a personal grudge as his motive, renewing concern over elderly people driven by resentment starting fires. On Tuesday, two buildings in Seoul’s Gangnam District were set on fire and the suspect was caught fleei",
+    "title_zh": "Gangnam arson attack renews alarm over elderly men with grudges A man in his 70s arrested on suspicion of injuring 19 people in an arson attack cited a personal grudge as his motive, renewing concern over elderly people driven by resentment starting fires. On Tuesday, two buildings in Seoul’s Gangnam District were set on fire and the suspect was caught fleei",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related region = South Korea; China-related interests = China-South Korea relations, semiconductors, batteries, Korean Peninsula, supply chain, US technology policy; China-related entities/projects = Samsung China exposure, SK Hynix China fabs, LG Energy Solution"
+  },
+  {
+    "id": "c383f22196dc6768a5a4",
+    "title": "宁德时代找上华为 想靠换电绑定更多整车厂 _ 东方财富网",
+    "language": "Chinese",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "华为"
+    ],
+    "severity": "low",
+    "priority_score": 74,
+    "confidence_score": 45,
+    "importance_score": 42,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 63,
+    "exposure_score": 91,
+    "freshness_score": 92,
+    "corroboration_score": 40,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-21T05:45:00+00:00",
+    "last_seen": "2026-10-21T07:30:00+00:00",
+    "source_count": 2,
+    "evidence_count": 2,
+    "news_count": 2,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增2条独立信息链；新颖度100 / 动量63。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 2 new independent source chain(s); novelty 100 / momentum 63.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 2,
+      "new_evidence": 2,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-21T07:30:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 45,
+        "novelty_score": 100,
+        "momentum_score": 63,
+        "source_count": 2,
+        "evidence_count": 2
+      }
+    ],
+    "evidence": [
+      {
+        "id": "169327b8dbd7570f5f94",
+        "origin_type": "news",
+        "source": "finance.eastmoney.com",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "宁德时代找上华为 想靠换电绑定更多整车厂 _ 东方财富网",
+        "url": "https://finance.eastmoney.com/a/202610213902510190.html",
+        "published_at": "2026-10-21T07:30:00+00:00",
+        "collected_at": "2026-10-21T09:24:22.465047+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "finance.eastmoney.com"
+      },
+      {
+        "id": "84f88e7c6868d7db5805",
+        "origin_type": "news",
+        "source": "k.sina.com.cn",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "宁德时代找上华为 ， 想靠换电绑定更多整车厂",
+        "url": "https://k.sina.com.cn/article_5182171545_134e1a99902002km0k.html",
+        "published_at": "2026-10-21T05:45:00+00:00",
+        "collected_at": "2026-10-21T09:24:22.465047+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "k.sina.com.cn"
+      }
+    ],
+    "title_original": "宁德时代找上华为 想靠换电绑定更多整车厂 _ 东方财富网",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "宁德时代找上华为 想靠换电绑定更多整车厂 _ 东方财富网",
+    "title_zh": "宁德时代找上华为 想靠换电绑定更多整车厂 _ 东方财富网",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "381fcef0ceb22f8269d3",
+    "title": "'De-CATLization' tests China's battery king as share price falls 10%",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "battery"
+    ],
+    "severity": "low",
+    "priority_score": 74,
+    "confidence_score": 52,
+    "importance_score": 44,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 91,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-21T09:24:22.465047+00:00",
+    "last_seen": "2026-10-21T09:24:22.465047+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Japan"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-21T09:24:22.465047+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "58f87ac31e866694a463",
+        "origin_type": "news",
+        "source": "Nikkei Asia",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "'De-CATLization' tests China's battery king as share price falls 10%",
+        "url": "https://asia.nikkei.com/business/markets/de-catlization-tests-china-s-battery-king-as-share-price-falls-10",
+        "published_at": null,
+        "collected_at": "2026-10-21T09:24:22.465047+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "nikkei"
+      }
+    ],
+    "title_original": "'De-CATLization' tests China's battery king as share price falls 10%",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "'De-CATLization' tests China's battery king as share price falls 10%",
+    "title_zh": "'De-CATLization' tests China's battery king as share price falls 10%",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "9aae3c2dc8a0289f99e8",
+    "title": "当Agent 有工号 ： 从一人一工具到一人一团队 ， 组织如何做好AI时代的分工与协作 ？ |调用|张江|智能体|人工智能",
+    "language": "Chinese",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls",
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "人工智能",
+      "AI"
+    ],
+    "severity": "low",
+    "priority_score": 73,
+    "confidence_score": 39,
+    "importance_score": 39,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 91,
+    "freshness_score": 97,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-21T08:45:00+00:00",
+    "last_seen": "2026-10-21T08:45:00+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-21T08:45:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "2cad9e3d424e67778f84",
+        "origin_type": "news",
+        "source": "163.com",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "当Agent 有工号 ： 从一人一工具到一人一团队 ， 组织如何做好AI时代的分工与协作 ？ |调用|张江|智能体|人工智能",
+        "url": "https://www.163.com/dy/article/L9PD2V6U05118HA4.html",
+        "published_at": "2026-10-21T08:45:00+00:00",
+        "collected_at": "2026-10-21T09:24:22.465047+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "163.com"
+      }
+    ],
+    "title_original": "当Agent 有工号 ： 从一人一工具到一人一团队 ， 组织如何做好AI时代的分工与协作 ？ |调用|张江|智能体|人工智能",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_en": "当Agent 有工号 ： 从一人一工具到一人一团队 ， 组织如何做好AI时代的分工与协作 ？ |调用|张江|智能体|人工智能",
+    "title_zh": "当Agent 有工号 ： 从一人一工具到一人一团队 ， 组织如何做好AI时代的分工与协作 ？ |调用|张江|智能体|人工智能",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
+  },
+  {
+    "id": "3fffa06713bea430f0ed",
+    "title": "收评 ： 沪指跌0 . 6 % DRG / DIP概念股领涨 电池股领跌 _ 东方财富网",
+    "language": "Chinese",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "电池"
+    ],
+    "severity": "low",
+    "priority_score": 73,
+    "confidence_score": 39,
+    "importance_score": 39,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 91,
+    "freshness_score": 97,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-21T08:45:00+00:00",
+    "last_seen": "2026-10-21T08:45:00+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-21T08:45:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "b92ad7de6be68a4fc8cc",
+        "origin_type": "news",
+        "source": "finance.eastmoney.com",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "收评 ： 沪指跌0 . 6 % DRG / DIP概念股领涨 电池股领跌 _ 东方财富网",
+        "url": "https://finance.eastmoney.com/a/202610213902613753.html",
+        "published_at": "2026-10-21T08:45:00+00:00",
+        "collected_at": "2026-10-21T09:24:22.465047+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "finance.eastmoney.com"
+      }
+    ],
+    "title_original": "收评 ： 沪指跌0 . 6 % DRG / DIP概念股领涨 电池股领跌 _ 东方财富网",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_en": "收评 ： 沪指跌0 . 6 % DRG / DIP概念股领涨 电池股领跌 _ 东方财富网",
+    "title_zh": "收评 ： 沪指跌0 . 6 % DRG / DIP概念股领涨 电池股领跌 _ 东方财富网",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
+  },
+  {
     "id": "2e5be0e5529daa31a476",
     "title": "Coast guard details China’s activities near Pratas ‘GRAY ZONE’ TACTICS: Persistent China Coast Guard patrols east of Taiwan are one of the most troubling recent developments, a US official said at a forum in Taipei Fifteen expulsions of Chinese vessels have been conducted on 12 separate occasions to remove them from waters near the Pratas Islands (Dongsha Is",
     "language": "en",
@@ -103,14 +927,14 @@
       "coast guard"
     ],
     "severity": "medium",
-    "priority_score": 81,
+    "priority_score": 73,
     "confidence_score": 39,
-    "importance_score": 52,
+    "importance_score": 49,
     "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
+    "novelty_score": 95,
+    "momentum_score": 12,
     "exposure_score": 100,
-    "freshness_score": 100,
+    "freshness_score": 80,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-10-21T04:43:34.397356+00:00",
@@ -126,13 +950,13 @@
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
     "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
+      "new_sources": 0,
+      "new_evidence": 0,
       "severity_change": 0,
       "official_added": false
     },
@@ -145,6 +969,17 @@
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-21T04:43:34.397356+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
       }
@@ -171,705 +1006,7 @@
     "title_en": "Coast guard details China’s activities near Pratas ‘GRAY ZONE’ TACTICS: Persistent China Coast Guard patrols east of Taiwan are one of the most troubling recent developments, a US official said at a forum in Taipei Fifteen expulsions of Chinese vessels have been conducted on 12 separate occasions to remove them from waters near the Pratas Islands (Dongsha Is",
     "title_zh": "Coast guard details China’s activities near Pratas ‘GRAY ZONE’ TACTICS: Persistent China Coast Guard patrols east of Taiwan are one of the most troubling recent developments, a US official said at a forum in Taipei Fifteen expulsions of Chinese vessels have been conducted on 12 separate occasions to remove them from waters near the Pratas Islands (Dongsha Is",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "1c2090ade400f90055dc",
-    "title": "台湾国防部高官参加美台国防工业会议，吁美台军工业合作建立印太非红供应链",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经济产业",
-    "risk_category": "economic_industry_domestic",
-    "risk_category_en": "Economy & Industry",
-    "risk_categories": [
-      "economic_industry_domestic"
-    ],
-    "matched_risk_terms": [
-      "供应链"
-    ],
-    "severity": "medium",
-    "priority_score": 78,
-    "confidence_score": 52,
-    "importance_score": 53,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 85,
-    "freshness_score": 75,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-20T22:43:56+00:00",
-    "last_seen": "2026-10-20T22:43:56+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United States"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "经济产业信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Economy & Industry signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-21T04:43:36.709325+00:00",
-        "last_seen": "2026-10-20T22:43:56+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 78,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "403093644836b1fe482e",
-        "origin_type": "news",
-        "source": "美国之音中文 VOA Chinese",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "台湾国防部高官参加美台国防工业会议，吁美台军工业合作建立印太非红供应链",
-        "url": "https://www.voachinese.com/a/taiwan-defense-official-urges-us-defense-industry-to-jointly-cooperate-with-its-industry-to-build-non-red-regional-supply-chain-20261020/8213417.html",
-        "published_at": "2026-10-20T22:43:56+00:00",
-        "collected_at": "2026-10-21T04:43:34.397356+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "voa"
-      }
-    ],
-    "title_original": "台湾国防部高官参加美台国防工业会议，吁美台军工业合作建立印太非红供应链",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "台湾国防部高官参加美台国防工业会议，吁美台军工业合作建立印太非红供应链",
-    "title_en": "台湾国防部高官参加美台国防工业会议，吁美台军工业合作建立印太非红供应链",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "7acde24c14433b87c94f",
-    "title": "【404文库】追月数星的朋友圈｜前调查记者付松举报国家天文台用“中国天眼”违法牟利后，遭政法委调查，朋友被警察上门盘问",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "调查"
-    ],
-    "severity": "medium",
-    "priority_score": 78,
-    "confidence_score": 39,
-    "importance_score": 48,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 89,
-    "freshness_score": 68,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-20T21:00:46+00:00",
-    "last_seen": "2026-10-20T21:00:46+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Global"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-21T04:43:36.709325+00:00",
-        "last_seen": "2026-10-20T21:00:46+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 78,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "f7aca515bf2e4fec88bd",
-        "origin_type": "news",
-        "source": "中国数字时代 Chinese CDT",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "【404文库】追月数星的朋友圈｜前调查记者付松举报国家天文台用“中国天眼”违法牟利后，遭政法委调查，朋友被警察上门盘问",
-        "url": "https://chinadigitaltimes.net/chinese/733081.html",
-        "published_at": "2026-10-20T21:00:46+00:00",
-        "collected_at": "2026-10-21T04:43:34.397356+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "cdt"
-      }
-    ],
-    "title_original": "【404文库】追月数星的朋友圈｜前调查记者付松举报国家天文台用“中国天眼”违法牟利后，遭政法委调查，朋友被警察上门盘问",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "【404文库】追月数星的朋友圈｜前调查记者付松举报国家天文台用“中国天眼”违法牟利后，遭政法委调查，朋友被警察上门盘问",
-    "title_en": "【404文库】追月数星的朋友圈｜前调查记者付松举报国家天文台用“中国天眼”违法牟利后，遭政法委调查，朋友被警察上门盘问",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "46cf5438f40a4de8c06e",
-    "title": "China ramps up cyberattacks for potential election meddling: officials WARNING: Beijing might leverage technology and its human resources to devise a strategy to influence next month’s elections, using fake polls and reports, the NSB said The Government Service Network (GSN) reported a surge of 185.6 million cyberattacks in July, suggesting that Beijing coul",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "安全/冲突",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "medium",
-    "priority_score": 77,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 60,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-21T04:43:34.397356+00:00",
-    "last_seen": "2026-10-21T04:43:34.397356+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Taiwan"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-21T04:43:36.709325+00:00",
-        "last_seen": "2026-10-21T04:43:34.397356+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 77,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "70358fdb76f69f8a8d29",
-        "origin_type": "news",
-        "source": "Taipei Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "China ramps up cyberattacks for potential election meddling: officials WARNING: Beijing might leverage technology and its human resources to devise a strategy to influence next month’s elections, using fake polls and reports, the NSB said The Government Service Network (GSN) reported a surge of 185.6 million cyberattacks in July, suggesting that Beijing could be preparing large-scale interference operations ahead of the Nov. 28 elections, government officials said. Cyberattacks on the network, l",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/10/21/2003866334",
-        "published_at": null,
-        "collected_at": "2026-10-21T04:43:34.397356+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "taipeitimes.com"
-      }
-    ],
-    "title_original": "China ramps up cyberattacks for potential election meddling: officials WARNING: Beijing might leverage technology and its human resources to devise a strategy to influence next month’s elections, using fake polls and reports, the NSB said The Government Service Network (GSN) reported a surge of 185.6 million cyberattacks in July, suggesting that Beijing coul",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "China ramps up cyberattacks for potential election meddling: officials WARNING: Beijing might leverage technology and its human resources to devise a strategy to influence next month’s elections, using fake polls and reports, the NSB said The Government Service Network (GSN) reported a surge of 185.6 million cyberattacks in July, suggesting that Beijing coul",
-    "title_zh": "China ramps up cyberattacks for potential election meddling: officials WARNING: Beijing might leverage technology and its human resources to devise a strategy to influence next month’s elections, using fake polls and reports, the NSB said The Government Service Network (GSN) reported a surge of 185.6 million cyberattacks in July, suggesting that Beijing coul",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "6f3a3a942271c7b3d253",
-    "title": "AI tool developed to assess earthquake damage Researchers have developed an artificial intelligence (AI) tool for assessing potential earthquake damage and gauging the seismic coefficient of structures, officials and scientists said yesterday. The government and National Taiwan University’s Department of Civil Engineering trained the AI tool on",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls",
-      "technology_youth"
-    ],
-    "matched_risk_terms": [
-      "artificial intelligence",
-      "AI"
-    ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-21T04:43:34.397356+00:00",
-    "last_seen": "2026-10-21T04:43:34.397356+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Taiwan"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-21T04:43:36.709325+00:00",
-        "last_seen": "2026-10-21T04:43:34.397356+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "32d89bd7d6b8e89c238e",
-        "origin_type": "news",
-        "source": "Taipei Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "AI tool developed to assess earthquake damage Researchers have developed an artificial intelligence (AI) tool for assessing potential earthquake damage and gauging the seismic coefficient of structures, officials and scientists said yesterday. The government and National Taiwan University’s Department of Civil Engineering trained the AI tool on",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/10/21/2003866336",
-        "published_at": null,
-        "collected_at": "2026-10-21T04:43:34.397356+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "taipeitimes.com"
-      }
-    ],
-    "title_original": "AI tool developed to assess earthquake damage Researchers have developed an artificial intelligence (AI) tool for assessing potential earthquake damage and gauging the seismic coefficient of structures, officials and scientists said yesterday. The government and National Taiwan University’s Department of Civil Engineering trained the AI tool on",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "AI tool developed to assess earthquake damage Researchers have developed an artificial intelligence (AI) tool for assessing potential earthquake damage and gauging the seismic coefficient of structures, officials and scientists said yesterday. The government and National Taiwan University’s Department of Civil Engineering trained the AI tool on",
-    "title_zh": "AI tool developed to assess earthquake damage Researchers have developed an artificial intelligence (AI) tool for assessing potential earthquake damage and gauging the seismic coefficient of structures, officials and scientists said yesterday. The government and National Taiwan University’s Department of Civil Engineering trained the AI tool on",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "012f2f35d4ba32cc0e2d",
-    "title": "华为Pura X View开启60天预约申购 - 新摄会 _ 华商网数码",
-    "language": "Chinese",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls"
-    ],
-    "matched_risk_terms": [
-      "华为"
-    ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 98,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-21T04:15:00+00:00",
-    "last_seen": "2026-10-21T04:15:00+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "China"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-21T04:43:36.709325+00:00",
-        "last_seen": "2026-10-21T04:15:00+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "1f5dda31af31ea2e9de3",
-        "origin_type": "news",
-        "source": "digi.hsw.cn",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "华为Pura X View开启60天预约申购 - 新摄会 _ 华商网数码",
-        "url": "https://digi.hsw.cn/system/2026/1021/178340.shtml",
-        "published_at": "2026-10-21T04:15:00+00:00",
-        "collected_at": "2026-10-21T04:43:34.397356+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "digi.hsw.cn"
-      }
-    ],
-    "title_original": "华为Pura X View开启60天预约申购 - 新摄会 _ 华商网数码",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "华为Pura X View开启60天预约申购 - 新摄会 _ 华商网数码",
-    "title_zh": "华为Pura X View开启60天预约申购 - 新摄会 _ 华商网数码",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "de75208b107fa46cd570",
-    "title": "三大指数集体翻绿 ！ 数据要素 、 AI漫剧概念走强 ， 锂电池板块走弱｜A股早盘",
-    "language": "Chinese",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls",
-      "technology_youth"
-    ],
-    "matched_risk_terms": [
-      "电池",
-      "AI"
-    ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 98,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-21T04:15:00+00:00",
-    "last_seen": "2026-10-21T04:15:00+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "China"
-    ],
-    "entities": [],
-    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-21T04:43:36.709325+00:00",
-        "last_seen": "2026-10-21T04:15:00+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "ad145b745be22dbd5b63",
-        "origin_type": "news",
-        "source": "baijiahao.baidu.com",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "三大指数集体翻绿 ！ 数据要素 、 AI漫剧概念走强 ， 锂电池板块走弱｜A股早盘",
-        "url": "https://baijiahao.baidu.com/s?id=1879629246175083289",
-        "published_at": "2026-10-21T04:15:00+00:00",
-        "collected_at": "2026-10-21T04:43:34.397356+00:00",
-        "relation": "direct",
-        "confidence": 88,
-        "publisher_family": "baijiahao.baidu.com"
-      }
-    ],
-    "title_original": "三大指数集体翻绿 ！ 数据要素 、 AI漫剧概念走强 ， 锂电池板块走弱｜A股早盘",
-    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "title_en": "三大指数集体翻绿 ！ 数据要素 、 AI漫剧概念走强 ， 锂电池板块走弱｜A股早盘",
-    "title_zh": "三大指数集体翻绿 ！ 数据要素 、 AI漫剧概念走强 ， 锂电池板块走弱｜A股早盘",
-    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
-  },
-  {
-    "id": "8034591f873118542fde",
-    "title": "几块钱就能享受高阶会员 二手平台 破解版AI 靠谱吗 - 华龙网 - 重庆市委市政府官方新闻门户",
-    "language": "Chinese",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "涉渝专题",
-    "risk_category": "chongqing_special",
-    "risk_category_en": "Chongqing Focus",
-    "risk_categories": [
-      "chongqing_special",
-      "technology_youth"
-    ],
-    "matched_risk_terms": [
-      "重庆",
-      "AI"
-    ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 98,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-21T04:15:00+00:00",
-    "last_seen": "2026-10-21T04:15:00+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "China"
-    ],
-    "entities": [],
-    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "涉渝专题信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Chongqing Focus signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-21T04:43:36.709325+00:00",
-        "last_seen": "2026-10-21T04:15:00+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "0109d702b9dbe48a6aea",
-        "origin_type": "news",
-        "source": "cqnews.net",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "几块钱就能享受高阶会员 二手平台 破解版AI 靠谱吗 - 华龙网 - 重庆市委市政府官方新闻门户",
-        "url": "https://www.cqnews.net/web/content_1562414158641446912.html",
-        "published_at": "2026-10-21T04:15:00+00:00",
-        "collected_at": "2026-10-21T04:43:34.397356+00:00",
-        "relation": "direct",
-        "confidence": 88,
-        "publisher_family": "cqnews.net"
-      }
-    ],
-    "title_original": "几块钱就能享受高阶会员 二手平台 破解版AI 靠谱吗 - 华龙网 - 重庆市委市政府官方新闻门户",
-    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "title_en": "几块钱就能享受高阶会员 二手平台 破解版AI 靠谱吗 - 华龙网 - 重庆市委市政府官方新闻门户",
-    "title_zh": "几块钱就能享受高阶会员 二手平台 破解版AI 靠谱吗 - 华龙网 - 重庆市委市政府官方新闻门户",
-    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
-  },
-  {
-    "id": "ec7d5cffeb0ed548c157",
-    "title": "华为路由X2 Pro预售 - 新摄会 _ 华商网数码",
-    "language": "Chinese",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls"
-    ],
-    "matched_risk_terms": [
-      "华为"
-    ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 98,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-21T04:15:00+00:00",
-    "last_seen": "2026-10-21T04:15:00+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "China"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-21T04:43:36.709325+00:00",
-        "last_seen": "2026-10-21T04:15:00+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "91e1fc030ec658c0e4d4",
-        "origin_type": "news",
-        "source": "digi.hsw.cn",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "华为路由X2 Pro预售 - 新摄会 _ 华商网数码",
-        "url": "https://digi.hsw.cn/system/2026/1021/178343.shtml",
-        "published_at": "2026-10-21T04:15:00+00:00",
-        "collected_at": "2026-10-21T04:43:34.397356+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "digi.hsw.cn"
-      }
-    ],
-    "title_original": "华为路由X2 Pro预售 - 新摄会 _ 华商网数码",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "华为路由X2 Pro预售 - 新摄会 _ 华商网数码",
-    "title_zh": "华为路由X2 Pro预售 - 新摄会 _ 华商网数码",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Taiwan."
   },
   {
     "id": "8873b9a3680c7225ba4d",
@@ -888,14 +1025,14 @@
       "军演"
     ],
     "severity": "high",
-    "priority_score": 74,
+    "priority_score": 73,
     "confidence_score": 52,
-    "importance_score": 59,
+    "importance_score": 56,
     "china_relevance_score": 100,
     "novelty_score": 82,
     "momentum_score": 12,
     "exposure_score": 100,
-    "freshness_score": 28,
+    "freshness_score": 9,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-10-20T11:34:00+00:00",
@@ -943,6 +1080,17 @@
         "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-20T11:34:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 52,
+        "novelty_score": 82,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -967,364 +1115,16 @@
     "title_zh": "日美“利剑”军演：日称不针对特定国家",
     "title_en": "日美“利剑”军演：日称不针对特定国家",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Germany."
   },
   {
-    "id": "77199d7f9c6078b8059f",
-    "title": "Politics More Republicans break with Trump on Russia sanctions ‘Now is the time for us to turn up the pressure,’ said Sen. Katie Britt, R-Ala.",
-    "language": "en",
+    "id": "0f7c50f16e086b732fec",
+    "title": "Myanmar social entrepreneur eyes materializing Chinese market opportunities for honey",
+    "language": "English",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "sanctions"
-    ],
-    "severity": "high",
-    "priority_score": 73,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 84,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-21T04:43:34.397356+00:00",
-    "last_seen": "2026-10-21T04:43:34.397356+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United States"
-    ],
-    "entities": [],
-    "reason": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-21T04:43:36.709325+00:00",
-        "last_seen": "2026-10-21T04:43:34.397356+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 73,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "8140d2f6c5ecd838971d",
-        "origin_type": "news",
-        "source": "Semafor",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Politics More Republicans break with Trump on Russia sanctions ‘Now is the time for us to turn up the pressure,’ said Sen. Katie Britt, R-Ala.",
-        "url": "https://www.semafor.com/article/10/20/2026/more-republicans-break-with-trump-on-russia-sanctions",
-        "published_at": null,
-        "collected_at": "2026-10-21T04:43:34.397356+00:00",
-        "relation": "potential",
-        "confidence": 48,
-        "publisher_family": "semafor.com"
-      }
-    ],
-    "title_original": "Politics More Republicans break with Trump on Russia sanctions ‘Now is the time for us to turn up the pressure,’ said Sen. Katie Britt, R-Ala.",
-    "reason_original": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
-    "title_en": "Politics More Republicans break with Trump on Russia sanctions ‘Now is the time for us to turn up the pressure,’ said Sen. Katie Britt, R-Ala.",
-    "title_zh": "Politics More Republicans break with Trump on Russia sanctions ‘Now is the time for us to turn up the pressure,’ said Sen. Katie Britt, R-Ala.",
-    "reason_zh": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
-    "reason_en": "Hits the public events of great power competition and escalation/disruption in the global security field; no direct evidence involving China has been found yet, and it is included in the pool according to conduction observation"
-  },
-  {
-    "id": "bc690b2f22298fe79c20",
-    "title": "今年9月，中方提出在未来5年内邀请10万名美国青少年来华进行交流学习。作为落地举措之一，由教育部中外人文交流中心主办的2026中美名校大学生匹克球友谊赛近日在北京大学邱德拔体育馆举办。",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "民生治理",
-    "risk_category": "livelihood_governance",
-    "risk_category_en": "Livelihood & Governance",
-    "risk_categories": [
-      "livelihood_governance"
-    ],
-    "matched_risk_terms": [
-      "教育"
-    ],
-    "severity": "low",
-    "priority_score": 73,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 81,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-21T04:43:34.397356+00:00",
-    "last_seen": "2026-10-21T04:43:34.397356+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "China"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "民生治理信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Livelihood & Governance signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-21T04:43:36.709325+00:00",
-        "last_seen": "2026-10-21T04:43:34.397356+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 73,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "c01f47088f20ff07b486",
-        "origin_type": "news",
-        "source": "中国日报中文 China Daily Chinese",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "今年9月，中方提出在未来5年内邀请10万名美国青少年来华进行交流学习。作为落地举措之一，由教育部中外人文交流中心主办的2026中美名校大学生匹克球友谊赛近日在北京大学邱德拔体育馆举办。",
-        "url": "https://cn.chinadaily.com.cn/a/202610/21/WS6ad830d1e4b09a165c790870.html",
-        "published_at": null,
-        "collected_at": "2026-10-21T04:43:34.397356+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "chinadaily"
-      }
-    ],
-    "title_original": "今年9月，中方提出在未来5年内邀请10万名美国青少年来华进行交流学习。作为落地举措之一，由教育部中外人文交流中心主办的2026中美名校大学生匹克球友谊赛近日在北京大学邱德拔体育馆举办。",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "今年9月，中方提出在未来5年内邀请10万名美国青少年来华进行交流学习。作为落地举措之一，由教育部中外人文交流中心主办的2026中美名校大学生匹克球友谊赛近日在北京大学邱德拔体育馆举办。",
-    "title_en": "今年9月，中方提出在未来5年内邀请10万名美国青少年来华进行交流学习。作为落地举措之一，由教育部中外人文交流中心主办的2026中美名校大学生匹克球友谊赛近日在北京大学邱德拔体育馆举办。",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "13f5e29522e40a9a6c8b",
-    "title": "Sanctions, War, Isolation: Why Hasn't Iran's Hard-Line Government Collapsed?",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "sanctions"
-    ],
-    "severity": "high",
-    "priority_score": 73,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 84,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-21T04:43:34.397356+00:00",
-    "last_seen": "2026-10-21T04:43:34.397356+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United States"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-21T04:43:36.709325+00:00",
-        "last_seen": "2026-10-21T04:43:34.397356+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 73,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "a8f348a8c8c10f048032",
-        "origin_type": "news",
-        "source": "Radio Free Europe/Radio Liberty",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Sanctions, War, Isolation: Why Hasn't Iran's Hard-Line Government Collapsed?",
-        "url": "https://www.rferl.org/a/iran-islamic-republic-protests-opposition/33878108.html",
-        "published_at": null,
-        "collected_at": "2026-10-21T04:43:34.397356+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "rferl.org"
-      }
-    ],
-    "title_original": "Sanctions, War, Isolation: Why Hasn't Iran's Hard-Line Government Collapsed?",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
-    "title_en": "Sanctions, War, Isolation: Why Hasn't Iran's Hard-Line Government Collapsed?",
-    "title_zh": "Sanctions, War, Isolation: Why Hasn't Iran's Hard-Line Government Collapsed?",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related region = United States; China-related interests = Sino-US relations, trade and tariffs, technology and export controls, semiconductors, artificial intelligence, financial sanctions, military and Indo-Pacific, Taiwan Strait; China-related entities/projects = Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | Event-related regions=Iran; China-related interests=energy, sanctions, nuclear issues, Middle East security, China-Iran cooperation; China-related entities/projects=China-Iran energy trade"
-  },
-  {
-    "id": "e95475f20c66cbb401e8",
-    "title": "Pangilinan to Marcos: You sent Duterte and Romualdez to jail, you can expel China’s envoy",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "外交政治",
-    "risk_category": "diplomatic_political",
-    "risk_category_en": "Diplomatic & Political",
-    "risk_categories": [
-      "diplomatic_political"
-    ],
-    "matched_risk_terms": [
-      "expel"
-    ],
-    "severity": "low",
-    "priority_score": 73,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 81,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-21T04:43:34.397356+00:00",
-    "last_seen": "2026-10-21T04:43:34.397356+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Philippines"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "外交政治信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Diplomatic & Political signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-21T04:43:36.709325+00:00",
-        "last_seen": "2026-10-21T04:43:34.397356+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 73,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "d6638620f25f1079b199",
-        "origin_type": "news",
-        "source": "The Philippine Star",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Pangilinan to Marcos: You sent Duterte and Romualdez to jail, you can expel China’s envoy",
-        "url": "https://www.philstar.com/headlines/2026/10/21/2564780/pangilinan-marcos-you-sent-duterte-and-romualdez-jail-you-can-expel-chinas-envoy",
-        "published_at": null,
-        "collected_at": "2026-10-21T04:43:34.397356+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "philstar.com"
-      }
-    ],
-    "title_original": "Pangilinan to Marcos: You sent Duterte and Romualdez to jail, you can expel China’s envoy",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Pangilinan to Marcos: You sent Duterte and Romualdez to jail, you can expel China’s envoy",
-    "title_zh": "Pangilinan to Marcos: You sent Duterte and Romualdez to jail, you can expel China’s envoy",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "737a1e10bd161af0b6b2",
-    "title": "体操世锦赛 ： 中国男团摘铜 获洛杉矶奥运资格 - 泉州网|泉州晚报社 泉州新闻门户网站",
-    "language": "Chinese",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "其他",
+    "category": "海外利益",
     "risk_category": "other",
     "risk_category_en": "",
     "risk_categories": [],
@@ -1337,11 +1137,11 @@
     "novelty_score": 100,
     "momentum_score": 63,
     "exposure_score": 60,
-    "freshness_score": 98,
+    "freshness_score": 97,
     "corroboration_score": 40,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-21T04:15:00+00:00",
-    "last_seen": "2026-10-21T04:15:00+00:00",
+    "first_seen": "2026-10-21T08:45:00+00:00",
+    "last_seen": "2026-10-21T08:45:00+00:00",
     "source_count": 2,
     "evidence_count": 2,
     "news_count": 2,
@@ -1349,11 +1149,12 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "China"
+      "China",
+      "Myanmar"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "其他信号；近期首次进入事件池；新增2条独立信息链；新颖度100 / 动量63。",
+    "why_now_zh": "海外利益信号；近期首次进入事件池；新增2条独立信息链；新颖度100 / 动量63。",
     "why_now_en": "China-related anomaly; newly entered the event pool; 2 new independent source chain(s); novelty 100 / momentum 63.",
     "previous_event_matched": false,
     "previous_match_score": 0,
@@ -1365,8 +1166,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-21T04:43:36.709325+00:00",
-        "last_seen": "2026-10-21T04:15:00+00:00",
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-21T08:45:00+00:00",
         "lifecycle": "emerging",
         "priority_score": 72,
         "confidence_score": 45,
@@ -1378,47 +1179,47 @@
     ],
     "evidence": [
       {
-        "id": "7ab2ecfe55897877ff28",
+        "id": "a9a7792191f994b8fc41",
         "origin_type": "news",
-        "source": "qzwb.com",
+        "source": "chinanationalnews.com",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "体操世锦赛 ： 中国男团摘铜 获洛杉矶奥运资格 - 泉州网|泉州晚报社 泉州新闻门户网站",
-        "url": "https://www.qzwb.com/gb/content/2026-10/21/content_9257947.htm",
-        "published_at": "2026-10-21T04:15:00+00:00",
-        "collected_at": "2026-10-21T04:43:34.397356+00:00",
+        "title": "Myanmar social entrepreneur eyes materializing Chinese market opportunities for honey",
+        "url": "http://www.chinanationalnews.com/news/279389230/myanmar-social-entrepreneur-eyes-materializing-chinese-market-opportunities-for-honey",
+        "published_at": "2026-10-21T08:45:00+00:00",
+        "collected_at": "2026-10-21T09:24:22.465047+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "qzwb.com"
+        "publisher_family": "chinanationalnews.com"
       },
       {
-        "id": "1a22e23a4b863ad9e77a",
+        "id": "0b544019f00f18462b3d",
         "origin_type": "news",
-        "source": "jzrb.com",
+        "source": "myanmarnews.net",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "体操世锦赛 ： 中国男团摘铜 获洛杉矶奥运资格 - 焦作网WWW . JZRB . COM",
-        "url": "http://www.jzrb.com/jzwty/tynews/202610/965050.html",
-        "published_at": "2026-10-21T04:15:00+00:00",
-        "collected_at": "2026-10-21T04:43:34.397356+00:00",
+        "title": "Myanmar social entrepreneur eyes materializing Chinese market opportunities for honey",
+        "url": "http://www.myanmarnews.net/news/279389230/myanmar-social-entrepreneur-eyes-materializing-chinese-market-opportunities-for-honey",
+        "published_at": "2026-10-21T08:45:00+00:00",
+        "collected_at": "2026-10-21T09:24:22.465047+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "jzrb.com"
+        "publisher_family": "myanmarnews.net"
       }
     ],
-    "title_original": "体操世锦赛 ： 中国男团摘铜 获洛杉矶奥运资格 - 泉州网|泉州晚报社 泉州新闻门户网站",
+    "title_original": "Myanmar social entrepreneur eyes materializing Chinese market opportunities for honey",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "体操世锦赛 ： 中国男团摘铜 获洛杉矶奥运资格 - 泉州网|泉州晚报社 泉州新闻门户网站",
-    "title_zh": "体操世锦赛 ： 中国男团摘铜 获洛杉矶奥运资格 - 泉州网|泉州晚报社 泉州新闻门户网站",
+    "title_en": "Myanmar social entrepreneur eyes materializing Chinese market opportunities for honey",
+    "title_zh": "Myanmar social entrepreneur eyes materializing Chinese market opportunities for honey",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: China."
+    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: China, Myanmar."
   },
   {
-    "id": "78de550c9f01c015e1bf",
-    "title": "法国多地爆发骚乱，现在去巴黎旅游该注意些什么？",
-    "language": "zh",
+    "id": "98a3fbb30c03bf2f1a63",
+    "title": "One day’s riot, next day’s discount: looted French goods hit resale site, Vinted",
+    "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
@@ -1429,21 +1230,21 @@
       "labor_social"
     ],
     "matched_risk_terms": [
-      "骚乱"
+      "riot"
     ],
     "severity": "high",
     "priority_score": 72,
-    "confidence_score": 52,
-    "importance_score": 69,
+    "confidence_score": 39,
+    "importance_score": 65,
     "china_relevance_score": 58,
     "novelty_score": 100,
     "momentum_score": 55,
     "exposure_score": 72,
-    "freshness_score": 99,
+    "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-21T04:36:23+00:00",
-    "last_seen": "2026-10-21T04:36:23+00:00",
+    "first_seen": "2026-10-21T09:24:22.465047+00:00",
+    "last_seen": "2026-10-21T09:24:22.465047+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1451,10 +1252,10 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "United States"
+      "India"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
     "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
     "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
@@ -1467,95 +1268,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-21T04:43:36.709325+00:00",
-        "last_seen": "2026-10-21T04:36:23+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 72,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "3ed9ef9f3a541210df9e",
-        "origin_type": "news",
-        "source": "纽约时报中文网 NYT Chinese",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "法国多地爆发骚乱，现在去巴黎旅游该注意些什么？",
-        "url": "https://cn.nytimes.com/travel/20261021/france-travel-riots/?utm_source=RSS",
-        "published_at": "2026-10-21T04:36:23+00:00",
-        "collected_at": "2026-10-21T04:43:34.397356+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "nyt"
-      }
-    ],
-    "title_original": "法国多地爆发骚乱，现在去巴黎旅游该注意些什么？",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
-    "title_zh": "法国多地爆发骚乱，现在去巴黎旅游该注意些什么？",
-    "title_en": "法国多地爆发骚乱，现在去巴黎旅游该注意些什么？",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: United States."
-  },
-  {
-    "id": "b35f446bf091290dee6a",
-    "title": "三任连主官接力破解 供电难 - 中国军网",
-    "language": "Chinese",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "民生治理",
-    "risk_category": "livelihood_governance",
-    "risk_category_en": "Livelihood & Governance",
-    "risk_categories": [
-      "livelihood_governance"
-    ],
-    "matched_risk_terms": [
-      "供电"
-    ],
-    "severity": "low",
-    "priority_score": 72,
-    "confidence_score": 39,
-    "importance_score": 39,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 81,
-    "freshness_score": 97,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-21T04:00:00+00:00",
-    "last_seen": "2026-10-21T04:00:00+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "China"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "民生治理信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Livelihood & Governance signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-21T04:43:36.709325+00:00",
-        "last_seen": "2026-10-21T04:00:00+00:00",
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-21T09:24:22.465047+00:00",
         "lifecycle": "emerging",
         "priority_score": 72,
         "confidence_score": 39,
@@ -1567,26 +1281,371 @@
     ],
     "evidence": [
       {
-        "id": "a7a6184941ce39753ccb",
+        "id": "98718684062df3a93ff9",
         "origin_type": "news",
-        "source": "81.cn",
+        "source": "ThePrint",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "三任连主官接力破解 供电难 - 中国军网",
-        "url": "http://www.81.cn/yw_208727/16495035.html",
-        "published_at": "2026-10-21T04:00:00+00:00",
+        "title": "One day’s riot, next day’s discount: looted French goods hit resale site, Vinted",
+        "url": "https://theprint.in/feature/france-protest-looting-goods-resale-site-vinted-paris-luxury/3077613/",
+        "published_at": null,
+        "collected_at": "2026-10-21T09:24:22.465047+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "theprint.in"
+      }
+    ],
+    "title_original": "One day’s riot, next day’s discount: looted French goods hit resale site, Vinted",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
+    "title_en": "One day’s riot, next day’s discount: looted French goods hit resale site, Vinted",
+    "title_zh": "One day’s riot, next day’s discount: looted French goods hit resale site, Vinted",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: India."
+  },
+  {
+    "id": "afc2f357d3b44c5f287d",
+    "title": "S. Korea urges N. Korea to take 'responsible measures' over mine explosion incident at U.N.",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "安全/冲突",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "high",
+    "priority_score": 71,
+    "confidence_score": 66,
+    "importance_score": 74,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 55,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-21T09:24:22.465047+00:00",
+    "last_seen": "2026-10-21T09:24:22.465047+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "South Korea"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
+    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-21T09:24:22.465047+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 71,
+        "confidence_score": 66,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "f029136658246a656787",
+        "origin_type": "news",
+        "source": "Yonhap News",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "S. Korea urges N. Korea to take 'responsible measures' over mine explosion incident at U.N.",
+        "url": "https://en.yna.co.kr/view/AEN20261009000500315?section=national/diplomacy",
+        "published_at": null,
+        "collected_at": "2026-10-21T09:24:22.465047+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "ap"
+      }
+    ],
+    "title_original": "S. Korea urges N. Korea to take 'responsible measures' over mine explosion incident at U.N.",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
+    "title_en": "S. Korea urges N. Korea to take 'responsible measures' over mine explosion incident at U.N.",
+    "title_zh": "S. Korea urges N. Korea to take 'responsible measures' over mine explosion incident at U.N.",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: South Korea."
+  },
+  {
+    "id": "e0fef70117ddc3ef1b6f",
+    "title": "New defense minister urges N. Korea to halt border-hardening following DMZ explosion",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "安全/冲突",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "high",
+    "priority_score": 71,
+    "confidence_score": 66,
+    "importance_score": 74,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 55,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-21T09:24:22.465047+00:00",
+    "last_seen": "2026-10-21T09:24:22.465047+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "South Korea"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
+    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-21T09:24:22.465047+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 71,
+        "confidence_score": 66,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "f9f676a5071eac325868",
+        "origin_type": "news",
+        "source": "Yonhap News",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "New defense minister urges N. Korea to halt border-hardening following DMZ explosion",
+        "url": "https://en.yna.co.kr/view/AEN20260922009800315?section=national/defense",
+        "published_at": null,
+        "collected_at": "2026-10-21T09:24:22.465047+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "ap"
+      }
+    ],
+    "title_original": "New defense minister urges N. Korea to halt border-hardening following DMZ explosion",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
+    "title_en": "New defense minister urges N. Korea to halt border-hardening following DMZ explosion",
+    "title_zh": "New defense minister urges N. Korea to halt border-hardening following DMZ explosion",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: South Korea."
+  },
+  {
+    "id": "ac961ca883c6aa2c378c",
+    "title": "Apec finance ministers reach consensus on AI, digital financing in Hong Kong",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技与青年",
+    "risk_category": "technology_youth",
+    "risk_category_en": "Technology & Youth",
+    "risk_categories": [
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "AI"
+    ],
+    "severity": "low",
+    "priority_score": 71,
+    "confidence_score": 52,
+    "importance_score": 44,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 67,
+    "freshness_score": 94,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-21T08:00:31+00:00",
+    "last_seen": "2026-10-21T08:00:31+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Hong Kong"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-21T08:00:31+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 71,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "6ec1c05781f780ccbc15",
+        "origin_type": "news",
+        "source": "South China Morning Post (SCMP)",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Apec finance ministers reach consensus on AI, digital financing in Hong Kong",
+        "url": "https://www.scmp.com/business/article/3371628/apec-finance-ministers-reach-consensus-ai-digital-financing-hong-kong",
+        "published_at": "2026-10-21T08:00:31+00:00",
+        "collected_at": "2026-10-21T09:24:22.465047+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "scmp"
+      }
+    ],
+    "title_original": "Apec finance ministers reach consensus on AI, digital financing in Hong Kong",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Apec finance ministers reach consensus on AI, digital financing in Hong Kong",
+    "title_zh": "Apec finance ministers reach consensus on AI, digital financing in Hong Kong",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Hong Kong."
+  },
+  {
+    "id": "1c2090ade400f90055dc",
+    "title": "台湾国防部高官参加美台国防工业会议，吁美台军工业合作建立印太非红供应链",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经济产业",
+    "risk_category": "economic_industry_domestic",
+    "risk_category_en": "Economy & Industry",
+    "risk_categories": [
+      "economic_industry_domestic"
+    ],
+    "matched_risk_terms": [
+      "供应链"
+    ],
+    "severity": "medium",
+    "priority_score": 68,
+    "confidence_score": 52,
+    "importance_score": 50,
+    "china_relevance_score": 100,
+    "novelty_score": 82,
+    "momentum_score": 12,
+    "exposure_score": 85,
+    "freshness_score": 56,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-20T22:43:56+00:00",
+    "last_seen": "2026-10-20T22:43:56+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "United States"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "经济产业信号；近期首次进入事件池；新颖度82 / 动量12。",
+    "why_now_en": "Economy & Industry signal; newly entered the event pool; novelty 82 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-21T04:43:36.709325+00:00",
+        "last_seen": "2026-10-20T22:43:56+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 78,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-10-21T09:24:24.667971+00:00",
+        "last_seen": "2026-10-20T22:43:56+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 68,
+        "confidence_score": 52,
+        "novelty_score": 82,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "403093644836b1fe482e",
+        "origin_type": "news",
+        "source": "美国之音中文 VOA Chinese",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "台湾国防部高官参加美台国防工业会议，吁美台军工业合作建立印太非红供应链",
+        "url": "https://www.voachinese.com/a/taiwan-defense-official-urges-us-defense-industry-to-jointly-cooperate-with-its-industry-to-build-non-red-regional-supply-chain-20261020/8213417.html",
+        "published_at": "2026-10-20T22:43:56+00:00",
         "collected_at": "2026-10-21T04:43:34.397356+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "81.cn"
+        "publisher_family": "voa"
       }
-    ],
-    "title_original": "三任连主官接力破解 供电难 - 中国军网",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "三任连主官接力破解 供电难 - 中国军网",
-    "title_zh": "三任连主官接力破解 供电难 - 中国军网",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: China."
+    ]
   }
 ]
