@@ -1,5 +1,94 @@
 [
   {
+    "id": "6dff0cfd27dff42ac528",
+    "title": "A damaged house in Kyiv Emergency services walk past a damaged shopping centre in Kyiv A house destroyed by Russian strikes A crater at the site of a missile strike in Kyiv An emergency worker speaks on the phone in front of a wall hit by shrapnel, Kyiv",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "军事安全",
+    "risk_category": "military_security",
+    "risk_category_en": "Military & Security",
+    "risk_categories": [
+      "military_security",
+      "labor_social"
+    ],
+    "matched_risk_terms": [
+      "missile",
+      "strike"
+    ],
+    "severity": "critical",
+    "priority_score": 80,
+    "confidence_score": 52,
+    "importance_score": 82,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 96,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-22T12:58:48.049786+00:00",
+    "last_seen": "2026-10-22T12:58:48.049786+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "United Kingdom"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T12:58:48.049786+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 80,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "80e18568d065db9a27ca",
+        "origin_type": "news",
+        "source": "The Guardian",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "A damaged house in Kyiv Emergency services walk past a damaged shopping centre in Kyiv A house destroyed by Russian strikes A crater at the site of a missile strike in Kyiv An emergency worker speaks on the phone in front of a wall hit by shrapnel, Kyiv",
+        "url": "https://www.theguardian.com/world/2026/oct/22/russia-missile-attack-kyiv-hours-after-agreeing-to-talks-ukraine",
+        "published_at": null,
+        "collected_at": "2026-10-22T12:58:48.049786+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "guardian"
+      }
+    ],
+    "title_original": "A damaged house in Kyiv Emergency services walk past a damaged shopping centre in Kyiv A house destroyed by Russian strikes A crater at the site of a missile strike in Kyiv An emergency worker speaks on the phone in front of a wall hit by shrapnel, Kyiv",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok",
+    "title_en": "A damaged house in Kyiv Emergency services walk past a damaged shopping centre in Kyiv A house destroyed by Russian strikes A crater at the site of a missile strike in Kyiv An emergency worker speaks on the phone in front of a wall hit by shrapnel, Kyiv",
+    "title_zh": "A damaged house in Kyiv Emergency services walk past a damaged shopping centre in Kyiv A house destroyed by Russian strikes A crater at the site of a missile strike in Kyiv An emergency worker speaks on the phone in front of a wall hit by shrapnel, Kyiv",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related region = United Kingdom; China-related interests = Sino-British relations, finance, Hong Kong issues, investment review, technology, nuclear power, education, intelligence security; China-related entities/projects = Huawei, CGN, HSBC China exposure, TikTok"
+  },
+  {
     "id": "c055f61a75c1a956b273",
     "title": "强台蔷琵扰乱美日军演 台日逾200航班取消",
     "language": "zh",
@@ -16,14 +105,14 @@
       "军演"
     ],
     "severity": "high",
-    "priority_score": 87,
+    "priority_score": 79,
     "confidence_score": 39,
-    "importance_score": 65,
+    "importance_score": 62,
     "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
+    "novelty_score": 95,
+    "momentum_score": 12,
     "exposure_score": 100,
-    "freshness_score": 98,
+    "freshness_score": 84,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-10-22T09:03:44+00:00",
@@ -39,13 +128,13 @@
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
     "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
+      "new_sources": 0,
+      "new_evidence": 0,
       "severity_change": 0,
       "official_added": false
     },
@@ -58,6 +147,17 @@
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T09:03:44+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 79,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
       }
@@ -103,14 +203,14 @@
       "arrested"
     ],
     "severity": "high",
-    "priority_score": 79,
+    "priority_score": 78,
     "confidence_score": 52,
-    "importance_score": 66,
+    "importance_score": 63,
     "china_relevance_score": 100,
     "novelty_score": 82,
     "momentum_score": 28,
     "exposure_score": 100,
-    "freshness_score": 74,
+    "freshness_score": 60,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-10-22T03:17:26+00:00",
@@ -158,6 +258,17 @@
         "momentum_score": 28,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T03:17:26+00:00",
+        "lifecycle": "escalating",
+        "priority_score": 78,
+        "confidence_score": 52,
+        "novelty_score": 82,
+        "momentum_score": 28,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -185,6 +296,89 @@
     "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
   },
   {
+    "id": "9faf1df64d74e298ce97",
+    "title": "中国裁军大使：防止外空军备竞赛是外空安全治理最紧迫任务",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "安全/冲突",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "medium",
+    "priority_score": 77,
+    "confidence_score": 52,
+    "importance_score": 57,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 60,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-22T12:58:48.049786+00:00",
+    "last_seen": "2026-10-22T12:58:48.049786+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Singapore"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T12:58:48.049786+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 77,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "bc4942234c2e908ccd25",
+        "origin_type": "news",
+        "source": "联合早报 Lianhe Zaobao · 中国",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "中国裁军大使：防止外空军备竞赛是外空安全治理最紧迫任务",
+        "url": "https://www.zaobao.com.sg/news/china/story20261022-9878340",
+        "published_at": null,
+        "collected_at": "2026-10-22T12:58:48.049786+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "zaobao"
+      }
+    ],
+    "title_original": "中国裁军大使：防止外空军备竞赛是外空安全治理最紧迫任务",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "中国裁军大使：防止外空军备竞赛是外空安全治理最紧迫任务",
+    "title_en": "中国裁军大使：防止外空军备竞赛是外空安全治理最紧迫任务",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
     "id": "77cb4780eceb0c74497b",
     "title": "US adds wrongful detention warning to China travel advisory The U.S. State Department has added a wrongful detention warning to its travel advisory for mainland China, cautioning that Americans face a serious risk of being detained without a fair legal process.",
     "language": "en",
@@ -201,14 +395,14 @@
       "detained"
     ],
     "severity": "high",
-    "priority_score": 79,
+    "priority_score": 76,
     "confidence_score": 39,
-    "importance_score": 62,
+    "importance_score": 60,
     "china_relevance_score": 100,
-    "novelty_score": 95,
+    "novelty_score": 82,
     "momentum_score": 12,
     "exposure_score": 100,
-    "freshness_score": 80,
+    "freshness_score": 65,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-10-22T04:41:44.279898+00:00",
@@ -224,8 +418,8 @@
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新颖度95 / 动量12。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新颖度82 / 动量12。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; novelty 82 / momentum 12.",
     "previous_event_matched": true,
     "previous_match_score": 0.84,
     "change": {
@@ -256,6 +450,17 @@
         "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T04:41:44.279898+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 76,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -283,91 +488,8 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "a0849022c23bae17253b",
-    "title": "Hong Kong port needs a new lease of life in value-driven era",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "海外利益",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "medium",
-    "priority_score": 77,
-    "confidence_score": 52,
-    "importance_score": 56,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 60,
-    "freshness_score": 96,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-22T08:30:09+00:00",
-    "last_seen": "2026-10-22T08:30:09+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Hong Kong"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "海外利益信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-22T09:27:13.625361+00:00",
-        "last_seen": "2026-10-22T08:30:09+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 77,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "f68cc5fbeb2b74a0976b",
-        "origin_type": "news",
-        "source": "South China Morning Post (SCMP)",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Hong Kong port needs a new lease of life in value-driven era",
-        "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3371747/hong-kong-port-needs-new-lease-life-value-driven-era",
-        "published_at": "2026-10-22T08:30:09+00:00",
-        "collected_at": "2026-10-22T09:27:11.402771+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "scmp"
-      }
-    ],
-    "title_original": "Hong Kong port needs a new lease of life in value-driven era",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Hong Kong port needs a new lease of life in value-driven era",
-    "title_zh": "Hong Kong port needs a new lease of life in value-driven era",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "2804fa2c0bafec09c4af",
-    "title": "At least 2 killed in Houthi attack on Saudi Arabia's Dammam airport",
+    "id": "cbd4e617ddcd1f7c6b69",
+    "title": "Indian national killed, three others injured in attacks on airport and oil field in Saudi Arabia",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -392,8 +514,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-22T09:27:11.402771+00:00",
-    "last_seen": "2026-10-22T09:27:11.402771+00:00",
+    "first_seen": "2026-10-22T12:58:48.049786+00:00",
+    "last_seen": "2026-10-22T12:58:48.049786+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -401,10 +523,10 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Turkey"
+      "India"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment | 事件关联地区=Saudi Arabia; 中国关联利益=石油, 人民币结算讨论, 新能源, 中东外交, 炼化, 数字经济; 中国关联实体/项目=Sinopec, Aramco-China projects, Huawei",
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei | 事件关联地区=Saudi Arabia; 中国关联利益=石油, 人民币结算讨论, 新能源, 中东外交, 炼化, 数字经济; 中国关联实体/项目=Sinopec, Aramco-China projects, Huawei",
     "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
     "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
     "previous_event_matched": false,
@@ -417,8 +539,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-22T09:27:13.625361+00:00",
-        "last_seen": "2026-10-22T09:27:11.402771+00:00",
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T12:58:48.049786+00:00",
         "lifecycle": "emerging",
         "priority_score": 75,
         "confidence_score": 39,
@@ -430,146 +552,160 @@
     ],
     "evidence": [
       {
-        "id": "3f91ccfdb5fea2855cdc",
+        "id": "ba5018bb10d4783368f5",
         "origin_type": "news",
-        "source": "Daily Sabah",
+        "source": "The Hindu",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "At least 2 killed in Houthi attack on Saudi Arabia's Dammam airport",
-        "url": "https://www.dailysabah.com/world/mid-east/at-least-2-killed-in-houthi-attack-on-saudi-arabias-dammam-airport",
+        "title": "Indian national killed, three others injured in attacks on airport and oil field in Saudi Arabia",
+        "url": "https://www.thehindu.com/news/national/indian-national-killed-in-saudi-dammam-airport-attack-others-injured/article71610871.ece",
         "published_at": null,
-        "collected_at": "2026-10-22T09:27:11.402771+00:00",
+        "collected_at": "2026-10-22T12:58:48.049786+00:00",
         "relation": "potential",
         "confidence": 62,
-        "publisher_family": "dailysabah.com"
+        "publisher_family": "thehindu.com"
       }
     ],
-    "title_original": "At least 2 killed in Houthi attack on Saudi Arabia's Dammam airport",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment | 事件关联地区=Saudi Arabia; 中国关联利益=石油, 人民币结算讨论, 新能源, 中东外交, 炼化, 数字经济; 中国关联实体/项目=Sinopec, Aramco-China projects, Huawei",
-    "title_en": "At least 2 killed in Houthi attack on Saudi Arabia's Dammam airport",
-    "title_zh": "At least 2 killed in Houthi attack on Saudi Arabia's Dammam airport",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment | 事件关联地区=Saudi Arabia; 中国关联利益=石油, 人民币结算讨论, 新能源, 中东外交, 炼化, 数字经济; 中国关联实体/项目=Sinopec, Aramco-China projects, Huawei",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Turkey."
+    "title_original": "Indian national killed, three others injured in attacks on airport and oil field in Saudi Arabia",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei | 事件关联地区=Saudi Arabia; 中国关联利益=石油, 人民币结算讨论, 新能源, 中东外交, 炼化, 数字经济; 中国关联实体/项目=Sinopec, Aramco-China projects, Huawei",
+    "title_en": "Indian national killed, three others injured in attacks on airport and oil field in Saudi Arabia",
+    "title_zh": "Indian national killed, three others injured in attacks on airport and oil field in Saudi Arabia",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei | 事件关联地区=Saudi Arabia; 中国关联利益=石油, 人民币结算讨论, 新能源, 中东外交, 炼化, 数字经济; 中国关联实体/项目=Sinopec, Aramco-China projects, Huawei",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area=India; China-related interests=China-India border, Indo-Pacific, supply chain, investment restrictions, telecommunications, manufacturing, South Asia, BRICS cooperation; China-related entities/projects=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei | Event-related area=Saudi Arabia; China-related interests=oil, RMB settlement discussion, new energy, Middle East diplomacy, refining and chemicals, digital economy; Chinese related entities/projects=Sinopec, Aramco-China projects, Huawei"
   },
   {
-    "id": "4f92af3a591d25b3159a",
-    "title": "Friends of B.C. soldier, 19, killed in CFB Wainwright fire remember his ‘strong passion’ for the military",
+    "id": "5381e64d9d88612b3578",
+    "title": "International Criminal Court wins EU’s top human rights prize in defiance of Trump’s sanctions",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
     "risk_categories": [
-      "personnel_security",
-      "safety_production_domestic"
+      "trade_regulatory"
     ],
     "matched_risk_terms": [
-      "killed",
-      "fire"
+      "sanctions"
     ],
     "severity": "high",
-    "priority_score": 75,
-    "confidence_score": 39,
-    "importance_score": 65,
+    "priority_score": 74,
+    "confidence_score": 58,
+    "importance_score": 73,
     "china_relevance_score": 58,
     "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 95,
+    "momentum_score": 63,
+    "exposure_score": 84,
     "freshness_score": 100,
-    "corroboration_score": 20,
+    "corroboration_score": 40,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-22T09:27:11.402771+00:00",
-    "last_seen": "2026-10-22T09:27:11.402771+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
+    "first_seen": "2026-10-22T12:58:48.049786+00:00",
+    "last_seen": "2026-10-22T12:58:48.049786+00:00",
+    "source_count": 2,
+    "evidence_count": 2,
+    "news_count": 2,
     "social_count": 0,
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Canada"
+      "France",
+      "European Union"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure | 事件关联地区=European Union; 中国关联利益=中欧关系, 电动汽车, 电池, 反补贴调查, 投资审查, 关键原材料, 供应链, 出口管制; 中国关联实体/项目=BYD, CATL, SAIC, Geely, Huawei, ZTE, COSCO | 事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增2条独立信息链；新颖度100 / 动量63。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 2 new independent source chain(s); novelty 100 / momentum 63.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
+      "new_sources": 2,
+      "new_evidence": 2,
       "severity_change": 0,
       "official_added": false
     },
     "history": [
       {
-        "observed_at": "2026-10-22T09:27:13.625361+00:00",
-        "last_seen": "2026-10-22T09:27:11.402771+00:00",
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T12:58:48.049786+00:00",
         "lifecycle": "emerging",
-        "priority_score": 75,
-        "confidence_score": 39,
+        "priority_score": 74,
+        "confidence_score": 58,
         "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
+        "momentum_score": 63,
+        "source_count": 2,
+        "evidence_count": 2
       }
     ],
     "evidence": [
       {
-        "id": "59b1bd25f3d387cad1db",
+        "id": "377ffee036a497a94997",
         "origin_type": "news",
-        "source": "Toronto Star",
+        "source": "France 24",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Friends of B.C. soldier, 19, killed in CFB Wainwright fire remember his ‘strong passion’ for the military",
-        "url": "https://www.thestar.com/news/canada/friends-of-b-c-soldier-19-killed-in-cfb-wainwright-fire-remember-his-strong-passion-for-the-military/article_2efb4570-8e56-4a07-8747-f704ee2203bb.html",
+        "title": "International Criminal Court wins EU's Sakharov human rights prize",
+        "url": "https://www.france24.com/en/europe/20261022-international-criminal-court-wins-eu-s-sakharov-human-rights-prize",
         "published_at": null,
-        "collected_at": "2026-10-22T09:27:11.402771+00:00",
+        "collected_at": "2026-10-22T12:58:48.049786+00:00",
         "relation": "potential",
         "confidence": 62,
-        "publisher_family": "thestar.com"
+        "publisher_family": "france24"
+      },
+      {
+        "id": "6cb24c0628cd2addb9fa",
+        "origin_type": "news",
+        "source": "EUobserver",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "International Criminal Court wins EU’s top human rights prize in defiance of Trump’s sanctions",
+        "url": "https://euobserver.com/244343/international-criminal-court-wins-eus-top-human-rights-prize-in-defiance-of-trumps-sanctions/",
+        "published_at": null,
+        "collected_at": "2026-10-22T12:58:48.049786+00:00",
+        "relation": "potential",
+        "confidence": 48,
+        "publisher_family": "euobserver.com"
       }
     ],
-    "title_original": "Friends of B.C. soldier, 19, killed in CFB Wainwright fire remember his ‘strong passion’ for the military",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei",
-    "title_en": "Friends of B.C. soldier, 19, killed in CFB Wainwright fire remember his ‘strong passion’ for the military",
-    "title_zh": "Friends of B.C. soldier, 19, killed in CFB Wainwright fire remember his ‘strong passion’ for the military",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related region = Canada; China-related interests = China-Canada relations, critical minerals, investment review, technology, Arctic, agricultural products; China-related entities/projects = Chinese mining investment reviews, Huawei"
+    "title_original": "International Criminal Court wins EU’s top human rights prize in defiance of Trump’s sanctions",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure | 事件关联地区=European Union; 中国关联利益=中欧关系, 电动汽车, 电池, 反补贴调查, 投资审查, 关键原材料, 供应链, 出口管制; 中国关联实体/项目=BYD, CATL, SAIC, Geely, Huawei, ZTE, COSCO | 事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN",
+    "title_en": "International Criminal Court wins EU’s top human rights prize in defiance of Trump’s sanctions",
+    "title_zh": "International Criminal Court wins EU’s top human rights prize in defiance of Trump’s sanctions",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure | 事件关联地区=European Union; 中国关联利益=中欧关系, 电动汽车, 电池, 反补贴调查, 投资审查, 关键原材料, 供应链, 出口管制; 中国关联实体/项目=BYD, CATL, SAIC, Geely, Huawei, ZTE, COSCO | 事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: France, European Union."
   },
   {
-    "id": "77e86384aa5762061da3",
-    "title": "Tai Po fire: Independent committee submits final report on Wang Fuk Court blaze to Hong Kong leader",
-    "language": "en",
+    "id": "2d438a577bdf8f27a5a5",
+    "title": "中国驳斥“胡塞使用中国零件制造导弹”说法毫无根据",
+    "language": "zh",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "安全生产",
-    "risk_category": "safety_production_domestic",
-    "risk_category_en": "Safety & Production",
+    "category": "军事安全",
+    "risk_category": "military_security",
+    "risk_category_en": "Military & Security",
     "risk_categories": [
-      "safety_production_domestic"
+      "military_security"
     ],
     "matched_risk_terms": [
-      "fire"
+      "导弹"
     ],
     "severity": "low",
     "priority_score": 74,
     "confidence_score": 52,
-    "importance_score": 43,
+    "importance_score": 44,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
-    "exposure_score": 97,
-    "freshness_score": 90,
+    "exposure_score": 100,
+    "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-22T07:00:39+00:00",
-    "last_seen": "2026-10-22T07:00:39+00:00",
+    "first_seen": "2026-10-22T12:58:48.049786+00:00",
+    "last_seen": "2026-10-22T12:58:48.049786+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -577,12 +713,12 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Hong Kong"
+      "Singapore"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "安全生产信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Safety & Production signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -593,8 +729,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-22T09:27:13.625361+00:00",
-        "last_seen": "2026-10-22T07:00:39+00:00",
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T12:58:48.049786+00:00",
         "lifecycle": "emerging",
         "priority_score": 74,
         "confidence_score": 52,
@@ -606,27 +742,552 @@
     ],
     "evidence": [
       {
-        "id": "52f8ba098dce33082d53",
+        "id": "83fa3c3dc227aae0549a",
         "origin_type": "news",
-        "source": "香港自由新闻 HKFP",
+        "source": "联合早报 Lianhe Zaobao · 中国",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Tai Po fire: Independent committee submits final report on Wang Fuk Court blaze to Hong Kong leader",
-        "url": "https://hongkongfp.com/2026/10/22/tai-po-fire-independent-committee-submits-final-report-on-wang-fuk-court-blaze-to-hong-kong-leader/",
-        "published_at": "2026-10-22T07:00:39+00:00",
-        "collected_at": "2026-10-22T09:27:11.402771+00:00",
+        "title": "中国驳斥“胡塞使用中国零件制造导弹”说法毫无根据",
+        "url": "https://www.zaobao.com.sg/news/china/story20261022-9878037",
+        "published_at": null,
+        "collected_at": "2026-10-22T12:58:48.049786+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "hongkongfp.com"
+        "publisher_family": "zaobao"
       }
     ],
-    "title_original": "Tai Po fire: Independent committee submits final report on Wang Fuk Court blaze to Hong Kong leader",
+    "title_original": "中国驳斥“胡塞使用中国零件制造导弹”说法毫无根据",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Tai Po fire: Independent committee submits final report on Wang Fuk Court blaze to Hong Kong leader",
-    "title_zh": "Tai Po fire: Independent committee submits final report on Wang Fuk Court blaze to Hong Kong leader",
+    "title_zh": "中国驳斥“胡塞使用中国零件制造导弹”说法毫无根据",
+    "title_en": "中国驳斥“胡塞使用中国零件制造导弹”说法毫无根据",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "7aa9500bb09192b19140",
+    "title": "US sanctions on ICC are 'a shock' and 'unacceptable', Nobel peace laureate Navi Pillay says",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "sanctions"
+    ],
+    "severity": "high",
+    "priority_score": 73,
+    "confidence_score": 52,
+    "importance_score": 69,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 84,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-22T12:58:48.049786+00:00",
+    "last_seen": "2026-10-22T12:58:48.049786+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "France"
+    ],
+    "entities": [],
+    "reason": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T12:58:48.049786+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "b2b2f9ec09fac6009521",
+        "origin_type": "news",
+        "source": "France 24",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "US sanctions on ICC are 'a shock' and 'unacceptable', Nobel peace laureate Navi Pillay says",
+        "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261021-us-sanctions-on-icc-are-a-shock-and-unacceptable-nobel-peace-laureate-navi-pillay-says",
+        "published_at": null,
+        "collected_at": "2026-10-22T12:58:48.049786+00:00",
+        "relation": "potential",
+        "confidence": 48,
+        "publisher_family": "france24"
+      }
+    ],
+    "title_original": "US sanctions on ICC are 'a shock' and 'unacceptable', Nobel peace laureate Navi Pillay says",
+    "reason_original": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "title_en": "US sanctions on ICC are 'a shock' and 'unacceptable', Nobel peace laureate Navi Pillay says",
+    "title_zh": "US sanctions on ICC are 'a shock' and 'unacceptable', Nobel peace laureate Navi Pillay says",
+    "reason_zh": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "reason_en": "Hits the public events of great power competition and escalation/disruption in the global security field; no direct evidence involving China has been found yet, and it is included in the pool according to conduction observation"
+  },
+  {
+    "id": "7d7eeccb5dd5a3c8ac1f",
+    "title": "International Criminal Court faces 'test of resilience' as US imposes sweeping sanctions",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "sanctions"
+    ],
+    "severity": "high",
+    "priority_score": 73,
+    "confidence_score": 52,
+    "importance_score": 69,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 84,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-22T12:58:48.049786+00:00",
+    "last_seen": "2026-10-22T12:58:48.049786+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "France"
+    ],
+    "entities": [],
+    "reason": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T12:58:48.049786+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "8a8a0bb4e4e4c55e3ffb",
+        "origin_type": "news",
+        "source": "France 24",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "International Criminal Court faces 'test of resilience' as US imposes sweeping sanctions",
+        "url": "https://www.france24.com/en/europe/20261009-international-criminal-court-faces-test-of-resilience-as-us-imposes-sweeping-sanctions",
+        "published_at": null,
+        "collected_at": "2026-10-22T12:58:48.049786+00:00",
+        "relation": "potential",
+        "confidence": 48,
+        "publisher_family": "france24"
+      }
+    ],
+    "title_original": "International Criminal Court faces 'test of resilience' as US imposes sweeping sanctions",
+    "reason_original": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "title_en": "International Criminal Court faces 'test of resilience' as US imposes sweeping sanctions",
+    "title_zh": "International Criminal Court faces 'test of resilience' as US imposes sweeping sanctions",
+    "reason_zh": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "reason_en": "Hits the public events of great power competition and escalation/disruption in the global security field; no direct evidence involving China has been found yet, and it is included in the pool according to conduction observation"
+  },
+  {
+    "id": "ec68c8acdee842324eb2",
+    "title": "Africa CDC threatens blacklist over outbreak fund transparency",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "blacklist"
+    ],
+    "severity": "high",
+    "priority_score": 73,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 84,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-22T12:58:48.049786+00:00",
+    "last_seen": "2026-10-22T12:58:48.049786+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Nigeria"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T12:58:48.049786+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "cb98062748cee3e11ad6",
+        "origin_type": "news",
+        "source": "Punch Nigeria",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Africa CDC threatens blacklist over outbreak fund transparency",
+        "url": "https://punchng.com/africa-cdc-threatens-blacklist-over-outbreak-fund-transparency/",
+        "published_at": null,
+        "collected_at": "2026-10-22T12:58:48.049786+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "punchng.com"
+      }
+    ],
+    "title_original": "Africa CDC threatens blacklist over outbreak fund transparency",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
+    "title_en": "Africa CDC threatens blacklist over outbreak fund transparency",
+    "title_zh": "Africa CDC threatens blacklist over outbreak fund transparency",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Nigeria; China-related interests = railways, ports, telecommunications, petroleum, Chinese-funded enterprises and personnel security; Chinese-related entities/projects = CCECC, Huawei, Lekki-related Chinese investment"
+  },
+  {
+    "id": "89735cbb6bb0ff532878",
+    "title": "‘Jensen’s nightmare’: Huawei, DeepSeek narrow AI chip ecosystem gap with Nvidia: report",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls",
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "chip",
+      "Huawei",
+      "AI"
+    ],
+    "severity": "low",
+    "priority_score": 73,
+    "confidence_score": 52,
+    "importance_score": 44,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 91,
+    "freshness_score": 96,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-22T12:00:14+00:00",
+    "last_seen": "2026-10-22T12:00:14+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Hong Kong"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T12:00:14+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ed472200f2277218a880",
+        "origin_type": "news",
+        "source": "South China Morning Post (SCMP)",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "‘Jensen’s nightmare’: Huawei, DeepSeek narrow AI chip ecosystem gap with Nvidia: report",
+        "url": "https://www.scmp.com/tech/tech-war/article/3371806/jensens-nightmare-huawei-deepseek-narrow-ai-chip-ecosystem-gap-nvidia-report",
+        "published_at": "2026-10-22T12:00:14+00:00",
+        "collected_at": "2026-10-22T12:58:48.049786+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "scmp"
+      }
+    ],
+    "title_original": "‘Jensen’s nightmare’: Huawei, DeepSeek narrow AI chip ecosystem gap with Nvidia: report",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "‘Jensen’s nightmare’: Huawei, DeepSeek narrow AI chip ecosystem gap with Nvidia: report",
+    "title_zh": "‘Jensen’s nightmare’: Huawei, DeepSeek narrow AI chip ecosystem gap with Nvidia: report",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "4e4c62a2adf882ab3da8",
+    "title": "No role in CJP protest call: Neha Bora to Delhi HC on peace bond after detention",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "劳资社会",
+    "risk_category": "labor_social",
+    "risk_category_en": "Labor & Social Unrest",
+    "risk_categories": [
+      "labor_social"
+    ],
+    "matched_risk_terms": [
+      "protest"
+    ],
+    "severity": "high",
+    "priority_score": 72,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 72,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-22T12:58:48.049786+00:00",
+    "last_seen": "2026-10-22T12:58:48.049786+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "India"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
+    "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T12:58:48.049786+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 72,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "203997f6abfe6873be61",
+        "origin_type": "news",
+        "source": "India Today",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "No role in CJP protest call: Neha Bora to Delhi HC on peace bond after detention",
+        "url": "https://www.indiatoday.in/india/law-news/story/neha-bora-delhi-high-court-plea-rs-10000-peace-bond-notice-3022710-2026-10-22",
+        "published_at": null,
+        "collected_at": "2026-10-22T12:58:48.049786+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "indiatoday.in"
+      }
+    ],
+    "title_original": "No role in CJP protest call: Neha Bora to Delhi HC on peace bond after detention",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
+    "title_en": "No role in CJP protest call: Neha Bora to Delhi HC on peace bond after detention",
+    "title_zh": "No role in CJP protest call: Neha Bora to Delhi HC on peace bond after detention",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area=India; China-related interests=China-India border, Indo-Pacific, supply chain, investment restrictions, telecommunications, manufacturing, South Asia, BRICS cooperation; China-related entities/projects=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei"
+  },
+  {
+    "id": "b08e764173cfbbb8150d",
+    "title": "'Not involved with CJP's protest call': Neha Bora to Delhi HC on Oct 16 detention",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "劳资社会",
+    "risk_category": "labor_social",
+    "risk_category_en": "Labor & Social Unrest",
+    "risk_categories": [
+      "labor_social"
+    ],
+    "matched_risk_terms": [
+      "protest"
+    ],
+    "severity": "high",
+    "priority_score": 72,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 72,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-22T12:58:48.049786+00:00",
+    "last_seen": "2026-10-22T12:58:48.049786+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "India"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
+    "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T12:58:48.049786+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 72,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "5ba46dd37799fbd90a5a",
+        "origin_type": "news",
+        "source": "Hindustan Times",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "'Not involved with CJP's protest call': Neha Bora to Delhi HC on Oct 16 detention",
+        "url": "https://www.hindustantimes.com/india-news/not-involved-with-cjps-protest-call-neha-bora-to-delhi-hc-on-oct-16-detention-101792663578255.html",
+        "published_at": null,
+        "collected_at": "2026-10-22T12:58:48.049786+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "hindustantimes.com"
+      }
+    ],
+    "title_original": "'Not involved with CJP's protest call': Neha Bora to Delhi HC on Oct 16 detention",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
+    "title_en": "'Not involved with CJP's protest call': Neha Bora to Delhi HC on Oct 16 detention",
+    "title_zh": "'Not involved with CJP's protest call': Neha Bora to Delhi HC on Oct 16 detention",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area=India; China-related interests=China-India border, Indo-Pacific, supply chain, investment restrictions, telecommunications, manufacturing, South Asia, BRICS cooperation; China-related entities/projects=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei"
   },
   {
     "id": "7f182adbcbbaa27369e4",
@@ -646,14 +1307,14 @@
       "blockade"
     ],
     "severity": "critical",
-    "priority_score": 74,
+    "priority_score": 72,
     "confidence_score": 39,
-    "importance_score": 74,
+    "importance_score": 72,
     "china_relevance_score": 58,
-    "novelty_score": 95,
+    "novelty_score": 82,
     "momentum_score": 28,
     "exposure_score": 96,
-    "freshness_score": 80,
+    "freshness_score": 65,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-10-22T04:41:44.279898+00:00",
@@ -669,8 +1330,8 @@
     ],
     "entities": [],
     "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Saudi Arabia; 中国关联利益=石油, 人民币结算讨论, 新能源, 中东外交, 炼化, 数字经济; 中国关联实体/项目=Sinopec, Aramco-China projects, Huawei",
-    "why_now_zh": "军事安全信号；正在升级或扩散；新颖度95 / 动量28。",
-    "why_now_en": "Military & Security signal; is escalating or spreading; novelty 95 / momentum 28.",
+    "why_now_zh": "军事安全信号；正在升级或扩散；新颖度82 / 动量28。",
+    "why_now_en": "Military & Security signal; is escalating or spreading; novelty 82 / momentum 28.",
     "previous_event_matched": true,
     "previous_match_score": 0.84,
     "change": {
@@ -701,6 +1362,17 @@
         "momentum_score": 28,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T04:41:44.279898+00:00",
+        "lifecycle": "escalating",
+        "priority_score": 72,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 28,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -728,537 +1400,6 @@
     "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Saudi Arabia."
   },
   {
-    "id": "28151ba112b89e6a52f2",
-    "title": "Entry ban a ‘small price to pay,’ says lawmaker on Chinese Embassy ‘list’",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "ban"
-    ],
-    "severity": "low",
-    "priority_score": 73,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 89,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-22T09:27:11.402771+00:00",
-    "last_seen": "2026-10-22T09:27:11.402771+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Philippines"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-22T09:27:13.625361+00:00",
-        "last_seen": "2026-10-22T09:27:11.402771+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 73,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "0a5c1afcb08771c5efb4",
-        "origin_type": "news",
-        "source": "The Philippine Star",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Entry ban a ‘small price to pay,’ says lawmaker on Chinese Embassy ‘list’",
-        "url": "https://www.philstar.com/headlines/2026/10/22/2565006/entry-ban-small-price-pay-says-lawmaker-chinese-embassy-list",
-        "published_at": null,
-        "collected_at": "2026-10-22T09:27:11.402771+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "philstar.com"
-      }
-    ],
-    "title_original": "Entry ban a ‘small price to pay,’ says lawmaker on Chinese Embassy ‘list’",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Entry ban a ‘small price to pay,’ says lawmaker on Chinese Embassy ‘list’",
-    "title_zh": "Entry ban a ‘small price to pay,’ says lawmaker on Chinese Embassy ‘list’",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "1b8ac6c2acc5e4d2fa29",
-    "title": "US sanctions law firm, shipping operators over Iran trade",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "sanctions"
-    ],
-    "severity": "high",
-    "priority_score": 73,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 84,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-22T09:27:11.402771+00:00",
-    "last_seen": "2026-10-22T09:27:11.402771+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Iran"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-22T09:27:13.625361+00:00",
-        "last_seen": "2026-10-22T09:27:11.402771+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 73,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "ed5c194464b137c293a1",
-        "origin_type": "news",
-        "source": "Iran International",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "US sanctions law firm, shipping operators over Iran trade",
-        "url": "https://www.iranintl.com/en/202610210181",
-        "published_at": null,
-        "collected_at": "2026-10-22T09:27:11.402771+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "iranintl.com"
-      }
-    ],
-    "title_original": "US sanctions law firm, shipping operators over Iran trade",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
-    "title_en": "US sanctions law firm, shipping operators over Iran trade",
-    "title_zh": "US sanctions law firm, shipping operators over Iran trade",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Iran."
-  },
-  {
-    "id": "8a5e8a048857f24d2367",
-    "title": "欧盟忧中俄扩大北极影响力 北京批冷战思维挑动对抗",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "其他",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "low",
-    "priority_score": 72,
-    "confidence_score": 52,
-    "importance_score": 44,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 60,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-22T09:27:11.402771+00:00",
-    "last_seen": "2026-10-22T09:27:11.402771+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Singapore"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "其他信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-22T09:27:13.625361+00:00",
-        "last_seen": "2026-10-22T09:27:11.402771+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 72,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "e6d984223a602c3a8b2d",
-        "origin_type": "news",
-        "source": "联合早报 Lianhe Zaobao · 中国",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "欧盟忧中俄扩大北极影响力 北京批冷战思维挑动对抗",
-        "url": "https://www.zaobao.com.sg/news/china/story20261022-9878420",
-        "published_at": null,
-        "collected_at": "2026-10-22T09:27:11.402771+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "zaobao"
-      }
-    ],
-    "title_original": "欧盟忧中俄扩大北极影响力 北京批冷战思维挑动对抗",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "欧盟忧中俄扩大北极影响力 北京批冷战思维挑动对抗",
-    "title_en": "欧盟忧中俄扩大北极影响力 北京批冷战思维挑动对抗",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "c4e2f038b9f5faddb098",
-    "title": "Tavasszal Budapestre jön a Pussy Riot, a Putyin rezsimje ellen...",
-    "language": "hu",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "劳资社会",
-    "risk_category": "labor_social",
-    "risk_category_en": "Labor & Social Unrest",
-    "risk_categories": [
-      "labor_social"
-    ],
-    "matched_risk_terms": [
-      "riot"
-    ],
-    "severity": "high",
-    "priority_score": 72,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 72,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-22T09:27:11.402771+00:00",
-    "last_seen": "2026-10-22T09:27:11.402771+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Hungary"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Hungary; 中国关联利益=中匈关系, 新能源汽车, 电池产业, 中国制造业投资, 中东欧合作, 欧盟对华政策, 基础设施; 中国关联实体/项目=BYD Szeged, CATL Debrecen, Budapest-Belgrade railway, Bank of China",
-    "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-22T09:27:13.625361+00:00",
-        "last_seen": "2026-10-22T09:27:11.402771+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 72,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "8e28396b3fc850cd88bd",
-        "origin_type": "news",
-        "source": "Telex",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Tavasszal Budapestre jön a Pussy Riot, a Putyin rezsimje ellen...",
-        "url": "https://telex.hu/after/2026/10/22/pussy-riot-budapest-koncert-magyar-zene-haza-riot-day-putyin-ellenes-orosz-kollektiva",
-        "published_at": null,
-        "collected_at": "2026-10-22T09:27:11.402771+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "telex.hu"
-      }
-    ],
-    "title_original": "Tavasszal Budapestre jön a Pussy Riot, a Putyin rezsimje ellen...",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Hungary; 中国关联利益=中匈关系, 新能源汽车, 电池产业, 中国制造业投资, 中东欧合作, 欧盟对华政策, 基础设施; 中国关联实体/项目=BYD Szeged, CATL Debrecen, Budapest-Belgrade railway, Bank of China",
-    "title_en": "Tavasszal Budapestre jön a Pussy Riot, a Putyin rezsimje ellen...",
-    "title_zh": "Tavasszal Budapestre jön a Pussy Riot, a Putyin rezsimje ellen...",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Hungary; 中国关联利益=中匈关系, 新能源汽车, 电池产业, 中国制造业投资, 中东欧合作, 欧盟对华政策, 基础设施; 中国关联实体/项目=BYD Szeged, CATL Debrecen, Budapest-Belgrade railway, Bank of China",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Hungary; China-related interests = China-Hungary relations, new energy vehicles, battery industry, Chinese manufacturing investment, Central and Eastern European cooperation, EU China policy, infrastructure; China-related entities/projects = BYD Szeged, CATL Debrecen, Budapest-Belgrade railway, Bank of China"
-  },
-  {
-    "id": "b967098c042527907b0c",
-    "title": "Chinese students stand by France study plans despite widespread civil unrest",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "劳资社会",
-    "risk_category": "labor_social",
-    "risk_category_en": "Labor & Social Unrest",
-    "risk_categories": [
-      "labor_social"
-    ],
-    "matched_risk_terms": [
-      "unrest"
-    ],
-    "severity": "low",
-    "priority_score": 72,
-    "confidence_score": 52,
-    "importance_score": 44,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 77,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-22T09:21:10+00:00",
-    "last_seen": "2026-10-22T09:21:10+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Hong Kong"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-22T09:27:13.625361+00:00",
-        "last_seen": "2026-10-22T09:21:10+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 72,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "89b5b18f9d3fe4ca1340",
-        "origin_type": "news",
-        "source": "South China Morning Post (SCMP)",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Chinese students stand by France study plans despite widespread civil unrest",
-        "url": "https://www.scmp.com/news/china/diplomacy/article/3371783/chinese-students-stand-france-study-plans-despite-widespread-civil-unrest",
-        "published_at": "2026-10-22T09:21:10+00:00",
-        "collected_at": "2026-10-22T09:27:11.402771+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "scmp"
-      }
-    ],
-    "title_original": "Chinese students stand by France study plans despite widespread civil unrest",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Chinese students stand by France study plans despite widespread civil unrest",
-    "title_zh": "Chinese students stand by France study plans despite widespread civil unrest",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "49ca456eaf651f00b4db",
-    "title": "Taiwan's first-ever chip workers strike begins at Micron plant",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls",
-      "labor_social"
-    ],
-    "matched_risk_terms": [
-      "chip",
-      "strike"
-    ],
-    "severity": "medium",
-    "priority_score": 72,
-    "confidence_score": 52,
-    "importance_score": 54,
-    "china_relevance_score": 100,
-    "novelty_score": 95,
-    "momentum_score": 12,
-    "exposure_score": 91,
-    "freshness_score": 80,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-22T04:41:44.279898+00:00",
-    "last_seen": "2026-10-22T04:41:44.279898+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Japan"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新颖度95 / 动量12。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; novelty 95 / momentum 12.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
-    "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-22T04:41:46.579988+00:00",
-        "last_seen": "2026-10-22T04:41:44.279898+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 80,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-10-22T09:27:13.625361+00:00",
-        "last_seen": "2026-10-22T04:41:44.279898+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 72,
-        "confidence_score": 52,
-        "novelty_score": 95,
-        "momentum_score": 12,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "2c0e50cbb956829e8fa6",
-        "origin_type": "news",
-        "source": "Nikkei Asia",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Taiwan's first-ever chip workers strike begins at Micron plant",
-        "url": "https://asia.nikkei.com/business/tech/semiconductors/taiwan-s-first-ever-chip-workers-strike-begins-at-micron-plant",
-        "published_at": null,
-        "collected_at": "2026-10-22T04:41:44.279898+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "nikkei"
-      }
-    ],
-    "title_original": "Taiwan's first-ever chip workers strike begins at Micron plant",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Taiwan's first-ever chip workers strike begins at Micron plant",
-    "title_zh": "Taiwan's first-ever chip workers strike begins at Micron plant",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
     "id": "aeaeb89a6a6e3da9ae00",
     "title": "China Answers Global Tech Curbs With Export Controls of Its Own , and Makes Leaving Harder · EMSNow",
     "language": "English",
@@ -1273,12 +1414,12 @@
     "severity": "high",
     "priority_score": 72,
     "confidence_score": 39,
-    "importance_score": 61,
+    "importance_score": 59,
     "china_relevance_score": 100,
     "novelty_score": 82,
     "momentum_score": 12,
     "exposure_score": 60,
-    "freshness_score": 73,
+    "freshness_score": 58,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-10-22T03:00:00+00:00",
@@ -1326,6 +1467,17 @@
         "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T03:00:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 72,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -1353,8 +1505,8 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "78f98760b9dc65a5ad7d",
-    "title": "Seoul mulls 'proportionate measure' over Pyongyang's loudspeaker threat South Korea said on Thursday it would take a “proportionate measure” if North Korea resumes operating propaganda loudspeakers along the border, while not mentioning details about such measures. In a wider response to the border tension that resulted from the explosion of North Korean min",
+    "id": "9ccacaa44e272778699e",
+    "title": "Indian embassy in Riyadh says one national dead, 2 injured after Saudi airport attack",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -1375,8 +1527,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-22T09:27:11.402771+00:00",
-    "last_seen": "2026-10-22T09:27:11.402771+00:00",
+    "first_seen": "2026-10-22T12:58:48.049786+00:00",
+    "last_seen": "2026-10-22T12:58:48.049786+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1384,10 +1536,10 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "South Korea"
+      "United Arab Emirates"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution | 事件关联地区=North Korea; 中国关联利益=朝鲜半岛安全, 核问题, 中朝关系, 边境贸易; 中国关联实体/项目=China-DPRK border trade",
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Arab Emirates; 中国关联利益=港口, 金融, 人工智能, 电信, 中东物流, 能源; 中国关联实体/项目=COSCO Abu Dhabi, Huawei, Chinese AI and cloud investment",
     "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
     "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
     "previous_event_matched": false,
@@ -1400,8 +1552,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-22T09:27:13.625361+00:00",
-        "last_seen": "2026-10-22T09:27:11.402771+00:00",
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T12:58:48.049786+00:00",
         "lifecycle": "emerging",
         "priority_score": 71,
         "confidence_score": 39,
@@ -1413,155 +1565,57 @@
     ],
     "evidence": [
       {
-        "id": "40829d3d40aa3c61bdcb",
+        "id": "d6345a7e95eda1786842",
         "origin_type": "news",
-        "source": "The Korea Times",
+        "source": "Khaleej Times",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Seoul mulls 'proportionate measure' over Pyongyang's loudspeaker threat South Korea said on Thursday it would take a “proportionate measure” if North Korea resumes operating propaganda loudspeakers along the border, while not mentioning details about such measures. In a wider response to the border tension that resulted from the explosion of North Korean mines, which injured South Korean soldiers, Seoul said it would send a letter to the president of the United Nations Security Council (UNSC) to",
-        "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261022/seoul-mulls-proportionate-measure-over-pyongyangs-loudspeaker-threat",
+        "title": "Indian embassy in Riyadh says one national dead, 2 injured after Saudi airport attack",
+        "url": "https://www.khaleejtimes.com/world/mena/indian-embassy-riyadh-confirms-death-toll-king-fahd-airport-attack-saudi-arabia",
         "published_at": null,
-        "collected_at": "2026-10-22T09:27:11.402771+00:00",
+        "collected_at": "2026-10-22T12:58:48.049786+00:00",
         "relation": "potential",
         "confidence": 62,
-        "publisher_family": "koreatimes.co.kr"
+        "publisher_family": "khaleejtimes.com"
       }
     ],
-    "title_original": "Seoul mulls 'proportionate measure' over Pyongyang's loudspeaker threat South Korea said on Thursday it would take a “proportionate measure” if North Korea resumes operating propaganda loudspeakers along the border, while not mentioning details about such measures. In a wider response to the border tension that resulted from the explosion of North Korean min",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution | 事件关联地区=North Korea; 中国关联利益=朝鲜半岛安全, 核问题, 中朝关系, 边境贸易; 中国关联实体/项目=China-DPRK border trade",
-    "title_en": "Seoul mulls 'proportionate measure' over Pyongyang's loudspeaker threat South Korea said on Thursday it would take a “proportionate measure” if North Korea resumes operating propaganda loudspeakers along the border, while not mentioning details about such measures. In a wider response to the border tension that resulted from the explosion of North Korean min",
-    "title_zh": "Seoul mulls 'proportionate measure' over Pyongyang's loudspeaker threat South Korea said on Thursday it would take a “proportionate measure” if North Korea resumes operating propaganda loudspeakers along the border, while not mentioning details about such measures. In a wider response to the border tension that resulted from the explosion of North Korean min",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution | 事件关联地区=North Korea; 中国关联利益=朝鲜半岛安全, 核问题, 中朝关系, 边境贸易; 中国关联实体/项目=China-DPRK border trade",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: South Korea."
+    "title_original": "Indian embassy in Riyadh says one national dead, 2 injured after Saudi airport attack",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Arab Emirates; 中国关联利益=港口, 金融, 人工智能, 电信, 中东物流, 能源; 中国关联实体/项目=COSCO Abu Dhabi, Huawei, Chinese AI and cloud investment",
+    "title_en": "Indian embassy in Riyadh says one national dead, 2 injured after Saudi airport attack",
+    "title_zh": "Indian embassy in Riyadh says one national dead, 2 injured after Saudi airport attack",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Arab Emirates; 中国关联利益=港口, 金融, 人工智能, 电信, 中东物流, 能源; 中国关联实体/项目=COSCO Abu Dhabi, Huawei, Chinese AI and cloud investment",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; incident related area=United Arab Emirates; China related interests=ports, finance, artificial intelligence, telecommunications, Middle East logistics, energy; China related entities/projects=COSCO Abu Dhabi, Huawei, Chinese AI and cloud investment"
   },
   {
-    "id": "d1744bd5cb3afdea4621",
-    "title": "女童被泳池排水口吸入不幸身亡 事故调查报告发布 ： 回水管口安全防护罩缺失|游泳池",
-    "language": "Chinese",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "调查"
-    ],
-    "severity": "medium",
-    "priority_score": 71,
-    "confidence_score": 39,
-    "importance_score": 49,
-    "china_relevance_score": 100,
-    "novelty_score": 95,
-    "momentum_score": 12,
-    "exposure_score": 89,
-    "freshness_score": 78,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-22T04:15:00+00:00",
-    "last_seen": "2026-10-22T04:15:00+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "China"
-    ],
-    "entities": [],
-    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新颖度95 / 动量12。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; novelty 95 / momentum 12.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
-    "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-22T04:41:46.579988+00:00",
-        "last_seen": "2026-10-22T04:15:00+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 80,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-10-22T09:27:13.625361+00:00",
-        "last_seen": "2026-10-22T04:15:00+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 71,
-        "confidence_score": 39,
-        "novelty_score": 95,
-        "momentum_score": 12,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "7c18df88aa2bc0ad8770",
-        "origin_type": "news",
-        "source": "163.com",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "女童被泳池排水口吸入不幸身亡 事故调查报告发布 ： 回水管口安全防护罩缺失|游泳池",
-        "url": "https://www.163.com/dy/article/L9R9I9PE0514R9P4.html",
-        "published_at": "2026-10-22T04:15:00+00:00",
-        "collected_at": "2026-10-22T04:41:44.279898+00:00",
-        "relation": "direct",
-        "confidence": 88,
-        "publisher_family": "163.com"
-      }
-    ],
-    "title_original": "女童被泳池排水口吸入不幸身亡 事故调查报告发布 ： 回水管口安全防护罩缺失|游泳池",
-    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "title_en": "女童被泳池排水口吸入不幸身亡 事故调查报告发布 ： 回水管口安全防护罩缺失|游泳池",
-    "title_zh": "女童被泳池排水口吸入不幸身亡 事故调查报告发布 ： 回水管口安全防护罩缺失|游泳池",
-    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: China."
-  },
-  {
-    "id": "52e66096bff40b866af5",
-    "title": "Delhi Police's IFSO to probe viral video of Tripura youth subjected to racial abuse",
+    "id": "0fccc308168790b37ccf",
+    "title": "3 Chinese AI champion DeepSeek raised around $15 billion as it looks to keep up with Western frontier firms.",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
+    "category": "科技与青年",
+    "risk_category": "technology_youth",
+    "risk_category_en": "Technology & Youth",
     "risk_categories": [
-      "trade_regulatory"
+      "technology_youth"
     ],
     "matched_risk_terms": [
-      "probe"
+      "AI"
     ],
-    "severity": "medium",
-    "priority_score": 67,
+    "severity": "low",
+    "priority_score": 71,
     "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 58,
+    "importance_score": 40,
+    "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
-    "exposure_score": 84,
+    "exposure_score": 67,
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-22T09:27:11.402771+00:00",
-    "last_seen": "2026-10-22T09:27:11.402771+00:00",
+    "first_seen": "2026-10-22T12:58:48.049786+00:00",
+    "last_seen": "2026-10-22T12:58:48.049786+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1569,12 +1623,12 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "India"
+      "United States"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -1585,10 +1639,10 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-22T09:27:13.625361+00:00",
-        "last_seen": "2026-10-22T09:27:11.402771+00:00",
+        "observed_at": "2026-10-22T12:58:50.310476+00:00",
+        "last_seen": "2026-10-22T12:58:48.049786+00:00",
         "lifecycle": "emerging",
-        "priority_score": 67,
+        "priority_score": 71,
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
@@ -1598,26 +1652,26 @@
     ],
     "evidence": [
       {
-        "id": "b55d1382710c514babc9",
+        "id": "60acf5449ac6330a8180",
         "origin_type": "news",
-        "source": "The Hindu",
+        "source": "Semafor",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Delhi Police's IFSO to probe viral video of Tripura youth subjected to racial abuse",
-        "url": "https://www.thehindu.com/news/cities/Delhi/delhi-polices-ifso-to-probe-viral-video-of-tripura-youth-subjected-to-racial-abuse/article71610628.ece",
+        "title": "3 Chinese AI champion DeepSeek raised around $15 billion as it looks to keep up with Western frontier firms.",
+        "url": "https://www.semafor.com/article/10/22/2026/chinas-ai-leader-deepseek-raises-15b",
         "published_at": null,
-        "collected_at": "2026-10-22T09:27:11.402771+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "thehindu.com"
+        "collected_at": "2026-10-22T12:58:48.049786+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "semafor.com"
       }
     ],
-    "title_original": "Delhi Police's IFSO to probe viral video of Tripura youth subjected to racial abuse",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
-    "title_en": "Delhi Police's IFSO to probe viral video of Tripura youth subjected to racial abuse",
-    "title_zh": "Delhi Police's IFSO to probe viral video of Tripura youth subjected to racial abuse",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: India."
+    "title_original": "3 Chinese AI champion DeepSeek raised around $15 billion as it looks to keep up with Western frontier firms.",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "3 Chinese AI champion DeepSeek raised around $15 billion as it looks to keep up with Western frontier firms.",
+    "title_zh": "3 Chinese AI champion DeepSeek raised around $15 billion as it looks to keep up with Western frontier firms.",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   }
 ]
