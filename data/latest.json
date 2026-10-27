@@ -1,95 +1,12 @@
 [
   {
-    "id": "5c2344904899a449ef87",
-    "title": "当地时间10月26日，中国常驻联合国代表傅聪在安理会儿童与武装冲突问题公开会上发言。",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "安全/冲突",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "high",
-    "priority_score": 83,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 60,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T05:01:02.608672+00:00",
-    "last_seen": "2026-10-27T05:01:02.608672+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "China"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-27T05:01:02.608672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 83,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "2d5793f21a683e08bde2",
-        "origin_type": "news",
-        "source": "中国日报中文 China Daily Chinese",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "当地时间10月26日，中国常驻联合国代表傅聪在安理会儿童与武装冲突问题公开会上发言。",
-        "url": "https://cn.chinadaily.com.cn/a/202610/27/WS6adfcd90e4b09a165c791a8c.html",
-        "published_at": null,
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "chinadaily"
-      }
-    ],
-    "title_original": "当地时间10月26日，中国常驻联合国代表傅聪在安理会儿童与武装冲突问题公开会上发言。",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "当地时间10月26日，中国常驻联合国代表傅聪在安理会儿童与武装冲突问题公开会上发言。",
-    "title_en": "当地时间10月26日，中国常驻联合国代表傅聪在安理会儿童与武装冲突问题公开会上发言。",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "3d1e0ea2837f2c968d5b",
-    "title": "Interview Korea's tungsten mine could help US cut reliance on China, Tungco CEO says As the United States seeks to reduce its reliance on China for tungsten, a critical mineral used in semiconductors and defense systems, producers in allied nations such as Korea could help fill the supply gap, according to a Kentucky-based tungsten recycling executive. Cliff",
+    "id": "1a9b4abd462441e05d7c",
+    "title": "Taiwan military deploys six C-130 flights to bring travelers stranded in Kinmen home",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "经贸/科技",
+    "category": "安全/冲突",
     "risk_category": "other",
     "risk_category_en": "",
     "risk_categories": [],
@@ -105,8 +22,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T05:01:02.608672+00:00",
-    "last_seen": "2026-10-27T05:01:02.608672+00:00",
+    "first_seen": "2026-10-27T09:51:11.643676+00:00",
+    "last_seen": "2026-10-27T09:51:11.643676+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -114,11 +31,11 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "South Korea"
+      "Taiwan"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "经贸/科技信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
     "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
@@ -130,8 +47,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-27T05:01:02.608672+00:00",
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:51:11.643676+00:00",
         "lifecycle": "emerging",
         "priority_score": 77,
         "confidence_score": 39,
@@ -143,57 +60,53 @@
     ],
     "evidence": [
       {
-        "id": "d7a7679cbdd6c17df4fc",
+        "id": "7fb4d98c11d2d5e80e3f",
         "origin_type": "news",
-        "source": "The Korea Times",
+        "source": "Taiwan News",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Interview Korea's tungsten mine could help US cut reliance on China, Tungco CEO says As the United States seeks to reduce its reliance on China for tungsten, a critical mineral used in semiconductors and defense systems, producers in allied nations such as Korea could help fill the supply gap, according to a Kentucky-based tungsten recycling executive. Cliff Nance, owner and CEO of Tungco, said “more production from trusted allies” could help the United States reduce its reliance on China, which",
-        "url": "https://www.koreatimes.co.kr/business/companies/20261027/interview-koreas-tungsten-mine-could-help-us-cut-reliance-on-china-tungco-ceo-says",
+        "title": "Taiwan military deploys six C-130 flights to bring travelers stranded in Kinmen home",
+        "url": "https://www.taiwannews.com.tw/en/news/6465058",
         "published_at": null,
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "koreatimes.co.kr"
+        "publisher_family": "taiwannews.com.tw"
       }
     ],
-    "title_original": "Interview Korea's tungsten mine could help US cut reliance on China, Tungco CEO says As the United States seeks to reduce its reliance on China for tungsten, a critical mineral used in semiconductors and defense systems, producers in allied nations such as Korea could help fill the supply gap, according to a Kentucky-based tungsten recycling executive. Cliff",
+    "title_original": "Taiwan military deploys six C-130 flights to bring travelers stranded in Kinmen home",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Interview Korea's tungsten mine could help US cut reliance on China, Tungco CEO says As the United States seeks to reduce its reliance on China for tungsten, a critical mineral used in semiconductors and defense systems, producers in allied nations such as Korea could help fill the supply gap, according to a Kentucky-based tungsten recycling executive. Cliff",
-    "title_zh": "Interview Korea's tungsten mine could help US cut reliance on China, Tungco CEO says As the United States seeks to reduce its reliance on China for tungsten, a critical mineral used in semiconductors and defense systems, producers in allied nations such as Korea could help fill the supply gap, according to a Kentucky-based tungsten recycling executive. Cliff",
+    "title_en": "Taiwan military deploys six C-130 flights to bring travelers stranded in Kinmen home",
+    "title_zh": "Taiwan military deploys six C-130 flights to bring travelers stranded in Kinmen home",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "b2ca774b124bc8b48b9a",
-    "title": "Hong Kong police officer stabbed during 2020 protest seeks at least HK$220K in damages",
+    "id": "7518d37d0083d3c8da2a",
+    "title": "DPP urges vigilance against Chinese election meddling",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "劳资社会",
-    "risk_category": "labor_social",
-    "risk_category_en": "Labor & Social Unrest",
-    "risk_categories": [
-      "labor_social"
-    ],
-    "matched_risk_terms": [
-      "protest"
-    ],
+    "category": "其他",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
     "severity": "medium",
     "priority_score": 77,
-    "confidence_score": 52,
-    "importance_score": 54,
+    "confidence_score": 39,
+    "importance_score": 52,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
-    "exposure_score": 77,
-    "freshness_score": 78,
+    "exposure_score": 60,
+    "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-26T23:45:00+00:00",
-    "last_seen": "2026-10-26T23:45:00+00:00",
+    "first_seen": "2026-10-27T09:51:11.643676+00:00",
+    "last_seen": "2026-10-27T09:51:11.643676+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -201,12 +114,12 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Hong Kong"
+      "Taiwan"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "why_now_zh": "其他信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -217,8 +130,91 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-26T23:45:00+00:00",
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:51:11.643676+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 77,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "14acb2b504786850c245",
+        "origin_type": "news",
+        "source": "Taiwan News",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "DPP urges vigilance against Chinese election meddling",
+        "url": "https://www.taiwannews.com.tw/en/news/6464939",
+        "published_at": null,
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "taiwannews.com.tw"
+      }
+    ],
+    "title_original": "DPP urges vigilance against Chinese election meddling",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "DPP urges vigilance against Chinese election meddling",
+    "title_zh": "DPP urges vigilance against Chinese election meddling",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "5874b66198a9f5aff2cd",
+    "title": "Air Force crash revives debate on Philippine military’s modernisation limits",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "安全/冲突",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "medium",
+    "priority_score": 77,
+    "confidence_score": 52,
+    "importance_score": 57,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 60,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-27T09:45:50+00:00",
+    "last_seen": "2026-10-27T09:45:50+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Hong Kong"
+    ],
+    "entities": [],
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:45:50+00:00",
         "lifecycle": "emerging",
         "priority_score": 77,
         "confidence_score": 52,
@@ -230,57 +226,59 @@
     ],
     "evidence": [
       {
-        "id": "30638e62245569a2ec43",
+        "id": "2a59311bc6d1167df25f",
         "origin_type": "news",
-        "source": "香港自由新闻 HKFP",
+        "source": "South China Morning Post (SCMP)",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Hong Kong police officer stabbed during 2020 protest seeks at least HK$220K in damages",
-        "url": "https://hongkongfp.com/2026/10/27/hong-kong-police-officer-stabbed-during-2020-protest-seeks-at-least-hk220k-in-damages/",
-        "published_at": "2026-10-26T23:45:00+00:00",
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
+        "title": "Air Force crash revives debate on Philippine military’s modernisation limits",
+        "url": "https://www.scmp.com/week-asia/politics/article/3372299/air-force-crash-revives-debate-philippine-militarys-modernisation-limits",
+        "published_at": "2026-10-27T09:45:50+00:00",
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
         "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "hongkongfp.com"
+        "confidence": 88,
+        "publisher_family": "scmp"
       }
     ],
-    "title_original": "Hong Kong police officer stabbed during 2020 protest seeks at least HK$220K in damages",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Hong Kong police officer stabbed during 2020 protest seeks at least HK$220K in damages",
-    "title_zh": "Hong Kong police officer stabbed during 2020 protest seeks at least HK$220K in damages",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+    "title_original": "Air Force crash revives debate on Philippine military’s modernisation limits",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_en": "Air Force crash revives debate on Philippine military’s modernisation limits",
+    "title_zh": "Air Force crash revives debate on Philippine military’s modernisation limits",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
   },
   {
-    "id": "efdb322ed16a2ca9252a",
-    "title": "一位中国人在2023年写给乌克兰政府与人民的信 ： 支持和敬佩乌克兰抵抗俄罗斯 ， 劝说乌克兰有限妥协早日和平 、 减少伤亡 - 革命军中马前卒发表于 几曾回首 - 论坛",
-    "language": "Chinese",
+    "id": "636f939e433b55d52615",
+    "title": "Kyiv's Kyoto Park hit in Russian missile attack, 1 killed",
+    "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
-    "lifecycle": "escalating",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
+    "lifecycle": "emerging",
+    "category": "军事安全",
+    "risk_category": "military_security",
+    "risk_category_en": "Military & Security",
     "risk_categories": [
+      "military_security",
       "personnel_security"
     ],
     "matched_risk_terms": [
-      "伤亡"
+      "missile",
+      "killed"
     ],
     "severity": "high",
     "priority_score": 76,
     "confidence_score": 39,
-    "importance_score": 51,
-    "china_relevance_score": 100,
-    "novelty_score": 82,
-    "momentum_score": 28,
-    "exposure_score": 100,
-    "freshness_score": 9,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 96,
+    "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-26T07:15:00+00:00",
-    "last_seen": "2026-10-26T07:15:00+00:00",
+    "first_seen": "2026-10-27T09:51:11.643676+00:00",
+    "last_seen": "2026-10-27T09:51:11.643676+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -288,83 +286,494 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "China"
+      "Japan"
     ],
     "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "人员安全信号；正在升级或扩散；新颖度82 / 动量28。",
-    "why_now_en": "Personnel Security signal; is escalating or spreading; novelty 82 / momentum 28.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Japan; 中国关联利益=中日关系, 东海, 台海, 半导体设备, 出口管制, 钓鱼岛/尖阁诸岛, 供应链, 汽车; 中国关联实体/项目=Tokyo Electron, Rapidus, Japanese semiconductor controls",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
     "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
+      "new_sources": 1,
+      "new_evidence": 1,
       "severity_change": 0,
       "official_added": false
     },
     "history": [
       {
-        "observed_at": "2026-10-26T10:11:40.821287+00:00",
-        "last_seen": "2026-10-26T07:15:00+00:00",
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:51:11.643676+00:00",
         "lifecycle": "emerging",
-        "priority_score": 88,
+        "priority_score": 76,
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-10-26T14:15:56.464923+00:00",
-        "last_seen": "2026-10-26T07:15:00+00:00",
-        "lifecycle": "escalating",
-        "priority_score": 79,
-        "confidence_score": 39,
-        "novelty_score": 82,
-        "momentum_score": 28,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-26T07:15:00+00:00",
-        "lifecycle": "escalating",
-        "priority_score": 76,
-        "confidence_score": 39,
-        "novelty_score": 82,
-        "momentum_score": 28,
         "source_count": 1,
         "evidence_count": 1
       }
     ],
     "evidence": [
       {
-        "id": "c4afa2f31ad2282b98dd",
+        "id": "8afeb8b47d3bb8f2d8ab",
         "origin_type": "news",
-        "source": "bbs.wenxuecity.com",
+        "source": "Kyodo News",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "一位中国人在2023年写给乌克兰政府与人民的信 ： 支持和敬佩乌克兰抵抗俄罗斯 ， 劝说乌克兰有限妥协早日和平 、 减少伤亡 - 革命军中马前卒发表于 几曾回首 - 论坛",
-        "url": "https://bbs.wenxuecity.com/memory/1943032.html",
-        "published_at": "2026-10-26T07:15:00+00:00",
-        "collected_at": "2026-10-26T10:11:38.527216+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "bbs.wenxuecity.com"
+        "title": "Kyiv's Kyoto Park hit in Russian missile attack, 1 killed",
+        "url": "https://english.kyodonews.net/articles/-/89538",
+        "published_at": null,
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "english.kyodonews.net"
       }
     ],
-    "title_original": "一位中国人在2023年写给乌克兰政府与人民的信 ： 支持和敬佩乌克兰抵抗俄罗斯 ， 劝说乌克兰有限妥协早日和平 、 减少伤亡 - 革命军中马前卒发表于 几曾回首 - 论坛",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "一位中国人在2023年写给乌克兰政府与人民的信 ： 支持和敬佩乌克兰抵抗俄罗斯 ， 劝说乌克兰有限妥协早日和平 、 减少伤亡 - 革命军中马前卒发表于 几曾回首 - 论坛",
-    "title_zh": "一位中国人在2023年写给乌克兰政府与人民的信 ： 支持和敬佩乌克兰抵抗俄罗斯 ， 劝说乌克兰有限妥协早日和平 、 减少伤亡 - 革命军中马前卒发表于 几曾回首 - 论坛",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+    "title_original": "Kyiv's Kyoto Park hit in Russian missile attack, 1 killed",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Japan; 中国关联利益=中日关系, 东海, 台海, 半导体设备, 出口管制, 钓鱼岛/尖阁诸岛, 供应链, 汽车; 中国关联实体/项目=Tokyo Electron, Rapidus, Japanese semiconductor controls",
+    "title_en": "Kyiv's Kyoto Park hit in Russian missile attack, 1 killed",
+    "title_zh": "Kyiv's Kyoto Park hit in Russian missile attack, 1 killed",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Japan; 中国关联利益=中日关系, 东海, 台海, 半导体设备, 出口管制, 钓鱼岛/尖阁诸岛, 供应链, 汽车; 中国关联实体/项目=Tokyo Electron, Rapidus, Japanese semiconductor controls",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Japan; China-related interests = Sino-Japanese relations, East China Sea, Taiwan Strait, semiconductor equipment, export controls, Diaoyu Islands/Senkaku Islands, supply chain, automobile; China-related entities/projects = Tokyo Electron, Rapidus, Japanese semiconductor controls"
   },
   {
-    "id": "f26722027e0b909faedb",
-    "title": "OAC and university developing maritime AI drone system COORDINATED MISSIONS: The system would bolster Taiwan’s maritime defense, rescue capabilities and whole-of-society resilience, the Ocean Affairs Council said The Ocean Affairs Council (OAC) yesterday said it is funding a National Cheng Kung University (NCKU) team to develop an artificial intelligence (AI",
+    "id": "4a84844fe4c2e75b25d1",
+    "title": "«Coup de poignard contre la jeunesse» : la rhétorique de plus en plus musclée du ministre des Comptes publics",
+    "language": "fr",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "其他",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "critical",
+    "priority_score": 76,
+    "confidence_score": 39,
+    "importance_score": 77,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 55,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-27T09:51:11.643676+00:00",
+    "last_seen": "2026-10-27T09:51:11.643676+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "France"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
+    "why_now_zh": "其他信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:51:11.643676+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 76,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "16363f120f2636398c69",
+        "origin_type": "news",
+        "source": "Le Figaro",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "«Coup de poignard contre la jeunesse» : la rhétorique de plus en plus musclée du ministre des Comptes publics",
+        "url": "https://www.lefigaro.fr/economie/coup-de-poignard-contre-la-jeunesse-la-rhetorique-de-plus-en-plus-musclee-du-ministre-des-comptes-publics-20261026",
+        "published_at": null,
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "lefigaro.fr"
+      }
+    ],
+    "title_original": "«Coup de poignard contre la jeunesse» : la rhétorique de plus en plus musclée du ministre des Comptes publics",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
+    "title_en": "«Coup de poignard contre la jeunesse» : la rhétorique de plus en plus musclée du ministre des Comptes publics",
+    "title_zh": "«Coup de poignard contre la jeunesse» : la rhétorique de plus en plus musclée du ministre des Comptes publics",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related region = France; China-related interests = Sino-French relations, aerospace, nuclear energy, agricultural products, EU China policy, luxury goods, electric vehicles; China-related entities/projects = Airbus China exposure, EDF cooperation, CMA CGM China exposure"
+  },
+  {
+    "id": "e4ca9ae870ae1f4b2e51",
+    "title": "Gunmen kill Islamic cleric, associate in Katsina Suspected bandits have killed a prominent Islamic cleric, Sheikh Yahaya Masussuka, and his associate in Dutsin-Ma Local Government Area of Katsina State. The attack occurred…",
     "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security"
+    ],
+    "matched_risk_terms": [
+      "killed"
+    ],
+    "severity": "high",
+    "priority_score": 75,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 95,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-27T09:51:11.643676+00:00",
+    "last_seen": "2026-10-27T09:51:11.643676+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Nigeria"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:51:11.643676+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 75,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "65d18ad96c1dd4e57c61",
+        "origin_type": "news",
+        "source": "Daily Trust",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Gunmen kill Islamic cleric, associate in Katsina Suspected bandits have killed a prominent Islamic cleric, Sheikh Yahaya Masussuka, and his associate in Dutsin-Ma Local Government Area of Katsina State. The attack occurred…",
+        "url": "https://dailytrust.com/gunmen-kill-islamic-cleric-associate-in-katsina",
+        "published_at": null,
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "dailytrust.com"
+      }
+    ],
+    "title_original": "Gunmen kill Islamic cleric, associate in Katsina Suspected bandits have killed a prominent Islamic cleric, Sheikh Yahaya Masussuka, and his associate in Dutsin-Ma Local Government Area of Katsina State. The attack occurred…",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
+    "title_en": "Gunmen kill Islamic cleric, associate in Katsina Suspected bandits have killed a prominent Islamic cleric, Sheikh Yahaya Masussuka, and his associate in Dutsin-Ma Local Government Area of Katsina State. The attack occurred…",
+    "title_zh": "Gunmen kill Islamic cleric, associate in Katsina Suspected bandits have killed a prominent Islamic cleric, Sheikh Yahaya Masussuka, and his associate in Dutsin-Ma Local Government Area of Katsina State. The attack occurred…",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Nigeria; China-related interests = railways, ports, telecommunications, petroleum, Chinese-funded enterprises and personnel security; Chinese-related entities/projects = CCECC, Huawei, Lekki-related Chinese investment"
+  },
+  {
+    "id": "189627c53f4a2812aafd",
+    "title": "Russia and Ukraine Trade Deadly Strikes as Oleshky Ceasefire Begins At least two people were killed in Ukrainian attacks in western Russia, regional officials said, while strikes against Kyiv left one person dead. 2 Min read",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security"
+    ],
+    "matched_risk_terms": [
+      "killed"
+    ],
+    "severity": "high",
+    "priority_score": 75,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 95,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-27T09:51:11.643676+00:00",
+    "last_seen": "2026-10-27T09:51:11.643676+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Russia"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:51:11.643676+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 75,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "74a1815826ef617b8ef6",
+        "origin_type": "news",
+        "source": "The Moscow Times",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Russia and Ukraine Trade Deadly Strikes as Oleshky Ceasefire Begins At least two people were killed in Ukrainian attacks in western Russia, regional officials said, while strikes against Kyiv left one person dead. 2 Min read",
+        "url": "https://www.themoscowtimes.com/2026/10/27/russia-and-ukraine-trade-deadly-strikes-as-oleshky-ceasefire-begins-a94092",
+        "published_at": null,
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "themoscowtimes.com"
+      }
+    ],
+    "title_original": "Russia and Ukraine Trade Deadly Strikes as Oleshky Ceasefire Begins At least two people were killed in Ukrainian attacks in western Russia, regional officials said, while strikes against Kyiv left one person dead. 2 Min read",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
+    "title_en": "Russia and Ukraine Trade Deadly Strikes as Oleshky Ceasefire Begins At least two people were killed in Ukrainian attacks in western Russia, regional officials said, while strikes against Kyiv left one person dead. 2 Min read",
+    "title_zh": "Russia and Ukraine Trade Deadly Strikes as Oleshky Ceasefire Begins At least two people were killed in Ukrainian attacks in western Russia, regional officials said, while strikes against Kyiv left one person dead. 2 Min read",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Russia; China-related interests = Sino-Russian relations, energy, Far East, cross-border trade, military cooperation, Arctic, Central Asia, personnel and labor; China-related entities/projects = Power of Siberia, Yamal LNG China exposure, China-Russia border trade | Event-related areas = Ukraine; China-related interests = Russia-Ukraine war, Chinese diplomacy, Grain, Black Sea shipping, dual-use technology, reconstruction; Chinese related entities/projects=Chinese trade exposure"
+  },
+  {
+    "id": "85a3804c7468071d9b2b",
+    "title": "No casualties reported in shanty town fire in southern Seoul A fire broke out at a shantytown in Seoul's posh southern district of Gangnam on Tuesday, but no casualties have been reported so far, officials said. The fire broke out at about 3:50 p.m. at a makeshift building at Guryong Village, prompting 39 residents to flee to safety, according to fire author",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security",
+      "safety_production_domestic"
+    ],
+    "matched_risk_terms": [
+      "casualties",
+      "fire"
+    ],
+    "severity": "high",
+    "priority_score": 75,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 95,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-27T09:51:11.643676+00:00",
+    "last_seen": "2026-10-27T09:51:11.643676+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "South Korea"
+    ],
+    "entities": [],
+    "reason": "命中全球安全领域海外利益安全及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:51:11.643676+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 75,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "30eb82ee5b95d788c8e6",
+        "origin_type": "news",
+        "source": "The Korea Times",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "No casualties reported in shanty town fire in southern Seoul A fire broke out at a shantytown in Seoul's posh southern district of Gangnam on Tuesday, but no casualties have been reported so far, officials said. The fire broke out at about 3:50 p.m. at a makeshift building at Guryong Village, prompting 39 residents to flee to safety, according to fire authorities. Fire authorities issued a Level 1 emergency response at 3:59 p.m. and later raised the response level by one notch as the fire spread",
+        "url": "https://www.koreatimes.co.kr/southkorea/20261027/no-casualties-reported-in-shanty-town-fire-in-southern-seoul",
+        "published_at": null,
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
+        "relation": "potential",
+        "confidence": 48,
+        "publisher_family": "koreatimes.co.kr"
+      }
+    ],
+    "title_original": "No casualties reported in shanty town fire in southern Seoul A fire broke out at a shantytown in Seoul's posh southern district of Gangnam on Tuesday, but no casualties have been reported so far, officials said. The fire broke out at about 3:50 p.m. at a makeshift building at Guryong Village, prompting 39 residents to flee to safety, according to fire author",
+    "reason_original": "命中全球安全领域海外利益安全及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "title_en": "No casualties reported in shanty town fire in southern Seoul A fire broke out at a shantytown in Seoul's posh southern district of Gangnam on Tuesday, but no casualties have been reported so far, officials said. The fire broke out at about 3:50 p.m. at a makeshift building at Guryong Village, prompting 39 residents to flee to safety, according to fire author",
+    "title_zh": "No casualties reported in shanty town fire in southern Seoul A fire broke out at a shantytown in Seoul's posh southern district of Gangnam on Tuesday, but no casualties have been reported so far, officials said. The fire broke out at about 3:50 p.m. at a makeshift building at Guryong Village, prompting 39 residents to flee to safety, according to fire author",
+    "reason_zh": "命中全球安全领域海外利益安全及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "reason_en": "Hits the global security field, overseas interest security and upgrade/interruption public events; no direct evidence related to China has been found yet, and is included in the pool according to conduction observation"
+  },
+  {
+    "id": "c6e0ba3eff0d5a718e7f",
+    "title": "Video: Possible explosive triggers evacuation of 10 Amsterdam homes",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security"
+    ],
+    "matched_risk_terms": [
+      "evacuation"
+    ],
+    "severity": "high",
+    "priority_score": 74,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 95,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-27T09:51:11.643676+00:00",
+    "last_seen": "2026-10-27T09:51:11.643676+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Netherlands"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Netherlands; 中国关联利益=半导体设备, 光刻机, 出口管制, 港口物流, 欧盟对华政策; 中国关联实体/项目=ASML, Port of Rotterdam, COSCO",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:51:11.643676+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "aed4b27fbab848eafcee",
+        "origin_type": "news",
+        "source": "NL Times",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Video: Possible explosive triggers evacuation of 10 Amsterdam homes",
+        "url": "https://nltimes.nl/2026/10/27/video-possible-explosive-triggers-evacuation-10-amsterdam-homes",
+        "published_at": null,
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "nltimes.nl"
+      }
+    ],
+    "title_original": "Video: Possible explosive triggers evacuation of 10 Amsterdam homes",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Netherlands; 中国关联利益=半导体设备, 光刻机, 出口管制, 港口物流, 欧盟对华政策; 中国关联实体/项目=ASML, Port of Rotterdam, COSCO",
+    "title_en": "Video: Possible explosive triggers evacuation of 10 Amsterdam homes",
+    "title_zh": "Video: Possible explosive triggers evacuation of 10 Amsterdam homes",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Netherlands; 中国关联利益=半导体设备, 光刻机, 出口管制, 港口物流, 欧盟对华政策; 中国关联实体/项目=ASML, Port of Rotterdam, COSCO",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Netherlands; China-related interests = semiconductor equipment, lithography machines, export control, port logistics, EU China policy; China-related entities/projects = ASML, Port of Rotterdam, COSCO"
+  },
+  {
+    "id": "91f4d8592c8790a6eb5c",
+    "title": "Казахстанцам обещают списать кредиты и штрафы до 5 миллионов: что стоит за роликами в TikTok",
+    "language": "ru",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
@@ -372,12 +781,10 @@
     "risk_category": "tech_controls",
     "risk_category_en": "Technology Controls",
     "risk_categories": [
-      "tech_controls",
-      "technology_youth"
+      "tech_controls"
     ],
     "matched_risk_terms": [
-      "artificial intelligence",
-      "AI"
+      "TikTok"
     ],
     "severity": "low",
     "priority_score": 74,
@@ -390,8 +797,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T05:01:02.608672+00:00",
-    "last_seen": "2026-10-27T05:01:02.608672+00:00",
+    "first_seen": "2026-10-27T09:51:11.643676+00:00",
+    "last_seen": "2026-10-27T09:51:11.643676+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -399,7 +806,7 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Taiwan"
+      "Kazakhstan"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -415,8 +822,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-27T05:01:02.608672+00:00",
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:51:11.643676+00:00",
         "lifecycle": "emerging",
         "priority_score": 74,
         "confidence_score": 39,
@@ -428,31 +835,383 @@
     ],
     "evidence": [
       {
-        "id": "7df583d3f83bdcad8dca",
+        "id": "58741d560bfccb1966af",
         "origin_type": "news",
-        "source": "Taipei Times",
+        "source": "Tengrinews",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "OAC and university developing maritime AI drone system COORDINATED MISSIONS: The system would bolster Taiwan’s maritime defense, rescue capabilities and whole-of-society resilience, the Ocean Affairs Council said The Ocean Affairs Council (OAC) yesterday said it is funding a National Cheng Kung University (NCKU) team to develop an artificial intelligence (AI)-powered system to coordinate different types of drones to enable wide-area maritime surveillance and sustained monitoring.Developing a mul",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/10/27/2003866673",
+        "title": "Казахстанцам обещают списать кредиты и штрафы до 5 миллионов: что стоит за роликами в TikTok",
+        "url": "https://tengrinews.kz/kazakhstan_news/kazahstantsam-obeschayut-spisat-kredityi-shtrafyi-5-611718/",
         "published_at": null,
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "taipeitimes.com"
+        "publisher_family": "tengrinews.kz"
       }
     ],
-    "title_original": "OAC and university developing maritime AI drone system COORDINATED MISSIONS: The system would bolster Taiwan’s maritime defense, rescue capabilities and whole-of-society resilience, the Ocean Affairs Council said The Ocean Affairs Council (OAC) yesterday said it is funding a National Cheng Kung University (NCKU) team to develop an artificial intelligence (AI",
+    "title_original": "Казахстанцам обещают списать кредиты и штрафы до 5 миллионов: что стоит за роликами в TikTok",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "OAC and university developing maritime AI drone system COORDINATED MISSIONS: The system would bolster Taiwan’s maritime defense, rescue capabilities and whole-of-society resilience, the Ocean Affairs Council said The Ocean Affairs Council (OAC) yesterday said it is funding a National Cheng Kung University (NCKU) team to develop an artificial intelligence (AI",
-    "title_zh": "OAC and university developing maritime AI drone system COORDINATED MISSIONS: The system would bolster Taiwan’s maritime defense, rescue capabilities and whole-of-society resilience, the Ocean Affairs Council said The Ocean Affairs Council (OAC) yesterday said it is funding a National Cheng Kung University (NCKU) team to develop an artificial intelligence (AI",
+    "title_en": "Казахстанцам обещают списать кредиты и штрафы до 5 миллионов: что стоит за роликами в TikTok",
+    "title_zh": "Казахстанцам обещают списать кредиты и штрафы до 5 миллионов: что стоит за роликами в TikTok",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "e26ce4771b56ea3f78a1",
-    "title": "Australia should do more to back Japan and the ICC in the face of US sanctions",
+    "id": "86eddd7b46f972938fc4",
+    "title": "敦豪快递：中国AI硬件运输需求增长 推高国际空运运价",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "公共服务与劳动争议",
+    "risk_category": "public_service_labor",
+    "risk_category_en": "Public Services & Labor",
+    "risk_categories": [
+      "public_service_labor",
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "运价",
+      "AI"
+    ],
+    "severity": "low",
+    "priority_score": 73,
+    "confidence_score": 52,
+    "importance_score": 44,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 87,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-27T09:51:11.643676+00:00",
+    "last_seen": "2026-10-27T09:51:11.643676+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Singapore"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "公共服务与劳动争议信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Public Services & Labor signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:51:11.643676+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "bc6ab81891861eb5299f",
+        "origin_type": "news",
+        "source": "联合早报 Lianhe Zaobao · 中国",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "敦豪快递：中国AI硬件运输需求增长 推高国际空运运价",
+        "url": "https://www.zaobao.com.sg/news/china/story20261027-9902858",
+        "published_at": null,
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "zaobao"
+      }
+    ],
+    "title_original": "敦豪快递：中国AI硬件运输需求增长 推高国际空运运价",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "敦豪快递：中国AI硬件运输需求增长 推高国际空运运价",
+    "title_en": "敦豪快递：中国AI硬件运输需求增长 推高国际空运运价",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "a1c7ac323bdb0a2d8eb5",
+    "title": "Hong Kong privacy watchdog issues guidance on AI ‘smart glasses’ to curb covert surveillance",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技与青年",
+    "risk_category": "technology_youth",
+    "risk_category_en": "Technology & Youth",
+    "risk_categories": [
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "AI"
+    ],
+    "severity": "low",
+    "priority_score": 71,
+    "confidence_score": 52,
+    "importance_score": 44,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 67,
+    "freshness_score": 99,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-27T09:39:50+00:00",
+    "last_seen": "2026-10-27T09:39:50+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Hong Kong"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:39:50+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 71,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "bc53c36bde6557b3f3a9",
+        "origin_type": "news",
+        "source": "香港自由新闻 HKFP",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Hong Kong privacy watchdog issues guidance on AI ‘smart glasses’ to curb covert surveillance",
+        "url": "https://hongkongfp.com/2026/10/27/hong-kong-privacy-watchdog-issues-guidance-on-ai-smart-glasses-to-curb-covert-surveillance/",
+        "published_at": "2026-10-27T09:39:50+00:00",
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "hongkongfp.com"
+      }
+    ],
+    "title_original": "Hong Kong privacy watchdog issues guidance on AI ‘smart glasses’ to curb covert surveillance",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Hong Kong privacy watchdog issues guidance on AI ‘smart glasses’ to curb covert surveillance",
+    "title_zh": "Hong Kong privacy watchdog issues guidance on AI ‘smart glasses’ to curb covert surveillance",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "243bd15f818c9020bbd6",
+    "title": "北大等高校传反习延任连署 邱垂正：有良知者都会赞成",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技与青年",
+    "risk_category": "technology_youth",
+    "risk_category_en": "Technology & Youth",
+    "risk_categories": [
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "高校"
+    ],
+    "severity": "low",
+    "priority_score": 71,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 67,
+    "freshness_score": 99,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-27T09:35:00+00:00",
+    "last_seen": "2026-10-27T09:35:00+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Global"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:35:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 71,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "9146220d3a1d9e44477b",
+        "origin_type": "news",
+        "source": "大纪元 Epoch Times · 即时",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "北大等高校传反习延任连署 邱垂正：有良知者都会赞成",
+        "url": "https://feed.epochtimes.com/gb/26/10/27/n14877679.htm",
+        "published_at": "2026-10-27T09:35:00+00:00",
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "epochtimes"
+      }
+    ],
+    "title_original": "北大等高校传反习延任连署 邱垂正：有良知者都会赞成",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "北大等高校传反习延任连署 邱垂正：有良知者都会赞成",
+    "title_en": "北大等高校传反习延任连署 邱垂正：有良知者都会赞成",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "5cc5d04d63f98527af99",
+    "title": "共に生きる 多様な社会 TikTokで歌を見いだされたミア・タカラベさん 世界が開けた瞬間 10/27 16:00 インタビュー",
+    "language": "ja",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "TikTok"
+    ],
+    "severity": "low",
+    "priority_score": 68,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 82,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 88,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-27T09:51:11.643676+00:00",
+    "last_seen": "2026-10-27T09:51:11.643676+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Japan"
+    ],
+    "entities": [
+      "TikTok"
+    ],
+    "reason": "命中中国海外关联企业/项目；事件关联地区=Japan; 中国关联利益=中日关系, 东海, 台海, 半导体设备, 出口管制, 钓鱼岛/尖阁诸岛, 供应链, 汽车; 中国关联实体/项目=Tokyo Electron, Rapidus, Japanese semiconductor controls | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:51:11.643676+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 68,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "890565b320d146caff06",
+        "origin_type": "news",
+        "source": "Mainichi",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "共に生きる 多様な社会 TikTokで歌を見いだされたミア・タカラベさん 世界が開けた瞬間 10/27 16:00 インタビュー",
+        "url": "https://mainichi.jp/articles/20261026/k00/00m/200/179000c",
+        "published_at": null,
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
+        "relation": "indirect",
+        "confidence": 84,
+        "publisher_family": "mainichi.jp"
+      }
+    ],
+    "title_original": "共に生きる 多様な社会 TikTokで歌を見いだされたミア・タカラベさん 世界が開けた瞬間 10/27 16:00 インタビュー",
+    "reason_original": "命中中国海外关联企业/项目；事件关联地区=Japan; 中国关联利益=中日关系, 东海, 台海, 半导体设备, 出口管制, 钓鱼岛/尖阁诸岛, 供应链, 汽车; 中国关联实体/项目=Tokyo Electron, Rapidus, Japanese semiconductor controls | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
+    "title_en": "共に生きる 多様な社会 TikTokで歌を見いだされたミア・タカラベさん 世界が開けた瞬間 10/27 16:00 インタビュー",
+    "title_zh": "共に生きる 多様な社会 TikTokで歌を見いだされたミア・タカラベさん 世界が開けた瞬間 10/27 16:00 インタビュー",
+    "reason_zh": "命中中国海外关联企业/项目；事件关联地区=Japan; 中国关联利益=中日关系, 东海, 台海, 半导体设备, 出口管制, 钓鱼岛/尖阁诸岛, 供应链, 汽车; 中国关联实体/项目=Tokyo Electron, Rapidus, Japanese semiconductor controls | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
+    "reason_en": "Indirect China-related signal linked to a known Chinese overseas company, project, asset, or supply-chain exposure. Area: Japan. Linked entities/projects: TikTok."
+  },
+  {
+    "id": "710686dc75571a5c43c1",
+    "title": "RCMP probe potential fraud, money laundering in Alberta health care procurement controversy",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -464,12 +1223,12 @@
       "trade_regulatory"
     ],
     "matched_risk_terms": [
-      "sanctions"
+      "probe"
     ],
-    "severity": "high",
-    "priority_score": 73,
+    "severity": "medium",
+    "priority_score": 67,
     "confidence_score": 39,
-    "importance_score": 65,
+    "importance_score": 52,
     "china_relevance_score": 58,
     "novelty_score": 100,
     "momentum_score": 55,
@@ -477,8 +1236,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T05:01:02.608672+00:00",
-    "last_seen": "2026-10-27T05:01:02.608672+00:00",
+    "first_seen": "2026-10-27T09:51:11.643676+00:00",
+    "last_seen": "2026-10-27T09:51:11.643676+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -486,10 +1245,10 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Australia"
+      "Canada"
     ],
     "entities": [],
-    "reason": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei",
     "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
     "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
@@ -502,462 +1261,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-27T05:01:02.608672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 73,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "18c668ebc765db02755e",
-        "origin_type": "news",
-        "source": "Lowy Institute",
-        "source_kind": "think_tank",
-        "platform": null,
-        "author": null,
-        "title": "Australia should do more to back Japan and the ICC in the face of US sanctions",
-        "url": "https://www.lowyinstitute.org/the-interpreter/australia-should-do-more-to-back-japan-and-the-icc-in-the-face-of-us-sanctions",
-        "published_at": null,
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
-        "relation": "potential",
-        "confidence": 48,
-        "publisher_family": "lowyinstitute.org"
-      }
-    ],
-    "title_original": "Australia should do more to back Japan and the ICC in the face of US sanctions",
-    "reason_original": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
-    "title_en": "Australia should do more to back Japan and the ICC in the face of US sanctions",
-    "title_zh": "Australia should do more to back Japan and the ICC in the face of US sanctions",
-    "reason_zh": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
-    "reason_en": "Hits the public events of great power competition and escalation/disruption in the global security field; no direct evidence involving China has been found yet, and it is included in the pool according to conduction observation"
-  },
-  {
-    "id": "16cc6564439f66c49844",
-    "title": "Kylian Mbappe loses two major China sponsorship deals over Mao Zedong joke",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "其他",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "low",
-    "priority_score": 72,
-    "confidence_score": 58,
-    "importance_score": 48,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 63,
-    "exposure_score": 60,
-    "freshness_score": 100,
-    "corroboration_score": 40,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T05:01:02.608672+00:00",
-    "last_seen": "2026-10-27T05:01:02.608672+00:00",
-    "source_count": 2,
-    "evidence_count": 2,
-    "news_count": 2,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Bangladesh",
-      "France"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "其他信号；近期首次进入事件池；新增2条独立信息链；新颖度100 / 动量63。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 2 new independent source chain(s); novelty 100 / momentum 63.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 2,
-      "new_evidence": 2,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-27T05:01:02.608672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 72,
-        "confidence_score": 58,
-        "novelty_score": 100,
-        "momentum_score": 63,
-        "source_count": 2,
-        "evidence_count": 2
-      }
-    ],
-    "evidence": [
-      {
-        "id": "699d7e9568f424636a2a",
-        "origin_type": "news",
-        "source": "The Daily Star",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Mbappe loses Chinese sponsorship deals over apparent Mao Zedong joke",
-        "url": "https://www.thedailystar.net/sports/football/news/mbappe-loses-chinese-sponsorship-deals-over-apparent-mao-zedong-joke-4308546",
-        "published_at": null,
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "thedailystar.net"
-      },
-      {
-        "id": "5dc8293a4ccf6611bd93",
-        "origin_type": "news",
-        "source": "France 24",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Kylian Mbappe loses two major China sponsorship deals over Mao Zedong joke",
-        "url": "https://www.france24.com/en/sport/20261027-kylian-mbappe-china-mao-zedong-sponsorship-deal",
-        "published_at": null,
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "france24"
-      }
-    ],
-    "title_original": "Kylian Mbappe loses two major China sponsorship deals over Mao Zedong joke",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Kylian Mbappe loses two major China sponsorship deals over Mao Zedong joke",
-    "title_zh": "Kylian Mbappe loses two major China sponsorship deals over Mao Zedong joke",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "fdd38a7060e91aaf9e7a",
-    "title": "UP poll palette is riot of colours: From Akhilesh’s blue, to Rajbhar’s yellow & Nishad’s red",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "劳资社会",
-    "risk_category": "labor_social",
-    "risk_category_en": "Labor & Social Unrest",
-    "risk_categories": [
-      "labor_social"
-    ],
-    "matched_risk_terms": [
-      "riot"
-    ],
-    "severity": "high",
-    "priority_score": 72,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 72,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T05:01:02.608672+00:00",
-    "last_seen": "2026-10-27T05:01:02.608672+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "India"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
-    "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-27T05:01:02.608672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 72,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "e2e6744994d8b03d0374",
-        "origin_type": "news",
-        "source": "ThePrint",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "UP poll palette is riot of colours: From Akhilesh’s blue, to Rajbhar’s yellow & Nishad’s red",
-        "url": "https://theprint.in/politics/up-poll-palette-is-riot-of-colours-from-akhileshs-blue-to-rajbhars-yellow-nishads-red/3081736/",
-        "published_at": null,
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "theprint.in"
-      }
-    ],
-    "title_original": "UP poll palette is riot of colours: From Akhilesh’s blue, to Rajbhar’s yellow & Nishad’s red",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
-    "title_en": "UP poll palette is riot of colours: From Akhilesh’s blue, to Rajbhar’s yellow & Nishad’s red",
-    "title_zh": "UP poll palette is riot of colours: From Akhilesh’s blue, to Rajbhar’s yellow & Nishad’s red",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area=India; China-related interests=China-India border, Indo-Pacific, supply chain, investment restrictions, telecommunications, manufacturing, South Asia, BRICS cooperation; China-related entities/projects=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei"
-  },
-  {
-    "id": "a6918c6d9081cd0f89e3",
-    "title": "Cyberattack-hit GMO says hacker threatens to disclose customer info at noon",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "安全/冲突",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "high",
-    "priority_score": 70,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 55,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T05:01:02.608672+00:00",
-    "last_seen": "2026-10-27T05:01:02.608672+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Japan"
-    ],
-    "entities": [],
-    "reason": "命中全球安全领域网络安全及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
-    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-27T05:01:02.608672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 70,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "3db4a7e3c8b8f4bd39bd",
-        "origin_type": "news",
-        "source": "Kyodo News",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Cyberattack-hit GMO says hacker threatens to disclose customer info at noon",
-        "url": "https://english.kyodonews.net/articles/-/89496",
-        "published_at": null,
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
-        "relation": "potential",
-        "confidence": 48,
-        "publisher_family": "english.kyodonews.net"
-      }
-    ],
-    "title_original": "Cyberattack-hit GMO says hacker threatens to disclose customer info at noon",
-    "reason_original": "命中全球安全领域网络安全及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
-    "title_en": "Cyberattack-hit GMO says hacker threatens to disclose customer info at noon",
-    "title_zh": "Cyberattack-hit GMO says hacker threatens to disclose customer info at noon",
-    "reason_zh": "命中全球安全领域网络安全及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Japan."
-  },
-  {
-    "id": "b6f8ab4e081c225618ea",
-    "title": "‘Still Just a Child’: The Russian Teenagers Fighting and Dying in Ukraine Feature A growing number of Russian soldiers who were still schoolchildren when the full-scale invasion of Ukraine began are being killed in the war. 5 Min read",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "escalating",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security"
-    ],
-    "matched_risk_terms": [
-      "killed"
-    ],
-    "severity": "critical",
-    "priority_score": 70,
-    "confidence_score": 39,
-    "importance_score": 68,
-    "china_relevance_score": 58,
-    "novelty_score": 82,
-    "momentum_score": 28,
-    "exposure_score": 95,
-    "freshness_score": 39,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-26T14:15:54.213226+00:00",
-    "last_seen": "2026-10-26T14:15:54.213226+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Russia"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
-    "why_now_zh": "人员安全信号；正在升级或扩散；新颖度82 / 动量28。",
-    "why_now_en": "Personnel Security signal; is escalating or spreading; novelty 82 / momentum 28.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
-    "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-26T14:15:56.464923+00:00",
-        "last_seen": "2026-10-26T14:15:54.213226+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 82,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-26T14:15:54.213226+00:00",
-        "lifecycle": "escalating",
-        "priority_score": 70,
-        "confidence_score": 39,
-        "novelty_score": 82,
-        "momentum_score": 28,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "eb39055a7bc2a8a2869a",
-        "origin_type": "news",
-        "source": "The Moscow Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "‘Still Just a Child’: The Russian Teenagers Fighting and Dying in Ukraine Feature A growing number of Russian soldiers who were still schoolchildren when the full-scale invasion of Ukraine began are being killed in the war. 5 Min read",
-        "url": "https://www.themoscowtimes.com/2026/10/26/still-just-a-child-the-russian-teenagers-fighting-and-dying-in-ukraine-a94045",
-        "published_at": null,
-        "collected_at": "2026-10-26T14:15:54.213226+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "themoscowtimes.com"
-      }
-    ],
-    "title_original": "‘Still Just a Child’: The Russian Teenagers Fighting and Dying in Ukraine Feature A growing number of Russian soldiers who were still schoolchildren when the full-scale invasion of Ukraine began are being killed in the war. 5 Min read",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
-    "title_en": "‘Still Just a Child’: The Russian Teenagers Fighting and Dying in Ukraine Feature A growing number of Russian soldiers who were still schoolchildren when the full-scale invasion of Ukraine began are being killed in the war. 5 Min read",
-    "title_zh": "‘Still Just a Child’: The Russian Teenagers Fighting and Dying in Ukraine Feature A growing number of Russian soldiers who were still schoolchildren when the full-scale invasion of Ukraine began are being killed in the war. 5 Min read",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Russia."
-  },
-  {
-    "id": "2a36d0b1720544fa2476",
-    "title": "Establishing Battery Supply Chain Resilience for Drones",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls"
-    ],
-    "matched_risk_terms": [
-      "battery"
-    ],
-    "severity": "medium",
-    "priority_score": 67,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 86,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T05:01:02.608672+00:00",
-    "last_seen": "2026-10-27T05:01:02.608672+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United States"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-27T05:01:02.608672+00:00",
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:51:11.643676+00:00",
         "lifecycle": "emerging",
         "priority_score": 67,
         "confidence_score": 39,
@@ -969,31 +1274,31 @@
     ],
     "evidence": [
       {
-        "id": "4ad239d4eed67bcb8f86",
+        "id": "96bff0c72789beaa9926",
         "origin_type": "news",
-        "source": "War on the Rocks",
+        "source": "The Globe and Mail",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Establishing Battery Supply Chain Resilience for Drones",
-        "url": "https://warontherocks.com/cogs-of-war/establishing-battery-supply-chain-resilience-for-drones/",
+        "title": "RCMP probe potential fraud, money laundering in Alberta health care procurement controversy",
+        "url": "https://www.theglobeandmail.com/canada/article-rcmp-probe-potential-fraud-money-laundering-alberta-health-controversy/",
         "published_at": null,
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
         "relation": "potential",
         "confidence": 62,
-        "publisher_family": "warontherocks.com"
+        "publisher_family": "theglobeandmail.com"
       }
     ],
-    "title_original": "Establishing Battery Supply Chain Resilience for Drones",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
-    "title_en": "Establishing Battery Supply Chain Resilience for Drones",
-    "title_zh": "Establishing Battery Supply Chain Resilience for Drones",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: United States."
+    "title_original": "RCMP probe potential fraud, money laundering in Alberta health care procurement controversy",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei",
+    "title_en": "RCMP probe potential fraud, money laundering in Alberta health care procurement controversy",
+    "title_zh": "RCMP probe potential fraud, money laundering in Alberta health care procurement controversy",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Canada."
   },
   {
-    "id": "c79112a771a12c044837",
-    "title": "Special counsel searches Seoul handball arena in ballot shortage probe",
+    "id": "76f2493152d821b1bb30",
+    "title": "Ruling party decides to seek parliamentary probe into Supreme Court chief amid impeachment calls",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -1018,8 +1323,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T05:01:02.608672+00:00",
-    "last_seen": "2026-10-27T05:01:02.608672+00:00",
+    "first_seen": "2026-10-27T09:51:11.643676+00:00",
+    "last_seen": "2026-10-27T09:51:11.643676+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1043,8 +1348,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-27T05:01:02.608672+00:00",
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:51:11.643676+00:00",
         "lifecycle": "emerging",
         "priority_score": 67,
         "confidence_score": 66,
@@ -1056,31 +1361,31 @@
     ],
     "evidence": [
       {
-        "id": "af1957a47ef579baa3e6",
+        "id": "33f12d3373786f500f86",
         "origin_type": "news",
         "source": "Yonhap News",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Special counsel searches Seoul handball arena in ballot shortage probe",
-        "url": "https://en.yna.co.kr/view/AEN20261027004951315?section=national/politics",
+        "title": "Ruling party decides to seek parliamentary probe into Supreme Court chief amid impeachment calls",
+        "url": "https://en.yna.co.kr/view/AEN20261027009800315?section=national/politics",
         "published_at": null,
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
         "relation": "potential",
         "confidence": 62,
         "publisher_family": "ap"
       }
     ],
-    "title_original": "Special counsel searches Seoul handball arena in ballot shortage probe",
+    "title_original": "Ruling party decides to seek parliamentary probe into Supreme Court chief amid impeachment calls",
     "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
-    "title_en": "Special counsel searches Seoul handball arena in ballot shortage probe",
-    "title_zh": "Special counsel searches Seoul handball arena in ballot shortage probe",
+    "title_en": "Ruling party decides to seek parliamentary probe into Supreme Court chief amid impeachment calls",
+    "title_zh": "Ruling party decides to seek parliamentary probe into Supreme Court chief amid impeachment calls",
     "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
     "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: South Korea."
   },
   {
-    "id": "2df1d4d5be2b9deb35dc",
-    "title": "Korea's economy grows 1% in Q3 on chip exports, beating forecasts Korea's economy expanded 1 percent in the third quarter from the previous quarter, extending its stronger-than-expected recovery on the back of booming semiconductor exports, the Bank of Korea (BOK) said Tuesday. Preliminary data from the central bank showed that real gross domestic product (G",
+    "id": "a847f12e729121d530e8",
+    "title": "COVER STORY Chip exports drive Korea's Q3 growth to 1%, triple BOK forecast Korea's economy expanded 1 percent in the third quarter from the previous quarter, extending its stronger-than-expected growth on the back of booming semiconductor exports, the Bank of Korea (BOK) said Tuesday. After exceeding expectations in the first and second quarters, the econom",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -1106,8 +1411,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T05:01:02.608672+00:00",
-    "last_seen": "2026-10-27T05:01:02.608672+00:00",
+    "first_seen": "2026-10-27T09:51:11.643676+00:00",
+    "last_seen": "2026-10-27T09:51:11.643676+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1131,8 +1436,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-27T05:01:02.608672+00:00",
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:51:11.643676+00:00",
         "lifecycle": "emerging",
         "priority_score": 67,
         "confidence_score": 39,
@@ -1144,31 +1449,31 @@
     ],
     "evidence": [
       {
-        "id": "7b4f7ffbecc89b9b5c78",
+        "id": "a45230651ad525cafe45",
         "origin_type": "news",
         "source": "The Korea Times",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Korea's economy grows 1% in Q3 on chip exports, beating forecasts Korea's economy expanded 1 percent in the third quarter from the previous quarter, extending its stronger-than-expected recovery on the back of booming semiconductor exports, the Bank of Korea (BOK) said Tuesday. Preliminary data from the central bank showed that real gross domestic product (GDP) rose 1 percent in the July-September period, exceeding the BOK's own projection of 0.3 percent for the quarter. Facilities investment ro",
-        "url": "https://www.koreatimes.co.kr/economy/20261027/koreas-economy-grows-1-in-q3-on-chip-exports-beating-forecasts",
+        "title": "COVER STORY Chip exports drive Korea's Q3 growth to 1%, triple BOK forecast Korea's economy expanded 1 percent in the third quarter from the previous quarter, extending its stronger-than-expected growth on the back of booming semiconductor exports, the Bank of Korea (BOK) said Tuesday. After exceeding expectations in the first and second quarters, the economy continued to outperform forecasts in the third quarter, putting annual growth within reach of 3 percent, with some saying it may even reac",
+        "url": "https://www.koreatimes.co.kr/economy/20261027/cover-story-chip-exports-drive-koreas-q3-growth-to-1-triple-bok-forecast",
         "published_at": null,
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
         "relation": "potential",
         "confidence": 62,
         "publisher_family": "koreatimes.co.kr"
       }
     ],
-    "title_original": "Korea's economy grows 1% in Q3 on chip exports, beating forecasts Korea's economy expanded 1 percent in the third quarter from the previous quarter, extending its stronger-than-expected recovery on the back of booming semiconductor exports, the Bank of Korea (BOK) said Tuesday. Preliminary data from the central bank showed that real gross domestic product (G",
+    "title_original": "COVER STORY Chip exports drive Korea's Q3 growth to 1%, triple BOK forecast Korea's economy expanded 1 percent in the third quarter from the previous quarter, extending its stronger-than-expected growth on the back of booming semiconductor exports, the Bank of Korea (BOK) said Tuesday. After exceeding expectations in the first and second quarters, the econom",
     "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
-    "title_en": "Korea's economy grows 1% in Q3 on chip exports, beating forecasts Korea's economy expanded 1 percent in the third quarter from the previous quarter, extending its stronger-than-expected recovery on the back of booming semiconductor exports, the Bank of Korea (BOK) said Tuesday. Preliminary data from the central bank showed that real gross domestic product (G",
-    "title_zh": "Korea's economy grows 1% in Q3 on chip exports, beating forecasts Korea's economy expanded 1 percent in the third quarter from the previous quarter, extending its stronger-than-expected recovery on the back of booming semiconductor exports, the Bank of Korea (BOK) said Tuesday. Preliminary data from the central bank showed that real gross domestic product (G",
+    "title_en": "COVER STORY Chip exports drive Korea's Q3 growth to 1%, triple BOK forecast Korea's economy expanded 1 percent in the third quarter from the previous quarter, extending its stronger-than-expected growth on the back of booming semiconductor exports, the Bank of Korea (BOK) said Tuesday. After exceeding expectations in the first and second quarters, the econom",
+    "title_zh": "COVER STORY Chip exports drive Korea's Q3 growth to 1%, triple BOK forecast Korea's economy expanded 1 percent in the third quarter from the previous quarter, extending its stronger-than-expected growth on the back of booming semiconductor exports, the Bank of Korea (BOK) said Tuesday. After exceeding expectations in the first and second quarters, the econom",
     "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
     "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: South Korea."
   },
   {
-    "id": "71c093d142bc455c958b",
-    "title": "S’pore aims to tighten haze law amid hurdles in gathering evidence, securing cooperation: Grace Fu Her comments come amid Singapore's widening probe against firms linked to haze.",
+    "id": "ff02b612cfbf29c7d1b9",
+    "title": "US-Canada tariff deal: Is relief coming for steel and automakers?",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -1180,7 +1485,7 @@
       "trade_regulatory"
     ],
     "matched_risk_terms": [
-      "probe"
+      "tariff"
     ],
     "severity": "medium",
     "priority_score": 67,
@@ -1193,8 +1498,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T05:01:02.608672+00:00",
-    "last_seen": "2026-10-27T05:01:02.608672+00:00",
+    "first_seen": "2026-10-27T09:51:11.643676+00:00",
+    "last_seen": "2026-10-27T09:51:11.643676+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1202,10 +1507,10 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Singapore"
+      "Pakistan"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Singapore; 中国关联利益=金融, 航运, 东盟, 中美竞争, 科技与数据, 中国企业海外总部; 中国关联实体/项目=Chinese tech regional headquarters, Singapore port",
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Pakistan; 中国关联利益=中巴经济走廊, 瓜达尔港, 中国公民安全, 电力, 基础设施, 反恐, 印巴关系; 中国关联实体/项目=CPEC, Gwadar Port, Chinese power projects | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei",
     "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
     "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
@@ -1218,8 +1523,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-27T05:01:02.608672+00:00",
+        "observed_at": "2026-10-27T09:51:13.349649+00:00",
+        "last_seen": "2026-10-27T09:51:11.643676+00:00",
         "lifecycle": "emerging",
         "priority_score": 67,
         "confidence_score": 39,
@@ -1231,412 +1536,26 @@
     ],
     "evidence": [
       {
-        "id": "2e083ec7c8a988886e39",
+        "id": "c63b8eb21d476747fa1a",
         "origin_type": "news",
-        "source": "The Straits Times",
+        "source": "The News International",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "S’pore aims to tighten haze law amid hurdles in gathering evidence, securing cooperation: Grace Fu Her comments come amid Singapore's widening probe against firms linked to haze.",
-        "url": "https://www.straitstimes.com/singapore/environment/spore-aims-to-tighten-haze-law-amid-hurdles-in-gathering-evidence-securing-cooperation-grace-fu?ref=top-stories",
+        "title": "US-Canada tariff deal: Is relief coming for steel and automakers?",
+        "url": "https://www.thenews.com.pk/latest/1421453-us-canada-tariff-deal-is-relief-coming-for-steel-and-automakers",
         "published_at": null,
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
+        "collected_at": "2026-10-27T09:51:11.643676+00:00",
         "relation": "potential",
         "confidence": 62,
-        "publisher_family": "straitstimes.com"
+        "publisher_family": "thenews.com.pk"
       }
     ],
-    "title_original": "S’pore aims to tighten haze law amid hurdles in gathering evidence, securing cooperation: Grace Fu Her comments come amid Singapore's widening probe against firms linked to haze.",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Singapore; 中国关联利益=金融, 航运, 东盟, 中美竞争, 科技与数据, 中国企业海外总部; 中国关联实体/项目=Chinese tech regional headquarters, Singapore port",
-    "title_en": "S’pore aims to tighten haze law amid hurdles in gathering evidence, securing cooperation: Grace Fu Her comments come amid Singapore's widening probe against firms linked to haze.",
-    "title_zh": "S’pore aims to tighten haze law amid hurdles in gathering evidence, securing cooperation: Grace Fu Her comments come amid Singapore's widening probe against firms linked to haze.",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Singapore; 中国关联利益=金融, 航运, 东盟, 中美竞争, 科技与数据, 中国企业海外总部; 中国关联实体/项目=Chinese tech regional headquarters, Singapore port",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Singapore."
-  },
-  {
-    "id": "70cc08a0a2f86da33033",
-    "title": "Former iPhone display plant in Japan to start new life in chip supply chain",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls"
-    ],
-    "matched_risk_terms": [
-      "chip"
-    ],
-    "severity": "medium",
-    "priority_score": 67,
-    "confidence_score": 52,
-    "importance_score": 57,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 86,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T05:01:02.608672+00:00",
-    "last_seen": "2026-10-27T05:01:02.608672+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Japan"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Japan; 中国关联利益=中日关系, 东海, 台海, 半导体设备, 出口管制, 钓鱼岛/尖阁诸岛, 供应链, 汽车; 中国关联实体/项目=Tokyo Electron, Rapidus, Japanese semiconductor controls",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-27T05:01:02.608672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 67,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "1dcf214caaed4a5ac83a",
-        "origin_type": "news",
-        "source": "Nikkei Asia",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Former iPhone display plant in Japan to start new life in chip supply chain",
-        "url": "https://asia.nikkei.com/spotlight/supply-chain/former-iphone-display-plant-in-japan-to-start-new-life-in-chip-supply-chain",
-        "published_at": null,
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "nikkei"
-      }
-    ],
-    "title_original": "Former iPhone display plant in Japan to start new life in chip supply chain",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Japan; 中国关联利益=中日关系, 东海, 台海, 半导体设备, 出口管制, 钓鱼岛/尖阁诸岛, 供应链, 汽车; 中国关联实体/项目=Tokyo Electron, Rapidus, Japanese semiconductor controls",
-    "title_en": "Former iPhone display plant in Japan to start new life in chip supply chain",
-    "title_zh": "Former iPhone display plant in Japan to start new life in chip supply chain",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Japan; 中国关联利益=中日关系, 东海, 台海, 半导体设备, 出口管制, 钓鱼岛/尖阁诸岛, 供应链, 汽车; 中国关联实体/项目=Tokyo Electron, Rapidus, Japanese semiconductor controls",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Japan."
-  },
-  {
-    "id": "c9fef3a13fdadd37c68a",
-    "title": "Jordan bombs Syria after deadly church attack",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "escalating",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security"
-    ],
-    "matched_risk_terms": [
-      "arrested"
-    ],
-    "severity": "high",
-    "priority_score": 67,
-    "confidence_score": 58,
-    "importance_score": 73,
-    "china_relevance_score": 58,
-    "novelty_score": 82,
-    "momentum_score": 28,
-    "exposure_score": 95,
-    "freshness_score": 100,
-    "corroboration_score": 40,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-26T13:02:50+00:00",
-    "last_seen": "2026-10-27T05:01:02.608672+00:00",
-    "source_count": 2,
-    "evidence_count": 2,
-    "news_count": 2,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Russia",
-      "Germany"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
-    "why_now_zh": "人员安全信号；正在升级或扩散；已有2条独立信息链；新颖度82 / 动量28。",
-    "why_now_en": "Personnel Security signal; is escalating or spreading; 2 independent source chains; novelty 82 / momentum 28.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.602,
-    "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-26T14:15:56.464923+00:00",
-        "last_seen": "2026-10-26T14:15:54.213226+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 88,
-        "confidence_score": 58,
-        "novelty_score": 100,
-        "momentum_score": 73,
-        "source_count": 2,
-        "evidence_count": 2
-      },
-      {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-27T05:01:02.608672+00:00",
-        "lifecycle": "escalating",
-        "priority_score": 67,
-        "confidence_score": 58,
-        "novelty_score": 82,
-        "momentum_score": 28,
-        "source_count": 2,
-        "evidence_count": 2
-      }
-    ],
-    "evidence": [
-      {
-        "id": "1b2d36902105b5877ac5",
-        "origin_type": "news",
-        "source": "RT",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Jordan bombs Syria after deadly church attack",
-        "url": "https://rt-english.com/news/647771-jordan-bombs-syria-terrorists/",
-        "published_at": null,
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "rt-english.com"
-      },
-      {
-        "id": "128d88550b46ca043b67",
-        "origin_type": "news",
-        "source": "Deutsche Welle",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Jordan: 3 arrested over deadly church attack",
-        "url": "https://www.dw.com/en/jordan-3-arrested-over-deadly-church-attack/a-79760441",
-        "published_at": null,
-        "collected_at": "2026-10-26T14:15:54.213226+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "dw"
-      }
-    ],
-    "title_original": "Jordan bombs Syria after deadly church attack",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
-    "title_en": "Jordan bombs Syria after deadly church attack",
-    "title_zh": "Jordan bombs Syria after deadly church attack",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Russia, Germany."
-  },
-  {
-    "id": "4e3900dcb13e0d5768fe",
-    "title": "根据国内居民出游抽样调查结果，2026年前三季度，国内居民出游人次53.07亿，比上年同期增加3.09亿，同比增长6.2%。",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "调查"
-    ],
-    "severity": "medium",
-    "priority_score": 67,
-    "confidence_score": 39,
-    "importance_score": 43,
-    "china_relevance_score": 100,
-    "novelty_score": 82,
-    "momentum_score": 12,
-    "exposure_score": 89,
-    "freshness_score": 39,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-26T14:15:54.213226+00:00",
-    "last_seen": "2026-10-26T14:15:54.213226+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "China"
-    ],
-    "entities": [],
-    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新颖度82 / 动量12。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; novelty 82 / momentum 12.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
-    "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-26T14:15:56.464923+00:00",
-        "last_seen": "2026-10-26T14:15:54.213226+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 80,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-26T14:15:54.213226+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 67,
-        "confidence_score": 39,
-        "novelty_score": 82,
-        "momentum_score": 12,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "7ce69a3aac1b7a3e8de0",
-        "origin_type": "news",
-        "source": "中国日报中文 China Daily Chinese",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "根据国内居民出游抽样调查结果，2026年前三季度，国内居民出游人次53.07亿，比上年同期增加3.09亿，同比增长6.2%。",
-        "url": "https://cn.chinadaily.com.cn/a/202610/26/WS6adf5228e4b09a165c791a86.html",
-        "published_at": null,
-        "collected_at": "2026-10-26T14:15:54.213226+00:00",
-        "relation": "direct",
-        "confidence": 88,
-        "publisher_family": "chinadaily"
-      }
-    ],
-    "title_original": "根据国内居民出游抽样调查结果，2026年前三季度，国内居民出游人次53.07亿，比上年同期增加3.09亿，同比增长6.2%。",
-    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "title_zh": "根据国内居民出游抽样调查结果，2026年前三季度，国内居民出游人次53.07亿，比上年同期增加3.09亿，同比增长6.2%。",
-    "title_en": "根据国内居民出游抽样调查结果，2026年前三季度，国内居民出游人次53.07亿，比上年同期增加3.09亿，同比增长6.2%。",
-    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: China."
-  },
-  {
-    "id": "8fde6ac2578d46649e70",
-    "title": "France: crowds fill Marseille's Old Port in anti-racism protest",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "劳资社会",
-    "risk_category": "labor_social",
-    "risk_category_en": "Labor & Social Unrest",
-    "risk_categories": [
-      "labor_social"
-    ],
-    "matched_risk_terms": [
-      "protest"
-    ],
-    "severity": "medium",
-    "priority_score": 65,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 72,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T05:01:02.608672+00:00",
-    "last_seen": "2026-10-27T05:01:02.608672+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Africa"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
-    "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-27T05:01:02.608672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 65,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "a80da492cbdfac099189",
-        "origin_type": "news",
-        "source": "Africanews",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "France: crowds fill Marseille's Old Port in anti-racism protest",
-        "url": "https://www.africanews.com/2026/10/26/france-crowds-fill-marseilles-old-port-in-anti-racism-protest/",
-        "published_at": null,
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "africanews.com"
-      }
-    ],
-    "title_original": "France: crowds fill Marseille's Old Port in anti-racism protest",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
-    "title_en": "France: crowds fill Marseille's Old Port in anti-racism protest",
-    "title_zh": "France: crowds fill Marseille's Old Port in anti-racism protest",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Africa."
+    "title_original": "US-Canada tariff deal: Is relief coming for steel and automakers?",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Pakistan; 中国关联利益=中巴经济走廊, 瓜达尔港, 中国公民安全, 电力, 基础设施, 反恐, 印巴关系; 中国关联实体/项目=CPEC, Gwadar Port, Chinese power projects | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei",
+    "title_en": "US-Canada tariff deal: Is relief coming for steel and automakers?",
+    "title_zh": "US-Canada tariff deal: Is relief coming for steel and automakers?",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Pakistan; 中国关联利益=中巴经济走廊, 瓜达尔港, 中国公民安全, 电力, 基础设施, 反恐, 印巴关系; 中国关联实体/项目=CPEC, Gwadar Port, Chinese power projects | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Pakistan."
   }
 ]
