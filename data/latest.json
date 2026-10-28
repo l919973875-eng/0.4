@@ -1,117 +1,33 @@
 [
   {
-    "id": "88c7661ad4b0bac9449c",
-    "title": "Commentator charged with disclosing nat. security probe says unaware investigation was underway",
+    "id": "3e3eadcfde3c7272de88",
+    "title": "Taiwan tracks 15 Chinese ships, 3 military aircraft",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
+    "category": "军事安全",
+    "risk_category": "military_security",
+    "risk_category_en": "Military & Security",
     "risk_categories": [
-      "trade_regulatory"
+      "military_security"
     ],
     "matched_risk_terms": [
-      "investigation",
-      "probe"
+      "military aircraft"
     ],
     "severity": "medium",
-    "priority_score": 79,
-    "confidence_score": 52,
-    "importance_score": 56,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 89,
-    "freshness_score": 92,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T11:22:01+00:00",
-    "last_seen": "2026-10-27T11:22:01+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Hong Kong"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-27T11:22:01+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 79,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "2fdd50cbd76956dff569",
-        "origin_type": "news",
-        "source": "香港自由新闻 HKFP",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Commentator charged with disclosing nat. security probe says unaware investigation was underway",
-        "url": "https://hongkongfp.com/2026/10/27/commentator-charged-with-disclosing-nat-security-probe-says-unaware-investigation-was-underway/",
-        "published_at": "2026-10-27T11:22:01+00:00",
-        "collected_at": "2026-10-27T13:12:40.318626+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "hongkongfp.com"
-      }
-    ],
-    "title_original": "Commentator charged with disclosing nat. security probe says unaware investigation was underway",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Commentator charged with disclosing nat. security probe says unaware investigation was underway",
-    "title_zh": "Commentator charged with disclosing nat. security probe says unaware investigation was underway",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "35fcc098bdbff9846d3a",
-    "title": "台湾大选前 阁揆：政府全力防堵中共跨境镇压",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "台海/印太",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "medium",
-    "priority_score": 76,
+    "priority_score": 81,
     "confidence_score": 39,
-    "importance_score": 50,
+    "importance_score": 52,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
-    "exposure_score": 60,
-    "freshness_score": 87,
+    "exposure_score": 100,
+    "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T10:11:05+00:00",
-    "last_seen": "2026-10-27T10:11:05+00:00",
+    "first_seen": "2026-10-28T05:39:31.763615+00:00",
+    "last_seen": "2026-10-28T05:39:31.763615+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -119,12 +35,12 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "China"
+      "Taiwan"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "台海/印太信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -135,10 +51,10 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-27T10:11:05+00:00",
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-28T05:39:31.763615+00:00",
         "lifecycle": "emerging",
-        "priority_score": 76,
+        "priority_score": 81,
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
@@ -148,292 +64,31 @@
     ],
     "evidence": [
       {
-        "id": "e603579732b5bd22bf1d",
+        "id": "9ca40f28250ce1a8bea9",
         "origin_type": "news",
-        "source": "大纪元 Epoch Times · 大陆",
+        "source": "Taiwan News",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "台湾大选前 阁揆：政府全力防堵中共跨境镇压",
-        "url": "https://www.epochtimes.com/gb/26/10/27/n14877555.htm",
-        "published_at": "2026-10-27T10:11:05+00:00",
-        "collected_at": "2026-10-27T13:12:40.318626+00:00",
+        "title": "Taiwan tracks 15 Chinese ships, 3 military aircraft",
+        "url": "https://www.taiwannews.com.tw/en/news/6465210",
+        "published_at": null,
+        "collected_at": "2026-10-28T05:39:31.763615+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "epochtimes"
+        "publisher_family": "taiwannews.com.tw"
       }
     ],
-    "title_original": "台湾大选前 阁揆：政府全力防堵中共跨境镇压",
+    "title_original": "Taiwan tracks 15 Chinese ships, 3 military aircraft",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "台湾大选前 阁揆：政府全力防堵中共跨境镇压",
-    "title_en": "台湾大选前 阁揆：政府全力防堵中共跨境镇压",
+    "title_en": "Taiwan tracks 15 Chinese ships, 3 military aircraft",
+    "title_zh": "Taiwan tracks 15 Chinese ships, 3 military aircraft",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "5959473d7c711642c61b",
-    "title": "Suspect acquitted of drug lab explosion that killed 3, caused devastation in Rotterdam",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security"
-    ],
-    "matched_risk_terms": [
-      "killed"
-    ],
-    "severity": "high",
-    "priority_score": 75,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 95,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T13:12:40.318626+00:00",
-    "last_seen": "2026-10-27T13:12:40.318626+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Netherlands"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Netherlands; 中国关联利益=半导体设备, 光刻机, 出口管制, 港口物流, 欧盟对华政策; 中国关联实体/项目=ASML, Port of Rotterdam, COSCO",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-27T13:12:40.318626+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 75,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "2e5571da812352d097b3",
-        "origin_type": "news",
-        "source": "NL Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Suspect acquitted of drug lab explosion that killed 3, caused devastation in Rotterdam",
-        "url": "https://nltimes.nl/2026/10/27/suspect-acquitted-drug-lab-explosion-killed-3-caused-devastation-rotterdam",
-        "published_at": null,
-        "collected_at": "2026-10-27T13:12:40.318626+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "nltimes.nl"
-      }
-    ],
-    "title_original": "Suspect acquitted of drug lab explosion that killed 3, caused devastation in Rotterdam",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Netherlands; 中国关联利益=半导体设备, 光刻机, 出口管制, 港口物流, 欧盟对华政策; 中国关联实体/项目=ASML, Port of Rotterdam, COSCO",
-    "title_en": "Suspect acquitted of drug lab explosion that killed 3, caused devastation in Rotterdam",
-    "title_zh": "Suspect acquitted of drug lab explosion that killed 3, caused devastation in Rotterdam",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Netherlands; 中国关联利益=半导体设备, 光刻机, 出口管制, 港口物流, 欧盟对华政策; 中国关联实体/项目=ASML, Port of Rotterdam, COSCO",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Netherlands; China-related interests = semiconductor equipment, lithography machines, export control, port logistics, EU China policy; China-related entities/projects = ASML, Port of Rotterdam, COSCO"
-  },
-  {
-    "id": "d6d2be54676568138630",
-    "title": "Two German Nationals Arrested over Arson Attack on Starlink Antennas near Sofia",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security"
-    ],
-    "matched_risk_terms": [
-      "arrested"
-    ],
-    "severity": "high",
-    "priority_score": 75,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 95,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T13:12:40.318626+00:00",
-    "last_seen": "2026-10-27T13:12:40.318626+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Bulgaria"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Bulgaria; 中国关联利益=中东欧合作, 黑海, 欧盟对华政策, 基础设施; 中国关联实体/项目=Chinese infrastructure investment",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-27T13:12:40.318626+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 75,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "774cd4d8c81803384f74",
-        "origin_type": "news",
-        "source": "BTA",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Two German Nationals Arrested over Arson Attack on Starlink Antennas near Sofia",
-        "url": "https://www.bta.bg/en/news/bulgaria/1233631-two-german-nationals-arrested-over-arson-attack-on-starlink-antennas-near-sofia",
-        "published_at": null,
-        "collected_at": "2026-10-27T13:12:40.318626+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "bta.bg"
-      }
-    ],
-    "title_original": "Two German Nationals Arrested over Arson Attack on Starlink Antennas near Sofia",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Bulgaria; 中国关联利益=中东欧合作, 黑海, 欧盟对华政策, 基础设施; 中国关联实体/项目=Chinese infrastructure investment",
-    "title_en": "Two German Nationals Arrested over Arson Attack on Starlink Antennas near Sofia",
-    "title_zh": "Two German Nationals Arrested over Arson Attack on Starlink Antennas near Sofia",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Bulgaria; 中国关联利益=中东欧合作, 黑海, 欧盟对华政策, 基础设施; 中国关联实体/项目=Chinese infrastructure investment",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Bulgaria; China-related interests = Central and Eastern European cooperation, Black Sea, EU China policy, infrastructure; China-related entities/projects = Chinese infrastructure investment"
-  },
-  {
-    "id": "c7e8c636b586f50484c8",
-    "title": "The DA is mourning the death of its Metsimaholo caucus leader, Michael Thulani Mbana, who was killed in a shooting on Monday night, just a week before local government elections scheduled for 4 November.",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security"
-    ],
-    "matched_risk_terms": [
-      "killed"
-    ],
-    "severity": "high",
-    "priority_score": 75,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 95,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T13:12:40.318626+00:00",
-    "last_seen": "2026-10-27T13:12:40.318626+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "South Africa"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Africa; 中国关联利益=金砖, 矿产, 汽车, 电力, 中非关系; 中国关联实体/项目=Chinese auto and energy investment",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-27T13:12:40.318626+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 75,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "b431af33c977bbfcbd08",
-        "origin_type": "news",
-        "source": "News24",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "The DA is mourning the death of its Metsimaholo caucus leader, Michael Thulani Mbana, who was killed in a shooting on Monday night, just a week before local government elections scheduled for 4 November.",
-        "url": "https://www.news24.com/politics/da-councillor-shot-dead-in-the-free-state-20261027-0684",
-        "published_at": null,
-        "collected_at": "2026-10-27T13:12:40.318626+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "news24.com"
-      }
-    ],
-    "title_original": "The DA is mourning the death of its Metsimaholo caucus leader, Michael Thulani Mbana, who was killed in a shooting on Monday night, just a week before local government elections scheduled for 4 November.",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Africa; 中国关联利益=金砖, 矿产, 汽车, 电力, 中非关系; 中国关联实体/项目=Chinese auto and energy investment",
-    "title_en": "The DA is mourning the death of its Metsimaholo caucus leader, Michael Thulani Mbana, who was killed in a shooting on Monday night, just a week before local government elections scheduled for 4 November.",
-    "title_zh": "The DA is mourning the death of its Metsimaholo caucus leader, Michael Thulani Mbana, who was killed in a shooting on Monday night, just a week before local government elections scheduled for 4 November.",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Africa; 中国关联利益=金砖, 矿产, 汽车, 电力, 中非关系; 中国关联实体/项目=Chinese auto and energy investment",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; incident related region = South Africa; China related interests = BRIC, minerals, automobiles, electricity, China-Africa relations; Chinese related entities/projects = Chinese auto and energy investment"
-  },
-  {
-    "id": "cb3987ac134af2752a52",
-    "title": "TikTok parent company founder tops China's rich list amid AI boom",
+    "id": "7d71ec79c7eaf7479bab",
+    "title": "US bans vehicles from China’s BYD at base in Japan One of the US’ biggest overseas military bases has banned vehicles made by the Chinese electric vehicle maker BYD Co (比亞迪) over security concerns, the US military in Japan said yesterday. The ban, which went into effect this week at Kadena airbase on the southern Japanese island of Okinawa, has fuel",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -443,16 +98,16 @@
     "risk_category_en": "Technology Controls",
     "risk_categories": [
       "tech_controls",
-      "technology_youth"
+      "trade_regulatory"
     ],
     "matched_risk_terms": [
-      "TikTok",
-      "AI"
+      "electric vehicle",
+      "ban"
     ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 52,
-    "importance_score": 44,
+    "severity": "medium",
+    "priority_score": 80,
+    "confidence_score": 39,
+    "importance_score": 52,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
@@ -460,8 +115,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T13:12:40.318626+00:00",
-    "last_seen": "2026-10-27T13:12:40.318626+00:00",
+    "first_seen": "2026-10-28T05:39:31.763615+00:00",
+    "last_seen": "2026-10-28T05:39:31.763615+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -469,7 +124,7 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Europe"
+      "Taiwan"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -485,10 +140,354 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-27T13:12:40.318626+00:00",
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-28T05:39:31.763615+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 80,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "3515a77c3d651cee4115",
+        "origin_type": "news",
+        "source": "Taipei Times",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "US bans vehicles from China’s BYD at base in Japan One of the US’ biggest overseas military bases has banned vehicles made by the Chinese electric vehicle maker BYD Co (比亞迪) over security concerns, the US military in Japan said yesterday. The ban, which went into effect this week at Kadena airbase on the southern Japanese island of Okinawa, has fuel",
+        "url": "https://www.taipeitimes.com/News/front/archives/2026/10/28/2003866737",
+        "published_at": null,
+        "collected_at": "2026-10-28T05:39:31.763615+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "taipeitimes.com"
+      }
+    ],
+    "title_original": "US bans vehicles from China’s BYD at base in Japan One of the US’ biggest overseas military bases has banned vehicles made by the Chinese electric vehicle maker BYD Co (比亞迪) over security concerns, the US military in Japan said yesterday. The ban, which went into effect this week at Kadena airbase on the southern Japanese island of Okinawa, has fuel",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "US bans vehicles from China’s BYD at base in Japan One of the US’ biggest overseas military bases has banned vehicles made by the Chinese electric vehicle maker BYD Co (比亞迪) over security concerns, the US military in Japan said yesterday. The ban, which went into effect this week at Kadena airbase on the southern Japanese island of Okinawa, has fuel",
+    "title_zh": "US bans vehicles from China’s BYD at base in Japan One of the US’ biggest overseas military bases has banned vehicles made by the Chinese electric vehicle maker BYD Co (比亞迪) over security concerns, the US military in Japan said yesterday. The ban, which went into effect this week at Kadena airbase on the southern Japanese island of Okinawa, has fuel",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "9babe2f3f1b43ecc45e0",
+    "title": "Saudi-led coalition intercepts Houthi ballistic missile targeting kingdom’s west",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "军事安全",
+    "risk_category": "military_security",
+    "risk_category_en": "Military & Security",
+    "risk_categories": [
+      "military_security"
+    ],
+    "matched_risk_terms": [
+      "missile"
+    ],
+    "severity": "critical",
+    "priority_score": 80,
+    "confidence_score": 39,
+    "importance_score": 77,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 96,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-28T05:39:31.763615+00:00",
+    "last_seen": "2026-10-28T05:39:31.763615+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Turkey"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-28T05:39:31.763615+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 80,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "394c21484f5134ba97e7",
+        "origin_type": "news",
+        "source": "Anadolu Agency",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Saudi-led coalition intercepts Houthi ballistic missile targeting kingdom’s west",
+        "url": "https://www.aa.com.tr/en/middle-east/saudi-led-coalition-intercepts-houthi-ballistic-missile-targeting-kingdom-s-west/4103243",
+        "published_at": null,
+        "collected_at": "2026-10-28T05:39:31.763615+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "aa.com.tr"
+      }
+    ],
+    "title_original": "Saudi-led coalition intercepts Houthi ballistic missile targeting kingdom’s west",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
+    "title_en": "Saudi-led coalition intercepts Houthi ballistic missile targeting kingdom’s west",
+    "title_zh": "Saudi-led coalition intercepts Houthi ballistic missile targeting kingdom’s west",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Turkey."
+  },
+  {
+    "id": "b1375e76ce63980aad1c",
+    "title": "EU plans massive investment in Australia’s critical minerals to cut dependence on China",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸/科技",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "medium",
+    "priority_score": 77,
+    "confidence_score": 39,
+    "importance_score": 52,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 60,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-28T05:39:31.763615+00:00",
+    "last_seen": "2026-10-28T05:39:31.763615+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "European Union"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "经贸/科技信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-28T05:39:31.763615+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 77,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "45682df8e0b3e57de12f",
+        "origin_type": "news",
+        "source": "EUobserver",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "EU plans massive investment in Australia’s critical minerals to cut dependence on China",
+        "url": "https://euobserver.com/245274/eu-plans-massive-investment-in-australias-critical-minerals-to-cut-dependence-on-china/",
+        "published_at": null,
+        "collected_at": "2026-10-28T05:39:31.763615+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "euobserver.com"
+      }
+    ],
+    "title_original": "EU plans massive investment in Australia’s critical minerals to cut dependence on China",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "EU plans massive investment in Australia’s critical minerals to cut dependence on China",
+    "title_zh": "EU plans massive investment in Australia’s critical minerals to cut dependence on China",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "988e875d2306cbf1e77e",
+    "title": "Minority seeks independent audit of South Africa evacuation...",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security"
+    ],
+    "matched_risk_terms": [
+      "evacuation"
+    ],
+    "severity": "high",
+    "priority_score": 74,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 95,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-28T05:39:31.763615+00:00",
+    "last_seen": "2026-10-28T05:39:31.763615+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Ghana"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Ghana; 中国关联利益=矿业, 基础设施, 电力, 中国企业; 中国关联实体/项目=Chinese mining activity | 事件关联地区=South Africa; 中国关联利益=金砖, 矿产, 汽车, 电力, 中非关系; 中国关联实体/项目=Chinese auto and energy investment",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-28T05:39:31.763615+00:00",
         "lifecycle": "emerging",
         "priority_score": 74,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "cd9145e5a0c8e7145160",
+        "origin_type": "news",
+        "source": "Graphic Online",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Minority seeks independent audit of South Africa evacuation...",
+        "url": "https://www.graphic.com.gh/news/general-news/minority-seeks-independent-audit-of-south-africa-evacuation-payments-calls-for-ablakwas-resignation.html",
+        "published_at": null,
+        "collected_at": "2026-10-28T05:39:31.763615+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "graphic.com.gh"
+      }
+    ],
+    "title_original": "Minority seeks independent audit of South Africa evacuation...",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Ghana; 中国关联利益=矿业, 基础设施, 电力, 中国企业; 中国关联实体/项目=Chinese mining activity | 事件关联地区=South Africa; 中国关联利益=金砖, 矿产, 汽车, 电力, 中非关系; 中国关联实体/项目=Chinese auto and energy investment",
+    "title_en": "Minority seeks independent audit of South Africa evacuation...",
+    "title_zh": "Minority seeks independent audit of South Africa evacuation...",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Ghana; 中国关联利益=矿业, 基础设施, 电力, 中国企业; 中国关联实体/项目=Chinese mining activity | 事件关联地区=South Africa; 中国关联利益=金砖, 矿产, 汽车, 电力, 中非关系; 中国关联实体/项目=Chinese auto and energy investment",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Ghana."
+  },
+  {
+    "id": "9dcd3d77ce27aa9fdb82",
+    "title": "日本将对中国产不锈钢板征收五年反倾销税",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "反倾销"
+    ],
+    "severity": "low",
+    "priority_score": 73,
+    "confidence_score": 52,
+    "importance_score": 44,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 89,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-28T05:39:31.763615+00:00",
+    "last_seen": "2026-10-28T05:39:31.763615+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Singapore"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-28T05:39:31.763615+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
         "confidence_score": 52,
         "novelty_score": 100,
         "momentum_score": 55,
@@ -498,31 +497,31 @@
     ],
     "evidence": [
       {
-        "id": "dbead941917f2d4eed4a",
+        "id": "21468d120eda50e30da2",
         "origin_type": "news",
-        "source": "Euronews",
+        "source": "联合早报 Lianhe Zaobao · 中国",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "TikTok parent company founder tops China's rich list amid AI boom",
-        "url": "https://www.euronews.com/2026/10/27/tiktok-parent-company-founder-tops-chinas-rich-list-amid-ai-boom",
+        "title": "日本将对中国产不锈钢板征收五年反倾销税",
+        "url": "https://www.zaobao.com.sg/news/china/story20261028-9907116",
         "published_at": null,
-        "collected_at": "2026-10-27T13:12:40.318626+00:00",
+        "collected_at": "2026-10-28T05:39:31.763615+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "euronews.com"
+        "publisher_family": "zaobao"
       }
     ],
-    "title_original": "TikTok parent company founder tops China's rich list amid AI boom",
+    "title_original": "日本将对中国产不锈钢板征收五年反倾销税",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "TikTok parent company founder tops China's rich list amid AI boom",
-    "title_zh": "TikTok parent company founder tops China's rich list amid AI boom",
+    "title_zh": "日本将对中国产不锈钢板征收五年反倾销税",
+    "title_en": "日本将对中国产不锈钢板征收五年反倾销税",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "5c334b8eb77d1e39c55a",
-    "title": "Iran raises gas capacity to 300 bcm despite sanctions – president 17:07 (UTC+04) Iran",
+    "id": "9b1bc63efa038cebb5cf",
+    "title": "Pezeshkian calls for stronger gas cooperation, condemns US sanctions and military aggression",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -547,8 +546,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T13:12:40.318626+00:00",
-    "last_seen": "2026-10-27T13:12:40.318626+00:00",
+    "first_seen": "2026-10-28T05:39:31.763615+00:00",
+    "last_seen": "2026-10-28T05:39:31.763615+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -556,10 +555,10 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Azerbaijan"
+      "Iran"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Azerbaijan; 中国关联利益=能源, 中间走廊, 里海物流, 中亚联通; 中国关联实体/项目=Middle Corridor | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
     "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
     "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
@@ -572,8 +571,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-27T13:12:40.318626+00:00",
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-28T05:39:31.763615+00:00",
         "lifecycle": "emerging",
         "priority_score": 73,
         "confidence_score": 39,
@@ -585,53 +584,227 @@
     ],
     "evidence": [
       {
-        "id": "c769fe33f2b5a5da3956",
+        "id": "12736205f376ba797df6",
         "origin_type": "news",
-        "source": "Trend News Agency",
+        "source": "Tehran Times",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Iran raises gas capacity to 300 bcm despite sanctions – president 17:07 (UTC+04) Iran",
-        "url": "https://www.trend.az/iran/4239798.html",
+        "title": "Pezeshkian calls for stronger gas cooperation, condemns US sanctions and military aggression",
+        "url": "https://www.tehrantimes.com/news/531582/Pezeshkian-calls-for-stronger-gas-cooperation-condemns-US-sanctions",
         "published_at": null,
-        "collected_at": "2026-10-27T13:12:40.318626+00:00",
+        "collected_at": "2026-10-28T05:39:31.763615+00:00",
         "relation": "potential",
         "confidence": 62,
-        "publisher_family": "trend.az"
+        "publisher_family": "tehrantimes.com"
       }
     ],
-    "title_original": "Iran raises gas capacity to 300 bcm despite sanctions – president 17:07 (UTC+04) Iran",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Azerbaijan; 中国关联利益=能源, 中间走廊, 里海物流, 中亚联通; 中国关联实体/项目=Middle Corridor | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
-    "title_en": "Iran raises gas capacity to 300 bcm despite sanctions – president 17:07 (UTC+04) Iran",
-    "title_zh": "Iran raises gas capacity to 300 bcm despite sanctions – president 17:07 (UTC+04) Iran",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Azerbaijan; 中国关联利益=能源, 中间走廊, 里海物流, 中亚联通; 中国关联实体/项目=Middle Corridor | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Azerbaijan."
+    "title_original": "Pezeshkian calls for stronger gas cooperation, condemns US sanctions and military aggression",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
+    "title_en": "Pezeshkian calls for stronger gas cooperation, condemns US sanctions and military aggression",
+    "title_zh": "Pezeshkian calls for stronger gas cooperation, condemns US sanctions and military aggression",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Iran."
   },
   {
-    "id": "5c2344904899a449ef87",
-    "title": "当地时间10月26日，中国常驻联合国代表傅聪在安理会儿童与武装冲突问题公开会上发言。",
+    "id": "e5749d209135dbcede34",
+    "title": "特朗普考虑解除对普京“小金库”的制裁",
     "language": "zh",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "安全/冲突",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "制裁"
+    ],
+    "severity": "high",
+    "priority_score": 73,
+    "confidence_score": 52,
+    "importance_score": 69,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 84,
+    "freshness_score": 96,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-28T04:37:29+00:00",
+    "last_seen": "2026-10-28T04:37:29+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "United States"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-28T04:37:29+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "f5324c3cc8bed04ae490",
+        "origin_type": "news",
+        "source": "纽约时报中文网 NYT Chinese",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "特朗普考虑解除对普京“小金库”的制裁",
+        "url": "https://cn.nytimes.com/usa/20261028/russia-fund-sanctions-trump/?utm_source=RSS",
+        "published_at": "2026-10-28T04:37:29+00:00",
+        "collected_at": "2026-10-28T05:39:31.763615+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "nyt"
+      }
+    ],
+    "title_original": "特朗普考虑解除对普京“小金库”的制裁",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN",
+    "title_zh": "特朗普考虑解除对普京“小金库”的制裁",
+    "title_en": "特朗普考虑解除对普京“小金库”的制裁",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: United States."
+  },
+  {
+    "id": "cf16efe516e785fed5e9",
+    "title": "Grand jury won't indict Cassidy Hutchinson over Jan. 6 testimony Federal prosecutors in Washington, D.C., failed to secure an indictment against Cassidy Hutchinson over her testimony about the Jan. 6, 2021, Capitol riot.",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "劳资社会",
+    "risk_category": "labor_social",
+    "risk_category_en": "Labor & Social Unrest",
+    "risk_categories": [
+      "labor_social"
+    ],
+    "matched_risk_terms": [
+      "riot"
+    ],
+    "severity": "high",
+    "priority_score": 72,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 72,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-28T05:39:31.763615+00:00",
+    "last_seen": "2026-10-28T05:39:31.763615+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "United States"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
+    "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-28T05:39:31.763615+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 72,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "5424e7318a12faccea3f",
+        "origin_type": "news",
+        "source": "CBS News",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Grand jury won't indict Cassidy Hutchinson over Jan. 6 testimony Federal prosecutors in Washington, D.C., failed to secure an indictment against Cassidy Hutchinson over her testimony about the Jan. 6, 2021, Capitol riot.",
+        "url": "https://www.cbsnews.com/news/grand-jury-declines-to-indict-trump-critic-cassidy-hutchinson-over-jan-6-testimony/",
+        "published_at": null,
+        "collected_at": "2026-10-28T05:39:31.763615+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "cbsnews.com"
+      }
+    ],
+    "title_original": "Grand jury won't indict Cassidy Hutchinson over Jan. 6 testimony Federal prosecutors in Washington, D.C., failed to secure an indictment against Cassidy Hutchinson over her testimony about the Jan. 6, 2021, Capitol riot.",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
+    "title_en": "Grand jury won't indict Cassidy Hutchinson over Jan. 6 testimony Federal prosecutors in Washington, D.C., failed to secure an indictment against Cassidy Hutchinson over her testimony about the Jan. 6, 2021, Capitol riot.",
+    "title_zh": "Grand jury won't indict Cassidy Hutchinson over Jan. 6 testimony Federal prosecutors in Washington, D.C., failed to secure an indictment against Cassidy Hutchinson over her testimony about the Jan. 6, 2021, Capitol riot.",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related region = United States; China-related interests = Sino-US relations, trade and tariffs, technology and export controls, semiconductors, artificial intelligence, financial sanctions, military and Indo-Pacific, Taiwan Strait; China-related entities/projects = Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile"
+  },
+  {
+    "id": "179d6921f3693f7855a3",
+    "title": "分析：中共为何升级姆巴佩涉毛事件？",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "其他",
     "risk_category": "other",
     "risk_category_en": "",
     "risk_categories": [],
     "matched_risk_terms": [],
-    "severity": "high",
-    "priority_score": 72,
+    "severity": "low",
+    "priority_score": 71,
     "confidence_score": 39,
-    "importance_score": 60,
+    "importance_score": 38,
     "china_relevance_score": 100,
-    "novelty_score": 82,
-    "momentum_score": 12,
+    "novelty_score": 100,
+    "momentum_score": 65,
     "exposure_score": 60,
-    "freshness_score": 66,
+    "freshness_score": 85,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T05:01:02.608672+00:00",
-    "last_seen": "2026-10-27T05:01:02.608672+00:00",
+    "first_seen": "2026-10-28T02:06:00+00:00",
+    "last_seen": "2026-10-28T02:06:00+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -643,79 +816,144 @@
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新颖度82 / 动量12。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; novelty 82 / momentum 12.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
+    "why_now_zh": "其他信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
     "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
+      "new_sources": 1,
+      "new_evidence": 1,
       "severity_change": 0,
       "official_added": false
     },
     "history": [
       {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-27T05:01:02.608672+00:00",
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-28T02:06:00+00:00",
         "lifecycle": "emerging",
-        "priority_score": 83,
+        "priority_score": 71,
         "confidence_score": 39,
         "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-10-27T09:51:13.349649+00:00",
-        "last_seen": "2026-10-27T05:01:02.608672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 75,
-        "confidence_score": 39,
-        "novelty_score": 95,
-        "momentum_score": 12,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-27T05:01:02.608672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 72,
-        "confidence_score": 39,
-        "novelty_score": 82,
-        "momentum_score": 12,
+        "momentum_score": 65,
         "source_count": 1,
         "evidence_count": 1
       }
     ],
     "evidence": [
       {
-        "id": "2d5793f21a683e08bde2",
+        "id": "611e3422afdcae8e9d78",
         "origin_type": "news",
-        "source": "中国日报中文 China Daily Chinese",
+        "source": "大纪元 Epoch Times · 大陆",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "当地时间10月26日，中国常驻联合国代表傅聪在安理会儿童与武装冲突问题公开会上发言。",
-        "url": "https://cn.chinadaily.com.cn/a/202610/27/WS6adfcd90e4b09a165c791a8c.html",
-        "published_at": null,
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
+        "title": "分析：中共为何升级姆巴佩涉毛事件？",
+        "url": "https://www.epochtimes.com/gb/26/10/27/n14877932.htm",
+        "published_at": "2026-10-28T02:06:00+00:00",
+        "collected_at": "2026-10-28T05:39:31.763615+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "chinadaily"
+        "publisher_family": "epochtimes"
       }
     ],
-    "title_original": "当地时间10月26日，中国常驻联合国代表傅聪在安理会儿童与武装冲突问题公开会上发言。",
+    "title_original": "分析：中共为何升级姆巴佩涉毛事件？",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "当地时间10月26日，中国常驻联合国代表傅聪在安理会儿童与武装冲突问题公开会上发言。",
-    "title_en": "当地时间10月26日，中国常驻联合国代表傅聪在安理会儿童与武装冲突问题公开会上发言。",
+    "title_zh": "分析：中共为何升级姆巴佩涉毛事件？",
+    "title_en": "分析：中共为何升级姆巴佩涉毛事件？",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "98e82a96641a81952d7c",
-    "title": "Mbappé pidió disculpas por llamar dictador a Mao Zedong: China suspendió LaLiga y podría provocar pérdidas millonarias",
-    "language": "es",
+    "id": "5109229ad7d7e4413e28",
+    "title": "华人女工程师相信AI医嘱致死 父母告OpenAI",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技与青年",
+    "risk_category": "technology_youth",
+    "risk_category_en": "Technology & Youth",
+    "risk_categories": [
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "AI"
+    ],
+    "severity": "low",
+    "priority_score": 71,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 67,
+    "freshness_score": 99,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-28T05:26:20+00:00",
+    "last_seen": "2026-10-28T05:26:20+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Global"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-28T05:26:20+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 71,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "a45148d597b363445b64",
+        "origin_type": "news",
+        "source": "大纪元 Epoch Times · 即时",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "华人女工程师相信AI医嘱致死 父母告OpenAI",
+        "url": "https://feed.epochtimes.com/gb/26/10/28/n14878104.htm",
+        "published_at": "2026-10-28T05:26:20+00:00",
+        "collected_at": "2026-10-28T05:39:31.763615+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "epochtimes"
+      }
+    ],
+    "title_original": "华人女工程师相信AI医嘱致死 父母告OpenAI",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "华人女工程师相信AI医嘱致死 父母告OpenAI",
+    "title_en": "华人女工程师相信AI医嘱致死 父母告OpenAI",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "c490b8498c95ad2bae49",
+    "title": "Mbappe apologises for Mao Zedong comment after Chinese sponsors drop him",
+    "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
@@ -735,8 +973,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T13:12:40.318626+00:00",
-    "last_seen": "2026-10-27T13:12:40.318626+00:00",
+    "first_seen": "2026-10-28T05:39:31.763615+00:00",
+    "last_seen": "2026-10-28T05:39:31.763615+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -744,7 +982,7 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Argentina"
+      "Africa"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -760,8 +998,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-27T13:12:40.318626+00:00",
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-28T05:39:31.763615+00:00",
         "lifecycle": "emerging",
         "priority_score": 70,
         "confidence_score": 39,
@@ -773,32 +1011,32 @@
     ],
     "evidence": [
       {
-        "id": "c40ac5ecffee1f711d48",
+        "id": "4b2cd42243f7ef0998fb",
         "origin_type": "news",
-        "source": "Clarín",
+        "source": "Africanews",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Mbappé pidió disculpas por llamar dictador a Mao Zedong: China suspendió LaLiga y podría provocar pérdidas millonarias",
-        "url": "https://www.clarin.com/deportes/mbappe-pidio-disculpas-llamar-dictador-mao-zedong-china-suspendio-laliga-podria-provocar-perdidas-millonarias_0_A5ylLdce90.html",
+        "title": "Mbappe apologises for Mao Zedong comment after Chinese sponsors drop him",
+        "url": "https://www.africanews.com/2026/10/27/mbappe-apologises-for-mao-zedong-comment-after-chinese-sponsors-drop-him/",
         "published_at": null,
-        "collected_at": "2026-10-27T13:12:40.318626+00:00",
+        "collected_at": "2026-10-28T05:39:31.763615+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "clarin.com"
+        "publisher_family": "africanews.com"
       }
     ],
-    "title_original": "Mbappé pidió disculpas por llamar dictador a Mao Zedong: China suspendió LaLiga y podría provocar pérdidas millonarias",
+    "title_original": "Mbappe apologises for Mao Zedong comment after Chinese sponsors drop him",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Mbappé pidió disculpas por llamar dictador a Mao Zedong: China suspendió LaLiga y podría provocar pérdidas millonarias",
-    "title_zh": "Mbappé pidió disculpas por llamar dictador a Mao Zedong: China suspendió LaLiga y podría provocar pérdidas millonarias",
+    "title_en": "Mbappe apologises for Mao Zedong comment after Chinese sponsors drop him",
+    "title_zh": "Mbappe apologises for Mao Zedong comment after Chinese sponsors drop him",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "129e3a6abbf488af2bd5",
-    "title": "地方人事调整频密 中共 “70后”升迁牵动二十一大布局",
-    "language": "zh",
+    "id": "b498673ebb78d1dbca15",
+    "title": "From Zero-Sum Competition to Constructive Strategic Stability: Rethinking U.S.-China Relations",
+    "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
@@ -809,8 +1047,8 @@
     "matched_risk_terms": [],
     "severity": "low",
     "priority_score": 70,
-    "confidence_score": 52,
-    "importance_score": 44,
+    "confidence_score": 39,
+    "importance_score": 40,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
@@ -818,8 +1056,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T13:12:40.318626+00:00",
-    "last_seen": "2026-10-27T13:12:40.318626+00:00",
+    "first_seen": "2026-10-28T05:39:31.763615+00:00",
+    "last_seen": "2026-10-28T05:39:31.763615+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -827,7 +1065,7 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Singapore"
+      "United States"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -843,11 +1081,11 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-27T13:12:40.318626+00:00",
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-28T05:39:31.763615+00:00",
         "lifecycle": "emerging",
         "priority_score": 70,
-        "confidence_score": 52,
+        "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
         "source_count": 1,
@@ -856,179 +1094,59 @@
     ],
     "evidence": [
       {
-        "id": "54f57eca41c4d548e0c7",
+        "id": "9923eeb0a2b754b2457c",
         "origin_type": "news",
-        "source": "联合早报 Lianhe Zaobao · 中国",
+        "source": "War on the Rocks",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "地方人事调整频密 中共 “70后”升迁牵动二十一大布局",
-        "url": "https://www.zaobao.com.sg/news/china/story20261027-9901161",
+        "title": "From Zero-Sum Competition to Constructive Strategic Stability: Rethinking U.S.-China Relations",
+        "url": "https://warontherocks.com/episode/the-insider/48271/from-zero-sum-competition-to-constructive-strategic-stability-rethinking-u-s-china-relations/",
         "published_at": null,
-        "collected_at": "2026-10-27T13:12:40.318626+00:00",
+        "collected_at": "2026-10-28T05:39:31.763615+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "zaobao"
+        "publisher_family": "warontherocks.com"
       }
     ],
-    "title_original": "地方人事调整频密 中共 “70后”升迁牵动二十一大布局",
+    "title_original": "From Zero-Sum Competition to Constructive Strategic Stability: Rethinking U.S.-China Relations",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "地方人事调整频密 中共 “70后”升迁牵动二十一大布局",
-    "title_en": "地方人事调整频密 中共 “70后”升迁牵动二十一大布局",
+    "title_en": "From Zero-Sum Competition to Constructive Strategic Stability: Rethinking U.S.-China Relations",
+    "title_zh": "From Zero-Sum Competition to Constructive Strategic Stability: Rethinking U.S.-China Relations",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "b6f8ab4e081c225618ea",
-    "title": "‘Still Just a Child’: The Russian Teenagers Fighting and Dying in Ukraine Feature A growing number of Russian soldiers who were still schoolchildren when the full-scale invasion of Ukraine began are being killed in the war. 5 Min read",
+    "id": "522044a25d32ef3aab8a",
+    "title": "MMEA To Probe Fatal Boat Collision Off Perlis",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
-    "lifecycle": "escalating",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security"
-    ],
-    "matched_risk_terms": [
-      "killed"
-    ],
-    "severity": "critical",
-    "priority_score": 69,
-    "confidence_score": 39,
-    "importance_score": 63,
-    "china_relevance_score": 58,
-    "novelty_score": 82,
-    "momentum_score": 28,
-    "exposure_score": 95,
-    "freshness_score": 4,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-26T14:15:54.213226+00:00",
-    "last_seen": "2026-10-26T14:15:54.213226+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Russia"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
-    "why_now_zh": "人员安全信号；正在升级或扩散；新颖度82 / 动量28。",
-    "why_now_en": "Personnel Security signal; is escalating or spreading; novelty 82 / momentum 28.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
-    "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-26T14:15:56.464923+00:00",
-        "last_seen": "2026-10-26T14:15:54.213226+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 82,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-26T14:15:54.213226+00:00",
-        "lifecycle": "escalating",
-        "priority_score": 70,
-        "confidence_score": 39,
-        "novelty_score": 82,
-        "momentum_score": 28,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-10-27T09:51:13.349649+00:00",
-        "last_seen": "2026-10-26T14:15:54.213226+00:00",
-        "lifecycle": "escalating",
-        "priority_score": 69,
-        "confidence_score": 39,
-        "novelty_score": 82,
-        "momentum_score": 28,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-26T14:15:54.213226+00:00",
-        "lifecycle": "escalating",
-        "priority_score": 69,
-        "confidence_score": 39,
-        "novelty_score": 82,
-        "momentum_score": 28,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "eb39055a7bc2a8a2869a",
-        "origin_type": "news",
-        "source": "The Moscow Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "‘Still Just a Child’: The Russian Teenagers Fighting and Dying in Ukraine Feature A growing number of Russian soldiers who were still schoolchildren when the full-scale invasion of Ukraine began are being killed in the war. 5 Min read",
-        "url": "https://www.themoscowtimes.com/2026/10/26/still-just-a-child-the-russian-teenagers-fighting-and-dying-in-ukraine-a94045",
-        "published_at": null,
-        "collected_at": "2026-10-26T14:15:54.213226+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "themoscowtimes.com"
-      }
-    ],
-    "title_original": "‘Still Just a Child’: The Russian Teenagers Fighting and Dying in Ukraine Feature A growing number of Russian soldiers who were still schoolchildren when the full-scale invasion of Ukraine began are being killed in the war. 5 Min read",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
-    "title_en": "‘Still Just a Child’: The Russian Teenagers Fighting and Dying in Ukraine Feature A growing number of Russian soldiers who were still schoolchildren when the full-scale invasion of Ukraine began are being killed in the war. 5 Min read",
-    "title_zh": "‘Still Just a Child’: The Russian Teenagers Fighting and Dying in Ukraine Feature A growing number of Russian soldiers who were still schoolchildren when the full-scale invasion of Ukraine began are being killed in the war. 5 Min read",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Russia."
-  },
-  {
-    "id": "636f939e433b55d52615",
-    "title": "Kyiv's Kyoto Park hit in Russian missile attack, 1 killed",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "escalating",
+    "lifecycle": "emerging",
     "category": "军事安全",
     "risk_category": "military_security",
     "risk_category_en": "Military & Security",
     "risk_categories": [
       "military_security",
-      "personnel_security"
+      "trade_regulatory"
     ],
     "matched_risk_terms": [
-      "missile",
-      "killed"
+      "collision",
+      "probe"
     ],
-    "severity": "high",
+    "severity": "medium",
     "priority_score": 68,
     "confidence_score": 39,
-    "importance_score": 63,
+    "importance_score": 52,
     "china_relevance_score": 58,
-    "novelty_score": 95,
-    "momentum_score": 28,
+    "novelty_score": 100,
+    "momentum_score": 55,
     "exposure_score": 96,
-    "freshness_score": 86,
+    "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T09:51:11.643676+00:00",
-    "last_seen": "2026-10-27T09:51:11.643676+00:00",
+    "first_seen": "2026-10-28T05:39:31.763615+00:00",
+    "last_seen": "2026-10-28T05:39:31.763615+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1036,71 +1154,60 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Japan"
+      "Malaysia"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Japan; 中国关联利益=中日关系, 东海, 台海, 半导体设备, 出口管制, 钓鱼岛/尖阁诸岛, 供应链, 汽车; 中国关联实体/项目=Tokyo Electron, Rapidus, Japanese semiconductor controls",
-    "why_now_zh": "军事安全信号；正在升级或扩散；新颖度95 / 动量28。",
-    "why_now_en": "Military & Security signal; is escalating or spreading; novelty 95 / momentum 28.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Malaysia; 中国关联利益=南海, 半导体供应链, 东海岸铁路, 港口, 棕榈油, 东盟; 中国关联实体/项目=East Coast Rail Link, China Communications Construction Company",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
     "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
+      "new_sources": 1,
+      "new_evidence": 1,
       "severity_change": 0,
       "official_added": false
     },
     "history": [
       {
-        "observed_at": "2026-10-27T09:51:13.349649+00:00",
-        "last_seen": "2026-10-27T09:51:11.643676+00:00",
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-28T05:39:31.763615+00:00",
         "lifecycle": "emerging",
-        "priority_score": 76,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-27T09:51:11.643676+00:00",
-        "lifecycle": "escalating",
         "priority_score": 68,
         "confidence_score": 39,
-        "novelty_score": 95,
-        "momentum_score": 28,
+        "novelty_score": 100,
+        "momentum_score": 55,
         "source_count": 1,
         "evidence_count": 1
       }
     ],
     "evidence": [
       {
-        "id": "8afeb8b47d3bb8f2d8ab",
+        "id": "fad1dafb73ea524ce410",
         "origin_type": "news",
-        "source": "Kyodo News",
+        "source": "Bernama",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Kyiv's Kyoto Park hit in Russian missile attack, 1 killed",
-        "url": "https://english.kyodonews.net/articles/-/89538",
+        "title": "MMEA To Probe Fatal Boat Collision Off Perlis",
+        "url": "https://www.bernama.com/en/news.php?id=2626618",
         "published_at": null,
-        "collected_at": "2026-10-27T09:51:11.643676+00:00",
+        "collected_at": "2026-10-28T05:39:31.763615+00:00",
         "relation": "potential",
         "confidence": 62,
-        "publisher_family": "english.kyodonews.net"
+        "publisher_family": "bernama.com"
       }
     ],
-    "title_original": "Kyiv's Kyoto Park hit in Russian missile attack, 1 killed",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Japan; 中国关联利益=中日关系, 东海, 台海, 半导体设备, 出口管制, 钓鱼岛/尖阁诸岛, 供应链, 汽车; 中国关联实体/项目=Tokyo Electron, Rapidus, Japanese semiconductor controls",
-    "title_en": "Kyiv's Kyoto Park hit in Russian missile attack, 1 killed",
-    "title_zh": "Kyiv's Kyoto Park hit in Russian missile attack, 1 killed",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Japan; 中国关联利益=中日关系, 东海, 台海, 半导体设备, 出口管制, 钓鱼岛/尖阁诸岛, 供应链, 汽车; 中国关联实体/项目=Tokyo Electron, Rapidus, Japanese semiconductor controls",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Japan."
+    "title_original": "MMEA To Probe Fatal Boat Collision Off Perlis",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Malaysia; 中国关联利益=南海, 半导体供应链, 东海岸铁路, 港口, 棕榈油, 东盟; 中国关联实体/项目=East Coast Rail Link, China Communications Construction Company",
+    "title_en": "MMEA To Probe Fatal Boat Collision Off Perlis",
+    "title_zh": "MMEA To Probe Fatal Boat Collision Off Perlis",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Malaysia; 中国关联利益=南海, 半导体供应链, 东海岸铁路, 港口, 棕榈油, 东盟; 中国关联实体/项目=East Coast Rail Link, China Communications Construction Company",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Malaysia."
   },
   {
-    "id": "84218c5ac11cb6d74504",
-    "title": "Bishnoi moved to isolated Sabarmati jail block amid Tiger Shroff case probe",
+    "id": "bae0d16a8b6e9857d1e6",
+    "title": "Jordan, Syria agree to joint probe into deadly airstrikes",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -1125,8 +1232,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T13:12:40.318626+00:00",
-    "last_seen": "2026-10-27T13:12:40.318626+00:00",
+    "first_seen": "2026-10-28T05:39:31.763615+00:00",
+    "last_seen": "2026-10-28T05:39:31.763615+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1134,10 +1241,10 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "India"
+      "Turkey"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
     "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
     "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
@@ -1150,8 +1257,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-27T13:12:40.318626+00:00",
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-28T05:39:31.763615+00:00",
         "lifecycle": "emerging",
         "priority_score": 67,
         "confidence_score": 39,
@@ -1163,392 +1270,31 @@
     ],
     "evidence": [
       {
-        "id": "f0e2c79170d286c6e9c2",
+        "id": "a2d681a4064e2a138bab",
         "origin_type": "news",
-        "source": "WION",
+        "source": "Anadolu Agency",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Bishnoi moved to isolated Sabarmati jail block amid Tiger Shroff case probe",
-        "url": "https://www.wionews.com/india-news/lawrence-bishnoi-moved-to-isolated-sabarmati-jail-block-amid-tiger-shroff-case-probe-1793091808007",
+        "title": "Jordan, Syria agree to joint probe into deadly airstrikes",
+        "url": "https://www.aa.com.tr/en/middle-east/jordan-syria-agree-to-joint-probe-into-deadly-airstrikes/4103247",
         "published_at": null,
-        "collected_at": "2026-10-27T13:12:40.318626+00:00",
+        "collected_at": "2026-10-28T05:39:31.763615+00:00",
         "relation": "potential",
         "confidence": 62,
-        "publisher_family": "wionews.com"
+        "publisher_family": "aa.com.tr"
       }
     ],
-    "title_original": "Bishnoi moved to isolated Sabarmati jail block amid Tiger Shroff case probe",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
-    "title_en": "Bishnoi moved to isolated Sabarmati jail block amid Tiger Shroff case probe",
-    "title_zh": "Bishnoi moved to isolated Sabarmati jail block amid Tiger Shroff case probe",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: India."
+    "title_original": "Jordan, Syria agree to joint probe into deadly airstrikes",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
+    "title_en": "Jordan, Syria agree to joint probe into deadly airstrikes",
+    "title_zh": "Jordan, Syria agree to joint probe into deadly airstrikes",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Turkey."
   },
   {
-    "id": "8a5b01abc52011c8b854",
-    "title": "Shohoz under railway scrutiny over ticket scams",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "海外项目",
-    "risk_category": "overseas_projects",
-    "risk_category_en": "Overseas Projects",
-    "risk_categories": [
-      "overseas_projects"
-    ],
-    "matched_risk_terms": [
-      "railway"
-    ],
-    "severity": "medium",
-    "priority_score": 67,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 88,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T13:12:40.318626+00:00",
-    "last_seen": "2026-10-27T13:12:40.318626+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Bangladesh"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Bangladesh; 中国关联利益=基础设施, 港口, 电力, 服装供应链, 一带一路, 印度洋; 中国关联实体/项目=Padma-related Chinese contractors, Payra infrastructure",
-    "why_now_zh": "海外项目信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Overseas Projects signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-27T13:12:40.318626+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 67,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "a706b426ac3ae06a78e1",
-        "origin_type": "news",
-        "source": "The Daily Star",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Shohoz under railway scrutiny over ticket scams",
-        "url": "https://www.thedailystar.net/news/bangladesh/news/shohoz-under-railway-scrutiny-over-ticket-scams-4306071",
-        "published_at": null,
-        "collected_at": "2026-10-27T13:12:40.318626+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "thedailystar.net"
-      }
-    ],
-    "title_original": "Shohoz under railway scrutiny over ticket scams",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Bangladesh; 中国关联利益=基础设施, 港口, 电力, 服装供应链, 一带一路, 印度洋; 中国关联实体/项目=Padma-related Chinese contractors, Payra infrastructure",
-    "title_en": "Shohoz under railway scrutiny over ticket scams",
-    "title_zh": "Shohoz under railway scrutiny over ticket scams",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Bangladesh; 中国关联利益=基础设施, 港口, 电力, 服装供应链, 一带一路, 印度洋; 中国关联实体/项目=Padma-related Chinese contractors, Payra infrastructure",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Bangladesh."
-  },
-  {
-    "id": "54de222426c6e41cbc42",
-    "title": "Singapore, Indonesia setting up joint task force to probe firms linked to forest fires; hotlines to manage differences",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "probe"
-    ],
-    "severity": "medium",
-    "priority_score": 67,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 84,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T13:12:40.318626+00:00",
-    "last_seen": "2026-10-27T13:12:40.318626+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Singapore"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Singapore; 中国关联利益=金融, 航运, 东盟, 中美竞争, 科技与数据, 中国企业海外总部; 中国关联实体/项目=Chinese tech regional headquarters, Singapore port | 事件关联地区=Indonesia; 中国关联利益=镍矿, 雅万高铁, 电池, 电动汽车, 南海周边, 矿业, 东盟; 中国关联实体/项目=Jakarta-Bandung High-Speed Railway, Tsingshan, CATL Indonesia",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-27T13:12:40.318626+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 67,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "2da8eb5fae7cd819dbfa",
-        "origin_type": "news",
-        "source": "Channel NewsAsia",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Singapore, Indonesia setting up joint task force to probe firms linked to forest fires; hotlines to manage differences",
-        "url": "https://www.channelnewsasia.com/singapore/singapore-indonesia-haze-taskforce-hotline-6495736",
-        "published_at": null,
-        "collected_at": "2026-10-27T13:12:40.318626+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "channelnewsasia.com"
-      }
-    ],
-    "title_original": "Singapore, Indonesia setting up joint task force to probe firms linked to forest fires; hotlines to manage differences",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Singapore; 中国关联利益=金融, 航运, 东盟, 中美竞争, 科技与数据, 中国企业海外总部; 中国关联实体/项目=Chinese tech regional headquarters, Singapore port | 事件关联地区=Indonesia; 中国关联利益=镍矿, 雅万高铁, 电池, 电动汽车, 南海周边, 矿业, 东盟; 中国关联实体/项目=Jakarta-Bandung High-Speed Railway, Tsingshan, CATL Indonesia",
-    "title_en": "Singapore, Indonesia setting up joint task force to probe firms linked to forest fires; hotlines to manage differences",
-    "title_zh": "Singapore, Indonesia setting up joint task force to probe firms linked to forest fires; hotlines to manage differences",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Singapore; 中国关联利益=金融, 航运, 东盟, 中美竞争, 科技与数据, 中国企业海外总部; 中国关联实体/项目=Chinese tech regional headquarters, Singapore port | 事件关联地区=Indonesia; 中国关联利益=镍矿, 雅万高铁, 电池, 电动汽车, 南海周边, 矿业, 东盟; 中国关联实体/项目=Jakarta-Bandung High-Speed Railway, Tsingshan, CATL Indonesia",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Singapore."
-  },
-  {
-    "id": "a90281c27197843cfb81",
-    "title": "Nord Stream gas leak investigation German prosecutors reject motion to dismiss case on Nord Stream pipeline sabotage",
-    "language": "ru",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "海外项目",
-    "risk_category": "overseas_projects",
-    "risk_category_en": "Overseas Projects",
-    "risk_categories": [
-      "overseas_projects",
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "pipeline",
-      "investigation"
-    ],
-    "severity": "medium",
-    "priority_score": 67,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 88,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T13:12:40.318626+00:00",
-    "last_seen": "2026-10-27T13:12:40.318626+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Russia"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
-    "why_now_zh": "海外项目信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Overseas Projects signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-27T13:12:40.318626+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 67,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "1d0f2b6445182caaa7fe",
-        "origin_type": "news",
-        "source": "TASS",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Nord Stream gas leak investigation German prosecutors reject motion to dismiss case on Nord Stream pipeline sabotage",
-        "url": "https://tass.com/world/2208529",
-        "published_at": null,
-        "collected_at": "2026-10-27T13:12:40.318626+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "tass.com"
-      }
-    ],
-    "title_original": "Nord Stream gas leak investigation German prosecutors reject motion to dismiss case on Nord Stream pipeline sabotage",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
-    "title_en": "Nord Stream gas leak investigation German prosecutors reject motion to dismiss case on Nord Stream pipeline sabotage",
-    "title_zh": "Nord Stream gas leak investigation German prosecutors reject motion to dismiss case on Nord Stream pipeline sabotage",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Russia."
-  },
-  {
-    "id": "91f4d8592c8790a6eb5c",
-    "title": "Казахстанцам обещают списать кредиты и штрафы до 5 миллионов: что стоит за роликами в TikTok",
-    "language": "ru",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls"
-    ],
-    "matched_risk_terms": [
-      "TikTok"
-    ],
-    "severity": "low",
-    "priority_score": 66,
-    "confidence_score": 39,
-    "importance_score": 38,
-    "china_relevance_score": 100,
-    "novelty_score": 95,
-    "momentum_score": 12,
-    "exposure_score": 91,
-    "freshness_score": 86,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-10-27T09:51:11.643676+00:00",
-    "last_seen": "2026-10-27T09:51:11.643676+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Kazakhstan"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新颖度95 / 动量12。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; novelty 95 / momentum 12.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
-    "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-10-27T09:51:13.349649+00:00",
-        "last_seen": "2026-10-27T09:51:11.643676+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-27T09:51:11.643676+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 66,
-        "confidence_score": 39,
-        "novelty_score": 95,
-        "momentum_score": 12,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "58741d560bfccb1966af",
-        "origin_type": "news",
-        "source": "Tengrinews",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Казахстанцам обещают списать кредиты и штрафы до 5 миллионов: что стоит за роликами в TikTok",
-        "url": "https://tengrinews.kz/kazakhstan_news/kazahstantsam-obeschayut-spisat-kredityi-shtrafyi-5-611718/",
-        "published_at": null,
-        "collected_at": "2026-10-27T09:51:11.643676+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "tengrinews.kz"
-      }
-    ],
-    "title_original": "Казахстанцам обещают списать кредиты и штрафы до 5 миллионов: что стоит за роликами в TikTok",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Казахстанцам обещают списать кредиты и штрафы до 5 миллионов: что стоит за роликами в TikTok",
-    "title_zh": "Казахстанцам обещают списать кредиты и штрафы до 5 миллионов: что стоит за роликами в TikTok",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Kazakhstan."
-  },
-  {
-    "id": "b2ca774b124bc8b48b9a",
-    "title": "Hong Kong police officer stabbed during 2020 protest seeks at least HK$220K in damages",
+    "id": "af3b5e2afbbb95f63970",
+    "title": "'Awengaa' teacher on the loose as women march in protest -...",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -1563,18 +1309,18 @@
       "protest"
     ],
     "severity": "medium",
-    "priority_score": 66,
-    "confidence_score": 52,
-    "importance_score": 48,
-    "china_relevance_score": 100,
-    "novelty_score": 82,
-    "momentum_score": 12,
-    "exposure_score": 77,
-    "freshness_score": 44,
+    "priority_score": 65,
+    "confidence_score": 39,
+    "importance_score": 52,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 72,
+    "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-10-26T23:45:00+00:00",
-    "last_seen": "2026-10-26T23:45:00+00:00",
+    "first_seen": "2026-10-28T05:39:31.763615+00:00",
+    "last_seen": "2026-10-28T05:39:31.763615+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1582,12 +1328,99 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Hong Kong"
+      "Ghana"
     ],
     "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "劳资社会信号；近期首次进入事件池；新颖度82 / 动量12。",
-    "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; novelty 82 / momentum 12.",
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Ghana; 中国关联利益=矿业, 基础设施, 电力, 中国企业; 中国关联实体/项目=Chinese mining activity",
+    "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-28T05:39:31.763615+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 65,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "5d89a860c11291ba3b12",
+        "origin_type": "news",
+        "source": "Graphic Online",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "'Awengaa' teacher on the loose as women march in protest -...",
+        "url": "https://www.graphic.com.gh/features/opinion/awengaa-teacher-on-the-loose-as-women-march-in-protest-occasional-kwatrior-kwesi-yankah-writes.html",
+        "published_at": null,
+        "collected_at": "2026-10-28T05:39:31.763615+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "graphic.com.gh"
+      }
+    ],
+    "title_original": "'Awengaa' teacher on the loose as women march in protest -...",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Ghana; 中国关联利益=矿业, 基础设施, 电力, 中国企业; 中国关联实体/项目=Chinese mining activity",
+    "title_en": "'Awengaa' teacher on the loose as women march in protest -...",
+    "title_zh": "'Awengaa' teacher on the loose as women march in protest -...",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Ghana; 中国关联利益=矿业, 基础设施, 电力, 中国企业; 中国关联实体/项目=Chinese mining activity",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Ghana."
+  },
+  {
+    "id": "5959473d7c711642c61b",
+    "title": "Suspect acquitted of drug lab explosion that killed 3, caused devastation in Rotterdam",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "escalating",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security"
+    ],
+    "matched_risk_terms": [
+      "killed"
+    ],
+    "severity": "high",
+    "priority_score": 64,
+    "confidence_score": 39,
+    "importance_score": 55,
+    "china_relevance_score": 58,
+    "novelty_score": 82,
+    "momentum_score": 28,
+    "exposure_score": 95,
+    "freshness_score": 31,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-27T13:12:40.318626+00:00",
+    "last_seen": "2026-10-27T13:12:40.318626+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Netherlands"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Netherlands; 中国关联利益=半导体设备, 光刻机, 出口管制, 港口物流, 欧盟对华政策; 中国关联实体/项目=ASML, Port of Rotterdam, COSCO",
+    "why_now_zh": "人员安全信号；正在升级或扩散；新颖度82 / 动量28。",
+    "why_now_en": "Personnel Security signal; is escalating or spreading; novelty 82 / momentum 28.",
     "previous_event_matched": true,
     "previous_match_score": 0.84,
     "change": {
@@ -1598,61 +1431,136 @@
     },
     "history": [
       {
-        "observed_at": "2026-10-27T05:01:04.820746+00:00",
-        "last_seen": "2026-10-26T23:45:00+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 77,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-10-27T09:51:13.349649+00:00",
-        "last_seen": "2026-10-26T23:45:00+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 67,
-        "confidence_score": 52,
-        "novelty_score": 82,
-        "momentum_score": 12,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
         "observed_at": "2026-10-27T13:12:41.965733+00:00",
-        "last_seen": "2026-10-26T23:45:00+00:00",
+        "last_seen": "2026-10-27T13:12:40.318626+00:00",
         "lifecycle": "emerging",
-        "priority_score": 66,
-        "confidence_score": 52,
+        "priority_score": 75,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-27T13:12:40.318626+00:00",
+        "lifecycle": "escalating",
+        "priority_score": 64,
+        "confidence_score": 39,
         "novelty_score": 82,
-        "momentum_score": 12,
+        "momentum_score": 28,
         "source_count": 1,
         "evidence_count": 1
       }
     ],
     "evidence": [
       {
-        "id": "30638e62245569a2ec43",
+        "id": "2e5571da812352d097b3",
         "origin_type": "news",
-        "source": "香港自由新闻 HKFP",
+        "source": "NL Times",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Hong Kong police officer stabbed during 2020 protest seeks at least HK$220K in damages",
-        "url": "https://hongkongfp.com/2026/10/27/hong-kong-police-officer-stabbed-during-2020-protest-seeks-at-least-hk220k-in-damages/",
-        "published_at": "2026-10-26T23:45:00+00:00",
-        "collected_at": "2026-10-27T05:01:02.608672+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "hongkongfp.com"
+        "title": "Suspect acquitted of drug lab explosion that killed 3, caused devastation in Rotterdam",
+        "url": "https://nltimes.nl/2026/10/27/suspect-acquitted-drug-lab-explosion-killed-3-caused-devastation-rotterdam",
+        "published_at": null,
+        "collected_at": "2026-10-27T13:12:40.318626+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "nltimes.nl"
+      }
+    ]
+  },
+  {
+    "id": "d6d2be54676568138630",
+    "title": "Two German Nationals Arrested over Arson Attack on Starlink Antennas near Sofia",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "escalating",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security"
+    ],
+    "matched_risk_terms": [
+      "arrested"
+    ],
+    "severity": "high",
+    "priority_score": 64,
+    "confidence_score": 39,
+    "importance_score": 55,
+    "china_relevance_score": 58,
+    "novelty_score": 82,
+    "momentum_score": 28,
+    "exposure_score": 95,
+    "freshness_score": 31,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-10-27T13:12:40.318626+00:00",
+    "last_seen": "2026-10-27T13:12:40.318626+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Bulgaria"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Bulgaria; 中国关联利益=中东欧合作, 黑海, 欧盟对华政策, 基础设施; 中国关联实体/项目=Chinese infrastructure investment",
+    "why_now_zh": "人员安全信号；正在升级或扩散；新颖度82 / 动量28。",
+    "why_now_en": "Personnel Security signal; is escalating or spreading; novelty 82 / momentum 28.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-10-27T13:12:41.965733+00:00",
+        "last_seen": "2026-10-27T13:12:40.318626+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 75,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-10-28T05:39:33.511646+00:00",
+        "last_seen": "2026-10-27T13:12:40.318626+00:00",
+        "lifecycle": "escalating",
+        "priority_score": 64,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 28,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
-    "title_original": "Hong Kong police officer stabbed during 2020 protest seeks at least HK$220K in damages",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Hong Kong police officer stabbed during 2020 protest seeks at least HK$220K in damages",
-    "title_zh": "Hong Kong police officer stabbed during 2020 protest seeks at least HK$220K in damages",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Hong Kong."
+    "evidence": [
+      {
+        "id": "774cd4d8c81803384f74",
+        "origin_type": "news",
+        "source": "BTA",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Two German Nationals Arrested over Arson Attack on Starlink Antennas near Sofia",
+        "url": "https://www.bta.bg/en/news/bulgaria/1233631-two-german-nationals-arrested-over-arson-attack-on-starlink-antennas-near-sofia",
+        "published_at": null,
+        "collected_at": "2026-10-27T13:12:40.318626+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "bta.bg"
+      }
+    ]
   }
 ]
