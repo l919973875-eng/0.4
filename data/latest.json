@@ -1,5 +1,92 @@
 [
   {
+    "id": "cf2e3bda5f771393d4e4",
+    "title": "中国海警官AIS闯东沙、在东部海域诓称执法 海巡署：认知作战",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "军事安全",
+    "risk_category": "military_security",
+    "risk_category_en": "Military & Security",
+    "risk_categories": [
+      "military_security"
+    ],
+    "matched_risk_terms": [
+      "海警"
+    ],
+    "severity": "medium",
+    "priority_score": 81,
+    "confidence_score": 39,
+    "importance_score": 52,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 100,
+    "freshness_score": 99,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-01T11:08:14+00:00",
+    "last_seen": "2026-11-01T11:08:14+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Global"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-11-01T11:08:14+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 81,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "14819638647bf813f5b0",
+        "origin_type": "news",
+        "source": "大纪元 Epoch Times · 即时",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "中国海警官AIS闯东沙、在东部海域诓称执法 海巡署：认知作战",
+        "url": "https://feed.epochtimes.com/gb/26/11/1/n14880828.htm",
+        "published_at": "2026-11-01T11:08:14+00:00",
+        "collected_at": "2026-11-01T11:18:46.521302+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "epochtimes"
+      }
+    ],
+    "title_original": "中国海警官AIS闯东沙、在东部海域诓称执法 海巡署：认知作战",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "中国海警官AIS闯东沙、在东部海域诓称执法 海巡署：认知作战",
+    "title_en": "中国海警官AIS闯东沙、在东部海域诓称执法 海巡署：认知作战",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
     "id": "12e292875e1e5d7a5455",
     "title": "【CDT报告汇】中国传媒研究计划：从劳工维权者被捕到独立媒体删帖封号，中国劳工议题遭系统性噤声（外二篇）",
     "language": "zh",
@@ -16,14 +103,14 @@
       "被捕"
     ],
     "severity": "high",
-    "priority_score": 85,
+    "priority_score": 75,
     "confidence_score": 39,
-    "importance_score": 60,
+    "importance_score": 57,
     "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
+    "novelty_score": 82,
+    "momentum_score": 12,
     "exposure_score": 100,
-    "freshness_score": 68,
+    "freshness_score": 46,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-10-31T22:14:36+00:00",
@@ -39,13 +126,13 @@
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新颖度82 / 动量12。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; novelty 82 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
     "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
+      "new_sources": 0,
+      "new_evidence": 0,
       "severity_change": 0,
       "official_added": false
     },
@@ -58,6 +145,17 @@
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-10-31T22:14:36+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 75,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
       }
@@ -87,200 +185,34 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "5eeff38995d79be57e93",
-    "title": "11月1日，为期20天的“双11”网购高峰期快运服务正式启动。在中国国家铁路集团有限公司统一部署下，中铁快运股份有限公司充分发挥优势，为人民群众提供更加安全方便快捷的铁路快运服务。",
-    "language": "zh",
+    "id": "b78a9008e8ab09505c67",
+    "title": "Pakistan companies move into lithium battery assembly with China partners",
+    "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "海外项目",
-    "risk_category": "overseas_projects",
-    "risk_category_en": "Overseas Projects",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
     "risk_categories": [
-      "overseas_projects"
+      "tech_controls"
     ],
     "matched_risk_terms": [
-      "铁路"
+      "battery"
     ],
-    "severity": "medium",
-    "priority_score": 80,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 93,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-01T05:59:34.804748+00:00",
-    "last_seen": "2026-11-01T05:59:34.804748+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "China"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "海外项目信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Overseas Projects signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-01T05:59:37.038603+00:00",
-        "last_seen": "2026-11-01T05:59:34.804748+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 80,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "f7cdc9a8590c2fffaa76",
-        "origin_type": "news",
-        "source": "中国日报中文 China Daily Chinese",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "11月1日，为期20天的“双11”网购高峰期快运服务正式启动。在中国国家铁路集团有限公司统一部署下，中铁快运股份有限公司充分发挥优势，为人民群众提供更加安全方便快捷的铁路快运服务。",
-        "url": "https://cn.chinadaily.com.cn/a/202611/01/WS6ae6d403e4b09a165c792c61.html",
-        "published_at": null,
-        "collected_at": "2026-11-01T05:59:34.804748+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "chinadaily"
-      }
-    ],
-    "title_original": "11月1日，为期20天的“双11”网购高峰期快运服务正式启动。在中国国家铁路集团有限公司统一部署下，中铁快运股份有限公司充分发挥优势，为人民群众提供更加安全方便快捷的铁路快运服务。",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "11月1日，为期20天的“双11”网购高峰期快运服务正式启动。在中国国家铁路集团有限公司统一部署下，中铁快运股份有限公司充分发挥优势，为人民群众提供更加安全方便快捷的铁路快运服务。",
-    "title_en": "11月1日，为期20天的“双11”网购高峰期快运服务正式启动。在中国国家铁路集团有限公司统一部署下，中铁快运股份有限公司充分发挥优势，为人民群众提供更加安全方便快捷的铁路快运服务。",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "4bb41dcc0f8483de63d0",
-    "title": "MAC details stark Taiwan-China divide SHARED COMMITMENT: Taiwan’s lively debates would not be possible in China, a MAC official said, urging Taiwanese to unite to protect the nation’s sovereignty The fifth plenum of the Chinese Communist Party’s (CCP) 20th Central Committee and Taiwan’s election debates highlighted a stark contrast between China’s centraliza",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "台海/印太",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "medium",
-    "priority_score": 77,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 60,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-01T05:59:34.804748+00:00",
-    "last_seen": "2026-11-01T05:59:34.804748+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Taiwan"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "台海/印太信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-01T05:59:37.038603+00:00",
-        "last_seen": "2026-11-01T05:59:34.804748+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 77,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "23f375329390cbee28a2",
-        "origin_type": "news",
-        "source": "Taipei Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "MAC details stark Taiwan-China divide SHARED COMMITMENT: Taiwan’s lively debates would not be possible in China, a MAC official said, urging Taiwanese to unite to protect the nation’s sovereignty The fifth plenum of the Chinese Communist Party’s (CCP) 20th Central Committee and Taiwan’s election debates highlighted a stark contrast between China’s centralization of power and Taiwan’s democracy, Mainland Affairs Council (MAC) Deputy Minister Shen Yu-chung (沈有忠) said yesterday.Differences in p",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/11/01/2003866944",
-        "published_at": null,
-        "collected_at": "2026-11-01T05:59:34.804748+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "taipeitimes.com"
-      }
-    ],
-    "title_original": "MAC details stark Taiwan-China divide SHARED COMMITMENT: Taiwan’s lively debates would not be possible in China, a MAC official said, urging Taiwanese to unite to protect the nation’s sovereignty The fifth plenum of the Chinese Communist Party’s (CCP) 20th Central Committee and Taiwan’s election debates highlighted a stark contrast between China’s centraliza",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "MAC details stark Taiwan-China divide SHARED COMMITMENT: Taiwan’s lively debates would not be possible in China, a MAC official said, urging Taiwanese to unite to protect the nation’s sovereignty The fifth plenum of the Chinese Communist Party’s (CCP) 20th Central Committee and Taiwan’s election debates highlighted a stark contrast between China’s centraliza",
-    "title_zh": "MAC details stark Taiwan-China divide SHARED COMMITMENT: Taiwan’s lively debates would not be possible in China, a MAC official said, urging Taiwanese to unite to protect the nation’s sovereignty The fifth plenum of the Chinese Communist Party’s (CCP) 20th Central Committee and Taiwan’s election debates highlighted a stark contrast between China’s centraliza",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "8fec33a56cc3c48dcd6b",
-    "title": "Zhang Shengmin, Xi’s lone ‘hatchet man’ at the top of China’s military",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "安全/冲突",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "medium",
-    "priority_score": 76,
+    "severity": "low",
+    "priority_score": 74,
     "confidence_score": 52,
-    "importance_score": 56,
+    "importance_score": 44,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
-    "exposure_score": 60,
-    "freshness_score": 91,
+    "exposure_score": 91,
+    "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-01T03:45:48+00:00",
-    "last_seen": "2026-11-01T03:45:48+00:00",
+    "first_seen": "2026-11-01T11:18:46.521302+00:00",
+    "last_seen": "2026-11-01T11:18:46.521302+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -288,12 +220,12 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Hong Kong"
+      "Japan"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -304,10 +236,10 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-01T05:59:37.038603+00:00",
-        "last_seen": "2026-11-01T03:45:48+00:00",
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-11-01T11:18:46.521302+00:00",
         "lifecycle": "emerging",
-        "priority_score": 76,
+        "priority_score": 74,
         "confidence_score": 52,
         "novelty_score": 100,
         "momentum_score": 55,
@@ -317,31 +249,31 @@
     ],
     "evidence": [
       {
-        "id": "bcab42083645ecfeebc9",
+        "id": "a9efabd99e4d30f4d371",
         "origin_type": "news",
-        "source": "香港自由新闻 HKFP",
+        "source": "Nikkei Asia",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Zhang Shengmin, Xi’s lone ‘hatchet man’ at the top of China’s military",
-        "url": "https://hongkongfp.com/2026/11/01/who-is-zhang-shengmin/",
-        "published_at": "2026-11-01T03:45:48+00:00",
-        "collected_at": "2026-11-01T05:59:34.804748+00:00",
+        "title": "Pakistan companies move into lithium battery assembly with China partners",
+        "url": "https://asia.nikkei.com/business/business-trends/pakistan-companies-move-into-lithium-battery-assembly-with-china-partners",
+        "published_at": null,
+        "collected_at": "2026-11-01T11:18:46.521302+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "hongkongfp.com"
+        "publisher_family": "nikkei"
       }
     ],
-    "title_original": "Zhang Shengmin, Xi’s lone ‘hatchet man’ at the top of China’s military",
+    "title_original": "Pakistan companies move into lithium battery assembly with China partners",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Zhang Shengmin, Xi’s lone ‘hatchet man’ at the top of China’s military",
-    "title_zh": "Zhang Shengmin, Xi’s lone ‘hatchet man’ at the top of China’s military",
+    "title_en": "Pakistan companies move into lithium battery assembly with China partners",
+    "title_zh": "Pakistan companies move into lithium battery assembly with China partners",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "c94f613063857f8db8d1",
-    "title": "3h ago The death poll: At least 50 killed in election season of extreme violence",
+    "id": "8097b0f56cb947b05992",
+    "title": "Gen. Z protest in The Hague ends without major incidents; 34 arrested, mostly teens",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -350,97 +282,12 @@
     "risk_category": "personnel_security",
     "risk_category_en": "Personnel Security",
     "risk_categories": [
-      "personnel_security"
+      "personnel_security",
+      "labor_social"
     ],
     "matched_risk_terms": [
-      "killed"
-    ],
-    "severity": "high",
-    "priority_score": 75,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 95,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-01T05:59:34.804748+00:00",
-    "last_seen": "2026-11-01T05:59:34.804748+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "South Africa"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Africa; 中国关联利益=金砖, 矿产, 汽车, 电力, 中非关系; 中国关联实体/项目=Chinese auto and energy investment",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-01T05:59:37.038603+00:00",
-        "last_seen": "2026-11-01T05:59:34.804748+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 75,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "830dab761330abc7bc69",
-        "origin_type": "news",
-        "source": "News24",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "3h ago The death poll: At least 50 killed in election season of extreme violence",
-        "url": "https://www.news24.com/politics/the-death-poll-at-least-50-killed-in-election-season-of-extreme-violence-20261031-0775",
-        "published_at": null,
-        "collected_at": "2026-11-01T05:59:34.804748+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "news24.com"
-      }
-    ],
-    "title_original": "3h ago The death poll: At least 50 killed in election season of extreme violence",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Africa; 中国关联利益=金砖, 矿产, 汽车, 电力, 中非关系; 中国关联实体/项目=Chinese auto and energy investment",
-    "title_en": "3h ago The death poll: At least 50 killed in election season of extreme violence",
-    "title_zh": "3h ago The death poll: At least 50 killed in election season of extreme violence",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Africa; 中国关联利益=金砖, 矿产, 汽车, 电力, 中非关系; 中国关联实体/项目=Chinese auto and energy investment",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; incident related region = South Africa; China related interests = BRIC, minerals, automobiles, electricity, China-Africa relations; Chinese related entities/projects = Chinese auto and energy investment"
-  },
-  {
-    "id": "853705911608703abeaf",
-    "title": "Evacuation From Russian-Occupied Oleshky Completed, Kyiv And Moscow Say",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security"
-    ],
-    "matched_risk_terms": [
-      "evacuation"
+      "arrested",
+      "protest"
     ],
     "severity": "high",
     "priority_score": 74,
@@ -453,8 +300,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-01T05:59:34.804748+00:00",
-    "last_seen": "2026-11-01T05:59:34.804748+00:00",
+    "first_seen": "2026-11-01T11:18:46.521302+00:00",
+    "last_seen": "2026-11-01T11:18:46.521302+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -462,10 +309,10 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "United States"
+      "Netherlands"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Netherlands; 中国关联利益=半导体设备, 光刻机, 出口管制, 港口物流, 欧盟对华政策; 中国关联实体/项目=ASML, Port of Rotterdam, COSCO",
     "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
     "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
@@ -478,8 +325,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-01T05:59:37.038603+00:00",
-        "last_seen": "2026-11-01T05:59:34.804748+00:00",
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-11-01T11:18:46.521302+00:00",
         "lifecycle": "emerging",
         "priority_score": 74,
         "confidence_score": 39,
@@ -491,32 +338,32 @@
     ],
     "evidence": [
       {
-        "id": "9df930f9b687e5108d74",
+        "id": "43a4cc098163f32201bf",
         "origin_type": "news",
-        "source": "Radio Free Europe/Radio Liberty",
+        "source": "NL Times",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Evacuation From Russian-Occupied Oleshky Completed, Kyiv And Moscow Say",
-        "url": "https://www.rferl.org/a/zelenskyy-warns-of-long-delay-as-us-approves-patriot-interceptors-sale/33887884.html",
+        "title": "Gen. Z protest in The Hague ends without major incidents; 34 arrested, mostly teens",
+        "url": "https://nltimes.nl/2026/11/01/gen-z-protest-hague-ends-without-major-incidents-34-arrested-mostly-teens",
         "published_at": null,
-        "collected_at": "2026-11-01T05:59:34.804748+00:00",
+        "collected_at": "2026-11-01T11:18:46.521302+00:00",
         "relation": "potential",
         "confidence": 62,
-        "publisher_family": "rferl.org"
+        "publisher_family": "nltimes.nl"
       }
     ],
-    "title_original": "Evacuation From Russian-Occupied Oleshky Completed, Kyiv And Moscow Say",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
-    "title_en": "Evacuation From Russian-Occupied Oleshky Completed, Kyiv And Moscow Say",
-    "title_zh": "Evacuation From Russian-Occupied Oleshky Completed, Kyiv And Moscow Say",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related region = United States; China-related interests = Sino-US relations, trade and tariffs, technology and export controls, semiconductors, artificial intelligence, financial sanctions, military and Indo-Pacific, Taiwan Strait; China-related entities/projects = Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile"
+    "title_original": "Gen. Z protest in The Hague ends without major incidents; 34 arrested, mostly teens",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Netherlands; 中国关联利益=半导体设备, 光刻机, 出口管制, 港口物流, 欧盟对华政策; 中国关联实体/项目=ASML, Port of Rotterdam, COSCO",
+    "title_en": "Gen. Z protest in The Hague ends without major incidents; 34 arrested, mostly teens",
+    "title_zh": "Gen. Z protest in The Hague ends without major incidents; 34 arrested, mostly teens",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Netherlands; 中国关联利益=半导体设备, 光刻机, 出口管制, 港口物流, 欧盟对华政策; 中国关联实体/项目=ASML, Port of Rotterdam, COSCO",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Netherlands; China-related interests = semiconductor equipment, lithography machines, export control, port logistics, EU China policy; China-related entities/projects = ASML, Port of Rotterdam, COSCO"
   },
   {
-    "id": "1520b94c6963a3837a4e",
-    "title": "Russia at G20 Meeting Flags Sanctions and Asset Freezes Among Methods Undermining Global Trade - MFA",
-    "language": "en",
+    "id": "fc4bafc75a78767637a0",
+    "title": "美国拟为\"影子舰队\"松绑？专家警告莫削弱对俄制裁",
+    "language": "zh",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
@@ -527,21 +374,21 @@
       "trade_regulatory"
     ],
     "matched_risk_terms": [
-      "sanctions"
+      "制裁"
     ],
     "severity": "high",
-    "priority_score": 73,
-    "confidence_score": 39,
-    "importance_score": 65,
+    "priority_score": 72,
+    "confidence_score": 52,
+    "importance_score": 68,
     "china_relevance_score": 58,
     "novelty_score": 100,
     "momentum_score": 55,
     "exposure_score": 84,
-    "freshness_score": 100,
+    "freshness_score": 89,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-01T05:59:34.804748+00:00",
-    "last_seen": "2026-11-01T05:59:34.804748+00:00",
+    "first_seen": "2026-11-01T08:46:00+00:00",
+    "last_seen": "2026-11-01T08:46:00+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -549,10 +396,10 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Russia"
+      "Germany"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN",
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Germany; 中国关联利益=中德经贸, 汽车产业, 机械制造, 对华投资, 欧盟对华政策, 半导体, 化工; 中国关联实体/项目=Volkswagen China exposure, BASF China exposure, CATL, Huawei | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=European Union; 中国关联利益=中欧关系, 电动汽车, 电池, 反补贴调查, 投资审查, 关键原材料, 供应链, 出口管制; 中国关联实体/项目=BYD, CATL, SAIC, Geely, Huawei, ZTE, COSCO | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
     "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
     "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
@@ -565,11 +412,11 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-01T05:59:37.038603+00:00",
-        "last_seen": "2026-11-01T05:59:34.804748+00:00",
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-11-01T08:46:00+00:00",
         "lifecycle": "emerging",
-        "priority_score": 73,
-        "confidence_score": 39,
+        "priority_score": 72,
+        "confidence_score": 52,
         "novelty_score": 100,
         "momentum_score": 55,
         "source_count": 1,
@@ -578,27 +425,27 @@
     ],
     "evidence": [
       {
-        "id": "123f42daeaf3c3e4519f",
+        "id": "fd1389d362978361ea39",
         "origin_type": "news",
-        "source": "Sputnik International",
+        "source": "德国之声中文 DW Chinese",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Russia at G20 Meeting Flags Sanctions and Asset Freezes Among Methods Undermining Global Trade - MFA",
-        "url": "https://sputnikglobe.com/20261031/russia-at-g20-meeting-flags-sanctions-and-asset-freezes-among-methods-undermining-global-trade---1124983335.html",
-        "published_at": null,
-        "collected_at": "2026-11-01T05:59:34.804748+00:00",
+        "title": "美国拟为\"影子舰队\"松绑？专家警告莫削弱对俄制裁",
+        "url": "https://www.dw.com/zh/美国拟为-影子舰队-松绑？专家警告莫削弱对俄制裁/a-79806146?maca=chi-rss-chi-all-1127-rdf",
+        "published_at": "2026-11-01T08:46:00+00:00",
+        "collected_at": "2026-11-01T11:18:46.521302+00:00",
         "relation": "potential",
         "confidence": 62,
-        "publisher_family": "sputnikglobe.com"
+        "publisher_family": "dw"
       }
     ],
-    "title_original": "Russia at G20 Meeting Flags Sanctions and Asset Freezes Among Methods Undermining Global Trade - MFA",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN",
-    "title_en": "Russia at G20 Meeting Flags Sanctions and Asset Freezes Among Methods Undermining Global Trade - MFA",
-    "title_zh": "Russia at G20 Meeting Flags Sanctions and Asset Freezes Among Methods Undermining Global Trade - MFA",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Russia."
+    "title_original": "美国拟为\"影子舰队\"松绑？专家警告莫削弱对俄制裁",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Germany; 中国关联利益=中德经贸, 汽车产业, 机械制造, 对华投资, 欧盟对华政策, 半导体, 化工; 中国关联实体/项目=Volkswagen China exposure, BASF China exposure, CATL, Huawei | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=European Union; 中国关联利益=中欧关系, 电动汽车, 电池, 反补贴调查, 投资审查, 关键原材料, 供应链, 出口管制; 中国关联实体/项目=BYD, CATL, SAIC, Geely, Huawei, ZTE, COSCO | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
+    "title_zh": "美国拟为\"影子舰队\"松绑？专家警告莫削弱对俄制裁",
+    "title_en": "美国拟为\"影子舰队\"松绑？专家警告莫削弱对俄制裁",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Germany; 中国关联利益=中德经贸, 汽车产业, 机械制造, 对华投资, 欧盟对华政策, 半导体, 化工; 中国关联实体/项目=Volkswagen China exposure, BASF China exposure, CATL, Huawei | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=European Union; 中国关联利益=中欧关系, 电动汽车, 电池, 反补贴调查, 投资审查, 关键原材料, 供应链, 出口管制; 中国关联实体/项目=BYD, CATL, SAIC, Geely, Huawei, ZTE, COSCO | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Germany."
   },
   {
     "id": "1663d18ef851f5bc81ea",
@@ -613,14 +460,14 @@
     "risk_categories": [],
     "matched_risk_terms": [],
     "severity": "high",
-    "priority_score": 73,
+    "priority_score": 72,
     "confidence_score": 39,
-    "importance_score": 55,
+    "importance_score": 51,
     "china_relevance_score": 100,
     "novelty_score": 82,
     "momentum_score": 28,
     "exposure_score": 60,
-    "freshness_score": 32,
+    "freshness_score": 10,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-10-31T13:39:43.318924+00:00",
@@ -668,6 +515,17 @@
         "momentum_score": 28,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-10-31T13:39:43.318924+00:00",
+        "lifecycle": "escalating",
+        "priority_score": 72,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 28,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -695,30 +553,30 @@
     "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
   },
   {
-    "id": "727f41c96d9a685ce56d",
-    "title": "中国路桥：警惕利用柬埔寨项目散布不实招聘信息",
+    "id": "5eeff38995d79be57e93",
+    "title": "11月1日，为期20天的“双11”网购高峰期快运服务正式启动。在中国国家铁路集团有限公司统一部署下，中铁快运股份有限公司充分发挥优势，为人民群众提供更加安全方便快捷的铁路快运服务。",
     "language": "zh",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "科技与青年",
-    "risk_category": "technology_youth",
-    "risk_category_en": "Technology & Youth",
+    "category": "海外项目",
+    "risk_category": "overseas_projects",
+    "risk_category_en": "Overseas Projects",
     "risk_categories": [
-      "technology_youth"
+      "overseas_projects"
     ],
     "matched_risk_terms": [
-      "招聘"
+      "铁路"
     ],
-    "severity": "low",
-    "priority_score": 71,
-    "confidence_score": 52,
-    "importance_score": 44,
+    "severity": "medium",
+    "priority_score": 72,
+    "confidence_score": 39,
+    "importance_score": 49,
     "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 67,
-    "freshness_score": 100,
+    "novelty_score": 95,
+    "momentum_score": 12,
+    "exposure_score": 93,
+    "freshness_score": 78,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-11-01T05:59:34.804748+00:00",
@@ -730,7 +588,105 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Singapore"
+      "China"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "海外项目信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Overseas Projects signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-01T05:59:37.038603+00:00",
+        "last_seen": "2026-11-01T05:59:34.804748+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 80,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-11-01T05:59:34.804748+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 72,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "f7cdc9a8590c2fffaa76",
+        "origin_type": "news",
+        "source": "中国日报中文 China Daily Chinese",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "11月1日，为期20天的“双11”网购高峰期快运服务正式启动。在中国国家铁路集团有限公司统一部署下，中铁快运股份有限公司充分发挥优势，为人民群众提供更加安全方便快捷的铁路快运服务。",
+        "url": "https://cn.chinadaily.com.cn/a/202611/01/WS6ae6d403e4b09a165c792c61.html",
+        "published_at": null,
+        "collected_at": "2026-11-01T05:59:34.804748+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "chinadaily"
+      }
+    ],
+    "title_original": "11月1日，为期20天的“双11”网购高峰期快运服务正式启动。在中国国家铁路集团有限公司统一部署下，中铁快运股份有限公司充分发挥优势，为人民群众提供更加安全方便快捷的铁路快运服务。",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "11月1日，为期20天的“双11”网购高峰期快运服务正式启动。在中国国家铁路集团有限公司统一部署下，中铁快运股份有限公司充分发挥优势，为人民群众提供更加安全方便快捷的铁路快运服务。",
+    "title_en": "11月1日，为期20天的“双11”网购高峰期快运服务正式启动。在中国国家铁路集团有限公司统一部署下，中铁快运股份有限公司充分发挥优势，为人民群众提供更加安全方便快捷的铁路快运服务。",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "8ea2616645dc0c5edffe",
+    "title": "DeepSeek unveils AI ‘super agent’ in coding race with OpenAI, Anthropic",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技与青年",
+    "risk_category": "technology_youth",
+    "risk_category_en": "Technology & Youth",
+    "risk_categories": [
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "AI"
+    ],
+    "severity": "low",
+    "priority_score": 71,
+    "confidence_score": 52,
+    "importance_score": 44,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 67,
+    "freshness_score": 95,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-01T10:00:26+00:00",
+    "last_seen": "2026-11-01T10:00:26+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Hong Kong"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -746,8 +702,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-01T05:59:37.038603+00:00",
-        "last_seen": "2026-11-01T05:59:34.804748+00:00",
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-11-01T10:00:26+00:00",
         "lifecycle": "emerging",
         "priority_score": 71,
         "confidence_score": 52,
@@ -759,36 +715,36 @@
     ],
     "evidence": [
       {
-        "id": "a64ae52c9b47b842e42d",
+        "id": "4b76a7270dcedb608b54",
         "origin_type": "news",
-        "source": "联合早报 Lianhe Zaobao · 中国",
+        "source": "South China Morning Post (SCMP)",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "中国路桥：警惕利用柬埔寨项目散布不实招聘信息",
-        "url": "https://www.zaobao.com.sg/news/china/story20261101-9928478",
-        "published_at": null,
-        "collected_at": "2026-11-01T05:59:34.804748+00:00",
+        "title": "DeepSeek unveils AI ‘super agent’ in coding race with OpenAI, Anthropic",
+        "url": "https://www.scmp.com/tech/article/3372884/deepseek-unveils-ai-super-agent-coding-race-openai-anthropic",
+        "published_at": "2026-11-01T10:00:26+00:00",
+        "collected_at": "2026-11-01T11:18:46.521302+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "zaobao"
+        "publisher_family": "scmp"
       }
     ],
-    "title_original": "中国路桥：警惕利用柬埔寨项目散布不实招聘信息",
+    "title_original": "DeepSeek unveils AI ‘super agent’ in coding race with OpenAI, Anthropic",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "中国路桥：警惕利用柬埔寨项目散布不实招聘信息",
-    "title_en": "中国路桥：警惕利用柬埔寨项目散布不实招聘信息",
+    "title_en": "DeepSeek unveils AI ‘super agent’ in coding race with OpenAI, Anthropic",
+    "title_zh": "DeepSeek unveils AI ‘super agent’ in coding race with OpenAI, Anthropic",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "676dbf58981f666a4f5d",
-    "title": "Taiwan thanks allies for supporting Strait peace Taiwan yesterday welcomed and expressed appreciation for foreign ministers from the US, Japan and South Korea for emphasizing the importance of maintaining peace and stability across the Taiwan Strait at a trilateral meeting on the sidelines of the G20 in Atlanta, Georgia, on Friday. US Secretary of",
+    "id": "542321c4039566b5be0c",
+    "title": "Indonesia deports Chinese national for visa misuse",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "台海/印太",
+    "category": "外交/制裁",
     "risk_category": "other",
     "risk_category_en": "",
     "risk_categories": [],
@@ -804,8 +760,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-01T05:59:34.804748+00:00",
-    "last_seen": "2026-11-01T05:59:34.804748+00:00",
+    "first_seen": "2026-11-01T11:18:46.521302+00:00",
+    "last_seen": "2026-11-01T11:18:46.521302+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -813,11 +769,11 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Taiwan"
+      "Indonesia"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "台海/印太信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_zh": "外交/制裁信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
     "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
@@ -829,8 +785,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-01T05:59:37.038603+00:00",
-        "last_seen": "2026-11-01T05:59:34.804748+00:00",
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-11-01T11:18:46.521302+00:00",
         "lifecycle": "emerging",
         "priority_score": 70,
         "confidence_score": 39,
@@ -842,57 +798,53 @@
     ],
     "evidence": [
       {
-        "id": "e4fe657e8eced7355a0b",
+        "id": "0ca60a8571c87e5d1e54",
         "origin_type": "news",
-        "source": "Taipei Times",
+        "source": "ANTARA News",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Taiwan thanks allies for supporting Strait peace Taiwan yesterday welcomed and expressed appreciation for foreign ministers from the US, Japan and South Korea for emphasizing the importance of maintaining peace and stability across the Taiwan Strait at a trilateral meeting on the sidelines of the G20 in Atlanta, Georgia, on Friday. US Secretary of",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/11/01/2003866945",
+        "title": "Indonesia deports Chinese national for visa misuse",
+        "url": "https://en.antaranews.com/news/439219/indonesia-deports-chinese-national-for-visa-misuse?utm_source=antaranews&utm_medium=desktop&utm_campaign=top_news",
         "published_at": null,
-        "collected_at": "2026-11-01T05:59:34.804748+00:00",
+        "collected_at": "2026-11-01T11:18:46.521302+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "taipeitimes.com"
+        "publisher_family": "en.antaranews.com"
       }
     ],
-    "title_original": "Taiwan thanks allies for supporting Strait peace Taiwan yesterday welcomed and expressed appreciation for foreign ministers from the US, Japan and South Korea for emphasizing the importance of maintaining peace and stability across the Taiwan Strait at a trilateral meeting on the sidelines of the G20 in Atlanta, Georgia, on Friday. US Secretary of",
+    "title_original": "Indonesia deports Chinese national for visa misuse",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Taiwan thanks allies for supporting Strait peace Taiwan yesterday welcomed and expressed appreciation for foreign ministers from the US, Japan and South Korea for emphasizing the importance of maintaining peace and stability across the Taiwan Strait at a trilateral meeting on the sidelines of the G20 in Atlanta, Georgia, on Friday. US Secretary of",
-    "title_zh": "Taiwan thanks allies for supporting Strait peace Taiwan yesterday welcomed and expressed appreciation for foreign ministers from the US, Japan and South Korea for emphasizing the importance of maintaining peace and stability across the Taiwan Strait at a trilateral meeting on the sidelines of the G20 in Atlanta, Georgia, on Friday. US Secretary of",
+    "title_en": "Indonesia deports Chinese national for visa misuse",
+    "title_zh": "Indonesia deports Chinese national for visa misuse",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "a60da5d0d8564397c6b2",
-    "title": "中秘升级版自贸协定生效 新增电商全球供应链等议题",
-    "language": "zh",
+    "id": "5456cd41e2dccb265ee1",
+    "title": "Eala plunges back into action vs Parks in Hong Kong Open",
+    "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "经济产业",
-    "risk_category": "economic_industry_domestic",
-    "risk_category_en": "Economy & Industry",
-    "risk_categories": [
-      "economic_industry_domestic"
-    ],
-    "matched_risk_terms": [
-      "供应链"
-    ],
-    "severity": "medium",
-    "priority_score": 68,
-    "confidence_score": 52,
-    "importance_score": 57,
-    "china_relevance_score": 58,
+    "category": "其他",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "low",
+    "priority_score": 70,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 100,
     "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 80,
+    "momentum_score": 55,
+    "exposure_score": 60,
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-01T05:59:34.804748+00:00",
-    "last_seen": "2026-11-01T05:59:34.804748+00:00",
+    "first_seen": "2026-11-01T11:18:46.521302+00:00",
+    "last_seen": "2026-11-01T11:18:46.521302+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -900,12 +852,12 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Singapore"
+      "Philippines"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Singapore; 中国关联利益=金融, 航运, 东盟, 中美竞争, 科技与数据, 中国企业海外总部; 中国关联实体/项目=Chinese tech regional headquarters, Singapore port | 事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN",
-    "why_now_zh": "经济产业信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "Economy & Industry signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "其他信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -916,56 +868,141 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-01T05:59:37.038603+00:00",
-        "last_seen": "2026-11-01T05:59:34.804748+00:00",
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-11-01T11:18:46.521302+00:00",
         "lifecycle": "emerging",
-        "priority_score": 68,
-        "confidence_score": 52,
+        "priority_score": 70,
+        "confidence_score": 39,
         "novelty_score": 100,
-        "momentum_score": 65,
+        "momentum_score": 55,
         "source_count": 1,
         "evidence_count": 1
       }
     ],
     "evidence": [
       {
-        "id": "f7517a8cc69998935f6e",
+        "id": "4e47c4eb7c18bb96888e",
         "origin_type": "news",
-        "source": "联合早报 Lianhe Zaobao · 中国",
+        "source": "The Philippine Star",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "中秘升级版自贸协定生效 新增电商全球供应链等议题",
-        "url": "https://www.zaobao.com.sg/news/china/story20261101-9928683",
+        "title": "Eala plunges back into action vs Parks in Hong Kong Open",
+        "url": "https://www.philstar.com/sports/2026/11/01/2567143/eala-plunges-back-action-vs-parks-hong-kong-open",
         "published_at": null,
-        "collected_at": "2026-11-01T05:59:34.804748+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "zaobao"
+        "collected_at": "2026-11-01T11:18:46.521302+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "philstar.com"
       }
     ],
-    "title_original": "中秘升级版自贸协定生效 新增电商全球供应链等议题",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Singapore; 中国关联利益=金融, 航运, 东盟, 中美竞争, 科技与数据, 中国企业海外总部; 中国关联实体/项目=Chinese tech regional headquarters, Singapore port | 事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN",
-    "title_zh": "中秘升级版自贸协定生效 新增电商全球供应链等议题",
-    "title_en": "中秘升级版自贸协定生效 新增电商全球供应链等议题",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Singapore; 中国关联利益=金融, 航运, 东盟, 中美竞争, 科技与数据, 中国企业海外总部; 中国关联实体/项目=Chinese tech regional headquarters, Singapore port | 事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Singapore."
+    "title_original": "Eala plunges back into action vs Parks in Hong Kong Open",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Eala plunges back into action vs Parks in Hong Kong Open",
+    "title_zh": "Eala plunges back into action vs Parks in Hong Kong Open",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "83719811e664d2093335",
-    "title": "Hanwha bags 1st US Navy shipbuilding order Hanwha Group has won its first contract to build a warship for the United States Navy after its acquisition of Philadelphia-based Philly Shipyard in December 2024, marking a tangible step forward in the Korea-U.S. shipbuilding cooperation initiative known as Make American Shipbuilding Great Again (MASGA). Hanwha Gro",
+    "id": "d930759714d326c76a85",
+    "title": "Jensen Huang says business ties with suspected Chinese spy were normal",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "军事安全",
-    "risk_category": "military_security",
-    "risk_category_en": "Military & Security",
+    "category": "其他",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "low",
+    "priority_score": 70,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 60,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-01T11:18:46.521302+00:00",
+    "last_seen": "2026-11-01T11:18:46.521302+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Taiwan"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "其他信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-11-01T11:18:46.521302+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 70,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "0d87b1920620a4073404",
+        "origin_type": "news",
+        "source": "Taiwan News",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Jensen Huang says business ties with suspected Chinese spy were normal",
+        "url": "https://www.taiwannews.com.tw/en/news/6468785",
+        "published_at": null,
+        "collected_at": "2026-11-01T11:18:46.521302+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "taiwannews.com.tw"
+      }
+    ],
+    "title_original": "Jensen Huang says business ties with suspected Chinese spy were normal",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Jensen Huang says business ties with suspected Chinese spy were normal",
+    "title_zh": "Jensen Huang says business ties with suspected Chinese spy were normal",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "61614f93a4ff4fe870df",
+    "title": "Economy Borsa Istanbul general manager detained in fund investigation",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
     "risk_categories": [
-      "military_security"
+      "personnel_security",
+      "trade_regulatory"
     ],
     "matched_risk_terms": [
-      "warship"
+      "detained",
+      "investigation"
     ],
     "severity": "medium",
     "priority_score": 68,
@@ -974,12 +1011,12 @@
     "china_relevance_score": 58,
     "novelty_score": 100,
     "momentum_score": 55,
-    "exposure_score": 96,
+    "exposure_score": 95,
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-01T05:59:34.804748+00:00",
-    "last_seen": "2026-11-01T05:59:34.804748+00:00",
+    "first_seen": "2026-11-01T11:18:46.521302+00:00",
+    "last_seen": "2026-11-01T11:18:46.521302+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -987,12 +1024,12 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "South Korea"
+      "Turkey"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
-    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -1003,8 +1040,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-01T05:59:37.038603+00:00",
-        "last_seen": "2026-11-01T05:59:34.804748+00:00",
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-11-01T11:18:46.521302+00:00",
         "lifecycle": "emerging",
         "priority_score": 68,
         "confidence_score": 39,
@@ -1016,27 +1053,125 @@
     ],
     "evidence": [
       {
-        "id": "35a144cb775ae99e21ab",
+        "id": "54bdbc05061d950faed1",
         "origin_type": "news",
-        "source": "The Korea Times",
+        "source": "Hürriyet Daily News",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Hanwha bags 1st US Navy shipbuilding order Hanwha Group has won its first contract to build a warship for the United States Navy after its acquisition of Philadelphia-based Philly Shipyard in December 2024, marking a tangible step forward in the Korea-U.S. shipbuilding cooperation initiative known as Make American Shipbuilding Great Again (MASGA). Hanwha Group said Sunday that Hanwha Defense USA has signed a $269 million (357.5 billion won) contract with TOTE Services to build a landing ship med",
-        "url": "https://www.koreatimes.co.kr/business/companies/20261101/hanwha-bags-1st-us-navy-shipbuilding-order",
+        "title": "Economy Borsa Istanbul general manager detained in fund investigation",
+        "url": "https://www.hurriyetdailynews.com/borsa-istanbul-general-manager-detained-in-fund-investigation-228855",
+        "published_at": null,
+        "collected_at": "2026-11-01T11:18:46.521302+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "hurriyetdailynews.com"
+      }
+    ],
+    "title_original": "Economy Borsa Istanbul general manager detained in fund investigation",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
+    "title_en": "Economy Borsa Istanbul general manager detained in fund investigation",
+    "title_zh": "Economy Borsa Istanbul general manager detained in fund investigation",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Turkey."
+  },
+  {
+    "id": "c94f613063857f8db8d1",
+    "title": "3h ago The death poll: At least 50 killed in election season of extreme violence",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "escalating",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security"
+    ],
+    "matched_risk_terms": [
+      "killed"
+    ],
+    "severity": "high",
+    "priority_score": 68,
+    "confidence_score": 39,
+    "importance_score": 62,
+    "china_relevance_score": 58,
+    "novelty_score": 95,
+    "momentum_score": 28,
+    "exposure_score": 95,
+    "freshness_score": 78,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-01T05:59:34.804748+00:00",
+    "last_seen": "2026-11-01T05:59:34.804748+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "South Africa"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Africa; 中国关联利益=金砖, 矿产, 汽车, 电力, 中非关系; 中国关联实体/项目=Chinese auto and energy investment",
+    "why_now_zh": "人员安全信号；正在升级或扩散；新颖度95 / 动量28。",
+    "why_now_en": "Personnel Security signal; is escalating or spreading; novelty 95 / momentum 28.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-01T05:59:37.038603+00:00",
+        "last_seen": "2026-11-01T05:59:34.804748+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 75,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-11-01T05:59:34.804748+00:00",
+        "lifecycle": "escalating",
+        "priority_score": 68,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 28,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "830dab761330abc7bc69",
+        "origin_type": "news",
+        "source": "News24",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "3h ago The death poll: At least 50 killed in election season of extreme violence",
+        "url": "https://www.news24.com/politics/the-death-poll-at-least-50-killed-in-election-season-of-extreme-violence-20261031-0775",
         "published_at": null,
         "collected_at": "2026-11-01T05:59:34.804748+00:00",
         "relation": "potential",
         "confidence": 62,
-        "publisher_family": "koreatimes.co.kr"
+        "publisher_family": "news24.com"
       }
     ],
-    "title_original": "Hanwha bags 1st US Navy shipbuilding order Hanwha Group has won its first contract to build a warship for the United States Navy after its acquisition of Philadelphia-based Philly Shipyard in December 2024, marking a tangible step forward in the Korea-U.S. shipbuilding cooperation initiative known as Make American Shipbuilding Great Again (MASGA). Hanwha Gro",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
-    "title_en": "Hanwha bags 1st US Navy shipbuilding order Hanwha Group has won its first contract to build a warship for the United States Navy after its acquisition of Philadelphia-based Philly Shipyard in December 2024, marking a tangible step forward in the Korea-U.S. shipbuilding cooperation initiative known as Make American Shipbuilding Great Again (MASGA). Hanwha Gro",
-    "title_zh": "Hanwha bags 1st US Navy shipbuilding order Hanwha Group has won its first contract to build a warship for the United States Navy after its acquisition of Philadelphia-based Philly Shipyard in December 2024, marking a tangible step forward in the Korea-U.S. shipbuilding cooperation initiative known as Make American Shipbuilding Great Again (MASGA). Hanwha Gro",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: South Korea."
+    "title_original": "3h ago The death poll: At least 50 killed in election season of extreme violence",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Africa; 中国关联利益=金砖, 矿产, 汽车, 电力, 中非关系; 中国关联实体/项目=Chinese auto and energy investment",
+    "title_en": "3h ago The death poll: At least 50 killed in election season of extreme violence",
+    "title_zh": "3h ago The death poll: At least 50 killed in election season of extreme violence",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Africa; 中国关联利益=金砖, 矿产, 汽车, 电力, 中非关系; 中国关联实体/项目=Chinese auto and energy investment",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: South Africa."
   },
   {
     "id": "fd0ed7fef90c6cdad34b",
@@ -1055,14 +1190,14 @@
       "海警"
     ],
     "severity": "medium",
-    "priority_score": 68,
+    "priority_score": 67,
     "confidence_score": 39,
-    "importance_score": 42,
+    "importance_score": 39,
     "china_relevance_score": 100,
     "novelty_score": 82,
     "momentum_score": 12,
     "exposure_score": 100,
-    "freshness_score": 32,
+    "freshness_score": 10,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-10-31T13:39:43.318924+00:00",
@@ -1110,6 +1245,17 @@
         "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-10-31T13:39:43.318924+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 67,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -1137,269 +1283,8 @@
     "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: China."
   },
   {
-    "id": "c4faaaf04959de429d30",
-    "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack. 8 hrs ago Technology",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "investigation"
-    ],
-    "severity": "medium",
-    "priority_score": 67,
-    "confidence_score": 52,
-    "importance_score": 57,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 84,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-01T05:59:34.804748+00:00",
-    "last_seen": "2026-11-01T05:59:34.804748+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United Kingdom"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution | 事件关联地区=North Korea; 中国关联利益=朝鲜半岛安全, 核问题, 中朝关系, 边境贸易; 中国关联实体/项目=China-DPRK border trade",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-01T05:59:37.038603+00:00",
-        "last_seen": "2026-11-01T05:59:34.804748+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 67,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "07c8a7d2f7d8bb80a8d4",
-        "origin_type": "news",
-        "source": "BBC News",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack. 8 hrs ago Technology",
-        "url": "https://www.bbc.com/news/articles/ckpdg3ql4169o",
-        "published_at": null,
-        "collected_at": "2026-11-01T05:59:34.804748+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "bbc"
-      }
-    ],
-    "title_original": "Crypto firm Binance covers 90% of losses after $6.3bn hack The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack. 8 hrs ago Technology",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution | 事件关联地区=North Korea; 中国关联利益=朝鲜半岛安全, 核问题, 中朝关系, 边境贸易; 中国关联实体/项目=China-DPRK border trade",
-    "title_en": "Crypto firm Binance covers 90% of losses after $6.3bn hack The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack. 8 hrs ago Technology",
-    "title_zh": "Crypto firm Binance covers 90% of losses after $6.3bn hack The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack. 8 hrs ago Technology",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution | 事件关联地区=North Korea; 中国关联利益=朝鲜半岛安全, 核问题, 中朝关系, 边境贸易; 中国关联实体/项目=China-DPRK border trade",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: United Kingdom."
-  },
-  {
-    "id": "9dd79f7d3cd0981d88c4",
-    "title": "FBI visits Dan J. Sullivan donor as Alaska Senate probe widens",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "probe"
-    ],
-    "severity": "medium",
-    "priority_score": 67,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 84,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-01T05:59:34.804748+00:00",
-    "last_seen": "2026-11-01T05:59:34.804748+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United Kingdom"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-01T05:59:37.038603+00:00",
-        "last_seen": "2026-11-01T05:59:34.804748+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 67,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "36c21e9d7615c7c20bd8",
-        "origin_type": "news",
-        "source": "The Independent",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "FBI visits Dan J. Sullivan donor as Alaska Senate probe widens",
-        "url": "https://www.independent.co.uk/news/world/americas/us-politics/fbi-dan-j-sullivan-alaska-senate-race-b3076832.html",
-        "published_at": null,
-        "collected_at": "2026-11-01T05:59:34.804748+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "independent.co.uk"
-      }
-    ],
-    "title_original": "FBI visits Dan J. Sullivan donor as Alaska Senate probe widens",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok",
-    "title_en": "FBI visits Dan J. Sullivan donor as Alaska Senate probe widens",
-    "title_zh": "FBI visits Dan J. Sullivan donor as Alaska Senate probe widens",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: United Kingdom."
-  },
-  {
-    "id": "a033413ca9e930f1c26c",
-    "title": "FBI says N. Korea responsible for over $6 bil. crypto theft from Binance WASHINGTON — The U.S. Federal Bureau of Investigation (FBI) said Saturday that North Korea was responsible for the theft of more than $6 billion in cryptocurrency from Binance, the world's largest cryptocurrency exchange, earlier this week. \"The FBI is releasing information advising the",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "investigation"
-    ],
-    "severity": "medium",
-    "priority_score": 67,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 84,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-01T05:59:34.804748+00:00",
-    "last_seen": "2026-11-01T05:59:34.804748+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "South Korea"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=North Korea; 中国关联利益=朝鲜半岛安全, 核问题, 中朝关系, 边境贸易; 中国关联实体/项目=China-DPRK border trade",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-01T05:59:37.038603+00:00",
-        "last_seen": "2026-11-01T05:59:34.804748+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 67,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "3af6a886f4587e00a781",
-        "origin_type": "news",
-        "source": "The Korea Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "FBI says N. Korea responsible for over $6 bil. crypto theft from Binance WASHINGTON — The U.S. Federal Bureau of Investigation (FBI) said Saturday that North Korea was responsible for the theft of more than $6 billion in cryptocurrency from Binance, the world's largest cryptocurrency exchange, earlier this week. \"The FBI is releasing information advising the Democratic People's Republic of Korea was responsible for the theft of more than $6 billion in virtual assets from cryptocurrency exchange",
-        "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261101/fbi-says-n-korea-responsible-for-over-6-bil-crypto-theft-from-binance",
-        "published_at": null,
-        "collected_at": "2026-11-01T05:59:34.804748+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "koreatimes.co.kr"
-      }
-    ],
-    "title_original": "FBI says N. Korea responsible for over $6 bil. crypto theft from Binance WASHINGTON — The U.S. Federal Bureau of Investigation (FBI) said Saturday that North Korea was responsible for the theft of more than $6 billion in cryptocurrency from Binance, the world's largest cryptocurrency exchange, earlier this week. \"The FBI is releasing information advising the",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=North Korea; 中国关联利益=朝鲜半岛安全, 核问题, 中朝关系, 边境贸易; 中国关联实体/项目=China-DPRK border trade",
-    "title_en": "FBI says N. Korea responsible for over $6 bil. crypto theft from Binance WASHINGTON — The U.S. Federal Bureau of Investigation (FBI) said Saturday that North Korea was responsible for the theft of more than $6 billion in cryptocurrency from Binance, the world's largest cryptocurrency exchange, earlier this week. \"The FBI is releasing information advising the",
-    "title_zh": "FBI says N. Korea responsible for over $6 bil. crypto theft from Binance WASHINGTON — The U.S. Federal Bureau of Investigation (FBI) said Saturday that North Korea was responsible for the theft of more than $6 billion in cryptocurrency from Binance, the world's largest cryptocurrency exchange, earlier this week. \"The FBI is releasing information advising the",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=North Korea; 中国关联利益=朝鲜半岛安全, 核问题, 中朝关系, 边境贸易; 中国关联实体/项目=China-DPRK border trade",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: South Korea."
-  },
-  {
-    "id": "4e366f225f59a8c585e7",
-    "title": "10,000 security personnel, 250 cameras: Delhi hunkers down for INDIA bloc's anti-CEC protest",
+    "id": "fb5e1f2999328b39183b",
+    "title": "I did not carry placard in protest against Jonathan — Adeboye",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -1424,8 +1309,95 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-01T05:59:34.804748+00:00",
-    "last_seen": "2026-11-01T05:59:34.804748+00:00",
+    "first_seen": "2026-11-01T11:18:46.521302+00:00",
+    "last_seen": "2026-11-01T11:18:46.521302+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Nigeria"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
+    "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-11-01T11:18:46.521302+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 65,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "415840c89946d00703bc",
+        "origin_type": "news",
+        "source": "Punch Nigeria",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "I did not carry placard in protest against Jonathan — Adeboye",
+        "url": "https://punchng.com/i-did-not-carry-placard-in-protest-against-jonathan-adeboye/",
+        "published_at": null,
+        "collected_at": "2026-11-01T11:18:46.521302+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "punchng.com"
+      }
+    ],
+    "title_original": "I did not carry placard in protest against Jonathan — Adeboye",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
+    "title_en": "I did not carry placard in protest against Jonathan — Adeboye",
+    "title_zh": "I did not carry placard in protest against Jonathan — Adeboye",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Nigeria."
+  },
+  {
+    "id": "cf480a52cfb65ccbb581",
+    "title": "'Your turn to become PM won't come': Amit Shah targets Rahul Gandhi amid INDIA bloc protest",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "劳资社会",
+    "risk_category": "labor_social",
+    "risk_category_en": "Labor & Social Unrest",
+    "risk_categories": [
+      "labor_social"
+    ],
+    "matched_risk_terms": [
+      "protest"
+    ],
+    "severity": "medium",
+    "priority_score": 65,
+    "confidence_score": 39,
+    "importance_score": 52,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 72,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-01T11:18:46.521302+00:00",
+    "last_seen": "2026-11-01T11:18:46.521302+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1449,8 +1421,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-01T05:59:37.038603+00:00",
-        "last_seen": "2026-11-01T05:59:34.804748+00:00",
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-11-01T11:18:46.521302+00:00",
         "lifecycle": "emerging",
         "priority_score": 65,
         "confidence_score": 39,
@@ -1462,31 +1434,31 @@
     ],
     "evidence": [
       {
-        "id": "bceefd11a4b57a03c55c",
+        "id": "a7af885c3eb4aae4b90f",
         "origin_type": "news",
         "source": "Hindustan Times",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "10,000 security personnel, 250 cameras: Delhi hunkers down for INDIA bloc's anti-CEC protest",
-        "url": "https://www.hindustantimes.com/cities/delhi-news/delhi-hunkers-down-for-opposition-s-anti-cec-protest-101793490873885.html",
+        "title": "'Your turn to become PM won't come': Amit Shah targets Rahul Gandhi amid INDIA bloc protest",
+        "url": "https://www.hindustantimes.com/india-news/your-turn-to-become-pm-wont-come-amit-shah-takes-potshots-at-rahul-gandhi-amid-india-bloc-protest-101793527766545.html",
         "published_at": null,
-        "collected_at": "2026-11-01T05:59:34.804748+00:00",
+        "collected_at": "2026-11-01T11:18:46.521302+00:00",
         "relation": "potential",
         "confidence": 62,
         "publisher_family": "hindustantimes.com"
       }
     ],
-    "title_original": "10,000 security personnel, 250 cameras: Delhi hunkers down for INDIA bloc's anti-CEC protest",
+    "title_original": "'Your turn to become PM won't come': Amit Shah targets Rahul Gandhi amid INDIA bloc protest",
     "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
-    "title_en": "10,000 security personnel, 250 cameras: Delhi hunkers down for INDIA bloc's anti-CEC protest",
-    "title_zh": "10,000 security personnel, 250 cameras: Delhi hunkers down for INDIA bloc's anti-CEC protest",
+    "title_en": "'Your turn to become PM won't come': Amit Shah targets Rahul Gandhi amid INDIA bloc protest",
+    "title_zh": "'Your turn to become PM won't come': Amit Shah targets Rahul Gandhi amid INDIA bloc protest",
     "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
     "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: India."
   },
   {
-    "id": "89c43105d720364d3f6a",
-    "title": "Protest, then do some shopping: Rahul Gandhi's appeal after traders oppose rally",
+    "id": "c9cfd837a57782d6b77f",
+    "title": "Thousands join Indian opposition protest demanding poll chief’s resignation",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -1511,8 +1483,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-01T05:59:34.804748+00:00",
-    "last_seen": "2026-11-01T05:59:34.804748+00:00",
+    "first_seen": "2026-11-01T11:18:46.521302+00:00",
+    "last_seen": "2026-11-01T11:18:46.521302+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1520,10 +1492,10 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "India"
+      "Singapore"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Singapore; 中国关联利益=金融, 航运, 东盟, 中美竞争, 科技与数据, 中国企业海外总部; 中国关联实体/项目=Chinese tech regional headquarters, Singapore port",
     "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
     "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
@@ -1536,8 +1508,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-01T05:59:37.038603+00:00",
-        "last_seen": "2026-11-01T05:59:34.804748+00:00",
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-11-01T11:18:46.521302+00:00",
         "lifecycle": "emerging",
         "priority_score": 65,
         "confidence_score": 39,
@@ -1549,26 +1521,124 @@
     ],
     "evidence": [
       {
-        "id": "d3be940b9b45dc4f2f39",
+        "id": "073b5b75e38997c55166",
         "origin_type": "news",
-        "source": "India Today",
+        "source": "Channel NewsAsia",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Protest, then do some shopping: Rahul Gandhi's appeal after traders oppose rally",
-        "url": "https://www.indiatoday.in/india/story/rahul-gandhi-urges-india-bloc-rallygoers-protest-support-delhi-traders-3029710-2026-11-01",
+        "title": "Thousands join Indian opposition protest demanding poll chief’s resignation",
+        "url": "https://www.channelnewsasia.com/asia/thousands-join-indian-opposition-protest-demanding-poll-chiefs-resignation-6510591",
+        "published_at": null,
+        "collected_at": "2026-11-01T11:18:46.521302+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "channelnewsasia.com"
+      }
+    ],
+    "title_original": "Thousands join Indian opposition protest demanding poll chief’s resignation",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Singapore; 中国关联利益=金融, 航运, 东盟, 中美竞争, 科技与数据, 中国企业海外总部; 中国关联实体/项目=Chinese tech regional headquarters, Singapore port",
+    "title_en": "Thousands join Indian opposition protest demanding poll chief’s resignation",
+    "title_zh": "Thousands join Indian opposition protest demanding poll chief’s resignation",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Singapore; 中国关联利益=金融, 航运, 东盟, 中美竞争, 科技与数据, 中国企业海外总部; 中国关联实体/项目=Chinese tech regional headquarters, Singapore port",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Singapore."
+  },
+  {
+    "id": "1520b94c6963a3837a4e",
+    "title": "Russia at G20 Meeting Flags Sanctions and Asset Freezes Among Methods Undermining Global Trade - MFA",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "sanctions"
+    ],
+    "severity": "high",
+    "priority_score": 64,
+    "confidence_score": 39,
+    "importance_score": 62,
+    "china_relevance_score": 58,
+    "novelty_score": 95,
+    "momentum_score": 12,
+    "exposure_score": 84,
+    "freshness_score": 78,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-01T05:59:34.804748+00:00",
+    "last_seen": "2026-11-01T05:59:34.804748+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Russia"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-01T05:59:37.038603+00:00",
+        "last_seen": "2026-11-01T05:59:34.804748+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-01T11:18:47.747473+00:00",
+        "last_seen": "2026-11-01T05:59:34.804748+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 64,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "123f42daeaf3c3e4519f",
+        "origin_type": "news",
+        "source": "Sputnik International",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Russia at G20 Meeting Flags Sanctions and Asset Freezes Among Methods Undermining Global Trade - MFA",
+        "url": "https://sputnikglobe.com/20261031/russia-at-g20-meeting-flags-sanctions-and-asset-freezes-among-methods-undermining-global-trade---1124983335.html",
         "published_at": null,
         "collected_at": "2026-11-01T05:59:34.804748+00:00",
         "relation": "potential",
         "confidence": 62,
-        "publisher_family": "indiatoday.in"
+        "publisher_family": "sputnikglobe.com"
       }
     ],
-    "title_original": "Protest, then do some shopping: Rahul Gandhi's appeal after traders oppose rally",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
-    "title_en": "Protest, then do some shopping: Rahul Gandhi's appeal after traders oppose rally",
-    "title_zh": "Protest, then do some shopping: Rahul Gandhi's appeal after traders oppose rally",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: India."
+    "title_original": "Russia at G20 Meeting Flags Sanctions and Asset Freezes Among Methods Undermining Global Trade - MFA",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN",
+    "title_en": "Russia at G20 Meeting Flags Sanctions and Asset Freezes Among Methods Undermining Global Trade - MFA",
+    "title_zh": "Russia at G20 Meeting Flags Sanctions and Asset Freezes Among Methods Undermining Global Trade - MFA",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Global; 中国关联利益=全球贸易, 金融, 能源, 粮食, 关键矿产, 航运, 核安全, 太空; 中国关联实体/项目=WTO, IMF, World Bank, IAEA, IEA, UN",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Russia."
   }
 ]
