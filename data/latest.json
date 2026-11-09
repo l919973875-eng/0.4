@@ -1,33 +1,35 @@
 [
   {
-    "id": "aad7fe01737af32f465a",
-    "title": "Iran acquires oil facilities in China to bypass US sanctions, leaked document shows",
+    "id": "3246928fcdcec2e6076b",
+    "title": "14 killed in China building fire in Shanxi province capital Taiyuan",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
     "risk_categories": [
-      "trade_regulatory"
+      "personnel_security",
+      "safety_production_domestic"
     ],
     "matched_risk_terms": [
-      "sanctions"
+      "killed",
+      "fire"
     ],
     "severity": "high",
-    "priority_score": 86,
+    "priority_score": 88,
     "confidence_score": 39,
     "importance_score": 65,
     "china_relevance_score": 100,
     "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 89,
+    "momentum_score": 65,
+    "exposure_score": 100,
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-09T06:21:46.888381+00:00",
-    "last_seen": "2026-11-09T06:21:46.888381+00:00",
+    "first_seen": "2026-11-09T12:56:11.931382+00:00",
+    "last_seen": "2026-11-09T12:56:11.931382+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -35,7 +37,95 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Iran"
+      "Pakistan"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:56:11.931382+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 88,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "574f85604c0e2b6765ee",
+        "origin_type": "news",
+        "source": "The News International",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "14 killed in China building fire in Shanxi province capital Taiyuan",
+        "url": "https://www.thenews.com.pk/latest/1423021-14-killed-in-china-building-fire-in-shanxi-province-capital-taiyuan",
+        "published_at": null,
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "thenews.com.pk"
+      }
+    ],
+    "title_original": "14 killed in China building fire in Shanxi province capital Taiyuan",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "14 killed in China building fire in Shanxi province capital Taiyuan",
+    "title_zh": "14 killed in China building fire in Shanxi province capital Taiyuan",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "1d125ac9bcea6036d7a2",
+    "title": "中国继续暂停对美实体不可靠实体清单与出口管制措施两个月",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "实体清单",
+      "出口管制"
+    ],
+    "severity": "high",
+    "priority_score": 86,
+    "confidence_score": 52,
+    "importance_score": 69,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 89,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-09T12:56:11.931382+00:00",
+    "last_seen": "2026-11-09T12:56:11.931382+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Singapore"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -51,11 +141,11 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-09T06:21:46.888381+00:00",
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:56:11.931382+00:00",
         "lifecycle": "emerging",
         "priority_score": 86,
-        "confidence_score": 39,
+        "confidence_score": 52,
         "novelty_score": 100,
         "momentum_score": 55,
         "source_count": 1,
@@ -64,326 +154,31 @@
     ],
     "evidence": [
       {
-        "id": "2fd1a4761fbbf9d2e50b",
+        "id": "f2628b7342f7855aaa7e",
         "origin_type": "news",
-        "source": "Iran International",
+        "source": "联合早报 Lianhe Zaobao · 中国",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Iran acquires oil facilities in China to bypass US sanctions, leaked document shows",
-        "url": "https://www.iranintl.com/en/202611090040",
+        "title": "中国继续暂停对美实体不可靠实体清单与出口管制措施两个月",
+        "url": "https://www.zaobao.com.sg/news/china/story20261109-9970508",
         "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "iranintl.com"
+        "publisher_family": "zaobao"
       }
     ],
-    "title_original": "Iran acquires oil facilities in China to bypass US sanctions, leaked document shows",
+    "title_original": "中国继续暂停对美实体不可靠实体清单与出口管制措施两个月",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Iran acquires oil facilities in China to bypass US sanctions, leaked document shows",
-    "title_zh": "Iran acquires oil facilities in China to bypass US sanctions, leaked document shows",
+    "title_zh": "中国继续暂停对美实体不可靠实体清单与出口管制措施两个月",
+    "title_en": "中国继续暂停对美实体不可靠实体清单与出口管制措施两个月",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "e67fbcd42fe60c836b54",
-    "title": "LIVE Tech giant Nvidia to investigate CEO's affair with suspected Chinese spy Jensen Huang has admitted to having been \"unfaithful\" to his wife and says he will cooperate with a security investigation.",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "investigation"
-    ],
-    "severity": "medium",
-    "priority_score": 81,
-    "confidence_score": 58,
-    "importance_score": 60,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 63,
-    "exposure_score": 89,
-    "freshness_score": 100,
-    "corroboration_score": 40,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-09T06:21:46.888381+00:00",
-    "last_seen": "2026-11-09T06:21:46.888381+00:00",
-    "source_count": 2,
-    "evidence_count": 2,
-    "news_count": 2,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United Kingdom",
-      "Australia"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增2条独立信息链；新颖度100 / 动量63。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 2 new independent source chain(s); novelty 100 / momentum 63.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 2,
-      "new_evidence": 2,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-09T06:21:46.888381+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 81,
-        "confidence_score": 58,
-        "novelty_score": 100,
-        "momentum_score": 63,
-        "source_count": 2,
-        "evidence_count": 2
-      }
-    ],
-    "evidence": [
-      {
-        "id": "04e004c72492381e9290",
-        "origin_type": "news",
-        "source": "BBC News",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "LIVE Tech giant Nvidia to investigate CEO's affair with suspected Chinese spy Jensen Huang has admitted to having been \"unfaithful\" to his wife and says he will cooperate with a security investigation.",
-        "url": "https://www.bbc.com/news/live/cm78p221e313t",
-        "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "bbc"
-      },
-      {
-        "id": "8cc2c6e7081ace974d51",
-        "origin_type": "news",
-        "source": "ABC News Australia",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "How Nvidia came to investigate its CEO's affair with suspected Chinese spy",
-        "url": "https://www.abc.net.au/news/2026-11-09/nvidia-ceo-jensen-huang-affair-with-suspected-chinese-spy/107362878",
-        "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "abc.net.au"
-      }
-    ],
-    "title_original": "LIVE Tech giant Nvidia to investigate CEO's affair with suspected Chinese spy Jensen Huang has admitted to having been \"unfaithful\" to his wife and says he will cooperate with a security investigation.",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "LIVE Tech giant Nvidia to investigate CEO's affair with suspected Chinese spy Jensen Huang has admitted to having been \"unfaithful\" to his wife and says he will cooperate with a security investigation.",
-    "title_zh": "LIVE Tech giant Nvidia to investigate CEO's affair with suspected Chinese spy Jensen Huang has admitted to having been \"unfaithful\" to his wife and says he will cooperate with a security investigation.",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "d473c16352bf189ffcbd",
-    "title": "Nvidia launches investigation after CEO Jensen Huang admits to affair with suspected Chinese spy",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "investigation"
-    ],
-    "severity": "medium",
-    "priority_score": 81,
-    "confidence_score": 45,
-    "importance_score": 56,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 63,
-    "exposure_score": 89,
-    "freshness_score": 100,
-    "corroboration_score": 40,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-09T06:21:46.888381+00:00",
-    "last_seen": "2026-11-09T06:21:46.888381+00:00",
-    "source_count": 2,
-    "evidence_count": 2,
-    "news_count": 2,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United States",
-      "United Kingdom"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增2条独立信息链；新颖度100 / 动量63。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 2 new independent source chain(s); novelty 100 / momentum 63.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 2,
-      "new_evidence": 2,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-09T06:21:46.888381+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 81,
-        "confidence_score": 45,
-        "novelty_score": 100,
-        "momentum_score": 63,
-        "source_count": 2,
-        "evidence_count": 2
-      }
-    ],
-    "evidence": [
-      {
-        "id": "f37a6b87ecfc162e53b9",
-        "origin_type": "news",
-        "source": "Newsweek",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Nvidia Investigates Chinese Spy Claims After CEO Jensen Huang Admits Affair",
-        "url": "https://www.newsweek.com/nvidia-investigates-chinese-spy-claims-ceo-jensen-huang-admits-affair-12684313",
-        "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "newsweek.com"
-      },
-      {
-        "id": "c8aef23cb475d6f28e6d",
-        "origin_type": "news",
-        "source": "The Independent",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Nvidia launches investigation after CEO Jensen Huang admits to affair with suspected Chinese spy",
-        "url": "https://www.independent.co.uk/news/world/americas/nvidia-ceo-jensen-huang-affair-spy-investigation-b3081353.html",
-        "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "independent.co.uk"
-      }
-    ],
-    "title_original": "Nvidia launches investigation after CEO Jensen Huang admits to affair with suspected Chinese spy",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Nvidia launches investigation after CEO Jensen Huang admits to affair with suspected Chinese spy",
-    "title_zh": "Nvidia launches investigation after CEO Jensen Huang admits to affair with suspected Chinese spy",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "c246144912935dc7cca6",
-    "title": "Nvidia CEO’s affair engulfs AI giant in Chinese spying probe",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory",
-      "technology_youth"
-    ],
-    "matched_risk_terms": [
-      "probe",
-      "AI"
-    ],
-    "severity": "medium",
-    "priority_score": 80,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 89,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-09T06:21:46.888381+00:00",
-    "last_seen": "2026-11-09T06:21:46.888381+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Japan"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-09T06:21:46.888381+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 80,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "a81c1db9eda88ae02197",
-        "origin_type": "news",
-        "source": "The Japan Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Nvidia CEO’s affair engulfs AI giant in Chinese spying probe",
-        "url": "https://www.japantimes.co.jp/business/2026/11/09/tech/nvidia-board-spying-ceo-affair/",
-        "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "japantimes.co.jp"
-      }
-    ],
-    "title_original": "Nvidia CEO’s affair engulfs AI giant in Chinese spying probe",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Nvidia CEO’s affair engulfs AI giant in Chinese spying probe",
-    "title_zh": "Nvidia CEO’s affair engulfs AI giant in Chinese spying probe",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "84a1d5683ff087e3ffa1",
-    "title": "Korea's economy is booming. Why isn't President Lee's popularity? On paper, Korea's economy looks strong. Fueled by a semiconductor export boom, the country's annual exports are projected to top $1 trillion for the first time this year, making Korea only the fourth country to reach the milestone, after the United States, China and Germany. Forecasts from eig",
+    "id": "689b46b7647d021529ec",
+    "title": "No impact expected from Nvidia investigation of CEO’s affair: TIER An investigation launched by Nvidia Corp into its founder and CEO Jensen Huang (黃仁勳) over his affair with an alleged Chinese spy is unlikely to have a major impact on Taiwan's artificial intelligence (AI) supply chain, Taiwan Institute of Economic Research (TIER) president Chang Chien-yi (張建一",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -392,10 +187,14 @@
     "risk_category": "tech_controls",
     "risk_category_en": "Technology Controls",
     "risk_categories": [
-      "tech_controls"
+      "tech_controls",
+      "trade_regulatory",
+      "technology_youth"
     ],
     "matched_risk_terms": [
-      "semiconductor"
+      "artificial intelligence",
+      "investigation",
+      "AI"
     ],
     "severity": "medium",
     "priority_score": 80,
@@ -408,8 +207,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-09T06:21:46.888381+00:00",
-    "last_seen": "2026-11-09T06:21:46.888381+00:00",
+    "first_seen": "2026-11-09T12:56:11.931382+00:00",
+    "last_seen": "2026-11-09T12:56:11.931382+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -417,7 +216,7 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "South Korea"
+      "Taiwan"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -433,8 +232,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-09T06:21:46.888381+00:00",
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:56:11.931382+00:00",
         "lifecycle": "emerging",
         "priority_score": 80,
         "confidence_score": 39,
@@ -446,59 +245,57 @@
     ],
     "evidence": [
       {
-        "id": "501b9c422958b666cac0",
+        "id": "328f65784a20d52e1257",
         "origin_type": "news",
-        "source": "The Korea Times",
+        "source": "Taipei Times",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Korea's economy is booming. Why isn't President Lee's popularity? On paper, Korea's economy looks strong. Fueled by a semiconductor export boom, the country's annual exports are projected to top $1 trillion for the first time this year, making Korea only the fourth country to reach the milestone, after the United States, China and Germany. Forecasts from eight major investment banks put Korea's real gross domestic product growth at an average of 3.5 percent this year, with some expecting growth",
-        "url": "https://www.koreatimes.co.kr/economy/20261109/koreas-economy-is-booming-why-isnt-president-lees-popularity",
+        "title": "No impact expected from Nvidia investigation of CEO’s affair: TIER An investigation launched by Nvidia Corp into its founder and CEO Jensen Huang (黃仁勳) over his affair with an alleged Chinese spy is unlikely to have a major impact on Taiwan's artificial intelligence (AI) supply chain, Taiwan Institute of Economic Research (TIER) president Chang Chien-yi (張建一) said",
+        "url": "https://www.taipeitimes.com/News/front/archives/2026/11/09/2003867433",
         "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "koreatimes.co.kr"
+        "publisher_family": "taipeitimes.com"
       }
     ],
-    "title_original": "Korea's economy is booming. Why isn't President Lee's popularity? On paper, Korea's economy looks strong. Fueled by a semiconductor export boom, the country's annual exports are projected to top $1 trillion for the first time this year, making Korea only the fourth country to reach the milestone, after the United States, China and Germany. Forecasts from eig",
+    "title_original": "No impact expected from Nvidia investigation of CEO’s affair: TIER An investigation launched by Nvidia Corp into its founder and CEO Jensen Huang (黃仁勳) over his affair with an alleged Chinese spy is unlikely to have a major impact on Taiwan's artificial intelligence (AI) supply chain, Taiwan Institute of Economic Research (TIER) president Chang Chien-yi (張建一",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Korea's economy is booming. Why isn't President Lee's popularity? On paper, Korea's economy looks strong. Fueled by a semiconductor export boom, the country's annual exports are projected to top $1 trillion for the first time this year, making Korea only the fourth country to reach the milestone, after the United States, China and Germany. Forecasts from eig",
-    "title_zh": "Korea's economy is booming. Why isn't President Lee's popularity? On paper, Korea's economy looks strong. Fueled by a semiconductor export boom, the country's annual exports are projected to top $1 trillion for the first time this year, making Korea only the fourth country to reach the milestone, after the United States, China and Germany. Forecasts from eig",
+    "title_en": "No impact expected from Nvidia investigation of CEO’s affair: TIER An investigation launched by Nvidia Corp into its founder and CEO Jensen Huang (黃仁勳) over his affair with an alleged Chinese spy is unlikely to have a major impact on Taiwan's artificial intelligence (AI) supply chain, Taiwan Institute of Economic Research (TIER) president Chang Chien-yi (張建一",
+    "title_zh": "No impact expected from Nvidia investigation of CEO’s affair: TIER An investigation launched by Nvidia Corp into its founder and CEO Jensen Huang (黃仁勳) over his affair with an alleged Chinese spy is unlikely to have a major impact on Taiwan's artificial intelligence (AI) supply chain, Taiwan Institute of Economic Research (TIER) president Chang Chien-yi (張建一",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "98aed65ce92a7c1d6597",
-    "title": "‘Main culprits,’ ignored complaints, and needed reforms: Takeaways from the independent probe into the Tai Po fire",
+    "id": "67c0f1e42661985da483",
+    "title": "Who is Alice Huang, the Chinese businesswoman linked to Nvidia CEO Jensen Huang’s affair and spy probe?",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "安全生产",
-    "risk_category": "safety_production_domestic",
-    "risk_category_en": "Safety & Production",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
     "risk_categories": [
-      "safety_production_domestic",
       "trade_regulatory"
     ],
     "matched_risk_terms": [
-      "fire",
       "probe"
     ],
     "severity": "medium",
-    "priority_score": 79,
-    "confidence_score": 52,
-    "importance_score": 53,
+    "priority_score": 80,
+    "confidence_score": 39,
+    "importance_score": 52,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
-    "exposure_score": 97,
-    "freshness_score": 72,
+    "exposure_score": 89,
+    "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-08T23:40:00+00:00",
-    "last_seen": "2026-11-08T23:40:00+00:00",
+    "first_seen": "2026-11-09T12:56:11.931382+00:00",
+    "last_seen": "2026-11-09T12:56:11.931382+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -506,12 +303,12 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Hong Kong"
+      "Malaysia"
     ],
     "entities": [],
-    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "安全生产信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Safety & Production signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -522,11 +319,11 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-08T23:40:00+00:00",
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:56:11.931382+00:00",
         "lifecycle": "emerging",
-        "priority_score": 79,
-        "confidence_score": 52,
+        "priority_score": 80,
+        "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
         "source_count": 1,
@@ -535,53 +332,59 @@
     ],
     "evidence": [
       {
-        "id": "c51e3a35126d1e8eb52a",
+        "id": "0195fb2d0fac94072ac8",
         "origin_type": "news",
-        "source": "香港自由新闻 HKFP",
+        "source": "Malay Mail",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "‘Main culprits,’ ignored complaints, and needed reforms: Takeaways from the independent probe into the Tai Po fire",
-        "url": "https://hongkongfp.com/2026/11/09/main-culprits-ignored-complaints-and-needed-reforms-takeaways-from-the-independent-probe-into-the-tai-po-fire/",
-        "published_at": "2026-11-08T23:40:00+00:00",
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
+        "title": "Who is Alice Huang, the Chinese businesswoman linked to Nvidia CEO Jensen Huang’s affair and spy probe?",
+        "url": "https://www.malaymail.com/news/life/2026/11/09/who-is-alice-huang-the-chinese-businesswoman-linked-to-nvidia-ceo-jensen-huangs-affair-and-spy-probe/242575",
+        "published_at": null,
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
         "relation": "direct",
-        "confidence": 88,
-        "publisher_family": "hongkongfp.com"
+        "confidence": 94,
+        "publisher_family": "malaymail.com"
       }
     ],
-    "title_original": "‘Main culprits,’ ignored complaints, and needed reforms: Takeaways from the independent probe into the Tai Po fire",
-    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "title_en": "‘Main culprits,’ ignored complaints, and needed reforms: Takeaways from the independent probe into the Tai Po fire",
-    "title_zh": "‘Main culprits,’ ignored complaints, and needed reforms: Takeaways from the independent probe into the Tai Po fire",
-    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
+    "title_original": "Who is Alice Huang, the Chinese businesswoman linked to Nvidia CEO Jensen Huang’s affair and spy probe?",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Who is Alice Huang, the Chinese businesswoman linked to Nvidia CEO Jensen Huang’s affair and spy probe?",
+    "title_zh": "Who is Alice Huang, the Chinese businesswoman linked to Nvidia CEO Jensen Huang’s affair and spy probe?",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "4489cef56537bc10b8c5",
-    "title": "Chinese-owned yachts barred from Taiwan ports Chinese-owned yachts have been barred from entering Taiwan’s ports under revised guidelines announced by the Maritime and Port Bureau.The amendments clarify the rules for foreign-owned yachts seeking permission to enter Taiwan, including application requirements and permit durations. Violators face",
-    "language": "en",
+    "id": "20a7ba79371e04a36ab7",
+    "title": "目前，已对产权单位管理人员、物业公司负责人采取控制措施，事故原因正在调查中，调查结果将依法依规向社会公布。",
+    "language": "zh",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "台海/印太",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory",
+      "livelihood_governance"
+    ],
+    "matched_risk_terms": [
+      "调查",
+      "物业"
+    ],
     "severity": "medium",
-    "priority_score": 77,
+    "priority_score": 80,
     "confidence_score": 39,
     "importance_score": 52,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
-    "exposure_score": 60,
+    "exposure_score": 89,
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-09T06:21:46.888381+00:00",
-    "last_seen": "2026-11-09T06:21:46.888381+00:00",
+    "first_seen": "2026-11-09T12:56:11.931382+00:00",
+    "last_seen": "2026-11-09T12:56:11.931382+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -589,11 +392,181 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Taiwan"
+      "China"
     ],
     "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "台海/印太信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:56:11.931382+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 80,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "2b36d7af02a7ca50222c",
+        "origin_type": "news",
+        "source": "中国日报中文 China Daily Chinese",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "目前，已对产权单位管理人员、物业公司负责人采取控制措施，事故原因正在调查中，调查结果将依法依规向社会公布。",
+        "url": "https://cn.chinadaily.com.cn/a/202611/09/WS6af1b504e4b0e14252fca149.html",
+        "published_at": null,
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "chinadaily"
+      }
+    ],
+    "title_original": "目前，已对产权单位管理人员、物业公司负责人采取控制措施，事故原因正在调查中，调查结果将依法依规向社会公布。",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_zh": "目前，已对产权单位管理人员、物业公司负责人采取控制措施，事故原因正在调查中，调查结果将依法依规向社会公布。",
+    "title_en": "目前，已对产权单位管理人员、物业公司负责人采取控制措施，事故原因正在调查中，调查结果将依法依规向社会公布。",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
+  },
+  {
+    "id": "fefb750c249c0fb77097",
+    "title": "民主党议员8日表示，明年1月民主党接管国会后，将对美国亿万富翁埃隆·马斯克、白宫办公厅主任斯蒂芬·米勒及部分企业发起调查。",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "调查"
+    ],
+    "severity": "medium",
+    "priority_score": 80,
+    "confidence_score": 39,
+    "importance_score": 52,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 89,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-09T12:56:11.931382+00:00",
+    "last_seen": "2026-11-09T12:56:11.931382+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:56:11.931382+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 80,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "fbe21094da19a9df3069",
+        "origin_type": "news",
+        "source": "中国日报中文 China Daily Chinese",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "民主党议员8日表示，明年1月民主党接管国会后，将对美国亿万富翁埃隆·马斯克、白宫办公厅主任斯蒂芬·米勒及部分企业发起调查。",
+        "url": "https://cn.chinadaily.com.cn/a/202611/09/WS6af18d65e4b0e14252fca0f7.html",
+        "published_at": null,
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "chinadaily"
+      }
+    ],
+    "title_original": "民主党议员8日表示，明年1月民主党接管国会后，将对美国亿万富翁埃隆·马斯克、白宫办公厅主任斯蒂芬·米勒及部分企业发起调查。",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_zh": "民主党议员8日表示，明年1月民主党接管国会后，将对美国亿万富翁埃隆·马斯克、白宫办公厅主任斯蒂芬·米勒及部分企业发起调查。",
+    "title_en": "民主党议员8日表示，明年1月民主党接管国会后，将对美国亿万富翁埃隆·马斯克、白宫办公厅主任斯蒂芬·米勒及部分企业发起调查。",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
+  },
+  {
+    "id": "420521b2d9cde587d939",
+    "title": "Myanmar military airstrike in Mrauk-U kills pregnant woman",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "安全/冲突",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "critical",
+    "priority_score": 76,
+    "confidence_score": 39,
+    "importance_score": 77,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 55,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-09T12:56:11.931382+00:00",
+    "last_seen": "2026-11-09T12:56:11.931382+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Myanmar"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Myanmar; 中国关联利益=中缅经济走廊, 油气管道, 皎漂港, 边境安全, 武装冲突, 稀土; 中国关联实体/项目=Kyaukpyu Port, China-Myanmar Economic Corridor, oil and gas pipelines",
+    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
     "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
@@ -605,10 +578,10 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-09T06:21:46.888381+00:00",
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:56:11.931382+00:00",
         "lifecycle": "emerging",
-        "priority_score": 77,
+        "priority_score": 76,
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
@@ -618,31 +591,31 @@
     ],
     "evidence": [
       {
-        "id": "05be62b9d16c50b749c3",
+        "id": "9073eee7fb258bfd3ac5",
         "origin_type": "news",
-        "source": "Taipei Times",
+        "source": "Myanmar Now",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Chinese-owned yachts barred from Taiwan ports Chinese-owned yachts have been barred from entering Taiwan’s ports under revised guidelines announced by the Maritime and Port Bureau.The amendments clarify the rules for foreign-owned yachts seeking permission to enter Taiwan, including application requirements and permit durations. Violators face",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/11/09/2003867399",
+        "title": "Myanmar military airstrike in Mrauk-U kills pregnant woman",
+        "url": "https://myanmar-now.org/en/news/myanmar-military-airstrike-in-mrauk-u-kills-pregnant-woman/",
         "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "taipeitimes.com"
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "myanmar-now.org"
       }
     ],
-    "title_original": "Chinese-owned yachts barred from Taiwan ports Chinese-owned yachts have been barred from entering Taiwan’s ports under revised guidelines announced by the Maritime and Port Bureau.The amendments clarify the rules for foreign-owned yachts seeking permission to enter Taiwan, including application requirements and permit durations. Violators face",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Chinese-owned yachts barred from Taiwan ports Chinese-owned yachts have been barred from entering Taiwan’s ports under revised guidelines announced by the Maritime and Port Bureau.The amendments clarify the rules for foreign-owned yachts seeking permission to enter Taiwan, including application requirements and permit durations. Violators face",
-    "title_zh": "Chinese-owned yachts barred from Taiwan ports Chinese-owned yachts have been barred from entering Taiwan’s ports under revised guidelines announced by the Maritime and Port Bureau.The amendments clarify the rules for foreign-owned yachts seeking permission to enter Taiwan, including application requirements and permit durations. Violators face",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+    "title_original": "Myanmar military airstrike in Mrauk-U kills pregnant woman",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Myanmar; 中国关联利益=中缅经济走廊, 油气管道, 皎漂港, 边境安全, 武装冲突, 稀土; 中国关联实体/项目=Kyaukpyu Port, China-Myanmar Economic Corridor, oil and gas pipelines",
+    "title_en": "Myanmar military airstrike in Mrauk-U kills pregnant woman",
+    "title_zh": "Myanmar military airstrike in Mrauk-U kills pregnant woman",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Myanmar; 中国关联利益=中缅经济走廊, 油气管道, 皎漂港, 边境安全, 武装冲突, 稀土; 中国关联实体/项目=Kyaukpyu Port, China-Myanmar Economic Corridor, oil and gas pipelines",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area=Myanmar; China-related interests=China-Myanmar Economic Corridor, oil and gas pipelines, Kyaukpyu Port, border security, armed conflict, rare earths; China-related entities/projects=Kyaukpyu Port, China-Myanmar Economic Corridor, oil and gas pipelines"
   },
   {
-    "id": "3aa8fc764125100dfbfe",
-    "title": "Bandits burn 12 family members Twelve members of the same family have been killed after armed bandits set their residence ablaze during an attack on Gidan Taba village in Maradun…",
+    "id": "cdedb1ac533d715c1b48",
+    "title": "Krakow Shooting Suspect Dies in Hospital Two Days After Attack That Killed Six",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -667,8 +640,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-09T06:21:46.888381+00:00",
-    "last_seen": "2026-11-09T06:21:46.888381+00:00",
+    "first_seen": "2026-11-09T12:56:11.931382+00:00",
+    "last_seen": "2026-11-09T12:56:11.931382+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -676,10 +649,10 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Nigeria"
+      "Morocco"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Morocco; 中国关联利益=磷矿, 电动汽车供应链, 北非制造, 港口; 中国关联实体/项目=Chinese battery material investment",
     "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
     "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
     "previous_event_matched": false,
@@ -692,8 +665,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-09T06:21:46.888381+00:00",
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:56:11.931382+00:00",
         "lifecycle": "emerging",
         "priority_score": 75,
         "confidence_score": 39,
@@ -705,294 +678,31 @@
     ],
     "evidence": [
       {
-        "id": "f7fd863417487b1cba22",
+        "id": "47c4f65cc2cf65eac8d6",
         "origin_type": "news",
-        "source": "Daily Trust",
+        "source": "Morocco World News",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Bandits burn 12 family members Twelve members of the same family have been killed after armed bandits set their residence ablaze during an attack on Gidan Taba village in Maradun…",
-        "url": "https://dailytrust.com/bandits-burn-12-family-members",
+        "title": "Krakow Shooting Suspect Dies in Hospital Two Days After Attack That Killed Six",
+        "url": "https://www.moroccoworldnews.com/2026/11/345535/krakow-shooting-suspect-dies-in-hospital-two-days-after-attack-that-killed-six/",
         "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
         "relation": "potential",
         "confidence": 62,
-        "publisher_family": "dailytrust.com"
+        "publisher_family": "moroccoworldnews.com"
       }
     ],
-    "title_original": "Bandits burn 12 family members Twelve members of the same family have been killed after armed bandits set their residence ablaze during an attack on Gidan Taba village in Maradun…",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
-    "title_en": "Bandits burn 12 family members Twelve members of the same family have been killed after armed bandits set their residence ablaze during an attack on Gidan Taba village in Maradun…",
-    "title_zh": "Bandits burn 12 family members Twelve members of the same family have been killed after armed bandits set their residence ablaze during an attack on Gidan Taba village in Maradun…",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Nigeria; China-related interests = railways, ports, telecommunications, petroleum, Chinese-funded enterprises and personnel security; Chinese-related entities/projects = CCECC, Huawei, Lekki-related Chinese investment"
+    "title_original": "Krakow Shooting Suspect Dies in Hospital Two Days After Attack That Killed Six",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Morocco; 中国关联利益=磷矿, 电动汽车供应链, 北非制造, 港口; 中国关联实体/项目=Chinese battery material investment",
+    "title_en": "Krakow Shooting Suspect Dies in Hospital Two Days After Attack That Killed Six",
+    "title_zh": "Krakow Shooting Suspect Dies in Hospital Two Days After Attack That Killed Six",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Morocco; 中国关联利益=磷矿, 电动汽车供应链, 北非制造, 港口; 中国关联实体/项目=Chinese battery material investment",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Morocco."
   },
   {
-    "id": "ed48007379b64057b304",
-    "title": "Saudi Aramco tower damaged in Houthi strike (VIDEOS) The skyscraper housing offices of the state-owned oil giant suffered only “minor damage” with no casualties, according to Riyadh",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security",
-      "labor_social"
-    ],
-    "matched_risk_terms": [
-      "casualties",
-      "strike"
-    ],
-    "severity": "high",
-    "priority_score": 75,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 95,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-09T06:21:46.888381+00:00",
-    "last_seen": "2026-11-09T06:21:46.888381+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Russia"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-09T06:21:46.888381+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 75,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "5902e70d1472d8cb5cc2",
-        "origin_type": "news",
-        "source": "RT",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Saudi Aramco tower damaged in Houthi strike (VIDEOS) The skyscraper housing offices of the state-owned oil giant suffered only “minor damage” with no casualties, according to Riyadh",
-        "url": "https://rt-english.com/news/648584-saudi-aramco-tower-damaged/",
-        "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "rt-english.com"
-      }
-    ],
-    "title_original": "Saudi Aramco tower damaged in Houthi strike (VIDEOS) The skyscraper housing offices of the state-owned oil giant suffered only “minor damage” with no casualties, according to Riyadh",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
-    "title_en": "Saudi Aramco tower damaged in Houthi strike (VIDEOS) The skyscraper housing offices of the state-owned oil giant suffered only “minor damage” with no casualties, according to Riyadh",
-    "title_zh": "Saudi Aramco tower damaged in Houthi strike (VIDEOS) The skyscraper housing offices of the state-owned oil giant suffered only “minor damage” with no casualties, according to Riyadh",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Russia; China-related interests = Sino-Russian relations, energy, Far East, cross-border trade, military cooperation, Arctic, Central Asia, personnel and labor; China-related entities/projects = Power of Siberia, Yamal LNG China exposure, China-Russia border trade"
-  },
-  {
-    "id": "41c1bde1fda3e63f5fc7",
-    "title": "Iran reports no casualties, infrastructure damage after US strikes on Qeshm 10:10 (UTC+04) Iran",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security"
-    ],
-    "matched_risk_terms": [
-      "casualties"
-    ],
-    "severity": "high",
-    "priority_score": 75,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 95,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-09T06:21:46.888381+00:00",
-    "last_seen": "2026-11-09T06:21:46.888381+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Azerbaijan"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Azerbaijan; 中国关联利益=能源, 中间走廊, 里海物流, 中亚联通; 中国关联实体/项目=Middle Corridor | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-09T06:21:46.888381+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 75,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "f9ef11313c84c5856b0d",
-        "origin_type": "news",
-        "source": "Trend News Agency",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Iran reports no casualties, infrastructure damage after US strikes on Qeshm 10:10 (UTC+04) Iran",
-        "url": "https://www.trend.az/iran/4244580.html",
-        "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "trend.az"
-      }
-    ],
-    "title_original": "Iran reports no casualties, infrastructure damage after US strikes on Qeshm 10:10 (UTC+04) Iran",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Azerbaijan; 中国关联利益=能源, 中间走廊, 里海物流, 中亚联通; 中国关联实体/项目=Middle Corridor | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
-    "title_en": "Iran reports no casualties, infrastructure damage after US strikes on Qeshm 10:10 (UTC+04) Iran",
-    "title_zh": "Iran reports no casualties, infrastructure damage after US strikes on Qeshm 10:10 (UTC+04) Iran",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Azerbaijan; 中国关联利益=能源, 中间走廊, 里海物流, 中亚联通; 中国关联实体/项目=Middle Corridor | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Azerbaijan."
-  },
-  {
-    "id": "63c1a9942e7190e9d0fb",
-    "title": "Fire in China’s Shanxi province apartment building kills 14",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "安全生产",
-    "risk_category": "safety_production_domestic",
-    "risk_category_en": "Safety & Production",
-    "risk_categories": [
-      "safety_production_domestic"
-    ],
-    "matched_risk_terms": [
-      "fire"
-    ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 97,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-09T06:21:46.888381+00:00",
-    "last_seen": "2026-11-09T06:21:46.888381+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Sri Lanka"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "安全生产信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Safety & Production signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-09T06:21:46.888381+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "f6d1c5f82a687f863836",
-        "origin_type": "news",
-        "source": "Daily Mirror Sri Lanka",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Fire in China’s Shanxi province apartment building kills 14",
-        "url": "https://www.dailymirror.lk/international/Fire-in-Chinas-Shanxi-province-apartment-building-kills-14/107-354458",
-        "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "dailymirror.lk"
-      }
-    ],
-    "title_original": "Fire in China’s Shanxi province apartment building kills 14",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Fire in China’s Shanxi province apartment building kills 14",
-    "title_zh": "Fire in China’s Shanxi province apartment building kills 14",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "1972a4e96929336cae88",
-    "title": "Malaysia-Taiwan fraying ties threaten future chip investments",
+    "id": "19e7a54df5b6247a6773",
+    "title": "Chip boss, China spy, secret affair: What happened?",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -1008,8 +718,8 @@
     ],
     "severity": "low",
     "priority_score": 74,
-    "confidence_score": 52,
-    "importance_score": 44,
+    "confidence_score": 39,
+    "importance_score": 40,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
@@ -1017,8 +727,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-09T06:21:46.888381+00:00",
-    "last_seen": "2026-11-09T06:21:46.888381+00:00",
+    "first_seen": "2026-11-09T12:56:11.931382+00:00",
+    "last_seen": "2026-11-09T12:56:11.931382+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1026,7 +736,7 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Japan"
+      "India"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -1042,97 +752,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-09T06:21:46.888381+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "2fa28143596b63663492",
-        "origin_type": "news",
-        "source": "Nikkei Asia",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Malaysia-Taiwan fraying ties threaten future chip investments",
-        "url": "https://asia.nikkei.com/politics/international-relations/malaysia-taiwan-fraying-ties-threaten-future-chip-investments",
-        "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "nikkei"
-      }
-    ],
-    "title_original": "Malaysia-Taiwan fraying ties threaten future chip investments",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Malaysia-Taiwan fraying ties threaten future chip investments",
-    "title_zh": "Malaysia-Taiwan fraying ties threaten future chip investments",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "c2afc31ec0578d298924",
-    "title": "Woman arrested at anti-Israel protest in Toronto Jewish neighbourhood",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security",
-      "labor_social"
-    ],
-    "matched_risk_terms": [
-      "arrested",
-      "protest"
-    ],
-    "severity": "high",
-    "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 95,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-09T06:21:46.888381+00:00",
-    "last_seen": "2026-11-09T06:21:46.888381+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Canada"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei | 事件关联地区=Israel; 中国关联利益=科技, 港口, 中东安全, 中美科技竞争, 基础设施; 中国关联实体/项目=Haifa port China-related discussions, Israeli tech investment",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-09T06:21:46.888381+00:00",
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:56:11.931382+00:00",
         "lifecycle": "emerging",
         "priority_score": 74,
         "confidence_score": 39,
@@ -1144,57 +765,57 @@
     ],
     "evidence": [
       {
-        "id": "40996daa6cff0877656d",
+        "id": "959767951e18aecf9a02",
         "origin_type": "news",
-        "source": "National Post",
+        "source": "The Economic Times",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Woman arrested at anti-Israel protest in Toronto Jewish neighbourhood",
-        "url": "https://nationalpost.com/news/canada/woman-arrested-at-anti-israel-protest-in-toronto-jewish-neighbourhood/",
+        "title": "Chip boss, China spy, secret affair: What happened?",
+        "url": "https://economictimes.indiatimes.com/news/international/business/nvidia-ceo-jensen-huangs-secret-affair-with-china-spy-alice-huang-all-you-need-to-know-about-the-controversy/articleshow/135673041.cms",
         "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "nationalpost.com"
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "economictimes.indiatimes.com"
       }
     ],
-    "title_original": "Woman arrested at anti-Israel protest in Toronto Jewish neighbourhood",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei | 事件关联地区=Israel; 中国关联利益=科技, 港口, 中东安全, 中美科技竞争, 基础设施; 中国关联实体/项目=Haifa port China-related discussions, Israeli tech investment",
-    "title_en": "Woman arrested at anti-Israel protest in Toronto Jewish neighbourhood",
-    "title_zh": "Woman arrested at anti-Israel protest in Toronto Jewish neighbourhood",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei | 事件关联地区=Israel; 中国关联利益=科技, 港口, 中东安全, 中美科技竞争, 基础设施; 中国关联实体/项目=Haifa port China-related discussions, Israeli tech investment",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Canada."
+    "title_original": "Chip boss, China spy, secret affair: What happened?",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Chip boss, China spy, secret affair: What happened?",
+    "title_zh": "Chip boss, China spy, secret affair: What happened?",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "c98dc051545d48a3f50d",
-    "title": "Fire in northern China high-rise building kills 14, injures dozens more",
-    "language": "en",
+    "id": "ed0a8c8c8ed0ccee61b5",
+    "title": "El Gobierno pide a la Fiscalía investigar los presuntos casos de abuso sexual infantil en TikTok y se plantea suspender la plataforma en España",
+    "language": "es",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "安全生产",
-    "risk_category": "safety_production_domestic",
-    "risk_category_en": "Safety & Production",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
     "risk_categories": [
-      "safety_production_domestic"
+      "tech_controls"
     ],
     "matched_risk_terms": [
-      "fire"
+      "TikTok"
     ],
     "severity": "low",
     "priority_score": 74,
-    "confidence_score": 52,
-    "importance_score": 43,
+    "confidence_score": 39,
+    "importance_score": 40,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
-    "exposure_score": 97,
-    "freshness_score": 93,
+    "exposure_score": 91,
+    "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-09T04:44:16+00:00",
-    "last_seen": "2026-11-09T04:44:16+00:00",
+    "first_seen": "2026-11-09T12:56:11.931382+00:00",
+    "last_seen": "2026-11-09T12:56:11.931382+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1202,12 +823,12 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Hong Kong"
+      "Spain"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "安全生产信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Safety & Production signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -1218,10 +839,184 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-09T04:44:16+00:00",
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:56:11.931382+00:00",
         "lifecycle": "emerging",
         "priority_score": 74,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "90b4f24c3de8e8b3921f",
+        "origin_type": "news",
+        "source": "EFE",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "El Gobierno pide a la Fiscalía investigar los presuntos casos de abuso sexual infantil en TikTok y se plantea suspender la plataforma en España",
+        "url": "https://efe.com/espana/2026-11-09/fiscalia-abusos-sexuales-ninos-tik-tok/",
+        "published_at": null,
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "efe.com"
+      }
+    ],
+    "title_original": "El Gobierno pide a la Fiscalía investigar los presuntos casos de abuso sexual infantil en TikTok y se plantea suspender la plataforma en España",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "El Gobierno pide a la Fiscalía investigar los presuntos casos de abuso sexual infantil en TikTok y se plantea suspender la plataforma en España",
+    "title_zh": "El Gobierno pide a la Fiscalía investigar los presuntos casos de abuso sexual infantil en TikTok y se plantea suspender la plataforma en España",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "6d8808f4e0f2fb1f0e11",
+    "title": "Maldita.es detecta mil vídeos de abuso infantil en TikTok y 20.000 potenciales pedófilos",
+    "language": "es",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "TikTok"
+    ],
+    "severity": "low",
+    "priority_score": 74,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 91,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-09T12:56:11.931382+00:00",
+    "last_seen": "2026-11-09T12:56:11.931382+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Spain"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:56:11.931382+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "c8c48b29dd3323d2a0e9",
+        "origin_type": "news",
+        "source": "EFE",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Maldita.es detecta mil vídeos de abuso infantil en TikTok y 20.000 potenciales pedófilos",
+        "url": "https://efe.com/mundo/2026-11-09/maldita-es-videos-abuso-infantil-tiktok/",
+        "published_at": null,
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "efe.com"
+      }
+    ],
+    "title_original": "Maldita.es detecta mil vídeos de abuso infantil en TikTok y 20.000 potenciales pedófilos",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Maldita.es detecta mil vídeos de abuso infantil en TikTok y 20.000 potenciales pedófilos",
+    "title_zh": "Maldita.es detecta mil vídeos de abuso infantil en TikTok y 20.000 potenciales pedófilos",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "0d4612be3d4197776bfd",
+    "title": "习近平总书记深刻指出：“从严治党要靠思想教育，更要靠制度保障，靠制度是长远之策、根本之策，这是一条重要经验。”",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "民生治理",
+    "risk_category": "livelihood_governance",
+    "risk_category_en": "Livelihood & Governance",
+    "risk_categories": [
+      "livelihood_governance"
+    ],
+    "matched_risk_terms": [
+      "教育"
+    ],
+    "severity": "low",
+    "priority_score": 73,
+    "confidence_score": 52,
+    "importance_score": 44,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 81,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-09T12:56:11.931382+00:00",
+    "last_seen": "2026-11-09T12:56:11.931382+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "民生治理信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Livelihood & Governance signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:56:11.931382+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
         "confidence_score": 52,
         "novelty_score": 100,
         "momentum_score": 55,
@@ -1231,130 +1026,118 @@
     ],
     "evidence": [
       {
-        "id": "ed2415b0ad76105e187f",
+        "id": "c2ff8ed335c103b0ac73",
         "origin_type": "news",
-        "source": "South China Morning Post (SCMP)",
+        "source": "新华社 Xinhua",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Fire in northern China high-rise building kills 14, injures dozens more",
-        "url": "https://www.scmp.com/news/china/politics/article/3373750/fire-northern-china-high-rise-building-kills-14-injures-dozens-more",
-        "published_at": "2026-11-09T04:44:16+00:00",
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
+        "title": "习近平总书记深刻指出：“从严治党要靠思想教育，更要靠制度保障，靠制度是长远之策、根本之策，这是一条重要经验。”",
+        "url": "https://www.news.cn/politics/leaders/20261109/10580332d89945cb8b6cccd975d50c2b/c.html",
+        "published_at": null,
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "scmp"
+        "publisher_family": "xinhua"
       }
     ],
-    "title_original": "Fire in northern China high-rise building kills 14, injures dozens more",
+    "title_original": "习近平总书记深刻指出：“从严治党要靠思想教育，更要靠制度保障，靠制度是长远之策、根本之策，这是一条重要经验。”",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Fire in northern China high-rise building kills 14, injures dozens more",
-    "title_zh": "Fire in northern China high-rise building kills 14, injures dozens more",
+    "title_zh": "习近平总书记深刻指出：“从严治党要靠思想教育，更要靠制度保障，靠制度是长远之策、根本之策，这是一条重要经验。”",
+    "title_en": "习近平总书记深刻指出：“从严治党要靠思想教育，更要靠制度保障，靠制度是长远之策、根本之策，这是一条重要经验。”",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Hong Kong."
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "db700bde73c4f5e49cae",
-    "title": "Japan works to shield Takaichi from any Xi snub at China summit",
+    "id": "615c747f76abcd72b822",
+    "title": "Japan's Sakana AI to build homegrown model to cut US, China reliance",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "外交/制裁",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
+    "category": "科技与青年",
+    "risk_category": "technology_youth",
+    "risk_category_en": "Technology & Youth",
+    "risk_categories": [
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "AI"
+    ],
     "severity": "low",
-    "priority_score": 72,
-    "confidence_score": 45,
-    "importance_score": 43,
+    "priority_score": 71,
+    "confidence_score": 52,
+    "importance_score": 44,
     "china_relevance_score": 100,
     "novelty_score": 100,
-    "momentum_score": 63,
-    "exposure_score": 60,
+    "momentum_score": 55,
+    "exposure_score": 67,
     "freshness_score": 100,
-    "corroboration_score": 40,
+    "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-09T06:21:46.888381+00:00",
-    "last_seen": "2026-11-09T06:21:46.888381+00:00",
-    "source_count": 2,
-    "evidence_count": 2,
-    "news_count": 2,
+    "first_seen": "2026-11-09T12:56:11.931382+00:00",
+    "last_seen": "2026-11-09T12:56:11.931382+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
     "social_count": 0,
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Japan",
-      "Malaysia"
+      "Japan"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "外交/制裁信号；近期首次进入事件池；新增2条独立信息链；新颖度100 / 动量63。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 2 new independent source chain(s); novelty 100 / momentum 63.",
+    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
-      "new_sources": 2,
-      "new_evidence": 2,
+      "new_sources": 1,
+      "new_evidence": 1,
       "severity_change": 0,
       "official_added": false
     },
     "history": [
       {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-09T06:21:46.888381+00:00",
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:56:11.931382+00:00",
         "lifecycle": "emerging",
-        "priority_score": 72,
-        "confidence_score": 45,
+        "priority_score": 71,
+        "confidence_score": 52,
         "novelty_score": 100,
-        "momentum_score": 63,
-        "source_count": 2,
-        "evidence_count": 2
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
       {
-        "id": "6d20ec5bdd07cbf4e1d2",
+        "id": "443ae32f3c76eba135f4",
         "origin_type": "news",
-        "source": "The Japan Times",
+        "source": "Nikkei Asia",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Japan works to shield Takaichi from any Xi snub at China summit",
-        "url": "https://www.japantimes.co.jp/news/2026/11/09/japan/politics/japan-takaichi-xi-china-summit/",
+        "title": "Japan's Sakana AI to build homegrown model to cut US, China reliance",
+        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-sakana-ai-to-build-homegrown-model-to-cut-us-china-reliance",
         "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "japantimes.co.jp"
-      },
-      {
-        "id": "05f86bdb8d77a9a6af82",
-        "origin_type": "news",
-        "source": "The Star Malaysia",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Japan works to shield Takaichi from any Xi snub at China's APEC summit",
-        "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/09/japan-works-to-shield-takaichi-from-any-xi-snub-at-china039s-apec-summit",
-        "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "thestar.com.my"
+        "publisher_family": "nikkei"
       }
     ],
-    "title_original": "Japan works to shield Takaichi from any Xi snub at China summit",
+    "title_original": "Japan's Sakana AI to build homegrown model to cut US, China reliance",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Japan works to shield Takaichi from any Xi snub at China summit",
-    "title_zh": "Japan works to shield Takaichi from any Xi snub at China summit",
+    "title_en": "Japan's Sakana AI to build homegrown model to cut US, China reliance",
+    "title_zh": "Japan's Sakana AI to build homegrown model to cut US, China reliance",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Japan, Malaysia."
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "82413fa2d83e20a73e2d",
-    "title": "Beijing global media summit launches AI Newsroom standards",
+    "id": "d54b1f6a32fec32bfae3",
+    "title": "Spy plot claims ensnare rock star CEO, a Trump ally who tried to bridge AI divide with China",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -1379,8 +1162,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-09T06:21:46.888381+00:00",
-    "last_seen": "2026-11-09T06:21:46.888381+00:00",
+    "first_seen": "2026-11-09T12:56:11.931382+00:00",
+    "last_seen": "2026-11-09T12:56:11.931382+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1388,7 +1171,7 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Zambia"
+      "United States"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -1404,8 +1187,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-09T06:21:46.888381+00:00",
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:56:11.931382+00:00",
         "lifecycle": "emerging",
         "priority_score": 71,
         "confidence_score": 39,
@@ -1417,57 +1200,57 @@
     ],
     "evidence": [
       {
-        "id": "aa7548b38ff66a34898d",
+        "id": "67f1dae0af7513cd2332",
         "origin_type": "news",
-        "source": "Lusaka Times",
+        "source": "NBC News",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Beijing global media summit launches AI Newsroom standards",
-        "url": "https://www.lusakatimes.com/2026/11/09/beijing-global-media-summit-launches-ai-newsroom-standards/",
+        "title": "Spy plot claims ensnare rock star CEO, a Trump ally who tried to bridge AI divide with China",
+        "url": "https://www.nbcnews.com/world/asia/nvidia-jensen-huang-china-dismisses-spy-plot-allegations-ai-rcna608249",
         "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "lusakatimes.com"
+        "publisher_family": "nbcnews.com"
       }
     ],
-    "title_original": "Beijing global media summit launches AI Newsroom standards",
+    "title_original": "Spy plot claims ensnare rock star CEO, a Trump ally who tried to bridge AI divide with China",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Beijing global media summit launches AI Newsroom standards",
-    "title_zh": "Beijing global media summit launches AI Newsroom standards",
+    "title_en": "Spy plot claims ensnare rock star CEO, a Trump ally who tried to bridge AI divide with China",
+    "title_zh": "Spy plot claims ensnare rock star CEO, a Trump ally who tried to bridge AI divide with China",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Zambia."
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "c9a7161dbce6df56e0ba",
-    "title": "英伟达先进芯片流向中国“空壳”公司",
-    "language": "zh",
+    "id": "25778f40bfdb951952e9",
+    "title": "China ‘sexpionage scandal’ threatens West’s AI dominance",
+    "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
+    "category": "科技与青年",
+    "risk_category": "technology_youth",
+    "risk_category_en": "Technology & Youth",
     "risk_categories": [
-      "tech_controls"
+      "technology_youth"
     ],
     "matched_risk_terms": [
-      "芯片"
+      "AI"
     ],
     "severity": "low",
     "priority_score": 71,
-    "confidence_score": 52,
-    "importance_score": 36,
+    "confidence_score": 39,
+    "importance_score": 40,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 47,
+    "exposure_score": 67,
+    "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-08T17:43:30+00:00",
-    "last_seen": "2026-11-08T17:43:30+00:00",
+    "first_seen": "2026-11-09T12:56:11.931382+00:00",
+    "last_seen": "2026-11-09T12:56:11.931382+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1475,12 +1258,12 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "United States"
+      "United Kingdom"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -1491,11 +1274,11 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-08T17:43:30+00:00",
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:56:11.931382+00:00",
         "lifecycle": "emerging",
         "priority_score": 71,
-        "confidence_score": 52,
+        "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
         "source_count": 1,
@@ -1504,32 +1287,135 @@
     ],
     "evidence": [
       {
-        "id": "9927f0e202f402953942",
+        "id": "1a0b347bd12e4f57092a",
         "origin_type": "news",
-        "source": "纽约时报中文网 NYT Chinese",
+        "source": "The Telegraph",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "英伟达先进芯片流向中国“空壳”公司",
-        "url": "https://cn.nytimes.com/business/20261109/nvidia-chips-chinese-firms/?utm_source=RSS",
-        "published_at": "2026-11-08T17:43:30+00:00",
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
+        "title": "China ‘sexpionage scandal’ threatens West’s AI dominance",
+        "url": "https://www.telegraph.co.uk/world-news/2026/11/09/china-sexpionage-scandal-threatens-western-ai/",
+        "published_at": null,
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "nyt"
+        "publisher_family": "telegraph.co.uk"
       }
     ],
-    "title_original": "英伟达先进芯片流向中国“空壳”公司",
+    "title_original": "China ‘sexpionage scandal’ threatens West’s AI dominance",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "英伟达先进芯片流向中国“空壳”公司",
-    "title_en": "英伟达先进芯片流向中国“空壳”公司",
+    "title_en": "China ‘sexpionage scandal’ threatens West’s AI dominance",
+    "title_zh": "China ‘sexpionage scandal’ threatens West’s AI dominance",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: United States."
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "36bdcc33e35dac4c617c",
-    "title": "「不実を謝罪」エヌビディアのフアンCEO、中国スパイ女性標的か 取締役会が調査",
-    "language": "ja",
+    "id": "ee388ce079f8327beccb",
+    "title": "南京大学斥资3千万引AI系统监控学生 挨轰",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技与青年",
+    "risk_category": "technology_youth",
+    "risk_category_en": "Technology & Youth",
+    "risk_categories": [
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "AI"
+    ],
+    "severity": "low",
+    "priority_score": 71,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 67,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-09T12:53:04+00:00",
+    "last_seen": "2026-11-09T12:53:04+00:00",
+    "source_count": 1,
+    "evidence_count": 2,
+    "news_count": 2,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Global",
+      "China"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 2,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:53:04+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 71,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 2
+      }
+    ],
+    "evidence": [
+      {
+        "id": "4395513a7350591308ec",
+        "origin_type": "news",
+        "source": "大纪元 Epoch Times · 即时",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "南京大学斥资3千万引AI系统监控学生 挨轰",
+        "url": "https://feed.epochtimes.com/gb/26/11/9/n14885900.htm",
+        "published_at": "2026-11-09T12:53:04+00:00",
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "epochtimes"
+      },
+      {
+        "id": "488b5ac0f0cb2e9d59d1",
+        "origin_type": "news",
+        "source": "大纪元 Epoch Times · 大陆",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "南京大学斥资3千万引AI系统监控学生 挨轰",
+        "url": "https://www.epochtimes.com/gb/26/11/9/n14885900.htm",
+        "published_at": "2026-11-09T12:53:04+00:00",
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "epochtimes"
+      }
+    ],
+    "title_original": "南京大学斥资3千万引AI系统监控学生 挨轰",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "南京大学斥资3千万引AI系统监控学生 挨轰",
+    "title_en": "南京大学斥资3千万引AI系统监控学生 挨轰",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Global, China."
+  },
+  {
+    "id": "0aeb23d7380244a23611",
+    "title": "U.S., China, Russia leaders to meet next week, says Trump; Beijing says ‘in communication with parties’",
+    "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
@@ -1549,8 +1435,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-09T06:21:46.888381+00:00",
-    "last_seen": "2026-11-09T06:21:46.888381+00:00",
+    "first_seen": "2026-11-09T12:56:11.931382+00:00",
+    "last_seen": "2026-11-09T12:56:11.931382+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1558,7 +1444,7 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Japan"
+      "India"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -1574,8 +1460,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-09T06:21:48.142413+00:00",
-        "last_seen": "2026-11-09T06:21:46.888381+00:00",
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:56:11.931382+00:00",
         "lifecycle": "emerging",
         "priority_score": 70,
         "confidence_score": 39,
@@ -1587,26 +1473,109 @@
     ],
     "evidence": [
       {
-        "id": "6e8f86dc6c4584db04e1",
+        "id": "aa5f0ce45113f514600b",
         "origin_type": "news",
-        "source": "Sankei",
+        "source": "The Hindu",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "「不実を謝罪」エヌビディアのフアンCEO、中国スパイ女性標的か 取締役会が調査",
-        "url": "https://www.sankei.com/article/20261109-234F6VC5TFLO7KJVYR2SUVVQWY/?outputType=asynd",
+        "title": "U.S., China, Russia leaders to meet next week, says Trump; Beijing says ‘in communication with parties’",
+        "url": "https://www.thehindu.com/news/international/us-china-russia-leaders-to-meet-next-week-says-trump-beijing-says-in-communication-with-parties/article71682111.ece",
         "published_at": null,
-        "collected_at": "2026-11-09T06:21:46.888381+00:00",
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "sankei.com"
+        "publisher_family": "thehindu.com"
       }
     ],
-    "title_original": "「不実を謝罪」エヌビディアのフアンCEO、中国スパイ女性標的か 取締役会が調査",
+    "title_original": "U.S., China, Russia leaders to meet next week, says Trump; Beijing says ‘in communication with parties’",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "「不実を謝罪」エヌビディアのフアンCEO、中国スパイ女性標的か 取締役会が調査",
-    "title_zh": "「不実を謝罪」エヌビディアのフアンCEO、中国スパイ女性標的か 取締役会が調査",
+    "title_en": "U.S., China, Russia leaders to meet next week, says Trump; Beijing says ‘in communication with parties’",
+    "title_zh": "U.S., China, Russia leaders to meet next week, says Trump; Beijing says ‘in communication with parties’",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Japan."
+    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: India."
+  },
+  {
+    "id": "9d0da539cdca93aeee6b",
+    "title": "Untangling Nvidia chief Jensen Huang’s Chinese spy connection",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "其他",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "low",
+    "priority_score": 70,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 60,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-09T12:56:11.931382+00:00",
+    "last_seen": "2026-11-09T12:56:11.931382+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "India"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "其他信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-09T12:56:14.088228+00:00",
+        "last_seen": "2026-11-09T12:56:11.931382+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 70,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "3741a5cbb19fc9b1868f",
+        "origin_type": "news",
+        "source": "The Hindu",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Untangling Nvidia chief Jensen Huang’s Chinese spy connection",
+        "url": "https://www.thehindu.com/sci-tech/technology/untangling-nvidia-chief-jensen-huangs-chinese-spy-connection/article71681955.ece",
+        "published_at": null,
+        "collected_at": "2026-11-09T12:56:11.931382+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "thehindu.com"
+      }
+    ],
+    "title_original": "Untangling Nvidia chief Jensen Huang’s Chinese spy connection",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Untangling Nvidia chief Jensen Huang’s Chinese spy connection",
+    "title_zh": "Untangling Nvidia chief Jensen Huang’s Chinese spy connection",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: India."
   }
 ]
