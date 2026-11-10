@@ -1,7 +1,95 @@
 [
   {
-    "id": "188809fc9a828740674f",
-    "title": "Minibus driver arrested in Hong Kong for alleged drug driving while carrying passengers",
+    "id": "10fca45859f79cb07d83",
+    "title": "美国长期对古巴实施经济、金融封锁和贸易禁运。今年美国对委内瑞拉、伊朗相继发起军事行动后，特朗普曾多次威胁称，“下一个是古巴”。",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "军事安全",
+    "risk_category": "military_security",
+    "risk_category_en": "Military & Security",
+    "risk_categories": [
+      "military_security",
+      "overseas_projects"
+    ],
+    "matched_risk_terms": [
+      "封锁"
+    ],
+    "severity": "critical",
+    "priority_score": 95,
+    "confidence_score": 39,
+    "importance_score": 77,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 100,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-10T12:42:49.745975+00:00",
+    "last_seen": "2026-11-10T12:42:49.745975+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-10T12:42:49.745975+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 95,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "69e49c9dfc2131af1e4e",
+        "origin_type": "news",
+        "source": "中国日报中文 China Daily Chinese",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "美国长期对古巴实施经济、金融封锁和贸易禁运。今年美国对委内瑞拉、伊朗相继发起军事行动后，特朗普曾多次威胁称，“下一个是古巴”。",
+        "url": "https://cn.chinadaily.com.cn/a/202611/10/WS6af3014ae4b0e14252fca536.html",
+        "published_at": null,
+        "collected_at": "2026-11-10T12:42:49.745975+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "chinadaily"
+      }
+    ],
+    "title_original": "美国长期对古巴实施经济、金融封锁和贸易禁运。今年美国对委内瑞拉、伊朗相继发起军事行动后，特朗普曾多次威胁称，“下一个是古巴”。",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_zh": "美国长期对古巴实施经济、金融封锁和贸易禁运。今年美国对委内瑞拉、伊朗相继发起军事行动后，特朗普曾多次威胁称，“下一个是古巴”。",
+    "title_en": "美国长期对古巴实施经济、金融封锁和贸易禁运。今年美国对委内瑞拉、伊朗相继发起军事行动后，特朗普曾多次威胁称，“下一个是古巴”。",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
+  },
+  {
+    "id": "6ee8ab4f428993f5d278",
+    "title": "China hands over remains of US airmen killed during World War II supply missions",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -13,21 +101,21 @@
       "personnel_security"
     ],
     "matched_risk_terms": [
-      "arrested"
+      "killed"
     ],
     "severity": "high",
-    "priority_score": 87,
+    "priority_score": 88,
     "confidence_score": 52,
     "importance_score": 69,
     "china_relevance_score": 100,
     "novelty_score": 100,
-    "momentum_score": 55,
+    "momentum_score": 65,
     "exposure_score": 100,
-    "freshness_score": 96,
+    "freshness_score": 97,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-10T06:13:44+00:00",
-    "last_seen": "2026-11-10T06:13:44+00:00",
+    "first_seen": "2026-11-10T12:00:28+00:00",
+    "last_seen": "2026-11-10T12:00:28+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -39,8 +127,8 @@
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -51,44 +139,44 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-10T07:14:58.918269+00:00",
-        "last_seen": "2026-11-10T06:13:44+00:00",
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-10T12:00:28+00:00",
         "lifecycle": "emerging",
-        "priority_score": 87,
+        "priority_score": 88,
         "confidence_score": 52,
         "novelty_score": 100,
-        "momentum_score": 55,
+        "momentum_score": 65,
         "source_count": 1,
         "evidence_count": 1
       }
     ],
     "evidence": [
       {
-        "id": "b1a52071b78de167c5de",
+        "id": "aff8fc3efaeb8f5a4fc7",
         "origin_type": "news",
         "source": "South China Morning Post (SCMP)",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Minibus driver arrested in Hong Kong for alleged drug driving while carrying passengers",
-        "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373899/minibus-driver-arrested-hong-kong-alleged-drug-driving-while-carrying-passengers",
-        "published_at": "2026-11-10T06:13:44+00:00",
-        "collected_at": "2026-11-10T07:14:56.761697+00:00",
+        "title": "China hands over remains of US airmen killed during World War II supply missions",
+        "url": "https://www.scmp.com/news/china/diplomacy/article/3373945/china-hands-over-remains-us-airmen-killed-during-world-war-ii-supply-missions",
+        "published_at": "2026-11-10T12:00:28+00:00",
+        "collected_at": "2026-11-10T12:42:49.745975+00:00",
         "relation": "direct",
         "confidence": 94,
         "publisher_family": "scmp"
       }
     ],
-    "title_original": "Minibus driver arrested in Hong Kong for alleged drug driving while carrying passengers",
+    "title_original": "China hands over remains of US airmen killed during World War II supply missions",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Minibus driver arrested in Hong Kong for alleged drug driving while carrying passengers",
-    "title_zh": "Minibus driver arrested in Hong Kong for alleged drug driving while carrying passengers",
+    "title_en": "China hands over remains of US airmen killed during World War II supply missions",
+    "title_zh": "China hands over remains of US airmen killed during World War II supply missions",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "4dd960c3da5fdc6f0f8f",
-    "title": "Nvidia CEO is in Congress’ sights after spy scandal Lawmakers are eyeing stricter export controls that would limit company chip sales to Beijing, as well as investigations.",
+    "id": "cd69ad44fcb62d81d28c",
+    "title": "Energy US solar learns to live without China Texas solar manufacturer T1 Energy is racing toward a China-free supply chain — but it’s not there yet.",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -100,12 +188,12 @@
       "tech_controls"
     ],
     "matched_risk_terms": [
-      "chip"
+      "solar"
     ],
-    "severity": "high",
-    "priority_score": 86,
+    "severity": "medium",
+    "priority_score": 80,
     "confidence_score": 39,
-    "importance_score": 65,
+    "importance_score": 52,
     "china_relevance_score": 100,
     "novelty_score": 100,
     "momentum_score": 55,
@@ -113,8 +201,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-10T07:14:56.761697+00:00",
-    "last_seen": "2026-11-10T07:14:56.761697+00:00",
+    "first_seen": "2026-11-10T12:42:49.745975+00:00",
+    "last_seen": "2026-11-10T12:42:49.745975+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -138,6 +226,369 @@
     },
     "history": [
       {
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-10T12:42:49.745975+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 80,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "f866eebf4e99e713447b",
+        "origin_type": "news",
+        "source": "Semafor",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Energy US solar learns to live without China Texas solar manufacturer T1 Energy is racing toward a China-free supply chain — but it’s not there yet.",
+        "url": "https://www.semafor.com/article/11/10/2026/us-solar-learns-to-live-without-china",
+        "published_at": null,
+        "collected_at": "2026-11-10T12:42:49.745975+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "semafor.com"
+      }
+    ],
+    "title_original": "Energy US solar learns to live without China Texas solar manufacturer T1 Energy is racing toward a China-free supply chain — but it’s not there yet.",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Energy US solar learns to live without China Texas solar manufacturer T1 Energy is racing toward a China-free supply chain — but it’s not there yet.",
+    "title_zh": "Energy US solar learns to live without China Texas solar manufacturer T1 Energy is racing toward a China-free supply chain — but it’s not there yet.",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "7e981a84ff69ec9e8d1a",
+    "title": "半导体概念盘中走强 ， 美股费城半导体指数涨近7 % |异动情报 _ 东方财富网",
+    "language": "Chinese",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "半导体"
+    ],
+    "severity": "medium",
+    "priority_score": 79,
+    "confidence_score": 45,
+    "importance_score": 51,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 63,
+    "exposure_score": 91,
+    "freshness_score": 68,
+    "corroboration_score": 40,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-10T03:30:00+00:00",
+    "last_seen": "2026-11-10T05:00:00+00:00",
+    "source_count": 2,
+    "evidence_count": 2,
+    "news_count": 2,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增2条独立信息链；新颖度100 / 动量63。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 2 new independent source chain(s); novelty 100 / momentum 63.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 2,
+      "new_evidence": 2,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-10T05:00:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 79,
+        "confidence_score": 45,
+        "novelty_score": 100,
+        "momentum_score": 63,
+        "source_count": 2,
+        "evidence_count": 2
+      }
+    ],
+    "evidence": [
+      {
+        "id": "f2fc0ea931f206cb5bde",
+        "origin_type": "news",
+        "source": "finance.eastmoney.com",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "半导体概念盘中走强 ， 美股费城半导体指数涨近7 % |异动情报 _ 东方财富网",
+        "url": "https://finance.eastmoney.com/a/202611103927151828.html",
+        "published_at": "2026-11-10T05:00:00+00:00",
+        "collected_at": "2026-11-10T12:42:49.745975+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "finance.eastmoney.com"
+      },
+      {
+        "id": "15bb86662a4d52ca9323",
+        "origin_type": "news",
+        "source": "163.com",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "半导体概念盘中走强 ， 美股费城半导体指数涨近7 % ｜异动情报",
+        "url": "https://www.163.com/dy/article/LBCB570705199NPP.html",
+        "published_at": "2026-11-10T03:30:00+00:00",
+        "collected_at": "2026-11-10T12:42:49.745975+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "163.com"
+      }
+    ],
+    "title_original": "半导体概念盘中走强 ， 美股费城半导体指数涨近7 % |异动情报 _ 东方财富网",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_en": "半导体概念盘中走强 ， 美股费城半导体指数涨近7 % |异动情报 _ 东方财富网",
+    "title_zh": "半导体概念盘中走强 ， 美股费城半导体指数涨近7 % |异动情报 _ 东方财富网",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
+  },
+  {
+    "id": "eeb8f378111b27bff3d4",
+    "title": "中国拥有60个自动化码头全球第一 ， 目标2030年建成90个 ， 智慧港口加速出海",
+    "language": "Chinese",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "海外项目",
+    "risk_category": "overseas_projects",
+    "risk_category_en": "Overseas Projects",
+    "risk_categories": [
+      "overseas_projects"
+    ],
+    "matched_risk_terms": [
+      "港口"
+    ],
+    "severity": "medium",
+    "priority_score": 78,
+    "confidence_score": 39,
+    "importance_score": 48,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 93,
+    "freshness_score": 68,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-10T05:00:00+00:00",
+    "last_seen": "2026-11-10T05:00:00+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "海外项目信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Overseas Projects signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-10T05:00:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 78,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "e94d4695df13dc4af3f1",
+        "origin_type": "news",
+        "source": "original.ifeng.com",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "中国拥有60个自动化码头全球第一 ， 目标2030年建成90个 ， 智慧港口加速出海",
+        "url": "https://original.ifeng.com/c/8xw2p2AX4lh",
+        "published_at": "2026-11-10T05:00:00+00:00",
+        "collected_at": "2026-11-10T12:42:49.745975+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "original.ifeng.com"
+      }
+    ],
+    "title_original": "中国拥有60个自动化码头全球第一 ， 目标2030年建成90个 ， 智慧港口加速出海",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "中国拥有60个自动化码头全球第一 ， 目标2030年建成90个 ， 智慧港口加速出海",
+    "title_zh": "中国拥有60个自动化码头全球第一 ， 目标2030年建成90个 ， 智慧港口加速出海",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "2577d264605dbb8ca135",
+    "title": "港股午评 ： 恒指涨0 . 29 %、 科指涨0 . 7 %， 科网股走势分化 ， 存储半导体 、 光通信及PCB概念股强势走高",
+    "language": "Chinese",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "半导体"
+    ],
+    "severity": "medium",
+    "priority_score": 78,
+    "confidence_score": 39,
+    "importance_score": 48,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 91,
+    "freshness_score": 68,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-10T05:00:00+00:00",
+    "last_seen": "2026-11-10T05:00:00+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-10T05:00:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 78,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ebd80a8a161e10eba82c",
+        "origin_type": "news",
+        "source": "stock.jrj.com.cn",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "港股午评 ： 恒指涨0 . 29 %、 科指涨0 . 7 %， 科网股走势分化 ， 存储半导体 、 光通信及PCB概念股强势走高",
+        "url": "https://stock.jrj.com.cn/2026/11/10120359078674.shtml",
+        "published_at": "2026-11-10T05:00:00+00:00",
+        "collected_at": "2026-11-10T12:42:49.745975+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "stock.jrj.com.cn"
+      }
+    ],
+    "title_original": "港股午评 ： 恒指涨0 . 29 %、 科指涨0 . 7 %， 科网股走势分化 ， 存储半导体 、 光通信及PCB概念股强势走高",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_en": "港股午评 ： 恒指涨0 . 29 %、 科指涨0 . 7 %， 科网股走势分化 ， 存储半导体 、 光通信及PCB概念股强势走高",
+    "title_zh": "港股午评 ： 恒指涨0 . 29 %、 科指涨0 . 7 %， 科网股走势分化 ， 存储半导体 、 光通信及PCB概念股强势走高",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
+  },
+  {
+    "id": "4dd960c3da5fdc6f0f8f",
+    "title": "Nvidia CEO is in Congress’ sights after spy scandal Lawmakers are eyeing stricter export controls that would limit company chip sales to Beijing, as well as investigations.",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "chip"
+    ],
+    "severity": "high",
+    "priority_score": 78,
+    "confidence_score": 39,
+    "importance_score": 61,
+    "china_relevance_score": 100,
+    "novelty_score": 95,
+    "momentum_score": 12,
+    "exposure_score": 91,
+    "freshness_score": 77,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-10T07:14:56.761697+00:00",
+    "last_seen": "2026-11-10T07:14:56.761697+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "United States"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
         "observed_at": "2026-11-10T07:14:58.918269+00:00",
         "last_seen": "2026-11-10T07:14:56.761697+00:00",
         "lifecycle": "emerging",
@@ -145,6 +596,17 @@
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-10T07:14:56.761697+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 78,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
       }
@@ -174,273 +636,8 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "a40bf4ad30ad72fb0a51",
-    "title": "T早报｜英伟达称物理AI迎来黄金时代；谷歌扩展第八代TPU产品阵容；中美互相延长关税豁免",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory",
-      "technology_youth"
-    ],
-    "matched_risk_terms": [
-      "关税",
-      "AI"
-    ],
-    "severity": "medium",
-    "priority_score": 80,
-    "confidence_score": 52,
-    "importance_score": 57,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 89,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-10T07:14:56.761697+00:00",
-    "last_seen": "2026-11-10T07:14:56.761697+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "China"
-    ],
-    "entities": [],
-    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-10T07:14:58.918269+00:00",
-        "last_seen": "2026-11-10T07:14:56.761697+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 80,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "30789a268dbd1cb77b0e",
-        "origin_type": "news",
-        "source": "财新 Caixin",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "T早报｜英伟达称物理AI迎来黄金时代；谷歌扩展第八代TPU产品阵容；中美互相延长关税豁免",
-        "url": "https://www.caixin.com/2026-11-10/102502917.html",
-        "published_at": null,
-        "collected_at": "2026-11-10T07:14:56.761697+00:00",
-        "relation": "direct",
-        "confidence": 88,
-        "publisher_family": "caixin"
-      }
-    ],
-    "title_original": "T早报｜英伟达称物理AI迎来黄金时代；谷歌扩展第八代TPU产品阵容；中美互相延长关税豁免",
-    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "title_zh": "T早报｜英伟达称物理AI迎来黄金时代；谷歌扩展第八代TPU产品阵容；中美互相延长关税豁免",
-    "title_en": "T早报｜英伟达称物理AI迎来黄金时代；谷歌扩展第八代TPU产品阵容；中美互相延长关税豁免",
-    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
-  },
-  {
-    "id": "dbd37533380f4181940d",
-    "title": "Trump backs tech billionaire amid probe into affair with alleged Chinese spy",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "probe"
-    ],
-    "severity": "medium",
-    "priority_score": 80,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 89,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-10T07:14:56.761697+00:00",
-    "last_seen": "2026-11-10T07:14:56.761697+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United States"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-10T07:14:58.918269+00:00",
-        "last_seen": "2026-11-10T07:14:56.761697+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 80,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "953595ca77179483920a",
-        "origin_type": "news",
-        "source": "CNN",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Trump backs tech billionaire amid probe into affair with alleged Chinese spy",
-        "url": "https://edition.cnn.com/2026/11/09/politics/trump-jensen-huang-spy",
-        "published_at": null,
-        "collected_at": "2026-11-10T07:14:56.761697+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "edition.cnn.com"
-      }
-    ],
-    "title_original": "Trump backs tech billionaire amid probe into affair with alleged Chinese spy",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Trump backs tech billionaire amid probe into affair with alleged Chinese spy",
-    "title_zh": "Trump backs tech billionaire amid probe into affair with alleged Chinese spy",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "c245d984bfcce27f2c06",
-    "title": "美国商务部就芯片展开的调查在英伟达介入后中止",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls",
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "芯片",
-      "调查"
-    ],
-    "severity": "medium",
-    "priority_score": 79,
-    "confidence_score": 52,
-    "importance_score": 54,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 80,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-10T02:30:25+00:00",
-    "last_seen": "2026-11-10T02:30:25+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United States"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-10T07:14:58.918269+00:00",
-        "last_seen": "2026-11-10T02:30:25+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 79,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "16dd1abd16fe86ed7cc0",
-        "origin_type": "news",
-        "source": "纽约时报中文网 NYT Chinese",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "美国商务部就芯片展开的调查在英伟达介入后中止",
-        "url": "https://cn.nytimes.com/usa/20261110/nvidia-megaspeed-investigation-huang/?utm_source=RSS",
-        "published_at": "2026-11-10T02:30:25+00:00",
-        "collected_at": "2026-11-10T07:14:56.761697+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "nyt"
-      }
-    ],
-    "title_original": "美国商务部就芯片展开的调查在英伟达介入后中止",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "美国商务部就芯片展开的调查在英伟达介入后中止",
-    "title_en": "美国商务部就芯片展开的调查在英伟达介入后中止",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "68af6cddace23278cfb4",
-    "title": "G7 diplomats speak out on Taiwan as China ramps up military drills",
+    "id": "5ea7c17473c055d4f4b5",
+    "title": "Military Prosecutor of Kyrgyzstan discusses counter-terrorism exercises and personnel training with Military Attaché of China",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -461,8 +658,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-10T07:14:56.761697+00:00",
-    "last_seen": "2026-11-10T07:14:56.761697+00:00",
+    "first_seen": "2026-11-10T12:42:49.745975+00:00",
+    "last_seen": "2026-11-10T12:42:49.745975+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -470,7 +667,7 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Japan"
+      "Kyrgyzstan"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -486,8 +683,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-10T07:14:58.918269+00:00",
-        "last_seen": "2026-11-10T07:14:56.761697+00:00",
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-10T12:42:49.745975+00:00",
         "lifecycle": "emerging",
         "priority_score": 77,
         "confidence_score": 39,
@@ -499,25 +696,25 @@
     ],
     "evidence": [
       {
-        "id": "dc265455542908fd1812",
+        "id": "11e8acff549f0d4358c8",
         "origin_type": "news",
-        "source": "The Japan Times",
+        "source": "AKIpress",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "G7 diplomats speak out on Taiwan as China ramps up military drills",
-        "url": "https://www.japantimes.co.jp/news/2026/11/10/japan/politics/japan-g7-china-taiwan-military/",
+        "title": "Military Prosecutor of Kyrgyzstan discusses counter-terrorism exercises and personnel training with Military Attaché of China",
+        "url": "https://akipress.com/news:930530:Military_Prosecutor_of_Kyrgyzstan_discusses_counter-terrorism_exercises_and_personnel_training_with_Military_Attaché_of_China/",
         "published_at": null,
-        "collected_at": "2026-11-10T07:14:56.761697+00:00",
+        "collected_at": "2026-11-10T12:42:49.745975+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "japantimes.co.jp"
+        "publisher_family": "akipress.com"
       }
     ],
-    "title_original": "G7 diplomats speak out on Taiwan as China ramps up military drills",
+    "title_original": "Military Prosecutor of Kyrgyzstan discusses counter-terrorism exercises and personnel training with Military Attaché of China",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "G7 diplomats speak out on Taiwan as China ramps up military drills",
-    "title_zh": "G7 diplomats speak out on Taiwan as China ramps up military drills",
+    "title_en": "Military Prosecutor of Kyrgyzstan discusses counter-terrorism exercises and personnel training with Military Attaché of China",
+    "title_zh": "Military Prosecutor of Kyrgyzstan discusses counter-terrorism exercises and personnel training with Military Attaché of China",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
@@ -538,14 +735,14 @@
       "伤亡"
     ],
     "severity": "high",
-    "priority_score": 77,
+    "priority_score": 76,
     "confidence_score": 39,
-    "importance_score": 56,
+    "importance_score": 53,
     "china_relevance_score": 100,
     "novelty_score": 82,
     "momentum_score": 28,
     "exposure_score": 100,
-    "freshness_score": 42,
+    "freshness_score": 19,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-11-09T17:19:00+00:00",
@@ -593,6 +790,17 @@
         "momentum_score": 28,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-09T17:19:00+00:00",
+        "lifecycle": "escalating",
+        "priority_score": 76,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 28,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -620,119 +828,8 @@
     "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
   },
   {
-    "id": "3246928fcdcec2e6076b",
-    "title": "14 killed in China building fire in Shanxi province capital Taiyuan",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "escalating",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security",
-      "safety_production_domestic"
-    ],
-    "matched_risk_terms": [
-      "killed",
-      "fire"
-    ],
-    "severity": "high",
-    "priority_score": 76,
-    "confidence_score": 39,
-    "importance_score": 54,
-    "china_relevance_score": 100,
-    "novelty_score": 82,
-    "momentum_score": 28,
-    "exposure_score": 100,
-    "freshness_score": 24,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-09T12:56:11.931382+00:00",
-    "last_seen": "2026-11-09T12:56:11.931382+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Pakistan"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "人员安全信号；正在升级或扩散；新颖度82 / 动量28。",
-    "why_now_en": "Personnel Security signal; is escalating or spreading; novelty 82 / momentum 28.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
-    "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-09T12:56:14.088228+00:00",
-        "last_seen": "2026-11-09T12:56:11.931382+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 88,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-11-09T17:29:03.257507+00:00",
-        "last_seen": "2026-11-09T12:56:11.931382+00:00",
-        "lifecycle": "escalating",
-        "priority_score": 81,
-        "confidence_score": 39,
-        "novelty_score": 95,
-        "momentum_score": 28,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-11-10T07:14:58.918269+00:00",
-        "last_seen": "2026-11-09T12:56:11.931382+00:00",
-        "lifecycle": "escalating",
-        "priority_score": 76,
-        "confidence_score": 39,
-        "novelty_score": 82,
-        "momentum_score": 28,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "574f85604c0e2b6765ee",
-        "origin_type": "news",
-        "source": "The News International",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "14 killed in China building fire in Shanxi province capital Taiyuan",
-        "url": "https://www.thenews.com.pk/latest/1423021-14-killed-in-china-building-fire-in-shanxi-province-capital-taiyuan",
-        "published_at": null,
-        "collected_at": "2026-11-09T12:56:11.931382+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "thenews.com.pk"
-      }
-    ],
-    "title_original": "14 killed in China building fire in Shanxi province capital Taiyuan",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "14 killed in China building fire in Shanxi province capital Taiyuan",
-    "title_zh": "14 killed in China building fire in Shanxi province capital Taiyuan",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "90e01258c73304079f6f",
-    "title": "Russia More than 400,000 Russians killed fighting in Ukraine war, leaked data suggests",
+    "id": "188809fc9a828740674f",
+    "title": "Minibus driver arrested in Hong Kong for alleged drug driving while carrying passengers",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -744,108 +841,21 @@
       "personnel_security"
     ],
     "matched_risk_terms": [
-      "killed"
+      "arrested"
     ],
     "severity": "high",
-    "priority_score": 75,
+    "priority_score": 76,
     "confidence_score": 52,
-    "importance_score": 69,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 95,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-10T07:14:56.761697+00:00",
-    "last_seen": "2026-11-10T07:14:56.761697+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United Kingdom"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-10T07:14:58.918269+00:00",
-        "last_seen": "2026-11-10T07:14:56.761697+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 75,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "333ff92a3426506ef91e",
-        "origin_type": "news",
-        "source": "The Guardian",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Russia More than 400,000 Russians killed fighting in Ukraine war, leaked data suggests",
-        "url": "https://www.theguardian.com/world/2026/nov/09/russians-killed-ukraine-war-leaked-data",
-        "published_at": null,
-        "collected_at": "2026-11-10T07:14:56.761697+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "guardian"
-      }
-    ],
-    "title_original": "Russia More than 400,000 Russians killed fighting in Ukraine war, leaked data suggests",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
-    "title_en": "Russia More than 400,000 Russians killed fighting in Ukraine war, leaked data suggests",
-    "title_zh": "Russia More than 400,000 Russians killed fighting in Ukraine war, leaked data suggests",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related region = United Kingdom; China-related interests = Sino-British relations, finance, Hong Kong issues, investment review, technology, nuclear power, education, intelligence security; China-related entities/projects = Huawei, CGN, HSBC China exposure, TikTok | Event-related regions = Russia; China-related interests = Sino-Russian relations, energy, Far East, cross-border trade, Military cooperation, Arctic, Central Asia, personnel and labor; China-related entities/projects=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | Event-related regions=Ukraine; China-related interests=Russian-Ukraine war, Chinese diplomacy, food, Black Sea shipping, dual-use technology, reconstruction; China-related entities/projects=Chinese trade exposure"
-  },
-  {
-    "id": "6e9e2b8c22c9641fd688",
-    "title": "Housing provider apologises after scheduling fire drill for Wang Fuk Court survivors on anniversary of deadly blaze",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "安全生产",
-    "risk_category": "safety_production_domestic",
-    "risk_category_en": "Safety & Production",
-    "risk_categories": [
-      "safety_production_domestic"
-    ],
-    "matched_risk_terms": [
-      "fire"
-    ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 52,
-    "importance_score": 43,
+    "importance_score": 65,
     "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 97,
-    "freshness_score": 88,
+    "novelty_score": 82,
+    "momentum_score": 12,
+    "exposure_score": 100,
+    "freshness_score": 73,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-10T04:20:47+00:00",
-    "last_seen": "2026-11-10T04:20:47+00:00",
+    "first_seen": "2026-11-10T06:13:44+00:00",
+    "last_seen": "2026-11-10T06:13:44+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -857,8 +867,106 @@
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "安全生产信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Safety & Production signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新颖度82 / 动量12。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; novelty 82 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-10T07:14:58.918269+00:00",
+        "last_seen": "2026-11-10T06:13:44+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 87,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-10T06:13:44+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 76,
+        "confidence_score": 52,
+        "novelty_score": 82,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "b1a52071b78de167c5de",
+        "origin_type": "news",
+        "source": "South China Morning Post (SCMP)",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Minibus driver arrested in Hong Kong for alleged drug driving while carrying passengers",
+        "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373899/minibus-driver-arrested-hong-kong-alleged-drug-driving-while-carrying-passengers",
+        "published_at": "2026-11-10T06:13:44+00:00",
+        "collected_at": "2026-11-10T07:14:56.761697+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "scmp"
+      }
+    ],
+    "title_original": "Minibus driver arrested in Hong Kong for alleged drug driving while carrying passengers",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Minibus driver arrested in Hong Kong for alleged drug driving while carrying passengers",
+    "title_zh": "Minibus driver arrested in Hong Kong for alleged drug driving while carrying passengers",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "c8de2cec0261b89b547d",
+    "title": "国产手术机器人依托 AI 算法实现亚毫米级精准操作，适配神经、骨科、耳鼻喉等几乎全部外科术式，可升级辅助传统手术。",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技与青年",
+    "risk_category": "technology_youth",
+    "risk_category_en": "Technology & Youth",
+    "risk_categories": [
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "AI"
+    ],
+    "severity": "low",
+    "priority_score": 73,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 67,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-10T12:42:49.745975+00:00",
+    "last_seen": "2026-11-10T12:42:49.745975+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -869,11 +977,98 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-10T07:14:58.918269+00:00",
-        "last_seen": "2026-11-10T04:20:47+00:00",
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-10T12:42:49.745975+00:00",
         "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 52,
+        "priority_score": 73,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "f81e792fcceaf2241dbb",
+        "origin_type": "news",
+        "source": "中国日报中文 China Daily Chinese",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "国产手术机器人依托 AI 算法实现亚毫米级精准操作，适配神经、骨科、耳鼻喉等几乎全部外科术式，可升级辅助传统手术。",
+        "url": "https://cn.chinadaily.com.cn/a/202611/10/WS6af2ffe7e4b0e14252fca534.html",
+        "published_at": null,
+        "collected_at": "2026-11-10T12:42:49.745975+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "chinadaily"
+      }
+    ],
+    "title_original": "国产手术机器人依托 AI 算法实现亚毫米级精准操作，适配神经、骨科、耳鼻喉等几乎全部外科术式，可升级辅助传统手术。",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_zh": "国产手术机器人依托 AI 算法实现亚毫米级精准操作，适配神经、骨科、耳鼻喉等几乎全部外科术式，可升级辅助传统手术。",
+    "title_en": "国产手术机器人依托 AI 算法实现亚毫米级精准操作，适配神经、骨科、耳鼻喉等几乎全部外科术式，可升级辅助传统手术。",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
+  },
+  {
+    "id": "e62666985ece2dae0525",
+    "title": "Chisinau to join EU's policy of sanctions against Russia, Belarus - Moldovan Foreign Ministry",
+    "language": "ru",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "sanctions"
+    ],
+    "severity": "high",
+    "priority_score": 73,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 84,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-10T12:42:49.745975+00:00",
+    "last_seen": "2026-11-10T12:42:49.745975+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Russia"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=European Union; 中国关联利益=中欧关系, 电动汽车, 电池, 反补贴调查, 投资审查, 关键原材料, 供应链, 出口管制; 中国关联实体/项目=BYD, CATL, SAIC, Geely, Huawei, ZTE, COSCO",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-10T12:42:49.745975+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
         "source_count": 1,
@@ -882,27 +1077,27 @@
     ],
     "evidence": [
       {
-        "id": "c2eb2bae855ae9f7c4d7",
+        "id": "d16cce8f3da760c997bf",
         "origin_type": "news",
-        "source": "香港自由新闻 HKFP",
+        "source": "Interfax",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Housing provider apologises after scheduling fire drill for Wang Fuk Court survivors on anniversary of deadly blaze",
-        "url": "https://hongkongfp.com/2026/11/10/housing-provider-apologises-after-scheduling-fire-drill-for-wang-fuk-court-survivors-on-anniversary-of-deadly-blaze/",
-        "published_at": "2026-11-10T04:20:47+00:00",
-        "collected_at": "2026-11-10T07:14:56.761697+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "hongkongfp.com"
+        "title": "Chisinau to join EU's policy of sanctions against Russia, Belarus - Moldovan Foreign Ministry",
+        "url": "https://interfax.com/newsroom/top-stories/119858/",
+        "published_at": null,
+        "collected_at": "2026-11-10T12:42:49.745975+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "interfax.com"
       }
     ],
-    "title_original": "Housing provider apologises after scheduling fire drill for Wang Fuk Court survivors on anniversary of deadly blaze",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Housing provider apologises after scheduling fire drill for Wang Fuk Court survivors on anniversary of deadly blaze",
-    "title_zh": "Housing provider apologises after scheduling fire drill for Wang Fuk Court survivors on anniversary of deadly blaze",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+    "title_original": "Chisinau to join EU's policy of sanctions against Russia, Belarus - Moldovan Foreign Ministry",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=European Union; 中国关联利益=中欧关系, 电动汽车, 电池, 反补贴调查, 投资审查, 关键原材料, 供应链, 出口管制; 中国关联实体/项目=BYD, CATL, SAIC, Geely, Huawei, ZTE, COSCO",
+    "title_en": "Chisinau to join EU's policy of sanctions against Russia, Belarus - Moldovan Foreign Ministry",
+    "title_zh": "Chisinau to join EU's policy of sanctions against Russia, Belarus - Moldovan Foreign Ministry",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=European Union; 中国关联利益=中欧关系, 电动汽车, 电池, 反补贴调查, 投资审查, 关键原材料, 供应链, 出口管制; 中国关联实体/项目=BYD, CATL, SAIC, Geely, Huawei, ZTE, COSCO",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Russia; China-related interests = Sino-Russian relations, energy, Far East, cross-border trade, military cooperation, Arctic, Central Asia, personnel and labor; China-related entities/projects = Power of Siberia, Yamal LNG China exposure, China-Russia border trade | Event-related areas = European Union; China-related interests = China-Europe relations, Electric vehicles, batteries, countervailing investigations, investment reviews, critical raw materials, supply chain, export controls; Chinese related entities/projects = BYD, CATL, SAIC, Geely, Huawei, ZTE, COSCO"
   },
   {
     "id": "2035a0e009c7e4b69a4a",
@@ -921,14 +1116,14 @@
       "制裁"
     ],
     "severity": "high",
-    "priority_score": 74,
+    "priority_score": 73,
     "confidence_score": 39,
-    "importance_score": 56,
+    "importance_score": 53,
     "china_relevance_score": 100,
     "novelty_score": 82,
     "momentum_score": 12,
     "exposure_score": 89,
-    "freshness_score": 42,
+    "freshness_score": 19,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-11-09T17:12:44+00:00",
@@ -976,6 +1171,17 @@
         "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-09T17:12:44+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -1003,548 +1209,34 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "5f03af1acb46d31203f6",
-    "title": "UK awards $15m in contracts to firms tied to Israeli settlements despite sanctions",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "sanctions"
-    ],
-    "severity": "high",
-    "priority_score": 73,
-    "confidence_score": 52,
-    "importance_score": 69,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 84,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-10T07:14:56.761697+00:00",
-    "last_seen": "2026-11-10T07:14:56.761697+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Qatar"
-    ],
-    "entities": [],
-    "reason": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-10T07:14:58.918269+00:00",
-        "last_seen": "2026-11-10T07:14:56.761697+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 73,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "0072e387274e5e5bc176",
-        "origin_type": "news",
-        "source": "Al Jazeera",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "UK awards $15m in contracts to firms tied to Israeli settlements despite sanctions",
-        "url": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-war-effectively-over-iran-demands-surrender?update=5138377",
-        "published_at": null,
-        "collected_at": "2026-11-10T07:14:56.761697+00:00",
-        "relation": "potential",
-        "confidence": 48,
-        "publisher_family": "aljazeera"
-      }
-    ],
-    "title_original": "UK awards $15m in contracts to firms tied to Israeli settlements despite sanctions",
-    "reason_original": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
-    "title_en": "UK awards $15m in contracts to firms tied to Israeli settlements despite sanctions",
-    "title_zh": "UK awards $15m in contracts to firms tied to Israeli settlements despite sanctions",
-    "reason_zh": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
-    "reason_en": "Hits the public events of great power competition and escalation/disruption in the global security field; no direct evidence involving China has been found yet, and it is included in the pool according to conduction observation"
-  },
-  {
-    "id": "e3b60056b869427f0d84",
-    "title": "Delhi Red Fort blast: A year since deadly terror attack that shook the nation",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "安全/冲突",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "high",
-    "priority_score": 71,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 55,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-10T07:14:56.761697+00:00",
-    "last_seen": "2026-11-10T07:14:56.761697+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "India"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
-    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-10T07:14:58.918269+00:00",
-        "last_seen": "2026-11-10T07:14:56.761697+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 71,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "d09eb3eff22691219679",
-        "origin_type": "news",
-        "source": "WION",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Delhi Red Fort blast: A year since deadly terror attack that shook the nation",
-        "url": "https://www.wionews.com/photos/delhi-red-fort-blast-a-year-since-the-deadly-terror-attack-that-shook-the-nation-1794287157617",
-        "published_at": null,
-        "collected_at": "2026-11-10T07:14:56.761697+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "wionews.com"
-      }
-    ],
-    "title_original": "Delhi Red Fort blast: A year since deadly terror attack that shook the nation",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
-    "title_en": "Delhi Red Fort blast: A year since deadly terror attack that shook the nation",
-    "title_zh": "Delhi Red Fort blast: A year since deadly terror attack that shook the nation",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area=India; China-related interests=China-India border, Indo-Pacific, supply chain, investment restrictions, telecommunications, manufacturing, South Asia, BRICS cooperation; China-related entities/projects=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei"
-  },
-  {
-    "id": "9fe2e24a1805cc42cc0c",
-    "title": "Turkey: Steel plant explosion kills 17 in Izmir province",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "安全/冲突",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "high",
-    "priority_score": 71,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 55,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-10T07:14:56.761697+00:00",
-    "last_seen": "2026-11-10T07:14:56.761697+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Africa"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
-    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-10T07:14:58.918269+00:00",
-        "last_seen": "2026-11-10T07:14:56.761697+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 71,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "6b63e00986ea93c13280",
-        "origin_type": "news",
-        "source": "Africanews",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Turkey: Steel plant explosion kills 17 in Izmir province",
-        "url": "https://www.africanews.com/2026/11/09/turkey-steel-plant-explosion-kills-17-in-izmir-province/",
-        "published_at": null,
-        "collected_at": "2026-11-10T07:14:56.761697+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "africanews.com"
-      }
-    ],
-    "title_original": "Turkey: Steel plant explosion kills 17 in Izmir province",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
-    "title_en": "Turkey: Steel plant explosion kills 17 in Izmir province",
-    "title_zh": "Turkey: Steel plant explosion kills 17 in Izmir province",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Africa."
-  },
-  {
-    "id": "bcf27acd6449aec10a00",
-    "title": "Nvidia The AI poster boy, the ‘Chinese spy’ and Trump: how an affair may have harmed US security",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技与青年",
-    "risk_category": "technology_youth",
-    "risk_category_en": "Technology & Youth",
-    "risk_categories": [
-      "technology_youth"
-    ],
-    "matched_risk_terms": [
-      "AI"
-    ],
-    "severity": "low",
-    "priority_score": 71,
-    "confidence_score": 52,
-    "importance_score": 44,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 67,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-10T07:14:56.761697+00:00",
-    "last_seen": "2026-11-10T07:14:56.761697+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United Kingdom"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-10T07:14:58.918269+00:00",
-        "last_seen": "2026-11-10T07:14:56.761697+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 71,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "ecb334382b3d5b66bd57",
-        "origin_type": "news",
-        "source": "The Guardian",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Nvidia The AI poster boy, the ‘Chinese spy’ and Trump: how an affair may have harmed US security",
-        "url": "https://www.theguardian.com/technology/2026/nov/09/nvidia-affair-huang-trump-national-security",
-        "published_at": null,
-        "collected_at": "2026-11-10T07:14:56.761697+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "guardian"
-      }
-    ],
-    "title_original": "Nvidia The AI poster boy, the ‘Chinese spy’ and Trump: how an affair may have harmed US security",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Nvidia The AI poster boy, the ‘Chinese spy’ and Trump: how an affair may have harmed US security",
-    "title_zh": "Nvidia The AI poster boy, the ‘Chinese spy’ and Trump: how an affair may have harmed US security",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: United Kingdom."
-  },
-  {
-    "id": "8c61b834639c59827375",
-    "title": "China set for record trade surplus as AI boom pushes it past $1 trillion in just 10 months",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技与青年",
-    "risk_category": "technology_youth",
-    "risk_category_en": "Technology & Youth",
-    "risk_categories": [
-      "technology_youth"
-    ],
-    "matched_risk_terms": [
-      "AI"
-    ],
-    "severity": "low",
-    "priority_score": 71,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 67,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-10T07:14:56.761697+00:00",
-    "last_seen": "2026-11-10T07:14:56.761697+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United States"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-10T07:14:58.918269+00:00",
-        "last_seen": "2026-11-10T07:14:56.761697+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 71,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "0c99cd31dff02389ed15",
-        "origin_type": "news",
-        "source": "CNN",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "China set for record trade surplus as AI boom pushes it past $1 trillion in just 10 months",
-        "url": "https://edition.cnn.com/2026/11/09/business/china-trade-surplus-1-trillion-intl-hnk",
-        "published_at": null,
-        "collected_at": "2026-11-10T07:14:56.761697+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "edition.cnn.com"
-      }
-    ],
-    "title_original": "China set for record trade surplus as AI boom pushes it past $1 trillion in just 10 months",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "China set for record trade surplus as AI boom pushes it past $1 trillion in just 10 months",
-    "title_zh": "China set for record trade surplus as AI boom pushes it past $1 trillion in just 10 months",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: United States."
-  },
-  {
-    "id": "e55a4a8825c28aa84aec",
-    "title": "China's trade surplus crosses $1 trillion for second year, AI exports drive boom",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技与青年",
-    "risk_category": "technology_youth",
-    "risk_category_en": "Technology & Youth",
-    "risk_categories": [
-      "technology_youth"
-    ],
-    "matched_risk_terms": [
-      "AI"
-    ],
-    "severity": "low",
-    "priority_score": 71,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 67,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-10T07:14:56.761697+00:00",
-    "last_seen": "2026-11-10T07:14:56.761697+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "India"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-10T07:14:58.918269+00:00",
-        "last_seen": "2026-11-10T07:14:56.761697+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 71,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "9779e38aef5966b4bb3b",
-        "origin_type": "news",
-        "source": "WION",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "China's trade surplus crosses $1 trillion for second year, AI exports drive boom",
-        "url": "https://www.wionews.com/world/china-trade-surplus-1-trillion-ai-exports-2026-1794288641740",
-        "published_at": null,
-        "collected_at": "2026-11-10T07:14:56.761697+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "wionews.com"
-      }
-    ],
-    "title_original": "China's trade surplus crosses $1 trillion for second year, AI exports drive boom",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "China's trade surplus crosses $1 trillion for second year, AI exports drive boom",
-    "title_zh": "China's trade surplus crosses $1 trillion for second year, AI exports drive boom",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: India."
-  },
-  {
-    "id": "3c13f9d50e097f6ec4fd",
-    "title": "卢秀燕担忧台湾AI产业受黄仁勋事件冲击",
+    "id": "01552aba378876879ea8",
+    "title": "北京佳全教会创始人被捕 其妻称罪名指控为“诈骗”",
     "language": "zh",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "科技与青年",
-    "risk_category": "technology_youth",
-    "risk_category_en": "Technology & Youth",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
     "risk_categories": [
-      "technology_youth"
+      "personnel_security"
     ],
     "matched_risk_terms": [
-      "AI"
+      "被捕"
     ],
-    "severity": "low",
-    "priority_score": 71,
+    "severity": "high",
+    "priority_score": 73,
     "confidence_score": 52,
-    "importance_score": 44,
+    "importance_score": 56,
     "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 67,
-    "freshness_score": 100,
+    "novelty_score": 82,
+    "momentum_score": 12,
+    "exposure_score": 100,
+    "freshness_score": 10,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-10T07:14:56.761697+00:00",
-    "last_seen": "2026-11-10T07:14:56.761697+00:00",
+    "first_seen": "2026-11-09T15:07:00+00:00",
+    "last_seen": "2026-11-09T15:07:00+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1552,12 +1244,220 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Singapore"
+      "Germany"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新颖度82 / 动量12。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; novelty 82 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-09T17:29:03.257507+00:00",
+        "last_seen": "2026-11-09T15:07:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 86,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-10T07:14:58.918269+00:00",
+        "last_seen": "2026-11-09T15:07:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 52,
+        "novelty_score": 82,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-09T15:07:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 52,
+        "novelty_score": 82,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "e312ad6a0116f7d2f8a8",
+        "origin_type": "news",
+        "source": "德国之声中文 DW Chinese",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "北京佳全教会创始人被捕 其妻称罪名指控为“诈骗”",
+        "url": "https://www.dw.com/zh/北京佳全教会创始人被捕-其妻称罪名指控为-诈骗/a-79902267?maca=chi-rss-chi-all-1127-rdf",
+        "published_at": "2026-11-09T15:07:00+00:00",
+        "collected_at": "2026-11-09T17:29:02.210370+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "dw"
+      }
+    ],
+    "title_original": "北京佳全教会创始人被捕 其妻称罪名指控为“诈骗”",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "北京佳全教会创始人被捕 其妻称罪名指控为“诈骗”",
+    "title_en": "北京佳全教会创始人被捕 其妻称罪名指控为“诈骗”",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "b928b6ec85b7c950be6c",
+    "title": "Nvidia CEO Jensen Huang Hit With Lawsuit Over Affair With Alleged China Spy",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "其他",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "low",
+    "priority_score": 72,
+    "confidence_score": 45,
+    "importance_score": 43,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 63,
+    "exposure_score": 60,
+    "freshness_score": 100,
+    "corroboration_score": 40,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-10T06:00:00+00:00",
+    "last_seen": "2026-11-10T12:42:49.745975+00:00",
+    "source_count": 2,
+    "evidence_count": 2,
+    "news_count": 2,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "United States",
+      "India"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "其他信号；近期首次进入事件池；新增2条独立信息链；新颖度100 / 动量63。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 2 new independent source chain(s); novelty 100 / momentum 63.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 2,
+      "new_evidence": 2,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-10T12:42:49.745975+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 72,
+        "confidence_score": 45,
+        "novelty_score": 100,
+        "momentum_score": 63,
+        "source_count": 2,
+        "evidence_count": 2
+      }
+    ],
+    "evidence": [
+      {
+        "id": "881ee7d7ded87de255c7",
+        "origin_type": "news",
+        "source": "Newsweek",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Nvidia CEO Jensen Huang Hit With Lawsuit Over Affair With Alleged China Spy",
+        "url": "https://www.newsweek.com/nvidia-ceo-jensen-huang-hit-with-lawsuit-over-affair-with-alleged-china-spy-12692245",
+        "published_at": null,
+        "collected_at": "2026-11-10T12:42:49.745975+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "newsweek.com"
+      },
+      {
+        "id": "8ed17db8f30e8dd53ffe",
+        "origin_type": "news",
+        "source": "deshbandhu.co.in",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Nvidia CEO जेन्सन हुआंग की निजी जिंदगी में भूचाल ! चीनी जासूस से अफेयर के आरोप , 162 अरब डॉलर की संपत्ति पर तलाक की चर्चा | nvidia - ceo - jensen - huang - alleged - affair - china - spy - divorce - wealth",
+        "url": "https://www.deshbandhu.co.in/world/nvidia-ceo-jensen-huang-alleged-affair-china-spy-divorce-wealth-330709",
+        "published_at": "2026-11-10T06:00:00+00:00",
+        "collected_at": "2026-11-10T12:42:49.745975+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "deshbandhu.co.in"
+      }
+    ],
+    "title_original": "Nvidia CEO Jensen Huang Hit With Lawsuit Over Affair With Alleged China Spy",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Nvidia CEO Jensen Huang Hit With Lawsuit Over Affair With Alleged China Spy",
+    "title_zh": "Nvidia CEO Jensen Huang Hit With Lawsuit Over Affair With Alleged China Spy",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "90727f43c10cce080c90",
+    "title": "中国石油化工集团有限公司党组书记 、 董事长侯启军赴镇海炼化调研",
+    "language": "Chinese",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经济产业",
+    "risk_category": "economic_industry_domestic",
+    "risk_category_en": "Economy & Industry",
+    "risk_categories": [
+      "economic_industry_domestic"
+    ],
+    "matched_risk_terms": [
+      "化工"
+    ],
+    "severity": "low",
+    "priority_score": 72,
+    "confidence_score": 39,
+    "importance_score": 36,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 85,
+    "freshness_score": 72,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-10T06:00:00+00:00",
+    "last_seen": "2026-11-10T06:00:00+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "经济产业信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Economy & Industry signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -1568,11 +1468,11 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-10T07:14:58.918269+00:00",
-        "last_seen": "2026-11-10T07:14:56.761697+00:00",
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-10T06:00:00+00:00",
         "lifecycle": "emerging",
-        "priority_score": 71,
-        "confidence_score": 52,
+        "priority_score": 72,
+        "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
         "source_count": 1,
@@ -1581,26 +1481,196 @@
     ],
     "evidence": [
       {
-        "id": "44d3bab0e67bd63298b3",
+        "id": "0641abb762b4a86a2ca2",
         "origin_type": "news",
-        "source": "联合早报 Lianhe Zaobao · 中国",
+        "source": "nb.ifeng.com",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "卢秀燕担忧台湾AI产业受黄仁勋事件冲击",
-        "url": "https://www.zaobao.com.sg/news/china/story20261110-9974584",
-        "published_at": null,
-        "collected_at": "2026-11-10T07:14:56.761697+00:00",
+        "title": "中国石油化工集团有限公司党组书记 、 董事长侯启军赴镇海炼化调研",
+        "url": "https://nb.ifeng.com/c/8xuFCgoYmWY",
+        "published_at": "2026-11-10T06:00:00+00:00",
+        "collected_at": "2026-11-10T12:42:49.745975+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "zaobao"
+        "publisher_family": "nb.ifeng.com"
       }
     ],
-    "title_original": "卢秀燕担忧台湾AI产业受黄仁勋事件冲击",
+    "title_original": "中国石油化工集团有限公司党组书记 、 董事长侯启军赴镇海炼化调研",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "卢秀燕担忧台湾AI产业受黄仁勋事件冲击",
-    "title_en": "卢秀燕担忧台湾AI产业受黄仁勋事件冲击",
+    "title_en": "中国石油化工集团有限公司党组书记 、 董事长侯启军赴镇海炼化调研",
+    "title_zh": "中国石油化工集团有限公司党组书记 、 董事长侯启军赴镇海炼化调研",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Singapore."
+    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: China."
+  },
+  {
+    "id": "e298e9e2ffd0cabb6a14",
+    "title": "项目建设进行时｜尚志总投资83亿元电站完成下水库今冬蓄水",
+    "language": "Chinese",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "海外项目",
+    "risk_category": "overseas_projects",
+    "risk_category_en": "Overseas Projects",
+    "risk_categories": [
+      "overseas_projects"
+    ],
+    "matched_risk_terms": [
+      "电站"
+    ],
+    "severity": "low",
+    "priority_score": 72,
+    "confidence_score": 39,
+    "importance_score": 36,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 93,
+    "freshness_score": 72,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-10T06:00:00+00:00",
+    "last_seen": "2026-11-10T06:00:00+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "why_now_zh": "海外项目信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Overseas Projects signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-10T06:00:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 72,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "dba6dab9eb26d67dc2ff",
+        "origin_type": "news",
+        "source": "hljnews.cn",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "项目建设进行时｜尚志总投资83亿元电站完成下水库今冬蓄水",
+        "url": "https://www.hljnews.cn/jjny/content/2026-11/10/content_916083.html",
+        "published_at": "2026-11-10T06:00:00+00:00",
+        "collected_at": "2026-11-10T12:42:49.745975+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "hljnews.cn"
+      }
+    ],
+    "title_original": "项目建设进行时｜尚志总投资83亿元电站完成下水库今冬蓄水",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_en": "项目建设进行时｜尚志总投资83亿元电站完成下水库今冬蓄水",
+    "title_zh": "项目建设进行时｜尚志总投资83亿元电站完成下水库今冬蓄水",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: China."
+  },
+  {
+    "id": "45e151a6234abfd93106",
+    "title": "Oviedo explosion: 1 police officer dead, 1 badly hurt",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "安全/冲突",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "high",
+    "priority_score": 71,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 55,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-10T12:42:49.745975+00:00",
+    "last_seen": "2026-11-10T12:42:49.745975+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Pakistan"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Pakistan; 中国关联利益=中巴经济走廊, 瓜达尔港, 中国公民安全, 电力, 基础设施, 反恐, 印巴关系; 中国关联实体/项目=CPEC, Gwadar Port, Chinese power projects",
+    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-10T12:42:51.897593+00:00",
+        "last_seen": "2026-11-10T12:42:49.745975+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 71,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "35b4fbc0353836a891ff",
+        "origin_type": "news",
+        "source": "The News International",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Oviedo explosion: 1 police officer dead, 1 badly hurt",
+        "url": "https://www.thenews.com.pk/latest/1423124-oviedo-explosion-1-police-officer-dead-1-badly-hurt",
+        "published_at": null,
+        "collected_at": "2026-11-10T12:42:49.745975+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "thenews.com.pk"
+      }
+    ],
+    "title_original": "Oviedo explosion: 1 police officer dead, 1 badly hurt",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Pakistan; 中国关联利益=中巴经济走廊, 瓜达尔港, 中国公民安全, 电力, 基础设施, 反恐, 印巴关系; 中国关联实体/项目=CPEC, Gwadar Port, Chinese power projects",
+    "title_en": "Oviedo explosion: 1 police officer dead, 1 badly hurt",
+    "title_zh": "Oviedo explosion: 1 police officer dead, 1 badly hurt",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Pakistan; 中国关联利益=中巴经济走廊, 瓜达尔港, 中国公民安全, 电力, 基础设施, 反恐, 印巴关系; 中国关联实体/项目=CPEC, Gwadar Port, Chinese power projects",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Pakistan."
   }
 ]
