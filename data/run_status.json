@@ -2,59 +2,51 @@
   "version": "0.5.0",
   "mode": "all",
   "manual_query": "",
-  "started_at": "2026-11-12T12:46:36.788958+00:00",
-  "finished_at": "2026-11-12T13:28:42.045831+00:00",
+  "started_at": "2026-11-12T15:58:20.007809+00:00",
+  "finished_at": "2026-11-12T16:41:26.078784+00:00",
   "sources_scanned": 344,
-  "raw_news_48h": 1164,
+  "raw_news_48h": 1174,
   "patrol_window_hours": 48,
-  "items_seen": 1170,
-  "items_new": 1019,
-  "items_relevant": 147,
+  "items_seen": 1186,
+  "items_new": 1010,
+  "items_relevant": 130,
   "signals_seen": 182,
   "signals_relevant": 66,
   "social_review_total": 91,
   "social_review_accepted": 33,
-  "stored_articles": 14341,
+  "stored_articles": 14452,
   "stored_signals": 0,
-  "events": 2936,
+  "events": 2961,
   "latest_events": 18,
-  "errors": 74,
+  "errors": 72,
   "error_samples": [
     {
       "source": "Associated Press",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://apnews.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "Voice of America",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.voanews.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
       "source": "POLITICO",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.politico.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "The Economist",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.economist.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "Radio Free Europe/Radio Liberty",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.rferl.org/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "The New York Times",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.nytimes.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "source": "Voice of America",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.voanews.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "Financial Times",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ft.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
+      "source": "The Economist",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.economist.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
       "source": "Bloomberg",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.bloomberg.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "RealClearPolitics",
-      "error": "HTTPStatusError: Client error '403 HTTP Forbidden' for url 'https://www.realclearpolitics.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "source": "Radio Free Europe/Radio Liberty",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.rferl.org/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "Axios",
@@ -65,32 +57,36 @@
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://news.sky.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
+      "source": "RealClearPolitics",
+      "error": "HTTPStatusError: Client error '403 HTTP Forbidden' for url 'https://www.realclearpolitics.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "The Independent",
+      "error": "HTTPStatusError: Client error '429 ' for url 'https://www.independent.co.uk/us' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    },
+    {
       "source": "Les Echos",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.lesechos.fr/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "Telex",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://telex.hu/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "source": "EFE",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://efe.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "Libération",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.liberation.fr/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
-      "source": "Radio Prague International",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://english.radio.cz/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "Slovak Spectator",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://spectator.sme.sk/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
       "source": "El País",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://elpais.com/us/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://elpais.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "Denník N",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://dennikn.sk/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "Slovak Spectator",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://spectator.sme.sk/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     },
     {
       "source": "Romania Insider",
@@ -109,16 +105,20 @@
       "error": "HTTPStatusError: Client error '401 Unauthorized' for url 'https://www.rbc.ru/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
     },
     {
-      "source": "The Indian Express",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://indianexpress.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
-    },
-    {
-      "source": "NDTV",
-      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.ndtv.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+      "source": "The Washington Post",
+      "error": "ReadTimeout: "
     },
     {
       "source": "Business Standard India",
       "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.business-standard.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "The Indian Express",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://indianexpress.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+    },
+    {
+      "source": "Dhaka Tribune",
+      "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://www.dhakatribune.com/' For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
     }
   ],
   "platform_status": [
@@ -176,7 +176,7 @@
     "title_limit": 80,
     "reason_limit": 20,
     "translated": 0,
-    "cache_hits": 20,
+    "cache_hits": 19,
     "failed": 0,
     "provider": "deterministic fallback"
   },
