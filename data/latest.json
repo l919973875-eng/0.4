@@ -1,8 +1,289 @@
 [
   {
-    "id": "d37b8b5dafe22ce2cef2",
-    "title": "江苏油脂厂槽罐车爆炸 火光冲天数公里外可见",
+    "id": "30c3e1db22035c25ea2a",
+    "title": "墙外文摘：黄仁勋事件、英伟达芯片、美国出口管制与中国影响力",
     "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls",
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "芯片",
+      "出口管制"
+    ],
+    "severity": "high",
+    "priority_score": 85,
+    "confidence_score": 52,
+    "importance_score": 66,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 91,
+    "freshness_score": 79,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-15T09:48:00+00:00",
+    "last_seen": "2026-11-15T09:48:00+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Germany"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T09:48:00+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 85,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "25ba677e33833bfb5c92",
+        "origin_type": "news",
+        "source": "德国之声中文 DW Chinese",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "墙外文摘：黄仁勋事件、英伟达芯片、美国出口管制与中国影响力",
+        "url": "https://www.dw.com/zh/墙外文摘：黄仁勋事件、英伟达芯片、美国出口管制与中国影响力/a-79951500?maca=chi-rss-chi-all-1127-rdf",
+        "published_at": "2026-11-15T09:48:00+00:00",
+        "collected_at": "2026-11-15T14:45:36.928933+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "dw"
+      }
+    ],
+    "title_original": "墙外文摘：黄仁勋事件、英伟达芯片、美国出口管制与中国影响力",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "墙外文摘：黄仁勋事件、英伟达芯片、美国出口管制与中国影响力",
+    "title_en": "墙外文摘：黄仁勋事件、英伟达芯片、美国出口管制与中国影响力",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "d1c36e1fd1eb112f15c8",
+    "title": "Chinese J-10C fighter spotted carrying modified Russian-origin heavy-strike missile",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "军事安全",
+    "risk_category": "military_security",
+    "risk_category_en": "Military & Security",
+    "risk_categories": [
+      "military_security",
+      "labor_social"
+    ],
+    "matched_risk_terms": [
+      "missile",
+      "strike"
+    ],
+    "severity": "medium",
+    "priority_score": 80,
+    "confidence_score": 52,
+    "importance_score": 56,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 100,
+    "freshness_score": 93,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-15T13:00:09+00:00",
+    "last_seen": "2026-11-15T13:00:09+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Hong Kong"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T13:00:09+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 80,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "fc7a4daadde212545a37",
+        "origin_type": "news",
+        "source": "South China Morning Post (SCMP)",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Chinese J-10C fighter spotted carrying modified Russian-origin heavy-strike missile",
+        "url": "https://www.scmp.com/news/china/military/article/3374496/chinese-j-10c-fighter-spotted-carrying-modified-russian-origin-heavy-strike-missile",
+        "published_at": "2026-11-15T13:00:09+00:00",
+        "collected_at": "2026-11-15T14:45:36.928933+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "scmp"
+      }
+    ],
+    "title_original": "Chinese J-10C fighter spotted carrying modified Russian-origin heavy-strike missile",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Chinese J-10C fighter spotted carrying modified Russian-origin heavy-strike missile",
+    "title_zh": "Chinese J-10C fighter spotted carrying modified Russian-origin heavy-strike missile",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "f58ce3814d6bb9b7320d",
+    "title": "Three men sentenced to death in Jordan over fatal church mass shooting The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month. 4 hrs ago Middle East",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security"
+    ],
+    "matched_risk_terms": [
+      "killed"
+    ],
+    "severity": "high",
+    "priority_score": 77,
+    "confidence_score": 58,
+    "importance_score": 73,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 73,
+    "exposure_score": 95,
+    "freshness_score": 100,
+    "corroboration_score": 40,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-15T11:59:16.956271+00:00",
+    "last_seen": "2026-11-15T14:45:36.928933+00:00",
+    "source_count": 2,
+    "evidence_count": 2,
+    "news_count": 2,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "United Kingdom",
+      "France"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增2条独立信息链；新颖度100 / 动量73。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 2 new independent source chain(s); novelty 100 / momentum 73.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 2,
+      "new_evidence": 2,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T14:45:36.928933+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 77,
+        "confidence_score": 58,
+        "novelty_score": 100,
+        "momentum_score": 73,
+        "source_count": 2,
+        "evidence_count": 2
+      }
+    ],
+    "evidence": [
+      {
+        "id": "b2d9d320acb4e2481a39",
+        "origin_type": "news",
+        "source": "BBC News",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Three men sentenced to death in Jordan over fatal church mass shooting The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month. 4 hrs ago Middle East",
+        "url": "https://www.bbc.com/news/articles/c3rrg9xgqlwpo",
+        "published_at": null,
+        "collected_at": "2026-11-15T14:45:36.928933+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "bbc"
+      },
+      {
+        "id": "cfdbddd0326efbe19db8",
+        "origin_type": "news",
+        "source": "France 24",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Three sentenced to death over Jordan church attack",
+        "url": "https://www.france24.com/en/middle-east/20261115-three-sentenced-to-death-over-jordan-church-attack",
+        "published_at": null,
+        "collected_at": "2026-11-15T11:59:16.956271+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "france24"
+      }
+    ],
+    "title_original": "Three men sentenced to death in Jordan over fatal church mass shooting The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month. 4 hrs ago Middle East",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok",
+    "title_en": "Three men sentenced to death in Jordan over fatal church mass shooting The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month. 4 hrs ago Middle East",
+    "title_zh": "Three men sentenced to death in Jordan over fatal church mass shooting The attack on funeral at a Greek Orthodox church killed nine and injured 34 others last month. 4 hrs ago Middle East",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related region = United Kingdom; China-related interests = Sino-British relations, finance, Hong Kong issues, investment review, technology, nuclear power, education, intelligence security; China-related entities/projects = Huawei, CGN, HSBC China exposure, TikTok"
+  },
+  {
+    "id": "efc20336172556b451c4",
+    "title": "US, China seek common ground on military crisis pact as Washington weighs terms: sources",
+    "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
@@ -11,15 +292,98 @@
     "risk_category_en": "",
     "risk_categories": [],
     "matched_risk_terms": [],
-    "severity": "high",
-    "priority_score": 84,
-    "confidence_score": 39,
-    "importance_score": 64,
+    "severity": "medium",
+    "priority_score": 77,
+    "confidence_score": 52,
+    "importance_score": 56,
     "china_relevance_score": 100,
     "novelty_score": 100,
-    "momentum_score": 65,
+    "momentum_score": 55,
     "exposure_score": 60,
-    "freshness_score": 94,
+    "freshness_score": 97,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-15T14:00:13+00:00",
+    "last_seen": "2026-11-15T14:00:13+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Hong Kong"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T14:00:13+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 77,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "e8fc57c79fb456a6767a",
+        "origin_type": "news",
+        "source": "South China Morning Post (SCMP)",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "US, China seek common ground on military crisis pact as Washington weighs terms: sources",
+        "url": "https://www.scmp.com/news/china/military/article/3374503/us-china-seek-common-ground-military-crisis-pact-washington-weighs-terms-sources",
+        "published_at": "2026-11-15T14:00:13+00:00",
+        "collected_at": "2026-11-15T14:45:36.928933+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "scmp"
+      }
+    ],
+    "title_original": "US, China seek common ground on military crisis pact as Washington weighs terms: sources",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "US, China seek common ground on military crisis pact as Washington weighs terms: sources",
+    "title_zh": "US, China seek common ground on military crisis pact as Washington weighs terms: sources",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "d37b8b5dafe22ce2cef2",
+    "title": "江苏油脂厂槽罐车爆炸 火光冲天数公里外可见",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "escalating",
+    "category": "安全/冲突",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "high",
+    "priority_score": 77,
+    "confidence_score": 39,
+    "importance_score": 62,
+    "china_relevance_score": 100,
+    "novelty_score": 95,
+    "momentum_score": 28,
+    "exposure_score": 60,
+    "freshness_score": 82,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-11-15T10:28:54+00:00",
@@ -35,13 +399,13 @@
     ],
     "entities": [],
     "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
+    "why_now_zh": "安全/冲突信号；正在升级或扩散；新颖度95 / 动量28。",
+    "why_now_en": "China-related anomaly; is escalating or spreading; novelty 95 / momentum 28.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
     "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
+      "new_sources": 0,
+      "new_evidence": 0,
       "severity_change": 0,
       "official_added": false
     },
@@ -54,6 +418,17 @@
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T10:28:54+00:00",
+        "lifecycle": "escalating",
+        "priority_score": 77,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 28,
         "source_count": 1,
         "evidence_count": 1
       }
@@ -83,95 +458,8 @@
     "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
   },
   {
-    "id": "b22f8058e3c46548f479",
-    "title": "具身智能投资降温 中国创投资金重回半导体",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls"
-    ],
-    "matched_risk_terms": [
-      "半导体"
-    ],
-    "severity": "medium",
-    "priority_score": 80,
-    "confidence_score": 52,
-    "importance_score": 57,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-15T11:59:16.956271+00:00",
-    "last_seen": "2026-11-15T11:59:16.956271+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Singapore"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-15T11:59:19.136030+00:00",
-        "last_seen": "2026-11-15T11:59:16.956271+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 80,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "cf70abed29a36ab143c9",
-        "origin_type": "news",
-        "source": "联合早报 Lianhe Zaobao · 中国",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "具身智能投资降温 中国创投资金重回半导体",
-        "url": "https://www.zaobao.com.sg/news/china/story20261115-10001877",
-        "published_at": null,
-        "collected_at": "2026-11-15T11:59:16.956271+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "zaobao"
-      }
-    ],
-    "title_original": "具身智能投资降温 中国创投资金重回半导体",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "具身智能投资降温 中国创投资金重回半导体",
-    "title_en": "具身智能投资降温 中国创投资金重回半导体",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "3c5dc77c929b9838d07c",
-    "title": "Senior Hamas member killed in fresh Israeli strike on S. Gaza",
+    "id": "62692b3bf442b217b9b6",
+    "title": "At Least 1 Killed as Ukraine Strikes Industrial Sites Across Russia Ukraine’s military claimed responsibility for strikes in Tatarstan, saying it had targeted the Nizhnekamskneftekhim petrochemical complex. 1 Min read",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -181,11 +469,11 @@
     "risk_category_en": "Personnel Security",
     "risk_categories": [
       "personnel_security",
-      "labor_social"
+      "economic_industry_domestic"
     ],
     "matched_risk_terms": [
       "killed",
-      "strike"
+      "petrochemical"
     ],
     "severity": "high",
     "priority_score": 75,
@@ -198,8 +486,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-15T11:59:16.956271+00:00",
-    "last_seen": "2026-11-15T11:59:16.956271+00:00",
+    "first_seen": "2026-11-15T14:45:36.928933+00:00",
+    "last_seen": "2026-11-15T14:45:36.928933+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -207,10 +495,10 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Turkey"
+      "Russia"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
     "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
     "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
     "previous_event_matched": false,
@@ -223,8 +511,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-15T11:59:19.136030+00:00",
-        "last_seen": "2026-11-15T11:59:16.956271+00:00",
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T14:45:36.928933+00:00",
         "lifecycle": "emerging",
         "priority_score": 75,
         "confidence_score": 39,
@@ -236,35 +524,35 @@
     ],
     "evidence": [
       {
-        "id": "5b6f22de90f62034194b",
+        "id": "39c613ab7e981e54aa17",
         "origin_type": "news",
-        "source": "Daily Sabah",
+        "source": "The Moscow Times",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Senior Hamas member killed in fresh Israeli strike on S. Gaza",
-        "url": "https://www.dailysabah.com/world/mid-east/senior-hamas-member-killed-in-fresh-israeli-strike-on-s-gaza",
+        "title": "At Least 1 Killed as Ukraine Strikes Industrial Sites Across Russia Ukraine’s military claimed responsibility for strikes in Tatarstan, saying it had targeted the Nizhnekamskneftekhim petrochemical complex. 1 Min read",
+        "url": "https://www.themoscowtimes.com/2026/11/15/at-least-1-killed-as-ukraine-strikes-industrial-sites-across-russia-a94264",
         "published_at": null,
-        "collected_at": "2026-11-15T11:59:16.956271+00:00",
+        "collected_at": "2026-11-15T14:45:36.928933+00:00",
         "relation": "potential",
         "confidence": 62,
-        "publisher_family": "dailysabah.com"
+        "publisher_family": "themoscowtimes.com"
       }
     ],
-    "title_original": "Senior Hamas member killed in fresh Israeli strike on S. Gaza",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
-    "title_en": "Senior Hamas member killed in fresh Israeli strike on S. Gaza",
-    "title_zh": "Senior Hamas member killed in fresh Israeli strike on S. Gaza",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Turkey."
+    "title_original": "At Least 1 Killed as Ukraine Strikes Industrial Sites Across Russia Ukraine’s military claimed responsibility for strikes in Tatarstan, saying it had targeted the Nizhnekamskneftekhim petrochemical complex. 1 Min read",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
+    "title_en": "At Least 1 Killed as Ukraine Strikes Industrial Sites Across Russia Ukraine’s military claimed responsibility for strikes in Tatarstan, saying it had targeted the Nizhnekamskneftekhim petrochemical complex. 1 Min read",
+    "title_zh": "At Least 1 Killed as Ukraine Strikes Industrial Sites Across Russia Ukraine’s military claimed responsibility for strikes in Tatarstan, saying it had targeted the Nizhnekamskneftekhim petrochemical complex. 1 Min read",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Russia; 中国关联利益=中俄关系, 能源, 远东, 跨境贸易, 军事合作, 北极, 中亚, 人员与劳务; 中国关联实体/项目=Power of Siberia, Yamal LNG China exposure, China-Russia border trade | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Russia; China-related interests = Sino-Russian relations, energy, Far East, cross-border trade, military cooperation, Arctic, Central Asia, personnel and labor; China-related entities/projects = Power of Siberia, Yamal LNG China exposure, China-Russia border trade | Event-related areas = Ukraine; China-related interests = Russia-Ukraine war, Chinese diplomacy, Grain, Black Sea shipping, dual-use technology, reconstruction; Chinese related entities/projects=Chinese trade exposure"
   },
   {
-    "id": "79842208b7a7e1420193",
-    "title": "上海女童基因治疗死亡 责任处罚仅开除引爆舆论",
-    "language": "zh",
+    "id": "28d121c002e7b760d64f",
+    "title": "One killed, another injured in ammunition explosion in Azerbaijan's Aghstafa district 18:11 (UTC+04) Azerbaijan",
+    "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
-    "lifecycle": "escalating",
+    "lifecycle": "emerging",
     "category": "人员安全",
     "risk_category": "personnel_security",
     "risk_category_en": "Personnel Security",
@@ -272,21 +560,21 @@
       "personnel_security"
     ],
     "matched_risk_terms": [
-      "死亡"
+      "killed"
     ],
     "severity": "high",
     "priority_score": 75,
     "confidence_score": 39,
-    "importance_score": 50,
-    "china_relevance_score": 100,
-    "novelty_score": 82,
-    "momentum_score": 28,
-    "exposure_score": 100,
-    "freshness_score": 3,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 95,
+    "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-14T12:47:36+00:00",
-    "last_seen": "2026-11-14T12:47:36+00:00",
+    "first_seen": "2026-11-15T14:45:36.928933+00:00",
+    "last_seen": "2026-11-15T14:45:36.928933+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -294,339 +582,56 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "China"
+      "Azerbaijan"
     ],
     "entities": [],
-    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "人员安全信号；正在升级或扩散；新颖度82 / 动量28。",
-    "why_now_en": "Personnel Security signal; is escalating or spreading; novelty 82 / momentum 28.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Azerbaijan; 中国关联利益=能源, 中间走廊, 里海物流, 中亚联通; 中国关联实体/项目=Middle Corridor",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
     "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
+      "new_sources": 1,
+      "new_evidence": 1,
       "severity_change": 0,
       "official_added": false
     },
     "history": [
       {
-        "observed_at": "2026-11-14T14:09:25.398799+00:00",
-        "last_seen": "2026-11-14T12:47:36+00:00",
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T14:45:36.928933+00:00",
         "lifecycle": "emerging",
-        "priority_score": 88,
+        "priority_score": 75,
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 65,
         "source_count": 1,
         "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-11-15T06:25:49.544159+00:00",
-        "last_seen": "2026-11-14T12:47:36+00:00",
-        "lifecycle": "escalating",
-        "priority_score": 77,
-        "confidence_score": 39,
-        "novelty_score": 82,
-        "momentum_score": 28,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-11-15T11:59:19.136030+00:00",
-        "last_seen": "2026-11-14T12:47:36+00:00",
-        "lifecycle": "escalating",
-        "priority_score": 75,
-        "confidence_score": 39,
-        "novelty_score": 82,
-        "momentum_score": 28,
-        "source_count": 1,
-        "evidence_count": 1
       }
     ],
     "evidence": [
       {
-        "id": "883be3a8f96f9dd3082b",
+        "id": "992a36357fb3be64f311",
         "origin_type": "news",
-        "source": "大纪元 Epoch Times · 大陆",
+        "source": "Trend News Agency",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "上海女童基因治疗死亡 责任处罚仅开除引爆舆论",
-        "url": "https://www.epochtimes.com/gb/26/11/14/n14888721.htm",
-        "published_at": "2026-11-14T12:47:36+00:00",
-        "collected_at": "2026-11-14T14:09:23.894411+00:00",
-        "relation": "direct",
-        "confidence": 88,
-        "publisher_family": "epochtimes"
-      }
-    ],
-    "title_original": "上海女童基因治疗死亡 责任处罚仅开除引爆舆论",
-    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "title_zh": "上海女童基因治疗死亡 责任处罚仅开除引爆舆论",
-    "title_en": "上海女童基因治疗死亡 责任处罚仅开除引爆舆论",
-    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
-  },
-  {
-    "id": "fac2fc748e5e6afd1155",
-    "title": "Alice Huang quit in 2025: Megaspeed denies China chip claims amid Nvidia row",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls"
-    ],
-    "matched_risk_terms": [
-      "chip"
-    ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-15T11:59:16.956271+00:00",
-    "last_seen": "2026-11-15T11:59:16.956271+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "India"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-15T11:59:19.136030+00:00",
-        "last_seen": "2026-11-15T11:59:16.956271+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "9780c0bc0a79bc2daa1d",
-        "origin_type": "news",
-        "source": "India Today",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Alice Huang quit in 2025: Megaspeed denies China chip claims amid Nvidia row",
-        "url": "https://www.indiatoday.in/world/story/alice-huang-leaves-megaspeed-nvidia-alleged-china-links-3039375-2026-11-15",
+        "title": "One killed, another injured in ammunition explosion in Azerbaijan's Aghstafa district 18:11 (UTC+04) Azerbaijan",
+        "url": "https://www.trend.az/azerbaijan/4246679.html",
         "published_at": null,
-        "collected_at": "2026-11-15T11:59:16.956271+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "indiatoday.in"
+        "collected_at": "2026-11-15T14:45:36.928933+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "trend.az"
       }
     ],
-    "title_original": "Alice Huang quit in 2025: Megaspeed denies China chip claims amid Nvidia row",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Alice Huang quit in 2025: Megaspeed denies China chip claims amid Nvidia row",
-    "title_zh": "Alice Huang quit in 2025: Megaspeed denies China chip claims amid Nvidia row",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "d3253a6e4b5166783883",
-    "title": "Inside Pakistan’s air-to-air missile arsenal: From Chinese PL-15s to indigenous Fa’az",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "军事安全",
-    "risk_category": "military_security",
-    "risk_category_en": "Military & Security",
-    "risk_categories": [
-      "military_security"
-    ],
-    "matched_risk_terms": [
-      "missile"
-    ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 100,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-15T11:59:16.956271+00:00",
-    "last_seen": "2026-11-15T11:59:16.956271+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "India"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-15T11:59:19.136030+00:00",
-        "last_seen": "2026-11-15T11:59:16.956271+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "baeebcfff611e0468927",
-        "origin_type": "news",
-        "source": "ThePrint",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Inside Pakistan’s air-to-air missile arsenal: From Chinese PL-15s to indigenous Fa’az",
-        "url": "https://theprint.in/defence/inside-pakistans-air-to-air-missile-arsenal-from-chinese-pl-15s-to-indigenous-faaz/3098143/",
-        "published_at": null,
-        "collected_at": "2026-11-15T11:59:16.956271+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "theprint.in"
-      }
-    ],
-    "title_original": "Inside Pakistan’s air-to-air missile arsenal: From Chinese PL-15s to indigenous Fa’az",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Inside Pakistan’s air-to-air missile arsenal: From Chinese PL-15s to indigenous Fa’az",
-    "title_zh": "Inside Pakistan’s air-to-air missile arsenal: From Chinese PL-15s to indigenous Fa’az",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "b8bde8c2cf5cc550e395",
-    "title": "At 25, Hue neighborhood leader brings his community to TikTok",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls"
-    ],
-    "matched_risk_terms": [
-      "TikTok"
-    ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-15T11:59:16.956271+00:00",
-    "last_seen": "2026-11-15T11:59:16.956271+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Vietnam"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-15T11:59:19.136030+00:00",
-        "last_seen": "2026-11-15T11:59:16.956271+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "bb37d930e9185e024d6d",
-        "origin_type": "news",
-        "source": "VietnamNet Global",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "At 25, Hue neighborhood leader brings his community to TikTok",
-        "url": "https://vietnamnet.vn/en/at-25-hue-neighborhood-leader-brings-his-community-to-tiktok-2574698.html",
-        "published_at": null,
-        "collected_at": "2026-11-15T11:59:16.956271+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "vietnamnet.vn"
-      }
-    ],
-    "title_original": "At 25, Hue neighborhood leader brings his community to TikTok",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "At 25, Hue neighborhood leader brings his community to TikTok",
-    "title_zh": "At 25, Hue neighborhood leader brings his community to TikTok",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+    "title_original": "One killed, another injured in ammunition explosion in Azerbaijan's Aghstafa district 18:11 (UTC+04) Azerbaijan",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Azerbaijan; 中国关联利益=能源, 中间走廊, 里海物流, 中亚联通; 中国关联实体/项目=Middle Corridor",
+    "title_en": "One killed, another injured in ammunition explosion in Azerbaijan's Aghstafa district 18:11 (UTC+04) Azerbaijan",
+    "title_zh": "One killed, another injured in ammunition explosion in Azerbaijan's Aghstafa district 18:11 (UTC+04) Azerbaijan",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Azerbaijan; 中国关联利益=能源, 中间走廊, 里海物流, 中亚联通; 中国关联实体/项目=Middle Corridor",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Azerbaijan."
   },
   {
     "id": "52a12a97f56cc571b735",
@@ -641,14 +646,14 @@
     "risk_categories": [],
     "matched_risk_terms": [],
     "severity": "high",
-    "priority_score": 74,
+    "priority_score": 73,
     "confidence_score": 39,
-    "importance_score": 58,
+    "importance_score": 56,
     "china_relevance_score": 100,
     "novelty_score": 82,
     "momentum_score": 28,
     "exposure_score": 60,
-    "freshness_score": 54,
+    "freshness_score": 43,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-11-15T01:01:43+00:00",
@@ -696,6 +701,17 @@
         "momentum_score": 28,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T01:01:43+00:00",
+        "lifecycle": "escalating",
+        "priority_score": 73,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 28,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -723,26 +739,30 @@
     "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
   },
   {
-    "id": "61e2d3679ed4824ff681",
-    "title": "Jordan's strikes on Syria over church terror attack kill several civilians",
-    "language": "en",
+    "id": "b22f8058e3c46548f479",
+    "title": "具身智能投资降温 中国创投资金重回半导体",
+    "language": "zh",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "安全/冲突",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "high",
-    "priority_score": 71,
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "半导体"
+    ],
+    "severity": "medium",
+    "priority_score": 72,
     "confidence_score": 52,
-    "importance_score": 69,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 55,
-    "freshness_score": 100,
+    "importance_score": 55,
+    "china_relevance_score": 100,
+    "novelty_score": 95,
+    "momentum_score": 12,
+    "exposure_score": 91,
+    "freshness_score": 88,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-11-15T11:59:16.956271+00:00",
@@ -754,12 +774,110 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "France"
+      "Singapore"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
-    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-15T11:59:19.136030+00:00",
+        "last_seen": "2026-11-15T11:59:16.956271+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 80,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T11:59:16.956271+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 72,
+        "confidence_score": 52,
+        "novelty_score": 95,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "cf70abed29a36ab143c9",
+        "origin_type": "news",
+        "source": "联合早报 Lianhe Zaobao · 中国",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "具身智能投资降温 中国创投资金重回半导体",
+        "url": "https://www.zaobao.com.sg/news/china/story20261115-10001877",
+        "published_at": null,
+        "collected_at": "2026-11-15T11:59:16.956271+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "zaobao"
+      }
+    ],
+    "title_original": "具身智能投资降温 中国创投资金重回半导体",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "具身智能投资降温 中国创投资金重回半导体",
+    "title_en": "具身智能投资降温 中国创投资金重回半导体",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "e2a97a73c4d40501fd81",
+    "title": "Megaspeed says Alice Huang left company in 2025, denies wrongdoing The company denies wrongdoing after accusations that it smuggled Nvidia's AI chips into China. 6m ago",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技与青年",
+    "risk_category": "technology_youth",
+    "risk_category_en": "Technology & Youth",
+    "risk_categories": [
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "AI"
+    ],
+    "severity": "low",
+    "priority_score": 71,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 67,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-15T14:45:36.928933+00:00",
+    "last_seen": "2026-11-15T14:45:36.928933+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "United States"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -770,10 +888,280 @@
     },
     "history": [
       {
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T14:45:36.928933+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 71,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "482bf7bb3ee306c579bc",
+        "origin_type": "news",
+        "source": "CBS News",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Megaspeed says Alice Huang left company in 2025, denies wrongdoing The company denies wrongdoing after accusations that it smuggled Nvidia's AI chips into China. 6m ago",
+        "url": "https://www.cbsnews.com/news/nvidia-alice-huang-jensen-ai-china-singapore-megaspeed/",
+        "published_at": null,
+        "collected_at": "2026-11-15T14:45:36.928933+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "cbsnews.com"
+      }
+    ],
+    "title_original": "Megaspeed says Alice Huang left company in 2025, denies wrongdoing The company denies wrongdoing after accusations that it smuggled Nvidia's AI chips into China. 6m ago",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Megaspeed says Alice Huang left company in 2025, denies wrongdoing The company denies wrongdoing after accusations that it smuggled Nvidia's AI chips into China. 6m ago",
+    "title_zh": "Megaspeed says Alice Huang left company in 2025, denies wrongdoing The company denies wrongdoing after accusations that it smuggled Nvidia's AI chips into China. 6m ago",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "ce03dab2a654c94c2e2f",
+    "title": "22:42 更換系統釀當機全美航班停飛 川普歸咎拜登政府",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "其他",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "low",
+    "priority_score": 70,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 60,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-15T14:45:36.928933+00:00",
+    "last_seen": "2026-11-15T14:45:36.928933+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Taiwan"
+    ],
+    "entities": [],
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "why_now_zh": "其他信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T14:45:36.928933+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 70,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "c022795d78826f8bd422",
+        "origin_type": "news",
+        "source": "联合新闻网 UDN",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "22:42 更換系統釀當機全美航班停飛 川普歸咎拜登政府",
+        "url": "https://udn.com/news/story/6813/9880483",
+        "published_at": null,
+        "collected_at": "2026-11-15T14:45:36.928933+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "udn.com"
+      }
+    ],
+    "title_original": "22:42 更換系統釀當機全美航班停飛 川普歸咎拜登政府",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_zh": "22:42 更換系統釀當機全美航班停飛 川普歸咎拜登政府",
+    "title_en": "22:42 更換系統釀當機全美航班停飛 川普歸咎拜登政府",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
+  },
+  {
+    "id": "3c5dc77c929b9838d07c",
+    "title": "Senior Hamas member killed in fresh Israeli strike on S. Gaza",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "escalating",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security",
+      "labor_social"
+    ],
+    "matched_risk_terms": [
+      "killed",
+      "strike"
+    ],
+    "severity": "high",
+    "priority_score": 68,
+    "confidence_score": 39,
+    "importance_score": 63,
+    "china_relevance_score": 58,
+    "novelty_score": 95,
+    "momentum_score": 28,
+    "exposure_score": 95,
+    "freshness_score": 88,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-15T11:59:16.956271+00:00",
+    "last_seen": "2026-11-15T11:59:16.956271+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Turkey"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
+    "why_now_zh": "人员安全信号；正在升级或扩散；新颖度95 / 动量28。",
+    "why_now_en": "Personnel Security signal; is escalating or spreading; novelty 95 / momentum 28.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
         "observed_at": "2026-11-15T11:59:19.136030+00:00",
         "last_seen": "2026-11-15T11:59:16.956271+00:00",
         "lifecycle": "emerging",
-        "priority_score": 71,
+        "priority_score": 75,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T11:59:16.956271+00:00",
+        "lifecycle": "escalating",
+        "priority_score": 68,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 28,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "5b6f22de90f62034194b",
+        "origin_type": "news",
+        "source": "Daily Sabah",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Senior Hamas member killed in fresh Israeli strike on S. Gaza",
+        "url": "https://www.dailysabah.com/world/mid-east/senior-hamas-member-killed-in-fresh-israeli-strike-on-s-gaza",
+        "published_at": null,
+        "collected_at": "2026-11-15T11:59:16.956271+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "dailysabah.com"
+      }
+    ],
+    "title_original": "Senior Hamas member killed in fresh Israeli strike on S. Gaza",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
+    "title_en": "Senior Hamas member killed in fresh Israeli strike on S. Gaza",
+    "title_zh": "Senior Hamas member killed in fresh Israeli strike on S. Gaza",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Turkey; 中国关联利益=中间走廊, 中东, 中亚, 贸易, 新能源, 维吾尔议题; 中国关联实体/项目=Middle Corridor, Chinese EV investment",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Turkey."
+  },
+  {
+    "id": "74c0a6522e3d60e61967",
+    "title": "Tehran will strike US bases in Europe if used to attack Iran, security chief says",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "劳资社会",
+    "risk_category": "labor_social",
+    "risk_category_en": "Labor & Social Unrest",
+    "risk_categories": [
+      "labor_social"
+    ],
+    "matched_risk_terms": [
+      "strike"
+    ],
+    "severity": "medium",
+    "priority_score": 67,
+    "confidence_score": 52,
+    "importance_score": 57,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 72,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-15T14:45:36.928933+00:00",
+    "last_seen": "2026-11-15T14:45:36.928933+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "France"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=European Union; 中国关联利益=中欧关系, 电动汽车, 电池, 反补贴调查, 投资审查, 关键原材料, 供应链, 出口管制; 中国关联实体/项目=BYD, CATL, SAIC, Geely, Huawei, ZTE, COSCO | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
+    "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T14:45:36.928933+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 67,
         "confidence_score": 52,
         "novelty_score": 100,
         "momentum_score": 65,
@@ -783,27 +1171,408 @@
     ],
     "evidence": [
       {
-        "id": "ff7fe6210ee52f2a4b73",
+        "id": "80ef79332bdea64e3bca",
         "origin_type": "news",
         "source": "France 24",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Jordan's strikes on Syria over church terror attack kill several civilians",
-        "url": "https://www.france24.com/en/middle-east/20261026-jordan-arrests-three-following-deadly-terror-attack-on-church",
+        "title": "Tehran will strike US bases in Europe if used to attack Iran, security chief says",
+        "url": "https://www.france24.com/en/france/20261111-tehran-will-strike-us-bases-in-europe-if-used-to-attack-iran-security-chief-says",
         "published_at": null,
-        "collected_at": "2026-11-15T11:59:16.956271+00:00",
+        "collected_at": "2026-11-15T14:45:36.928933+00:00",
         "relation": "potential",
         "confidence": 62,
         "publisher_family": "france24"
       }
     ],
-    "title_original": "Jordan's strikes on Syria over church terror attack kill several civilians",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
-    "title_en": "Jordan's strikes on Syria over church terror attack kill several civilians",
-    "title_zh": "Jordan's strikes on Syria over church terror attack kill several civilians",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related region = France; China-related interests = Sino-French relations, aerospace, nuclear energy, agricultural products, EU China policy, luxury goods, electric vehicles; China-related entities/projects = Airbus China exposure, EDF cooperation, CMA CGM China exposure"
+    "title_original": "Tehran will strike US bases in Europe if used to attack Iran, security chief says",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=European Union; 中国关联利益=中欧关系, 电动汽车, 电池, 反补贴调查, 投资审查, 关键原材料, 供应链, 出口管制; 中国关联实体/项目=BYD, CATL, SAIC, Geely, Huawei, ZTE, COSCO | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
+    "title_en": "Tehran will strike US bases in Europe if used to attack Iran, security chief says",
+    "title_zh": "Tehran will strike US bases in Europe if used to attack Iran, security chief says",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=European Union; 中国关联利益=中欧关系, 电动汽车, 电池, 反补贴调查, 投资审查, 关键原材料, 供应链, 出口管制; 中国关联实体/项目=BYD, CATL, SAIC, Geely, Huawei, ZTE, COSCO | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: France."
+  },
+  {
+    "id": "d3253a6e4b5166783883",
+    "title": "Inside Pakistan’s air-to-air missile arsenal: From Chinese PL-15s to indigenous Fa’az",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "军事安全",
+    "risk_category": "military_security",
+    "risk_category_en": "Military & Security",
+    "risk_categories": [
+      "military_security"
+    ],
+    "matched_risk_terms": [
+      "missile"
+    ],
+    "severity": "low",
+    "priority_score": 67,
+    "confidence_score": 39,
+    "importance_score": 38,
+    "china_relevance_score": 100,
+    "novelty_score": 95,
+    "momentum_score": 12,
+    "exposure_score": 100,
+    "freshness_score": 88,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-15T11:59:16.956271+00:00",
+    "last_seen": "2026-11-15T11:59:16.956271+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "India"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-15T11:59:19.136030+00:00",
+        "last_seen": "2026-11-15T11:59:16.956271+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T11:59:16.956271+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 67,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "baeebcfff611e0468927",
+        "origin_type": "news",
+        "source": "ThePrint",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Inside Pakistan’s air-to-air missile arsenal: From Chinese PL-15s to indigenous Fa’az",
+        "url": "https://theprint.in/defence/inside-pakistans-air-to-air-missile-arsenal-from-chinese-pl-15s-to-indigenous-faaz/3098143/",
+        "published_at": null,
+        "collected_at": "2026-11-15T11:59:16.956271+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "theprint.in"
+      }
+    ],
+    "title_original": "Inside Pakistan’s air-to-air missile arsenal: From Chinese PL-15s to indigenous Fa’az",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Inside Pakistan’s air-to-air missile arsenal: From Chinese PL-15s to indigenous Fa’az",
+    "title_zh": "Inside Pakistan’s air-to-air missile arsenal: From Chinese PL-15s to indigenous Fa’az",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: India."
+  },
+  {
+    "id": "fac2fc748e5e6afd1155",
+    "title": "Alice Huang quit in 2025: Megaspeed denies China chip claims amid Nvidia row",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "chip"
+    ],
+    "severity": "low",
+    "priority_score": 66,
+    "confidence_score": 39,
+    "importance_score": 38,
+    "china_relevance_score": 100,
+    "novelty_score": 95,
+    "momentum_score": 12,
+    "exposure_score": 91,
+    "freshness_score": 88,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-15T11:59:16.956271+00:00",
+    "last_seen": "2026-11-15T11:59:16.956271+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "India"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-15T11:59:19.136030+00:00",
+        "last_seen": "2026-11-15T11:59:16.956271+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T11:59:16.956271+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 66,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "9780c0bc0a79bc2daa1d",
+        "origin_type": "news",
+        "source": "India Today",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Alice Huang quit in 2025: Megaspeed denies China chip claims amid Nvidia row",
+        "url": "https://www.indiatoday.in/world/story/alice-huang-leaves-megaspeed-nvidia-alleged-china-links-3039375-2026-11-15",
+        "published_at": null,
+        "collected_at": "2026-11-15T11:59:16.956271+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "indiatoday.in"
+      }
+    ],
+    "title_original": "Alice Huang quit in 2025: Megaspeed denies China chip claims amid Nvidia row",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Alice Huang quit in 2025: Megaspeed denies China chip claims amid Nvidia row",
+    "title_zh": "Alice Huang quit in 2025: Megaspeed denies China chip claims amid Nvidia row",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: India."
+  },
+  {
+    "id": "b8bde8c2cf5cc550e395",
+    "title": "At 25, Hue neighborhood leader brings his community to TikTok",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "TikTok"
+    ],
+    "severity": "low",
+    "priority_score": 66,
+    "confidence_score": 39,
+    "importance_score": 38,
+    "china_relevance_score": 100,
+    "novelty_score": 95,
+    "momentum_score": 12,
+    "exposure_score": 91,
+    "freshness_score": 88,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-15T11:59:16.956271+00:00",
+    "last_seen": "2026-11-15T11:59:16.956271+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Vietnam"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-15T11:59:19.136030+00:00",
+        "last_seen": "2026-11-15T11:59:16.956271+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T11:59:16.956271+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 66,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "bb37d930e9185e024d6d",
+        "origin_type": "news",
+        "source": "VietnamNet Global",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "At 25, Hue neighborhood leader brings his community to TikTok",
+        "url": "https://vietnamnet.vn/en/at-25-hue-neighborhood-leader-brings-his-community-to-tiktok-2574698.html",
+        "published_at": null,
+        "collected_at": "2026-11-15T11:59:16.956271+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "vietnamnet.vn"
+      }
+    ],
+    "title_original": "At 25, Hue neighborhood leader brings his community to TikTok",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "At 25, Hue neighborhood leader brings his community to TikTok",
+    "title_zh": "At 25, Hue neighborhood leader brings his community to TikTok",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Vietnam."
+  },
+  {
+    "id": "d5d847da105ba5816578",
+    "title": "Huge crowds at Prague protest disrupt metro services",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "劳资社会",
+    "risk_category": "labor_social",
+    "risk_category_en": "Labor & Social Unrest",
+    "risk_categories": [
+      "labor_social"
+    ],
+    "matched_risk_terms": [
+      "protest"
+    ],
+    "severity": "medium",
+    "priority_score": 65,
+    "confidence_score": 39,
+    "importance_score": 52,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 72,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-15T14:45:36.928933+00:00",
+    "last_seen": "2026-11-15T14:45:36.928933+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Czech Republic"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Czech Republic; 中国关联利益=中捷关系, 欧盟对华政策, 半导体, 台海议题, 投资审查; 中国关联实体/项目=Huawei, ZTE",
+    "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T14:45:36.928933+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 65,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ccbc6bdfed8a804f4e7e",
+        "origin_type": "news",
+        "source": "Radio Prague International",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Huge crowds at Prague protest disrupt metro services",
+        "url": "https://english.radio.cz/huge-crowds-prague-protest-disrupt-metro-services-8902666",
+        "published_at": null,
+        "collected_at": "2026-11-15T14:45:36.928933+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "english.radio.cz"
+      }
+    ],
+    "title_original": "Huge crowds at Prague protest disrupt metro services",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Czech Republic; 中国关联利益=中捷关系, 欧盟对华政策, 半导体, 台海议题, 投资审查; 中国关联实体/项目=Huawei, ZTE",
+    "title_en": "Huge crowds at Prague protest disrupt metro services",
+    "title_zh": "Huge crowds at Prague protest disrupt metro services",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Czech Republic; 中国关联利益=中捷关系, 欧盟对华政策, 半导体, 台海议题, 投资审查; 中国关联实体/项目=Huawei, ZTE",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Czech Republic."
   },
   {
     "id": "35421825893ec5960158",
@@ -822,14 +1591,14 @@
       "AI"
     ],
     "severity": "low",
-    "priority_score": 71,
+    "priority_score": 63,
     "confidence_score": 52,
-    "importance_score": 43,
+    "importance_score": 41,
     "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
+    "novelty_score": 95,
+    "momentum_score": 12,
     "exposure_score": 67,
-    "freshness_score": 88,
+    "freshness_score": 76,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-11-15T09:00:10+00:00",
@@ -845,13 +1614,13 @@
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
+    "why_now_zh": "科技与青年信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Technology & Youth signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
     "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
+      "new_sources": 0,
+      "new_evidence": 0,
       "severity_change": 0,
       "official_added": false
     },
@@ -864,6 +1633,17 @@
         "confidence_score": 52,
         "novelty_score": 100,
         "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-15T14:45:38.455754+00:00",
+        "last_seen": "2026-11-15T09:00:10+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 63,
+        "confidence_score": 52,
+        "novelty_score": 95,
+        "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
       }
@@ -890,733 +1670,6 @@
     "title_en": "China calls for AI cooperation with the US ahead of Shenzhen Apec summit",
     "title_zh": "China calls for AI cooperation with the US ahead of Shenzhen Apec summit",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "b9454900bbcdab83a8ea",
-    "title": "‘Alice Huang left in 2025’: Megaspeed’s first reaction on Chinese businesswoman amid Nvidia spy row",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "其他",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "low",
-    "priority_score": 70,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 60,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-15T11:59:16.956271+00:00",
-    "last_seen": "2026-11-15T11:59:16.956271+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "India"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "其他信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-15T11:59:19.136030+00:00",
-        "last_seen": "2026-11-15T11:59:16.956271+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 70,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "c68f9b9657156fc8bb25",
-        "origin_type": "news",
-        "source": "Hindustan Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "‘Alice Huang left in 2025’: Megaspeed’s first reaction on Chinese businesswoman amid Nvidia spy row",
-        "url": "https://www.hindustantimes.com/world-news/megaspeed-says-alice-huang-left-company-in-august-2025-distances-itself-from-nvidia-spy-row-beijing-china-jensen-huang-101794734135390.html",
-        "published_at": null,
-        "collected_at": "2026-11-15T11:59:16.956271+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "hindustantimes.com"
-      }
-    ],
-    "title_original": "‘Alice Huang left in 2025’: Megaspeed’s first reaction on Chinese businesswoman amid Nvidia spy row",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "‘Alice Huang left in 2025’: Megaspeed’s first reaction on Chinese businesswoman amid Nvidia spy row",
-    "title_zh": "‘Alice Huang left in 2025’: Megaspeed’s first reaction on Chinese businesswoman amid Nvidia spy row",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "8afbc845cf541ec26661",
-    "title": "【CDT报告汇】研究访谈14名在日人士：中国跨国镇压从监视骚扰到高校自我审查，恐惧渗透日常生活（外二篇）",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技与青年",
-    "risk_category": "technology_youth",
-    "risk_category_en": "Technology & Youth",
-    "risk_categories": [
-      "technology_youth"
-    ],
-    "matched_risk_terms": [
-      "高校"
-    ],
-    "severity": "low",
-    "priority_score": 70,
-    "confidence_score": 39,
-    "importance_score": 37,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 67,
-    "freshness_score": 80,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-15T07:08:41+00:00",
-    "last_seen": "2026-11-15T07:08:41+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Global"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-15T11:59:19.136030+00:00",
-        "last_seen": "2026-11-15T07:08:41+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 70,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "92f737b91d0b2a376828",
-        "origin_type": "news",
-        "source": "中国数字时代 Chinese CDT",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "【CDT报告汇】研究访谈14名在日人士：中国跨国镇压从监视骚扰到高校自我审查，恐惧渗透日常生活（外二篇）",
-        "url": "https://chinadigitaltimes.net/chinese/733916.html",
-        "published_at": "2026-11-15T07:08:41+00:00",
-        "collected_at": "2026-11-15T11:59:16.956271+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "cdt"
-      }
-    ],
-    "title_original": "【CDT报告汇】研究访谈14名在日人士：中国跨国镇压从监视骚扰到高校自我审查，恐惧渗透日常生活（外二篇）",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "【CDT报告汇】研究访谈14名在日人士：中国跨国镇压从监视骚扰到高校自我审查，恐惧渗透日常生活（外二篇）",
-    "title_en": "【CDT报告汇】研究访谈14名在日人士：中国跨国镇压从监视骚扰到高校自我审查，恐惧渗透日常生活（外二篇）",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Global."
-  },
-  {
-    "id": "5e239dbd1b31609f733d",
-    "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision The lawsuit filed by city officials also requests that the tanker be seized and sold to pay for damages. 14 hrs ago US & Canada",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "军事安全",
-    "risk_category": "military_security",
-    "risk_category_en": "Military & Security",
-    "risk_categories": [
-      "military_security"
-    ],
-    "matched_risk_terms": [
-      "collision"
-    ],
-    "severity": "medium",
-    "priority_score": 68,
-    "confidence_score": 52,
-    "importance_score": 57,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 96,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-15T11:59:16.956271+00:00",
-    "last_seen": "2026-11-15T11:59:16.956271+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United Kingdom"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei",
-    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-15T11:59:19.136030+00:00",
-        "last_seen": "2026-11-15T11:59:16.956271+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 68,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "07bace286fa69af6b6ae",
-        "origin_type": "news",
-        "source": "BBC News",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision The lawsuit filed by city officials also requests that the tanker be seized and sold to pay for damages. 14 hrs ago US & Canada",
-        "url": "https://www.bbc.com/news/articles/cwe89y2r5j20o",
-        "published_at": null,
-        "collected_at": "2026-11-15T11:59:16.956271+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "bbc"
-      }
-    ],
-    "title_original": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision The lawsuit filed by city officials also requests that the tanker be seized and sold to pay for damages. 14 hrs ago US & Canada",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei",
-    "title_en": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision The lawsuit filed by city officials also requests that the tanker be seized and sold to pay for damages. 14 hrs ago US & Canada",
-    "title_zh": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision The lawsuit filed by city officials also requests that the tanker be seized and sold to pay for damages. 14 hrs ago US & Canada",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Canada; 中国关联利益=中加关系, 关键矿产, 投资审查, 科技, 北极, 农产品; 中国关联实体/项目=Chinese mining investment reviews, Huawei",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: United Kingdom."
-  },
-  {
-    "id": "3476ec1371733628a30a",
-    "title": "Brother of Woman Killed in Grenade Attack Condemns Police, Community Inaction",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "escalating",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security"
-    ],
-    "matched_risk_terms": [
-      "killed"
-    ],
-    "severity": "high",
-    "priority_score": 68,
-    "confidence_score": 39,
-    "importance_score": 61,
-    "china_relevance_score": 58,
-    "novelty_score": 95,
-    "momentum_score": 28,
-    "exposure_score": 95,
-    "freshness_score": 77,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-15T06:25:47.961999+00:00",
-    "last_seen": "2026-11-15T06:25:47.961999+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Israel"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Israel; 中国关联利益=科技, 港口, 中东安全, 中美科技竞争, 基础设施; 中国关联实体/项目=Haifa port China-related discussions, Israeli tech investment",
-    "why_now_zh": "人员安全信号；正在升级或扩散；新颖度95 / 动量28。",
-    "why_now_en": "Personnel Security signal; is escalating or spreading; novelty 95 / momentum 28.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
-    "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-15T06:25:49.544159+00:00",
-        "last_seen": "2026-11-15T06:25:47.961999+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 75,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-11-15T11:59:19.136030+00:00",
-        "last_seen": "2026-11-15T06:25:47.961999+00:00",
-        "lifecycle": "escalating",
-        "priority_score": 68,
-        "confidence_score": 39,
-        "novelty_score": 95,
-        "momentum_score": 28,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "5cb326348ed79352c19d",
-        "origin_type": "news",
-        "source": "Haaretz",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Brother of Woman Killed in Grenade Attack Condemns Police, Community Inaction",
-        "url": "https://www.haaretz.com/israel-news/israel-crime/2026-11-14/ty-article/.premium/brother-of-woman-killed-in-grenade-attack-condemns-police-community-inaction/000001a1-dbbc-ddc9-abb7-dffe1bac0000",
-        "published_at": null,
-        "collected_at": "2026-11-15T06:25:47.961999+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "haaretz.com"
-      }
-    ],
-    "title_original": "Brother of Woman Killed in Grenade Attack Condemns Police, Community Inaction",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Israel; 中国关联利益=科技, 港口, 中东安全, 中美科技竞争, 基础设施; 中国关联实体/项目=Haifa port China-related discussions, Israeli tech investment",
-    "title_en": "Brother of Woman Killed in Grenade Attack Condemns Police, Community Inaction",
-    "title_zh": "Brother of Woman Killed in Grenade Attack Condemns Police, Community Inaction",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Israel; 中国关联利益=科技, 港口, 中东安全, 中美科技竞争, 基础设施; 中国关联实体/项目=Haifa port China-related discussions, Israeli tech investment",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Israel."
-  },
-  {
-    "id": "a6674c6b5ab1129026a0",
-    "title": "Years-old YouTube film lands Vietnamese artists in criminal investigation",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "investigation"
-    ],
-    "severity": "medium",
-    "priority_score": 67,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 84,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-15T11:59:16.956271+00:00",
-    "last_seen": "2026-11-15T11:59:16.956271+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Vietnam"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Vietnam; 中国关联利益=南海, 制造业供应链, 中越边境, 铁路, 稀土, 东盟; 中国关联实体/项目=China-Vietnam rail connectivity, rare earth supply",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-15T11:59:19.136030+00:00",
-        "last_seen": "2026-11-15T11:59:16.956271+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 67,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "a4e930af1ed4a217cfa4",
-        "origin_type": "news",
-        "source": "Tuoi Tre News",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Years-old YouTube film lands Vietnamese artists in criminal investigation",
-        "url": "https://news.tuoitre.vn/years-old-youtube-film-lands-vietnamese-artists-in-criminal-investigation-103261115145518005.htm",
-        "published_at": null,
-        "collected_at": "2026-11-15T11:59:16.956271+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "news.tuoitre.vn"
-      }
-    ],
-    "title_original": "Years-old YouTube film lands Vietnamese artists in criminal investigation",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Vietnam; 中国关联利益=南海, 制造业供应链, 中越边境, 铁路, 稀土, 东盟; 中国关联实体/项目=China-Vietnam rail connectivity, rare earth supply",
-    "title_en": "Years-old YouTube film lands Vietnamese artists in criminal investigation",
-    "title_zh": "Years-old YouTube film lands Vietnamese artists in criminal investigation",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Vietnam; 中国关联利益=南海, 制造业供应链, 中越边境, 铁路, 稀土, 东盟; 中国关联实体/项目=China-Vietnam rail connectivity, rare earth supply",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Vietnam."
-  },
-  {
-    "id": "6a339cf99379356041c6",
-    "title": "Over 200 arrested in France as cost of living, education protest wave continues to roil nation",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security",
-      "labor_social"
-    ],
-    "matched_risk_terms": [
-      "arrested",
-      "protest"
-    ],
-    "severity": "high",
-    "priority_score": 66,
-    "confidence_score": 39,
-    "importance_score": 61,
-    "china_relevance_score": 58,
-    "novelty_score": 95,
-    "momentum_score": 12,
-    "exposure_score": 95,
-    "freshness_score": 77,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-15T06:25:47.961999+00:00",
-    "last_seen": "2026-11-15T06:25:47.961999+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Australia"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Australia; 中国关联利益=中澳关系, 铁矿石, 锂矿, 关键矿产, AUKUS, 南太平洋, 农产品; 中国关联实体/项目=Pilbara iron ore China exposure, lithium supply chains | 事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新颖度95 / 动量12。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; novelty 95 / momentum 12.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
-    "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-15T06:25:49.544159+00:00",
-        "last_seen": "2026-11-15T06:25:47.961999+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-11-15T11:59:19.136030+00:00",
-        "last_seen": "2026-11-15T06:25:47.961999+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 66,
-        "confidence_score": 39,
-        "novelty_score": 95,
-        "momentum_score": 12,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "814245274e24de6726e3",
-        "origin_type": "news",
-        "source": "SBS News",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Over 200 arrested in France as cost of living, education protest wave continues to roil nation",
-        "url": "https://www.sbs.com.au/news/article/over-200-arrested-in-france-as-cost-of-living-education-protest-wave-continues-to-roil-nation/iflh7dq8m",
-        "published_at": null,
-        "collected_at": "2026-11-15T06:25:47.961999+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "sbs.com.au"
-      }
-    ],
-    "title_original": "Over 200 arrested in France as cost of living, education protest wave continues to roil nation",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Australia; 中国关联利益=中澳关系, 铁矿石, 锂矿, 关键矿产, AUKUS, 南太平洋, 农产品; 中国关联实体/项目=Pilbara iron ore China exposure, lithium supply chains | 事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
-    "title_en": "Over 200 arrested in France as cost of living, education protest wave continues to roil nation",
-    "title_zh": "Over 200 arrested in France as cost of living, education protest wave continues to roil nation",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Australia; 中国关联利益=中澳关系, 铁矿石, 锂矿, 关键矿产, AUKUS, 南太平洋, 农产品; 中国关联实体/项目=Pilbara iron ore China exposure, lithium supply chains | 事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Australia."
-  },
-  {
-    "id": "3225a90db29a6e3e095d",
-    "title": "Czech Defence Ministry defends absence from military exercise in Poland",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "军事安全",
-    "risk_category": "military_security",
-    "risk_category_en": "Military & Security",
-    "risk_categories": [
-      "military_security"
-    ],
-    "matched_risk_terms": [
-      "military exercise"
-    ],
-    "severity": "high",
-    "priority_score": 66,
-    "confidence_score": 39,
-    "importance_score": 61,
-    "china_relevance_score": 58,
-    "novelty_score": 95,
-    "momentum_score": 12,
-    "exposure_score": 96,
-    "freshness_score": 77,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-15T06:25:47.961999+00:00",
-    "last_seen": "2026-11-15T06:25:47.961999+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Czech Republic"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Czech Republic; 中国关联利益=中捷关系, 欧盟对华政策, 半导体, 台海议题, 投资审查; 中国关联实体/项目=Huawei, ZTE | 事件关联地区=Poland; 中国关联利益=中东欧合作, 欧盟对华政策, 铁路物流, 乌克兰局势外溢, 电动汽车; 中国关联实体/项目=China-Europe Railway Express",
-    "why_now_zh": "军事安全信号；近期首次进入事件池；新颖度95 / 动量12。",
-    "why_now_en": "Military & Security signal; newly entered the event pool; novelty 95 / momentum 12.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
-    "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-15T06:25:49.544159+00:00",
-        "last_seen": "2026-11-15T06:25:47.961999+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-11-15T11:59:19.136030+00:00",
-        "last_seen": "2026-11-15T06:25:47.961999+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 66,
-        "confidence_score": 39,
-        "novelty_score": 95,
-        "momentum_score": 12,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "fa36da0a764031f4647c",
-        "origin_type": "news",
-        "source": "Radio Prague International",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Czech Defence Ministry defends absence from military exercise in Poland",
-        "url": "https://english.radio.cz/czech-defence-ministry-defends-absence-military-exercise-poland-8902632",
-        "published_at": null,
-        "collected_at": "2026-11-15T06:25:47.961999+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "english.radio.cz"
-      }
-    ],
-    "title_original": "Czech Defence Ministry defends absence from military exercise in Poland",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Czech Republic; 中国关联利益=中捷关系, 欧盟对华政策, 半导体, 台海议题, 投资审查; 中国关联实体/项目=Huawei, ZTE | 事件关联地区=Poland; 中国关联利益=中东欧合作, 欧盟对华政策, 铁路物流, 乌克兰局势外溢, 电动汽车; 中国关联实体/项目=China-Europe Railway Express",
-    "title_en": "Czech Defence Ministry defends absence from military exercise in Poland",
-    "title_zh": "Czech Defence Ministry defends absence from military exercise in Poland",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Czech Republic; 中国关联利益=中捷关系, 欧盟对华政策, 半导体, 台海议题, 投资审查; 中国关联实体/项目=Huawei, ZTE | 事件关联地区=Poland; 中国关联利益=中东欧合作, 欧盟对华政策, 铁路物流, 乌克兰局势外溢, 电动汽车; 中国关联实体/项目=China-Europe Railway Express",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Czech Republic."
-  },
-  {
-    "id": "e1c5d4076bc184507a92",
-    "title": "UPDATE Bahrain intercepts attacks; Iran claims US radar strike 4 m read",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "劳资社会",
-    "risk_category": "labor_social",
-    "risk_category_en": "Labor & Social Unrest",
-    "risk_categories": [
-      "labor_social"
-    ],
-    "matched_risk_terms": [
-      "strike"
-    ],
-    "severity": "medium",
-    "priority_score": 65,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 72,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-15T11:59:16.956271+00:00",
-    "last_seen": "2026-11-15T11:59:16.956271+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United Arab Emirates"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Arab Emirates; 中国关联利益=港口, 金融, 人工智能, 电信, 中东物流, 能源; 中国关联实体/项目=COSCO Abu Dhabi, Huawei, Chinese AI and cloud investment | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
-    "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-15T11:59:19.136030+00:00",
-        "last_seen": "2026-11-15T11:59:16.956271+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 65,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "687c65560aa1f8943111",
-        "origin_type": "news",
-        "source": "Gulf News",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "UPDATE Bahrain intercepts attacks; Iran claims US radar strike 4 m read",
-        "url": "https://gulfnews.com/world/gulf/bahrain/bahrain-issues-potential-threat-alert-urges-residents-to-seek-safety-1.500747795",
-        "published_at": null,
-        "collected_at": "2026-11-15T11:59:16.956271+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "gulfnews.com"
-      }
-    ],
-    "title_original": "UPDATE Bahrain intercepts attacks; Iran claims US radar strike 4 m read",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Arab Emirates; 中国关联利益=港口, 金融, 人工智能, 电信, 中东物流, 能源; 中国关联实体/项目=COSCO Abu Dhabi, Huawei, Chinese AI and cloud investment | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
-    "title_en": "UPDATE Bahrain intercepts attacks; Iran claims US radar strike 4 m read",
-    "title_zh": "UPDATE Bahrain intercepts attacks; Iran claims US radar strike 4 m read",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Arab Emirates; 中国关联利益=港口, 金融, 人工智能, 电信, 中东物流, 能源; 中国关联实体/项目=COSCO Abu Dhabi, Huawei, Chinese AI and cloud investment | 事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: United Arab Emirates."
+    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Hong Kong."
   }
 ]
