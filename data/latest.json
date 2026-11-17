@@ -1,5 +1,354 @@
 [
   {
+    "id": "b9fd56f870e26521a9b6",
+    "title": "Iran prepared for diplomacy, economic blockade and military confrontation: deputy FM",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "军事安全",
+    "risk_category": "military_security",
+    "risk_category_en": "Military & Security",
+    "risk_categories": [
+      "military_security",
+      "labor_social"
+    ],
+    "matched_risk_terms": [
+      "blockade"
+    ],
+    "severity": "critical",
+    "priority_score": 82,
+    "confidence_score": 39,
+    "importance_score": 77,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 96,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-17T07:53:03.113102+00:00",
+    "last_seen": "2026-11-17T07:53:03.113102+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Iran"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-17T07:53:03.113102+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 82,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "b7ff9cfbb35c11dff4c2",
+        "origin_type": "news",
+        "source": "Tehran Times",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Iran prepared for diplomacy, economic blockade and military confrontation: deputy FM",
+        "url": "https://www.tehrantimes.com/news/532226/Iran-prepared-for-diplomacy-economic-blockade-and-military-confrontation",
+        "published_at": null,
+        "collected_at": "2026-11-17T07:53:03.113102+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "tehrantimes.com"
+      }
+    ],
+    "title_original": "Iran prepared for diplomacy, economic blockade and military confrontation: deputy FM",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
+    "title_en": "Iran prepared for diplomacy, economic blockade and military confrontation: deputy FM",
+    "title_zh": "Iran prepared for diplomacy, economic blockade and military confrontation: deputy FM",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; incident related area=Iran; China related interests=energy, sanctions, nuclear issues, Middle East security, China-Iran cooperation; China related entities/projects=China-Iran energy trade"
+  },
+  {
+    "id": "3122beb83326bf542316",
+    "title": "Canada, China agree to tariff relief, commercial deals amid US tariff threats",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "tariff"
+    ],
+    "severity": "medium",
+    "priority_score": 80,
+    "confidence_score": 39,
+    "importance_score": 52,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 89,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-17T07:53:03.113102+00:00",
+    "last_seen": "2026-11-17T07:53:03.113102+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Turkey"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-17T07:53:03.113102+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 80,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "e89bdf8e7fa922b11dc5",
+        "origin_type": "news",
+        "source": "Anadolu Agency",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Canada, China agree to tariff relief, commercial deals amid US tariff threats",
+        "url": "https://www.aa.com.tr/en/politics/canada-china-agree-to-tariff-relief-commercial-deals-amid-us-tariff-threats/4127301",
+        "published_at": null,
+        "collected_at": "2026-11-17T07:53:03.113102+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "aa.com.tr"
+      }
+    ],
+    "title_original": "Canada, China agree to tariff relief, commercial deals amid US tariff threats",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Canada, China agree to tariff relief, commercial deals amid US tariff threats",
+    "title_zh": "Canada, China agree to tariff relief, commercial deals amid US tariff threats",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "1d80447ac1d72017fcbe",
+    "title": "美国司法部及商务部：2024年就调查过黄乐的Megaspeed 将继续调查(含视频)",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory"
+    ],
+    "matched_risk_terms": [
+      "调查"
+    ],
+    "severity": "medium",
+    "priority_score": 80,
+    "confidence_score": 52,
+    "importance_score": 57,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 89,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-17T07:53:03.113102+00:00",
+    "last_seen": "2026-11-17T07:53:03.113102+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-17T07:53:03.113102+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 80,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "c0fb969db370b1a8d6ae",
+        "origin_type": "news",
+        "source": "财新 Caixin",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "美国司法部及商务部：2024年就调查过黄乐的Megaspeed 将继续调查(含视频)",
+        "url": "https://www.caixin.com/2026-11-17/102505678.html",
+        "published_at": null,
+        "collected_at": "2026-11-17T07:53:03.113102+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "caixin"
+      }
+    ],
+    "title_original": "美国司法部及商务部：2024年就调查过黄乐的Megaspeed 将继续调查(含视频)",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "美国司法部及商务部：2024年就调查过黄乐的Megaspeed 将继续调查(含视频)",
+    "title_en": "美国司法部及商务部：2024年就调查过黄乐的Megaspeed 将继续调查(含视频)",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "dea7921beed030e66edf",
+    "title": "专家支三招 助欧洲国防供应链减少对华依赖",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经济产业",
+    "risk_category": "economic_industry_domestic",
+    "risk_category_en": "Economy & Industry",
+    "risk_categories": [
+      "economic_industry_domestic"
+    ],
+    "matched_risk_terms": [
+      "供应链"
+    ],
+    "severity": "medium",
+    "priority_score": 79,
+    "confidence_score": 39,
+    "importance_score": 51,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 85,
+    "freshness_score": 90,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-17T05:35:43+00:00",
+    "last_seen": "2026-11-17T05:35:43+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "why_now_zh": "经济产业信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Economy & Industry signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-17T05:35:43+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 79,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "0871d8094826857c15d5",
+        "origin_type": "news",
+        "source": "大纪元 Epoch Times · 大陆",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "专家支三招 助欧洲国防供应链减少对华依赖",
+        "url": "https://www.epochtimes.com/gb/26/11/17/n14889874.htm",
+        "published_at": "2026-11-17T05:35:43+00:00",
+        "collected_at": "2026-11-17T07:53:03.113102+00:00",
+        "relation": "direct",
+        "confidence": 88,
+        "publisher_family": "epochtimes"
+      }
+    ],
+    "title_original": "专家支三招 助欧洲国防供应链减少对华依赖",
+    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "title_zh": "专家支三招 助欧洲国防供应链减少对华依赖",
+    "title_en": "专家支三招 助欧洲国防供应链减少对华依赖",
+    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
+    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
+  },
+  {
     "id": "bd4d0e840b385a4e4e70",
     "title": "Ex-US commander urges arms sales to Taiwan 2027 INVASION? Retired US Admiral Philip Davidson praised Taiwan’s defense reforms, including extending mandatory military service and boosting nationwide preparedness A former US naval commander urged Washington to expedite US$14 billion in arms sales to Taiwan and warned of China’s information warfare, as he expre",
     "language": "en",
@@ -12,14 +361,14 @@
     "risk_categories": [],
     "matched_risk_terms": [],
     "severity": "critical",
-    "priority_score": 89,
+    "priority_score": 77,
     "confidence_score": 39,
-    "importance_score": 77,
+    "importance_score": 68,
     "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
+    "novelty_score": 82,
+    "momentum_score": 12,
     "exposure_score": 60,
-    "freshness_score": 100,
+    "freshness_score": 38,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-11-16T17:00:33.185672+00:00",
@@ -35,13 +384,13 @@
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
+    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新颖度82 / 动量12。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; novelty 82 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
     "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
+      "new_sources": 0,
+      "new_evidence": 0,
       "severity_change": 0,
       "official_added": false
     },
@@ -54,6 +403,17 @@
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-16T17:00:33.185672+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 77,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
       }
@@ -83,6 +443,532 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
+    "id": "046d69873a4eee0e18ad",
+    "title": "Bread maker killed in J&K encounter; had left home week ago to ‘join LeT ranks, attack CRPF personnel’",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security"
+    ],
+    "matched_risk_terms": [
+      "killed"
+    ],
+    "severity": "high",
+    "priority_score": 75,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 95,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-17T07:53:03.113102+00:00",
+    "last_seen": "2026-11-17T07:53:03.113102+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "India"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-17T07:53:03.113102+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 75,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "2e3412a134d9a2fd5f7d",
+        "origin_type": "news",
+        "source": "ThePrint",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Bread maker killed in J&K encounter; had left home week ago to ‘join LeT ranks, attack CRPF personnel’",
+        "url": "https://theprint.in/india/bread-maker-killed-in-j-had-left-home-week-ago-to-join-let-ranks-attack-crpf-personnel/3100067/",
+        "published_at": null,
+        "collected_at": "2026-11-17T07:53:03.113102+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "theprint.in"
+      }
+    ],
+    "title_original": "Bread maker killed in J&K encounter; had left home week ago to ‘join LeT ranks, attack CRPF personnel’",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
+    "title_en": "Bread maker killed in J&K encounter; had left home week ago to ‘join LeT ranks, attack CRPF personnel’",
+    "title_zh": "Bread maker killed in J&K encounter; had left home week ago to ‘join LeT ranks, attack CRPF personnel’",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=India; 中国关联利益=中印边境, 印太, 供应链, 投资限制, 电信, 制造业, 南亚, 金砖合作; 中国关联实体/项目=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area=India; China-related interests=China-India border, Indo-Pacific, supply chain, investment restrictions, telecommunications, manufacturing, South Asia, BRICS cooperation; China-related entities/projects=Xiaomi India, Vivo India, Oppo India, BYD India, Huawei"
+  },
+  {
+    "id": "94117eabb56b5ae166ee",
+    "title": "Again, gunmen hit Zamfara community Bandits on Monday killed a security guard and abducted four members of a family and their visitor during an attack on the residence of a…",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security"
+    ],
+    "matched_risk_terms": [
+      "abducted",
+      "killed"
+    ],
+    "severity": "high",
+    "priority_score": 75,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 95,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-17T07:53:03.113102+00:00",
+    "last_seen": "2026-11-17T07:53:03.113102+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Nigeria"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-17T07:53:03.113102+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 75,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "9f39f4fd3e92c7f5efd2",
+        "origin_type": "news",
+        "source": "Daily Trust",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Again, gunmen hit Zamfara community Bandits on Monday killed a security guard and abducted four members of a family and their visitor during an attack on the residence of a…",
+        "url": "https://dailytrust.com/again-gunmen-hit-zamfara-community",
+        "published_at": null,
+        "collected_at": "2026-11-17T07:53:03.113102+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "dailytrust.com"
+      }
+    ],
+    "title_original": "Again, gunmen hit Zamfara community Bandits on Monday killed a security guard and abducted four members of a family and their visitor during an attack on the residence of a…",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
+    "title_en": "Again, gunmen hit Zamfara community Bandits on Monday killed a security guard and abducted four members of a family and their visitor during an attack on the residence of a…",
+    "title_zh": "Again, gunmen hit Zamfara community Bandits on Monday killed a security guard and abducted four members of a family and their visitor during an attack on the residence of a…",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
+    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Nigeria; China-related interests = railways, ports, telecommunications, petroleum, Chinese-funded enterprises and personnel security; Chinese-related entities/projects = CCECC, Huawei, Lekki-related Chinese investment"
+  },
+  {
+    "id": "5e1a94f546760c679edd",
+    "title": "Trump's New Chip Export Rule Targets China but Exempts TikTok's Parent Company",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "TikTok",
+      "chip"
+    ],
+    "severity": "low",
+    "priority_score": 74,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 91,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-17T07:53:03.113102+00:00",
+    "last_seen": "2026-11-17T07:53:03.113102+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "United States"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-17T07:53:03.113102+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "6b0208cf6634ced6bb4c",
+        "origin_type": "news",
+        "source": "Reason",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Trump's New Chip Export Rule Targets China but Exempts TikTok's Parent Company",
+        "url": "https://reason.com/2026/11/16/trumps-new-chip-export-rule-targets-china-but-exempts-tiktoks-parent-company/",
+        "published_at": null,
+        "collected_at": "2026-11-17T07:53:03.113102+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "reason.com"
+      }
+    ],
+    "title_original": "Trump's New Chip Export Rule Targets China but Exempts TikTok's Parent Company",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Trump's New Chip Export Rule Targets China but Exempts TikTok's Parent Company",
+    "title_zh": "Trump's New Chip Export Rule Targets China but Exempts TikTok's Parent Company",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "0225172b0f6650b63bc0",
+    "title": "Nvidia sought leniency from Taiwan for employee accused of China chip smuggling",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "chip"
+    ],
+    "severity": "low",
+    "priority_score": 74,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 91,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-17T07:53:03.113102+00:00",
+    "last_seen": "2026-11-17T07:53:03.113102+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Taiwan"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-17T07:53:03.113102+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "306a41f2436621712ba5",
+        "origin_type": "news",
+        "source": "Taiwan News",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Nvidia sought leniency from Taiwan for employee accused of China chip smuggling",
+        "url": "https://www.taiwannews.com.tw/en/news/6476759",
+        "published_at": null,
+        "collected_at": "2026-11-17T07:53:03.113102+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "taiwannews.com.tw"
+      }
+    ],
+    "title_original": "Nvidia sought leniency from Taiwan for employee accused of China chip smuggling",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Nvidia sought leniency from Taiwan for employee accused of China chip smuggling",
+    "title_zh": "Nvidia sought leniency from Taiwan for employee accused of China chip smuggling",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "3b32ad60fe3c75d1c9a3",
+    "title": "Philippines Hundreds arrested in anti-Trump protests amid anger over Iran war and AI pact",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "人员安全",
+    "risk_category": "personnel_security",
+    "risk_category_en": "Personnel Security",
+    "risk_categories": [
+      "personnel_security",
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "arrested",
+      "AI"
+    ],
+    "severity": "high",
+    "priority_score": 74,
+    "confidence_score": 52,
+    "importance_score": 69,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 95,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-17T07:53:03.113102+00:00",
+    "last_seen": "2026-11-17T07:53:03.113102+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "United Kingdom"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=Philippines; 中国关联利益=南海, 美菲同盟, 海警与军事基地, 矿产, 中菲经贸; 中国关联实体/项目=South China Sea disputes | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-17T07:53:03.113102+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "233a92b8e7cf9d40bc12",
+        "origin_type": "news",
+        "source": "The Guardian",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Philippines Hundreds arrested in anti-Trump protests amid anger over Iran war and AI pact",
+        "url": "https://www.theguardian.com/world/2026/nov/17/hundreds-arrested-manila-anti-trump-protests-philippines",
+        "published_at": null,
+        "collected_at": "2026-11-17T07:53:03.113102+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "guardian"
+      }
+    ],
+    "title_original": "Philippines Hundreds arrested in anti-Trump protests amid anger over Iran war and AI pact",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=Philippines; 中国关联利益=南海, 美菲同盟, 海警与军事基地, 矿产, 中菲经贸; 中国关联实体/项目=South China Sea disputes | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
+    "title_en": "Philippines Hundreds arrested in anti-Trump protests amid anger over Iran war and AI pact",
+    "title_zh": "Philippines Hundreds arrested in anti-Trump protests amid anger over Iran war and AI pact",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United Kingdom; 中国关联利益=中英关系, 金融, 香港议题, 投资审查, 科技, 核电, 教育, 情报安全; 中国关联实体/项目=Huawei, CGN, HSBC China exposure, TikTok | 事件关联地区=Philippines; 中国关联利益=南海, 美菲同盟, 海警与军事基地, 矿产, 中菲经贸; 中国关联实体/项目=South China Sea disputes | 事件关联地区=Iran; 中国关联利益=能源, 制裁, 核问题, 中东安全, 中伊合作; 中国关联实体/项目=China-Iran energy trade",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: United Kingdom."
+  },
+  {
+    "id": "6261a1c6f5e4c97b5cea",
+    "title": "2 residents injured, 20 flee to safety after fire breaks out at Hong Kong flat",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "安全生产",
+    "risk_category": "safety_production_domestic",
+    "risk_category_en": "Safety & Production",
+    "risk_categories": [
+      "safety_production_domestic"
+    ],
+    "matched_risk_terms": [
+      "fire"
+    ],
+    "severity": "low",
+    "priority_score": 74,
+    "confidence_score": 52,
+    "importance_score": 44,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 97,
+    "freshness_score": 99,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-17T07:42:17+00:00",
+    "last_seen": "2026-11-17T07:42:17+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Hong Kong"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "安全生产信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Safety & Production signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-17T07:42:17+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "ec94112e133c8c3d18f2",
+        "origin_type": "news",
+        "source": "South China Morning Post (SCMP)",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "2 residents injured, 20 flee to safety after fire breaks out at Hong Kong flat",
+        "url": "https://www.scmp.com/news/hong-kong/society/article/3374714/2-residents-injured-20-flee-safety-after-fire-breaks-out-hong-kong-flat",
+        "published_at": "2026-11-17T07:42:17+00:00",
+        "collected_at": "2026-11-17T07:53:03.113102+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "scmp"
+      }
+    ],
+    "title_original": "2 residents injured, 20 flee to safety after fire breaks out at Hong Kong flat",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "2 residents injured, 20 flee to safety after fire breaks out at Hong Kong flat",
+    "title_zh": "2 residents injured, 20 flee to safety after fire breaks out at Hong Kong flat",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
     "id": "70b4722078913c5bb4c6",
     "title": "Hong Kong man arrested at Singapore’s Changi Airport over alleged shop theft",
     "language": "en",
@@ -99,14 +985,14 @@
       "arrested"
     ],
     "severity": "high",
-    "priority_score": 87,
+    "priority_score": 74,
     "confidence_score": 52,
-    "importance_score": 68,
+    "importance_score": 59,
     "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
+    "novelty_score": 82,
+    "momentum_score": 12,
     "exposure_score": 100,
-    "freshness_score": 93,
+    "freshness_score": 31,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-11-16T15:15:02+00:00",
@@ -122,13 +1008,13 @@
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新颖度82 / 动量12。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; novelty 82 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
     "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
+      "new_sources": 0,
+      "new_evidence": 0,
       "severity_change": 0,
       "official_added": false
     },
@@ -141,6 +1027,17 @@
         "confidence_score": 52,
         "novelty_score": 100,
         "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-16T15:15:02+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 52,
+        "novelty_score": 82,
+        "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
       }
@@ -170,26 +1067,113 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
+    "id": "05c770980e7b16f67553",
+    "title": "美最新芯片令如何封堵中企获英伟达算力",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "芯片"
+    ],
+    "severity": "low",
+    "priority_score": 73,
+    "confidence_score": 39,
+    "importance_score": 39,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 91,
+    "freshness_score": 94,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-17T06:29:42+00:00",
+    "last_seen": "2026-11-17T06:29:42+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "China"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-17T06:29:42+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "8fc9a441c3c34039d4f1",
+        "origin_type": "news",
+        "source": "大纪元 Epoch Times · 大陆",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "美最新芯片令如何封堵中企获英伟达算力",
+        "url": "https://www.epochtimes.com/gb/26/11/17/n14889979.htm",
+        "published_at": "2026-11-17T06:29:42+00:00",
+        "collected_at": "2026-11-17T07:53:03.113102+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "epochtimes"
+      }
+    ],
+    "title_original": "美最新芯片令如何封堵中企获英伟达算力",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "美最新芯片令如何封堵中企获英伟达算力",
+    "title_en": "美最新芯片令如何封堵中企获英伟达算力",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
     "id": "45b295bb06bc0bdca070",
     "title": "研究证实，这条像丝带一样飘在双子座方向的星云，是一次古老恒星大爆炸留下的冲击波遗迹，相关成果已发表在国际期刊《天文学杂志》上。",
     "language": "zh",
     "status": "报道中",
     "evidence_status": "报道中",
-    "lifecycle": "emerging",
+    "lifecycle": "escalating",
     "category": "安全/冲突",
     "risk_category": "other",
     "risk_category_en": "",
     "risk_categories": [],
     "matched_risk_terms": [],
     "severity": "high",
-    "priority_score": 84,
+    "priority_score": 73,
     "confidence_score": 39,
-    "importance_score": 65,
+    "importance_score": 56,
     "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 65,
+    "novelty_score": 82,
+    "momentum_score": 28,
     "exposure_score": 60,
-    "freshness_score": 100,
+    "freshness_score": 38,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-11-16T17:00:33.185672+00:00",
@@ -205,13 +1189,13 @@
     ],
     "entities": [],
     "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
+    "why_now_zh": "安全/冲突信号；正在升级或扩散；新颖度82 / 动量28。",
+    "why_now_en": "China-related anomaly; is escalating or spreading; novelty 82 / momentum 28.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
     "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
+      "new_sources": 0,
+      "new_evidence": 0,
       "severity_change": 0,
       "official_added": false
     },
@@ -224,6 +1208,17 @@
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-16T17:00:33.185672+00:00",
+        "lifecycle": "escalating",
+        "priority_score": 73,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 28,
         "source_count": 1,
         "evidence_count": 1
       }
@@ -253,215 +1248,30 @@
     "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
   },
   {
-    "id": "66fea6ab4b0ded4562bb",
-    "title": "Bureau warns on spreading election misinformation MISUNDERSTANDING? A woman was charged after alleging that Puma Shen had an affair. After admitting that she had no evidence, she said it was just a plot for a film The Ministry of Justice Investigation Bureau yesterday warned voters against spreading unverified claims that could undermine election fairness af",
+    "id": "c6c0d2cca8dd8d640f6e",
+    "title": "Trending Tanker faces attack off Oman and nuclear powers to meet in China",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "investigation"
-    ],
-    "severity": "medium",
-    "priority_score": 80,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 89,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-16T17:00:33.185672+00:00",
-    "last_seen": "2026-11-16T17:00:33.185672+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Taiwan"
-    ],
-    "entities": [],
-    "reason": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-16T17:00:34.753965+00:00",
-        "last_seen": "2026-11-16T17:00:33.185672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 80,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "92559344170075acc2f7",
-        "origin_type": "news",
-        "source": "Taipei Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Bureau warns on spreading election misinformation MISUNDERSTANDING? A woman was charged after alleging that Puma Shen had an affair. After admitting that she had no evidence, she said it was just a plot for a film The Ministry of Justice Investigation Bureau yesterday warned voters against spreading unverified claims that could undermine election fairness after a woman was charged with spreading misinformation about Democratic Progressive Party (DPP) Taipei mayoral candidate Puma Shen (沈伯洋).The",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/11/17/2003867866",
-        "published_at": null,
-        "collected_at": "2026-11-16T17:00:33.185672+00:00",
-        "relation": "direct",
-        "confidence": 88,
-        "publisher_family": "taipeitimes.com"
-      }
-    ],
-    "title_original": "Bureau warns on spreading election misinformation MISUNDERSTANDING? A woman was charged after alleging that Puma Shen had an affair. After admitting that she had no evidence, she said it was just a plot for a film The Ministry of Justice Investigation Bureau yesterday warned voters against spreading unverified claims that could undermine election fairness af",
-    "reason_original": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "title_en": "Bureau warns on spreading election misinformation MISUNDERSTANDING? A woman was charged after alleging that Puma Shen had an affair. After admitting that she had no evidence, she said it was just a plot for a film The Ministry of Justice Investigation Bureau yesterday warned voters against spreading unverified claims that could undermine election fairness af",
-    "title_zh": "Bureau warns on spreading election misinformation MISUNDERSTANDING? A woman was charged after alleging that Puma Shen had an affair. After admitting that she had no evidence, she said it was just a plot for a film The Ministry of Justice Investigation Bureau yesterday warned voters against spreading unverified claims that could undermine election fairness af",
-    "reason_zh": "事件发生于中国大陆/香港/台湾，且属于政治、外交、经济、产业、安全或社会层面的重大变化",
-    "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
-  },
-  {
-    "id": "39331b5910646842c8e5",
-    "title": "Ananda Palitha arrested over CPC overtime payment fraud",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security"
-    ],
-    "matched_risk_terms": [
-      "arrested"
-    ],
-    "severity": "high",
-    "priority_score": 79,
-    "confidence_score": 39,
-    "importance_score": 62,
-    "china_relevance_score": 100,
-    "novelty_score": 95,
-    "momentum_score": 12,
-    "exposure_score": 100,
-    "freshness_score": 83,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-16T12:49:07.742705+00:00",
-    "last_seen": "2026-11-16T12:49:07.742705+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Sri Lanka"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新颖度95 / 动量12。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; novelty 95 / momentum 12.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
-    "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-16T12:49:08.757298+00:00",
-        "last_seen": "2026-11-16T12:49:07.742705+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 87,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-11-16T17:00:34.753965+00:00",
-        "last_seen": "2026-11-16T12:49:07.742705+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 79,
-        "confidence_score": 39,
-        "novelty_score": 95,
-        "momentum_score": 12,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "b5937b1d3c3790acdbbe",
-        "origin_type": "news",
-        "source": "Daily Mirror Sri Lanka",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Ananda Palitha arrested over CPC overtime payment fraud",
-        "url": "https://www.dailymirror.lk/breaking-news/Ananda-Palitha-arrested-over-CPC-overtime-payment-fraud/108-355012",
-        "published_at": null,
-        "collected_at": "2026-11-16T12:49:07.742705+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "dailymirror.lk"
-      }
-    ],
-    "title_original": "Ananda Palitha arrested over CPC overtime payment fraud",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Ananda Palitha arrested over CPC overtime payment fraud",
-    "title_zh": "Ananda Palitha arrested over CPC overtime payment fraud",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "0b52f035a3a7b65de6c8",
-    "title": "Shen edges out Chiang in two polls, lags in one As the election enters its final stretch, two polls yesterday showed Democratic Progressive Party (DPP) candidate Puma Shen (沈伯洋) leading incumbent Taipei Mayor Chiang Wan-an (蔣萬安) of the Chinese Nationalist Party (KMT), while one gave Chiang the lead.The Taipei Trust in Democracy Association yester",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "台海/印太",
+    "category": "安全/冲突",
     "risk_category": "other",
     "risk_category_en": "",
     "risk_categories": [],
     "matched_risk_terms": [],
-    "severity": "medium",
-    "priority_score": 77,
+    "severity": "low",
+    "priority_score": 72,
     "confidence_score": 39,
-    "importance_score": 52,
+    "importance_score": 40,
     "china_relevance_score": 100,
     "novelty_score": 100,
-    "momentum_score": 55,
+    "momentum_score": 65,
     "exposure_score": 60,
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-16T17:00:33.185672+00:00",
-    "last_seen": "2026-11-16T17:00:33.185672+00:00",
+    "first_seen": "2026-11-17T07:53:03.113102+00:00",
+    "last_seen": "2026-11-17T07:53:03.113102+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -469,12 +1279,12 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Taiwan"
+      "United Arab Emirates"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "台海/印太信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -485,97 +1295,10 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-16T17:00:34.753965+00:00",
-        "last_seen": "2026-11-16T17:00:33.185672+00:00",
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-17T07:53:03.113102+00:00",
         "lifecycle": "emerging",
-        "priority_score": 77,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "6f44e0c32fe6b074aa92",
-        "origin_type": "news",
-        "source": "Taipei Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Shen edges out Chiang in two polls, lags in one As the election enters its final stretch, two polls yesterday showed Democratic Progressive Party (DPP) candidate Puma Shen (沈伯洋) leading incumbent Taipei Mayor Chiang Wan-an (蔣萬安) of the Chinese Nationalist Party (KMT), while one gave Chiang the lead.The Taipei Trust in Democracy Association yester",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/11/17/2003867865",
-        "published_at": null,
-        "collected_at": "2026-11-16T17:00:33.185672+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "taipeitimes.com"
-      }
-    ],
-    "title_original": "Shen edges out Chiang in two polls, lags in one As the election enters its final stretch, two polls yesterday showed Democratic Progressive Party (DPP) candidate Puma Shen (沈伯洋) leading incumbent Taipei Mayor Chiang Wan-an (蔣萬安) of the Chinese Nationalist Party (KMT), while one gave Chiang the lead.The Taipei Trust in Democracy Association yester",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Shen edges out Chiang in two polls, lags in one As the election enters its final stretch, two polls yesterday showed Democratic Progressive Party (DPP) candidate Puma Shen (沈伯洋) leading incumbent Taipei Mayor Chiang Wan-an (蔣萬安) of the Chinese Nationalist Party (KMT), while one gave Chiang the lead.The Taipei Trust in Democracy Association yester",
-    "title_zh": "Shen edges out Chiang in two polls, lags in one As the election enters its final stretch, two polls yesterday showed Democratic Progressive Party (DPP) candidate Puma Shen (沈伯洋) leading incumbent Taipei Mayor Chiang Wan-an (蔣萬安) of the Chinese Nationalist Party (KMT), while one gave Chiang the lead.The Taipei Trust in Democracy Association yester",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "41d9ec4017db54602b98",
-    "title": "Tinubu orders release of suspects arrested over Presidential convoy attack President Bola Tinubu has ordered release of the suspects arrested in connection with an attack on his convoy on Friday. Daily Trust had reported how…",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security"
-    ],
-    "matched_risk_terms": [
-      "arrested"
-    ],
-    "severity": "high",
-    "priority_score": 75,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 95,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-16T17:00:33.185672+00:00",
-    "last_seen": "2026-11-16T17:00:33.185672+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Nigeria"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-16T17:00:34.753965+00:00",
-        "last_seen": "2026-11-16T17:00:33.185672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 75,
+        "priority_score": 72,
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 65,
@@ -585,987 +1308,32 @@
     ],
     "evidence": [
       {
-        "id": "12f2acead9ff66050a51",
+        "id": "25e75d2ab262ee03f5fc",
         "origin_type": "news",
-        "source": "Daily Trust",
+        "source": "The National",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Tinubu orders release of suspects arrested over Presidential convoy attack President Bola Tinubu has ordered release of the suspects arrested in connection with an attack on his convoy on Friday. Daily Trust had reported how…",
-        "url": "https://dailytrust.com/breaking-tinubu-orders-release-of-suspects-arrested-over-presidential-convoy-attack",
+        "title": "Trending Tanker faces attack off Oman and nuclear powers to meet in China",
+        "url": "https://www.thenationalnews.com/podcasts/trending-middle-east/2026/11/17/tanker-faces-attack-off-oman-nuclear-powers-to-meet-in-china-and-dubai-airport-welcomes-50-million/",
         "published_at": null,
-        "collected_at": "2026-11-16T17:00:33.185672+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "dailytrust.com"
-      }
-    ],
-    "title_original": "Tinubu orders release of suspects arrested over Presidential convoy attack President Bola Tinubu has ordered release of the suspects arrested in connection with an attack on his convoy on Friday. Daily Trust had reported how…",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
-    "title_en": "Tinubu orders release of suspects arrested over Presidential convoy attack President Bola Tinubu has ordered release of the suspects arrested in connection with an attack on his convoy on Friday. Daily Trust had reported how…",
-    "title_zh": "Tinubu orders release of suspects arrested over Presidential convoy attack President Bola Tinubu has ordered release of the suspects arrested in connection with an attack on his convoy on Friday. Daily Trust had reported how…",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Nigeria; China-related interests = railways, ports, telecommunications, petroleum, Chinese-funded enterprises and personnel security; Chinese-related entities/projects = CCECC, Huawei, Lekki-related Chinese investment"
-  },
-  {
-    "id": "4116d125ecf036c93ca5",
-    "title": "Two herders killed in fresh Plateau attack",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "人员安全",
-    "risk_category": "personnel_security",
-    "risk_category_en": "Personnel Security",
-    "risk_categories": [
-      "personnel_security"
-    ],
-    "matched_risk_terms": [
-      "killed"
-    ],
-    "severity": "high",
-    "priority_score": 75,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 95,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-16T17:00:33.185672+00:00",
-    "last_seen": "2026-11-16T17:00:33.185672+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Nigeria"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-16T17:00:34.753965+00:00",
-        "last_seen": "2026-11-16T17:00:33.185672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 75,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "c132d198f4084cae954c",
-        "origin_type": "news",
-        "source": "Daily Trust",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Two herders killed in fresh Plateau attack",
-        "url": "https://dailytrust.com/two-herders-killed-in-plateau-attack",
-        "published_at": null,
-        "collected_at": "2026-11-16T17:00:33.185672+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "dailytrust.com"
-      }
-    ],
-    "title_original": "Two herders killed in fresh Plateau attack",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
-    "title_en": "Two herders killed in fresh Plateau attack",
-    "title_zh": "Two herders killed in fresh Plateau attack",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related area = Nigeria; China-related interests = railways, ports, telecommunications, petroleum, Chinese-funded enterprises and personnel security; Chinese-related entities/projects = CCECC, Huawei, Lekki-related Chinese investment"
-  },
-  {
-    "id": "613116c06cbd497c4388",
-    "title": "EU flexes muscle on Russia sanctions, as Trump and Putin discuss Ukraine’s future in China",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "sanctions"
-    ],
-    "severity": "high",
-    "priority_score": 75,
-    "confidence_score": 39,
-    "importance_score": 58,
-    "china_relevance_score": 100,
-    "novelty_score": 82,
-    "momentum_score": 12,
-    "exposure_score": 89,
-    "freshness_score": 56,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-16T06:24:20.096897+00:00",
-    "last_seen": "2026-11-16T06:24:20.096897+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "European Union"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新颖度82 / 动量12。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; novelty 82 / momentum 12.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
-    "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-16T06:24:21.904242+00:00",
-        "last_seen": "2026-11-16T06:24:20.096897+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 86,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-11-16T12:49:08.757298+00:00",
-        "last_seen": "2026-11-16T06:24:20.096897+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 75,
-        "confidence_score": 39,
-        "novelty_score": 82,
-        "momentum_score": 12,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-11-16T17:00:34.753965+00:00",
-        "last_seen": "2026-11-16T06:24:20.096897+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 75,
-        "confidence_score": 39,
-        "novelty_score": 82,
-        "momentum_score": 12,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "273a698c1b1812dce4cc",
-        "origin_type": "news",
-        "source": "EUobserver",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "EU flexes muscle on Russia sanctions, as Trump and Putin discuss Ukraine’s future in China",
-        "url": "https://euobserver.com/248956/eu-flexes-muscle-on-russia-sanctions-as-trump-and-putin-discuss-ukraines-future-in-china/",
-        "published_at": null,
-        "collected_at": "2026-11-16T06:24:20.096897+00:00",
+        "collected_at": "2026-11-17T07:53:03.113102+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "euobserver.com"
+        "publisher_family": "thenationalnews.com"
       }
     ],
-    "title_original": "EU flexes muscle on Russia sanctions, as Trump and Putin discuss Ukraine’s future in China",
+    "title_original": "Trending Tanker faces attack off Oman and nuclear powers to meet in China",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "EU flexes muscle on Russia sanctions, as Trump and Putin discuss Ukraine’s future in China",
-    "title_zh": "EU flexes muscle on Russia sanctions, as Trump and Putin discuss Ukraine’s future in China",
+    "title_en": "Trending Tanker faces attack off Oman and nuclear powers to meet in China",
+    "title_zh": "Trending Tanker faces attack off Oman and nuclear powers to meet in China",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "5e1605c98c8e8fa18b38",
-    "title": "T早报｜SpaceX首次成功回收轨道返回的星舰飞船；香港迪士尼疑遭网络攻击；赛力斯与华为终端重新分工",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls"
-    ],
-    "matched_risk_terms": [
-      "华为"
-    ],
-    "severity": "high",
-    "priority_score": 75,
-    "confidence_score": 52,
-    "importance_score": 63,
-    "china_relevance_score": 100,
-    "novelty_score": 82,
-    "momentum_score": 12,
-    "exposure_score": 91,
-    "freshness_score": 56,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-16T06:24:20.096897+00:00",
-    "last_seen": "2026-11-16T06:24:20.096897+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "China"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新颖度82 / 动量12。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; novelty 82 / momentum 12.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
-    "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-16T06:24:21.904242+00:00",
-        "last_seen": "2026-11-16T06:24:20.096897+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 86,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-11-16T12:49:08.757298+00:00",
-        "last_seen": "2026-11-16T06:24:20.096897+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 76,
-        "confidence_score": 52,
-        "novelty_score": 82,
-        "momentum_score": 12,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-11-16T17:00:34.753965+00:00",
-        "last_seen": "2026-11-16T06:24:20.096897+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 75,
-        "confidence_score": 52,
-        "novelty_score": 82,
-        "momentum_score": 12,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "04f6b75f480b422534d2",
-        "origin_type": "news",
-        "source": "财新 Caixin",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "T早报｜SpaceX首次成功回收轨道返回的星舰飞船；香港迪士尼疑遭网络攻击；赛力斯与华为终端重新分工",
-        "url": "https://www.caixin.com/2026-11-16/102505153.html",
-        "published_at": null,
-        "collected_at": "2026-11-16T06:24:20.096897+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "caixin"
-      }
-    ],
-    "title_original": "T早报｜SpaceX首次成功回收轨道返回的星舰飞船；香港迪士尼疑遭网络攻击；赛力斯与华为终端重新分工",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "T早报｜SpaceX首次成功回收轨道返回的星舰飞船；香港迪士尼疑遭网络攻击；赛力斯与华为终端重新分工",
-    "title_en": "T早报｜SpaceX首次成功回收轨道返回的星舰飞船；香港迪士尼疑遭网络攻击；赛力斯与华为终端重新分工",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "0a3d118a270149a17272",
-    "title": "US, partners agree to safeguard key AI tech, infrastructure The US and nine partner nations, including India, Singapore and the UK, have signed a pledge to safeguard sensitive technologies and critical infrastructure amid escalating strategic competition with China over the future of artificial intelligence (AI).The “San Francisco Declaration on the Secure F",
+    "id": "a199553b8e32eb679e76",
+    "title": "US Moves to Curb China’s Remote Access to Nvidia’s AI Chips",
     "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls",
-      "technology_youth"
-    ],
-    "matched_risk_terms": [
-      "artificial intelligence",
-      "AI"
-    ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-16T17:00:33.185672+00:00",
-    "last_seen": "2026-11-16T17:00:33.185672+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Taiwan"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-16T17:00:34.753965+00:00",
-        "last_seen": "2026-11-16T17:00:33.185672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "88a93447473e65c129c7",
-        "origin_type": "news",
-        "source": "Taipei Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "US, partners agree to safeguard key AI tech, infrastructure The US and nine partner nations, including India, Singapore and the UK, have signed a pledge to safeguard sensitive technologies and critical infrastructure amid escalating strategic competition with China over the future of artificial intelligence (AI).The “San Francisco Declaration on the Secure F",
-        "url": "https://www.taipeitimes.com/News/front/archives/2026/11/17/2003867867",
-        "published_at": null,
-        "collected_at": "2026-11-16T17:00:33.185672+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "taipeitimes.com"
-      }
-    ],
-    "title_original": "US, partners agree to safeguard key AI tech, infrastructure The US and nine partner nations, including India, Singapore and the UK, have signed a pledge to safeguard sensitive technologies and critical infrastructure amid escalating strategic competition with China over the future of artificial intelligence (AI).The “San Francisco Declaration on the Secure F",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "US, partners agree to safeguard key AI tech, infrastructure The US and nine partner nations, including India, Singapore and the UK, have signed a pledge to safeguard sensitive technologies and critical infrastructure amid escalating strategic competition with China over the future of artificial intelligence (AI).The “San Francisco Declaration on the Secure F",
-    "title_zh": "US, partners agree to safeguard key AI tech, infrastructure The US and nine partner nations, including India, Singapore and the UK, have signed a pledge to safeguard sensitive technologies and critical infrastructure amid escalating strategic competition with China over the future of artificial intelligence (AI).The “San Francisco Declaration on the Secure F",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "1d17ab3a398ba97c52e6",
-    "title": "US to curb China's access to AI chips as Trump heads to Asia WASHINGTON — The Trump administration on Monday issued a rule that will further restrict China's access to the best AI chips from companies like Nvidia, just as President Donald Trump began a trip to China to meet with President Xi Jinping. The new restrictions on chip exports to overseas data cent",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls",
-      "technology_youth"
-    ],
-    "matched_risk_terms": [
-      "chip",
-      "AI"
-    ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-16T17:00:33.185672+00:00",
-    "last_seen": "2026-11-16T17:00:33.185672+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "South Korea"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-16T17:00:34.753965+00:00",
-        "last_seen": "2026-11-16T17:00:33.185672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "3a8bdf478cc0a8cca74a",
-        "origin_type": "news",
-        "source": "The Korea Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "US to curb China's access to AI chips as Trump heads to Asia WASHINGTON — The Trump administration on Monday issued a rule that will further restrict China's access to the best AI chips from companies like Nvidia, just as President Donald Trump began a trip to China to meet with President Xi Jinping. The new restrictions on chip exports to overseas data centers in countries like Malaysia and Thailand will hurt Chinese companies that use those data centers to access advanced chips to train their",
-        "url": "https://www.koreatimes.co.kr/world/20261117/us-to-curb-chinas-access-to-ai-chips-as-trump-heads-to-asia",
-        "published_at": null,
-        "collected_at": "2026-11-16T17:00:33.185672+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "koreatimes.co.kr"
-      }
-    ],
-    "title_original": "US to curb China's access to AI chips as Trump heads to Asia WASHINGTON — The Trump administration on Monday issued a rule that will further restrict China's access to the best AI chips from companies like Nvidia, just as President Donald Trump began a trip to China to meet with President Xi Jinping. The new restrictions on chip exports to overseas data cent",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "US to curb China's access to AI chips as Trump heads to Asia WASHINGTON — The Trump administration on Monday issued a rule that will further restrict China's access to the best AI chips from companies like Nvidia, just as President Donald Trump began a trip to China to meet with President Xi Jinping. The new restrictions on chip exports to overseas data cent",
-    "title_zh": "US to curb China's access to AI chips as Trump heads to Asia WASHINGTON — The Trump administration on Monday issued a rule that will further restrict China's access to the best AI chips from companies like Nvidia, just as President Donald Trump began a trip to China to meet with President Xi Jinping. The new restrictions on chip exports to overseas data cent",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "b6ddcdff1498a28f131a",
-    "title": "Nvidia scandal sparks Washington blame game over China chip exports",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls"
-    ],
-    "matched_risk_terms": [
-      "chip"
-    ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 52,
-    "importance_score": 44,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-16T17:00:33.185672+00:00",
-    "last_seen": "2026-11-16T17:00:33.185672+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Japan"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-16T17:00:34.753965+00:00",
-        "last_seen": "2026-11-16T17:00:33.185672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 52,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "48cc23994457ca154853",
-        "origin_type": "news",
-        "source": "Nikkei Asia",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Nvidia scandal sparks Washington blame game over China chip exports",
-        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-scandal-sparks-washington-blame-game-over-china-chip-exports",
-        "published_at": null,
-        "collected_at": "2026-11-16T17:00:33.185672+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "nikkei"
-      }
-    ],
-    "title_original": "Nvidia scandal sparks Washington blame game over China chip exports",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Nvidia scandal sparks Washington blame game over China chip exports",
-    "title_zh": "Nvidia scandal sparks Washington blame game over China chip exports",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "d84d39b2aefc59c3fd16",
-    "title": "Trump says he may meet with Kim Jong-un while in China",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "外交/制裁",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "low",
-    "priority_score": 73,
-    "confidence_score": 78,
-    "importance_score": 56,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 70,
-    "exposure_score": 60,
-    "freshness_score": 100,
-    "corroboration_score": 60,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-16T17:00:33.185672+00:00",
-    "last_seen": "2026-11-16T17:00:33.185672+00:00",
-    "source_count": 3,
-    "evidence_count": 3,
-    "news_count": 3,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "South Korea"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "外交/制裁信号；近期首次进入事件池；新增3条独立信息链；新颖度100 / 动量70。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 3 new independent source chain(s); novelty 100 / momentum 70.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 3,
-      "new_evidence": 3,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-16T17:00:34.753965+00:00",
-        "last_seen": "2026-11-16T17:00:33.185672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 73,
-        "confidence_score": 78,
-        "novelty_score": 100,
-        "momentum_score": 70,
-        "source_count": 3,
-        "evidence_count": 3
-      }
-    ],
-    "evidence": [
-      {
-        "id": "372732704f575937dcf8",
-        "origin_type": "news",
-        "source": "Yonhap News",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Trump says he may meet with Kim Jong-un while in China",
-        "url": "https://en.yna.co.kr/view/AEN20261116010000315?section=national/diplomacy",
-        "published_at": null,
-        "collected_at": "2026-11-16T17:00:33.185672+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "ap"
-      },
-      {
-        "id": "25ad0e7d92bd0e977e61",
-        "origin_type": "news",
-        "source": "The Korea Herald",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "National Trump says he may meet with Kim Jong-un while in China In a surprise announcement, US President Donald Trump said Monday he may meet with North Korean leader Kim Jong-un during his upcoming trip to China. \"We may meet with Kim Jong-un also, so that'll be",
-        "url": "https://www.koreaherald.com/article/10939074",
-        "published_at": null,
-        "collected_at": "2026-11-16T17:00:33.185672+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "koreaherald.com"
-      },
-      {
-        "id": "fa7798dae1bcfffb3323",
-        "origin_type": "news",
-        "source": "The Korea Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Trump says he may meet with Kim Jong-un while in China WASHINGTON — In a surprise announcement, U.S. President Donald Trump said Monday he may meet with North Korean leader Kim Jong-un during his upcoming trip to China. \"We may meet with Kim Jong-un also, so that'll be good,\" Trump told reporters from the White House before leaving for the Asia-Pacific Economic Cooperation (APEC) summit in Shenzhen, China. Trump added Chinese President Xi Jinping might invite Kim to Shenzhen when the leaders gat",
-        "url": "https://www.koreatimes.co.kr/world/20261117/trump-says-he-may-meet-with-kim-jong-un-while-in-china",
-        "published_at": null,
-        "collected_at": "2026-11-16T17:00:33.185672+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "koreatimes.co.kr"
-      }
-    ],
-    "title_original": "Trump says he may meet with Kim Jong-un while in China",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Trump says he may meet with Kim Jong-un while in China",
-    "title_zh": "Trump says he may meet with Kim Jong-un while in China",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "7e5b73ca2081471db434",
-    "title": "Chay Bowes put on EU sanctions list for allegedly spreading Russian ‘propaganda’",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "sanctions"
-    ],
-    "severity": "high",
-    "priority_score": 73,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 84,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-16T17:00:33.185672+00:00",
-    "last_seen": "2026-11-16T17:00:33.185672+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Ireland"
-    ],
-    "entities": [],
-    "reason": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-16T17:00:34.753965+00:00",
-        "last_seen": "2026-11-16T17:00:33.185672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 73,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "e56ba70423c2a2f51ddb",
-        "origin_type": "news",
-        "source": "Irish Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Chay Bowes put on EU sanctions list for allegedly spreading Russian ‘propaganda’",
-        "url": "https://www.irishtimes.com/ireland/2026/11/16/chay-bowes-put-on-eu-sanctions-list-for-spreading-russian-propaganda/",
-        "published_at": null,
-        "collected_at": "2026-11-16T17:00:33.185672+00:00",
-        "relation": "potential",
-        "confidence": 48,
-        "publisher_family": "irishtimes.com"
-      }
-    ],
-    "title_original": "Chay Bowes put on EU sanctions list for allegedly spreading Russian ‘propaganda’",
-    "reason_original": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
-    "title_en": "Chay Bowes put on EU sanctions list for allegedly spreading Russian ‘propaganda’",
-    "title_zh": "Chay Bowes put on EU sanctions list for allegedly spreading Russian ‘propaganda’",
-    "reason_zh": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
-    "reason_en": "Hits the public events of great power competition and escalation/disruption in the global security field; no direct evidence involving China has been found yet, and it is included in the pool according to conduction observation"
-  },
-  {
-    "id": "a8c52946ec1b078d9712",
-    "title": "Former police chief De Gennaro probed over Borsellino-bombing investigation",
-    "language": "it",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "investigation"
-    ],
-    "severity": "high",
-    "priority_score": 73,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 84,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-16T17:00:33.185672+00:00",
-    "last_seen": "2026-11-16T17:00:33.185672+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Italy"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Italy; 中国关联利益=中意经贸, 港口, 制造业, 欧盟对华政策, 一带一路后续合作; 中国关联实体/项目=Pirelli China links, COSCO Mediterranean exposure",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-16T17:00:34.753965+00:00",
-        "last_seen": "2026-11-16T17:00:33.185672+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 73,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "9a6791448bc3e0dacd81",
-        "origin_type": "news",
-        "source": "ANSA",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Former police chief De Gennaro probed over Borsellino-bombing investigation",
-        "url": "https://www.ansa.it/english/news/general_news/2026/11/16/former-police-chief-de-gennaro-probed-over-borsellino-bombing-investigation_b191b13a-ce31-4deb-bb38-a2a60306ecda.html",
-        "published_at": null,
-        "collected_at": "2026-11-16T17:00:33.185672+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "ansa.it"
-      }
-    ],
-    "title_original": "Former police chief De Gennaro probed over Borsellino-bombing investigation",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Italy; 中国关联利益=中意经贸, 港口, 制造业, 欧盟对华政策, 一带一路后续合作; 中国关联实体/项目=Pirelli China links, COSCO Mediterranean exposure",
-    "title_en": "Former police chief De Gennaro probed over Borsellino-bombing investigation",
-    "title_zh": "Former police chief De Gennaro probed over Borsellino-bombing investigation",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Italy; 中国关联利益=中意经贸, 港口, 制造业, 欧盟对华政策, 一带一路后续合作; 中国关联实体/项目=Pirelli China links, COSCO Mediterranean exposure",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Italy."
-  },
-  {
-    "id": "26eacfe8ed00c05c4707",
-    "title": "Taiwan tracks 10 Chinese military aircraft and 11 ships",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "军事安全",
-    "risk_category": "military_security",
-    "risk_category_en": "Military & Security",
-    "risk_categories": [
-      "military_security"
-    ],
-    "matched_risk_terms": [
-      "military aircraft"
-    ],
-    "severity": "medium",
-    "priority_score": 73,
-    "confidence_score": 39,
-    "importance_score": 50,
-    "china_relevance_score": 100,
-    "novelty_score": 95,
-    "momentum_score": 12,
-    "exposure_score": 100,
-    "freshness_score": 83,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-16T12:49:07.742705+00:00",
-    "last_seen": "2026-11-16T12:49:07.742705+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Taiwan"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "军事安全信号；近期首次进入事件池；新颖度95 / 动量12。",
-    "why_now_en": "Military & Security signal; newly entered the event pool; novelty 95 / momentum 12.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
-    "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-16T12:49:08.757298+00:00",
-        "last_seen": "2026-11-16T12:49:07.742705+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 81,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-11-16T17:00:34.753965+00:00",
-        "last_seen": "2026-11-16T12:49:07.742705+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 73,
-        "confidence_score": 39,
-        "novelty_score": 95,
-        "momentum_score": 12,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "e0d4a55fdbc5de19dfcb",
-        "origin_type": "news",
-        "source": "Taiwan News",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Taiwan tracks 10 Chinese military aircraft and 11 ships",
-        "url": "https://www.taiwannews.com.tw/en/news/6476271",
-        "published_at": null,
-        "collected_at": "2026-11-16T12:49:07.742705+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "taiwannews.com.tw"
-      }
-    ],
-    "title_original": "Taiwan tracks 10 Chinese military aircraft and 11 ships",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Taiwan tracks 10 Chinese military aircraft and 11 ships",
-    "title_zh": "Taiwan tracks 10 Chinese military aircraft and 11 ships",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Taiwan."
-  },
-  {
-    "id": "225abaf69198c7fcf4b8",
-    "title": "中国多所高校密集严查“翻墙” 分析：加强意识形态主阵地思想监管",
-    "language": "zh",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
@@ -1576,21 +1344,120 @@
       "technology_youth"
     ],
     "matched_risk_terms": [
-      "高校"
+      "AI"
     ],
     "severity": "low",
-    "priority_score": 71,
-    "confidence_score": 52,
-    "importance_score": 44,
+    "priority_score": 72,
+    "confidence_score": 58,
+    "importance_score": 48,
     "china_relevance_score": 100,
     "novelty_score": 100,
-    "momentum_score": 55,
+    "momentum_score": 63,
     "exposure_score": 67,
+    "freshness_score": 100,
+    "corroboration_score": 40,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-17T07:53:03.113102+00:00",
+    "last_seen": "2026-11-17T07:53:03.113102+00:00",
+    "source_count": 2,
+    "evidence_count": 2,
+    "news_count": 2,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "United States",
+      "Japan"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增2条独立信息链；新颖度100 / 动量63。",
+    "why_now_en": "Technology & Youth signal; newly entered the event pool; 2 new independent source chain(s); novelty 100 / momentum 63.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 2,
+      "new_evidence": 2,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-17T07:53:03.113102+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 72,
+        "confidence_score": 58,
+        "novelty_score": 100,
+        "momentum_score": 63,
+        "source_count": 2,
+        "evidence_count": 2
+      }
+    ],
+    "evidence": [
+      {
+        "id": "16a403f06b38fb86d1e4",
+        "origin_type": "news",
+        "source": "Bloomberg",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "US Moves to Curb China’s Remote Access to Nvidia’s AI Chips",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-16/us-moves-to-limit-remote-access-to-advanced-ai-chips?srnd=homepage-americas",
+        "published_at": null,
+        "collected_at": "2026-11-17T07:53:03.113102+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "bloomberg"
+      },
+      {
+        "id": "5a7777a006a5e0ce6d75",
+        "origin_type": "news",
+        "source": "Nikkei Asia",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "US moves to curb China's remote access to AI chips after Nvidia scandal",
+        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-moves-to-curb-china-s-remote-access-to-ai-chips-after-nvidia-scandal",
+        "published_at": null,
+        "collected_at": "2026-11-17T07:53:03.113102+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "nikkei"
+      }
+    ],
+    "title_original": "US Moves to Curb China’s Remote Access to Nvidia’s AI Chips",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "US Moves to Curb China’s Remote Access to Nvidia’s AI Chips",
+    "title_zh": "US Moves to Curb China’s Remote Access to Nvidia’s AI Chips",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "5129974042747641ccc7",
+    "title": "IDF probes Jericho ramming attack that left three Israelis wounded, Palestinian woman dead",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "安全/冲突",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "high",
+    "priority_score": 71,
+    "confidence_score": 39,
+    "importance_score": 65,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 65,
+    "exposure_score": 55,
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-16T17:00:33.185672+00:00",
-    "last_seen": "2026-11-16T17:00:33.185672+00:00",
+    "first_seen": "2026-11-17T07:53:03.113102+00:00",
+    "last_seen": "2026-11-17T07:53:03.113102+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1598,7 +1465,94 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Singapore"
+      "Israel"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Israel; 中国关联利益=科技, 港口, 中东安全, 中美科技竞争, 基础设施; 中国关联实体/项目=Haifa port China-related discussions, Israeli tech investment",
+    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-17T07:53:03.113102+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 71,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 65,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "63b9d1f29cc381e64264",
+        "origin_type": "news",
+        "source": "Jerusalem Post",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "IDF probes Jericho ramming attack that left three Israelis wounded, Palestinian woman dead",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-915105",
+        "published_at": null,
+        "collected_at": "2026-11-17T07:53:03.113102+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "jpost.com"
+      }
+    ],
+    "title_original": "IDF probes Jericho ramming attack that left three Israelis wounded, Palestinian woman dead",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Israel; 中国关联利益=科技, 港口, 中东安全, 中美科技竞争, 基础设施; 中国关联实体/项目=Haifa port China-related discussions, Israeli tech investment",
+    "title_en": "IDF probes Jericho ramming attack that left three Israelis wounded, Palestinian woman dead",
+    "title_zh": "IDF probes Jericho ramming attack that left three Israelis wounded, Palestinian woman dead",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Israel; 中国关联利益=科技, 港口, 中东安全, 中美科技竞争, 基础设施; 中国关联实体/项目=Haifa port China-related discussions, Israeli tech investment",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Israel."
+  },
+  {
+    "id": "19351b2635590d6d2945",
+    "title": "Samsung and TSMC shares drop following new US restrictions on China AI chips",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技与青年",
+    "risk_category": "technology_youth",
+    "risk_category_en": "Technology & Youth",
+    "risk_categories": [
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "AI"
+    ],
+    "severity": "low",
+    "priority_score": 71,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 67,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-17T07:53:03.113102+00:00",
+    "last_seen": "2026-11-17T07:53:03.113102+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Pakistan"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
@@ -1614,11 +1568,11 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-16T17:00:34.753965+00:00",
-        "last_seen": "2026-11-16T17:00:33.185672+00:00",
+        "observed_at": "2026-11-17T07:53:04.958766+00:00",
+        "last_seen": "2026-11-17T07:53:03.113102+00:00",
         "lifecycle": "emerging",
         "priority_score": 71,
-        "confidence_score": 52,
+        "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
         "source_count": 1,
@@ -1627,26 +1581,26 @@
     ],
     "evidence": [
       {
-        "id": "fd4c4c8aeeaa0356f944",
+        "id": "fd3eebd18fb34835584e",
         "origin_type": "news",
-        "source": "联合早报 Lianhe Zaobao · 中国",
+        "source": "The News International",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "中国多所高校密集严查“翻墙” 分析：加强意识形态主阵地思想监管",
-        "url": "https://www.zaobao.com.sg/news/china/story20261116-10008321",
+        "title": "Samsung and TSMC shares drop following new US restrictions on China AI chips",
+        "url": "https://www.thenews.com.pk/latest/1423927-samsung-and-tsmc-shares-drop-following-new-us-restrictions-on-china-ai-chips",
         "published_at": null,
-        "collected_at": "2026-11-16T17:00:33.185672+00:00",
+        "collected_at": "2026-11-17T07:53:03.113102+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "zaobao"
+        "publisher_family": "thenews.com.pk"
       }
     ],
-    "title_original": "中国多所高校密集严查“翻墙” 分析：加强意识形态主阵地思想监管",
+    "title_original": "Samsung and TSMC shares drop following new US restrictions on China AI chips",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "中国多所高校密集严查“翻墙” 分析：加强意识形态主阵地思想监管",
-    "title_en": "中国多所高校密集严查“翻墙” 分析：加强意识形态主阵地思想监管",
+    "title_en": "Samsung and TSMC shares drop following new US restrictions on China AI chips",
+    "title_zh": "Samsung and TSMC shares drop following new US restrictions on China AI chips",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Singapore."
+    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Pakistan."
   }
 ]
