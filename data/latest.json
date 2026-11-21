@@ -16,14 +16,14 @@
       "arrested"
     ],
     "severity": "high",
-    "priority_score": 87,
+    "priority_score": 77,
     "confidence_score": 52,
-    "importance_score": 69,
+    "importance_score": 66,
     "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
+    "novelty_score": 82,
+    "momentum_score": 12,
     "exposure_score": 100,
-    "freshness_score": 98,
+    "freshness_score": 75,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-11-21T06:37:59+00:00",
@@ -39,13 +39,13 @@
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "人员安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Personnel Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
+    "why_now_zh": "人员安全信号；近期首次进入事件池；新颖度82 / 动量12。",
+    "why_now_en": "Personnel Security signal; newly entered the event pool; novelty 82 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
     "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
+      "new_sources": 0,
+      "new_evidence": 0,
       "severity_change": 0,
       "official_added": false
     },
@@ -58,6 +58,17 @@
         "confidence_score": 52,
         "novelty_score": 100,
         "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-21T06:37:59+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 77,
+        "confidence_score": 52,
+        "novelty_score": 82,
+        "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
       }
@@ -87,95 +98,6 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "3351b22072272dc9f46e",
-    "title": "Lee visits AI data center construction site in Ulsan President Lee Jae Myung visited an artificial intelligence (AI) data center construction site in the southern port city of Ulsan on Saturday, a day after he concluded a four-day trip to the Philippines and China. The visit was aimed at checking the progress of the government-led \"mega projects\" aimed at tr",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls",
-      "technology_youth"
-    ],
-    "matched_risk_terms": [
-      "artificial intelligence",
-      "AI"
-    ],
-    "severity": "medium",
-    "priority_score": 80,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-21T07:02:45.148278+00:00",
-    "last_seen": "2026-11-21T07:02:45.148278+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "South Korea"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-21T07:02:47.279884+00:00",
-        "last_seen": "2026-11-21T07:02:45.148278+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 80,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "d182c37fa35f144d2eef",
-        "origin_type": "news",
-        "source": "The Korea Times",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Lee visits AI data center construction site in Ulsan President Lee Jae Myung visited an artificial intelligence (AI) data center construction site in the southern port city of Ulsan on Saturday, a day after he concluded a four-day trip to the Philippines and China. The visit was aimed at checking the progress of the government-led \"mega projects\" aimed at transforming three regional provinces -- the central region of Chungcheong, the southwestern region of Honam and the southern region of Yeongn",
-        "url": "https://www.koreatimes.co.kr/southkorea/politics/20261121/lee-visits-ai-data-center-construction-site-in-ulsan",
-        "published_at": null,
-        "collected_at": "2026-11-21T07:02:45.148278+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "koreatimes.co.kr"
-      }
-    ],
-    "title_original": "Lee visits AI data center construction site in Ulsan President Lee Jae Myung visited an artificial intelligence (AI) data center construction site in the southern port city of Ulsan on Saturday, a day after he concluded a four-day trip to the Philippines and China. The visit was aimed at checking the progress of the government-led \"mega projects\" aimed at tr",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Lee visits AI data center construction site in Ulsan President Lee Jae Myung visited an artificial intelligence (AI) data center construction site in the southern port city of Ulsan on Saturday, a day after he concluded a four-day trip to the Philippines and China. The visit was aimed at checking the progress of the government-led \"mega projects\" aimed at tr",
-    "title_zh": "Lee visits AI data center construction site in Ulsan President Lee Jae Myung visited an artificial intelligence (AI) data center construction site in the southern port city of Ulsan on Saturday, a day after he concluded a four-day trip to the Philippines and China. The visit was aimed at checking the progress of the government-led \"mega projects\" aimed at tr",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
     "id": "6435f2e216b2cf8d3871",
     "title": "Moscow hits Kyiv after Putin’s threat of ‘painful’ response Moscow yesterday pounded Ukraine with massive strikes, with Kyiv saying at least six people were killed in the capital, and neighboring Poland reporting two Russian missiles likely landed in the south-east corner of the NATO country, accusing Moscow of a “provocation.” Hours earlier, Russian Preside",
     "language": "en",
@@ -192,14 +114,14 @@
       "killed"
     ],
     "severity": "high",
-    "priority_score": 77,
+    "priority_score": 76,
     "confidence_score": 39,
-    "importance_score": 56,
+    "importance_score": 52,
     "china_relevance_score": 100,
     "novelty_score": 82,
     "momentum_score": 28,
     "exposure_score": 100,
-    "freshness_score": 38,
+    "freshness_score": 14,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-11-20T16:09:16.690857+00:00",
@@ -247,6 +169,17 @@
         "momentum_score": 28,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-20T16:09:16.690857+00:00",
+        "lifecycle": "escalating",
+        "priority_score": 76,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 28,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -274,8 +207,182 @@
     "reason_en": "The event occurred in Mainland China/Hong Kong/Taiwan and was a major change at the political, diplomatic, economic, industrial, security or social levels"
   },
   {
+    "id": "789b3cd8b83e8f6ca572",
+    "title": "华为余承东称“开车可以睡觉”惹议 后改口称务必专心",
+    "language": "zh",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "华为"
+    ],
+    "severity": "low",
+    "priority_score": 74,
+    "confidence_score": 52,
+    "importance_score": 44,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 91,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-21T12:42:50.172732+00:00",
+    "last_seen": "2026-11-21T12:42:50.172732+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Singapore"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-21T12:42:50.172732+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 52,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "68684d96f7f5f70e8c8c",
+        "origin_type": "news",
+        "source": "联合早报 Lianhe Zaobao · 中国",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "华为余承东称“开车可以睡觉”惹议 后改口称务必专心",
+        "url": "https://www.zaobao.com.sg/news/china/story20261121-10036612",
+        "published_at": null,
+        "collected_at": "2026-11-21T12:42:50.172732+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "zaobao"
+      }
+    ],
+    "title_original": "华为余承东称“开车可以睡觉”惹议 后改口称务必专心",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_zh": "华为余承东称“开车可以睡觉”惹议 后改口称务必专心",
+    "title_en": "华为余承东称“开车可以睡觉”惹议 后改口称务必专心",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "0869d1b561b8a4644655",
+    "title": "TSMC suspends some advanced chip orders from China",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls"
+    ],
+    "matched_risk_terms": [
+      "chip"
+    ],
+    "severity": "low",
+    "priority_score": 74,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 91,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-21T12:42:50.172732+00:00",
+    "last_seen": "2026-11-21T12:42:50.172732+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Taiwan"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-21T12:42:50.172732+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "91895ff5375c7aec2a07",
+        "origin_type": "news",
+        "source": "Taiwan News",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "TSMC suspends some advanced chip orders from China",
+        "url": "https://www.taiwannews.com.tw/en/news/6478978",
+        "published_at": null,
+        "collected_at": "2026-11-21T12:42:50.172732+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "taiwannews.com.tw"
+      }
+    ],
+    "title_original": "TSMC suspends some advanced chip orders from China",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "TSMC suspends some advanced chip orders from China",
+    "title_zh": "TSMC suspends some advanced chip orders from China",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
     "id": "7b3ce9a99d0c770273e1",
-    "title": "National Impeachment motion against Supreme Court chief likely to be initiated on 2nd anniversary of martial law bid: lawmaker The ruling Democratic Party is expected to initiate a parliamentary motion to impeach the Supreme Court chief justice on Dec. 3, the second anniversary of ousted former President Yoon Suk Yeol's 2024",
+    "title": "Impeachment motion against Supreme Court chief likely to be initiated on 2nd anniversary of martial law bid: lawmaker",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -286,21 +393,21 @@
     "risk_categories": [],
     "matched_risk_terms": [],
     "severity": "critical",
-    "priority_score": 76,
-    "confidence_score": 39,
-    "importance_score": 77,
+    "priority_score": 74,
+    "confidence_score": 72,
+    "importance_score": 90,
     "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
+    "novelty_score": 95,
+    "momentum_score": 46,
     "exposure_score": 55,
     "freshness_score": 100,
-    "corroboration_score": 20,
+    "corroboration_score": 40,
     "evidence_diversity_score": 34,
     "first_seen": "2026-11-21T07:02:45.148278+00:00",
-    "last_seen": "2026-11-21T07:02:45.148278+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
+    "last_seen": "2026-11-21T12:42:50.172732+00:00",
+    "source_count": 2,
+    "evidence_count": 2,
+    "news_count": 2,
     "social_count": 0,
     "official_evidence": false,
     "platforms": [],
@@ -309,10 +416,10 @@
     ],
     "entities": [],
     "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
-    "why_now_zh": "其他信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
+    "why_now_zh": "其他信号；近期首次进入事件池；新增1条独立信息链；新颖度95 / 动量46。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 95 / momentum 46.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.57,
     "change": {
       "new_sources": 1,
       "new_evidence": 1,
@@ -330,9 +437,35 @@
         "momentum_score": 55,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-21T12:42:50.172732+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 74,
+        "confidence_score": 72,
+        "novelty_score": 95,
+        "momentum_score": 46,
+        "source_count": 2,
+        "evidence_count": 2
       }
     ],
     "evidence": [
+      {
+        "id": "15a587fa7575980f4228",
+        "origin_type": "news",
+        "source": "Yonhap News",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Impeachment motion against Supreme Court chief likely to be initiated on 2nd anniversary of martial law bid: lawmaker",
+        "url": "https://en.yna.co.kr/view/AEN20261121001200315?section=national/politics",
+        "published_at": null,
+        "collected_at": "2026-11-21T12:42:50.172732+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "ap"
+      },
       {
         "id": "b049269de83bdf49cca3",
         "origin_type": "news",
@@ -349,190 +482,16 @@
         "publisher_family": "koreaherald.com"
       }
     ],
-    "title_original": "National Impeachment motion against Supreme Court chief likely to be initiated on 2nd anniversary of martial law bid: lawmaker The ruling Democratic Party is expected to initiate a parliamentary motion to impeach the Supreme Court chief justice on Dec. 3, the second anniversary of ousted former President Yoon Suk Yeol's 2024",
+    "title_original": "Impeachment motion against Supreme Court chief likely to be initiated on 2nd anniversary of martial law bid: lawmaker",
     "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
-    "title_en": "National Impeachment motion against Supreme Court chief likely to be initiated on 2nd anniversary of martial law bid: lawmaker The ruling Democratic Party is expected to initiate a parliamentary motion to impeach the Supreme Court chief justice on Dec. 3, the second anniversary of ousted former President Yoon Suk Yeol's 2024",
-    "title_zh": "National Impeachment motion against Supreme Court chief likely to be initiated on 2nd anniversary of martial law bid: lawmaker The ruling Democratic Party is expected to initiate a parliamentary motion to impeach the Supreme Court chief justice on Dec. 3, the second anniversary of ousted former President Yoon Suk Yeol's 2024",
+    "title_en": "Impeachment motion against Supreme Court chief likely to be initiated on 2nd anniversary of martial law bid: lawmaker",
+    "title_zh": "Impeachment motion against Supreme Court chief likely to be initiated on 2nd anniversary of martial law bid: lawmaker",
     "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=South Korea; 中国关联利益=中韩关系, 半导体, 电池, 朝鲜半岛, 供应链, 对美技术政策; 中国关联实体/项目=Samsung China exposure, SK Hynix China fabs, LG Energy Solution",
     "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related region = South Korea; China-related interests = China-South Korea relations, semiconductors, batteries, Korean Peninsula, supply chain, US technology policy; China-related entities/projects = Samsung China exposure, SK Hynix China fabs, LG Energy Solution"
   },
   {
-    "id": "18d3f9c0180ecbc6f826",
-    "title": "Why a viral TikTok about ‘baddies’ has struck such a nerve in Nepal",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls"
-    ],
-    "matched_risk_terms": [
-      "TikTok"
-    ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-21T07:02:45.148278+00:00",
-    "last_seen": "2026-11-21T07:02:45.148278+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Nepal"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-21T07:02:47.279884+00:00",
-        "last_seen": "2026-11-21T07:02:45.148278+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "4020d22d28bd19267d39",
-        "origin_type": "news",
-        "source": "The Kathmandu Post",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Why a viral TikTok about ‘baddies’ has struck such a nerve in Nepal",
-        "url": "https://kathmandupost.com/art-culture/2026/11/21/why-a-viral-tiktok-about-baddies-has-struck-such-a-nerve-in-nepal",
-        "published_at": null,
-        "collected_at": "2026-11-21T07:02:45.148278+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "kathmandupost.com"
-      }
-    ],
-    "title_original": "Why a viral TikTok about ‘baddies’ has struck such a nerve in Nepal",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Why a viral TikTok about ‘baddies’ has struck such a nerve in Nepal",
-    "title_zh": "Why a viral TikTok about ‘baddies’ has struck such a nerve in Nepal",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "e150d55a59703f02503a",
-    "title": "Young Bru Van Kieu man brings ethnic culture to TikTok and Facebook",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技限制",
-    "risk_category": "tech_controls",
-    "risk_category_en": "Technology Controls",
-    "risk_categories": [
-      "tech_controls"
-    ],
-    "matched_risk_terms": [
-      "TikTok"
-    ],
-    "severity": "low",
-    "priority_score": 74,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 91,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-21T07:02:45.148278+00:00",
-    "last_seen": "2026-11-21T07:02:45.148278+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Vietnam"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-21T07:02:47.279884+00:00",
-        "last_seen": "2026-11-21T07:02:45.148278+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 74,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "37c9739896ac41de7647",
-        "origin_type": "news",
-        "source": "VietnamNet Global",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Young Bru Van Kieu man brings ethnic culture to TikTok and Facebook",
-        "url": "https://vietnamnet.vn/en/young-bru-van-kieu-man-brings-ethnic-culture-to-tiktok-and-facebook-2567609.html",
-        "published_at": null,
-        "collected_at": "2026-11-21T07:02:45.148278+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "vietnamnet.vn"
-      }
-    ],
-    "title_original": "Young Bru Van Kieu man brings ethnic culture to TikTok and Facebook",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Young Bru Van Kieu man brings ethnic culture to TikTok and Facebook",
-    "title_zh": "Young Bru Van Kieu man brings ethnic culture to TikTok and Facebook",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "1be95f617a0025a86c6f",
-    "title": "US lawmakers urge ban on Chinese AI models in federal systems",
+    "id": "d1074461a4a83b734654",
+    "title": "Indonesia fines and sanctions firms for stock manipulation, disclosure failures",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -541,26 +500,24 @@
     "risk_category": "trade_regulatory",
     "risk_category_en": "Trade & Regulatory",
     "risk_categories": [
-      "trade_regulatory",
-      "technology_youth"
+      "trade_regulatory"
     ],
     "matched_risk_terms": [
-      "ban",
-      "AI"
+      "sanctions"
     ],
-    "severity": "low",
+    "severity": "high",
     "priority_score": 73,
     "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
+    "importance_score": 65,
+    "china_relevance_score": 58,
     "novelty_score": 100,
     "momentum_score": 55,
-    "exposure_score": 89,
+    "exposure_score": 84,
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-21T07:02:45.148278+00:00",
-    "last_seen": "2026-11-21T07:02:45.148278+00:00",
+    "first_seen": "2026-11-21T12:42:50.172732+00:00",
+    "last_seen": "2026-11-21T12:42:50.172732+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -568,10 +525,10 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Turkey"
+      "Singapore"
     ],
     "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
     "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
     "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
@@ -584,8 +541,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-21T07:02:47.279884+00:00",
-        "last_seen": "2026-11-21T07:02:45.148278+00:00",
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-21T12:42:50.172732+00:00",
         "lifecycle": "emerging",
         "priority_score": 73,
         "confidence_score": 39,
@@ -597,27 +554,27 @@
     ],
     "evidence": [
       {
-        "id": "478fba5c34d15e3e2eb0",
+        "id": "8cfd96d3e5d60afab203",
         "origin_type": "news",
-        "source": "Anadolu Agency",
+        "source": "Channel NewsAsia",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "US lawmakers urge ban on Chinese AI models in federal systems",
-        "url": "https://www.aa.com.tr/en/americas/us-lawmakers-urge-ban-on-chinese-ai-models-in-federal-systems/4132677",
+        "title": "Indonesia fines and sanctions firms for stock manipulation, disclosure failures",
+        "url": "https://www.channelnewsasia.com/asia/indonesia-financial-services-authority-ojk-capital-market-violations-6571336",
         "published_at": null,
-        "collected_at": "2026-11-21T07:02:45.148278+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "aa.com.tr"
+        "collected_at": "2026-11-21T12:42:50.172732+00:00",
+        "relation": "potential",
+        "confidence": 48,
+        "publisher_family": "channelnewsasia.com"
       }
     ],
-    "title_original": "US lawmakers urge ban on Chinese AI models in federal systems",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "US lawmakers urge ban on Chinese AI models in federal systems",
-    "title_zh": "US lawmakers urge ban on Chinese AI models in federal systems",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+    "title_original": "Indonesia fines and sanctions firms for stock manipulation, disclosure failures",
+    "reason_original": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "title_en": "Indonesia fines and sanctions firms for stock manipulation, disclosure failures",
+    "title_zh": "Indonesia fines and sanctions firms for stock manipulation, disclosure failures",
+    "reason_zh": "命中全球安全领域大国博弈及升级/中断类公开事件；暂未发现直接涉华证据，按传导观察入池",
+    "reason_en": "Hits the public events of great power competition and escalation/disruption in the global security field; no direct evidence involving China has been found yet, and it is included in the pool according to conduction observation"
   },
   {
     "id": "1e54a3a395bc0f1c57de",
@@ -632,14 +589,14 @@
     "risk_categories": [],
     "matched_risk_terms": [],
     "severity": "high",
-    "priority_score": 73,
+    "priority_score": 72,
     "confidence_score": 39,
-    "importance_score": 56,
+    "importance_score": 52,
     "china_relevance_score": 100,
     "novelty_score": 82,
     "momentum_score": 28,
     "exposure_score": 60,
-    "freshness_score": 38,
+    "freshness_score": 14,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-11-20T16:09:16.690857+00:00",
@@ -687,6 +644,17 @@
         "momentum_score": 28,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-20T16:09:16.690857+00:00",
+        "lifecycle": "escalating",
+        "priority_score": 72,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 28,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -714,270 +682,113 @@
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
   {
-    "id": "ccd055d528c353775fba",
-    "title": "07:02 Alerte « L’explosion de l’extrême richesse constitue le fait social majeur de notre temps » : le manifeste de plus de 110 intellectuels contre l’oligarchie",
-    "language": "fr",
+    "id": "3351b22072272dc9f46e",
+    "title": "Lee visits AI data center construction site in Ulsan President Lee Jae Myung visited an artificial intelligence (AI) data center construction site in the southern port city of Ulsan on Saturday, a day after he concluded a four-day trip to the Philippines and China. The visit was aimed at checking the progress of the government-led \"mega projects\" aimed at tr",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技限制",
+    "risk_category": "tech_controls",
+    "risk_category_en": "Technology Controls",
+    "risk_categories": [
+      "tech_controls",
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "artificial intelligence",
+      "AI"
+    ],
+    "severity": "medium",
+    "priority_score": 71,
+    "confidence_score": 39,
+    "importance_score": 49,
+    "china_relevance_score": 100,
+    "novelty_score": 95,
+    "momentum_score": 12,
+    "exposure_score": 91,
+    "freshness_score": 76,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-21T07:02:45.148278+00:00",
+    "last_seen": "2026-11-21T07:02:45.148278+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "South Korea"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-21T07:02:47.279884+00:00",
+        "last_seen": "2026-11-21T07:02:45.148278+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 80,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-21T07:02:45.148278+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 71,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "d182c37fa35f144d2eef",
+        "origin_type": "news",
+        "source": "The Korea Times",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Lee visits AI data center construction site in Ulsan President Lee Jae Myung visited an artificial intelligence (AI) data center construction site in the southern port city of Ulsan on Saturday, a day after he concluded a four-day trip to the Philippines and China. The visit was aimed at checking the progress of the government-led \"mega projects\" aimed at transforming three regional provinces -- the central region of Chungcheong, the southwestern region of Honam and the southern region of Yeongn",
+        "url": "https://www.koreatimes.co.kr/southkorea/politics/20261121/lee-visits-ai-data-center-construction-site-in-ulsan",
+        "published_at": null,
+        "collected_at": "2026-11-21T07:02:45.148278+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "koreatimes.co.kr"
+      }
+    ],
+    "title_original": "Lee visits AI data center construction site in Ulsan President Lee Jae Myung visited an artificial intelligence (AI) data center construction site in the southern port city of Ulsan on Saturday, a day after he concluded a four-day trip to the Philippines and China. The visit was aimed at checking the progress of the government-led \"mega projects\" aimed at tr",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Lee visits AI data center construction site in Ulsan President Lee Jae Myung visited an artificial intelligence (AI) data center construction site in the southern port city of Ulsan on Saturday, a day after he concluded a four-day trip to the Philippines and China. The visit was aimed at checking the progress of the government-led \"mega projects\" aimed at tr",
+    "title_zh": "Lee visits AI data center construction site in Ulsan President Lee Jae Myung visited an artificial intelligence (AI) data center construction site in the southern port city of Ulsan on Saturday, a day after he concluded a four-day trip to the Philippines and China. The visit was aimed at checking the progress of the government-led \"mega projects\" aimed at tr",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "5705cf6326b352206e6d",
+    "title": "Giving Howard Lutnick His Due: China Is a Hard Problem",
+    "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
     "category": "安全/冲突",
-    "risk_category": "other",
-    "risk_category_en": "",
-    "risk_categories": [],
-    "matched_risk_terms": [],
-    "severity": "high",
-    "priority_score": 71,
-    "confidence_score": 39,
-    "importance_score": 65,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 65,
-    "exposure_score": 55,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-21T07:02:45.148278+00:00",
-    "last_seen": "2026-11-21T07:02:45.148278+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "France"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
-    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-21T07:02:47.279884+00:00",
-        "last_seen": "2026-11-21T07:02:45.148278+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 71,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "a34062abc76c2cdb8308",
-        "origin_type": "news",
-        "source": "Le Monde",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "07:02 Alerte « L’explosion de l’extrême richesse constitue le fait social majeur de notre temps » : le manifeste de plus de 110 intellectuels contre l’oligarchie",
-        "url": "https://www.lemonde.fr/idees/article/2026/11/21/l-explosion-de-l-extreme-richesse-constitue-le-fait-social-majeur-de-notre-temps-le-manifeste-de-plus-de-110-intellectuels-contre-l-oligarchie_6813943_3232.html",
-        "published_at": null,
-        "collected_at": "2026-11-21T07:02:45.148278+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "lemonde.fr"
-      }
-    ],
-    "title_original": "07:02 Alerte « L’explosion de l’extrême richesse constitue le fait social majeur de notre temps » : le manifeste de plus de 110 intellectuels contre l’oligarchie",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
-    "title_en": "07:02 Alerte « L’explosion de l’extrême richesse constitue le fait social majeur de notre temps » : le manifeste de plus de 110 intellectuels contre l’oligarchie",
-    "title_zh": "07:02 Alerte « L’explosion de l’extrême richesse constitue le fait social majeur de notre temps » : le manifeste de plus de 110 intellectuels contre l’oligarchie",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=France; 中国关联利益=中法关系, 航空航天, 核能, 农产品, 欧盟对华政策, 奢侈品, 电动汽车; 中国关联实体/项目=Airbus China exposure, EDF cooperation, CMA CGM China exposure",
-    "reason_en": "Occurred in a country/region where China's important interests are exposed, and it is a major political, economic, industrial or security change; event-related region = France; China-related interests = Sino-French relations, aerospace, nuclear energy, agricultural products, EU China policy, luxury goods, electric vehicles; China-related entities/projects = Airbus China exposure, EDF cooperation, CMA CGM China exposure"
-  },
-  {
-    "id": "ce3cb67c1fc397854967",
-    "title": "Lutnick ‘was warned a year ago about China illegally obtaining AI chips’",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "科技与青年",
-    "risk_category": "technology_youth",
-    "risk_category_en": "Technology & Youth",
-    "risk_categories": [
-      "technology_youth"
-    ],
-    "matched_risk_terms": [
-      "AI"
-    ],
-    "severity": "low",
-    "priority_score": 71,
-    "confidence_score": 39,
-    "importance_score": 40,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 67,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-21T07:02:45.148278+00:00",
-    "last_seen": "2026-11-21T07:02:45.148278+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United Kingdom"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技与青年信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Technology & Youth signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-21T07:02:47.279884+00:00",
-        "last_seen": "2026-11-21T07:02:45.148278+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 71,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "b81b09d90238831f2e2c",
-        "origin_type": "news",
-        "source": "The Telegraph",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Lutnick ‘was warned a year ago about China illegally obtaining AI chips’",
-        "url": "https://www.telegraph.co.uk/us/politics/2026/11/21/lutnick-warned-year-ago-china-illegally-ai-chips-nvidia/",
-        "published_at": null,
-        "collected_at": "2026-11-21T07:02:45.148278+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "telegraph.co.uk"
-      }
-    ],
-    "title_original": "Lutnick ‘was warned a year ago about China illegally obtaining AI chips’",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "Lutnick ‘was warned a year ago about China illegally obtaining AI chips’",
-    "title_zh": "Lutnick ‘was warned a year ago about China illegally obtaining AI chips’",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "57cabb3d350ea9a5d258",
-    "title": "章北海的自然选择｜土地财政下跌不止，中国经济吃什么？",
-    "language": "zh",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "农业农村",
-    "risk_category": "agriculture_rural",
-    "risk_category_en": "Agriculture & Rural Affairs",
-    "risk_categories": [
-      "agriculture_rural"
-    ],
-    "matched_risk_terms": [
-      "土地"
-    ],
-    "severity": "low",
-    "priority_score": 71,
-    "confidence_score": 39,
-    "importance_score": 37,
-    "china_relevance_score": 100,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 77,
-    "freshness_score": 82,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-21T02:44:58+00:00",
-    "last_seen": "2026-11-21T02:44:58+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "Global"
-    ],
-    "entities": [],
-    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "农业农村信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Agriculture & Rural Affairs signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-21T07:02:47.279884+00:00",
-        "last_seen": "2026-11-21T02:44:58+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 71,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "433b0a9dd101388c1dea",
-        "origin_type": "news",
-        "source": "中国数字时代 Chinese CDT",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "章北海的自然选择｜土地财政下跌不止，中国经济吃什么？",
-        "url": "https://chinadigitaltimes.net/chinese/734127.html",
-        "published_at": "2026-11-21T02:44:58+00:00",
-        "collected_at": "2026-11-21T07:02:45.148278+00:00",
-        "relation": "direct",
-        "confidence": 94,
-        "publisher_family": "cdt"
-      }
-    ],
-    "title_original": "章北海的自然选择｜土地财政下跌不止，中国经济吃什么？",
-    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_zh": "章北海的自然选择｜土地财政下跌不止，中国经济吃什么？",
-    "title_en": "章北海的自然选择｜土地财政下跌不止，中国经济吃什么？",
-    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
-  },
-  {
-    "id": "ee715bf9d00b4bc0d4de",
-    "title": "China’s summit snub could strengthen Takaichi’s standing at home",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "外交/制裁",
     "risk_category": "other",
     "risk_category_en": "",
     "risk_categories": [],
@@ -993,8 +804,8 @@
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-21T07:02:45.148278+00:00",
-    "last_seen": "2026-11-21T07:02:45.148278+00:00",
+    "first_seen": "2026-11-21T12:42:50.172732+00:00",
+    "last_seen": "2026-11-21T12:42:50.172732+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1002,11 +813,11 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "Japan"
+      "United States"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "外交/制裁信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_zh": "安全/冲突信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
     "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
@@ -1018,8 +829,8 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-21T07:02:47.279884+00:00",
-        "last_seen": "2026-11-21T07:02:45.148278+00:00",
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-21T12:42:50.172732+00:00",
         "lifecycle": "emerging",
         "priority_score": 70,
         "confidence_score": 39,
@@ -1031,25 +842,108 @@
     ],
     "evidence": [
       {
-        "id": "3362b202cc67e997bed5",
+        "id": "10d8e4311cc852dc4b8d",
         "origin_type": "news",
-        "source": "The Japan Times",
+        "source": "National Review",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "China’s summit snub could strengthen Takaichi’s standing at home",
-        "url": "https://www.japantimes.co.jp/news/2026/11/21/japan/politics/china-snub-boost-takaichi-base/",
+        "title": "Giving Howard Lutnick His Due: China Is a Hard Problem",
+        "url": "https://www.nationalreview.com/article/giving-howard-lutnick-his-due-china-is-a-hard-problem",
         "published_at": null,
-        "collected_at": "2026-11-21T07:02:45.148278+00:00",
+        "collected_at": "2026-11-21T12:42:50.172732+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "japantimes.co.jp"
+        "publisher_family": "nationalreview.com"
       }
     ],
-    "title_original": "China’s summit snub could strengthen Takaichi’s standing at home",
+    "title_original": "Giving Howard Lutnick His Due: China Is a Hard Problem",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "China’s summit snub could strengthen Takaichi’s standing at home",
-    "title_zh": "China’s summit snub could strengthen Takaichi’s standing at home",
+    "title_en": "Giving Howard Lutnick His Due: China Is a Hard Problem",
+    "title_zh": "Giving Howard Lutnick His Due: China Is a Hard Problem",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
+  },
+  {
+    "id": "e9cea2ccfb9e86b43a80",
+    "title": "Inside the Struggle to Save the House China Committee",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "其他",
+    "risk_category": "other",
+    "risk_category_en": "",
+    "risk_categories": [],
+    "matched_risk_terms": [],
+    "severity": "low",
+    "priority_score": 70,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 100,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 60,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-21T12:42:50.172732+00:00",
+    "last_seen": "2026-11-21T12:42:50.172732+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "United States"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "其他信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "China-related anomaly; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-21T12:42:50.172732+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 70,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "d3653300e6276ed694f1",
+        "origin_type": "news",
+        "source": "National Review",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Inside the Struggle to Save the House China Committee",
+        "url": "https://www.nationalreview.com/news/inside-the-struggle-to-save-the-house-china-committee",
+        "published_at": null,
+        "collected_at": "2026-11-21T12:42:50.172732+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "nationalreview.com"
+      }
+    ],
+    "title_original": "Inside the Struggle to Save the House China Committee",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Inside the Struggle to Save the House China Committee",
+    "title_zh": "Inside the Struggle to Save the House China Committee",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
     "reason_en": "The content directly appears in China, Chinese institutions/enterprises/personnel, Taiwan, or other entities directly related to China."
   },
@@ -1071,14 +965,14 @@
       "blockade"
     ],
     "severity": "critical",
-    "priority_score": 70,
+    "priority_score": 69,
     "confidence_score": 39,
-    "importance_score": 68,
+    "importance_score": 64,
     "china_relevance_score": 58,
     "novelty_score": 82,
     "momentum_score": 28,
     "exposure_score": 96,
-    "freshness_score": 38,
+    "freshness_score": 14,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
     "first_seen": "2026-11-20T16:09:16.690857+00:00",
@@ -1126,6 +1020,17 @@
         "momentum_score": 28,
         "source_count": 1,
         "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-20T16:09:16.690857+00:00",
+        "lifecycle": "escalating",
+        "priority_score": 69,
+        "confidence_score": 39,
+        "novelty_score": 82,
+        "momentum_score": 28,
+        "source_count": 1,
+        "evidence_count": 1
       }
     ],
     "evidence": [
@@ -1153,36 +1058,34 @@
     "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Iran."
   },
   {
-    "id": "809e41eee375d13e5b95",
-    "title": "Hours after Trump reportedly says ‘tired’ Putin is ready for a deal, Ukraine hit with massive strikes The ballistic missile and drone strikes killed at least five people in Kyiv and damaged key infrastructure across the capital, according to Ukrainian officials",
+    "id": "c68d47bf61187078318e",
+    "title": "Elopura rep calls for security audit after military aircraft alleged used in attempt to smuggle drugs into Sabah",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
-    "lifecycle": "escalating",
+    "lifecycle": "emerging",
     "category": "军事安全",
     "risk_category": "military_security",
     "risk_category_en": "Military & Security",
     "risk_categories": [
-      "military_security",
-      "personnel_security"
+      "military_security"
     ],
     "matched_risk_terms": [
-      "missile",
-      "killed"
+      "military aircraft"
     ],
-    "severity": "critical",
-    "priority_score": 70,
+    "severity": "medium",
+    "priority_score": 68,
     "confidence_score": 39,
-    "importance_score": 66,
+    "importance_score": 52,
     "china_relevance_score": 58,
-    "novelty_score": 82,
-    "momentum_score": 28,
+    "novelty_score": 100,
+    "momentum_score": 55,
     "exposure_score": 96,
-    "freshness_score": 25,
+    "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-20T12:58:05.239176+00:00",
-    "last_seen": "2026-11-20T12:58:05.239176+00:00",
+    "first_seen": "2026-11-21T12:42:50.172732+00:00",
+    "last_seen": "2026-11-21T12:42:50.172732+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1190,82 +1093,60 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "United States"
+      "Malaysia"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
-    "why_now_zh": "军事安全信号；正在升级或扩散；新颖度82 / 动量28。",
-    "why_now_en": "Military & Security signal; is escalating or spreading; novelty 82 / momentum 28.",
-    "previous_event_matched": true,
-    "previous_match_score": 0.84,
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Malaysia; 中国关联利益=南海, 半导体供应链, 东海岸铁路, 港口, 棕榈油, 东盟; 中国关联实体/项目=East Coast Rail Link, China Communications Construction Company",
+    "why_now_zh": "军事安全信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Military & Security signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
     "change": {
-      "new_sources": 0,
-      "new_evidence": 0,
+      "new_sources": 1,
+      "new_evidence": 1,
       "severity_change": 0,
       "official_added": false
     },
     "history": [
       {
-        "observed_at": "2026-11-20T12:58:06.216195+00:00",
-        "last_seen": "2026-11-20T12:58:05.239176+00:00",
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-21T12:42:50.172732+00:00",
         "lifecycle": "emerging",
-        "priority_score": 82,
+        "priority_score": 68,
         "confidence_score": 39,
         "novelty_score": 100,
-        "momentum_score": 65,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-11-20T16:09:18.808943+00:00",
-        "last_seen": "2026-11-20T12:58:05.239176+00:00",
-        "lifecycle": "escalating",
-        "priority_score": 75,
-        "confidence_score": 39,
-        "novelty_score": 95,
-        "momentum_score": 28,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-11-21T07:02:47.279884+00:00",
-        "last_seen": "2026-11-20T12:58:05.239176+00:00",
-        "lifecycle": "escalating",
-        "priority_score": 70,
-        "confidence_score": 39,
-        "novelty_score": 82,
-        "momentum_score": 28,
+        "momentum_score": 55,
         "source_count": 1,
         "evidence_count": 1
       }
     ],
     "evidence": [
       {
-        "id": "b9d54f55d2a7946ba91d",
+        "id": "442fa751af896437a6c6",
         "origin_type": "news",
-        "source": "CNN",
+        "source": "The Star Malaysia",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Hours after Trump reportedly says ‘tired’ Putin is ready for a deal, Ukraine hit with massive strikes The ballistic missile and drone strikes killed at least five people in Kyiv and damaged key infrastructure across the capital, according to Ukrainian officials",
-        "url": "https://edition.cnn.com/2026/11/20/europe/russia-ukraine-putin-trump-intl-hnk",
+        "title": "Elopura rep calls for security audit after military aircraft alleged used in attempt to smuggle drugs into Sabah",
+        "url": "https://www.thestar.com.my/news/nation/2026/11/21/elopura-rep-calls-for-security-audit-after-military-aircraft-alleged-used-in-attempt-to-smuggle-drugs-into-sabah",
         "published_at": null,
-        "collected_at": "2026-11-20T12:58:05.239176+00:00",
+        "collected_at": "2026-11-21T12:42:50.172732+00:00",
         "relation": "potential",
         "confidence": 62,
-        "publisher_family": "edition.cnn.com"
+        "publisher_family": "thestar.com.my"
       }
     ],
-    "title_original": "Hours after Trump reportedly says ‘tired’ Putin is ready for a deal, Ukraine hit with massive strikes The ballistic missile and drone strikes killed at least five people in Kyiv and damaged key infrastructure across the capital, according to Ukrainian officials",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
-    "title_en": "Hours after Trump reportedly says ‘tired’ Putin is ready for a deal, Ukraine hit with massive strikes The ballistic missile and drone strikes killed at least five people in Kyiv and damaged key infrastructure across the capital, according to Ukrainian officials",
-    "title_zh": "Hours after Trump reportedly says ‘tired’ Putin is ready for a deal, Ukraine hit with massive strikes The ballistic missile and drone strikes killed at least five people in Kyiv and damaged key infrastructure across the capital, according to Ukrainian officials",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile | 事件关联地区=Ukraine; 中国关联利益=俄乌战争, 中国外交, 粮食, 黑海航运, 军民两用技术, 重建; 中国关联实体/项目=Chinese trade exposure",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: United States."
+    "title_original": "Elopura rep calls for security audit after military aircraft alleged used in attempt to smuggle drugs into Sabah",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Malaysia; 中国关联利益=南海, 半导体供应链, 东海岸铁路, 港口, 棕榈油, 东盟; 中国关联实体/项目=East Coast Rail Link, China Communications Construction Company",
+    "title_en": "Elopura rep calls for security audit after military aircraft alleged used in attempt to smuggle drugs into Sabah",
+    "title_zh": "Elopura rep calls for security audit after military aircraft alleged used in attempt to smuggle drugs into Sabah",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Malaysia; 中国关联利益=南海, 半导体供应链, 东海岸铁路, 港口, 棕榈油, 东盟; 中国关联实体/项目=East Coast Rail Link, China Communications Construction Company",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Malaysia."
   },
   {
-    "id": "f581587dff3b1edc45e8",
-    "title": "Police probe attack on Edo NDC secretariat, invite LG chairman",
+    "id": "44a3e3fe34b5c08468af",
+    "title": "Pérez renews call for probe into Barcelona’s payments to ex-refereeing chief",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -1280,18 +1161,18 @@
       "probe"
     ],
     "severity": "medium",
-    "priority_score": 68,
+    "priority_score": 67,
     "confidence_score": 39,
     "importance_score": 52,
     "china_relevance_score": 58,
     "novelty_score": 100,
-    "momentum_score": 65,
+    "momentum_score": 55,
     "exposure_score": 84,
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-21T07:02:45.148278+00:00",
-    "last_seen": "2026-11-21T07:02:45.148278+00:00",
+    "first_seen": "2026-11-21T12:42:50.172732+00:00",
+    "last_seen": "2026-11-21T12:42:50.172732+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1303,8 +1184,8 @@
     ],
     "entities": [],
     "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量65。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 65.",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -1315,70 +1196,70 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-21T07:02:47.279884+00:00",
-        "last_seen": "2026-11-21T07:02:45.148278+00:00",
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-21T12:42:50.172732+00:00",
         "lifecycle": "emerging",
-        "priority_score": 68,
+        "priority_score": 67,
         "confidence_score": 39,
         "novelty_score": 100,
-        "momentum_score": 65,
+        "momentum_score": 55,
         "source_count": 1,
         "evidence_count": 1
       }
     ],
     "evidence": [
       {
-        "id": "2128d8014df549afeced",
+        "id": "92b3bf3da74b104d8429",
         "origin_type": "news",
         "source": "Punch Nigeria",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Police probe attack on Edo NDC secretariat, invite LG chairman",
-        "url": "https://punchng.com/police-probe-attack-on-edo-ndc-secretariat-invite-lg-chairman/",
+        "title": "Pérez renews call for probe into Barcelona’s payments to ex-refereeing chief",
+        "url": "https://punchng.com/perez-renews-call-for-probe-into-barcelonas-payments-to-ex-refereeing-chief/",
         "published_at": null,
-        "collected_at": "2026-11-21T07:02:45.148278+00:00",
+        "collected_at": "2026-11-21T12:42:50.172732+00:00",
         "relation": "potential",
         "confidence": 62,
         "publisher_family": "punchng.com"
       }
     ],
-    "title_original": "Police probe attack on Edo NDC secretariat, invite LG chairman",
+    "title_original": "Pérez renews call for probe into Barcelona’s payments to ex-refereeing chief",
     "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
-    "title_en": "Police probe attack on Edo NDC secretariat, invite LG chairman",
-    "title_zh": "Police probe attack on Edo NDC secretariat, invite LG chairman",
+    "title_en": "Pérez renews call for probe into Barcelona’s payments to ex-refereeing chief",
+    "title_zh": "Pérez renews call for probe into Barcelona’s payments to ex-refereeing chief",
     "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Nigeria; 中国关联利益=铁路, 港口, 电信, 石油, 中资企业与人员安全; 中国关联实体/项目=CCECC, Huawei, Lekki-related Chinese investment",
     "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Nigeria."
   },
   {
-    "id": "4c8dae23e74c46b81ec8",
-    "title": "Probe launched after hydrant outside Auckland CBD basement blaze 'covered'",
-    "language": "en",
+    "id": "b5daca033ab6a4e6c680",
+    "title": "\"Prokuratura tańczy, tak jak Kaja Godek jej zagra\". Będzie protest przed ministerstwem",
+    "language": "pl",
     "status": "报道中",
     "evidence_status": "报道中",
     "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
+    "category": "劳资社会",
+    "risk_category": "labor_social",
+    "risk_category_en": "Labor & Social Unrest",
     "risk_categories": [
-      "trade_regulatory"
+      "labor_social"
     ],
     "matched_risk_terms": [
-      "probe"
+      "protest"
     ],
     "severity": "medium",
-    "priority_score": 67,
+    "priority_score": 65,
     "confidence_score": 39,
     "importance_score": 52,
     "china_relevance_score": 58,
     "novelty_score": 100,
     "momentum_score": 55,
-    "exposure_score": 84,
+    "exposure_score": 72,
     "freshness_score": 100,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-21T07:02:45.148278+00:00",
-    "last_seen": "2026-11-21T07:02:45.148278+00:00",
+    "first_seen": "2026-11-21T12:42:50.172732+00:00",
+    "last_seen": "2026-11-21T12:42:50.172732+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1386,12 +1267,12 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "New Zealand"
+      "Poland"
     ],
     "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=New Zealand; 中国关联利益=中新增贸, 南太平洋, 农产品, 安全合作; 中国关联实体/项目=China-New Zealand FTA",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Poland; 中国关联利益=中东欧合作, 欧盟对华政策, 铁路物流, 乌克兰局势外溢, 电动汽车; 中国关联实体/项目=China-Europe Railway Express",
+    "why_now_zh": "劳资社会信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Labor & Social Unrest signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
     "previous_event_matched": false,
     "previous_match_score": 0,
     "change": {
@@ -1402,10 +1283,10 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-21T07:02:47.279884+00:00",
-        "last_seen": "2026-11-21T07:02:45.148278+00:00",
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-21T12:42:50.172732+00:00",
         "lifecycle": "emerging",
-        "priority_score": 67,
+        "priority_score": 65,
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
@@ -1415,118 +1296,31 @@
     ],
     "evidence": [
       {
-        "id": "14960b0b967ec1bda9e0",
+        "id": "1c5a61b01181f131808a",
         "origin_type": "news",
-        "source": "NZ Herald",
+        "source": "Gazeta Wyborcza",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "Probe launched after hydrant outside Auckland CBD basement blaze 'covered'",
-        "url": "https://www.nzherald.co.nz/nz/auckland/fanshawe-st-basement-fire-two-cars-destroyed-11kv-line-caught-fire/4F3ZL2CVT5AU5E2FDUGHCUMLJA/",
+        "title": "\"Prokuratura tańczy, tak jak Kaja Godek jej zagra\". Będzie protest przed ministerstwem",
+        "url": "https://wyborcza.pl/7,75398,33143049,prokuratura-nie-na-posylki-godek-obywatele-ida-pod-ministertswo.html#s=S.TD-K.C-B.1-L.1.duzy",
         "published_at": null,
-        "collected_at": "2026-11-21T07:02:45.148278+00:00",
+        "collected_at": "2026-11-21T12:42:50.172732+00:00",
         "relation": "potential",
         "confidence": 62,
-        "publisher_family": "nzherald.co.nz"
+        "publisher_family": "wyborcza.pl"
       }
     ],
-    "title_original": "Probe launched after hydrant outside Auckland CBD basement blaze 'covered'",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=New Zealand; 中国关联利益=中新增贸, 南太平洋, 农产品, 安全合作; 中国关联实体/项目=China-New Zealand FTA",
-    "title_en": "Probe launched after hydrant outside Auckland CBD basement blaze 'covered'",
-    "title_zh": "Probe launched after hydrant outside Auckland CBD basement blaze 'covered'",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=New Zealand; 中国关联利益=中新增贸, 南太平洋, 农产品, 安全合作; 中国关联实体/项目=China-New Zealand FTA",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: New Zealand."
+    "title_original": "\"Prokuratura tańczy, tak jak Kaja Godek jej zagra\". Będzie protest przed ministerstwem",
+    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Poland; 中国关联利益=中东欧合作, 欧盟对华政策, 铁路物流, 乌克兰局势外溢, 电动汽车; 中国关联实体/项目=China-Europe Railway Express",
+    "title_en": "\"Prokuratura tańczy, tak jak Kaja Godek jej zagra\". Będzie protest przed ministerstwem",
+    "title_zh": "\"Prokuratura tańczy, tak jak Kaja Godek jej zagra\". Będzie protest przed ministerstwem",
+    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Poland; 中国关联利益=中东欧合作, 欧盟对华政策, 铁路物流, 乌克兰局势外溢, 电动汽车; 中国关联实体/项目=China-Europe Railway Express",
+    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: Poland."
   },
   {
-    "id": "dc3276142a3cc218d0bc",
-    "title": "Katie Zacharia under investigation by CA state bar over legal credentials",
-    "language": "en",
-    "status": "报道中",
-    "evidence_status": "报道中",
-    "lifecycle": "emerging",
-    "category": "经贸监管",
-    "risk_category": "trade_regulatory",
-    "risk_category_en": "Trade & Regulatory",
-    "risk_categories": [
-      "trade_regulatory"
-    ],
-    "matched_risk_terms": [
-      "investigation"
-    ],
-    "severity": "medium",
-    "priority_score": 67,
-    "confidence_score": 39,
-    "importance_score": 52,
-    "china_relevance_score": 58,
-    "novelty_score": 100,
-    "momentum_score": 55,
-    "exposure_score": 84,
-    "freshness_score": 100,
-    "corroboration_score": 20,
-    "evidence_diversity_score": 34,
-    "first_seen": "2026-11-21T07:02:45.148278+00:00",
-    "last_seen": "2026-11-21T07:02:45.148278+00:00",
-    "source_count": 1,
-    "evidence_count": 1,
-    "news_count": 1,
-    "social_count": 0,
-    "official_evidence": false,
-    "platforms": [],
-    "countries": [
-      "United States"
-    ],
-    "entities": [],
-    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
-    "why_now_zh": "经贸监管信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
-    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
-    "previous_event_matched": false,
-    "previous_match_score": 0,
-    "change": {
-      "new_sources": 1,
-      "new_evidence": 1,
-      "severity_change": 0,
-      "official_added": false
-    },
-    "history": [
-      {
-        "observed_at": "2026-11-21T07:02:47.279884+00:00",
-        "last_seen": "2026-11-21T07:02:45.148278+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 67,
-        "confidence_score": 39,
-        "novelty_score": 100,
-        "momentum_score": 55,
-        "source_count": 1,
-        "evidence_count": 1
-      }
-    ],
-    "evidence": [
-      {
-        "id": "320fdbe12e2fbd749f8e",
-        "origin_type": "news",
-        "source": "USA Today",
-        "source_kind": "news",
-        "platform": null,
-        "author": null,
-        "title": "Katie Zacharia under investigation by CA state bar over legal credentials",
-        "url": "https://www.usatoday.com/story/news/politics/2026/11/20/california-state-bar-investigates-katie-zacharia/92879287007/",
-        "published_at": null,
-        "collected_at": "2026-11-21T07:02:45.148278+00:00",
-        "relation": "potential",
-        "confidence": 62,
-        "publisher_family": "usatoday.com"
-      }
-    ],
-    "title_original": "Katie Zacharia under investigation by CA state bar over legal credentials",
-    "reason_original": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
-    "title_en": "Katie Zacharia under investigation by CA state bar over legal credentials",
-    "title_zh": "Katie Zacharia under investigation by CA state bar over legal credentials",
-    "reason_zh": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=United States; 中国关联利益=中美关系, 贸易与关税, 科技与出口管制, 半导体, 人工智能, 金融制裁, 军事与印太, 台海; 中国关联实体/项目=Huawei, ZTE, SMIC, ByteDance, TikTok, DJI, CATL, BYD, China Telecom, China Mobile",
-    "reason_en": "Potential China-related signal: a material political, economic, industrial, or security change in an area with identified Chinese interests. Area: United States."
-  },
-  {
-    "id": "40046392eaedf2473106",
-    "title": "2 Scrutiny of the broader US semiconductor sector intensified after the controversy surrounding chip giant Nvidia’s sales to China.",
+    "id": "18d3f9c0180ecbc6f826",
+    "title": "Why a viral TikTok about ‘baddies’ has struck such a nerve in Nepal",
     "language": "en",
     "status": "报道中",
     "evidence_status": "报道中",
@@ -1538,22 +1332,21 @@
       "tech_controls"
     ],
     "matched_risk_terms": [
-      "semiconductor",
-      "chip"
+      "TikTok"
     ],
-    "severity": "medium",
-    "priority_score": 67,
+    "severity": "low",
+    "priority_score": 65,
     "confidence_score": 39,
-    "importance_score": 41,
+    "importance_score": 36,
     "china_relevance_score": 100,
-    "novelty_score": 82,
+    "novelty_score": 95,
     "momentum_score": 12,
     "exposure_score": 91,
-    "freshness_score": 25,
+    "freshness_score": 76,
     "corroboration_score": 20,
     "evidence_diversity_score": 34,
-    "first_seen": "2026-11-20T12:58:05.239176+00:00",
-    "last_seen": "2026-11-20T12:58:05.239176+00:00",
+    "first_seen": "2026-11-21T07:02:45.148278+00:00",
+    "last_seen": "2026-11-21T07:02:45.148278+00:00",
     "source_count": 1,
     "evidence_count": 1,
     "news_count": 1,
@@ -1561,12 +1354,12 @@
     "official_evidence": false,
     "platforms": [],
     "countries": [
-      "United States"
+      "Nepal"
     ],
     "entities": [],
     "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "why_now_zh": "科技限制信号；近期首次进入事件池；新颖度82 / 动量12。",
-    "why_now_en": "Technology Controls signal; newly entered the event pool; novelty 82 / momentum 12.",
+    "why_now_zh": "科技限制信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Technology Controls signal; newly entered the event pool; novelty 95 / momentum 12.",
     "previous_event_matched": true,
     "previous_match_score": 0.84,
     "change": {
@@ -1577,10 +1370,10 @@
     },
     "history": [
       {
-        "observed_at": "2026-11-20T12:58:06.216195+00:00",
-        "last_seen": "2026-11-20T12:58:05.239176+00:00",
+        "observed_at": "2026-11-21T07:02:47.279884+00:00",
+        "last_seen": "2026-11-21T07:02:45.148278+00:00",
         "lifecycle": "emerging",
-        "priority_score": 80,
+        "priority_score": 74,
         "confidence_score": 39,
         "novelty_score": 100,
         "momentum_score": 55,
@@ -1588,23 +1381,12 @@
         "evidence_count": 1
       },
       {
-        "observed_at": "2026-11-20T16:09:18.808943+00:00",
-        "last_seen": "2026-11-20T12:58:05.239176+00:00",
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-21T07:02:45.148278+00:00",
         "lifecycle": "emerging",
-        "priority_score": 72,
+        "priority_score": 65,
         "confidence_score": 39,
         "novelty_score": 95,
-        "momentum_score": 12,
-        "source_count": 1,
-        "evidence_count": 1
-      },
-      {
-        "observed_at": "2026-11-21T07:02:47.279884+00:00",
-        "last_seen": "2026-11-20T12:58:05.239176+00:00",
-        "lifecycle": "emerging",
-        "priority_score": 67,
-        "confidence_score": 39,
-        "novelty_score": 82,
         "momentum_score": 12,
         "source_count": 1,
         "evidence_count": 1
@@ -1612,26 +1394,305 @@
     ],
     "evidence": [
       {
-        "id": "07fee9dbc7cbe8a14561",
+        "id": "4020d22d28bd19267d39",
         "origin_type": "news",
-        "source": "Semafor",
+        "source": "The Kathmandu Post",
         "source_kind": "news",
         "platform": null,
         "author": null,
-        "title": "2 Scrutiny of the broader US semiconductor sector intensified after the controversy surrounding chip giant Nvidia’s sales to China.",
-        "url": "https://www.semafor.com/article/11/20/2026/semiconductor-industry-under-the-microscope-since-nvidias-sales-to-china",
+        "title": "Why a viral TikTok about ‘baddies’ has struck such a nerve in Nepal",
+        "url": "https://kathmandupost.com/art-culture/2026/11/21/why-a-viral-tiktok-about-baddies-has-struck-such-a-nerve-in-nepal",
         "published_at": null,
-        "collected_at": "2026-11-20T12:58:05.239176+00:00",
+        "collected_at": "2026-11-21T07:02:45.148278+00:00",
         "relation": "direct",
         "confidence": 94,
-        "publisher_family": "semafor.com"
+        "publisher_family": "kathmandupost.com"
       }
     ],
-    "title_original": "2 Scrutiny of the broader US semiconductor sector intensified after the controversy surrounding chip giant Nvidia’s sales to China.",
+    "title_original": "Why a viral TikTok about ‘baddies’ has struck such a nerve in Nepal",
     "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "title_en": "2 Scrutiny of the broader US semiconductor sector intensified after the controversy surrounding chip giant Nvidia’s sales to China.",
-    "title_zh": "2 Scrutiny of the broader US semiconductor sector intensified after the controversy surrounding chip giant Nvidia’s sales to China.",
+    "title_en": "Why a viral TikTok about ‘baddies’ has struck such a nerve in Nepal",
+    "title_zh": "Why a viral TikTok about ‘baddies’ has struck such a nerve in Nepal",
     "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
-    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: United States."
+    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Nepal."
+  },
+  {
+    "id": "1be95f617a0025a86c6f",
+    "title": "US lawmakers urge ban on Chinese AI models in federal systems",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "经贸监管",
+    "risk_category": "trade_regulatory",
+    "risk_category_en": "Trade & Regulatory",
+    "risk_categories": [
+      "trade_regulatory",
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "ban",
+      "AI"
+    ],
+    "severity": "low",
+    "priority_score": 65,
+    "confidence_score": 39,
+    "importance_score": 36,
+    "china_relevance_score": 100,
+    "novelty_score": 95,
+    "momentum_score": 12,
+    "exposure_score": 89,
+    "freshness_score": 76,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-21T07:02:45.148278+00:00",
+    "last_seen": "2026-11-21T07:02:45.148278+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Turkey"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "经贸监管信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Trade & Regulatory signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-21T07:02:47.279884+00:00",
+        "last_seen": "2026-11-21T07:02:45.148278+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 73,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-21T07:02:45.148278+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 65,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "478fba5c34d15e3e2eb0",
+        "origin_type": "news",
+        "source": "Anadolu Agency",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "US lawmakers urge ban on Chinese AI models in federal systems",
+        "url": "https://www.aa.com.tr/en/americas/us-lawmakers-urge-ban-on-chinese-ai-models-in-federal-systems/4132677",
+        "published_at": null,
+        "collected_at": "2026-11-21T07:02:45.148278+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "aa.com.tr"
+      }
+    ],
+    "title_original": "US lawmakers urge ban on Chinese AI models in federal systems",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "US lawmakers urge ban on Chinese AI models in federal systems",
+    "title_zh": "US lawmakers urge ban on Chinese AI models in federal systems",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: Turkey."
+  },
+  {
+    "id": "ce3cb67c1fc397854967",
+    "title": "Lutnick ‘was warned a year ago about China illegally obtaining AI chips’",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "科技与青年",
+    "risk_category": "technology_youth",
+    "risk_category_en": "Technology & Youth",
+    "risk_categories": [
+      "technology_youth"
+    ],
+    "matched_risk_terms": [
+      "AI"
+    ],
+    "severity": "low",
+    "priority_score": 63,
+    "confidence_score": 39,
+    "importance_score": 36,
+    "china_relevance_score": 100,
+    "novelty_score": 95,
+    "momentum_score": 12,
+    "exposure_score": 67,
+    "freshness_score": 76,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-21T07:02:45.148278+00:00",
+    "last_seen": "2026-11-21T07:02:45.148278+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "United Kingdom"
+    ],
+    "entities": [],
+    "reason": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "why_now_zh": "科技与青年信号；近期首次进入事件池；新颖度95 / 动量12。",
+    "why_now_en": "Technology & Youth signal; newly entered the event pool; novelty 95 / momentum 12.",
+    "previous_event_matched": true,
+    "previous_match_score": 0.84,
+    "change": {
+      "new_sources": 0,
+      "new_evidence": 0,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-21T07:02:47.279884+00:00",
+        "last_seen": "2026-11-21T07:02:45.148278+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 71,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      },
+      {
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-21T07:02:45.148278+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 63,
+        "confidence_score": 39,
+        "novelty_score": 95,
+        "momentum_score": 12,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "b81b09d90238831f2e2c",
+        "origin_type": "news",
+        "source": "The Telegraph",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "Lutnick ‘was warned a year ago about China illegally obtaining AI chips’",
+        "url": "https://www.telegraph.co.uk/us/politics/2026/11/21/lutnick-warned-year-ago-china-illegally-ai-chips-nvidia/",
+        "published_at": null,
+        "collected_at": "2026-11-21T07:02:45.148278+00:00",
+        "relation": "direct",
+        "confidence": 94,
+        "publisher_family": "telegraph.co.uk"
+      }
+    ],
+    "title_original": "Lutnick ‘was warned a year ago about China illegally obtaining AI chips’",
+    "reason_original": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "title_en": "Lutnick ‘was warned a year ago about China illegally obtaining AI chips’",
+    "title_zh": "Lutnick ‘was warned a year ago about China illegally obtaining AI chips’",
+    "reason_zh": "内容直接出现中国、中国机构/企业/人员、台湾台海或其他直接涉华实体",
+    "reason_en": "Direct China-related signal involving China, Chinese entities, personnel, Taiwan, or other explicit China-linked subjects. Area: United Kingdom."
+  },
+  {
+    "id": "5a5333a49f4392882167",
+    "title": "MyEVOC urges stricter enforcement of EV charger regulations, transparency in fire investigations",
+    "language": "en",
+    "status": "报道中",
+    "evidence_status": "报道中",
+    "lifecycle": "emerging",
+    "category": "安全生产",
+    "risk_category": "safety_production_domestic",
+    "risk_category_en": "Safety & Production",
+    "risk_categories": [
+      "safety_production_domestic"
+    ],
+    "matched_risk_terms": [
+      "fire"
+    ],
+    "severity": "low",
+    "priority_score": 61,
+    "confidence_score": 39,
+    "importance_score": 40,
+    "china_relevance_score": 58,
+    "novelty_score": 100,
+    "momentum_score": 55,
+    "exposure_score": 92,
+    "freshness_score": 100,
+    "corroboration_score": 20,
+    "evidence_diversity_score": 34,
+    "first_seen": "2026-11-21T12:42:50.172732+00:00",
+    "last_seen": "2026-11-21T12:42:50.172732+00:00",
+    "source_count": 1,
+    "evidence_count": 1,
+    "news_count": 1,
+    "social_count": 0,
+    "official_evidence": false,
+    "platforms": [],
+    "countries": [
+      "Malaysia"
+    ],
+    "entities": [],
+    "reason": "发生在存在中国重要利益暴露的国家/地区，且属于重大政治、经济、产业或安全变化；事件关联地区=Malaysia; 中国关联利益=南海, 半导体供应链, 东海岸铁路, 港口, 棕榈油, 东盟; 中国关联实体/项目=East Coast Rail Link, China Communications Construction Company",
+    "why_now_zh": "安全生产信号；近期首次进入事件池；新增1条独立信息链；新颖度100 / 动量55。",
+    "why_now_en": "Safety & Production signal; newly entered the event pool; 1 new independent source chain(s); novelty 100 / momentum 55.",
+    "previous_event_matched": false,
+    "previous_match_score": 0,
+    "change": {
+      "new_sources": 1,
+      "new_evidence": 1,
+      "severity_change": 0,
+      "official_added": false
+    },
+    "history": [
+      {
+        "observed_at": "2026-11-21T12:42:51.765310+00:00",
+        "last_seen": "2026-11-21T12:42:50.172732+00:00",
+        "lifecycle": "emerging",
+        "priority_score": 61,
+        "confidence_score": 39,
+        "novelty_score": 100,
+        "momentum_score": 55,
+        "source_count": 1,
+        "evidence_count": 1
+      }
+    ],
+    "evidence": [
+      {
+        "id": "e6a368740d69a844615e",
+        "origin_type": "news",
+        "source": "The Star Malaysia",
+        "source_kind": "news",
+        "platform": null,
+        "author": null,
+        "title": "MyEVOC urges stricter enforcement of EV charger regulations, transparency in fire investigations",
+        "url": "https://www.thestar.com.my/news/nation/2026/11/21/myevoc-urges-stricter-enforcement-of-ev-charger-regulations-transparency-in-fire-investigations",
+        "published_at": null,
+        "collected_at": "2026-11-21T12:42:50.172732+00:00",
+        "relation": "potential",
+        "confidence": 62,
+        "publisher_family": "thestar.com.my"
+      }
+    ]
   }
 ]
